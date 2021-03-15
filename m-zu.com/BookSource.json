@@ -1,0 +1,44 @@
+[  {
+    "bookSourceComment": "前面的兄弟，我帮你把目录写上了，以后请发完整的",
+    "bookSourceGroup": "🔰普通",
+    "bookSourceName": "🔰 玫瑰小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.m-zu.com",
+    "bookUrlPattern": "",
+    "customOrder": -114794,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1610039903858,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "//*[@id=\"author\"]/a/text()",
+      "coverUrl": "//*[@id=\"bookimg\"]/img/@src",
+      "intro": "//*[@id=\"bookintro\"]/p/text()",
+      "kind": "//*[@id=\"count\"]/span[1]/text()",
+      "lastChapter": "id.newlist@tag.li.0@a@text",
+      "name": "//*[@id=\"bookimg\"]/img/@alt",
+      "tocUrl": "//*[@class=\"newrap\"]/strong/a/@href"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##新网址:.*请牢记:玫瑰小说网，网址|，手机版网址.*，玫瑰小说网免费最快更.*,求书找书，请加qq群：.*（群号）|感谢阅读.*玫瑰小说网.*|玫瑰小说.*群号）",
+      "imageStyle": "0",
+      "replaceRegex": "##天才一秒记住本站地.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "//td[3]/text()",
+      "bookList": "id.conn@tag.tbody@tag.tr!0||id.nr",
+      "bookUrl": "//td[1]/a/@href",
+      "coverUrl": "##<a href=\"http://www.meiguixs.net/html/(\\d+)/(\\d+)/\\d+\\.shtml\" target=\"_blank\">[^<]+</a>##http://image.meiguixs.net/$1/$2/$2s.jpg###",
+      "kind": "//td[6]/text()",
+      "lastChapter": "//td[2]/a/text()",
+      "name": "//td[1]/a/text()"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd!10",
+      "chapterName": "tag.dd@tag.a@text",
+      "chapterUrl": "tag.dd@tag.a@href"
+    },
+    "searchUrl": "http://www.m-zu.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

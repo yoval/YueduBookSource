@@ -1,0 +1,64 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "快眼看书botaodz",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.botaodz.com/",
+    "bookUrlPattern": "",
+    "customOrder": -24,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部::/category/all/\n玄幻::/category/xuanhuan/\n奇幻::/category/qihuan/\n武侠::/category/wuxia/\n仙侠::/category/xianxia/\n都市::/category/dushi/\n历史::/category/lishi/\n军事::/category/junshi/\n游戏::/category/youxi/\n竞技::/category/jingji/\n科幻::/category/kehuan/\n灵异::/category/lingyi/\n同人::/category/tongren/\n女生::/category/nvsheng/",
+    "header": "",
+    "lastUpdateTime": 1613151983426,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "init": "meta",
+      "intro": "[property=\"og:description\"]@content##各位书友要是觉得.+",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@textNodes",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.info@tag.span.1@text##作者：",
+      "bookList": "class.librarylist@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img.0@src",
+      "intro": "class.intro@text",
+      "kind": "",
+      "lastChapter": "class.last@tag.a@text",
+      "name": "class.novelname@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.hide@tag.a",
+      "chapterName": "text##(?<=\\d章\\h)\\d+(\\+\\d+)?[，、]|(?<!^|[章卷部集]\\h?|[零一二三四五六七八九十][、\\h])[（［【\\{\\[\\(](?![一二三四五六七八九十]{1,3}\\W$|\\d{1,3}\\D$|[上中下完终续]\\W)[^（［【\\{\\[\\(]+|^(?=请\\w{0,2}假|解释|上架|推封|新书)\\S{2,}$",
+      "chapterUrl": "href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "/modules/article/search.php?searchkey={{key}}",
+    "weight": 0
+  }]

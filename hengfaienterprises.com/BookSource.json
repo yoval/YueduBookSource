@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔰普通",
+    "bookSourceName": "🔰 笔趣阁快眼[防盗字体]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.hengfaienterprises.com",
+    "customOrder": -114772,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "奇幻::https://www.hengfaienterprises.com/he/18.html?page={{page}}&&武侠::/he/19.html?page={{page}}&&历史::/he/20.html?page={{page}}&&都市::/he/21.html?page={{page}}&&科幻::/he/22.html?page={{page}}&&悬疑::/he/23.html?page={{page}}&&游戏::/he/34.html?page={{page}}&&其他::/he/35.html?page={{page}}&&\n",
+    "lastUpdateTime": 1612532334793,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "id.txt@html##第[一二三四五六七八九十百千万\\d]*?章.*?\\(\\d+\\/\\d+\\)|.*?hengfaienterprises.com.*",
+      "nextContentUrl": "id.pt_next@href"
+    },
+    "ruleExplore": {
+      "author": ".book_author@a@text",
+      "bookList": ".media",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@src",
+      "intro": "p@text##\\[点击阅读\\]",
+      "name": "h4@text"
+    },
+    "ruleSearch": {
+      "author": "tag.a.1@text",
+      "bookList": "@css:#bookcon tr",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "",
+      "name": "tag.a.0@text",
+      "wordCount": "tag.p.3@text"
+    },
+    "ruleToc": {
+      "chapterList": ".list-charts@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.hengfaienterprises.com/search.html?keyword={{key}}&page={{page}}",
+    "weight": 0
+  }]

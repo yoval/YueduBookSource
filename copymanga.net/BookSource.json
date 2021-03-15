@@ -1,0 +1,34 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎨漫画",
+    "bookSourceName": "🎨 拷贝漫画",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.copymanga.net",
+    "customOrder": -115875,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612823554901,
+    "ruleBookInfo": {
+      "intro": "class.intro@text",
+      "kind": "class.comicParticulars-tag@a@text&&class.comicParticulars-right-txt.-1@text"
+    },
+    "ruleContent": {
+      "content": "class.comicContent-image-all@img@html##\\s+src=\".*?\"",
+      "replaceRegex": "##data-"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$.author[*].name##\\n##/",
+      "bookList": "$.results.comic.list[*]",
+      "bookUrl": "https://www.copymanga.net/comic/{{$.path_word}},{\"webView\":true}",
+      "coverUrl": "$.cover",
+      "name": "$.name"
+    },
+    "ruleToc": {
+      "chapterList": "id.default全部@a!-1",
+      "chapterName": "text",
+      "chapterUrl": "href##$##,{\"webView\":true}"
+    },
+    "searchUrl": "https://www.copymanga.net/api/kb/web/search/count?offset=0&platform=2&limit=12&q={{key}}",
+    "weight": 0
+  }]

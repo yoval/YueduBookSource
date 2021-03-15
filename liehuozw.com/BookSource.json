@@ -1,0 +1,55 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 烈火中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.liehuozw.com",
+    "bookUrlPattern": "",
+    "customOrder": -116480,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/sort/1_{{page}}/\n仙侠::/sort/2_{{page}}/\n都市::/sort/3_{{page}}/\n军史::/sort/4_{{page}}/\n网游::/sort/5_{{page}}/\n科幻::/sort/6_{{page}}/\n耽美::/sort/7_{{page}}/\n辣文::/sort/8_{{page}}/\n点击::/top/allvisit_{{page}}/\n收藏::/top/goodnum_{{page}}/\n推荐::/top/allvote_{{page}}/\n最新::/top/postdate_{{page}}/",
+    "lastUpdateTime": 1605176125426,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.infotype@tag.a.0@text",
+      "coverUrl": "class.pic@tag.img@src",
+      "intro": "class.intro@tag.p@textNodes",
+      "kind": "class.infotype@tag.p.1@text##类型\\：|小说",
+      "lastChapter": "class.infotype@tag.a.1@text",
+      "name": "class.cataloginfo@tag.h3@text",
+      "tocUrl": "class.infolink@tag.a.1@href",
+      "wordCount": "class.infotype@tag.p.2@text##更新时间."
+    },
+    "ruleContent": {
+      "content": "id.novelcontent@html##本章未完.*|\\【未完待续\\】|未完待续",
+      "imageStyle": "0",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": "##上一页|下一页|返回目录|加入书签|上一章|下一章"
+    },
+    "ruleExplore": {
+      "author": "class.author@tag.a@text||class.p3@tag.a.0@text",
+      "bookList": "class.article||class.articlegeneral",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.simple@textNodes",
+      "kind": "class.p1@tag.p.0@text##\\[|\\]",
+      "name": "tag.h6@tag.a@text||class.p2@tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "tag.a.1@text",
+      "bookList": "class.searchresult@tag.p",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href<js>String(result).replace(/.+\\D((\\d+)\\d{3})\\D/,\"http://m.liehuozw.com/files/article/image/$2/$1/$1s.jpg\")</js>",
+      "kind": "",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapters@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&type=articlename\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 文学度①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.wenxuedu.com",
+    "bookUrlPattern": "",
+    "customOrder": -32048,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.infotype@tag.p.0@text##作者：",
+      "coverUrl": "class.infohead@class.pic@tag.img@src",
+      "intro": "class.intro@tag.p@textNodes",
+      "name": "class.cataloginfo@tag.h3@text",
+      "tocUrl": "class.btnlink.0@a@href"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##\\(文学度.*\\)|文学度.*wenxuedu.*|",
+      "nextContentUrl": "class.novelbutton@tag.li.3@tag.a@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.em.0@text",
+      "bookList": "class.tuwen",
+      "bookUrl": "tag.h1@tag.a.0@href",
+      "coverUrl": "tag.img.0@src",
+      "name": "tag.h1@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.ccss@a",
+      "chapterName": "text##正文卷|正文|第一卷",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.wenxuedu.com/modules/article/search.php?q={{key}}",
+    "weight": 0
+  }]

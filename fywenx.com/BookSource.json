@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "👍优质",
+    "bookSourceName": "👍 39小说[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.fywenx.com",
+    "bookUrlPattern": "",
+    "customOrder": -114827,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::http://m.fywenx.com/sort/1_{{page}}/\n仙侠::http://m.fywenx.com/sort/2_{{page}}/\n都市::http://m.fywenx.com/sort/3_{{page}}/\n历史::http://m.fywenx.com/sort/4_{{page}}/\n网游::http://m.fywenx.com/sort/5_{{page}}/\n科幻::http://m.fywenx.com/sort/6_{{page}}/\n其他::http://m.fywenx.com/sort/7_{{page}}/",
+    "lastUpdateTime": 1612829639171,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.block_img2@img@src",
+      "intro": "class.intro_info@text",
+      "lastChapter": "class.block_txt2@tag.p.6@a@text",
+      "tocUrl": "text.查看目录@href"
+    },
+    "ruleContent": {
+      "content": "id.nr1@html##（本章未完.*|&&amp;hellip|.*④∨④∨④∨.с☉Μ.*|.*第.*/.*页.*",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.cover@p",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.a.1@href<js>'https://www.sanjiuzw.com/files/article/image'+String(result).replace(/.*?(\\d*?)(\\d{1,3})\\//,'/$1/$1$2/$1$2s.jpg').replace('//','/0/')</js>",
+      "kind": "tag.a.0@text##\\[|\\]",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "http://m.fywenx.com/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&type=articlename\"\n}",
+    "weight": 0
+  }]

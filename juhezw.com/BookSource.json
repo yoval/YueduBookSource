@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "A级; 发现",
+    "bookSourceName": "聚合中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.juhezw.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/sort/x/{{page}}.html\n武侠::/sort/w/{{page}}.html\n都市::/sort/d/{{page}}.html\n历史::/sort/l/{{page}}.html\n悬疑::/sort/k/{{page}}.html\n游戏::/sort/y/{{page}}.html\n科幻::/sort/j/{{page}}.html\n女生::/sort/n/{{page}}.html\n其他::/sort/o/{{page}}.html",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.intro_info@text",
+      "tocUrl": "class.ablum_read@tag.span.1@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.block_txt@tag.p.0@text",
+      "bookList": "class.block@tag.div.0",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@src",
+      "kind": "class.block_txt@tag.p.1@text##时间.",
+      "lastChapter": "tag.p.2@text",
+      "name": "class.block_txt.0@tag.h2.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "text.下页@tag.a@href"
+    },
+    "searchUrl": "https://www.juhezw.com/search.html?q={{key}}",
+    "weight": 0
+  }]

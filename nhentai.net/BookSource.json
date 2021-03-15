@@ -1,0 +1,43 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "测试",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://nhentai.net",
+    "customOrder": -16,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "",
+      "init": "",
+      "intro": ""
+    },
+    "ruleContent": {
+      "content": "",
+      "imageStyle": "FULL",
+      "nextContentUrl": ""
+    },
+    "ruleExplore": {
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "name": ""
+    },
+    "ruleSearch": {
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "name": ""
+    },
+    "ruleToc": {
+      "chapterList": "",
+      "chapterName": "",
+      "nextTocUrl": ""
+    },
+    "searchUrl": "",
+    "weight": 0
+  }]

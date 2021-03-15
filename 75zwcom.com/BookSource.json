@@ -1,0 +1,52 @@
+[  {
+    "bookSourceComment": "fix",
+    "bookSourceGroup": "",
+    "bookSourceName": "起舞中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.75zwcom.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "canReName": "true",
+      "coverUrl": "",
+      "intro": "id.intro.@tag.p!-1:-2@textNodes",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "div#content p@textNodes",
+      "imageStyle": "",
+      "nextContentUrl": "a#pager_next@href",
+      "replaceRegex": "##\\s*.*本章未完.*\\s*|\\s*喜欢{{book.name}}.*速度最快。\\s*|攫.*(攫。|攫)|巘.*(戅。|戅)|厺.*(厽。|厽)",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.span.0@text",
+      "bookList": "div#sitembox dl",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@src",
+      "intro": ".book_des@textNodes",
+      "kind": "tag.span!0@text##\\s.*",
+      "lastChapter": "tag.a.-1@text##\\?",
+      "name": "h3@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "div#list dd a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchtype=all&searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

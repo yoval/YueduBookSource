@@ -1,0 +1,36 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "📚出版",
+    "bookSourceName": "📚 安徽图书馆",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://es.bookan.com.cn",
+    "customOrder": -116697,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1606808845928,
+    "ruleBookInfo": {
+      "coverUrl": "",
+      "lastChapter": "",
+      "tocUrl": "http://epub.bookan.com.cn/epub1/@get:{rid}/@get:{rid}-@get:{iid}/@get:{iid}_{{$.data[*].hash}}/OEBPS/toc.ncx"
+    },
+    "ruleContent": {
+      "content": "body@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$.issueInfo.owner",
+      "bookList": "@JSon:$.*[?(@.format==3)]",
+      "bookUrl": "http://user.bookan.com.cn/index.php?op=Resource.getHash&resourceType=3&resourceId={{$.resourceId}}&issueId={{$.issueId}}&start=0&end=0",
+      "coverUrl": "http://img1-qn.bookan.com.cn/epub1/{{$.resourceId}}/{{$.resourceId}}-{{$.issueId}}/cover_small.jpg",
+      "intro": "$.issueInfo.text@put:{rid:$.resourceId,iid:$.issueId}",
+      "kind": "$.issueInfo.press&&$.issueInfo.issueName",
+      "name": "$.resourceName"
+    },
+    "ruleToc": {
+      "chapterList": "tag.navMap@children",
+      "chapterName": "tag.text.0@text",
+      "chapterUrl": "tag.content@src"
+    },
+    "searchUrl": "https://es.bookan.com.cn/api/searchByType?instanceId=3&keyword={{key}}&resourceType=1&searchType=1&pageNum=1&limit=30",
+    "weight": 0
+  }]

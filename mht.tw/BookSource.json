@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 棉花糖小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.mht.tw",
+    "bookUrlPattern": "",
+    "customOrder": -115716,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::http://www.mht.tw/xuanhuan.html\n都市言情::http://www.mht.tw/dushi.html\n武侠修真::http://www.mht.tw/wuxia.html\n历史军事::http://www.mht.tw/lishi.html\n恐怖科幻::http://www.mht.tw/kehuan.html\n网游同人::http://www.mht.tw/wangyou.html\n完本小说::http://www.mht.tw/wanben.html",
+    "lastUpdateTime": 1612807231753,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "intro": "id.intro@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "id.newscontent@class.l@tag.li",
+      "bookUrl": "tag.span.1@tag.a@href",
+      "kind": "class.s1@text##\\]|\\[",
+      "lastChapter": "class.s3@text",
+      "name": "class.s2@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.mht.tw/case.php?m=search,{\n  \"method\": \"POST\",\n  \"body\": \"key={{key}}\"\n}",
+    "weight": 0
+  }]

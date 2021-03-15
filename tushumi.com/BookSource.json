@@ -1,0 +1,36 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔰普通",
+    "bookSourceName": "🔰 图书迷",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.tushumi.com",
+    "bookUrlPattern": "",
+    "customOrder": 16223,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "img@src",
+      "intro": ".introtxt@text",
+      "lastChapter": ".Bg@a@text"
+    },
+    "ruleContent": {
+      "content": "class.zhangjieTXT@textNodes##一秒记住.*阅读！"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": ".grid@tr!0",
+      "bookUrl": "\na@href",
+      "lastChapter": "a!0@text",
+      "name": "a!1@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.tushumi.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

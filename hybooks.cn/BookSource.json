@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🍺特优",
+    "bookSourceName": "🍺 爱阅小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.hybooks.cn",
+    "bookUrlPattern": "",
+    "customOrder": -116983,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最近更新::http://m.hybooks.cn/top/p<{{page}}>/\n总点击榜::http://m.hybooks.cn/top/p<{{page}}>/?order=4&size=-1&progress=-1&search=&view=1\n总推荐榜::http://m.hybooks.cn/top/p<{{page}}>/?order=7&size=-1&progress=-1&search=&view=1\n总字数榜::http://m.hybooks.cn/top/p<{{page}}>/?order=1&size=-1&progress=-1&search=&view=1\n完本小说::http://m.hybooks.cn/finish/p<{{page}}>/\n玄幻修真::http://m.hybooks.cn/xuanhuan/\n仙侠小说::http://m.hybooks.cn/xianxia/\n都市生活::http://m.hybooks.cn/dushi/\n历史架空::http://m.hybooks.cn/lishi/\n科幻推理::http://m.hybooks.cn/kehuan/\n游戏争霸::http://m.hybooks.cn/youxi/\n奇幻大陆::http://m.hybooks.cn/qihuan/\n职场官场::http://m.hybooks.cn/zhichang/\n武侠小说::http://m.hybooks.cn/wuxia/\n二次元の::http://m.hybooks.cn/erciyuan/\n体育竞技::http://m.hybooks.cn/tiyu/\n灵异恐怖::http://m.hybooks.cn/lingyi/\n军事战争::http://m.hybooks.cn/junshi/\n短篇小说::http://m.hybooks.cn/duanpian/\n异界奇幻::http://m.hybooks.cn/yijieqihuan/\n图文小说::http://m.hybooks.cn/tuwen/\n现代言情::http://m.hybooks.cn/xiandaiyanqing/\n玄幻言情::http://m.hybooks.cn/xuanhuanyanqing/\n科幻空间::http://m.hybooks.cn/kehuankongjian/\n仙侠奇缘::http://m.hybooks.cn/xianxiaqiyuan/\n古代言情::http://m.hybooks.cn/gudaiyanqing/\n浪漫青春::http://m.hybooks.cn/langmanqingchun/\n同人小说::http://m.hybooks.cn/tongrenxiaoshuo/",
+    "lastUpdateTime": 1612828181161,
+    "loginUrl": "http://m.hybooks.cn/login/",
+    "ruleBookInfo": {
+      "coverUrl": "class.book-layout@img@src",
+      "intro": "content@textNodes##.*主要讲述了",
+      "lastChapter": "class.gray ell@text##.*·",
+      "tocUrl": "text.查看目录@href"
+    },
+    "ruleContent": {
+      "content": "class.read-section jsChapterWrapper@p@html",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.book-author@textNodes",
+      "bookList": "class.book-ol book-ol-normal jsBooks@li!0",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "intro": "class.book-desc@textNodes##.*主要讲述了",
+      "kind": "class.tag-small@text",
+      "name": "class.book-title@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.volumes@li@a",
+      "chapterName": "span@text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://m.hybooks.cn/top/?search={{key}}",
+    "weight": 0
+  }]

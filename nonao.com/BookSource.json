@@ -1,0 +1,49 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 性艺私塾",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.nonao.com",
+    "bookUrlPattern": "https://www.nonao.com/.*?/\\d+.html",
+    "customOrder": -116617,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "健康::/jiankang/{{page}}/\r\n解惑::/jiehuo/{{page}}/\r\n姿势::/zishi/{{page}}/\r\n性学::/xingxue/{{page}}/\r\n情趣::/qingqu/{{page}}/\r\nＳＭ::/sm/{{page}}/",
+    "lastUpdateTime": 1605535725047,
+    "ruleBookInfo": {
+      "author": "class.userTit@text",
+      "coverUrl": "class.post-body@tag.img.0@src",
+      "lastChapter": "",
+      "name": "class.post-title@text"
+    },
+    "ruleContent": {
+      "content": "class.post-body@html",
+      "imageStyle": "full"
+    },
+    "ruleExplore": {
+      "author": "class.author@text",
+      "bookList": "class.post",
+      "bookUrl": "class.post-title@tag.a@href",
+      "coverUrl": "class.post-media@tag.img@data-src",
+      "kind": "class.ceta@textNodes",
+      "lastChapter": "class.date@textNodes",
+      "name": "class.post-title@tag.a@title"
+    },
+    "ruleSearch": {
+      "author": "",
+      "bookList": "class.post",
+      "bookUrl": "class.post-title@tag.a@href",
+      "coverUrl": "class.post-media@tag.img@data-src",
+      "intro": "class.umInfo@text",
+      "kind": "class.ceta@textNodes",
+      "lastChapter": "class.date@textNodes",
+      "name": "class.post-title@tag.a@title"
+    },
+    "ruleToc": {
+      "chapterList": "class.post-title",
+      "chapterName": "class.post-title@text",
+      "updateTime": "class.post-footer@tag.span.0@textNodes"
+    },
+    "searchUrl": "https://www.nonao.com/search.php?q={{key}}&page={{page}}",
+    "weight": 0
+  }]

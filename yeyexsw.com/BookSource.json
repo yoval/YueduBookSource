@@ -1,0 +1,55 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 夜夜小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.yeyexsw.com",
+    "bookUrlPattern": "",
+    "customOrder": -116485,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "总点击榜::/top_allvisit_{{page}}.html\n总收藏榜::/top_goodnum_{{page}}.html\n字数排行::/top_size_{{page}}.html\n总推荐榜::/top_allvote_{{page}}.html\n最新入库::/top_postdate_{{page}}.html\n最近更新::/top_lastupdate_{{page}}.html\n玄幻奇幻::/sort_1_{{page}}.html\n武侠修真::/sort_2_{{page}}.html\n都市言情::/sort_3_{{page}}.html\n历史军事::/sort_4_{{page}}.html\n网游竞技::/sort_5_{{page}}.html\n科幻灵异::/sort_6_{{page}}.html\n其他类型::/sort_7_{{page}}.html\n 鬼 故事 ::/sort_8_{{page}}.html\n完本小说::/quanben_{{page}}.html",
+    "lastUpdateTime": 1612499837363,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "class.intro_info@textNodes",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "class.ablum_read@tag.a.1@href",
+      "wordCount": "[property=\"og:novel:update_time\"]@content"
+    },
+    "ruleContent": {
+      "content": "id.txt@textNodes",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "author": "textNodes",
+      "bookList": "class.cover@tag.p",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "",
+      "intro": "",
+      "lastChapter": "",
+      "name": "tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "textNodes",
+      "bookList": "class.cover@tag.p",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "@js:java.get('cover')",
+      "intro": "@js:java.get('intro_info')",
+      "kind": "tag.a.0@text##\\[|\\]",
+      "lastChapter": "tag.a.1@href@js:\nresult=java.ajax('http://m.yeyexsw.com'+result);\n\njava.put('cover',result.match(/property=.og:image..content=\"(.*)\"/)[1]);\n\njava.put('intro_info',result.match(/property=\"og:description\" content=\"([^\"]*)/)[1]);\n\nresult=result.match(/property=\"og:novel:latest_chapter_name\".content=\"(.*)\"\\/>/)[1];",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "##<a\\href=\"([^\"]*)\"下一页##$1###"
+    },
+    "searchUrl": "/modules/article/waps.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=name&searchkey={{key}}&submit=\"\n}",
+    "weight": 0
+  }]

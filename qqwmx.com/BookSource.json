@@ -1,0 +1,65 @@
+[  {
+    "bookSourceComment": "只能搜索具体书籍",
+    "bookSourceGroup": "🔰普通",
+    "bookSourceName": "🔰 千千小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.qqwmx.com",
+    "bookUrlPattern": "",
+    "customOrder": -114751,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1612533076636,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "",
+      "init": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "//p[5]/text()&&//p[4]/text()##最.*新...",
+      "name": "",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "//div[@id=\"content\"]",
+      "nextContentUrl": "",
+      "replaceRegex": "##一秒记住.*ｍ",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.author@text##作者.",
+      "bookList": "//div[@class=\"p10\"]",
+      "bookUrl": "//h4/a/@href",
+      "coverUrl": "tag.a@img@src",
+      "intro": "//p[1]",
+      "kind": "text.分类@text##分类.",
+      "lastChapter": "class.update@a@text",
+      "name": "class.bookname@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "//dd[position()>5]/a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "http://www.qqwmx.com/search?keyword={{key}}",
+    "weight": 0
+  }]

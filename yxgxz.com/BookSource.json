@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "🔰普通,失效",
+    "bookSourceName": "🔰 云轩阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.yxgxz.com",
+    "bookUrlPattern": "",
+    "customOrder": 16072,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻科幻::/sort-1-{{page}}/\n武侠修真::/sort-2-{{page}}/\n都市言情::/sort-3-{{page}}/\n历史军事::/sort-4-{{page}}/\n网游竞技::/sort-5-{{page}}/\n恐怖推理::/sort-6-{{page}}/\n其他小说::/sort-7-{{page}}/\n全本小说::/full-{{page}}/\n总点击榜::/top-allvisit-{{page}}/",
+    "lastUpdateTime": 1603040548922,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "tag.img@src",
+      "intro": "class.intro_info@text",
+      "tocUrl": "class.ablum_read@tag.a.1@href"
+    },
+    "ruleContent": {
+      "content": "id.nr1@textNodes",
+      "replaceRegex": "##(.|\\n)*最新章节！|手机用户(.|\\n)*|｀"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.line@tag.a.2@text",
+      "bookList": "class.cover@tag.p",
+      "bookUrl": "class.line@tag.a.1@href",
+      "coverUrl": "class.block_img2@tag.img@src",
+      "kind": "class.line@tag.a.0@text",
+      "name": "class.blue.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "class.page.0@text.下一页.0@href"
+    },
+    "searchUrl": "http://m.yxgxz.com/modules/article/waps.php?searchtype=articlename&searchkey={{key}}&submit=搜索,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

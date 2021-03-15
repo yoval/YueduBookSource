@@ -1,0 +1,45 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔰普通",
+    "bookSourceName": "🔰 小说娃[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.xiaoshuowa.com",
+    "bookUrlPattern": "",
+    "customOrder": -114764,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "日点击榜::/top/dayvisit_{{page}}/\n周点击榜::/top/weekvisit_{{page}}/\n月点击榜::/top/monthvisit_{{page}}/\n总点击榜::/top/allvisit_{{page}}/\n日推荐榜::/top/dayvote_{{page}}/\n周推荐榜::/top/weekvote_{{page}}/\n月推荐榜::/top/monthvote_{{page}}/\n总推荐榜::/top/allvote_{{page}}/\n总收藏榜::/top/goodnum_{{page}}/\n字数排行::/top/size_{{page}}/\n最新入库::/top/postdate_{{page}}/\n最近更新::/top/lastupdate_{{page}}/",
+    "lastUpdateTime": 1604157434958,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "img@src",
+      "intro": "class.infolink@p@.p2@text",
+      "lastChapter": ".info_chapters@class.p2.0@tag.li.0@a@text"
+    },
+    "ruleContent": {
+      "content": "id.novelcontent@tag.p!-1@textNodes",
+      "nextContentUrl": "a@text.下一页@href"
+    },
+    "ruleExplore": {
+      "author": ".p3@a@text",
+      "bookList": "class.content_link",
+      "bookUrl": ".p2@a@href",
+      "kind": ".p1@a@text##\\[|\\]",
+      "name": ".p2@a@text"
+    },
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "tag.p@class.search_list",
+      "bookUrl": "tag.a.0@href",
+      "kind": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": ".info_chapters@class.p2.1@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "a@text.下一页@href"
+    },
+    "searchUrl": "https://m.xiaoshuowa.com/s.php,{\n  \"headers\": \"{Referer:'https://m.xiaoshuowa.com'}\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

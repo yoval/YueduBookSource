@@ -1,0 +1,35 @@
+[  {
+    "bookSourceComment": "error:正文内容为空\n",
+    "bookSourceGroup": "🎨漫画,失效",
+    "bookSourceName": "🎨 动漫屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.dm5.com",
+    "bookUrlPattern": "",
+    "customOrder": -31355,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1602994692437,
+    "ruleBookInfo": {
+      "author": "class.detail-main-info-author@text##作者：",
+      "intro": "class.detail-desc@text",
+      "lastChapter": "class.detail-list-title@tag.a.0@text"
+    },
+    "ruleContent": {
+      "content": "function getImgList(){\n    var p =\"eval\\\\(.*\\\\)\";\n    var jseval = html.match(p)[0];\n    eval(eval(\"(\"+jseval.substring(5,jseval.length-1)+\")\"));\n    return newImgs;\n}"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.book-list@tag.li",
+      "bookUrl": "class.book-list-cover@tag.a@href",
+      "coverUrl": "class.book-list-cover@tag.img@src",
+      "kind": "class.book-list-info-bottom-right-font active@text",
+      "name": "class.book-list-info-title@text"
+    },
+    "ruleToc": {
+      "chapterList": "-id.detail-list-select-1@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://m.dm5.com/search?title={{key}}&language=1",
+    "weight": 0
+  }]

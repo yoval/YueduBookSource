@@ -1,0 +1,42 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "💵正版,🆔登录",
+    "bookSourceName": "💵 露西弗",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.lucifer-club.com//",
+    "customOrder": -117452,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "古代::/search.php?action=search&style=0&subject=2&content=2&sty=0&state=3&by=title&kw=&rank=click&order=desc&page={{page}}\n现代::/search.php?action=search&style=0&subject=2&content=3&sty=0&state=3&by=title&kw=&rank=click&order=desc&page={{page}}\n灵异::/search.php?action=search&kw=%E7%81%B5%E5%BC%82%E7%A5%9E%E6%80%AA&by=tag&style=0&subject=0&content=0&sty=0&state=0&rank=click&order=desc&page={{page}}\n强强::/search.php?action=search&kw=%E7%81%B5%E5%BC%82%E7%A5%9E%E6%80%AA&by=tag&style=0&subject=0&content=0&sty=0&state=0&rank=click&order=desc&page={{page}}\n 虐  ::/search.php?action=search&kw=%E8%99%90&by=tag&style=0&subject=0&content=0&sty=0&state=0&rank=click&order=desc&page={{page}}\n原创::/subsort.php?style=1&state=3&page={{page}}\n点击::/search.php?action=search&style=0&subject=2&content=0&sty=0&state=0&by=title&kw=&rank=click&order=desc&page={{page}}\n收藏::/search.php?action=search&style=0&subject=0&content=0&sty=0&state=0&by=title&kw=&rank=favo&order=desc&page={{page}}",
+    "header": "使用前请先登录！",
+    "lastUpdateTime": 1607769401203,
+    "loginUrl": "https://www.lucifer-club.com/login.php",
+    "ruleBookInfo": {
+      "intro": "clasa.luf_book_quote@text"
+    },
+    "ruleContent": {
+      "content": "class.luf_news_contents@textNodes##"
+    },
+    "ruleExplore": {
+      "author": "class.luf_td_author@text",
+      "bookList": "tbody@tag.tr!0",
+      "bookUrl": "tag.a.1@href",
+      "intro": "tag.a.1@title",
+      "kind": "tag.td.2@text&&tag.td.3@text&&tag.td.4@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+      "author": "tag.a.0@text",
+      "bookList": "tbody@tr!0",
+      "bookUrl": "tag.a.1@href",
+      "kind": "tag.td.2@text&&tag.td.3@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "tbody@tag.td!0",
+      "chapterName": "class.novel_newadd_title@text",
+      "chapterUrl": "class.novel_newadd_title@href"
+    },
+    "searchUrl": "/search.php?action=search&style=0&subject=0&content=0&sty=0&state=0&by=title&kw={{key}}&rank=click&order=desc",
+    "weight": 0
+  }]

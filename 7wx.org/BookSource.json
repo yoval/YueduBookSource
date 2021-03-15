@@ -1,0 +1,46 @@
+[  {
+    "bookSourceComment": "error:org.mozilla.javascript.EcmaError: TypeError: Cannot read property \"1\" from null (<Unknown source>#8) in <Unknown source> at line number 8\n",
+    "bookSourceGroup": "🌸常用,失效",
+    "bookSourceName": "🌸 幻想小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.7wx.org",
+    "customOrder": -32954,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "书库::https://www.7wx.org/shuku/{{page}}.html\n仙侠情缘::/class/1/{{page}}.html\n奇幻修真::/class/2/{{page}}.html\n热血青春::/class/3/{{page}}.html\n穿越历史::/class/4/{{page}}.html\n动漫同人::/class/5/{{page}}.html\n科幻未来::/class/6/{{page}}.html\n推理悬念::/class/7/{{page}}.html\n美文名著::/class/8/{{page}}.html\n全本::/qb/{{page}}.html",
+    "lastUpdateTime": 1603350647123,
+    "ruleBookInfo": {
+      "author": "class.red@text##\\s*著",
+      "coverUrl": "tag.img@src",
+      "intro": "class.bookintromore@text",
+      "kind": "class.newlist12@dd@a@html\n@js:java.put('list',result);\n'';",
+      "lastChapter": "class.bookchapter@text\n@js:java.put('chapter',java.getString('@@class.bookchapter@href',false));\nresult",
+      "name": "class.booktitle@text",
+      "tocUrl": "{{baseUrl.replace(/xs\\/(\\d+)/,'list/$1/1')}}"
+    },
+    "ruleContent": {
+      "content": "class.read-content@tag.p@textNodes##喜欢.*请关注幻 想\\+小 说\\;网 W Ｗ ｗ 。7w X 。or g|https\\:\\/\\/wWw\\.|石头小说网|\\(本章完\\)[\\s\\S]+|搜索.*?幻.*?想.*?小.*?说.*?网.*",
+      "imageStyle": "0",
+      "nextContentUrl": "text.下一章@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@tag.a@text",
+      "bookList": "@css:div:has(h2:contains(全部小说列表))>div.bookbox||div.bookbox",
+      "bookUrl": "class.bookname.0@tag.a@href",
+      "coverUrl": "class.bookname.0@tag.a@href<js>\nvar d = result.match(/\\/(\\d+)/)[1];\nvar id = d-3333;\nvar iid = parseInt(id/1000);\n'https://www.7wx.org/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+      "intro": "class.update@text##简介(:|：)",
+      "kind": "class.author.1@text##分类(:|：)",
+      "lastChapter": "class.cat@text##更新到：",
+      "name": "class.bookname.0@tag.a@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "<js>\n//获取最新章节链接\nchapter=java.get('chapter');\n\n//获取最新章节id\nidnew=chapter.match(/(\\d+)\\.html/)[1];\n//获取第一章id\nid1=java.getString('@@tag.dd.0@tag.a@href',false).match(/(\\d+)\\.html/)[1];\n//id相减获取页数\npage=Math.ceil((idnew-id1)/100);\n\nlist=[];\n\n//获取最新12章\nlist1=org.jsoup.Jsoup.parse(java.get('list')).select('a').toArray();\n\n//循环加载下一页，拼接章节列表\nfor(i=1;i<=page;i++){\nhtml=java.ajax(baseUrl.replace(/\\d+\\/$/,i+'/'));\ndd=org.jsoup.Jsoup.parse(html).select('dd a').toArray();\nlist.push.apply(list,dd)\n}\n\n//删除最后8章（剃除错误的章节链接）\nlist.splice(-8,8);\n\n//拼接最新12章\nlist=list.concat(list1);\n\n//排序\nlist.sort().map(x=>x)\n</js>",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": ""
+    },
+    "searchUrl": "https://www.shubaichuan.com/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🍒言情",
+    "bookSourceName": "🍒 就爱谈[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.9itan.com",
+    "customOrder": -115992,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最新入库::/paihang/postdate_{{page}}.html\n最近更新::/paihang/lastupdate_{{page}}.html\n玄幻::/xuanhuan/{{page}}.html\n仙侠::/xianxia/{{page}}.html\n都市::/dushi/{{page}}.html\n军史::/junshi/{{page}}.html\n恐怖::/kongbu/{{page}}.html\n科幻::/kehuan/{{page}}.html\n网游::/wangyou/{{page}}.html\n其他::/qita/{{page}}.html\n完结::/full/{{page}}",
+    "lastUpdateTime": 1612199103858,
+    "ruleBookInfo": {
+      "coverUrl": "class.catalog@class.pic@tag.img.0@src",
+      "intro": "class.catalog@tag.p.2@textNodes"
+    },
+    "ruleContent": {
+      "content": "class.articlecontent@textNodes##书友群，.*",
+      "replaceRegex": "##大家记得收藏网.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.tt@tag.p.0@tag.a.0@text||class.odd.1@text||class.catalog@tag.p.1@tag.span.1@text||tag.td.2@tag.p.0@text",
+      "bookList": "class.fl_right@tag.div!0||class.grid@tag.tr!0||class.main",
+      "bookUrl": "class.tt@tag.h3@tag.a.0@href||class.odd.0@tag.a.0@href||tag.td.0@tag.p.0@tag.a.0@href",
+      "coverUrl": "class.tt@tag.span.0@tag.a.0@tag.img@src||class.catalog@class.pic@tag.img.0@src",
+      "kind": "tag.td.5@tag.p.0@text||class.even.2@text||class.catalog@tag.p.1@tag.span.2@text##状态：",
+      "lastChapter": "tag.td.1@tag.p.0@tag.a.0@text||class.even.0@tag.a.0@text||class.ml_content@tag.ul.0@tag.li.0@tag.a.0@text",
+      "name": "class.tt@tag.h3@tag.a.0@text||class.odd.0@tag.a.0@text||class.catalog@tag.h1.0@text||tag.td.0@tag.p.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.ml_list@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.9itan.com/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&submit=点击搜索\"\n}",
+    "weight": 0
+  }]

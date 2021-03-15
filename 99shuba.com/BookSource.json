@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": "👍优质,失效",
+    "bookSourceName": "👍 99书吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.99shuba.com",
+    "customOrder": 15853,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "tag.p.0@text##作者：\\s*|/?(?:全?文?免费阅读|全文完整|在线阅读)[/\\|]?|的全文免费",
+      "coverUrl": "##:image.{11}([^\"]*)##$1###",
+      "intro": "id.intro@text##各位书友要是觉得《.*?还不错的话请.*|^(?:.*?小说叫《.*?》，《.*?》作者是.*?，.*?是《.*?》男女主角，)?《.*?》主要讲述了?|书名.*?免费主角.*?。小说全文预览|.*?免费阅读全?文?[，。](?:.*?是小说主角，|主角：.*?。)?小说.*?(?:全文|更新)(?:预览|简介|[概摘]要)：|最新章节 \"(?:.*?com)?\"|.*?是一部非常精彩的.*?小说，为网络作者.*?所写.*?是小说主人公。|《.*?》是.*?精心创作的.*?实时更新.*?最新章节并且提供无弹窗阅读，书友.*|.*?简介：主角:|主角是.*?小说《.*?》，是一本.*?文讲述：|★{3}本书简介★{3}|^全文简介：|.*?，主角：.*?的小说名字是：.*?全文概要：|.*?免费阅读，书名：《.*?》(?=又名)|，主角：.*?。小说全文预览：",
+      "kind": "##:cate.{15}([^\"]*)(?:[^\"]*\"){20}([^\"]*)[^\\d]*([^\\s]*)##$1,$2,$3###",
+      "lastChapter": "tag.dd.0@text",
+      "name": "h1@text##(?:小?说?全文|小说|大结局)?免费(?:全文)?阅读(?:全[部文]章?节?|无弹窗|小说|在线)?|全文阅?读?免费|免费(?:小说|章节目录|全集|全章节|版)|小说(?:全本)?免费读?|全本$|[（【](?:完[整结]|出书)版?[】）]|(?:小说)?完整[本版](?:阅读)?|全文完整|(?:小说|(?:》阅读)?最新更?新?|全部)章节(?:目录|免费看全篇|阅读|列表|更新)?|(?:章节|全[部文]|小说)目录(?:百度云)?|搜索《|(?:全文)?txt(?:全文)?下载|小?说?在线阅读|笔趣阁$|,已签约出版"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##一秒记住我们的网站 www.*?com",
+      "imageStyle": "0.0"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "tr!0",
+      "bookUrl": "a@href",
+      "coverUrl": "a@href##.*(/\\d+)_(\\d+)/##http://imgt.99shuba.com/image$1/$2/$2s.jpg",
+      "kind": "tag.td.5@text",
+      "lastChapter": "tag.td.1@text&&tag.td.4@text",
+      "name": "a!1@text",
+      "wordCount": "tag.td.3@text"
+    },
+    "ruleToc": {
+      "chapterList": "//*[@id=\"list\"]//dt[2]/following-sibling::dd/a",
+      "chapterName": "text##^章节目录\\s*|^《.*?》最新章节（提示：已启用缓存技术，.*?书架即可实时查看。）",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,54 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "轻小说📗",
+    "bookSourceName": "📗萌文库",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://xs.kdays.net",
+    "bookUrlPattern": "",
+    "customOrder": 7,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "不限::/list/all?type=0&order=update_time&orderBy=DESC&fword=all&size=-1&status=-1&apply=0&page={{page}}\n热血::/list/all?type=1&order=update_time&orderBy=DESC&fword=all&size=-1&status=-1&apply=0&page={{page}}\n冒险::/list/all?type=2&order=update_time&orderBy=DESC&fword=all&size=-1&status=-1&apply=0&page={{page}}\n运动::/list/all?type=3&order=update_time&orderBy=DESC&fword=all&size=-1&status=-1&apply=0&page={{page}}\n魔幻::/list/all?type=4&order=update_time&orderBy=DESC&fword=all&size=-1&status=-1&apply=0&page={{page}}\n武侠::/list/all?type=5&order=update_time&orderBy=DESC&fword=all&size=-1&status=-1&apply=0&page={{page}}\n校园::/list/all?type=6&order=update_time&orderBy=DESC&fword=all&size=-1&status=-1&apply=0&page={{page}}\n耽美::/list/all?type=7&order=update_time&orderBy=DESC&fword=all&size=-1&status=-1&apply=0&page={{page}}\n治愈::/list/all?type=8&order=update_time&orderBy=DESC&fword=all&size=-1&status=-1&apply=0&page={{page}}\n推理::/list/all?type=9&order=update_time&orderBy=DESC&fword=all&size=-1&status=-1&apply=0&page={{page}}\n惊悚::/list/all?type=10&order=update_time&orderBy=DESC&fword=all&size=-1&status=-1&apply=0&page={{page}}\n科幻::/list/all?type=11&order=update_time&orderBy=DESC&fword=all&size=-1&status=-1&apply=0&page={{page}}\n社会::/list/all?type=12&order=update_time&orderBy=DESC&fword=all&size=-1&status=-1&apply=0&page={{page}}\nGAL::/list/all?type=13&order=update_time&orderBy=DESC&fword=all&size=-1&status=-1&apply=0&page={{page}}\n动画化::/list/all?type=14&order=update_time&orderBy=DESC&fword=all&size=-1&status=-1&apply=0&page={{page}}",
+    "lastUpdateTime": 1606936365594,
+    "ruleBookInfo": {
+      "author": "class.info-side@class.items@tag.li.2@a@text&&\nclass.info-side@class.items@tag.li.3@text",
+      "coverUrl": "class.col-sm-3.0@img@src",
+      "intro": "class.info-side@tag.blockquote@html\n<js>\nresult=String(result).replace(/([\\u4e00-\\u9fa5]|。|！|？|……)\\s/g,'$1\\n');\nresult='  '+result;\n</js>",
+      "kind": "class.status text-muted@text&&\nclass.info-side@class.items@tag.li.0@text\n##.*\\(|\\)",
+      "lastChapter": "class.info-side@class.last-chapter@a@text##最新章节: ",
+      "name": "class.info-side@h2@text\n@js:java.put('sm',result)",
+      "tocUrl": "class.btn btn-primary read-btn@href",
+      "wordCount": "class.status text-muted@text## 字.*"
+    },
+    "ruleContent": {
+      "content": "<js>\nlet c=java.getString(\"class.col-sm-12@tag.article@html\",false);\nif(baseUrl.match(/kdays.net/)){\nresult=c\n}else{\nresult=baseUrl.match(/text=(.*)/)[1]\n}\n</js>"
+    },
+    "ruleExplore": {
+      "author": "class.author@text##作者:",
+      "bookList": "class.book-list@class.book",
+      "bookUrl": "class.detail@h3@a@href",
+      "coverUrl": "class.cover-side@tag.img@src",
+      "intro": "tag.blockquote@html",
+      "kind": "class.detail@tag.p.0@text&&\nclass.keywords@text##.*字 / ",
+      "lastChapter": "class.new-vol@text##最新:  ",
+      "name": "class.detail@h3@a@text",
+      "wordCount": "class.detail@tag.p.0@text##.*点击 / | 字.*"
+    },
+    "ruleSearch": {
+      "author": "class.detail@tag.p.1@text",
+      "bookList": "class.book-list@class.book",
+      "bookUrl": "class.detail@h3@a@href",
+      "coverUrl": "class.cover-side@tag.img@src",
+      "kind": "class.detail@tag.p.0@text&&\nclass.detail@class.keywords@text##.*字 / ",
+      "lastChapter": "class.detail@tag.p.2@text##最新:  ",
+      "name": "class.detail@h3@a@text",
+      "wordCount": "class.detail@tag.p.0@text##.*点击 / | 字.*"
+    },
+    "ruleToc": {
+      "chapterList": "<js>\n//获取卷名\njm=java.getStringList(\"div[class= col-sm-10 info-side] h2@ownText\").toArray();\n//获取书名\nsm=java.getString(\"class.col-sm-12 text-center@h1@text\",false);\n\n//获取分卷\nsub=java.getElements(\"div[class= col-sm-10 info-side] ul\").toArray();\n\nfor(var i=0;i<sub.length;i++){\n\n//插入卷名\nsub[i]=String(sub[i].html()).replace(/e=\"/g,'e=\"'+\"🍥\"+jm[i]+\"🍥\");\n\n//按卷分块\nsub[i]='<li><a href=\"https://translate.google.cn/#view=home&op=translate&sl=zh-CN&tl=en&text='+sm+'/'+jm[i]+'\" title=\"♦'+jm[i]+'♦\"></a></li>'+sub[i]}\n\n//合并结果\nsub=sub.join(\"\");\n</js>a",
+      "chapterName": "title",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search/all?page={{page}}&w={{key}}&type=all",
+    "weight": 0
+  }]

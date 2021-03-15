@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "error:failed to connect to m.shubao23.net/69.171.244.15 (port 443) from /192.168.0.103 (port 47314) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "🚬刘备,失效",
+    "bookSourceName": "🚬 第二书包",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.shubao23.net/s.php",
+    "customOrder": -31533,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::https://m.shubao23.net/sort/1_{{page}}/&&修真::https://m.shubao23.net/sort/2_{{page}}/&&都市::https://m.shubao23.net/sort/3_{{page}}/&&穿越::https://m.shubao23.net/sort/4_{{page}}/&&言情::https://m.shubao23.net/sort/5_{{page}}/&&耽美::https://m.shubao23.net/sort/6_{{page}}/&&肉文::https://m.shubao23.net/sort/7_{{page}}/&&辣文::https://m.shubao23.net/sort/8_{{page}}/&&",
+    "lastUpdateTime": 1602929278501,
+    "ruleBookInfo": {
+      "coverUrl": "img@src",
+      "tocUrl": "@js:var id = baseUrl.match(/\\/(\\d+)/)[1];\nxid=Math.floor(id/1000);\n'https://m.shubao23.net/'+xid+'/'+id+'/'"
+    },
+    "ruleContent": {
+      "content": "#nr1@textNodes",
+      "nextContentUrl": "#pb_next@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "@css:p.line",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.a.1@href@js:var id = result.match(/book\\/(\\d+)/)[1];\nxid=Math.floor(id/1000);\n'https://www.shubao23.net/files/article/image/'+xid+'/'+id+'/'+id+'s.jpg'",
+      "kind": "tag.a.0@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.lb fk@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "@js:var regex = /a href=\"(\\/\\d+\\/\\d+_\\d+\\/)\" /g;\nvar match;\nvar list = [];\nwhile ((match = regex.exec(result)) != null) {\nlist.push('https://m.shubao23.net'+match[1])};\nlist"
+    },
+    "searchUrl": "https://m.shubao23.net/s.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"submit=&type=articlename&s={{key}}\",\n\"headers\": {\"User-Agent\": \"\"}\n}",
+    "weight": 0
+  }]

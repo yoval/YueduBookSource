@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 58小说网5858xs.com",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.5858xs.com",
+    "bookUrlPattern": "https?://m.5858xs.com/\\d+.html",
+    "customOrder": -32557,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部::/sort/0/{{page}}.html\n玄幻魔法::/sort/1/{{page}}.html\n武侠修真::/sort/2/{{page}}.html\n都市言情::/sort/3/{{page}}.html\n历史军事::/sort/4/{{page}}.html\n侦探推理::/sort/5/{{page}}.html\n网游动漫::/sort/6/{{page}}.html\n科幻小说::/sort/7/{{page}}.html\n恐怖灵异::/sort/8/{{page}}.html\n其他类型::/sort/9/{{page}}.html",
+    "lastUpdateTime": 1602571180222,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.author@text##作者：",
+      "coverUrl": "id.thumb@img@src",
+      "intro": "class.review@text",
+      "name": "class.title@text",
+      "tocUrl": "text.开始阅读@href"
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@textNodes##\\s*：5858xs：\\s*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@textNodes##.*\\s*\\|\\s*作者：",
+      "bookList": "class.hot_sale",
+      "bookUrl": "a@href",
+      "kind": "class.author.0@text&&class.author.1@text##\\s*\\|\\s*.*",
+      "lastChapter": "class.author.1@text##.*\\s*\\|\\s*",
+      "name": "class.title@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterlist@tag.p!0@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&t=1\"\n}",
+    "weight": 0
+  }]

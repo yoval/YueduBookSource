@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🍺特优",
+    "bookSourceName": "🍺 69书吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.69shuba.cc",
+    "customOrder": -116898,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::https://m.69shuba.cc/list/1_{{page}}.html&&言情::/list/2_{{page}}.html&&仙侠::/list/3_{{page}}.html&&都市::/list/4_{{page}}.html&&历史::/list/5_{{page}}.html&&网游::/list/6_{{page}}.html&&竞技::/list/7_{{page}}.html&&科幻::/list/8_{{page}}.html&&完本::https://m.69shuba.cc/full/{{page}}.html",
+    "lastUpdateTime": 1605238123003,
+    "ruleBookInfo": {
+      "tocUrl": "@js:baseUrl.replace('book','chapters')"
+    },
+    "ruleContent": {
+      "content": "#nr1@html##本章未完，点击下一页继续阅读",
+      "nextContentUrl": "#pb_next@href",
+      "replaceRegex": "##手机用户请浏览阅读，更优质的阅读体验。"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.span.0@text##作者：",
+      "bookList": ".list-item",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "img@src",
+      "intro": "tag.span.3@textNodes",
+      "lastChapter": "",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "@css:li.even a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "@js:var n = result.match(/第\\d+\\/(\\d+)页/)[1];\nvar list = [];\nfor(var i = 2; i <= n; i++){list.push(baseUrl+i)};\nlist"
+    },
+    "searchUrl": "https://m.69shuba.cc/modules/article/search.php?searchtype=articlename&searchkey={{key}}&t_btnsearch=,{\"charset\": \"gbk\"}",
+    "weight": 0
+  }]

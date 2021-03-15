@@ -1,0 +1,49 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "👍优质",
+    "bookSourceName": "👍 书城网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.shucw.com",
+    "customOrder": -114870,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/xclass/1/{{page}}.html\n修真::/xclass/2/{{page}}.html\n都市::/xclass/3/{{page}}.html\n穿越::/xclass/4/{{page}}.html\n其他::/xclass/5/{{page}}.html\n网游::/xclass/6/{{page}}.html\n科幻::/xclass/7/{{page}}.html",
+    "lastUpdateTime": 1605501088563,
+    "ruleBookInfo": {
+      "author": "##作者：([^<]*)##$1###",
+      "coverUrl": "class.synopsisArea_detail@tag.img@src",
+      "intro": "class.review@text",
+      "kind": "##类别：([^<]*)##$1###",
+      "lastChapter": "class.directoryArea@tag.a.0@text",
+      "name": "class.title@text",
+      "tocUrl": "class.recommend@tag.h2.1@tag.a@href",
+      "wordCount": "##更新：([^<]*)##$1###"
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@textNodes",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "author": "##作者：([^<]*)##$1###",
+      "bookList": "id.main@div",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "class.lazy@data-original",
+      "intro": "##简介：([^<]*)##$1###",
+      "name": "class.title@tag.p.0@text"
+    },
+    "ruleSearch": {
+      "author": "##作者：([^<]*)##$1###",
+      "bookList": "class.recommend mybook@tag.div!0",
+      "bookUrl": "tag.a@href",
+      "kind": "class.author.0@text##小说.*",
+      "lastChapter": "##更新：([^<]*)##$1###",
+      "name": "class.title@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterlist@tag.p!0",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/s.php?keyword={{key}}&t=1",
+    "weight": 0
+  }]

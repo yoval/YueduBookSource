@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "error:failed to connect to www.dukankan.com/108.62.76.223 (port 443) from /192.168.0.103 (port 37490) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "🔰普通,失效",
+    "bookSourceName": "🔰 读看看书屋[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.dukankan.com",
+    "customOrder": 16166,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/shuku/1_0_0_1_0_0_0_0_{{page}}.html\n武侠修真::/shuku/2_0_0_1_0_0_0_0_{{page}}.html\n现代都市::/shuku/3_0_0_1_0_0_0_0_{{page}}.html\n历史军事::/shuku/4_0_0_1_0_0_0_0_{{page}}.html\n游戏竞技::/shuku/5_0_0_1_0_0_0_0_{{page}}.html\n科幻灵异::/shuku/6_0_0_1_0_0_0_0_{{page}}.html\n女生言情::/shuku/7_0_0_1_0_0_0_0_{{page}}.html\n其他类型::/shuku/8_0_0_1_0_0_0_0_{{page}}.html",
+    "lastUpdateTime": 1602900255231,
+    "ruleBookInfo": {
+      "coverUrl": "class.info_l@class.fengmian@tag.a.0@tag.img.0@src",
+      "intro": "class.bookinfo@class.info_c@class.txtbox@textNodes",
+      "tocUrl": "class.bookinfo@class.info_c@class.book_read@tag.span.0@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "class.yd_text2@textNodes",
+      "replaceRegex": "##..八.*八.*读.*书.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.info_t@tag.span.1@text||class.title@tag.span.0@text",
+      "bookList": "class.bookinfo||class.list_l@tag.li",
+      "bookUrl": "class.title@tag.h3.0@tag.a.0@href",
+      "coverUrl": "class.info_l@class.fengmian@tag.a.0@tag.img.0@src||tag.a.0@tag.img.0@src",
+      "kind": "class.info_t@tag.span.0@text||class.data@tag.span.0@text##类型：",
+      "lastChapter": "class.info_c@class.lastzj@tag.a.0@text||class.status@tag.span.0@tag.a.0@text",
+      "name": "class.info_t@tag.h1.0@text||class.title@tag.h3.0@tag.a.0@text##《|》"
+    },
+    "ruleToc": {
+      "chapterList": "class.ml_main@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.dukankan.com/novel.php?action=search,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=articlename&searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

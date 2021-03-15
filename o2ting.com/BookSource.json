@@ -1,0 +1,35 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "有声",
+    "bookSourceName": "氧气听书",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://m.o2ting.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.img@tag.img@src",
+      "intro": "class.detail_page_con@text"
+    },
+    "ruleContent": {
+      "content": "$.mp3"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p.1@tag.a.0@text",
+      "bookList": "id.ss_list@tag.li",
+      "bookUrl": "tag.a@href",
+      "kind": "tag.span.1@text",
+      "name": "tag.p.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "outerBody",
+      "chapterName": "class.bookname@text",
+      "chapterUrl": "@js:baseUrl"
+    },
+    "searchUrl": "http://m.o2ting.com/search.aspx?keyword={{key}}",
+    "weight": 0
+  }]

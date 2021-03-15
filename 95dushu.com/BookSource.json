@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "error:failed to connect to m.95dushu.com/115.238.239.133 (port 80) from /192.168.0.103 (port 47008) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "👍优质,失效",
+    "bookSourceName": "👍 九五小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.95dushu.com",
+    "bookUrlPattern": "",
+    "customOrder": 16058,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/mulu/1-{{page}}.html\n武侠修真::/mulu/2-{{page}}.html\n都市言情::/mulu/3-{{page}}.html\n历史军事::/mulu/4-{{page}}.html\n侦探推理::/mulu/5-{{page}}.html\n网游动漫::/mulu/6-{{page}}.html\n科幻小说::/mulu/7-{{page}}.html\n恐怖灵异::/mulu/8-{{page}}.html\n穿越小说::/mulu/9-{{page}}.html\n其他类型::/mulu/10-{{page}}.html",
+    "lastUpdateTime": 1603034272185,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": ".intro_info@text",
+      "tocUrl": "##href=\"(\\/\\d+\\/\\d+\\/).*?开始阅读##http://www.95dushu.com$1###"
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": ".line",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.a.1@href##\\/(\\d+)\\/(\\d+)\\/.*##http://www.95dushu.com/files/article/image/$1/$2/$2s.jpg",
+      "kind": "tag.a.0@text##\\[|\\]",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": ":<dd>.*?\"(.*?)\".*?>(.*?)<",
+      "chapterName": "$2",
+      "chapterUrl": "$1"
+    },
+    "searchUrl": "/s.php?type=articlename&s={{key}}&submit=",
+    "weight": 0
+  }]

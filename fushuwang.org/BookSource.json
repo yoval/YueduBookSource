@@ -1,0 +1,34 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "腐书网🙆",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://wap.fushuwang.org",
+    "bookUrlPattern": "",
+    "customOrder": -112916,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最新::https://wap.fushuwang.org/best/\nff::https://wap.fushuwang.org/chuanyuechongsheng/",
+    "lastUpdateTime": 1608899285704,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "tocUrl": "@js:baseUrl.replace(/wap/,\"www\")"
+    },
+    "ruleContent": {
+      "content": "id.text@div@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.0@text##.*——",
+      "bookList": "class.article-list@li",
+      "bookUrl": "tag.a.0@href",
+      "name": "tag.a.0@text##——.*"
+    },
+    "ruleToc": {
+      "chapterList": "//select[@name=\"titleselect\"]/option",
+      "chapterName": "text##.*\\(|\\)",
+      "chapterUrl": "//@value"
+    },
+    "searchUrl": "https://wap.fushuwang.org/search/index.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"keyboard={{key}}&tempid=2&tbname=article&show=title\"\n}",
+    "weight": 0
+  }]

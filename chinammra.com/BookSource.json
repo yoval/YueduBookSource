@@ -1,0 +1,42 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 晨晖小说网2",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.chinammra.com",
+    "bookUrlPattern": "",
+    "customOrder": -116624,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "总排行榜::https://www.chinammra.com/book/allvisit-{{page}}.html\n总推荐榜::https://www.chinammra.com/book/allvote-{{page}}.html\n总收藏榜::https://www.chinammra.com/book/goodnum-{{page}}.html\n月排行榜::https://www.chinammra.com/book/monthvisit-{{page}}.html\n最近更新::https://www.chinammra.com/book/lastupdate-{{page}}.html\n字数排行榜::https://www.chinammra.com/book/size-{{page}}.html",
+    "lastUpdateTime": 1606574670792,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.info2.0@tag.h3@text##作者：",
+      "coverUrl": "class.info1.0@tag.img.0@src",
+      "intro": "class.info2.0@tag.p@text",
+      "name": "class.info2.0@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "class.panel-body content-body content-ext@textNodes",
+      "replaceRegex": "##本小说发自(.|\\n)*作者：.*"
+    },
+    "ruleExplore": {
+      "bookList": "id._17mb_ph@tag.ul.1@class.articlename",
+      "bookUrl": "tag.a.0@href",
+      "name": "tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "tag.a.1@text",
+      "bookList": "class.pcon@tag.tr.!0",
+      "bookUrl": "tag.a.0@href",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.col-sm-12 col-md-12.0@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.chinammra.com/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

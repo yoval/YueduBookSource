@@ -1,0 +1,53 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "💵正版",
+    "bookSourceName": "💵 无CP交流",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.wu-cp.com",
+    "customOrder": -117440,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "西方奇幻::/modules/article/articlefilter.php?order=allvisit&sortid=1&page={{page}}\n东方玄幻::/modules/article/articlefilter.php?order=allvisit&sortid=2&page={{page}}\n都市青春::/modules/article/articlefilter.php?order=allvisit&sortid=3&page={{page}}\n历史军事::/modules/article/articlefilter.php?order=allvisit&sortid=4&page={{page}}\n科幻网游::/modules/article/articlefilter.php?order=allvisit&sortid=5&page={{page}}\n恐怖悬疑::/modules/article/articlefilter.php?order=allvisit&sortid=6&page={{page}}\n同人无限::/modules/article/articlefilter.php?order=allvisit&sortid=7&page={{page}}\n文学其他::/modules/article/articlefilter.php?order=allvisit&sortid=8&page={{page}}\n预留分类::/modules/article/articlefilter.php?order=allvisit&sortid=9&page={{page}}",
+    "lastUpdateTime": 1603383665883,
+    "loginUrl": "http://www.wu-cp.com/login.php",
+    "ruleBookInfo": {
+      "coverUrl": "class.book-cover@src",
+      "intro": "class.note@text",
+      "kind": "",
+      "lastChapter": "tag.h4@tag.a@text## >>",
+      "tocUrl": "class.index@href"
+    },
+    "ruleContent": {
+      "content": "id.ChapterContent924915@html"
+    },
+    "ruleExplore": {
+      "author": "tag.a.2@text",
+      "bookList": "class.bd@tag.tr!0",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "",
+      "kind": "tag.td.5@text",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text",
+      "wordCount": "tag.td.3@text@js:result+'字'"
+    },
+    "ruleSearch": {
+      "author": "tag.a.3@text",
+      "bookList": "class.bd@tag.tr!0",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "tag.a.0@text&&tag.span.1@text",
+      "lastChapter": "tag.a.2@text",
+      "name": "tag.a.1@text",
+      "wordCount": "tag.div.2@text"
+    },
+    "ruleToc": {
+      "chapterList": "tag.ul.5@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "isVip": "isvip",
+      "updateTime": "tag.span@text"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=all&page={{page}}\"\n}",
+    "weight": 0
+  }]

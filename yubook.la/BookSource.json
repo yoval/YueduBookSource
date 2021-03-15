@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "error:SSL handshake aborted: ssl=0x7e65c45fc8: I/O error during system call, Connection reset by peer\n",
+    "bookSourceGroup": "🚬刘备,失效",
+    "bookSourceName": "🚬 御书楼",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yubook.la",
+    "bookUrlPattern": "",
+    "customOrder": -31671,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1601896264383,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text##作 者：",
+      "intro": "id.intro@tag.p@text",
+      "lastChapter": "id.list@tag.dd.0@tag.a@text",
+      "name": "id.info@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "id.nr",
+      "bookUrl": "class.odd.0@tag.a@href",
+      "lastChapter": "class.even.0@tag.a@text",
+      "name": "class.odd.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.yubook.la/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

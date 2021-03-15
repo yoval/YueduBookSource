@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "A级; 发现",
+    "bookSourceName": "UU小说网xuu234.cc",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xuu234.cc",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/xuanhuan/list_update_{{page}}.html\n武侠::/wuxia/list_update_{{page}}.html\n现代::/dushi/list_update_{{page}}.html\n言情::/yanqing/list_update_{{page}}.html\n历史::/junshi/list_update_{{page}}.html\n游戏::/jingji/list_update_{{page}}.html\n科幻::/kehuan/list_update_{{page}}.html\n耽美::/shenmei/list_update_{{page}}.html\n同人::/tongren/list_update_{{page}}.html\n其他::/qita/list_update_{{page}}.html\n全本::/quanben/list_{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.author@tag.a.0@text",
+      "coverUrl": "class.con_limg@tag.img@src",
+      "intro": "class.r_cons@text##内容简介:",
+      "name": "class.r420@tag.h1@text",
+      "tocUrl": "class.dirtools@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "class.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.width111@tag.a.0@text",
+      "bookList": "class.listcon clearfix@tag.li",
+      "bookUrl": "class.width369@tag.a.0@href",
+      "kind": "class.width369@tag.span.0@text##\\].*|\\[",
+      "lastChapter": "class.width369@tag.a.1@text",
+      "name": "class.width369@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.clearfix dirconone.1@tag.li",
+      "chapterName": "tag.a.0@text",
+      "chapterUrl": "tag.a.0@href"
+    },
+    "searchUrl": "https://www.xuu234.cc/search?wd={{key}}&pn={{page-1}}",
+    "weight": 0
+  }]

@@ -1,0 +1,46 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🍺特优",
+    "bookSourceName": "🍺 138阅读网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://wap.138txt.com",
+    "customOrder": -116889,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/sort/1_1/\n仙侠::/sort/2_1/\n都市::/sort/3_1/\n历史::/sort/4_1/\n游戏::/sort/5_1/\n科幻::/sort/6_1/\n恐怖::/sort/7_1/\n女生::/sort/8_1/\n其他::/sort/9_1/",
+    "lastUpdateTime": 1604164742684,
+    "ruleBookInfo": {
+      "author": "class.block_txt2@tag.p.2@text##作者：",
+      "coverUrl": "img@src",
+      "intro": "class.intro_info@text",
+      "kind": "class.block_txt2@tag.p.3@a@text&&class.block_txt2@tag.p.4@text&&class.block_txt2@tag.p.5@text##分类：|状态：|更新：",
+      "lastChapter": "class.block_txt2@tag.p.6@a@text",
+      "name": "class.block_txt2@h2@text",
+      "tocUrl": "class.ablum_read@tag.a.1@href"
+    },
+    "ruleContent": {
+      "content": "id.nr1@textNodes",
+      "nextContentUrl": "text.下一章@href"
+    },
+    "ruleExplore": {
+      "bookList": "class.cover@p",
+      "bookUrl": "tag.a.1@href",
+      "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+      "author": "class.author@text##作者：",
+      "bookList": "class.bookbox",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@src",
+      "intro": "class.intro_line@text",
+      "lastChapter": "class.update@a@text",
+      "name": "class.iTit@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter@li",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href"
+    },
+    "searchUrl": "https://wap.138txt.com/s.php?keyword={{key}}&submit=",
+    "weight": 0
+  }]

@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "A级; 发现",
+    "bookSourceName": "乐文小说lewen.la",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.lewen.la",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/fenlei1/{{page}}/\n武侠修真::/fenlei2/{{page}}/\n都市言情::/fenlei3/{{page}}/\n历史军事::/fenlei4/{{page}}/\n侦探推理::/fenlei5/{{page}}/\n网游动漫::/fenlei6/{{page}}/\n科幻小说::/fenlei7/{{page}}/\n恐怖灵异::/fenlei8/{{page}}/\n穿越小说::/fenlei9/{{page}}/\n其他类型::/fenlei10/{{page}}/",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "tag.img@src",
+      "intro": "class.introtxt@text"
+    },
+    "ruleContent": {
+      "content": "class.zhangjieTXT@textNodes##一秒记住.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.title@tag.span@text||id.info@tag.a.0@text",
+      "bookList": "id.alist@tag.div!0@id.alistbox||id.maininfo",
+      "bookUrl": "class.pic@tag.a@href",
+      "coverUrl": "tag.img@src",
+      "lastChapter": "class.sys@tag.a@text||tag.p.1@tag.a.0@text",
+      "name": "class.title@tag.h2@text||id.info@tag.h1.0@text##《|》"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.lewen.la/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,44 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "爱猫小说书源合集",
+    "bookSourceName": "海棠书屋123",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.haitang123.club",
+    "customOrder": 269,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "周榜::/rank/0/{{page}}.html\n月榜::/rank/month/0/{{page}}.html\n总榜::/rank/all/0/{{page}}.html\n全部分类::/rank/all/0/{{page}}.html\n言情::/rank/all/2/{{page}}.html\n耽美::/rank/all/11/{{page}}.html\n高辣::/rank/all/1/{{page}}.html\n百合::/rank/all/24/{{page}}.html\n武侠::/rank/all/17/{{page}}.html\n玄幻::/rank/all/4/{{page}}.html\n都市::/rank/all/15/{{page}}.html\n高干::/rank/all/10/{{page}}.html\n种田::/rank/all/8/{{page}}.html\n腹黑::/rank/all/6/{{page}}.html\n修真::/rank/all/7/{{page}}.html\n网游::/rank/all/9/{{page}}.html\n穿越::/rank/all/16/{{page}}.html\n私密::/rank/all/39/{{page}}.html\n其他::/rank/all/19/{{page}}.html",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "coverUrl": "class.BGsectionOne-top-left@img@src",
+      "intro": "class.BGsectionTwo-bottom@text",
+      "tocUrl": "text.查看全部章节@href"
+    },
+    "ruleContent": {
+      "content": "id.C0NTENT@html",
+      "imageStyle": "0.0",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "tag.p.1@tag.a.0@text",
+      "bookList": "class.CGsectionTwo-right-content-unit",
+      "bookUrl": "tag.p.0@tag.a.0@href",
+      "intro": "tag.p.2@text",
+      "name": "tag.p.0@tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "tag.a.-1@text",
+      "bookList": "class.SHsectionThree-middle.-1@p",
+      "bookUrl": "tag.a.1@href",
+      "kind": "tag.a.0@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.BCsectionTwo-top@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href##$##,{\"webView\":true}",
+      "nextTocUrl": "@js:\npage=result.match(/<span>(\\d+)<\\/span>页/)[1];\nlist=[];\nfor(i=2;i<=page;i++){\nlist.push(baseUrl+i+\".html\")\n}\nlist"
+    },
+    "searchUrl": "https://m.haitang123.club/search/{{key}}",
+    "weight": 0
+  }]

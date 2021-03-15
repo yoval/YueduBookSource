@@ -1,0 +1,55 @@
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "🍺特优,失效",
+    "bookSourceName": "🍺 52笔趣阁①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.52bqg.com/",
+    "customOrder": -32800,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::https://m.52bqg.com/wapsort/1_{{page}}.html\n仙侠小说::/wapsort/2_{{page}}.html\n都市小说::/wapsort/3_{{page}}.html\n言情小说::/wapsort/4_{{page}}.html\n历史小说::/wapsort/5_{{page}}.html\n网游小说::/wapsort/6_{{page}}.html\n科幻小说::/wapsort/7_{{page}}.html\n恐怖小说::/wapsort/8_{{page}}.html\n完本小说::/wapfull/{{page}}.html",
+    "header": "",
+    "lastUpdateTime": 1603341673690,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.info@tag.p.1@text",
+      "coverUrl": "class.bookinfo@tag.td@img@src",
+      "init": "",
+      "intro": "class.intro@text",
+      "kind": "class.info@tag.p.2@text##类别：",
+      "lastChapter": "class.info@tag.p.5@text",
+      "name": "class.info@tag.p.0@text",
+      "tocUrl": "class.book-op@tag.td.1@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "id.nr1@html",
+      "nextContentUrl": "id.pb_next@href"
+    },
+    "ruleExplore": {
+      "author": "tag.td@class.mr15@text",
+      "bookList": "class.list-item@tag.tbody@tag.tr",
+      "bookUrl": "tag.td@tag.a.0@href",
+      "coverUrl": "tag.td@img@src",
+      "intro": "tag.td@tag.a.1@text",
+      "name": "tag.td@tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "tag.td@class.article@class.mr15@text",
+      "bookList": "tag.tbody@tag.tr",
+      "bookUrl": "tag.td@class.article@tag.a.0@href",
+      "coverUrl": "tag.td@img@src",
+      "intro": "tag.td@class.article@tag.a.1@text",
+      "kind": "",
+      "lastChapter": "",
+      "name": "tag.td@class.article@tag.a.0@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "id.alllist@tag.li!0",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a.0@href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://m.52bqg.com/modules/article/waps.php?searchtype=articlename&searchkey={{key}}&t_btnsearch=,{\"charset\":\"gbk\"}",
+    "weight": 0
+  }]

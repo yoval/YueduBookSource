@@ -1,0 +1,32 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "📻有声",
+    "bookSourceName": "📻 6月听书网1",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://m.6yueting.com",
+    "customOrder": -115776,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612109448273,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "@js:baseUrl"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "broadcaster",
+      "bookList": "@JSon:$.data.list",
+      "bookUrl": "http://m.6yueting.com:80/web/index/mobile/xsListdetail?code={$.code}&pageNum=1&pageSize=99999",
+      "coverUrl": "http://img.6yueting.com:20001/{$.coverUrlLocal}",
+      "intro": "descInfo",
+      "lastChapter": "最近更新至:{$.cdate}",
+      "name": "@JSon:$.name"
+    },
+    "ruleToc": {
+      "chapterList": "@JSon:$.data.list",
+      "chapterName": "title",
+      "chapterUrl": "videoUrl"
+    },
+    "searchUrl": "http://m.6yueting.com/web/index/search?content={{key}}&pageNum={{page}}&pageSize=20&type=1",
+    "weight": 0
+  }]

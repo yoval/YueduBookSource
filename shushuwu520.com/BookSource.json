@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "18小说",
+    "bookSourceName": "书书屋小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.shushuwu520.com",
+    "customOrder": -3611,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1603009816452,
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@tag.p@text",
+      "kind": "[property=\"og:novel:category\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "id.info@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "id.content@tr!0",
+      "bookUrl": "tag.td.0@tag.a@href",
+      "kind": "tag.td.5@text",
+      "lastChapter": "tag.td.1@tag.a@text",
+      "name": "tag.td.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@dl@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.shushuwu520.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

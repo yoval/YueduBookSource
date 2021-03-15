@@ -1,0 +1,42 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🍑耽美",
+    "bookSourceName": "🍑 耽美小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.dmxs.me/",
+    "customOrder": -31235,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "❀近代现代::/book/\n❀古代架空::/gdjk/\n❀穿越重生::/cycs/\n❀玄幻灵异::/xhly/\n❀网游竞技::/wyjj/\n❀推理悬疑::/tlxy/\n❀B L 同人::/BLTR/\n❀G L 百合::/GLBH/",
+    "header": "",
+    "lastUpdateTime": 1601622845383,
+    "ruleBookInfo": {
+      "author": "class.date@tag.span@text",
+      "intro": "class.infos@tag.p@text",
+      "name": "tag.h1@text",
+      "tocUrl": "class.book_list clearfix@tag.li"
+    },
+    "ruleContent": {
+      "content": ".read_chapterDetail@html"
+    },
+    "ruleExplore": {
+      "bookList": "",
+      "name": ""
+    },
+    "ruleSearch": {
+      "author": ".autor@text",
+      "bookList": ".books .bk",
+      "bookUrl": "class.bk@tag.a@href",
+      "intro": "class.bk@tag.p@text",
+      "lastChapter": ".date@text",
+      "name": "h3@text"
+    },
+    "ruleToc": {
+      "chapterList": ".clearfix li a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "index_{,searchPage}.html"
+    },
+    "searchUrl": "/e/search/index.php,{\n  \"charset\": \"gb2312\",\n  \"method\": \"POST\",\n  \"body\": \"keyboard={{key}}&show=title&classid=0\"\n}",
+    "weight": 0
+  }]

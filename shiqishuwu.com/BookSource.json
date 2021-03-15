@@ -1,0 +1,64 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 石器书屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.shiqishuwu.com",
+    "bookUrlPattern": "",
+    "customOrder": -31656,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1601891422104,
+    "loginUrl": "coolapk@🈚️🐑;wordCount",
+    "ruleBookInfo": {
+      "author": "author",
+      "coverUrl": "cover",
+      "init": "<js>\nvar J = org.jsoup.Jsoup.parse(result);\nvar og = (selector) =>\n  String(J.select('[property=\"og:' + selector + '\"]').attr('content'));\n\nvar book = {\n  name: og('novel:book_name').replace(/(全文|免费|最新章节).*|（.*）/,''),\n  author: og('novel:author'),\n  kind: og('novel:category') + ',' + og('novel:status').replace(/中|已/,''),\n  latest: og('novel:latest_chapter_name').replace(/[\\(（【].*[求更谢乐发推].*[】）\\)]/,'').replace(/^(正文)?(\\s+|_)/,''),\n  cover: og('image'),\n  intro: '<br>最后更新：' + og('novel:update_time').replace(/\\s.*/,'') + ' \\n' + '———————————\\n' + String(J.select('#intro p').html()).replace(/.*简介：|各位书友.*/,'').replace(/\\s+/g,'<br>'),\n  url: baseUrl+'catalog/',\n};\n\nbook;\n</js>",
+      "intro": "intro",
+      "kind": "kind",
+      "lastChapter": "latest",
+      "name": "name",
+      "tocUrl": "url",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "#C0NTENT@html",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "author",
+      "bookList": "class.SHsectionThree-middle.-1@p<js>\nresult\n   .toArray()\n   .slice(0, 3)\n   .map(function (el){\n    var url = String(el.select('a').eq(1).attr('href')).replace(\n      /^\\/([^\\/])/,\n      baseUrl.match(/(.+\\/\\/.+?\\/)/)[1] + '$1'\n    );\n    var J = org.jsoup.Jsoup.parse(String(java.ajax(url)));\n    var og = (selector) =>\n      String(J.select('[property=\"og:' + selector + '\"]').attr('content'));\n\n    return {\n      name: og('novel:book_name').replace(/(全文|免费|最新章节).*|（.*）/,''),\n      author: og('novel:author'),\n      kind: og('novel:category') + ',' + og('novel:status').replace(/中|已/,''),\n      latest: og('novel:lastest_chapter_name').replace(/[\\(（【].*[求更谢乐发推].*[】）\\)]/,'').replace(/^(正文)?(\\s+|_)/,'') + ' • ' + og('novel:update_time').replace(/\\s.*/,''),\n      cover: og('image'),\n      intro: og('description').replace(/.*简介：|各位书友.*/,'').replace(/\\s+/g,''),\n      url: url,\n    };\n  });\n</js>",
+      "bookUrl": "url",
+      "coverUrl": "cover",
+      "intro": "intro",
+      "kind": "kind",
+      "lastChapter": "latest",
+      "name": "name",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": ".BCsectionTwo-top-chapter a",
+      "chapterName": "text##^(正文)?(\\s+|_)|[\\(（【].*[求更谢乐发推].*[】）\\)]",
+      "chapterUrl": "href@js:result+',{webView:“true”}'",
+      "isVip": "",
+      "nextTocUrl": "@js:var n=String(result).match(/第<span>1<\\/span>\\/<span>(.*?)<\\/span>页/)[1];\nlist=[]\nif(n==1){\nlist;}else{\nfor(i=1;i<=n;i++){\nlist.push(baseUrl+i+\".html\")\n};}\nlist",
+      "updateTime": ""
+    },
+    "searchUrl": "/search/{{key}}",
+    "weight": 0
+  }]

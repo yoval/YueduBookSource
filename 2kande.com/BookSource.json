@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎨漫画",
+    "bookSourceName": "🎨 顶通漫画",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.2kande.com",
+    "customOrder": -115830,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最新更新::http://www.2kande.com/public/portal/list/index/id/465.html?page={{page}}\n韩国漫画::http://www.2kande.com/public/portal/list/index/id/2.html?page={{page}}",
+    "lastUpdateTime": 1604051968480,
+    "loginUrl": "http://www.2kande.com/public/user/login/index.html",
+    "ruleBookInfo": {
+      "intro": "[name=\"description\"]@content##\\,2kd漫画.*",
+      "lastChapter": "",
+      "name": "tag.h2.0@text"
+    },
+    "ruleContent": {
+      "content": "tag.p@tag.img@html",
+      "imageStyle": "FULL"
+    },
+    "ruleExplore": {
+      "bookList": "",
+      "coverUrl": ""
+    },
+    "ruleSearch": {
+      "bookList": "class.list-boxes||class.panel",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "tag.p@text",
+      "name": "tag.h2@text||tag.p@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list-boxes||tag.h2",
+      "chapterName": "tag.h2@text||text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "http://www.2kande.com/public/portal/search/index.html,{\n\"charset\": \"\",\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}\"\n}",
+    "weight": 0
+  }]

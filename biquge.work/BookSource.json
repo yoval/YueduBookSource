@@ -1,0 +1,36 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "发现",
+    "bookSourceName": "飞库小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.biquge.work",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "连载::/m/CsAjax.do?method=getBookListCommon,{\"method\": \"POST\",\"body\": \"type=ongoing&page_num={{page-1}}&cls_id=&par_id=&author_id=&order_type=1&keyword=\"}\n完结::/m/CsAjax.do?method=getBookListCommon,{\"method\": \"POST\",\"body\": \"type=wanben&page_num={{page-1}}&cls_id=&par_id=&author_id=&order_type=1&keyword=\"}\n玄幻小说::/m/CsAjax.do?method=getBookListCommon,{\"method\": \"POST\",\"body\": \"type=&page_num={{page-1}}&cls_id=11001&par_id=&author_id=&order_type=1\"}\n修真小说::/m/CsAjax.do?method=getBookListCommon,{\"method\": \"POST\",\"body\": \"type=&page_num={{page-1}}&cls_id=12001&par_id=&author_id=&order_type=1\"}\n都市言情::/m/CsAjax.do?method=getBookListCommon,{\"method\": \"POST\",\"body\": \"type=&page_num={{page-1}}&cls_id=13001&par_id=&author_id=&order_type=1\"}\n穿越小说::/m/CsAjax.do?method=getBookListCommon,{\"method\": \"POST\",\"body\": \"type=&page_num={{page-1}}&cls_id=14001&par_id=&author_id=&order_type=1\"}\n网游小说::/m/CsAjax.do?method=getBookListCommon,{\"method\": \"POST\",\"body\": \"type=&page_num={{page-1}}&cls_id=15001&par_id=&author_id=&order_type=1\"}\n科幻小说::/m/CsAjax.do?method=getBookListCommon,{\"method\": \"POST\",\"body\": \"type=&page_num={{page-1}}&cls_id=16001&par_id=&author_id=&order_type=1\"}\n其他小说::/m/CsAjax.do?method=getBookListCommon,{\"method\": \"POST\",\"body\": \"type=&page_num={{page-1}}&cls_id=17001&par_id=&author_id=&order_type=1\"}\n世界名著::/m/CsAjax.do?method=getBookListCommon,{\"method\": \"POST\",\"body\": \"type=&page_num={{page-1}}&cls_id=17002&par_id=&author_id=&order_type=1\"}",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9; Redmi Note 4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/74.0.3729.157 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "http://www.chinaoc.com.cn",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "aName",
+      "bookList": "records",
+      "bookUrl": "/m/{$.bUrl}-mulu.html",
+      "coverUrl": "/files/book/cover/{$.bid}/cover_120.jpg",
+      "intro": "bDesc",
+      "kind": "cat&&cnt&&state",
+      "name": "bName"
+    },
+    "ruleToc": {
+      "chapterList": ":id=\"c(\\d+)\">.+?index\">([^<]+)",
+      "chapterName": "$2",
+      "chapterUrl": "/m/CsAjax.do?method=getChapter@chapter_id=$1"
+    },
+    "searchUrl": "/m/CsAjax.do?method=getBookListCommon,{\n  \"method\": \"POST\",\n  \"body\": \"type=&page_num={{page-1}}&cls_id=&par_id=&author_id=&order_type=1&keyword={{key}}\"\n}",
+    "weight": 0
+  }]

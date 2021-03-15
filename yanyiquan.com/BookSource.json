@@ -1,0 +1,48 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔰普通",
+    "bookSourceName": "🔰 小说圈手机版",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.yanyiquan.com",
+    "customOrder": 16346,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::https://m.yanyiquan.com/sort/1_{{page}}/\n仙侠::/sort/2_{{page}}/\n言情::/sort/3_{{page}}/\n军史::/sort/4_{{page}}/\n网游::/sort/5_{{page}}/\n科幻::/sort/6_{{page}}/\n灵异::/sort/7_{{page}}/\n都市::/sort/8_{{page}}/\n穿越::/sort/9_{{page}}/\n其他::/sort/10_{{page}}/\n完本::/full/{{page}}/\n总点击榜::/top/allvisit_{{page}}/\n月点击榜::/top/monthvisit_{{page}}/\n总字数榜::/top/size_{{page}}/\n最新入库::/top/postdate_{{page}}/\n最近更新::/top/lastupdate_{{page}}/",
+    "header": "",
+    "lastUpdateTime": 1602675563927,
+    "ruleBookInfo": {
+      "coverUrl": "tag.img.1@src",
+      "intro": "class.intro@tag.p@text",
+      "tocUrl": "class.infolink@tag.a.1@href"
+    },
+    "ruleContent": {
+      "content": "id.novelcontent@html##第\\(.*\\)页，|（本章未完，请点击下一页继续阅读）|(下|上)一(章|页)|返回目录|加入书签|..--广告--.|--....",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+      "author": "class.author@text||class.p3@text",
+      "bookList": "@css:.article||.articlegeneral||.full_content",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##https://book.yanyiquan.com/files/article/image/$2/$1/$1s.jpg###",
+      "intro": ".simple@text",
+      "kind": ".p1@text",
+      "name": "tag.h6@text||tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "class.author@tag.a@text",
+      "bookList": "class.searchresult@tag.p",
+      "bookUrl": "class.sone@tag.a.0@href",
+      "coverUrl": "class.sone@tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##https://book.yanyiquan.com/files/article/image/$2/$1/$1s.jpg###",
+      "intro": "",
+      "name": "class.sone@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapters@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "@js:\nvar n=result.match(/\\/(\\d+)页/)[1];\nvar m=baseUrl.match(/\\/\\d+\\/(\\d+)/)[1];\nvar list=[];\nfor(var i=2;i<=n;i++){list.push(\"https://m.yanyiquan.com/book/\"+m+\"_\"+i+\"/\");}\nlist",
+      "updateTime": ""
+    },
+    "searchUrl": "https://m.yanyiquan.com/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"type=articlename&s={{key}}\"\n}",
+    "weight": 0
+  }]

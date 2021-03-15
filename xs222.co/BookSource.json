@@ -1,0 +1,48 @@
+[  {
+    "bookSourceComment": "error:Handshake failed\n",
+    "bookSourceGroup": "🔰普通,失效",
+    "bookSourceName": "🔰 顶点小说②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xs222.co",
+    "bookUrlPattern": "",
+    "customOrder": 16342,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/xuanhuan/\n修真::/xiuzhen/\n都市::/dushi/\n历史::/lishi/\n网游::/wangyou/\n科幻::/kehuan/\n言情::/yanqing/\n其他::/qita/",
+    "lastUpdateTime": 1602899979687,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "intro": "id.intro@text",
+      "name": ""
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes",
+      "replaceRegex": "##天才一秒记住本站永久地址.www.xs222.co|顶点小说(.|\\n)*"
+    },
+    "ruleExplore": {
+      "author": "class.s5@text",
+      "bookList": "class.l@ul@li",
+      "bookUrl": "class.s2@a@href",
+      "lastChapter": "class.s3@a@text",
+      "name": "class.s2@a@text"
+    },
+    "ruleSearch": {
+      "author": "class.result-game-item-info-tag.0@tag.span.1@text",
+      "bookList": "class.result-item",
+      "bookUrl": "class.result-item-title.0@tag.a.0@href",
+      "coverUrl": "tag.img.0@src",
+      "intro": "class.result-game-item-desc@text",
+      "kind": "class.result-game-item-info-tag.1@tag.span.1@text##小说",
+      "lastChapter": "class.result-game-item-info-tag.3@tag.a.0@text",
+      "name": "class.result-item-title.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.xs222.co/search.php?q={{key}}",
+    "weight": 0
+  }]

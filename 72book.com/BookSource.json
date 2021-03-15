@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "天域战歌",
+    "bookSourceName": "和包网（仅发现）",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.72book.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最新入库::https://m.72book.com/top-postdate-{{page}}/\n总点击榜::https://m.72book.com/top-allvisit-{{page}}/\n总推荐榜::https://m.72book.com/top-allvote-{{page}}/\n总收藏榜::https://m.72book.com/top-goodnum-{{page}}/\n总字数榜::https://m.72book.com/top-size-{{page}}/\n玄幻科幻::https://m.72book.com/sort-1-{{page}}/\n武侠仙侠::https://m.72book.com/sort-2-{{page}}/\n都市言情::https://m.72book.com/sort-3-{{page}}/\n历史穿越::https://m.72book.com/sort-4-{{page}}/\n悬疑惊悚::https://m.72book.com/sort-5-{{page}}/\n网游竞技::https://m.72book.com/sort-6-{{page}}/\n高辣爽文::https://m.72book.com/sort-7-{{page}}/\n全本完结::https://m.72book.com/full-{{page}}/",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "lastChapter": "[name=\"og:novel:latest_chapter_name\"]@content",
+      "tocUrl": "[property=\"og:url\"]@content@js:result.replace(/www/,'m')"
+    },
+    "ruleContent": {
+      "content": "id.nr1@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "textNodes##/",
+      "bookList": "class.block@li",
+      "bookUrl": "a@href##^##https://www.72book.com",
+      "name": "a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href##.*/"
+    },
+    "searchUrl": "https://www.72book.com/so?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

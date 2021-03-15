@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 酷笔记①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.kubiji.net",
+    "bookUrlPattern": "",
+    "customOrder": -115488,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612784191185,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.book_cover@img@src",
+      "intro": "id.intro@textNodes",
+      "lastChapter": "h5!1@a@text"
+    },
+    "ruleContent": {
+      "content": "class.content@textNodes##您可以在百度里搜索.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.novelslist2@li",
+      "bookUrl": "tag.a.1@href",
+      "kind": "tag.span.0@text##\\[|\\]",
+      "lastChapter": "tag.a.2@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.novel_list.-1@a",
+      "chapterName": "text<js>String(result).replace(/^@get:{name}/,\"\")</js>",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchtype=all&searchkey={{key}}&action=search&submit= 搜  索\"\n}",
+    "weight": 0
+  }]

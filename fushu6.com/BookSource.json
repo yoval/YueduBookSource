@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "傅书网🎗",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.fushu6.com",
+    "bookUrlPattern": "",
+    "customOrder": 148,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "首页::</,/?page={{page}}>\n热门::/<hot/,hot/index_{{page}}.html>\n耽美小说::/<danmei/,danmei/index_{{page}}.html>\n言情小说::/<yanqingxiaoshuo/,yanqingxiaoshuo/index_{{page}}.html>\n都市::/<dushixiaoshuo/,dushixiaoshuo/index_{{page}}.html>\n玄幻::/<xuanhuan/,xuanhuan/index_{{page}}.html>\n灵异::/<lingyi/,lingyi/index_{{page}}.html>\n网游::/<wangyou/,wangyou/index_{{page}}.html>\n穿越重生::/f/<chuanyuezhongsheng/,chuanyuezhongsheng/index_{{page}}.html>\n现代耽美::/f/<xiandaidanmei/,xiandaidanmei/index_{{page}}.html>\n耽美::/f/<danmei/,danmei/index_{{page}}.html>\n言情::/f/<yanqing/,yanqing/index_{{page}}.html>\n古代架空::/f/<gudaijiakong/,gudaijiakong/index_{{page}}.html>\nbl同人::/f/<bltongren/,bltongren/index_{{page}}.html>",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows; U; Windows NT 5.1; zh-CN; rv:1.9) Gecko/20080705 Firefox/3.0 Kapiko/3.0\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "h1@text##.*——|.*(BY|by)：|.*(BY|BY：)\\s*|《|》|\\【.*\\】|.*\\s作者：|\\（(上|中|下|一|二|三|四|五|六|七|八|九)\\）",
+      "intro": ".article-body@p@textNodes##(?s)(楔子|第(一|1)(卷|章)).*|附：【本作品来自互.*?权归作者所有(!|！)",
+      "name": "h1@text##——.*|（.*）|\\[.*\\]|\\+番外.*|\\【.*\\】|\\.$|《|》|\\s作者：.*|^\\d+_|\\s*BY.+"
+    },
+    "ruleContent": {
+      "content": ".article-body@p@textNodes##附：【本作品来自互联网.*?内容版权归作者所有(!|！)"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "h2@text##.*——|.*(BY|by)：|.*(BY|BY：)\\s*|《|》|\\【.*\\】|.*\\s作者：|\\（(上|中|下|一|二|三|四|五|六|七|八|九)\\）",
+      "bookList": "id.divMain@dl",
+      "bookUrl": "h2@a@href",
+      "intro": "p@text##(文案|书名)：|文案\\s*|.*?(文案 一|\\s*(本文)?文案|(内容)?简介)(：|:)?\\s*|附：【本作品来自互.*?权归作者所有(!|！)|\\...$ |.com-.*鲤鱼乡腐书网论坛.*附：\\s*《.*》.*\\s|=================",
+      "kind": "tag.span.1@text&&tag.span.0@text&&h2@text##.*\\（|\\）.*|.*\\(|\\).*|.*\\[|].*|.*\\【|\\】|(\\s|\\+番外|——).*|《|》|热门电子书",
+      "name": "h2@text##——.*|（.*）|\\[.*\\]|\\+番外.*|\\【.*\\】|\\.$|《|》|\\s作者：.*|^\\d+_|\\s*BY.+"
+    },
+    "ruleToc": {
+      "chapterList": "+<js>\nvar n=result.match(/共(\\d+)页/)[1];\nvar list=[];\nfor(var i=1;i<=n;i++){\nlist.push({k:''+i,v:baseUrl.replace(/\\.html/,'_'+i+'.html')});\n}\nlist\n</js>",
+      "chapterName": "k",
+      "chapterUrl": "v"
+    },
+    "searchUrl": "/public/api.php?app=search&q={{key}}&page={{page}},{\n  \"charset\": \"utf-8\"\n}",
+    "weight": 0
+  }]

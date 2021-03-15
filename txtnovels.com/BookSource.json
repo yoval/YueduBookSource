@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 txt小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.txtnovels.com",
+    "bookUrlPattern": "",
+    "customOrder": -115583,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最近更新::https://www.txtnovels.com/top/lastupdate_{{page}}/\n最新入库::https://www.txtnovels.com/top/postdate_{{page}}/\n总点击榜::https://www.txtnovels.com/top/allvisit_{{page}}/\n总收藏榜::https://www.txtnovels.com/top/goodnum_{{page}}/\n总推荐榜::https://www.txtnovels.com/top/allvote_{{page}}/\n总字数榜::https://www.txtnovels.com/top/size_{{page}}/\n玄幻奇幻::https://www.txtnovels.com/sort/1_{{page}}/\n仙侠武侠::https://www.txtnovels.com/sort/2_{{page}}/\n都市人生::https://www.txtnovels.com/sort/3_{{page}}/\n军事历史::https://www.txtnovels.com/sort/4_{{page}}/\n游戏竞技::https://www.txtnovels.com/sort/5_{{page}}/\n女频言情::https://www.txtnovels.com/sort/6_{{page}}/\n科幻恐怖::https://www.txtnovels.com/sort/7_{{page}}/\n综合其他::https://www.txtnovels.com/sort/8_{{page}}/",
+    "lastUpdateTime": 1604055060194,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.row@img@src",
+      "intro": "id.bookIntro@text",
+      "lastChapter": "class.text-danger.1@text"
+    },
+    "ruleContent": {
+      "content": "class.panel-body@html##（本章未完，请翻页）",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "span@text##/ 著",
+      "bookList": "class.panel-body@children",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "name": "strong@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.panel-body panel-chapterlist.1@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://www.txtnovels.com/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&type=articlename\"\n}",
+    "weight": 0
+  }]

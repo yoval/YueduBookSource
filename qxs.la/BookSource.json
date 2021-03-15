@@ -1,0 +1,34 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 全小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://qxs.la-By Dark",
+    "customOrder": -32522,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.desc@text##简介："
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.cc4.0@tag.a.0@text",
+      "bookList": "class.main list@tag.ul!0",
+      "bookUrl": "class.cc2.0@tag.a.0@href",
+      "lastChapter": "class.cc3.0@tag.a.0@text",
+      "name": "class.cc2.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapters@class.chapter",
+      "chapterName": "tag.a.0@text",
+      "chapterUrl": "tag.a.0@href"
+    },
+    "searchUrl": "https://qxs.la/s_{{key}}",
+    "weight": 0
+  }]

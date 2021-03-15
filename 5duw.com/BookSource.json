@@ -1,0 +1,35 @@
+[  {
+    "bookSourceComment": "error:failed to connect to www.5duw.com/182.161.36.217 (port 80) from /192.168.0.103 (port 37820) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "🎉精品,失效",
+    "bookSourceName": "🎉 吾读网①™九天之狼",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.5duw.com",
+    "customOrder": -32534,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "tocUrl": "class.btopt@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@textNodes||class.contentbox@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.li.1@text##类别：.*",
+      "bookList": "id.content@tag.ul",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@tag.img@src",
+      "intro": "tag.li.0@text##内容简介：",
+      "kind": "tag.li.1@tag.font.1@text",
+      "lastChapter": "tag.h.2@tag.b.1@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.mulu_list@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.5duw.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

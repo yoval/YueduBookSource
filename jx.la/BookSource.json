@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "天域战歌整理",
+    "bookSourceName": "笔趣阁⑱",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.jx.la",
+    "bookUrlPattern": "",
+    "customOrder": -117585,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 1615463035024,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@text",
+      "lastChapter": "id.list@tag.dd.0@a@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##章节错误,点此举报(免注册),举报后维护人员会在两分钟内校正章节内容,请耐心等待,并刷新页面。"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.txt-list.0@tag.li!0",
+      "bookUrl": "class.s2@tag.a.0@href",
+      "kind": "class.s7@text",
+      "lastChapter": "class.s3@tag.a.0@text",
+      "name": "class.s2@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.section-box.1@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://www.jx.la/ar.php?keyWord={{key}}",
+    "weight": 0
+  }]

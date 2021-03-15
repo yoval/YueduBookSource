@@ -1,0 +1,36 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔰普通",
+    "bookSourceName": "🔰 顶点小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.23wx.so",
+    "customOrder": 16070,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1603032732165,
+    "ruleBookInfo": {
+      "author": "@css:#info p:nth-of-type(1)>a@text",
+      "coverUrl": "@css:#fmimg>img@src",
+      "intro": "@css:#intro@text",
+      "name": "@css:#info>h1@text"
+    },
+    "ruleContent": {
+      "content": "@css:#content@html##一秒记住(.|\\n)*免费阅读！"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "@css:.s4@text",
+      "bookList": "@css:.novelslistss li",
+      "bookUrl": "@css:.s2>a@href",
+      "kind": "@css:.s1@text",
+      "lastChapter": "@css:.s3 a@text",
+      "name": "@css:.s2 a@text"
+    },
+    "ruleToc": {
+      "chapterList": "@css:#list dd",
+      "chapterName": "text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.23wx.so/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 新笔趣阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.biqu4.com",
+    "bookUrlPattern": "",
+    "customOrder": -32063,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0; Xiaomi Mi8 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.bookintro@img@src",
+      "intro": "class.bookintro@textNodes##.*5200新笔趣阁实时更新.*",
+      "lastChapter": "class.bookchapter@text"
+    },
+    "ruleContent": {
+      "content": "class.readcontent@p@html",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@text",
+      "bookList": "class.bookbox",
+      "bookUrl": "a@href",
+      "coverUrl": "a@href##.*/(\\d+)/(\\d+)/##/images/$1/$2.jpg",
+      "lastChapter": "class.cat@a@text",
+      "name": "class.bookname@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.book chapterlist@div@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://www.biqu4.com/search/,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

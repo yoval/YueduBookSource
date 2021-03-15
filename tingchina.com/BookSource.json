@@ -1,0 +1,47 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "📻有声",
+    "bookSourceName": "📻 听中国",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://www.tingchina.com#",
+    "customOrder": -115783,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/yousheng/lei_135_{{page}}.htm\n鬼👻故事::/yousheng/lei_129_{{page}}.htm\n网络热门::/yousheng/lei_146_{{page}}.htm\n都市言情::/yousheng/lei_125_{{page}}.htm\n历史军事::/yousheng/lei_130_{{page}}.htm\n经典纪实::/yousheng/lei_127_{{page}}.htm\n官场商战::/yousheng/lei_126_{{page}}.htm\n通俗文学::/yousheng/lei_132_{{page}}.htm\n刑侦推理::/yousheng/lei_134_{{page}}.htm\n科幻有声::/yousheng/lei_128_{{page}}.htm\n武侠小说::/yousheng/lei_133_{{page}}.htm\n人物传记::/yousheng/lei_131_{{page}}.htm",
+    "lastUpdateTime": 1612831416006,
+    "ruleBookInfo": {
+      "author": "//*[@class=\"book01\"]/ul/li[6]/a/text()",
+      "coverUrl": "//*[@class=\"book01\"]/img/@src",
+      "intro": "//*[@class=\"book02 padding5 line5\"]/text()\n##(^|[。！？]+[”」）】]?)##$1<br>",
+      "kind": "//*[@class=\"book01\"]/ul/li[2]/text()\n&&\n//*[@class=\"book01\"]/ul/li[7]/span/text()##分类：|中.*",
+      "lastChapter": "//*[@class=\"book01\"]/ul/li[8]/span/text()",
+      "name": "//*[@class=\"book01\"]/ul/li[1]/span/strong/text()",
+      "wordCount": "//*[@class=\"book01\"]/ul/li[5]//text()"
+    },
+    "ruleContent": {
+      "content": "//*[@id=\"wjAudio\"]/@src"
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "//*[@class=\"zimulist\"]/dl",
+      "bookUrl": "//dd/a/@href",
+      "coverUrl": "//img/@src",
+      "kind": "//dd/text()##.*\\[|\\]",
+      "lastChapter": "//dd/text()##\\[|\\].*",
+      "name": "//a[1]/text()##《|》"
+    },
+    "ruleSearch": {
+      "author": "//@href\n<js>\njava.ajax(result.replace(/^/, baseUrl.match(/(.+?\\/\\/[^\\/]+\\/)/)[1]))\n</js>\n//*[@class=\"book01\"]/ul/li[6]/a/text()",
+      "bookList": "//*[@class=\"singerlist1\"]/dd/ul/li/a",
+      "bookUrl": "//@href",
+      "lastChapter": "",
+      "name": "//text()"
+    },
+    "ruleToc": {
+      "chapterList": "//*[@class=\"list\"]/ul/li[position()>3]/a",
+      "chapterName": "//text()",
+      "chapterUrl": "//@href##$##,{webView:“true”}"
+    },
+    "searchUrl": "/search1.asp?mainlei=0&lei=0&keyword={{key}},{\n  \"charset\": \"gb2312\"\n}",
+    "weight": 0
+  }]

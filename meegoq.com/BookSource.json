@@ -1,0 +1,43 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🇨🇳Namo",
+    "bookSourceName": "米趣小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.meegoq.com",
+    "bookUrlPattern": "",
+    "customOrder": -100000,
+    "enabled": true,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "{ \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64)\"}",
+    "lastUpdateTime": 1614838328026,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.detail.0@tag.a.0@text",
+      "coverUrl": "class.cover@tag.img@src",
+      "intro": "class.desc@text##.*内容简介.",
+      "kind": "class.detail.0@tag.a.1@text",
+      "lastChapter": "class.detail.2@tag.a@text&&class.detail.1@tag.i@text##..\\:.*",
+      "name": "class.info@tag.h1@text",
+      "tocUrl": "[property=\"og:novel:read_url\"]@content"
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.a2@text",
+      "bookList": "@css:.lastest li:has(span):has(a)",
+      "bookUrl": "tag.a.0@href",
+      "kind": "class.nt@text",
+      "lastChapter": "class.c2@text&&class.t@text##..\\:.*",
+      "name": "class.n2@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.mulu@tag.li!0:1:2:3:4:5:6:7:8:9:10:11",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search.htm?keyword={{key}}&pn={{page}}",
+    "weight": 0
+  }]

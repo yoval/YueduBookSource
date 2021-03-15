@@ -1,0 +1,64 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "顶点小说 booktxt.net",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.booktxt.net/",
+    "bookUrlPattern": "",
+    "customOrder": 2,
+    "enabled": true,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "{\n     \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\"\n }",
+    "lastUpdateTime": 0,
+    "loginUrl": "https://www.booktxt.net/user/login.php",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text##作    者：",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "init": "",
+      "intro": "id.intro@tag.p@text",
+      "kind": "",
+      "lastChapter": "id.list@tag.dl@tag.dd.0",
+      "name": "id.info@tag.h1@text",
+      "tocUrl": "<js>\nvar booktxt_index = baseUrl.lastIndexOf(\"\\/\");\nbooktxt_str = baseUrl.substring(booktxt_index + 1, baseUrl.length);\nbooktxt_str1 = booktxt_str.substring(0, booktxt_str.length-3);\nif (booktxt_str1==\"\") booktxt_str1=\"0\";\n'https://www.booktxt.net/'+booktxt_str1+'_'+booktxt_str+'/'\n</js>",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.content@html##请记住本书首发域名：booktxt.net。顶点小说手机版阅读网址：m.booktxt.net",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.search-list@tag.ul@tag.li!0",
+      "bookUrl": "class.s2@tag.a@href",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "class.s2@tag.a@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dl@tag.dd!0:1:2:3:4:5",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "https://so.biqusoso.com/s1.php?ie=utf-8&siteid=booktxt.net&q={{key}}",
+    "weight": 0
+  }]

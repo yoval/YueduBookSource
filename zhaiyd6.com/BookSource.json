@@ -1,0 +1,65 @@
+[  {
+    "bookSourceComment": "\n",
+    "bookSourceGroup": "🍑耽美,🛠️待修",
+    "bookSourceName": "🍑 宅阅读[正文错误]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.zhaiyd6.com",
+    "bookUrlPattern": "",
+    "customOrder": -116159,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "❀     耽美      ❀::/list/5/{{page}}.html\n❀  耽美排行榜  ❀::https://m.zhaiyd6.com/top/5/{{page}}.html",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 1612409678575,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "class.book-info-cover@tag.img@src",
+      "init": "",
+      "intro": "class.intro-content_@text",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": "@js:\nif(baseUrl.match(/book/)){\nresult=baseUrl.replace(/\\.html/,\"_mulu.html\")\n}else{\nif(baseUrl.match(/https:\\/\\/m.zhaiyd6.com\\/art\\/.*?\\/\\d+.html/)){a=String(baseUrl).match(/(https:\\/\\/m.zhaiyd6.com\\/art\\/.*?)\\/\\d+.html/);\nresult=a[1]+\".html\"\n}else{if(String(result).match(/location.href=\"([^\"]+).html\"/)){\na=String(result).match(/location.href=\"([^\"]+).html\"/);\nresult=\"https://m.zhaiyd6.com\"+a[1]+\"_mulu.html\"}}}",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "@js:a=result.match(/initTxt\\(\"([^\"]+)\".*?\\)/)[1];\nresult=String(String(java.ajax(a)).replace(/\",\"replace\"[\\s\\S]+/g,\"\").replace(/_txt_call\\(\\{\"content\":\"\u0002/,\"\").replace(/([\\d\\w]{4})./g,\"%u$1\"));\nresult=result.replace(/[;,]%u([0-9]+)/g,\"$1\").replace(/;*\\\\n./g,\"\\n\").replace(/;*\\\\/g,\"\").replace(/%u3000/g,\"\");\nresult=unescape(result).replace(/;*%u/g,\"\").replace(/;/g,\"\")",
+      "imageStyle": "0",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "##class=\"gray\">\\((.*?)\\)##$1###",
+      "bookList": "class.row book-list@li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "",
+      "intro": "tag.p.1@text##最新章节：.*?，",
+      "kind": "",
+      "lastChapter": "##最新章节：(.*?)，##$1###",
+      "name": "##<p>\\d+\\.([^<]+) <span##$1###",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "tag.p.0@tag.a.0@text##作者：",
+      "bookList": "class.list-item",
+      "bookUrl": "class.item-text@tag.a@href",
+      "coverUrl": "",
+      "intro": "class.weui-media-box__desc@text",
+      "kind": "",
+      "lastChapter": "tag.p.0@tag.a.1@text",
+      "name": "tag.a.0@text##^\\d+\\.",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter-list@li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "isVip": "",
+      "nextTocUrl": "@js:\nlist=[];\nif(result.match(/下一页/)){\np=result.match(/mulu_(\\d+)\\.html\">尾页/)[1];\nfor(i=1;i<=p;i++){\nlist.push(baseUrl.replace(/\\.html/g,\"_\"+i+\".html\"))\n}\nlist\n}",
+      "updateTime": ""
+    },
+    "searchUrl": "/search/?type=&key={{key}}",
+    "weight": 0
+  }]

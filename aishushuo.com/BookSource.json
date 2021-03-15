@@ -1,0 +1,42 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "👍优质",
+    "bookSourceName": "👍 一手书城[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.aishushuo.com",
+    "bookUrlPattern": "",
+    "customOrder": -115021,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/xuanhuan/{{page}}/\n武侠仙侠::/wuxia/{{page}}/\n都市言情::/dushi/{{page}}/\n历史军事::/lishi/{{page}}/\n科幻灵异::/kehuan/{{page}}/\n游戏竞技::/youxi/{{page}}/\n其他类型::/qita/{{page}}/",
+    "lastUpdateTime": 1606889561637,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.p_author@tag.a.0@text",
+      "coverUrl": "class.bookleft@id.bookimg@tag.img@src",
+      "intro": "id.bookintro@tag.p.2@text",
+      "kind": "id.count@tag.span.0@text",
+      "name": "tag.h1.0@text",
+      "tocUrl": "id.button_all@tag.ul.0@tag.li.2@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text||class.bookright@tag.p.0@tag.a.0@text||tag.dd.1@tag.span.0@tag.a.0@text",
+      "bookList": "class.grid searall@tag.tr!0||id.sitebox@tag.dl",
+      "bookUrl": "class.odd.0@tag.a.0@href||tag.dd.0@tag.h3@tag.a.0@href",
+      "coverUrl": "class.bookleft@id.bookimg@tag.img@src||tag.dt.0@tag.a.0@tag.img@src",
+      "kind": "class.even.2@text||class.bookright@tag.span.0@text||tag.dd.1@tag.span.1@text",
+      "lastChapter": "class.even.0@tag.a.0@text||tag.dd.3@tag.a.0@text",
+      "name": "class.odd.0@tag.a.0@text||tag.h3.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.readerlist@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.aishushuo.com/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=articlename\"\n}",
+    "weight": 0
+  }]

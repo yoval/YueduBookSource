@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 三Z小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.3zxsw.com",
+    "bookUrlPattern": "",
+    "customOrder": -116472,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/1_{{page}}/\n武侠修真::/2_{{page}}/\n都市言情::/3_{{page}}/\n耽美同人::/5_{{page}}/\n历史军事::/7_{{page}}/\n恐怖灵异::/8_{{page}}/\n网游科幻::/9_{{page}}/\n其他类型::/10_{{page}}/\n最近更新::/lastupdate_{{page}}/\n最新更新::/postdate_{{page}}/\n总点击榜::/allvote_{{page}}/\n字数排行::/size_{{page}}/\n总收藏榜::/goodnum_{{page}}/",
+    "lastUpdateTime": 1605026203044,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.nr@textNodes",
+      "tocUrl": "@css:a:contains(开始阅读)@href"
+    },
+    "ruleContent": {
+      "content": "id.content@tag.p.0@textNodes",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.title@tag.span.0@text",
+      "bookList": "//div[@id='alistbox']",
+      "bookUrl": "text.开始阅读@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.intro@text",
+      "lastChapter": "class.sys@tag.a.0@text",
+      "name": "class.title@tag.h2@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.defaulthtml4@class.dccss",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.3zxsw.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,44 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "下载; 发现",
+    "bookSourceName": "周读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.ireadweek.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "凡人修仙::http://www.ireadweek.com/index.php?g=portal&m=list&a=index&id=2&p={{page}}\n文学 文化::/index.php?m=list&a=index&id=6&p={{page}}\n人物传记::/index.php?m=list&a=index&id=7&p={{page}}\n世界名著::/index.php?m=list&a=index&id=8&p={{page}}\n旅行 游记::/index.php?m=list&a=index&id=9&p={{page}}\n哲学与人生::/index.php?m=list&a=index&id=10&p={{page}}\n管理 创业::/index.php?m=list&a=index&id=11&p={{page}}\n心理学::/index.php?m=list&a=index&id=12&p={{page}}\n外国小说::/index.php?m=list&a=index&id=13&p={{page}}\n历史::/index.php?m=list&a=index&id=14&p={{page}}\n散文 杂文随笔::/index.php?m=list&a=index&id=15&p={{page}}\n科幻 穿越::/index.php?m=list&a=index&id=16&p={{page}}\n自传::/index.php?m=list&a=index&id=17&p={{page}}\n惊悚 冒险 推理::/index.php?m=list&a=index&id=18&p={{page}}\n小说::/index.php?m=list&a=index&id=19&p={{page}}\n保健养生::/index.php?m=list&a=index&id=21&p={{page}}\n励志 职场::/index.php?m=list&a=index&id=22&p={{page}}\n科技 互联网 计算机技术::/index.php?m=list&a=index&id=23&p={{page}}\n运动健身::/index.php?m=list&a=index&id=24&p={{page}}\n外国文学::/index.php?m=list&a=index&id=25&p={{page}}\n诺贝尔奖::/index.php?m=list&a=index&id=26&p={{page}}\n少儿::/index.php?m=list&a=index&id=27&p={{page}}\n生活::/index.php?m=list&a=index&id=28&p={{page}}\n社会 人类::/index.php?m=list&a=index&id=29&p={{page}}\n广告 营销 销售::/index.php?m=list&a=index&id=30&p={{page}}\n投资 股票 金融 经济::/index.php?m=list&a=index&id=31&p={{page}}\n爱情 职场::/index.php?m=list&a=index&id=32&p={{page}}\n绘本 漫画::/index.php?m=list&a=index&id=33&p={{page}}\n心理学::/index.php?m=list&a=index&id=34&p={{page}}\n英文原版::/index.php?m=list&a=index&id=35&p={{page}}\n艺术::/index.php?m=list&a=index&id=36&p={{page}}\n诗歌::/index.php?m=list&a=index&id=37&p={{page}}\n战争::/index.php?m=list&a=index&id=38&p={{page}}\n传统文化::/index.php?m=list&a=index&id=39&p={{page}}\n科普::/index.php?m=list&a=index&id=41&p={{page}}\n电影 剧本::/index.php?m=list&a=index&id=42&p={{page}}\n专业技术 工具书::/index.php?m=list&a=index&id=43&p={{page}}\n宗教::/index.php?m=list&a=index&id=44&p={{page}}\n青春 成长::/index.php?m=list&a=index&id=45&p={{page}}\n沟通 演讲 口才::/index.php?m=list&a=index&id=46&p={{page}}\n读书::/index.php?m=list&a=index&id=47&p={{page}}\n文学奖::/index.php?m=list&a=index&id=48&p={{page}}\n家庭 教育::/index.php?m=list&a=index&id=49&p={{page}}\n计算机技术 设计::/index.php?m=list&a=index&id=50&p={{page}}\n自我管理::/index.php?m=list&a=index&id=51&p={{page}}\n美食 厨房::/index.php?m=list&a=index&id=52&p={{page}}\n健身::/index.php?m=list&a=index&id=53&p={{page}}\n摄影::/index.php?m=list&a=index&id=54&p={{page}}\n法律::/index.php?m=list&a=index&id=55&p={{page}}\n汽车 驾驶::/index.php?m=list&a=index&id=56&p={{page}}\n戏曲::/index.php?m=list&a=index&id=57&p={{page}}\n中医::/index.php?m=list&a=index&id=58&p={{page}}\n珠宝::/index.php?m=list&a=index&id=59&p={{page}}\n英语::/index.php?m=list&a=index&id=60&p={{page}}\n咖啡 茶::/index.php?m=list&a=index&id=61&p={{page}}\n玉::/index.php?m=list&a=index&id=62&p={{page}}\n乐器::/index.php?m=list&a=index&id=63&p={{page}}\n笑话::/index.php?m=list&a=index&id=64&p={{page}}\n时尚::/index.php?m=list&a=index&id=65&p={{page}}\n财务::/index.php?m=list&a=index&id=66&p={{page}}\n逻辑学::/index.php?m=list&a=index&id=67&p={{page}}\nnull",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (iPhone; CPU iPhone OS 11_0 like Mac OS X) AppleWebKit/604.1.38 (KHTML, like Gecko) Version/11.0 Mobile/15A372 Safari/604.1\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.content@html@js:java.put(\"a\",result)"
+    },
+    "ruleContent": {
+      "content": "p@text@js:\na=java.get(\"a\");\nif(result!=null){\nif(result.match(/Empty/g)){\nresult=\"点击章节链接跳转浏览器进行下载\\n\"+baseUrl}else{\nresult=a+\"\\n\"+baseUrl;}\n}else{result=\"点击章节链接跳转浏览器进行下载\\n\"+baseUrl}"
+    },
+    "ruleExplore": {
+      "author": "##作者：([^<]+)<##$1###",
+      "bookList": "dd@a",
+      "bookUrl": "href",
+      "coverUrl": "tag.img@src",
+      "intro": "##(豆瓣评分：[^<]+)<##$1###",
+      "name": "##书名：([^<]+)##$1###"
+    },
+    "ruleSearch": {
+      "author": "##作者：([^<]+)##$1###",
+      "bookList": "dd@a",
+      "bookUrl": "href",
+      "coverUrl": "img@src",
+      "intro": "##(豆瓣评分：[^<]+)##$1###",
+      "name": "##书名：([^<]+)##$1###"
+    },
+    "ruleToc": {
+      "chapterList": "class.content&&class.pic@p@a",
+      "chapterName": "tag.p.0@text||text##书名：",
+      "chapterUrl": "||href"
+    },
+    "searchUrl": "http://www.ireadweek.com/index.php?g=portal&m=search&a=index&keyword={{key}}",
+    "weight": 0
+  }]

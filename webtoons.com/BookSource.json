@@ -1,0 +1,45 @@
+[  {
+    "bookSourceComment": "正文明文",
+    "bookSourceGroup": "🎨漫画",
+    "bookSourceName": "🎨 WebToon📱",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.webtoons.com",
+    "bookUrlPattern": "",
+    "customOrder": -115859,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 6.0; Nexus 5 Build/MRA58N) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/75.0.3770.142 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 1612114790579,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "@css:.author@text",
+      "coverUrl": "@css:#header@style@js:result.match(/\\((.*?)\\)/)[1]",
+      "intro": "@css:p.summary > span@text",
+      "kind": "@css:.genre@text",
+      "lastChapter": "@css:#_episodeList li:first-of-type p:first-of-type span@text",
+      "name": "@css:.subj@text"
+    },
+    "ruleContent": {
+      "content": "@js:eval(result.match(/(var imageList = \\[[\\s\\S]+?\\])/)[1]);\nhtml='';\nfor(i in imageList){\nhtml+='<img src=\"'+imageList[i].url+'\">'\n}\nhtml",
+      "imageStyle": "FULL",
+      "nextContentUrl": "",
+      "replaceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "@css:.author@text",
+      "bookList": "@css:._searchResultList li",
+      "bookUrl": "@css:a@href",
+      "coverUrl": "@css:.pic img@src@js:header={\"Referer\":baseUrl}\nheaders={\"headers\":JSON.stringify(header)}\nresult=result+','+JSON.stringify(headers)",
+      "name": "@css:.ellipsis@text"
+    },
+    "ruleToc": {
+      "chapterList": "-id._episodeList@li",
+      "chapterName": "@css:.sub_title@text",
+      "chapterUrl": "@css:a@href"
+    },
+    "searchUrl": "https://m.webtoons.com/zh-hant/search,{\n  \"headers\": \"{Cookie:\\\"locale=zh_TW;\\\",Referer:\\\"https://us-m.webtoons.com/zh-hant/search\\\"}\",\n  \"method\": \"POST\",\n  \"body\": \"searchType=ALL&keyword={{key}}\"\n}",
+    "weight": 0
+  }]

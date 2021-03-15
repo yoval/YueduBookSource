@@ -1,0 +1,49 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🌐外语",
+    "bookSourceName": "🌐 カクヨム",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://kakuyomu.jp",
+    "bookUrlPattern": "",
+    "customOrder": 15820,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "総合::https://kakuyomu.jp/rankings/all/weekly\n異世界ファンタジー::https://kakuyomu.jp/rankings/fantasy/weekly\nファンタジー::https://kakuyomu.jp/rankings/action/weekly\nSF::https://kakuyomu.jp/rankings/sf/weekly\n恋愛::https://kakuyomu.jp/rankings/love_story/weekly\nラブコメ::https://kakuyomu.jp/rankings/romance/weekly\n現代ドラマ::https://kakuyomu.jp/rankings/drama/weekly\nホラー::https://kakuyomu.jp/rankings/horror/weekly\nミステリー::https://kakuyomu.jp/rankings/mystery/weekly\nエッセイ・ノンフィクション::https://kakuyomu.jp/rankings/nonfiction/weekly\n歴史・時代・伝奇::https://kakuyomu.jp/rankings/history/weekly\n創作論・評論::https://kakuyomu.jp/rankings/criticism/weekly\n詩・童話・その他::https://kakuyomu.jp/rankings/others/weekly",
+    "lastUpdateTime": 0,
+    "loginUrl": "https://kakuyomu.jp/login",
+    "ruleBookInfo": {
+      "author": "//span[@id=\"workAuthor-activityName\"]//text()",
+      "intro": "//section[@id=\"description\"]/p",
+      "kind": "//li[@id=\"workGenre\"]//text()",
+      "lastChapter": "//div[contains(@class, \"widget-toc-workInfo\")]//text()",
+      "name": "//h1[@id=\"workTitle\"]//text()"
+    },
+    "ruleContent": {
+      "content": "//div[contains(@class, \"widget-episode\")]"
+    },
+    "ruleExplore": {
+      "author": "//a[@itemprop=\"author\"]//text()",
+      "bookList": "//div[contains(@class, \"widget-work\")]",
+      "bookUrl": "//a[@itemprop=\"name\"]/@href",
+      "intro": "//p[@class=\"widget-workCard-introduction\"]",
+      "kind": "//a[@itemprop=\"genre\"]//text()",
+      "lastChapter": "//span[contains(@class, \"widget-toc-workInfo\")]//text()",
+      "name": "//a[@itemprop=\"name\"]//text()"
+    },
+    "ruleSearch": {
+      "author": "//a[@itemprop=\"author\"]//text()",
+      "bookList": "//div[contains(@class, \"widget-work\")]",
+      "bookUrl": "//a[@itemprop=\"name\"]/@href",
+      "intro": "//p[@class=\"widget-workCard-introduction\"]",
+      "kind": "//a[@itemprop=\"genre\"]//text()",
+      "lastChapter": "//span[contains(@class, \"widget-workCard-status\")]/span//text()|//span[@itemprop=\"dateModified\"]/text()",
+      "name": "//a[@itemprop=\"name\"]/text()"
+    },
+    "ruleToc": {
+      "chapterList": "//div[@class=\"widget-toc-main\"]/ol/li",
+      "chapterName": "//span/text()",
+      "chapterUrl": "//a[@class=\"widget-toc-episode-episodeTitle\"]/@href"
+    },
+    "searchUrl": "/search?q={{key}}&page={{page}}",
+    "weight": 0
+  }]

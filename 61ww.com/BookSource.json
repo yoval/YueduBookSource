@@ -1,0 +1,45 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "👍优质",
+    "bookSourceName": "👍 无限小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.61ww.com",
+    "bookUrlPattern": "",
+    "customOrder": -114946,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/xuanhuan/{{page}}.html\n仙侠::/xianxia/{{page}}.html\n都市::/dushi/{{page}}.html\n军史::/junshi/{{page}}.html\n网游::/wangyou/{{page}}.html\n科幻::/kehuan/{{page}}.html\n恐怖::/kongbu/{{page}}.html\n其他::/qita/{{page}}.html\n完结::/full/{{page}}",
+    "lastUpdateTime": 1612116532939,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.bq@tag.span.1@text##作\\s*者：",
+      "coverUrl": "class.pic@tag.img@src",
+      "intro": "class.jj@text",
+      "name": "class.introduce@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "class.articlecontent@textNodes"
+    },
+    "ruleExplore": {
+      "author": "class.p1@tag.a.0@text",
+      "bookList": "class.tt",
+      "bookUrl": "class.tt@tag.a.0@href",
+      "coverUrl": "class.pic@tag.img.0@src",
+      "name": "tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0||class.fl_right@class.tt||class.main",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "coverUrl": "class.pic@tag.img@src",
+      "lastChapter": "class.even.0@tag.a.0@text",
+      "name": "class.odd.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.ml_list@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.61ww.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

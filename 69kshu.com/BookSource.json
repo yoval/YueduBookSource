@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "error:Unable to resolve host \"www.69kshu.com\": No address associated with hostname\n",
+    "bookSourceGroup": "🎉精品,失效",
+    "bookSourceName": "🎉 69书吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.69kshu.com",
+    "bookUrlPattern": "",
+    "customOrder": -32419,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1602811444975,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.author@text",
+      "coverUrl": "class.cover@tag.img@src",
+      "intro": "class.intro@tag.p.1@text",
+      "name": "class.title@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "class.content-left@html",
+      "replaceRegex": "##<!.*>"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.book",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@tag.img@src",
+      "lastChapter": "tag.p.0@tag.a@text",
+      "name": "class.book_info@tag.h2@tag.a@text##《|》"
+    },
+    "ruleToc": {
+      "chapterList": "+@js:org.jsoup.Jsoup.parse(result.replace(/\\.html/g,\"\")).select('.list dd a').toArray().sort((a,b)=>a.attr('href')-b.attr('href')).map(x=>({n:x.text(),u:x.attr('href')+\".html\"}))",
+      "chapterName": "n",
+      "chapterUrl": "u"
+    },
+    "searchUrl": "http://www.69kshu.com/modules/article/search.php?action=search&searchtype=keywords&searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

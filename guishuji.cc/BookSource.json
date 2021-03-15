@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "📚出版",
+    "bookSourceName": "📚 鬼书集",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.guishuji.cc",
+    "bookUrlPattern": "",
+    "customOrder": -24734,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "恐怖小说::https://www.guishuji.cc/kongbu/<,index_{{page}}.html>\n道士小说::https://www.guishuji.cc/daoshi/<,index_{{page}}.html>\n盗墓小说::https://www.guishuji.cc/daomu/<,index_{{page}}.html>\n言情小说::https://www.guishuji.cc/yanqing/<,index_{{page}}.html>\n都市小说::https://www.guishuji.cc/dushi/<,index_{{page}}.html>\n武侠小说::https://www.guishuji.cc/wuxia/<,index_{{page}}.html>\n科幻小说::https://www.guishuji.cc/kehuan/<,index_{{page}}.html>\n官场小说::https://www.guishuji.cc/guanchang/<,index_{{page}}.html>\n古典小说::https://www.guishuji.cc/gudian/<,index_{{page}}.html>\n网络小说::https://www.guishuji.cc/wangluo/<,index_{{page}}.html>\n外国小说::https://www.guishuji.cc/waiguo/<,index_{{page}}.html>\n现代小说::https://www.guishuji.cc/xiandai/<,index_{{page}}.html>\n儿童小说::https://www.guishuji.cc/ertong/<,index_{{page}}.html>\n国学::https://www.guishuji.cc/guoxue/<,index_{{page}}.html>\n逻辑思维::https://www.guishuji.cc/luojisiwei/<,index_{{page}}.html>\n创业小说::https://www.guishuji.cc/chuangye/<,index_{{page}}.html>\n互联网::https://www.guishuji.cc/hulianwang/<,index_{{page}}.html>\n青春小说::https://www.guishuji.cc/qingchun/<,index_{{page}}.html>\n文化小说::https://www.guishuji.cc/wenhua/<,index_{{page}}.html>\n女性小说::https://www.guishuji.cc/nvxing/<,index_{{page}}.html>\n育儿小说::https://www.guishuji.cc/yuer/<,index_{{page}}.html>\n科普小说::https://www.guishuji.cc/kepu/<,index_{{page}}.html>\n散文随笔::https://www.guishuji.cc/sanwen/<,index_{{page}}.html>\n学习小说::https://www.guishuji.cc/xuexi/<,index_{{page}}.html>\n诗集小说::https://www.guishuji.cc/xuexi1/<,index_{{page}}.html>\n心理学::https://www.guishuji.cc/xinlixue/<,index_{{page}}.html>\n旅游小说::https://www.guishuji.cc/lvyou/<,index_{{page}}.html>\n哲学小说::https://www.guishuji.cc/zhexue/<,index_{{page}}.html>\n健康与美食::https://www.guishuji.cc/jkms/<,index_{{page}}.html>\n纪实小说::https://www.guishuji.cc/jishi/<,index_{{page}}.html>\n畅销书::https://www.guishuji.cc/changxiao/<,index_{{page}}.html>\n传记小说::https://www.guishuji.cc/zhuanji/<,index_{{page}}.html>",
+    "lastUpdateTime": 1602911406530,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "@css:meta[property=\"og:novel:author\"]@content",
+      "coverUrl": "@css:meta[property=\"og:image\"]@content",
+      "intro": "class.intro@p@text##.*内容简介.*",
+      "kind": "@css:meta[property=\"og:novel:category\"]@content",
+      "lastChapter": "@css:meta[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "@css:meta[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+      "content": "id.BookText@html\n@js:String(result).replace(/<img\\s+[^>]+>/ig, '<p>〖插图，App暂不支持〗</p>');"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "id.searchText@tag.li||class.details",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@src",
+      "lastChapter": "li@tag.a.1@text",
+      "name": "h2@a@text||tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.zlb@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.guishuji.cc/e/search/index.php,{\n  \"method\": \"POST\",\n  \"body\": \"show=title&tempid=1&keyboard={{key}}\"\n}",
+    "weight": 0
+  }]

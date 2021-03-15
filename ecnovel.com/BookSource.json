@@ -1,0 +1,52 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 易成小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ecnovel.com",
+    "bookUrlPattern": "https://www.ecnovel.com/info/\\d+/\\d+/index.shtml",
+    "customOrder": -31549,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::http://www.ecnovel.com/class/class_1_{{page}}.html\n武侠仙侠::http://www.ecnovel.com/class/class_2_{{page}}.html\n都市爽文::http://www.ecnovel.com/class/class_3_{{page}}.html\n历史军事::http://www.ecnovel.com/class/class_4_{{page}}.html\n侦探推理::http://www.ecnovel.com/class/class_5_{{page}}.html\n游戏竞技::http://www.ecnovel.com/class/class_6_{{page}}.html\n科幻小说::http://www.ecnovel.com/class/class_7_{{page}}.html\n恐怖灵异::http://www.ecnovel.com/class/class_8_{{page}}.html\n经典著作::http://www.ecnovel.com/class/class_9_{{page}}.html\n古代言情::http://www.ecnovel.com/class/class_10_{{page}}.html\n现代言情::http://www.ecnovel.com/class/class_11_{{page}}.html\n幻想言情::http://www.ecnovel.com/class/class_12_{{page}}.html\n仙侠修真::http://www.ecnovel.com/class/class_13_{{page}}.html\n青春校园::http://www.ecnovel.com/class/class_14_{{page}}.html\n网游动漫::http://www.ecnovel.com/class/class_15_{{page}}.html\n科幻小说::http://www.ecnovel.com/class/class_16_{{page}}.html\n悬疑推理::http://www.ecnovel.com/class/class_17_{{page}}.html\n霸道总裁::http://www.ecnovel.com/class/class_18_{{page}}.html\n耽美小说::http://www.ecnovel.com/class/class_19_{{page}}.html\n其他类型::http://www.ecnovel.com/class/class_20_{{page}}.html",
+    "lastUpdateTime": 1601888989352,
+    "ruleBookInfo": {
+      "author": "$3",
+      "coverUrl": "$2",
+      "init": ":img alt=\"(.*?)\".*?\"(.*?)\"(?:[^>]*>){6}作者：(.*?)\\s*类别：(.*?)\\s+(?:[^>]*>){7}(.*?)<(?:[^>]*>){3}\\s*([^<]*)",
+      "intro": "$6",
+      "kind": "$4",
+      "lastChapter": "$5",
+      "name": "$1"
+    },
+    "ruleContent": {
+      "content": "id.ccontent@html"
+    },
+    "ruleExplore": {
+      "author": "$6",
+      "bookList": ":aname\".*?\"(.*?)\".*?>(.*?)<(?:[^\"]*\"){3}.*\\/(\\d+)\\/(\\d+)\\/.*?\".*?>(.*?)<(?:[^>]*>){3}作者：(.*?)\\s*类型：(.*?)<(?:[^>]*>){2}\\s*([^<]*)",
+      "bookUrl": "$1",
+      "coverUrl": "http://image.ecnovel.com/$3/$4/$4s.jpg",
+      "intro": "$8",
+      "kind": "$7",
+      "lastChapter": "$5",
+      "name": "$2"
+    },
+    "ruleSearch": {
+      "author": "$6",
+      "bookList": ":odd\".*?\"(.*?)\">(.*?)<(?:[^\"]*\"){3}.*\\/(\\d+)\\/(\\d+)\\/.*?\">(.*?)<(?:[^>]*>){3}(.*?)<(?:[^>]*>){2}(.*?)<(?:[^>]*>){2}(.*?)<(?:[^>]*>){2}(.*?)<",
+      "bookUrl": "$1",
+      "coverUrl": "http://image.ecnovel.com/$3/$4/$4s.jpg",
+      "intro": "$8",
+      "kind": "$7,$9",
+      "lastChapter": "$5",
+      "name": "$2"
+    },
+    "ruleToc": {
+      "chapterList": ":ccss\">\\s*<a.*?\"(\\/html.*?)\">(.*?)<",
+      "chapterName": "$2",
+      "chapterUrl": "$1"
+    },
+    "searchUrl": "/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

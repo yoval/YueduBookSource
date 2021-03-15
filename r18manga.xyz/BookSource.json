@@ -1,0 +1,44 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "天域战歌",
+    "bookSourceName": "瘋情漫畫🎨",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://r18manga.xyz",
+    "customOrder": 0,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "最近更新::https://r18manga.xyz/manga/<,page/{{page}}/>?m_orderby=new-manga\n最新發布::https://r18manga.xyz/manga/<,page/{{page}}/>?m_orderby=latest\n總評分榜::https://r18manga.xyz/manga/<,page/{{page}}/>?m_orderby=rating\n總趨勢榜::https://r18manga.xyz/manga/<,page/{{page}}/>?m_orderby=trending\n總瀏覽榜::https://r18manga.xyz/manga/<,page/{{page}}/>?m_orderby=views\n全部漫畫::https://r18manga.xyz/manga<,/page/{{page}}>\n人獸漫畫::https://r18manga.xyz/r18-genre/%e4%ba%ba%e7%8d%b8<,/page/{{page}}>\n偽娘漫畫::https://r18manga.xyz/r18-genre/shemale<,/page/{{page}}>\n劇情漫畫::https://r18manga.xyz/r18-genre/drama<,/page/{{page}}>\n動作漫畫::https://r18manga.xyz/r18-genre/action<,/page/{{page}}>\n卡通漫畫::https://r18manga.xyz/r18-genre/cartoon<,/page/{{page}}>\n同人誌の::https://r18manga.xyz/r18-genre/doujinshi<,/page/{{page}}>\n夢幻漫畫::https://r18manga.xyz/r18-genre/fantasy<,/page/{{page}}>\n寝取漫畫::https://r18manga.xyz/r18-genre/ntr<,/page/{{page}}>\n少女漫畫::https://r18manga.xyz/r18-genre/shoujo<,/page/{{page}}>\n少年漫畫::https://r18manga.xyz/r18-genre/shounen<,/page/{{page}}>\n巨乳漫畫::https://r18manga.xyz/r18-genre/big-breasts<,/page/{{page}}>\n強暴漫畫::https://r18manga.xyz/r18-genre/%e5%bc%b7%e6%9a%b4<,/page/{{page}}>\n彩色漫畫::https://r18manga.xyz/r18-genre/coloured-manga<,/page/{{page}}>\n後宮漫畫::https://r18manga.xyz/r18-genre/harem<,/page/{{page}}>\n心裡漫畫::https://r18manga.xyz/r18-genre/psychological<,/page/{{page}}>\n性教漫畫::https://r18manga.xyz/r18-genre/sex-education<,/page/{{page}}>\n恐怖漫畫::https://r18manga.xyz/r18-genre/horror<,/page/{{page}}>\n成人漫畫::https://r18manga.xyz/r18-genre/adult<,/page/{{page}}>\n探險漫畫::https://r18manga.xyz/r18-genre/adventure<,/page/{{page}}>\n搞笑漫畫::https://r18manga.xyz/r18-genre/comedy<,/page/{{page}}>\n日本動畫::https://r18manga.xyz/r18-genre/anime<,/page/{{page}}>\n束缚漫畫::https://r18manga.xyz/r18-genre/bondage<,/page/{{page}}>\n校園生活::https://r18manga.xyz/r18-genre/school-life<,/page/{{page}}>\n歐美漫畫::https://r18manga.xyz/r18-genre/manga<,/page/{{page}}>\n武術漫畫::https://r18manga.xyz/r18-genre/martial-arts<,/page/{{page}}>\n歷史漫畫::https://r18manga.xyz/r18-genre/historical<,/page/{{page}}>\n浪漫漫畫::https://r18manga.xyz/r18-genre/romance<,/page/{{page}}>\n淫亂漫畫::https://r18manga.xyz/r18-genre/smut<,/page/{{page}}>\n港台漫畫::https://r18manga.xyz/r18-genre/manhwa<,/page/{{page}}>\n滑稽漫畫::https://r18manga.xyz/r18-genre/comic<,/page/{{page}}>\n災難漫畫::https://r18manga.xyz/r18-genre/tragedy<,/page/{{page}}>\n熟女漫畫::https://r18manga.xyz/r18-genre/mature<,/page/{{page}}>\n生活片段::https://r18manga.xyz/r18-genre/slice-of-life<,/page/{{page}}>\n百合漫畫::https://r18manga.xyz/r18-genre/yuri<,/page/{{page}}>\n神秘漫畫::https://r18manga.xyz/r18-genre/mystery<,/page/{{page}}>\n耽美漫畫::https://r18manga.xyz/r18-genre/yaoi<,/page/{{page}}>\n肛門漫畫::https://r18manga.xyz/r18-genre/anal<,/page/{{page}}>\n超能漫畫::https://r18manga.xyz/r18-genre/supernatural<,/page/{{page}}>\n近親漫畫::https://r18manga.xyz/r18-genre/family<,/page/{{page}}>\n運動漫畫::https://r18manga.xyz/r18-genre/sports<,/page/{{page}}>\n韓國漫畫::https://r18manga.xyz/r18-genre/webtoon<,/page/{{page}}>",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36\"\n}",
+    "lastUpdateTime": 1604411802952,
+    "ruleBookInfo": {
+      "author": "class.author-content@a@text",
+      "coverUrl": "class.summary_image@img@src##\\?fit=.*",
+      "intro": "class.genres-content@text",
+      "lastChapter": "class.wp-manga-chapter.0@a@text##【.*】|、完本.*|、單行本.*",
+      "name": "h1@textNodes##【.*】",
+      "tocUrl": "id.manga-chapters-holder@data-id##(\\d+)##https://r18manga.xyz/wp-admin/admin-ajax.php@action=manga_get_chapters&manga=$1"
+    },
+    "ruleContent": {
+      "content": "class.reading-content@img@src@js:\nlist=result.split(\"\\n\");\nheader={\"Referer\":baseUrl};\nheaders={\"headers\":JSON.stringify(header)}\nhtml='';\nfor(i in list){\nhtml+='<img src=\"'+list[i]+','+JSON.stringify(headers)+'\">'\n}\nhtml",
+      "imageStyle": "FULL",
+      "nextContentUrl": "option@data-redirect"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.col-12 col-md-6 badge-pos-1||class.row c-tabs-item__content",
+      "bookUrl": "h3@a@href",
+      "coverUrl": "img@src##\\?fit=.*",
+      "intro": "class.chapter font-meta.0@a@text##【|】.*",
+      "kind": "h3@span@text",
+      "lastChapter": "class.chapter font-meta.0@a@text##【.*】|、完本.*|、單行本.*",
+      "name": "h3@a@text##《|》|【.*】",
+      "wordCount": "class.post-on font-meta@text"
+    },
+    "ruleToc": {
+      "chapterList": "-class.wp-manga-chapter@a",
+      "chapterName": "text##【.*】|、完本.*|、單行本.*",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://r18manga.xyz/?s={{key}}&post_type=wp-manga",
+    "weight": 0
+  }]

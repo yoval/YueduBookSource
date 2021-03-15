@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "B级; 18; 登录",
+    "bookSourceName": "UPU小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.upuxs8.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "https://www.upuxs8.com/login.php",
+    "ruleBookInfo": {
+      "author": "id.writer@text",
+      "intro": "id.des@text",
+      "name": "id.bookinfo-right@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@tag.p@text"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.dt@tag.span.1@text||tag.dt@tag.span.0@text##/",
+      "bookList": "class.item",
+      "bookUrl": "tag.dt@tag.a@href",
+      "coverUrl": "class.image@tag.img@src",
+      "lastChapter": "tag.li.0@text",
+      "name": "tag.dt@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.upuxs8.com/search.php?q={{key}}",
+    "weight": 0
+  }]

@@ -1,0 +1,56 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 啃书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.kenshuzw.com",
+    "bookUrlPattern": "",
+    "customOrder": -115472,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "【连载】::\n玄幻::/xuanhuan/lianzai/{{page}}/\n武侠::/wuxia/lianzai/{{page}}/\n言情::/yanqing/lianzai/{{page}}/\n历史::/lishi/lianzai/{{page}}/\n科幻::/kehuan/lianzai/{{page}}/\n恐怖::/kongbu/lianzai/{{page}}/\n女生::/nvsheng/lianzai/{{page}}/\n【完本】::\n玄幻::/xuanhuan/quanben/{{page}}/\n武侠::/wuxia/quanben/{{page}}/\n言情::/yanqing/quanben/{{page}}/\n历史::/lishi/quanben/{{page}}/\n科幻::/kehuan/quanben/{{page}}/\n恐怖::/kongbu/quanben/{{page}}/\n女生::/nvsheng/quanben/{{page}}/",
+    "lastUpdateTime": 1608553144342,
+    "loginUrl": "http://www.kenshuzw.com/login.php",
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content##小说",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##正文.",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "text.查看目录@href",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "class.article-con@textNodes",
+      "imageStyle": "0",
+      "replaceRegex": "##无弹窗小说网|最新章节阅读"
+    },
+    "ruleExplore": {
+      "bookList": "class.box",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img@data-original",
+      "intro": "tag.span@text",
+      "kind": "tag.p.0@text##\\[|\\].*",
+      "lastChapter": "tag.a.2@text##正文.",
+      "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+      "author": "tag.p.0@text##.*：",
+      "bookList": "class.item",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img@src",
+      "intro": "tag.p.1@text",
+      "kind": "tag.p.2@text##.*：",
+      "lastChapter": "",
+      "name": "tag.a.1@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter-list@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/modules/article/search.php?searchkey={{key}}",
+    "weight": 0
+  }]

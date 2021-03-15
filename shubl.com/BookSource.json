@@ -1,0 +1,51 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "💵正版,🍑耽美",
+    "bookSourceName": "💵 书耽",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.shubl.com",
+    "bookUrlPattern": "",
+    "customOrder": -117503,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "签约::/index/filter_book_list?tag=%E7%AD%BE%E7%BA%A6&tag_module=signed&page={{page}}\n完本::/index/filter_book_list?tag=%E5%AE%8C%E6%9C%AC&tag_module=ended&page={{page}}\n甜文::/index/filter_book_list?tag=%E7%94%9C%E6%96%87&tag_module=&page={{page}}\n爽文::/index/filter_book_list?tag=%E7%88%BD%E6%96%87&tag_module=&page={{page}}\nＨＥ::/index/filter_book_list?tag=HE&tag_module=&page={{page}}\nＢＥ::/index/filter_book_list?tag=BE&tag_module=&page={{page}}\n快穿::/index/filter_book_list?tag=%E5%BF%AB%E7%A9%BF&tag_module=&page={{page}}\n青春::/index/filter_book_list?tag=%E9%9D%92%E6%98%A5&tag_module=&page={{page}}\n校园::/index/filter_book_list?tag=%E6%A0%A1%E5%9B%AD&tag_module=&page={{page}}\n百合::/index/filter_book_list?tag=%E7%99%BE%E5%90%88&tag_module=&page={{page}}\n科幻::/index/filter_book_list?tag=%E7%A7%91%E5%B9%BB&tag_module=&page={{page}}\n古代::/index/filter_book_list?tag=%E5%8F%A4%E4%BB%A3&tag_module=&page={{page}}\n民国::/index/filter_book_list?tag=%E6%B0%91%E5%9B%BD&tag_module=&page={{page}}\n现代::/index/filter_book_list?tag=%E7%8E%B0%E4%BB%A3&tag_module=&page={{page}}\n都市::/index/filter_book_list?tag=%E9%83%BD%E5%B8%82&tag_module=&page={{page}}\n武侠::/index/filter_book_list?tag=%E6%AD%A6%E4%BE%A0&tag_module=&page={{page}}\n仙侠::/index/filter_book_list?tag=%E4%BB%99%E4%BE%A0&tag_module=&page={{page}}\n玄幻::/index/filter_book_list?tag=%E7%8E%84%E5%B9%BB&tag_module=&page={{page}}\n架空::/index/filter_book_list?tag=%E6%9E%B6%E7%A9%BA&tag_module=&page={{page}}\n穿越::/index/filter_book_list?tag=%E7%A9%BF%E8%B6%8A&tag_module=&page={{page}}\n重生::/index/filter_book_list?tag=%E9%87%8D%E7%94%9F&tag_module=&page={{page}}\n动漫::/index/filter_book_list?tag=%E5%8A%A8%E6%BC%AB&tag_module=&page={{page}}\n网游::/index/filter_book_list?tag=%E7%BD%91%E6%B8%B8&tag_module=&page={{page}}\n悬疑::/index/filter_book_list?tag=%E6%82%AC%E7%96%91&tag_module=&page={{page}}\n灵异::/index/filter_book_list?tag=%E7%81%B5%E5%BC%82&tag_module=&page={{page}}\n同人榜::/index/rank_book/tongren\n月票榜::/index/rank_book/yp\n催更榜::/index/rank_book/blade\n新书榜::/index/rank_book/yp_new\n更新榜::/index/rank_book/word_count\n推荐榜::/index/rank_book/recommend\n收藏榜::/index/rank_book/favor\n畅销榜::/index/rank_book/fans_value\n点击榜::/index/rank_book/click",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 5.0; SM-G900P Build/LRX21T) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 1608042683286,
+    "loginUrl": "https://m.shubl.com/signup/login?redirect=https%3A%2F%2Fm.shubl.com%2Freader%2Fget_my_info",
+    "ruleBookInfo": {
+      "author": "class.author@tag.a.0@text##\\|.*",
+      "coverUrl": "id.book_info@tag.img@data-original",
+      "intro": "class.text-muted J_DescContent@text",
+      "kind": "class.J_Tag btn btn-mini btn-outline-primary@text",
+      "name": "class.info@tag.a.0@text",
+      "tocUrl": "class.container.1@tag.a@href",
+      "wordCount": "class.numbers@tag.span.0@text"
+    },
+    "ruleContent": {
+      "content": "id.J_BookRead@html",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "name": ""
+    },
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "class.book-list@tag.li",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "class.lazyload@data-original",
+      "intro": "class.summaries@text",
+      "name": "class.title@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list@tag.li",
+      "chapterName": "tag.a@class.chapter-title@text",
+      "chapterUrl": "tag.a@href##$##,{\"webView\":true}"
+    },
+    "searchUrl": "/index/search_book?key={{key}}",
+    "weight": 0
+  }]

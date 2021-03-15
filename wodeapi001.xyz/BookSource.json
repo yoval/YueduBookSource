@@ -1,0 +1,35 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "A级; R18; 发现",
+    "bookSourceName": "941小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://gnr.wodeapi001.xyz",
+    "bookUrlPattern": ".*",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "校园::http://gnr.wodeapi001.xyz/941novel.php?method=novelList&categoryLink=http://941novel.com/archives/category/%e3%80%90%e7%b6%9c%e5%90%88%e6%88%90%e4%ba%ba%e6%96%87%e5%ad%b8%e3%80%91/%e6%a0%a1%e5%9c%92%e5%b8%ab%e7%94%9f%e7%b3%bb%e5%88%97&page={{page}}\n日常::http://gnr.wodeapi001.xyz/941novel.php?method=novelList&categoryLink=http://941novel.com/archives/category/%e3%80%90%e7%b6%9c%e5%90%88%e6%88%90%e4%ba%ba%e6%96%87%e5%ad%b8%e3%80%91/%e6%97%a5%e5%b8%b8%e7%94%9f%e6%b4%bb%e7%b3%bb%e5%88%97&page={{page}}\n人妻::http://gnr.wodeapi001.xyz/941novel.php?method=novelList&categoryLink=http://941novel.com/archives/category/%e3%80%90%e7%b6%9c%e5%90%88%e6%88%90%e4%ba%ba%e6%96%87%e5%ad%b8%e3%80%91/%e4%ba%ba%e5%a6%bb%e7%86%9f%e5%a5%b3%e7%b3%bb%e5%88%97&page={{page}}\n武侠::http://gnr.wodeapi001.xyz/941novel.php?method=novelList&categoryLink=http://941novel.com/archives/category/%e3%80%90%e7%b6%9c%e5%90%88%e6%88%90%e4%ba%ba%e6%96%87%e5%ad%b8%e3%80%91/%e7%8e%84%e5%b9%bb%e6%ad%a6%e4%bf%a0%e7%b3%bb%e5%88%97&page={{page}}\n科幻::http://gnr.wodeapi001.xyz/941novel.php?method=novelList&categoryLink=http://941novel.com/archives/category/%e3%80%90%e7%b6%9c%e5%90%88%e6%88%90%e4%ba%ba%e6%96%87%e5%ad%b8%e3%80%91/%e7%a7%91%e5%b9%bb%e5%8a%87%e6%83%85%e7%b3%bb%e5%88%97&page={{page}}\n不伦::http://gnr.wodeapi001.xyz/941novel.php?method=novelList&categoryLink=http://941novel.com/archives/category/%e3%80%90%e7%b6%9c%e5%90%88%e6%88%90%e4%ba%ba%e6%96%87%e5%ad%b8%e3%80%91/%e4%b8%8d%e5%80%ab%e6%88%80%e6%9b%b2%e7%b3%bb%e5%88%97&page={{page}}\n凌辱::http://gnr.wodeapi001.xyz/941novel.php?method=novelList&categoryLink=http://941novel.com/archives/category/%e3%80%90%e7%b6%9c%e5%90%88%e6%88%90%e4%ba%ba%e6%96%87%e5%ad%b8%e3%80%91/%e5%87%8c%e8%be%b1%e8%aa%bf%e6%95%99%e7%b3%bb%e5%88%97&page={{page}}\n分享::http://gnr.wodeapi001.xyz/941novel.php?method=novelList&categoryLink=http://941novel.com/archives/category/%e3%80%90%e7%b6%9c%e5%90%88%e6%88%90%e4%ba%ba%e6%96%87%e5%ad%b8%e3%80%91/%e7%b6%93%e9%a9%97%e5%88%86%e4%ba%ab%e7%b3%bb%e5%88%97&page={{page}}\n其他::http://gnr.wodeapi001.xyz/941novel.php?method=novelList&categoryLink=http://941novel.com/archives/category/%e3%80%90%e7%b6%9c%e5%90%88%e6%88%90%e4%ba%ba%e6%96%87%e5%ad%b8%e3%80%91/%e5%85%b6%e4%bb%96%e9%a1%9e%e5%88%a5%e7%b3%bb%e5%88%97&page={{page}}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "@js:\"  书源说明：将搜索或发现的每个结果页作为一本书，书名为第一篇文章名。\"",
+      "kind": "$.novelList[0].subCategoryName@js:String(result).replace(\"系列\",\"\")",
+      "name": "$.novelList[0].novelName@js:result.replace(/–.*/g,\"\")"
+    },
+    "ruleContent": {
+      "content": "$.detail@js:result.replace(/\\s{4,}/g,\"\\n\")"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "intro": "@js:\"  书源说明：将搜索或发现的每个结果页作为一本书，书名为第一篇文章名。\"",
+      "kind": "$.novelList[0].subCategoryName@js:String(result).replace(\"系列\",\"\")",
+      "name": "$.novelList[0].novelName@js:result.replace(/–.*/g,\"\")"
+    },
+    "ruleToc": {
+      "chapterList": "-$.novelList",
+      "chapterName": "$.novelName@js:result.replace(/–.*/g,\"\")",
+      "chapterUrl": "http://gnr.wodeapi001.xyz/941novel.php?method=novel&novelLink={$.novelLink}"
+    },
+    "searchUrl": "http://gnr.wodeapi001.xyz/941novel.php?method=search&keyword={{key}}&page={{page}}",
+    "weight": 0
+  }]

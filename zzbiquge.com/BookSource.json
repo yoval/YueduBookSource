@@ -1,0 +1,43 @@
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": "👍优质,失效",
+    "bookSourceName": "👍 笔趣阁zzbiquge.com",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.zzbiquge.com",
+    "bookUrlPattern": "",
+    "customOrder": 15933,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "@css:[property=og:novel:author]@content",
+      "coverUrl": "@css:[property=og:image]@content",
+      "intro": "##简介：(?:[^>]*>){2}([^<]*)<b##$1###",
+      "kind": "@css:[property=og:novel:category]@content",
+      "lastChapter": "@css:[property=og:novel:latest_chapter_name]@content",
+      "name": "@css:[property=og:title]@content"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##亲，本章[未已]完，(还有下一页哦|祝您阅读愉快！)\\^0\\^|一秒记住【笔趣阁.www.*?com】",
+      "nextContentUrl": "text.下一页.0@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$5",
+      "bookList": ":id=\"nr\"(?:[^\"]*\"){3}[^\"]*\\/(\\d+)_(\\d+)(?:[^>]*>)([^<]*)(?:[^>]*>){4}([^<]*)(?:[^>]*>){3}([^<]*)(?:[^>]*>){2}([^<]*)(?:[^>]*>){2}([^<]*)(?:[^>]*>){2}([^<]*)<\\/td>",
+      "bookUrl": "/$1_$2/",
+      "coverUrl": "https://image.36xsw.com/$1/$2/$2s.jpg",
+      "kind": "$8,$6,$7",
+      "lastChapter": "$4",
+      "name": "$3"
+    },
+    "ruleToc": {
+      "chapterList": "+id.list@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.zzbiquge.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

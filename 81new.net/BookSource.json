@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "👍优质",
+    "bookSourceName": "👍 新八一中文网81new.net",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.81new.net",
+    "bookUrlPattern": "",
+    "customOrder": 15870,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.pic@tag.img@src",
+      "intro": "class.catalog@tag.p.2@text",
+      "name": "class.introduce@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "class.articlecontent@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text||class.catalog@tag.p.1@tag.span.1@text",
+      "bookList": "class.grid@tag.tr!0||class.main",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "coverUrl": "class.catalog@tag.img@src",
+      "kind": "class.even.2@text||class.catalog@tag.p.1@tag.span.2@text##状态：",
+      "lastChapter": "class.even.0@tag.a.0@text||class.ml_content@tag.ul.0@tag.li.0@tag.a.0@text",
+      "name": "class.odd.0@tag.a.0@text||class.catalog@tag.h1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.ml_list@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.81new.net/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&submit=点击搜索\"\n}",
+    "weight": 0
+  }]

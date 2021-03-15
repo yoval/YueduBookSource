@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "error:Unable to resolve host \"www.zhuishubang.me\": No address associated with hostname\n",
+    "bookSourceGroup": "🍑耽美,失效",
+    "bookSourceName": "🍑 追书帮",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.zhuishubang.me",
+    "bookUrlPattern": "",
+    "customOrder": -31193,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.bookPhr@tag.dd.0@text##作\\s*者：",
+      "coverUrl": "class.bookImg@tag.img@src",
+      "intro": "class.introCon@tag.p@text",
+      "name": "class.bookPhr@tag.h2@text"
+    },
+    "ruleContent": {
+      "content": "class.articleCon@tag.p@html##【追书帮】提醒各位.*",
+      "imageStyle": "0",
+      "replaceRegex": "##天才一秒记住.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "kind": "class.even.2@text",
+      "lastChapter": "class.even.0@tag.a.0@text",
+      "name": "class.odd.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "-class.chapterCon@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.zhuishubang.me/modules/article/search.php?searchtype=articlename&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

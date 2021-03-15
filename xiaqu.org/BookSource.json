@@ -1,0 +1,53 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 八月文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xiaqu.org",
+    "customOrder": -115198,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/shu/1-default-0-0-0-0-2-0-{{page}}.html\n仙侠::/shu/2-default-0-0-0-0-2-0-{{page}}.html\n都市::/shu/3-default-0-0-0-0-2-0-{{page}}.html\n军史::/shu/4-default-0-0-0-0-2-0-{{page}}.html\n网游::/shu/5-default-0-0-0-0-2-0-{{page}}.html\n科幻::/shu/6-default-0-0-0-0-2-0-{{page}}.html\n灵异::/shu/7-default-0-0-0-0-2-0-{{page}}.html\n其他::/shu/8-default-0-0-0-0-2-0-{{page}}.html",
+    "lastUpdateTime": 1604059363932,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "class.bookinfo_intro@text##.*简介.|您要是觉得.*",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##小说|\\s.*",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content##\\《|\\》",
+      "tocUrl": "href##$##$,{\"webView\":true}"
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@html##阅读.*最新章节.*|\\(第.*页\\)|ＷＷw．８Ｙｕｅ.ＯRG",
+      "imageStyle": "0",
+      "nextContentUrl": "class.next pager_next@tag.a@href"
+    },
+    "ruleExplore": {
+      "author": "tag.span.1@text",
+      "bookList": "class.sitebox@tag.dl",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "tag.dd.2@text",
+      "kind": "tag.span.0@text##\\s.*",
+      "lastChapter": "tag.a.2@text",
+      "name": "tag.a.1@text##\\《|\\》"
+    },
+    "ruleSearch": {
+      "author": "class.s3l@text",
+      "bookList": "class.toplist@tag.li",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.a.0@href##.*/(\\d+)/(\\d+).*##/files/article/image/$1/$2/$2s.jpg",
+      "kind": "class.s5l@text&&class.s6l@text##\\s.*",
+      "lastChapter": "class.s2l@text",
+      "name": "class.s1l@tag.a@text##\\《|\\》",
+      "wordCount": "class.s4l@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.newlist@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=articlename&searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

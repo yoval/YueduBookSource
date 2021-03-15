@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "error:Unable to resolve host \"m.comic.oacg.cn\": No address associated with hostname\n",
+    "bookSourceGroup": "🎨漫画,失效",
+    "bookSourceName": "🎨 国漫acgg",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.comic.oacg.cn",
+    "bookUrlPattern": "",
+    "customOrder": -31314,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "恋爱::http://comic.oacg.cn/index.php?m=Index&a=get_topic_comic,{\"method\": \"POST\",\"body\": \"page={{page-1}}&size=12&topic_id=1\"}\n逗比::http://comic.oacg.cn/index.php?m=Index&a=get_topic_comic,{\"method\": \"POST\",\"body\": \"page={{page-1}}&size=12&topic_id=2\"}\n奇幻::http://comic.oacg.cn/index.php?m=Index&a=get_topic_comic,{\"method\": \"POST\",\"body\": \"page={{page-1}}&size=12&topic_id=3\"}\n动作::http://comic.oacg.cn/index.php?m=Index&a=get_topic_comic,{\"method\": \"POST\",\"body\": \"page={{page-1}}&size=12&topic_id=4\"}\n科幻::http://comic.oacg.cn/index.php?m=Index&a=get_topic_comic,{\"method\": \"POST\",\"body\": \"page={{page-1}}&size=12&topic_id=5\"}\n生活::http://comic.oacg.cn/index.php?m=Index&a=get_topic_comic,{\"method\": \"POST\",\"body\": \"page={{page-1}}&size=12&topic_id=6\"}\n后宫::http://comic.oacg.cn/index.php?m=Index&a=get_topic_comic,{\"method\": \"POST\",\"body\": \"page={{page-1}}&size=12&topic_id=7\"}\n治愈::http://comic.oacg.cn/index.php?m=Index&a=get_topic_comic,{\"method\": \"POST\",\"body\": \"page={{page-1}}&size=12&topic_id=8\"}\n悬疑::http://comic.oacg.cn/index.php?m=Index&a=get_topic_comic,{\"method\": \"POST\",\"body\": \"page={{page-1}}&size=12&topic_id=9\"}\n恐怖::http://comic.oacg.cn/index.php?m=Index&a=get_topic_comic,{\"method\": \"POST\",\"body\": \"page={{page-1}}&size=12&topic_id=10\"}\n古风::http://comic.oacg.cn/index.php?m=Index&a=get_topic_comic,{\"method\": \"POST\",\"body\": \"page={{page-1}}&size=12&topic_id=11\"}\n耽美::http://comic.oacg.cn/index.php?m=Index&a=get_topic_comic,{\"method\": \"POST\",\"body\": \"page={{page-1}}&size=12&topic_id=12\"}\n少年::http://comic.oacg.cn/index.php?m=Index&a=get_topic_comic,{\"method\": \"POST\",\"body\": \"page={{page-1}}&size=12&topic_id=13\"}\n少女::http://comic.oacg.cn/index.php?m=Index&a=get_topic_comic,{\"method\": \"POST\",\"body\": \"page={{page-1}}&size=12&topic_id=14\"}\n校园::http://comic.oacg.cn/index.php?m=Index&a=get_topic_comic,{\"method\": \"POST\",\"body\": \"page={{page-1}}&size=12&topic_id=15\"}\n热血::http://comic.oacg.cn/index.php?m=Index&a=get_topic_comic,{\"method\": \"POST\",\"body\": \"page={{page-1}}&size=12&topic_id=16\"}\n都市::http://comic.oacg.cn/index.php?m=Index&a=get_topic_comic,{\"method\": \"POST\",\"body\": \"page={{page-1}}&size=12&topic_id=17\"}\n战争::http://comic.oacg.cn/index.php?m=Index&a=get_topic_comic,{\"method\": \"POST\",\"body\": \"page={{page-1}}&size=12&topic_id=18\"}",
+    "lastUpdateTime": 1603283507003,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.works-intro-text@tag.p.1@text",
+      "kind": "id.is_over@text",
+      "lastChapter": "id.new-order@text"
+    },
+    "ruleContent": {
+      "content": ":_S001_HCpKMOGz8xvku3mgz1hYPXzmREF62wURkdjcwCRtSu61H+aRR+I8caDaxzDefwx1\n"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "@JSon:$.author.name",
+      "bookList": "@JSon:$.data.content.*||$.data.*",
+      "bookUrl": "http://comic.oacg.cn/index.php?m=Index&a=comicinfo&comic_id={$.id}",
+      "coverUrl": "@JSon:$.resource",
+      "lastChapter": "@JSon:$.numberOfChapter",
+      "name": "@JSon:$.name"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter-page-all works-chapter-list@tag.span",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://m.comic.oacg.cn/comic_channel.php?m=index&a=serach_like,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&page=0&size=99\"\n}",
+    "weight": 0
+  }]

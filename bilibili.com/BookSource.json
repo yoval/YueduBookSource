@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎨漫画",
+    "bookSourceName": "🎨 哔哩哔哩漫画",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://manga.bilibili.com",
+    "customOrder": -115819,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "",
+    "lastUpdateTime": 1610088389557,
+    "loginUrl": "https://www.bilibili.com",
+    "ruleBookInfo": {
+      "intro": "$..evaluate",
+      "lastChapter": ""
+    },
+    "ruleContent": {
+      "content": "<js>\n//获取图像token\nfunction getImageToken(path){\nlet a={\n  urls: '[\\\"'+path+\"@748w.jpg\"+'\\\"]'\n},\nb={\n\"method\": \"POST\",\n\"body\": JSON.stringify(a),\n\"headers\": {\"Referer\":\"https://manga.bilibili.com/mc\"+java.get(\"bid\")+\"/\"+java.get(\"epid\")+\"?from=manga_detail\"}\n}\n\nURL=\"https://manga.bilibili.com/twirp/comic.v1.Comic/ImageToken?device=pc&platform=web,\"+JSON.stringify(b);\njava.setContent(java.ajax(URL));\nurl=java.getString(\"$..url\",false);\ntoken=java.getString(\"$..token\",false);\nreturn url+\"?token=\"+token\n}\n\nb={\n\"headers\": {\"Referer\":\"https://manga.bilibili.com/mc\"+java.get(\"bid\")+\"/\"+java.get(\"epid\")+\"?from=manga_detail\"}\n}\n//加了不会有水印??\n\njava.getStringList(\"$.data.images[*].path\",false).toArray().map(path=>{\nreturn '<img src=\"'+getImageToken(path)+\",\"+JSON.stringify(b)+'\">'\n}).join(\"\\n\")\n</js>",
+      "imageStyle": "full"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$.author_name",
+      "bookList": "$..list[*]",
+      "bookUrl": "$.id\n<js>\nbid=result;\njava.put(\"bid\",bid);\nlet a={\"comic_id\":bid},\nb={\n\"method\": \"POST\",\n\"body\": JSON.stringify(a),\n\"headers\": {\"Referer\":\"https://manga.bilibili.com/detail/mc\"+bid+\"?from=manga_serach\"}\n}\n\n\"/twirp/comic.v1.Comic/ComicDetail?device=pc&platform=web,\"+JSON.stringify(b)\n</js>",
+      "coverUrl": "$.vertical_cover",
+      "kind": "$.styles",
+      "name": "$.org_title||$.title##<.*?>",
+      "wordCount": "$.is_finish@js:/0/.test(result)?\"连载\":\"完结\""
+    },
+    "ruleToc": {
+      "chapterList": "-$..ep_list[*]",
+      "chapterName": "$.short_title",
+      "chapterUrl": "$.id\n<js>\nepid=result;\njava.put(\"epid\",epid);\nlet a={\"ep_id\":epid},\nb={\n\"method\": \"POST\",\n\"body\": JSON.stringify(a),\n\"headers\": {\"Referer\":\"https://manga.bilibili.com/mc\"+java.get(\"bid\")+\"/\"+epid+\"?from=manga_detail\"}\n}\n\n\"/twirp/comic.v1.Comic/GetImageIndex?device=pc&platform=web,\"+JSON.stringify(b)\n</js>",
+      "isVip": "$.is_locked",
+      "updateTime": "$.pub_time"
+    },
+    "searchUrl": "<js>\n\nlet a={\"key_word\":key,\"page_num\":1,\"page_size\":9},\nc={\"Referer\":\"https://manga.bilibili.com/search?from=manga_homepage&keyword=\"+encodeURIComponent(key)}\nb={\n\"method\": \"POST\",\n\"body\": JSON.stringify(a),\n\"headers\": JSON.stringify(c)\n}\n\n\"/twirp/comic.v1.Comic/Search?device=pc&platform=web,\"+JSON.stringify(b)\n</js>",
+    "weight": 0
+  }]

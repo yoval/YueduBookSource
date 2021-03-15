@@ -1,0 +1,36 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "C级; 网络",
+    "bookSourceName": "米兔小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.m2m2.net",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "tocUrl": "text.查看目录@href"
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@tag.p@text##Google 文章.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.pt-ll-r@tag.a.1@text",
+      "bookList": "class.librarylist@tag.li",
+      "bookUrl": "class.pt-ll-l@tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "intro": "tag.p.1@text",
+      "kind": "class.pt-ll-r@tag.a.2@text",
+      "name": "class.novelname@text"
+    },
+    "ruleToc": {
+      "chapterList": "+class.dirlist three clearfix@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.m2m2.net/search.html?keyword={{key}}",
+    "weight": 0
+  }]

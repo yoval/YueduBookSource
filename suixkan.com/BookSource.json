@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🌸常用",
+    "bookSourceName": "🌸 随心看",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.suixkan.com",
+    "customOrder": -117034,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1606746887765,
+    "ruleBookInfo": {
+      "lastChapter": "class.chapter-entrance@text",
+      "tocUrl": "class.sumchapter@a@href"
+    },
+    "ruleContent": {
+      "content": "class.con@html",
+      "nextContentUrl": "",
+      "replaceRegex": "##\\s*.*?本章.*?完.*\\s*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": ".v-author@text",
+      "bookList": "class.v-list-item",
+      "bookUrl": "##=\"newWebView\\('([^']+)'##$1###",
+      "coverUrl": "img@src",
+      "intro": ".v-intro@text",
+      "kind": "tag.div.-1@text",
+      "lastChapter": "##=\"newWebView\\('([^']+)'##$1###\n<js>java.ajax('https://m.suixkan.com'+result)</js>\nclass.chapter-entrance@text",
+      "name": ".v-title@text",
+      "wordCount": ".v-words@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.catalog_ls@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://m.suixkan.com/s/1.html?keyword={{key}}",
+    "weight": 0
+  }]

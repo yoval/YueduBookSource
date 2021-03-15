@@ -1,0 +1,59 @@
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "📻有声,失效",
+    "bookSourceName": "📻 乾坤听书",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://www.qktsw.com",
+    "bookUrlPattern": "",
+    "customOrder": -31447,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "恐怖::/youshengxiaoshuo/kongbu<,-{{page}}>.html\n惊悚::/youshengxiaoshuo/jingsong<,-{{page}}>.html\n武侠::/youshengxiaoshuo/wuxia<,-{{page}}>.html\n推理::/youshengxiaoshuo/tuili<,-{{page}}>.html\n历史::/youshengxiaoshuo/lishi<,-{{page}}>.html\n军事::/youshengxiaoshuo/junshi<,-{{page}}>.html\n玄幻:/youshengxiaoshuo/xuanhuan<,-{{page}}>.html\n言情::/youshengxiaoshuo/yanqing<,-{{page}}>.html\n都市::/youshengxiaoshuo/dushi<,-{{page}}>.html\n科幻::/youshengxiaoshuo/kehuan<,-{{page}}>.html\n穿越::/youshengxiaoshuo/chuanyue<,-{{page}}>.html\n网游::/youshengxiaoshuo/wangyou<,-{{page}}>.html\n经典::/youshengxiaoshuo/jingdian<,-{{page}}>.html\n财经::/youshengxiaoshuo/caijing<,-{{page}}>.html\n粤语::/youshengxiaoshuo/yueyu<,-{{page}}>.html\n管理::/renwenkexue/guanli<,-{{page}}>.html\n人文::/renwenkexue/renwen<,-{{page}}>.html\n史学::/renwenkexue/shixue<,-{{page}}>.html\n励志::/renwenkexue/lizhi<,-{{page}}>.html\n佛学::/renwenkexue/foxue<,-{{page}}>.html\n瑜伽::/tingbook/10.html\n广场舞::/tingbook/9.html\n健身舞::/tingbook/11.html\n广播剧::/youshengxiaoshuo/guangboju<,-{{page}}>.html\n教育学习::/tingbook/12<,_{{page}}>.html\n健康养生::/renwenkexue/jiankangyangsheng<,-{{page}}>.html\n百家讲坛::/renwenkexue/baijiajiangtan<,-{{page}}>.html\n文学名著::/youshengxiaoshuo/wenxuemingzhu<,-{{page}}>.html\n诗歌散文::/youshengxiaoshuo/sigesanwen<,-{{page}}>.html\n-{{page}}.html\n相声小品::/tingbook/4<,_{{page}}>.html\n\n童话故事::/ertong/tonghuagushi<,-{{page}}>.html\n寓言故事::/ertong/yuyangushi<,-{{page}}>.html\n儿童歌曲::/ertong/ertonggequ<,-{{page}}>.html\n儿童启蒙::/ertong/ertongqimeng<,-{{page}}>.html\n粤语儿童故事::/ertong/yueyuertonggushi.html\n\n京剧::/xiqu/jingju<,-{{page}}>.html\n评剧::/xiqu/pingju<,-{{page}}>.html\n越剧::/xiqu/yueju<,-{{page}}>.html\n豫剧::/xiqu/yuju<,-{{page}}>.html\n晋剧::/xiqu/jinju<,-{{page}}>.html\n昆剧::/xiqu/kunqu<,-{{page}}>.html\n秦腔::/xiqu/qinqiang<,-{{page}}>.html\n沪剧::/xiqu/huju<,-{{page}}>.html\n川剧::/xiqu/chuanju<,-{{page}}>.html\n潮剧::/xiqu/chuaoju<,-{{page}}>.html\n蒲剧::/xiqu/puju<,-{{page}}>.html\n粤剧::/xiqu/yueyuju<,-{{page}}>.html\n吕剧::/xiqu/nvju.html\n曲剧::/xiqu/quju<,-{{page}}>.html\n婺剧::/xiqu/wuju<,-{{page}}>.html\n鼓书::/xiqu/gushu<,-{{page}}>.html\n鼓词::/xiqu/wenzhouguci<,-{{page}}>.html\n黄梅戏::/xiqu/huangmeixi<,-{{page}}>.html\n二人转::/xiqu/errenzhuan<,-{{page}}>.html\n花鼓戏::/xiqu/huaguxi<,-{{page}}>.html\n蒲仙戏::/xiqu/puxianxi<,-{{page}}>.html\n河南坠子::/xiqu/henanzuizi<,-{{page}}>.html\n河北梆子::/xiqu/hebeibangzi<,-{{page}}>.html\n",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "听不了是因为源网站就这样",
+    "ruleBookInfo": {
+      "author": "id.author@tag.a.0@text",
+      "coverUrl": "",
+      "intro": "class.intro@tag.p@text##简介：",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "<js>result</js>",
+      "nextContentUrl": "",
+      "sourceRegex": ".*\\.(mp3|m4a).*"
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "class.show_list@li||class.tk_list@li",
+      "bookUrl": "class.title@tag.a.0@href",
+      "coverUrl": "tag.img.0@src",
+      "intro": "class.desc@text",
+      "kind": "class.x_span_a@tag.a.0@text",
+      "lastChapter": "",
+      "name": "class.title@tag.a.0@text",
+      "wordCount": "class.desc@tag.span.0@text##发布时间："
+    },
+    "ruleSearch": {
+      "author": "class.titles@tag.a.1@text",
+      "bookList": "class.book book_1",
+      "bookUrl": "##/book/(\\d+)/##/tingshu/$1.html###",
+      "coverUrl": "tag.img.0@src",
+      "intro": "tag.p@text##简介：",
+      "kind": "class.update@text",
+      "lastChapter": "p@tag.a@text",
+      "name": "tag.img@alt",
+      "wordCount": "tag.span@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.playlist@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href##$##,{\"webView\":true}",
+      "nextTocUrl": ""
+    },
+    "searchUrl": "https://www.qktsw.com/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

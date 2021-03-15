@@ -1,0 +1,44 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎨漫画",
+    "bookSourceName": "🎨 土豆漫画网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.xm124.com",
+    "bookUrlPattern": "",
+    "customOrder": -115815,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最近更新::https://m.xm124.com/update/<,{{page}}/>\n热门排行::https://m.xm124.com/rank/<,{{page}}/>\n发布排序::https://m.xm124.com/list/post/<,?page=searchPge>\n更新排序::https://m.xm124.com/list/update/<,?page=searchPge>\n点击排序::https://m.xm124.com/list/click/<,?page=searchPge>\n已完结::https://m.xm124.com/list/wanjie/update/<,{{page}}/>\n连载中::https://m.xm124.com/list/lianzai/update/<,{{page}}/>\n儿童::https://m.xm124.com/list/ertong/update/<,{{page}}/>\n少年::https://m.xm124.com/list/shaonian/update/<,{{page}}/>\n少女::https://m.xm124.com/list/shaonv/update/<,{{page}}/>\n青年::https://m.xm124.com/list/qingnian/update/<,{{page}}/>\n日本::https://m.xm124.com/list/riben/update/<,{{page}}/>\n大陆::https://m.xm124.com/list/dalu/update/<,{{page}}/>\n欧美::https://m.xm124.com/list/oumei/update/<,{{page}}/>\n其他::https://m.xm124.com/list/qita/update/<,{{page}}/>\n都市::https://m.xm124.com/list/dushi/update/<,{{page}}/>\n玄幻::https://m.xm124.com/list/xuanhuan/update/<,{{page}}/>\n热血::https://m.xm124.com/list/rexue/update/<,{{page}}/>\n耽美::https://m.xm124.com/list/danmei/update/<,{{page}}/>\n蔷薇::https://m.xm124.com/list/qiangwei/update/<,{{page}}/>\n古风::https://m.xm124.com/list/gufeng/update/<,{{page}}/>\n恋爱::https://m.xm124.com/list/lianai/update/<,{{page}}/>\n冒险::https://m.xm124.com/list/maoxian/update/<,{{page}}/>\n校园::https://m.xm124.com/list/xiaoyuan/update/<,{{page}}/>\n恐怖::https://m.xm124.com/list/kongbu/update/<,{{page}}/>\n搞笑::https://m.xm124.com/list/gaoxiao/update/<,{{page}}/>\n爆笑::https://m.xm124.com/list/baoxiao/update/<,{{page}}/>\n穿越::https://m.xm124.com/list/chuanyue/update/<,{{page}}/>\n爱情::https://m.xm124.com/list/aiqing/update/<,{{page}}/>\n明星::https://m.xm124.com/list/mingxing/update/<,{{page}}/>\n虐心::https://m.xm124.com/list/nuexin/update/<,{{page}}/>\n彩虹::https://m.xm124.com/list/caihong/update/<,{{page}}/>\n悬疑::https://m.xm124.com/list/xuanyi/update/<,{{page}}/>\n唯美::https://m.xm124.com/list/weimei/update/<,{{page}}/>\n漫改::https://m.xm124.com/list/mangai/update/<,{{page}}/>\n科幻::https://m.xm124.com/list/kehuan/update/<,{{page}}/>\n栏目::https://m.xm124.com/list/lanmu/update/<,{{page}}/>\n武侠::https://m.xm124.com/list/wuxia/update/<,{{page}}/>\n修真::https://m.xm124.com/list/xiuzhen/update/<,{{page}}/>\n治愈::https://m.xm124.com/list/zhiyu/update/<,{{page}}/>\n纯爱::https://m.xm124.com/list/chunai/update/<,{{page}}/>\n脑洞::https://m.xm124.com/list/naodong/update/<,{{page}}/>\n后宫::https://m.xm124.com/list/hougong/update/<,{{page}}/>\n格斗::https://m.xm124.com/list/gedou/update/<,{{page}}/>\n神魔::https://m.xm124.com/list/shenmo/update/<,{{page}}/>\n霸总::https://m.xm124.com/list/bazong/update/<,{{page}}/>\n新作::https://m.xm124.com/list/xinzuo/update/<,{{page}}/>\n魔幻::https://m.xm124.com/list/mohuan/update/<,{{page}}/>\n复仇::https://m.xm124.com/list/fuchou/update/<,{{page}}/>\n历史::https://m.xm124.com/list/lishi/update/<,{{page}}/>\n游戏::https://m.xm124.com/list/youxi/update/<,{{page}}/>\n总裁::https://m.xm124.com/list/zongcai/update/<,{{page}}/>\n日常::https://m.xm124.com/list/richang/update/<,{{page}}/>\n剧情::https://m.xm124.com/list/juqing/update/<,{{page}}/>\n奇幻::https://m.xm124.com/list/qihuan/update/<,{{page}}/>\n宅系::https://m.xm124.com/list/zhaixi/update/<,{{page}}/>\n神鬼::https://m.xm124.com/list/shengui/update/<,{{page}}/>\n萌系::https://m.xm124.com/list/mengxi/update/<,{{page}}/>\n浪漫::https://m.xm124.com/list/langman/update/<,{{page}}/>\n生活::https://m.xm124.com/list/shenghuo/update/<,{{page}}/>\n其它::https://m.xm124.com/list/qita/update/<,{{page}}/>\n灵异::https://m.xm124.com/list/lingyi/update/<,{{page}}/>\n动作::https://m.xm124.com/list/dongzuo/update/<,{{page}}/>\n魔法::https://m.xm124.com/list/mofa/update/<,{{page}}/>\n励志::https://m.xm124.com/list/lizhi/update/<,{{page}}/>\n社会::https://m.xm124.com/list/shehui/update/<,{{page}}/>\n美食::https://m.xm124.com/list/meishi/update/<,{{page}}/>\n职场::https://m.xm124.com/list/zhichang/update/<,{{page}}/>\n仙侠::https://m.xm124.com/list/xianxia/update/<,{{page}}/>",
+    "lastUpdateTime": 1609991501134,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.pic_zi.1@tag.dd@text",
+      "coverUrl": "id.Cover@tag.mip-img@src",
+      "intro": "class.txtDesc@text##^.*简介：|介绍:",
+      "kind": "class.pic_zi.2@tag.dd@text",
+      "lastChapter": "class.pic_zi.0@tag.dd@text",
+      "name": "class.view-sub@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "class.erPag.1@tag.mip-img@src@js:\nlist=result.split(\"\\n\");\nhtml='';\nfor(i in list){\nhtml+='<img src=\"'+list[i]+'\">'\n}\nhtml",
+      "imageStyle": "FULL",
+      "nextContentUrl": "class.action-list@tag.mip-link.2@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.txtitme.0@text",
+      "bookList": "class.itemBox||class.list-comic",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.mip-img@src",
+      "kind": "class.txtitme.1@text",
+      "lastChapter": "class.coll@text||class.info@text",
+      "name": "class.title@text||class.txtA@text"
+    },
+    "ruleToc": {
+      "chapterList": "-id.chapter-list-1@li!0@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://m.xm124.com/search/?keywords={{key}}&page={{page}}",
+    "weight": 0
+  }]

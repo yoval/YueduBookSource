@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 卡诺提",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.popoxs.com",
+    "bookUrlPattern": "",
+    "customOrder": -115390,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3732.400 QQBrowser/10.5.3819.400\"\n}",
+    "lastUpdateTime": 1612781904458,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.u_con@tag.p.0@tag.a@text",
+      "intro": "class.subject-intro@text",
+      "lastChapter": "class.ui_bookinfo_catalog zw_box@tag.a.1@text",
+      "name": "class.u_con@tag.h1@text",
+      "tocUrl": "class.ui_bookinfo_catalog zw_box@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "class.r-content@p@html##.*本站尚未完结.*|.*本章已阅读.*",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.authorname@text",
+      "bookList": "class.ui_booklistv@li",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@data-original",
+      "name": "tag.h3@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.ul_volume@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://m.popoxs.com/wap/search.html?s={{key}}&type=articlename",
+    "weight": 0
+  }]

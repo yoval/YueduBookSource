@@ -1,0 +1,46 @@
+[  {
+    "bookSourceComment": "可自改，教程https://www.coolapk.com/feed/22932422?shareKey=NzBmOTUwOWViZmZhNWZkNDliNzY~&shareUid=1101305&shareFrom=com.coolapk.market_10.5.3",
+    "bookSourceGroup": "📡发现",
+    "bookSourceName": "📡 百度贴吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://tieba.baidu.com",
+    "customOrder": -117117,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "百合小说吧::https://tieba.baidu.com/mo/q/m?word=%E7%99%BE%E5%90%88%E5%B0%8F%E8%AF%B4&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn={{(page-1)*30}}\n毁魅吧::https://tieba.baidu.com/mo/q/m?word=%E6%AF%81%E9%AD%85&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn={{(page-1)*30}}\n百合文吧::https://tieba.baidu.com/mo/q/m?word=%E7%99%BE%E5%90%88%E6%96%87&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E5%85%A8%E9%83%A8&pn={{(page-1)*30}}\ngl小说吧::https://tieba.baidu.com/mo/q/m?word=gl小说&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn={{(page-1)*30}}\n百合文苑吧::https://tieba.baidu.com/mo/q/m?word=%E7%99%BE%E5%90%88%E6%96%87%E8%8B%91&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn={{(page-1)*30}}\n百合漫画吧::https://tieba.baidu.com/mo/q/m?word=%E7%99%BE%E5%90%88%E6%BC%AB%E7%94%BB&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn={{(page-1)*30}}\ngl漫画吧::https://tieba.baidu.com/mo/q/m?word=gl%E6%BC%AB%E7%94%BB&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn={{(page-1)*30}}&\n百合吧::https://tieba.baidu.com/mo/q/m?word=百合&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn={{(page-1)*30}}\n戬心吧::https://tieba.baidu.com/mo/q/m?kw=%E6%88%AC%E5%BF%83&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn={{(page-1)*30}}\n\n\n戬心愿吧::https://tieba.baidu.com/mo/q/m?kw=%E6%88%AC%E5%BF%83%E6%84%BF&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn={{(page-1)*30}}\n\n耽美吧::https://tieba.baidu.com/mo/q/m?kw=%E8%80%BD%E7%BE%8E&page_from_search=index&tn6=bdISP&tn4=bdKSW&tn7=bdPSB&lm=16842752&lp=6093&sub4=%E8%BF%9B%E5%90%A7&pn={{(page-1)*30}}",
+    "lastUpdateTime": 1607768976063,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "@css:#pb_content .d_name,#pb_content .tail-info,#pb_content .p_content@html\n<js>String(result).replace(/\\s*该楼层疑似违[\\s\\S]+?查看此楼|<img.*?class=\"nicknameEmoji\".*?>/g,'').replace(/\\s*<span class=\"tail-info\">\\s*/g,'—').replace(/<li class=\"d_name\">[\\s\\S]+?ad-dom-img=\"true\">/g,'').replace(/<img.*?ad-dom-img=\"true\">/g,'').replace(/<img class=\"icon-jubao\".*?>|—来自.*?端|手机贴吧|.*?快来下载吧！.*?>/g,'')</js>\n##\\d{4}-\\d{2}-\\d{2} \\d{2}:\\d{2}\\s*广告",
+      "imageStyle": "FULL",
+      "nextContentUrl": "",
+      "replaceRegex": "##(—.*?—\\d+-\\d+-\\d+ \\d+:\\d+\\n\\s*)(.*)##$1📃$2📃"
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "class.threads_list@tag.li",
+      "bookUrl": "tag.a.0@href##\\?lp=.*",
+      "coverUrl": "class.ti_avatar@img@src",
+      "intro": "class.ti_title@text",
+      "kind": "class.btn_icon@text##(\\d+)##评论$1###",
+      "lastChapter": "class.ti_time@text",
+      "name": "class.ti_title@text##(.{0,20}).*##$1###"
+    },
+    "ruleSearch": {
+      "author": "class.p_violet.1@text",
+      "bookList": "class.s_post",
+      "bookUrl": "tag.a.0@href",
+      "intro": "class.p_content@text&&class.p_title@a@text",
+      "kind": "class.p_violet.0@text",
+      "lastChapter": "class.p_green p_date@text",
+      "name": "class.p_title@a@text##\\&\\#x.*?;",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "+@js:\na=baseUrl.match(/\\/p\\/\\d+/);\nb=result.match(/共<span class=\"red\">(\\d+)<\\/span>页/)[1];\nvar list=[];\nfor(var i=1;i<=b;i++){\nlist.push({n:String(i),m:\"https://tieba.baidu.com\"+a+\"?pn=\"+i})\n}\nlist",
+      "chapterName": "n",
+      "chapterUrl": "m"
+    },
+    "searchUrl": "http://tieba.baidu.com/f/search/res?isnew=1&kw=&qw={{key}}&rn=10&un=&only_thread=1&sm=1&sd=&ed=&pn={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

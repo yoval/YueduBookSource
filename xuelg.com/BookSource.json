@@ -1,0 +1,47 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔰普通",
+    "bookSourceName": "🔰 血莲书阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://book.xuelg.com",
+    "customOrder": 16252,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/sort/2f736f72742d312d3{{page}}2f.html\n仙侠小说::/sort/2f736f72742d322d3{{page}}2f.html\n都市小说::/sort/2f736f72742d332d3{{page}}2f.html\n历史小说::/sort/2f736f72742d342d3{{page}}2f.html\n游戏小说::/sort/2f736f72742d352d3{{page}}2f.html\n科幻小说::/sort/2f736f72742d362d3{{page}}2f.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.author@text",
+      "coverUrl": "class.float-left@tag.img@src",
+      "init": "class.container",
+      "intro": "class.article-info@textNodes",
+      "kind": "class.sort@tag.a.0@text&&class.status@tag.div.0@text&&class.time@tag.div.0@text##状态：|更新：|小说",
+      "lastChapter": "class.newpost@tag.a@text",
+      "name": "class.name@text",
+      "tocUrl": "text.查看目录@href"
+    },
+    "ruleContent": {
+      "content": "class.text@tag.p@text"
+    },
+    "ruleExplore": {
+      "author": "tag.a.1@text",
+      "bookList": "class.article-list@li",
+      "bookUrl": "tag.a.0@href",
+      "name": "tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "tag.a.-1@text",
+      "bookList": "class.clearfix@li",
+      "bookUrl": "tag.a.1@href",
+      "kind": "tag.a.0@text##\\[|\\]",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "-class.article-list@li",
+      "chapterName": "tag.a@text##\\>",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "http://book.xuelg.com/?search={{key}}",
+    "weight": 0
+  }]

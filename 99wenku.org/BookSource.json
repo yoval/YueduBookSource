@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 久久文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.99wenku.org",
+    "bookUrlPattern": "",
+    "customOrder": -116586,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612448834520,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.item red.0@text##作\\s*者：",
+      "coverUrl": "tag.img@src",
+      "intro": "tag.h3@text",
+      "name": "tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a@href",
+      "lastChapter": "class.even.0@tag.a@text",
+      "name": "class.odd.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "tag.ul@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.99wenku.org/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

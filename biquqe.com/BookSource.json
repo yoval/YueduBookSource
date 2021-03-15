@@ -1,0 +1,50 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 笔趣阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.biquqe.com",
+    "customOrder": -115493,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/list/1_{{page}}/&&武侠修真::/list/2_{{page}}/&&都市言情::/list/3_{{page}}/&&历史军事::/list/4_{{page}}/&&科幻灵异::/list/5_{{page}}/&&游戏竞技::/list/6_{{page}}/&&女生耽美::/list/7_{{page}}/&&其他类型::/list/8_{{page}}/&&",
+    "lastUpdateTime": 1612774723500,
+    "ruleBookInfo": {
+      "author": "##:author\"[^\"]*\"([^\"]*)##$1###",
+      "coverUrl": "##:image\"[^\"]*\"([^\"]*)##$1###",
+      "intro": "@css:#bookintro@text##^\\s*##<br>",
+      "kind": "##:category\"[^\"]*\"([^\"]*)[\\s\\S]*?status\"[^\"]*\"([^\"]*)[\\s\\S]*?_time\"[^\"]*\"([^\"]*)##$1,$2,$3###",
+      "lastChapter": "##_chapter_name\"[^\"]*\"([^\"]*)##$1###",
+      "name": "##:book_name\"[^\"]*\"([^\"]*)##$1###",
+      "wordCount": "##字数：(?:[^>]*>){2}([^<]*)##$1###"
+    },
+    "ruleContent": {
+      "content": "@css:#TextContent p@textNodes",
+      "nextContentUrl": "@css:#next_url@href"
+    },
+    "ruleExplore": {
+      "bookList": "id.sitebox@dl",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@data-original",
+      "intro": "class.book_des@text",
+      "name": "h3@a@text"
+    },
+    "ruleSearch": {
+      "author": "##作者：[^>]*>([^<]*)##$1###",
+      "bookList": "+@css:#nr",
+      "bookUrl": "h3 a@href",
+      "coverUrl": ".lazy@data-original",
+      "intro": ".book_des@text",
+      "kind": "dt span,.uptime@text",
+      "lastChapter": "@css::containsOwn(最新章节：)>a@text",
+      "name": "h3 a@text",
+      "wordCount": "##字数：[^>]*>([^<]*)##$1###"
+    },
+    "ruleToc": {
+      "chapterList": ":chapterList[\\s\\S]*?/ul&&href=\"([^\"]*)\">([^<]*)",
+      "chapterName": "$2",
+      "chapterUrl": "$1"
+    },
+    "searchUrl": "http://www.biquqe.com/search/,{\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

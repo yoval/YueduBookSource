@@ -1,0 +1,49 @@
+[  {
+    "bookSourceComment": "error:Connection reset\n",
+    "bookSourceGroup": "🍑耽美,失效",
+    "bookSourceName": "🍑 耽美小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.dmxswang.com",
+    "customOrder": -31243,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "现代耽美::/xiandai/<,index_{{page}}.html>\n穿越重生::/chuanyue/<,index_{{page}}.html>\n古代耽美::/gudai/<,index_{{page}}.html>\n灵异玄幻::/lingyi/<,index_{{page}}.html>\nBL小说::/bl/<,index_{{page}}.html>\nGL小说::/gl/<,index_{{page}}.html>\n耽美推荐::/danmeituijian/<,index_{{page}}.html>",
+    "lastUpdateTime": 1601623058422,
+    "loginUrl": "http://www.dmxswang.com/e/member/login",
+    "ruleBookInfo": {
+      "author": ".m-infos@span!1@text##作者：",
+      "coverUrl": "img@src",
+      "intro": "p!1:2@text##\\…$",
+      "kind": ".m-infos@span!0@text##状态：\\s*",
+      "lastChapter": ".m-upd@a@text",
+      "name": "h3@text##\\s*完结+番外"
+    },
+    "ruleContent": {
+      "content": ".content@p@textNodes"
+    },
+    "ruleExplore": {
+      "author": "span!1@text##作者：",
+      "bookList": ".m-hdbox@li",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "intro": ".u@text",
+      "kind": "span!0@text##状态：",
+      "name": "a@text##《|\\s*(完结\\+番外)?》在线阅读"
+    },
+    "ruleSearch": {
+      "author": "span!1@text##作者：",
+      "bookList": "ul!0@li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@src",
+      "intro": ".u@text",
+      "kind": "span!0@text##状态：",
+      "name": "a@text##\\s*(完结\\+番外)?在线阅读$"
+    },
+    "ruleToc": {
+      "chapterList": ":e\\d\"[^\\/]*([^\"]*)[^>]*>([^<]*)",
+      "chapterName": "$2",
+      "chapterUrl": "$1"
+    },
+    "searchUrl": "/e/search/index.php,{\n  \"charset\": \"utf-8 \",\n  \"method\": \"POST\",\n  \"body\": \"tbname=bookname&show=title&tempid=1&keyboard={{key}}&button=\"\n}",
+    "weight": 0
+  }]

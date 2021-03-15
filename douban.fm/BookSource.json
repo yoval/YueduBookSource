@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎼音乐",
+    "bookSourceName": "🎼 豆瓣FM",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://douban.fm",
+    "customOrder": -31406,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "歌单::/j/v2/songlist/explore?type=hot&genre=0&limit=20&sample_cnt=5",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
+    "lastUpdateTime": 1602989422953,
+    "ruleBookInfo": {
+      "coverUrl": "cover"
+    },
+    "ruleContent": {},
+    "ruleExplore": {
+      "author": "$..name",
+      "bookList": "$.[*]",
+      "bookUrl": "https://douban.fm/j/v2/songlist/{{$.id}}/,{\n  \"method\": \"POST\",}kbps=128",
+      "coverUrl": "cover",
+      "intro": "intro||description",
+      "kind": "收藏{$.collected_count}",
+      "lastChapter": "created_time",
+      "name": "$.title",
+      "wordCount": "{$..songs_count}首"
+    },
+    "ruleSearch": {
+      "bookList": "",
+      "name": ""
+    },
+    "ruleToc": {
+      "chapterList": "$.songs",
+      "chapterName": "title",
+      "chapterUrl": "url",
+      "updateTime": "created_time"
+    },
+    "searchUrl": "",
+    "weight": 0
+  }]

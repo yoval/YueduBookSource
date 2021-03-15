@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "error:正文内容为空\n",
+    "bookSourceGroup": "🌸常用,⛓️防防d,失效",
+    "bookSourceName": "🌸 笔趣阁1",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.gebiqu.com",
+    "bookUrlPattern": "",
+    "customOrder": -32944,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1603353223948,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.review@html",
+      "lastChapter": "class.directoryArea@tag.p.0@a@text"
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@textNodes##www.gebiqu.com",
+      "nextContentUrl": "text.下一页.0@href",
+      "replaceRegex": "##\\s*本章未完.*\\s*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@text##.*作者：",
+      "bookList": "div[class^=hot_sale]",
+      "bookUrl": "a@href",
+      "coverUrl": "a@href##[^\\d]*((\\d+)\\d{3}).##https://image.gebiqu.com/$2/$1/$1s.jpg",
+      "kind": "class.author.1@text##\\|.*",
+      "lastChapter": "class.author.1@text##.*更新：",
+      "name": ".title@text"
+    },
+    "ruleToc": {
+      "chapterList": "//*[@class='directoryArea']//h2/following-sibling::p/a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页.0@href"
+    },
+    "searchUrl": "https://m.gebiqu.com/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&t=1\"\n}",
+    "weight": 0
+  }]

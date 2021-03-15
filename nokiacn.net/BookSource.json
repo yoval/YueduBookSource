@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "error:Handshake failed\n",
+    "bookSourceGroup": "🎨漫画,失效",
+    "bookSourceName": "🎨 乙女漫画",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.nokiacn.net",
+    "bookUrlPattern": "",
+    "customOrder": -31271,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "完结::https://www.nokiacn.net/wanjie/{{page}}.html\n连载::https://www.nokiacn.net/lianzai/{{page}}.html\n少年::https://www.nokiacn.net/shaonianqu/{{page}}.html\n少女::https://www.nokiacn.net/shaonvqu/{{page}}.html\n青年::https://www.nokiacn.net/qingnian/{{page}}.html\n少儿::https://www.nokiacn.net/shaoer/{{page}}.html\n热血::https://www.nokiacn.net/rexue/{{page}}.html\n格斗::https://www.nokiacn.net/gedou/{{page}}.html\n科幻::https://www.nokiacn.net/kehuan/{{page}}.html\n竞技::https://www.nokiacn.net/jingji/{{page}}.html\n搞笑::https://www.nokiacn.net/gaoxiao/{{page}}.html\n推理::https://www.nokiacn.net/tuili/{{page}}.html\n恐怖::https://www.nokiacn.net/kongbu/{{page}}.html\n耽美::https://www.nokiacn.net/danmei/{{page}}.html\n少女::https://www.nokiacn.net/shaonv/{{page}}.html\n恋爱::https://www.nokiacn.net/lianai/{{page}}.html\n生活::https://www.nokiacn.net/shenghuo/{{page}}.html\n战争::https://www.nokiacn.net/zhanzheng/{{page}}.html\n故事::https://www.nokiacn.net/gushi/{{page}}.html\n冒险::https://www.nokiacn.net/maoxian/{{page}}.html\n魔幻::https://www.nokiacn.net/mohuan/{{page}}.html\n玄幻::https://www.nokiacn.net/xuanhuan/{{page}}.html\n校园::https://www.nokiacn.net/xiaoyuan/{{page}}.html\n悬疑::https://www.nokiacn.net/xuanyi/{{page}}.html\n萌系::https://www.nokiacn.net/mengxi/{{page}}.html\n穿越::https://www.nokiacn.net/chuanyue/{{page}}.html\n后宫::https://www.nokiacn.net/hougong/{{page}}.html\n都市::https://www.nokiacn.net/dushi/{{page}}.html\n武侠::https://www.nokiacn.net/wuxia/{{page}}.html\n历史::https://www.nokiacn.net/lishi/{{page}}.html\n同人::https://www.nokiacn.net/tongren/{{page}}.html\n励志::https://www.nokiacn.net/lizhi/{{page}}.html\n百合::https://www.nokiacn.net/baihe/{{page}}.html\n治愈::https://www.nokiacn.net/zhiyu/{{page}}.html\n机甲::https://www.nokiacn.net/jijia/{{page}}.html\n纯爱::https://www.nokiacn.net/chunai/{{page}}.html\n美食::https://www.nokiacn.net/meishi/{{page}}.html\n血腥::https://www.nokiacn.net/xuexing/{{page}}.html\n僵尸::https://www.nokiacn.net/jiangshi/{{page}}.html\n恶搞::https://www.nokiacn.net/egao/{{page}}.html\n虐心::https://www.nokiacn.net/nuexin/{{page}}.html\n动作::https://www.nokiacn.net/dongzuo/{{page}}.html\n惊险::https://www.nokiacn.net/jingxian/{{page}}.html\n唯美::https://www.nokiacn.net/weimei/{{page}}.html\n震撼::https://www.nokiacn.net/zhenhan/{{page}}.html\n复仇::https://www.nokiacn.net/fuchou/{{page}}.html\n侦探::https://www.nokiacn.net/zhentan/{{page}}.html\n脑洞::https://www.nokiacn.net/naodong/{{page}}.html\n奇幻::https://www.nokiacn.net/qihuan/{{page}}.html\n宫斗::https://www.nokiacn.net/gongdou/{{page}}.html\n爆笑::https://www.nokiacn.net/baoxiao/{{page}}.html\n运动::https://www.nokiacn.net/yundong/{{page}}.html\n青春::https://www.nokiacn.net/qingchun/{{page}}.html\n灵异::https://www.nokiacn.net/lingyi/{{page}}.html\n古风::https://www.nokiacn.net/gufeng/{{page}}.html\n权谋::https://www.nokiacn.net/quanmou/{{page}}.html\n节操::https://www.nokiacn.net/jiecao/{{page}}.html\n明星::https://www.nokiacn.net/mingxing/{{page}}.html\n暗黑::https://www.nokiacn.net/anhei/{{page}}.html\n社会::https://www.nokiacn.net/shehui/{{page}}.html\n浪漫::https://www.nokiacn.net/langman/{{page}}.html\n栏目::https://www.nokiacn.net/lanmu/{{page}}.html\n仙侠::https://www.nokiacn.net/xianxia/{{page}}.html\n乙女::https://www.nokiacn.net/yinv/{{page}}.html\nBG韩漫::https://www.nokiacn.net/bghm/{{page}}.html",
+    "lastUpdateTime": 1603265660749,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.cy_xinxi.0@tag.a@text",
+      "intro": "class.cy_desc@tag.p@text",
+      "kind": "class.cy_xinxi.1@tag.a@text&&class.cy_xinxi.0@tag.font@text",
+      "lastChapter": "class.cy_zhangjie_top@tag.a.0@text",
+      "name": "class.cy_title@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": ":_S001_vMMQZsSqq66JHArA5uAkiWqB0kMo8ouvbZxDSfsJv/5wFHHQxEKuiud6r6A2xqzhwhKgJ2mGgrIv\n8gsDcgkpWzDrJvKbYbpPZF8ykm07InGYjLfHTtMG7odDs2IPuZufWOHEKDJToqmAwF3bCtumIKuD\n9l7F8g25/7BuRyx44zvjTYdb+1cCmG5sJ0GyHpVn/PfLA0+bZ7pst0Qz0ktUwGiP4kpAgK4zRqJH\nYok2w30kLsaY8ixej6tWyoklXVzgYvfH0SaRs8QFFUDUbbF3X9io+dUWQg0yQ61NiQmQQxMMEnkO\np5b1med3SBzBRNnY1efEpzccaS6KpKpA7hmDH6dxxLU/BEJM+CZiE06x1M5QxJwbMkGnpQtEPfkI\nvVqHmnqbExzn00Gb8gspovRSzjOGDYfIR/WoEgo614w1nKwDnJgMFrh8MH+MFGehA1rVY3HjCUQD\nb8dYPtVE9/0jxgmpP3c+3wDc0GKo4YcWXO2ICXm+EWAJzTew8ofq6VyWoASLSXJ+R6gdvy9Rp3ir\nmLAc46SstEcjPhYf3E9EcziXyB2P5ek+RYn7FZHeTNdHi3JOYKQE+1/leoqll3yxsa0wSfkdPySl\n/ovWbpRKdK3d5DBYQAuATdgWJPx2DAkutivCrJ5FlDCT8lL6CSO55vWYBfOD8qE1ogKLO2+hU/2P\nX+HfaEwdyuXtCUaPn0RMX1BzxmeQeQ96SjcmnxVpPsRFgGAtvnuUQn2iQegYqqZoJ7eCB2m+HYa1\neWLLBtgR18fNgRxzamrCM+vnxjGFedyd7BBFzPNdrYbrhMLnJjq08ly9e2NzjAGxVFY+R0cdRuwQ\ngdfdROzv+vARO/nIL1Pr5MHo6vl8B3iDEknIGDUyzzNAu/w6kLPF0TG1yv/9m++Ba7mOZjGIKnxA\nmgUGo9tHD72bBgkGoAk0f4isC3TBM0tqR1RVROLFJGAGKNwL9S1nZ+WMBG/kmXV6te93h6Sgq9yF\nGJcrrvWWa/AoLF+xzuJWueDnsoFIv8KYVv/RdUFgdGOq88xfPKxGOujg66S6bwxUhDq1KdnYwmHj\nyn+Z4Hygl8xPnd4NCz4FuLlNxnf4CoyWZUzUPfva9K5PvofQU4iu74Fv0+Q4XVDTolE0Vn1S9VUJ\nKliexIGX+BMMB/tcV9QOwdj63MYYNaLlskvYRFcYuGdCBltaS/4alavdhfZ/oqPS042nip76LwEM\nhmBjCjj9xqN8J/6/yVBgpGlCR56hdNcskLx1WBfGbc8T4RcqVf+/kPrFpAr5t/wDgscLjDxIo6la\nyk+rHvzOBoU3Mnzx5mEqOUu9txXYQEDYu6e9u7AxDt2n7GAUbn8dmpp1qL6SttZ0mCz1910Wcg==\n"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.cy_list_mh@tag.ul",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "kind": "class.biaoqian@tag.a@text&&class.zuozhe@text##状态：",
+      "lastChapter": "class.updata@tag.a@text",
+      "name": "class.title@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "-class.cy_plist@tag.li",
+      "chapterName": "tag.p@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.nokiacn.net/statics/search.aspx?key={{key}}&page={{page}}",
+    "weight": 0
+  }]

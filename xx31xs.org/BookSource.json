@@ -1,0 +1,35 @@
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": ",失效",
+    "bookSourceName": "31小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.xx31xs.org",
+    "bookUrlPattern": "",
+    "customOrder": 1,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "id.sidebar@tag.img.0@src",
+      "intro": "id.intro@text"
+    },
+    "ruleContent": {
+      "content": "id.content@tag.p@text##【3.*】|[a-zA-Z]+.31[^\\s]*[a-zA-Z]"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p.0@text",
+      "bookList": "class.user-bookcase@tag.dl",
+      "bookUrl": "tag.a.0@href@js:String(result).replace(/m\\./g,'www\\.')",
+      "lastChapter": "tag.p@tag.a.0@text",
+      "name": "tag.a.0@text##.*\\]"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://m.xx31xs.org:80/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}",
+    "weight": 0
+  }]

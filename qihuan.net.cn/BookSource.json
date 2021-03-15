@@ -1,0 +1,34 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "📡发现",
+    "bookSourceName": "📡 奇幻小说[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.qihuan.net.cn",
+    "customOrder": -117090,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "东方奇幻::/book-east-{{page}}.html\n西方奇幻::/book-west-{{page}}.html",
+    "lastUpdateTime": 1605025096382,
+    "ruleBookInfo": {
+      "author": "class.book@tag.a.0@text",
+      "intro": "class.description@tag.p@text",
+      "lastChapter": "tag.dl.-1@tag.a.-1@text",
+      "name": "class.book@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.container@class.text.0@p@text"
+    },
+    "ruleExplore": {
+      "author": "tag.a.1@text",
+      "bookList": "class.co3@li",
+      "bookUrl": "tag.a.0@href",
+      "name": "tag.a.0@text"
+    },
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "dl@dd a||class.book@tag.h1",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "weight": 0
+  }]

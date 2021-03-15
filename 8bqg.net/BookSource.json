@@ -1,0 +1,36 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🌸常用",
+    "bookSourceName": "🌸 笔趣阁5",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.8bqg.net",
+    "customOrder": -117035,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1606747778978,
+    "ruleBookInfo": {
+      "coverUrl": "",
+      "intro": "id.intro@tag.p@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##$##❌",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": "##\\s*❌\\s*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "id.nr",
+      "bookUrl": "class.odd.0@tag.a@href",
+      "lastChapter": "class.even.0@tag.a@text",
+      "name": "class.odd.0@tag.a@text",
+      "wordCount": "class.even.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.8bqg.net/modules/article/search.php?searchkey={{key}}&searchtype=articlename,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

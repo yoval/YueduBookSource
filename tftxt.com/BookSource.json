@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "听风小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.tftxt.com",
+    "customOrder": 24089,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1608280521429,
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.2@text",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@text",
+      "kind": "id.info@tag.p.0@text##分类：",
+      "lastChapter": "id.info@tag.p.4@tag.a@text",
+      "name": "id.info@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text##作者：",
+      "bookList": "class.bookbox",
+      "bookUrl": "class.bookimg@tag.a@href",
+      "coverUrl": "class.bookimg@tag.img@src",
+      "intro": "tag.p@text",
+      "kind": "class.cat@text##分类：",
+      "lastChapter": "class.update@tag.a@text",
+      "name": "class.bookname@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.tftxt.com/s.php?ie=gbk&q={{key}}",
+    "weight": 0
+  }]

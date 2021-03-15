@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "松语文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.16sy.com",
+    "bookUrlPattern": "",
+    "customOrder": 116,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.con_lwrap@class.con_limg@tag.img.0@src",
+      "intro": "class.con_lwrap@class.r420@class.r_cons@textNodes",
+      "tocUrl": "class.con_lwrap@class.r420@class.r_tools@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "id.BookText@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.c_row@tag.span.3@text||class.r420@tag.p.0@tag.span.0@text||class.four@text",
+      "bookList": "class.clearfix rec_rullist@tag.ul||class.tipbox@class.left@tag.div!0||class.con_lwrap",
+      "bookUrl": "class.c_row@tag.a.1@href||class.three@tag.a.0@href",
+      "coverUrl": "class.c_row@tag.a.0@tag.img.0@src||class.con_limg@tag.img.0@src",
+      "kind": "class.c_row@tag.span.5@text||class.r420@tag.p.0@tag.span.1@text||class.two@tag.span.0@text",
+      "lastChapter": "class.c_row@tag.span.13@tag.a.0@text||class.r420@tag.strong.0@tag.a.0@text||class.sev@text",
+      "name": "class.c_row@tag.a.1@text||class.r420@tag.h1.0@text||class.three@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.clearfix dirconone@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.16sy.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

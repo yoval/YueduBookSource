@@ -1,0 +1,43 @@
+[  {
+    "bookSourceComment": "酷安",
+    "bookSourceGroup": "🍒言情",
+    "bookSourceName": "🍒 红袖小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.hongxiuxs.com",
+    "customOrder": -115996,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612826052767,
+    "ruleBookInfo": {
+      "author": "class.catalog1@tag.a.0@text",
+      "canReName": "true",
+      "coverUrl": "class.catalog1@tag.img.0@src",
+      "intro": "class.jj@textNodes##【(展开|收起)】|\\s*各位书友.*\\s*|\\s##<br>",
+      "kind": "class.catalog1@tag.span.2@text&&class.catalog1@tag.span.0@text##更新|状态|：|\\s.*",
+      "lastChapter": "class.lastchapter@tag.a@text",
+      "name": "class.catalog1@tag.h1.0@text",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.articlecontent@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "@css:#author tr:has(td)",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##(\\d+)/(\\d+)/##files/article/image/$1/$2/$2s.jpg",
+      "intro": "",
+      "kind": "class.even.-1@text&&class.odd.-1@text",
+      "lastChapter": "class.even.0@text",
+      "name": "class.odd.0@text",
+      "wordCount": "class.even.1@text##K@js:'约' + parseInt(result*0.0512) + '万'"
+    },
+    "ruleToc": {
+      "chapterList": "@css:.ml_list li a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php?searchkey={{key}}&page={{page}},{\n\"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

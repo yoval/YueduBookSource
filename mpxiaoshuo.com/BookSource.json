@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 猫扑小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.mpxiaoshuo.com",
+    "bookUrlPattern": "",
+    "customOrder": -115378,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1606909021650,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.text-muted@tag.img@src",
+      "intro": "class.text-muted.0@text##.*小说简介：",
+      "lastChapter": "class.col-md-10@tag.p.1@a@text"
+    },
+    "ruleContent": {
+      "content": "class.panel-body@textNodes##【猫扑小说.*】|-->>",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": "##[?.?]"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.text-muted fs-12@text##/ 著",
+      "bookList": "class.row@children",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@src",
+      "name": "h4@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.panel-body panel-chapterlist.1@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.mpxiaoshuo.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

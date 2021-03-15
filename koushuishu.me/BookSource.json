@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "天域战歌",
+    "bookSourceName": "我乐书城",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.koushuishu.me",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "异界修仙::http://www.koushuishu.me/XiuXian/Page<{{page}}>/\n都市社会::http://www.koushuishu.me/HouGong/Page<{{page}}>/\n言情浪漫::http://www.koushuishu.me/YanQing/Page<{{page}}>/\n清纯校园::http://www.koushuishu.me/XiaoYuan/Page<{{page}}>/\n穿越重生::http://www.koushuishu.me/ChuanYue/Page<{{page}}>/\n惊悚科幻::http://www.koushuishu.me/KeHuan/Page<{{page}}>/\n另类乡土::http://www.koushuishu.me/LingLei/Page<{{page}}>/\n女生频道::http://www.koushuishu.me/NvSheng/Page<{{page}}>/",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "coverUrl": "class.NovelNote@img@src",
+      "intro": "class.NovelContent@textNodes",
+      "lastChapter": "class.NovelNote@tag.li.1@tag.a.1@text",
+      "tocUrl": "text.开始阅读@href"
+    },
+    "ruleContent": {
+      "content": "id.Content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.NovelInfo@tag.a.1@text||tag.a.1@text",
+      "bookList": "class.NovelClass@ul||class.SeaNav",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "kind": "tag.span.1@text||tag.a.2@text",
+      "lastChapter": "class.Novel_Chapter@text|tag.a.3@text##\\||\\]",
+      "name": "class.NovelInfo@tag.a.0@text||tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.Chapter.1@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.koushuishu.me/NovelSearch.aspx?NovelKey={{key}}&NovelSelect=1&NovelSub=+",
+    "weight": 0
+  }]

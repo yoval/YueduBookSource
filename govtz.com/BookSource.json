@@ -1,0 +1,36 @@
+[  {
+    "bookSourceComment": "error:Unable to resolve host \"www.govtz.com\": No address associated with hostname\n",
+    "bookSourceGroup": "优,失效",
+    "bookSourceName": "小说宝库",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.govtz.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@tag.a.0@text",
+      "bookList": "class.library@tag.li",
+      "bookUrl": "class.bookname@tag.a@href@js:String(result).replace(/xs/g,'dir')",
+      "coverUrl": "class.bookimg@tag.img@src",
+      "intro": "class.intro@text",
+      "kind": "class.author@tag.a.1@text",
+      "lastChapter": "class.chapter@tag.a@text",
+      "name": "class.bookname@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.read@tag.dl.1@tag.dd",
+      "chapterName": "tag.a@textNodes",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.govtz.com/so/search.html?searchkey={{key}}",
+    "weight": 0
+  }]

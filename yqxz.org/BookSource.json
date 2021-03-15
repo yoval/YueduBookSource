@@ -1,0 +1,45 @@
+[  {
+    "bookSourceComment": "&dmxs",
+    "bookSourceGroup": "🍒言情",
+    "bookSourceName": "🍒 言情小筑",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yqxz.org",
+    "customOrder": -115998,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "总排行::/hot/index<,_{{page}}>.html\n周榜::/hot_zhou/index<,_{{page}}>.html\n月榜::/hot_yue/index<,_{{page}}>.html\n\n\n♯现代言情♯::/xdyq/index<,_{{page}}>.html\nTop100::/hot4/index<,_{{page}}>.html\n\n♯古代言情♯::/gdyq/index<,_{{page}}>.html\nTop100::/hot5/index<,_{{page}}>.html\n\n♯穿越重生♯::/cycs/index<,_{{page}}>.html\nTop100::/hot6/index<,_{{page}}>.html\n\n♯玄幻仙侠♯::/xhxx/index<,_{{page}}>.html\nTop100::/hot7/index<,_{{page}}>.html\n\n♯网游竞技♯::/wyjj/index<,_{{page}}>.html\nTop100::/hot8/index<,_{{page}}>.html\n\n♯台湾小言♯::/twxy/index<,_{{page}}>.html\nTop100::/hot9/index<,_{{page}}>.html\n\n♯ BG 同人 ♯::/BGTR/index<,_{{page}}>.html\nTop100::/hot10/index<,_{{page}}>.html",
+    "header": "",
+    "lastUpdateTime": 1612825698634,
+    "ruleBookInfo": {
+      "author": "",
+      "canReName": "true",
+      "init": "",
+      "intro": "class.infos@tag.p@textNodes##^##<br>",
+      "kind": "class.tags@tag.a@text&&class.date@tag.span!0@text##时间|状态|：",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "class.read_chapterDetail@html",
+      "nextContentUrl": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.autor@text",
+      "bookList": "@css:.bk a",
+      "bookUrl": "href",
+      "intro": "tag.p@textNodes",
+      "kind": "class.date@text##日期\\:\\s",
+      "lastChapter": "{{'完本'}}",
+      "name": "tag.h3@text",
+      "wordCount": "class.size@text##大小\\:\\s"
+    },
+    "ruleToc": {
+      "chapterList": "@css:.book_list li a",
+      "chapterName": "text##章##节",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/e/search/index.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"keyboard={{key}}&show=title&classid=0\"\n}",
+    "weight": 0
+  }]

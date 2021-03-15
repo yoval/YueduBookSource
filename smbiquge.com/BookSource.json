@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "神马笔趣阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.smbiquge.com",
+    "customOrder": -910,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/books/1/1/\n武侠仙侠::/books/2/1/\n都市言情::/books/3/1/\n历史军事::/books/4/1/\n科幻悬疑::/books/5/1/\n游戏竞技::/books/6/1/\n女生耽美::/books/7/1/",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "class.diswap@tag.a.0@text",
+      "coverUrl": "tag.img@data-original",
+      "intro": "class.info-main-intro@text",
+      "kind": "class.info-title@tag.a.1@text",
+      "lastChapter": "class.border3-1@tag.a.2@text",
+      "name": "class.w100@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.article@html",
+      "nextContentUrl": "id.next_url@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.flex@tag.span@text",
+      "bookList": "class.category-div",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@data-original",
+      "intro": "class.intro@text",
+      "name": "class.flex@tag.h3@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.info-chapters.1@tag.a",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search/?searchkey={{key}}&Submit=",
+    "weight": 0
+  }]

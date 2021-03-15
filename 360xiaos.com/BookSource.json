@@ -1,0 +1,36 @@
+[  {
+    "bookSourceComment": "error:failed to connect to xs.360xiaos.com/218.201.124.80 (port 80) from /192.168.0.103 (port 42414) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "🎉精品,失效",
+    "bookSourceName": "🎉 360小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://xs.360xiaos.com",
+    "bookUrlPattern": "",
+    "customOrder": -32178,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/list/1_{{page}}.html\n武侠修真::/list/2_{{page}}.html\n纯爱耽美::/list/3_{{page}}.html\n都市言情::/list/4_{{page}}.html\n职场校园::/list/5_{{page}}.html\n穿越重生::/list/6_{{page}}.html\n历史军事::/list/7_{{page}}.html\n网游动漫::/list/8_{{page}}.html\n恐怖灵异::/list/9_{{page}}.html\n科幻小说::/list/10_{{page}}.html\n美文名著::/list/11_{{page}}.html",
+    "lastUpdateTime": 1602817081864,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "id.waa@textNodes##介绍:",
+      "tocUrl": "class.b-oper@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "class.mainContenr@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.seeWell cf@tag.li",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "class.l mr10@tag.img@src",
+      "name": "class.clearfix stitle.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.clearfix dirconone@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://xs.360xiaos.com/e/search/index.php,{\n  \"method\": \"POST\",\n  \"body\": \"tbname=book&tempid=1&show=title&keyboard={{key}}\"\n}",
+    "weight": 0
+  }]

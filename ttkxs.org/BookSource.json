@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "👍优质",
+    "bookSourceName": "👍 天天看小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.ttkxs.org",
+    "customOrder": -114855,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612812629980,
+    "ruleBookInfo": {
+      "author": "##:author\" content=\"([^\"]+)##$1###",
+      "coverUrl": "##:image\" content=\"([^\"]+)##$1###",
+      "intro": "id.intro@text##.*简介：|天天看小说.*|&lt;/?.*&gt;|各位书友要是觉得《.*朋友推荐哦！.*(全文阅读.| https.*)?",
+      "name": "##:title\" content=\"([^\"]+)##$1###"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##威信公号：.*$|\\(本章完\\)|(?s)本书由.*制作与发行.*版权所有.*侵权必究|火热免费新书，.*谢谢！$"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$5",
+      "bookList": ":id=\"nr\">\\s*<td(?:[^\\\"]*\\\"){3}.*org\\/(\\d*)_(\\d*)\\/\">([^<]*)(?:[^>]*>){4}([^<]*)(?:[^>]*>){3}([^<]*)(?:[^>]*>){2}([^<]*)(?:[^>]*>){2}([^<]*)(?:[^>]*>){2}([^<]*)<\\/td>",
+      "bookUrl": "/$1_$2/",
+      "coverUrl": "http://www.ttkxs.org/files/article/image/$1/$2/$2s.jpg",
+      "kind": "$8,$6,$7",
+      "lastChapter": "$4",
+      "name": "$3"
+    },
+    "ruleToc": {
+      "chapterList": "//*[@id=\"list\"]//dt[2]/following-sibling::dd/a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php?searchkey={{key}}&ct=2097152&si=shuhouse.com&sts=shuhouse.com&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

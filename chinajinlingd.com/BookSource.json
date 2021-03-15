@@ -1,0 +1,51 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceName": "金羚文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.chinajinlingd.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/list/1_{{page}}.shtml&&武侠修真::/list/2_{{page}}.shtml&&都市言情::/list/3_{{page}}.shtml&&历史军事::/list/4_{{page}}.shtml&&网游动漫::/list/5_{{page}}.shtml&&科幻小说::/list/6_{{page}}.shtml&&恐怖灵异::/list/7_{{page}}.shtml&&其他小说::/list/8_{{page}}.shtml&&完本小说::/full/0_{{page}}.shtml&&总排行榜::/top/allvisit_{{page}}.shtml&&月排行榜::/top/monthvisit_{{page}}.shtml&&总推荐榜::/top/allvote_{{page}}.shtml&&月推荐榜::/top/monthvote_{{page}}.shtml&&总收藏榜::/top/goodnum_{{page}}.shtml&&字数排行::/top/size_{{page}}.shtml&&最新入库::/top/postdate_{{page}}.shtml&&最近更新::/top/lastupdate_{{page}}.shtml",
+    "lastUpdateTime": 1614235235259,
+    "ruleBookInfo": {
+      "author": ".author a@text",
+      "coverUrl": "tag.img.1@src",
+      "intro": ".intro@text",
+      "kind": ".sort a@text&&.lastupdate@text",
+      "lastChapter": ".lastchapter a@text",
+      "name": "h1@text",
+      "wordCount": ".fullfalg@text"
+    },
+    "ruleContent": {
+      "content": "#content@text##本章未完，点击下一页继续阅读",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+      "author": ".author@text||.s3@text",
+      "bookList": ".lists li||.phrbottom li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##.*\\D((\\d+)\\d{3})\\D$##https://www.chinajinlingd.com/image/$2/$1/$1.jpg",
+      "kind": ".sortbtn@text",
+      "lastChapter": ".s2 a@text",
+      "name": ".articlename@text||.s1 a@text",
+      "wordCount": ".fullbtn@text||.s4@text&&.s6@text"
+    },
+    "ruleSearch": {
+      "author": "class.s3.0@text",
+      "bookList": "<js>result.replace(/<li class=\"s1\"/g,'> <lo <li class=\"s1\"')</js>lo",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##.*\\D((\\d+)\\d{3})\\D$##https://www.chinajinlingd.com/image/$2/$1/$1.jpg",
+      "kind": "class.s6.0@text",
+      "lastChapter": "class.s2.0@text",
+      "name": "class.s1.0@a@text",
+      "wordCount": "class.s4.0@text"
+    },
+    "ruleToc": {
+      "chapterList": ".chapters a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.chinajinlingd.com/search.php,{\n\"charset\": \"\",\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}\",\n\"headers\": {\"User-Agent\": \"\"}\n}",
+    "weight": 0
+  }]

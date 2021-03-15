@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "天域战歌",
+    "bookSourceName": "欲望文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://wap.yuwangwen.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "最近更新::https://wap.yuwangwen.com/\n玄幻小说::https://wap.yuwangwen.com/wapsort/1_{{page}}.html\n修真小说::https://wap.yuwangwen.com/wapsort/2_{{page}}.html\n言情小说::https://wap.yuwangwen.com/wapsort/3_{{page}}.html\n武侠小说::https://wap.yuwangwen.com/wapsort/4{{page}}1.html\n都市小说::https://wap.yuwangwen.com/wapsort/5_{{page}}.html\n耽美小说::https://wap.yuwangwen.com/wapsort/9_{{page}}.html\n高干小说::https://wap.yuwangwen.com/wapsort/10_{{page}}.html\n高辣小说::https://wap.yuwangwen.com/wapsort/11_{{page}}.html\n腹黑小说::https://wap.yuwangwen.com/wapsort/13_{{page}}.html\n种田小说::https://wap.yuwangwen.com/wapsort/14_{{page}}.html\n百合小说::https://wap.yuwangwen.com/wapsort/17_{{page}}.html\n其他小说::https://wap.yuwangwen.com/wapsort/16_{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "pre@text##.*简介",
+      "lastChapter": "class.article_info_td.0@tag.a.1@text",
+      "tocUrl": "class.lb_mulu chapterList@tag.li.0@a@href##/(\\d+)/(\\d+).html##/list/$1/1.html"
+    },
+    "ruleContent": {
+      "content": "id.nr1@html##\\&&lt;|&&gt;|/"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "strong@text||class.author@text",
+      "bookList": "class.common-bookele||class.s_m@li",
+      "bookUrl": "tag.a.0@href",
+      "intro": "class.abstract@a@textNodes",
+      "kind": "class.lastupdate@textNodes||class.words.0@text##栏目：|类型：|更新时间：",
+      "lastChapter": "time@text",
+      "name": "class.articlename@text||class.name@text||h3@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://wap.yuwangwen.com/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"type=articlename&s={{key}}\"\n}",
+    "weight": 0
+  }]

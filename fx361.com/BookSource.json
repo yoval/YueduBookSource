@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "📚出版",
+    "bookSourceName": "📚 参考网[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.fx361.com",
+    "bookUrlPattern": ".*/bk/(.*/index.html|[a-z]+/)",
+    "customOrder": -24781,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最近更新::/\n时政综合::/bk/szzh.html\n商业财经::/bk/sycj.html\n文学小说::/bk/wxxs.html\n摄影数码::/bk/sysm.html\n学生必读::/bk/xsbd.html\n家庭养生::/bk/jtys.html\n旅游美食::/bk/lyms.html\n人文科普::/bk/rwkp.html\n文摘文萃::/bk/wzwc.html\n艺术收藏::/bk/yssc.html\n农业乡村::/bk/nyxc.html\n文化综合::/bk/whzh.html\n职场理财::/bk/zclc.html\n娱乐时尚::/bk/ylss.html\n学术::/bk/xs.html\n军事::/bk/js.html\n汽车::/bk/qc.html\n环时::/bk/hqsb/history_2020.html\n读者::/bk/dz/history_{{2021-page}}.html\n新闻周刊::/bk/zgxwzk/history_2019.html",
+    "lastUpdateTime": 1602914341354,
+    "loginUrl": "##/bk/searchKey/index.html|bk/searchKey/history_{{2020-searchPage}}.html",
+    "ruleBookInfo": {
+      "author": ".til@text",
+      "coverUrl": ".fm img@src",
+      "intro": "h4+p@text",
+      "name": ".upt@text"
+    },
+    "ruleContent": {
+      "content": ".txt~:not(div)@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": ".pel_name@text||span:nth-of-type(1)@text",
+      "bookList": "@css:.wrap01 li,.results li a,.sidebarR li>a",
+      "bookUrl": ".pel_m_pic a@href||href",
+      "coverUrl": "img@src",
+      "name": ".pel_time@text||span:nth-of-type(2)@text||text##《|》"
+    },
+    "ruleToc": {
+      "chapterList": "+.dirItem02@js:list=[];result.toArray().map(x=>{list=list.concat(x.select('a').toArray().map(y=>({n:String(x.select('h5').text()).replace(/(.+)/,'$1∣')+y.text(),u:y.attr('href')})))});list",
+      "chapterName": "n",
+      "chapterUrl": "u"
+    },
+    "weight": 0
+  }]

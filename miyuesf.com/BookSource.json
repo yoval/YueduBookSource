@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🌸常用",
+    "bookSourceName": "🌸 米阅",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.miyuesf.com",
+    "bookUrlPattern": "",
+    "customOrder": -117043,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1606746976720,
+    "loginUrl": "coolapk@芜恙",
+    "ruleBookInfo": {
+      "author": "h2@text",
+      "intro": ".intro@html",
+      "kind": ".info a@text",
+      "lastChapter": ".info@textNodes##标签:",
+      "name": "h2@text##\\+番外|作者.*"
+    },
+    "ruleContent": {
+      "content": ".content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "h3@text",
+      "bookList": ".resultlist li",
+      "bookUrl": "h3 a@href",
+      "intro": "p@text",
+      "kind": "span@tag.a.1@text",
+      "lastChapter": "span@text##.*日期：",
+      "name": "h3@text##\\+番外|作者.*"
+    },
+    "ruleToc": {
+      "chapterList": "<js>\nvar p = result.match(/共(\\d+)页/)[1];\nvar list = [{\n\tt: '1',\n\th: baseUrl\n}];\nfor (var i = 2; i <= p; i++) {\n\tlist.push({\n\t\tt: '' + i,\n\t\th: baseUrl.replace(/\\.html/, '_' + i + '.html')\n\t})\n}\nlist\n</js>",
+      "chapterName": "t",
+      "chapterUrl": "h",
+      "nextTocUrl": ""
+    },
+    "searchUrl": "/plus/search.php?keyword={{key}}&searchtype=title&channeltype=0&orderby=&kwtype=0&pagesize=10&typeid=0&TotalResult=146&PageNo={{page}},{\"charset\": \"gb2312\"}",
+    "weight": 0
+  }]

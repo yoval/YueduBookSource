@@ -1,0 +1,55 @@
+[  {
+    "bookSourceComment": "本书源自动换源，遇到目录错乱，无法加载，加载慢，点刷新即可，不用换源，不用换源。",
+    "bookSourceGroup": "📡发现",
+    "bookSourceName": "📡 神马小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://xiaoshuo.sm.cn",
+    "customOrder": -117085,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::https://api.xiaoshuo1-sm.com:443/sc/1/channel/channel/?format=json&page={{page}}&size=20&q=%E7%8E%84%E5%B9%BB&_t=1604397057042&_=1604397057042\n都市::https://api.xiaoshuo1-sm.com:443/sc/1/channel/channel/?format=json&page={{page}}&size=20&q=%E9%83%BD%E5%B8%82&_t=1604402558529&_=1604402558530\n官场::https://api.xiaoshuo1-sm.com:443/sc/1/channel/channel/?format=json&page={{page}}&size=20&q=%E5%AE%98%E5%9C%BA&_t=1604404198963&_=1604404198964\n乡村::https://api.xiaoshuo1-sm.com:443/sc/1/channel/channel/?format=json&page={{page}}&size=20&q=%E4%B9%A1%E6%9D%91&_t=1604404260043&_=1604404260044\n仙侠::https://api.xiaoshuo1-sm.com:443/sc/1/channel/channel/?format=json&page={{page}}&size=20&q=%E4%BB%99%E4%BE%A0&_t=1604404302327&_=1604404302327\n军事::https://api.xiaoshuo1-sm.com:443/sc/1/channel/channel/?format=json&page={{page}}&size=20&q=%E5%86%9B%E4%BA%8B&_t=1604404350260&_=1604404350260\n网游::https://api.xiaoshuo1-sm.com:443/sc/1/channel/channel/?format=json&page={{page}}&size=20&q=%E7%BD%91%E6%B8%B8&_t=1604404400510&_=1604404400511\n历史::https://api.xiaoshuo1-sm.com:443/sc/1/channel/channel/?format=json&page={{page}}&size=20&q=%E5%8E%86%E5%8F%B2&_t=1604404448785&_=1604404448785\n古代言情::https://api.xiaoshuo1-sm.com:443/sc/1/channel/channel/?format=json&page={{page}}&size=20&q=%E5%8F%A4%E4%BB%A3%E8%A8%80%E6%83%85\n现代言情::https://api.xiaoshuo1-sm.com:443/sc/1/channel/channel/?format=json&page={{page}}&size=20&q=%E7%8E%B0%E4%BB%A3%E8%A8%80%E6%83%85\n仙侠言情::https://api.xiaoshuo1-sm.com:443/sc/1/channel/channel/?format=json&page={{page}}&size=20&q=仙侠言情\n霸道总裁::https://api.xiaoshuo1-sm.com:443/sc/1/channel/channel/?format=json&page={{page}}&size=20&q=霸道总裁\n军婚::https://api.xiaoshuo1-sm.com:443/sc/1/channel/channel/?format=json&page={{page}}&size=20&q=军婚\n宠文::https://api.xiaoshuo1-sm.com:443/sc/1/channel/channel/?format=json&page={{page}}&size=20&q=宠文\n女强::https://api.xiaoshuo1-sm.com:443/sc/1/channel/channel/?format=json&page={{page}}&size=20&q=女强\n言情::https://api.xiaoshuo1-sm.com:443/sc/1/channel/channel/?format=json&page={{page}}&size=20&q=言情\n古风耽美::https://api.xiaoshuo1-sm.com:443/sc/1/channel/channel/?format=json&page={{page}}&size=20&q=古风耽美\n现代耽美::https://api.xiaoshuo1-sm.com:443/sc/1/channel/channel/?format=json&page={{page}}&size=20&q=现代耽美\n强攻强受::https://api.xiaoshuo1-sm.com:443/sc/1/channel/channel/?format=json&page={{page}}&size=20&q=强攻强受\n耽美同人::https://api.xiaoshuo1-sm.com:443/sc/1/channel/channel/?format=json&page={{page}}&size=20&q=耽美同人\n完结::https://api.xiaoshuo1-sm.com:443/sc/1/channel/channel/?format=json&page={{page}}&size=20&q=完结\n热搜::https://api.xiaoshuo1-sm.com:443/sc/1/channel/channel/?format=json&page={{page}}&size=20&q=热搜\n蹿升::https://api.xiaoshuo1-sm.com:443/sc/1/channel/channel/?format=json&page={{page}}&size=20&q=蹿升\n好评::https://api.xiaoshuo1-sm.com:443/sc/1/channel/channel/?format=json&page={{page}}&size=20&q=好评",
+    "header": "",
+    "lastUpdateTime": 1612116815560,
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "<js>java.get('key')</js>\n##//([^/\"]+)##$1###",
+      "tocUrl": "<js>\nvar match;\nvar listurl = [];\n\nvar murl = /\"catalogUrl\":\"([^\"]+)/g;\nwhile ((match = murl.exec(result)) != null) {\nlisturl.push(String(match[1]).replace(/\\\\/g,''))};\n\nmurl = /\"RawUrl\":\"([^\"]+)/g;\nwhile ((match = murl.exec(result)) != null) {\nlisturl.push(String(match[1]).replace(/\\\\/g,''))};\n\nmurl = /site_chapter_url\":\"([^\"]+)/g;\nwhile ((match = murl.exec(result)) != null) {\nlisturl.push(String(match[1]).replace(/\\\\/g,''))};\n\nmurl = /\"u\":\"([^\"]+)/g;\nwhile ((match = murl.exec(result)) != null) {\nlisturl.push(String(match[1]).replace(/\\\\/g,''))};\n\nvar allurl = listurl.toString();\nvar listurl1 = allurl.split(\",\")\n\nvar i=Math.floor(Math.random() * (listurl1.length-1));\nlisturl1[i];\njava.put('key',listurl1[i])\n</js>\n<js>if(result.match(/zongheng/)){'https://m.zongheng.com/h5/ajax/chapter/list?h5=1&pageNum=1&pageSize=99999&chapterId=&asc=0&bookId=' + result.match(/bookid=(\\d+)/)[1]}\n\nelse if\n(result.match(/lemonyd/)){'https://biz.lemonyd.com/book/chapter/book/'+result.match(/bid=(\\d+)/)[1]+'?volumeIndex=0'}\n\nelse if\n(result.match(/babk.net/)){result.replace('babk','kknn')}\n\nelse if\n(result.match(/55xs.com/)){'http://www.55shuba.com/du'+result.match(/(\\d+)\\/$/)[1]+'/'}\n\nelse if\n(result.match(/m.1kanshu.cc/)){var id=result.match(/(\\d+)\\/$/,'')[1];\nxid=Math.floor(id/1000);\n'https://m.1kanshu.cc/'+xid+'/'+id+'/'}\n\nelse if\n(result.match(/www.anzhixiao.com/)){var id=result.match(/(\\d+).html$/,'')[1];\nxid=Math.floor(id/1000);\n'http://www.anzhixiao.com/'+xid+'/'+id+'/'}\n\nelse if\n(result.match(/www.kanxia.org/)){var id=result.match(/(\\d+).html$/,'')[1];\nxid=Math.floor(id/1000);\n'http://www.kanxia.org/kan/'+xid+'/'+id+'/'}\n\nelse if\n(result.match(/m.bqg5.cc/)){var id=result.match(/(\\d+)\\/$/,'')[1];\nxid=Math.floor(id/1000);\n'https://m.bqg5.cc/'+xid+'/'+id+'_1/'}\n\nelse if\n(result.match(/www.guxs.net/)){var name=result.match(/(.*)(\\d+).html$/,'')[1];\nvar id=result.match(/(.*)(\\d+).html$/,'')[2];\nxid=Math.floor(id/1000);\nname+xid+'/'+id+'/'}\n\nelse if\n(result.match(/www.13xs.com/)){result.replace(/(\\d+).html$/,'')}\n\nelse if\n(result.match(/m.aishu5.com/)){result.replace(/(\\d+)\\/$/,'wapbook-'+$0)}\n\nelse if\n(result.match(/www.biqukan.com/)){result.replace(/http:/,'https:')}\n\nelse if\n(result.match(/m.heiyan.la/)){result+'1/'}\n\nelse if\n(result.match(/wap.jjwxc.net/)){result+'?more=0&whole=1'}\n\nelse if\n(result.match(/wap.read8.net|m.wxguan.com/)){result+'all.html'}\n\nelse if\n(result.match(/m.mubige.com/)){result+'page-1.html'}\n\nelse if\n(result.match(/m.qktsw.com/)){result.replace('/tingshu','/book').replace('.html','/')}\n\nelse if\n(result.match(/m.lingyu.org/)){result.replace('/wjsw','/0').replace('.html','/')}\n\nelse if\n(result.match(/m.qingdou.net|m.360wxw.com/)){result.replace(/(xs|book)\\//,'').replace('.html','/')}\n\nelse if\n(result.match(/m.yshuoba.com/)){result.replace('m.y','www.y').replace('xtxs','ml').replace('.html','/')}\n\nelse if\n(result.match(/m.ahzww.net/)){result.replace('book','0')}\n\nelse if\n(result.match(/lanmaoco.com/)){result.replace(/_\\d+.html$/,'')}\n\nelse if\n(result.match(/m.danteng123.com/)){result.replace('book/','').replace('.html','')}\n\nelse if\n(result.match(/www.wenxuem.com/)){result.replace('/info','').replace('.html','')}\n\nelse if\n(result.match(/m.bichi.me|m.lnwow.net|i.258zw.com|wap.dulaidw.com|m.9i58.com/)){result.replace('info-','wapbook-').replace(/_\\d+/,'')}\n\nelse if\n(result.match(/m.qb5200.co|m.44pq.cc|m.qqxs.cc|m.xs7.la/)){result.replace('book_','chapters_')}\n\n\nelse if\n(result.match(/m.ibiquge.net/)){result.replace('_','/')}\n\nelse if\n(result.match(/m.mhtwx.la|m.balingtxt.com/)){result+'page-1.html'}\n\nelse{result}</js>\n",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": ".content p@html||#content@html||.content@html||#htmlContent@html||#kui-page-read-txt@html||#ccon@html||#txtContent@html||#chaptercontent@html||#Context@html||#nr1@html||.ReadAjax_content@html||#TXT@html||#pt-pop@html||#acontent@html",
+      "nextContentUrl": "id.next@href||class.next-chapter@a@href||class.next@href||text.下一页@href",
+      "replaceRegex": "##\\(女生文学 www.wenxuem.com|.*?未完待续.*?\\)|如果您中途有事离开.*?观看！|.*?(52bqg.net|huanyuanshenqi.com|duoben.net|02shu.cc|x36sfw.com|wenxue5.com|doulaidu.com|sanjiangge.Com|50zw.co|630BOOK.LA|biqugej.com).*|加入(书签|收藏)|(电脑|手机)版((地|网)址|按钮)|.*(ddsk.la).*?\\s|本章未完，点击下一页继续阅读|(上|下)一章|章节目录|(上|下)一页\n|上一页|温馨提示：.*?继续阅读。|第.*?章\\(\\d+\\/\\d+\\)|投票推荐|留言反馈|章节错误.*?耐心等待。|推荐阅读：.*|武林中文网.*|请安装我们的客户端|更多好书|离线下载|无广告阅读|下载APP|.*biquge0.cc.*|去读书推荐各位书友阅读.*|\\(.*?.qudushu.com.*?\\)",
+      "sourceRegex": ""
+    },
+    "ruleExplore": {
+      "author": "author",
+      "bookList": "$..list.*",
+      "bookUrl": "https://m.sm.cn:443/s?q={{$.id}}&qi=111&uc_param_str=dnntnwvepffrgibijbprsvdsdichei&from=smor&safe=1",
+      "coverUrl": "icon",
+      "intro": "{$.description}",
+      "name": "title",
+      "wordCount": "评分：{{$.mark_score}} "
+    },
+    "ruleSearch": {
+      "author": "author",
+      "bookList": "$..list.*",
+      "bookUrl": "https://m.sm.cn:443/s?q={{$.id}}&qi=111&uc_param_str=dnntnwvepffrgibijbprsvdsdichei&from=smor&safe=1",
+      "coverUrl": "icon",
+      "intro": "description",
+      "name": "title",
+      "wordCount": "评分：{{$.mark_score}} "
+    },
+    "ruleToc": {
+      "chapterList": "<js>\nif(baseUrl.match(/zongheng/)){var bookId = baseUrl.match(/bookId=(\\d+)/)[1];\n\nJSON.parse(String(result))\n  .chapterlist.chapters.filter(o => !o.chapterName.includes('作品相关'))\n  .map(o => {\n    return {\n      name: o.chapterName.replace(/^正文\\s+/, ''),\n      url:\n        'http://huayu.zongheng.com/chapter/' +\n        bookId +\n        '/' +\n        o.chapterId +\n        '.html',\n      vip: o.level > 0\n    };\n  });\n}\n\nelse if (baseUrl.match(/lemonyd/)){var bookId = baseUrl.match(/book\\/(\\d+)/)[1];\n\nJSON.parse(String(result))\n  .data.rf.filter(o => !o.name.includes('作品相关'))\n  .map(o => {\n    return {\n      name: o.name.replace(/^正文\\s+/, ''),\n      url:\n        'https://biz.lemonyd.com/book/' +\n        bookId +\n        '/' +\n        o.chapterId\n   };\n  });\n}\n\nelse {doc=org.jsoup.Jsoup.parse(result.replace(/(立即|开始)阅读(记录|)|(\\[|↑)*(正|倒|顺)序(\\]|↓)*|(章节|返回)(目录|主页|)|(我的|加入|)书架|(首|尾)页|玄幻(奇幻|小说|)|(现代|)都市(言情|)|(最新|)TXT下载|其他|推荐|用这款(APP|app).*?准确.|↓直达页面底部↓|上一页|查看全部/g,''));\n\nlist=doc.select(\"#readerlist a,#alllist a,.chapterlist a,#chapterlist a,.list-group a,#kui-book-show a,#list a,.list li,#list dl dd a,#cul a,#chapters-list a,.novel_list a,.dccss a,.book_list a,.mulu a,.listCont dd a,.listmain a,.read a,#list-chapterAll dd a,.chapter A,.chapter a,#chapter a,.section-box ul a,.directoryArea a,.ul_catalog a,.zjlist a,.zjbox a,.catalog_ls a,#uls li,.list-charts a,#newlist a,.catalogs a,.ml_main a,tbody td a,.section-box a,.col-sm-3 a,.dirbox a,dl dd a,#yulan li a,.books_li a,.full a,.mulu_list a,.book_last a,.list_xm a,.article a,ul#readlist li a,.volume a,#clist a,.con a,.attentions ul a,#readerlist a,.info_newest a\");\n\n\na=list.toArray().reverse().map(x=>({name:x.text(),\nurl:x.attr('href')}));\n\nif(baseUrl.match(/m.yqxs.cc||ciluzww.com||ttshuba.com/))\n{a.reverse()}\n\n\n}</js>",
+      "chapterName": "name",
+      "chapterUrl": "url",
+      "isVip": "vip",
+      "nextTocUrl": "option@value||text.下一页@href",
+      "updateTime": ""
+    },
+    "searchUrl": "https://api.xiaoshuo1-sm.com:443/sc/1/channel/channel/?format=json&page={{page}}&size=20&q={{key}}",
+    "weight": 0
+  }]

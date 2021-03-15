@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "error:failed to connect to www.1778go.com/45.199.76.34 (port 80) from /192.168.0.103 (port 39346) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "🛠️劣质,失效",
+    "bookSourceName": "🛠️ 一起看书吧~1778",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.1778go.com",
+    "customOrder": 16371,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1602852387515,
+    "ruleBookInfo": {
+      "author": "//meta[@property=\"og:novel:author\"]/@content",
+      "coverUrl": "##pic'(?:[^\"]*\"){3}(.*?)\"##$1###",
+      "intro": "##bookinfo_intro\"(?:[^>]*>){4}\\s*([\\u4e00-\\u9fa5].+?)<##$1###",
+      "kind": "##icon-home\"(?:[^>]*>){4}(.*?)<##$1###",
+      "lastChapter": "//meta[@property=\"og:novel:latest_chapter_name\"]/@content",
+      "name": "//meta[@property=\"og:novel:book_name\"]/@content"
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$6",
+      "bookList": ":s1(?:[^\"]*\"){2}(.*?)\".*?>(.*?)<[^\"]*\"s2\".*?\".*com/(\\d+)/(\\d+).*?\".*?>(.*?)<(?:[^>]*>){3}(.*?)<(?:[^>]*>){2}(.*?)<(?:[^>]*>){2}(.*?)<(?:[^>]*>){2}(.*?)<",
+      "bookUrl": "$1",
+      "coverUrl": "http://www.1778go.com/files/article/image/$3/$4/$4s.jpg",
+      "kind": "$7,$8,$9",
+      "lastChapter": "$5",
+      "name": "$2"
+    },
+    "ruleToc": {
+      "chapterList": ":<li>.*?\"(.*?)\">(.*?)<",
+      "chapterName": "$2",
+      "chapterUrl": "$1"
+    },
+    "searchUrl": "/modules/article/search.php?action=login&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

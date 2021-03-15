@@ -1,0 +1,42 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "书朋网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.shupengwang.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.divbox cf@tag.div.2@text##.*作者：|类别：.*",
+      "coverUrl": "class.divbox cf@tag.img@src",
+      "intro": "class.gray@text",
+      "kind": "class.divbox cf@tag.div.2@text##.*类别：|状态：.*",
+      "lastChapter": "class.divbox cf@tag.div.4@tag.a@text",
+      "name": "class.ratitle@text"
+    },
+    "ruleContent": {
+      "content": "class.ccontent@textNodes||id.ccontent@textNodes##一秒记住|\\【|思路客|\\】.*免费阅读！|手机用户请浏览|.*书架与电脑版同步。"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.div.4@tag.span.1@text",
+      "bookList": "class.c_row",
+      "bookUrl": "class.fl@tag.a@href",
+      "coverUrl": "class.fl@tag.a@tag.img@src",
+      "intro": "class.c_description@text",
+      "kind": "tag.div.4@tag.span.3@text",
+      "lastChapter": "class.c_value@a@text",
+      "name": "class.c_subject@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "+@css:.chapter a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.shupengwang.com/modules/article/search.php?searchtype=articlename&searchkey={{key}}&t_btnsearch=%26%2360968%3B&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

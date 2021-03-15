@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 爱灵异",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ailingyi.com",
+    "bookUrlPattern": "",
+    "customOrder": -115050,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最新入库::/top/postdate/{{page}}.html",
+    "lastUpdateTime": 1612832954310,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": ".list_desc@html##^\\s*##<br>"
+    },
+    "ruleContent": {
+      "content": ".post_entry@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "h3@tag.span.0@text##作者[:：]",
+      "bookList": ".list_item:lt(4)",
+      "bookUrl": "h3@tag.a.-1@href",
+      "coverUrl": ".list_img img@src",
+      "intro": ".list_desc@text@js:result.trim()",
+      "lastChapter": ".list_new a@title##《》\\s*",
+      "name": "h3@tag.a.-1@text"
+    },
+    "ruleToc": {
+      "chapterList": ".container ul a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search?key={{key}}",
+    "weight": 0
+  }]

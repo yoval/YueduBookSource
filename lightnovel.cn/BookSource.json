@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "A级; 轻小说; 发现",
+    "bookSourceName": "轻之国度lightnovel.cn",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.lightnovel.cn",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最新::https://www.lightnovel.cn/forum-173-{{page}}.html\n轻小说::https://www.lightnovel.cn/forum-4-{{page}}.html\n原创小说::https://www.lightnovel.cn/forum-28-{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "网站暂时维护中...",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.t_f@html##(本帖.*?编辑)##▓$1▓"
+    },
+    "ruleExplore": {
+      "author": "tag.cite.0@text",
+      "bookList": "tbody",
+      "bookUrl": "class.s xst@href",
+      "kind": "##\\[<a href=\"forum.php\\?.*?\">([^\"]+)</a>\\]##$1###",
+      "name": "class.s xst@text"
+    },
+    "ruleSearch": {
+      "bookList": "class.pbw",
+      "bookUrl": "h3@a@href",
+      "kind": "tag.p.2@tag.a@text",
+      "name": "h3@text&&tag.p.2@tag.a@text<js>if(result.match(/LK漫画|会员服务中心|轻之国度公告区|活动区|原创图坊|ARIA之都|ACG新闻速递|素材库/)){result=null}else{result=result}</js>"
+    },
+    "ruleToc": {
+      "chapterList": "+@js:if(result.match(/\\/\\s*\\d+\\s*页/)){\nn=result.match(/\\/\\s*(\\d+)\\s*页/)[1];\nb=baseUrl.match(/(https:\\/\\/www.lightnovel.cn\\/thread-\\d+-)\\d+-\\d+.html/)[1];\nlist=[];\nfor (i=1;i<=n;i++){\nlist.push({k:String(i),v:b+i+\"-1.html\"})\n};}else{list=[{k:\"1\",v:baseUrl}]}\nlist",
+      "chapterName": "k",
+      "chapterUrl": "v"
+    },
+    "searchUrl": "/search.php?mod=forum,{\n  \"method\": \"POST\",\n  \"body\": \"&srchtxt={{key}}&seltableid=0&srchuname=&srchfilter=all&srchfrom=0&before=&orderby=lastpost&ascdesc=desc&srchfid%5B%5D=all&searchsubmit=yes\"\n}",
+    "weight": 0
+  }]

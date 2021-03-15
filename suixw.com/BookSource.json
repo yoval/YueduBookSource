@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎈轻文",
+    "bookSourceName": "🎈 随想轻小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://book.suixw.com",
+    "bookUrlPattern": "",
+    "customOrder": -115947,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612809732348,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.content@tag.td.5@text##小说",
+      "coverUrl": "id.content@tag.img@src",
+      "intro": "id.content@tag.td.14@text",
+      "name": "id.content@tag.td.2@text",
+      "tocUrl": "id.content@tag.div.5@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@tag.a@text",
+      "bookList": "class.grid@tag.tbody@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a@href",
+      "lastChapter": "class.even.0@tag.a@text",
+      "name": "class.odd.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.ccss",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://book.suixw.com/modules/article/search.php?searchtype=articlename&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

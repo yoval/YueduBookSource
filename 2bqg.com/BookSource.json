@@ -1,0 +1,33 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "笔趣阁(2bqg)",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.2bqg.com/",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.pt-info.0@tag.a@text",
+      "coverUrl": "class.baseinfo@tag.img@src",
+      "intro": "class.intro@text",
+      "kind": "class.pt-info.1@tag.a@text",
+      "lastChapter": "id.newchaperlist@tag.li.0@tag.a@text##最新章节:",
+      "name": "class.pt-name.0@tag.a.0@text"
+    },
+    "ruleContent": {
+      "content": "class.chaptercontent@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "class.ptm-list-view.1@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "home/search,{\n  \"method\": \"POST\",\n  \"body\": \"action=search&q={{key}}\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,46 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceName": "努努书坊",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.nunusf.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::https://www.nunusf.com/e/extend/more/lsmore.php?page={{page}}&line=10&cl=1\n魔幻小说::https://www.nunusf.com/e/extend/more/lsmore.php?page={{page}}&line=10&cl=2\n悬疑小说::https://www.nunusf.com/e/extend/more/lsmore.php?page={{page}}&line=10&cl=3\n历史架空::https://www.nunusf.com/e/extend/more/lsmore.php?page={{page}}&line=10&cl=4\n都市小说::https://www.nunusf.com/e/extend/more/lsmore.php?page={{page}}&line=10&cl=5\n言情小说::https://www.nunusf.com/e/extend/more/lsmore.php?page={{page}}&line=10&cl=6\n武侠小说::https://www.nunusf.com/e/extend/more/lsmore.php?page={{page}}&line=10&cl=7",
+    "lastUpdateTime": 1613564457068,
+    "ruleBookInfo": {
+      "intro": "class.cover-book-desc@text",
+      "kind": "class.detail-book-classify-etc!1@text##分类：|状态：",
+      "lastChapter": "class.cover-mate-text@text",
+      "tocUrl": "text.加入书架@onclick##fav\\(\\d+,(\\d+)\\)##https://www.nunusf.com/e/extend/bookpage/pages.php?id=$1&pageNum=0&dz=asc###"
+    },
+    "ruleContent": {
+      "content": "id.text@html"
+    },
+    "ruleExplore": {
+      "author": "$.writer",
+      "bookList": "$.[*]",
+      "bookUrl": "$.url",
+      "coverUrl": "$.pic",
+      "intro": "$.smalltext",
+      "lastChapter": "$.date",
+      "name": "$.title"
+    },
+    "ruleSearch": {
+      "author": "class.book-author@text##作者:",
+      "bookList": "class.s-nv-list@li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@src",
+      "intro": "tag.p@text",
+      "kind": "class.green@text",
+      "name": "class.title@text"
+    },
+    "ruleToc": {
+      "chapterList": "$.list[*]",
+      "chapterName": "$.title",
+      "chapterUrl": "$.pic",
+      "nextTocUrl": "@js:\npage='{{$.totalPage}}';\nlist=[];\nfor(i = 1;i<page;i++){\nlist.push(baseUrl.replace(/pageNum=0/g,'pageNum='+i))\n}\nlist"
+    },
+    "searchUrl": "/e/search/index.php,{\n\"method\": \"POST\",\n\"body\": \"tbname=bookname&show=title&tempid=1&keyboard={{key}}\"\n}",
+    "weight": 0
+  }]

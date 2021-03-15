@@ -1,0 +1,50 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 词笔阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.cibige.com",
+    "customOrder": -115532,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部小说::https://m.cibige.com/ph/week_{{page}}.html\n玄幻小说::https://m.cibige.com/ph/week1_{{page}}.html\n武侠仙侠::https://m.cibige.com/ph/week2_{{page}}.html\n都市言情::https://m.cibige.com/ph/week3_{{page}}.html\n历史军事::https://m.cibige.com/ph/week4_{{page}}.html\n游戏动漫::https://m.cibige.com/ph/week5_{{page}}.html\n科幻恐怖::https://m.cibige.com/ph/week6_{{page}}.html\n女生小说::https://m.cibige.com/ph/week7_{{page}}.html\n其他小说::https://m.cibige.com/ph/week8_{{page}}.html\n二次元::https://m.cibige.com/ph/week9_{{page}}.html",
+    "lastUpdateTime": 1604164997167,
+    "ruleBookInfo": {
+      "author": "class.author@text##作者：",
+      "coverUrl": "class.synopsisArea_detail@tag.img@src",
+      "intro": "class.review@text",
+      "kind": "class.sort@text##类别：",
+      "lastChapter": "class.directoryArea@tag.p.0@tag.a@text",
+      "name": "class.title@text",
+      "tocUrl": "class.recommend@tag.h2.1@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@textNodes"
+    },
+    "ruleExplore": {
+      "author": "class.author@text##作者：",
+      "bookList": "id.main@class.hot_sale",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.a@tag.img@src",
+      "intro": "class.review@text",
+      "kind": "",
+      "lastChapter": "",
+      "name": "class.title@text"
+    },
+    "ruleSearch": {
+      "author": "tag.p.1@text##作者：([^<]*)##$1###",
+      "bookList": "class.recommend mybook@tag.div!0",
+      "bookUrl": "tag.a@href",
+      "kind": "tag.p.1@text## .*",
+      "lastChapter": "tag.p.2@text##更新：([^<]*)##$1###",
+      "name": "tag.a@tag.p@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterlist@tag.p!0",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://m.cibige.com/s.php?keyword={{key}}&t=1",
+    "weight": 0
+  }]

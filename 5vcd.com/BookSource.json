@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "error:SSL handshake aborted: ssl=0x7e5969ccc8: I/O error during system call, Connection reset by peer\n☞玩泥巴吹泡泡套圈圈™",
+    "bookSourceGroup": "👍优质,失效",
+    "bookSourceName": "👍 品书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.5vcd.com/",
+    "customOrder": 15954,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1602874632374,
+    "ruleBookInfo": {
+      "coverUrl": "class.book-img@tag.img@src",
+      "intro": "class.book-intro@text",
+      "kind": "class.book-stats@text##.*分类：|状态：|更新时间："
+    },
+    "ruleContent": {
+      "content": "id.BookText@html",
+      "replaceRegex": "##.*(长按复制)"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.book_other.0@tag.a@text",
+      "bookList": "id.sitebox@tag.dl",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@data-original",
+      "intro": "class.book_des@text",
+      "kind": "class.uptime@text&&class.book_other.0@tag.span.1@text&&class.book_other.0@tag.span.2@tag.a@text",
+      "lastChapter": "class.book_other.1@tag.a@text",
+      "name": "tag.dd@tag.h3@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapterlist@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.5vcd.com/search/result.html?action=search&searchkey={{key}}",
+    "weight": 0
+  }]

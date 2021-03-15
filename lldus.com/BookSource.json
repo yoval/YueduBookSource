@@ -1,0 +1,34 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "ll读书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.lldus.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@a@text",
+      "intro": "id.intro@text",
+      "name": "h1@text"
+    },
+    "ruleContent": {
+      "content": "@js:a=result.match(/chapter_id\\s*=\\s*\"(\\d+)\"/)[1];\nb=result.match(/article_id\\s*=\\s*\"(\\d+)\"/)[1];\nc=result.match(/hash\\s*=\\s*\"([^\"]+)\"/)[1];\nd=\"https://www.lldus.com/home/index/ajaxchapter@id=\"+b+\"&cid=\"+a+\"&eKey=\"+c;\nresult=JSON.parse(java.ajax(d)).info.content;"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.item-cover",
+      "bookUrl": "tag.a.0@href",
+      "name": "h3@text"
+    },
+    "ruleToc": {
+      "chapterList": "//*[@id=\"list\"]//dt[2]/following-sibling::dd/a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.lldus.com/home/search,{\n  \"method\": \"POST\",\n  \"body\": \"q={{key}}&action=search\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "18禁; 发现",
+    "bookSourceName": "第二书包网🔞",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.shubaodd.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "月点击榜::https://m.shubaodd.com/top/monthvisit_{{page}}/\n周点击榜::https://m.shubaodd.com/top/weekvisit_{{page}}/\n月推荐榜::https://m.shubaodd.com/top/monthvote_{{page}}/\n周推荐榜::https://m.shubaodd.com/top/weekvote_{{page}}/\n总收藏榜::https://m.shubaodd.com/top/goodnum_{{page}}/\n总点击榜::https://m.shubaodd.com/top/allvisit_{{page}}/\n总推荐榜::https://m.shubaodd.com/top/allvote_{{page}}/\n最近更新::https://m.shubaodd.com/top/lastupdate_{{page}}/\n最新入库::https://m.shubaodd.com/top/postdate_{{page}}/\n玄幻::https://m.shubaodd.com/sort/1_{{page}}/\n都市::https://m.shubaodd.com/sort/2_{{page}}/\n历史::https://m.shubaodd.com/sort/3_{{page}}/\n网游::https://m.shubaodd.com/sort/4_{{page}}/\n科幻::https://m.shubaodd.com/sort/5_{{page}}/\n辣文::https://m.shubaodd.com/sort/6_{{page}}/",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.block_txt2@tag.p.1@tag.a@text",
+      "coverUrl": "class.block_img2@tag.img@src",
+      "intro": "class.intro_info@text",
+      "name": "tag.h2@text",
+      "tocUrl": "class.margin_right@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "id.nr1@textNodes",
+      "nextContentUrl": "id.pb_next@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.line@tag.a.2@text",
+      "bookList": "class.cover@tag.p",
+      "bookUrl": "class.blue@href",
+      "kind": "class.line@tag.a.0@text",
+      "name": "class.blue@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter.0@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "class.page@tag.a.0@href"
+    },
+    "searchUrl": "https://m.shubaodd.com/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"type=articlename&s={{key}}\"\n}",
+    "weight": 0
+  }]

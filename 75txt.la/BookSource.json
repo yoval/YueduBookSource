@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "error:failed to connect to www.75txt.la/128.1.185.116 (port 443) from /192.168.0.103 (port 39598) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "👍优质,失效",
+    "bookSourceName": "👍 起舞小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.75txt.la",
+    "bookUrlPattern": "",
+    "customOrder": 15948,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.col-md-10@tag.a.0@text",
+      "coverUrl": "class.row@tag.img@src",
+      "intro": "//meta[@property=\"og:description\"]/@content",
+      "name": "tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@textNodes##☆免费小说阅读.*|　　[75小说网手机版]|V信看书.*",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.li.2@text",
+      "bookList": "class.container body-content@ul",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "//img/@src",
+      "lastChapter": "tag.li.1@text##.*最新.",
+      "name": "tag.li.0@text##.*小说."
+    },
+    "ruleToc": {
+      "chapterList": "class.col-md-3@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gb2312\"\n}",
+    "weight": 0
+  }]

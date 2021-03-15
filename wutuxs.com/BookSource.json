@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 无图小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.wutuxs.com",
+    "bookUrlPattern": "",
+    "customOrder": -115241,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/list/1_{{page}}.html\n武侠修真::/list/2_{{page}}.html\n都市言情::/list/3_{{page}}.html\n历史军事::/list/4_{{page}}.html\n网游动漫::/list/5_{{page}}.html\n科幻小说::/list/6_{{page}}.html\n恐怖灵异::/list/7_{{page}}.html\n其他类型::/list/8_{{page}}.html\n全本小说::/quanben/{{page}}",
+    "lastUpdateTime": 1612773411823,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.pic@tag.img@src",
+      "intro": "class.book@class.js@html@js:result.replace('小说介绍：', '').replace(/^\\s*/, '<br>')",
+      "tocUrl": "@css:a:contains(全文阅读)@href"
+    },
+    "ruleContent": {
+      "content": "id.contents@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "id.content@tr",
+      "bookUrl": "tag.td.0@tag.a@href",
+      "coverUrl": "tag.td.0@tag.a@href@js:\nvar id = result.match(/\\/(\\d+)\\/?$/)[1];\n'/files/article/image/'+parseInt(id/1000)+'/'+id+'/'+id+'s.jpg';",
+      "intro": "",
+      "kind": "tag.td.-1@text&&tag.td.-3@text",
+      "lastChapter": "tag.td.1@text@js:result.replace(/^(\\d+)/, '$1 ')",
+      "name": "tag.td.0@tag.a@text",
+      "wordCount": "tag.td.-2@text"
+    },
+    "ruleToc": {
+      "chapterList": ".L a",
+      "chapterName": "text@js:result.replace(/^(\\d+)/, '$1 ')",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php?searchtype=articlename&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

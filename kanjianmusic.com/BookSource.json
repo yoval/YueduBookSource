@@ -1,0 +1,34 @@
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "🎼音乐,失效",
+    "bookSourceName": "🎼 看见音乐™",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://www.kanjianmusic.com",
+    "customOrder": -31397,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部::https://www.kanjianmusic.com/music/all/all/new/{{page}}\n流行::https://www.kanjianmusic.com/music/115/all/new/{{page}}\n摇滚::https://www.kanjianmusic.com/music/116/all/new/{{page}}\n民谣::https://www.kanjianmusic.com/music/117/all/new/{{page}}\n电子::https://www.kanjianmusic.com/music/118/all/new/{{page}}\n节奏布鲁斯::https://www.kanjianmusic.com/music/126/all/new/{{page}}\n爵士::https://www.kanjianmusic.com/music/122/all/new/{{page}}\n嘻哈::https://www.kanjianmusic.com/music/164/all/new/{{page}}\n金属::https://www.kanjianmusic.com/music/121/all/new/{{page}}\n乡村::https://www.kanjianmusic.com/music/120/all/new/{{page}}\n布鲁斯::https://www.kanjianmusic.com/music/123/all/new/{{page}}\n雷鬼::https://www.kanjianmusic.com/music/128/all/new/{{page}}\n世界音乐::https://www.kanjianmusic.com/music/124/all/new/{{page}}\n器乐::https://www.kanjianmusic.com/music/125/all/new/{{page}}\n影视原声::https://www.kanjianmusic.com/music/127/all/new/{{page}}\n中国特色::https://www.kanjianmusic.com/music/165/all/new/{{page}}\n其它::https://www.kanjianmusic.com/music/119/all/new/{{page}}\n最新::https://www.kanjianmusic.com/music/all/all/new/{{page}}\n最热::https://www.kanjianmusic.com/music/all/all/hot/{{page}}\n流行::https://www.kanjianmusic.com/music/115/all/new/{{page}}\n摇滚::https://www.kanjianmusic.com/music/116/all/new/{{page}}\n民谣::https://www.kanjianmusic.com/music/117/all/new/{{page}}\n电子::https://www.kanjianmusic.com/music/118/all/new/{{page}}\n节奏布鲁斯::https://www.kanjianmusic.com/music/126/all/new/{{page}}\n爵士::https://www.kanjianmusic.com/music/122/all/new/{{page}}\n嘻哈::https://www.kanjianmusic.com/music/164/all/new/{{page}}\n金属::https://www.kanjianmusic.com/music/121/all/new/{{page}}\n乡村::https://www.kanjianmusic.com/music/120/all/new/{{page}}\n布鲁斯::https://www.kanjianmusic.com/music/123/all/new/{{page}}\n雷鬼::https://www.kanjianmusic.com/music/128/all/new/{{page}}\n世界音乐::https://www.kanjianmusic.com/music/124/all/new/{{page}}\n器乐::https://www.kanjianmusic.com/music/125/all/new/{{page}}\n影视原声::https://www.kanjianmusic.com/music/127/all/new/{{page}}\n中国特色::https://www.kanjianmusic.com/music/165/all/new/{{page}}\n其它::https://www.kanjianmusic.com/music/119/all/new/{{page}}\n华语::https://www.kanjianmusic.com/music/all/166/new/{{page}}\n粤语::https://www.kanjianmusic.com/music/all/168/new/{{page}}\n英语::https://www.kanjianmusic.com/music/all/171/new/{{page}}\n日语::https://www.kanjianmusic.com/music/all/176/new/{{page}}\n韩语::https://www.kanjianmusic.com/music/all/177/new/{{page}}\n其它::https://www.kanjianmusic.com/music/all/178/new/{{page}}\n无::https://www.kanjianmusic.com/music/all/179/new/{{page}}\n闽南语::https://www.kanjianmusic.com/music/all/222/new/{{page}}\n方言::https://www.kanjianmusic.com/music/all/223/new/{{page}}\nnull",
+    "lastUpdateTime": 1601006095731,
+    "ruleBookInfo": {
+      "coverUrl": "class.userAvatar@tag.img@src",
+      "intro": "class.content@html"
+    },
+    "ruleContent": {
+      "content": "$.mp3"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.artist@tag.a@text||class.authorName@text",
+      "bookList": "tag.tbody@tag.tr||",
+      "bookUrl": "tag.a@href",
+      "kind": "class.numOfPlayed@text||class.num@text",
+      "name": "class.musican@tag.a@text||class.songName@text"
+    },
+    "ruleToc": {
+      "chapterList": "outerBody",
+      "chapterName": "tag.h1.1@text",
+      "chapterUrl": "@js:baseUrl"
+    },
+    "searchUrl": "https://www.kanjianmusic.com/search/result/?is_user=0&keyword={{key}}#",
+    "weight": 0
+  }]

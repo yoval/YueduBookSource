@@ -1,0 +1,54 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🌸常用",
+    "bookSourceName": "🌸 悠久小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.ujxs.com",
+    "bookUrlPattern": "",
+    "customOrder": -117029,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/xuanhuan/{{page}}/\n仙侠修真::/wuxia/{{page}}/\n都市青春::/dushi/{{page}}/\n历史军事::/lishi/{{page}}/\n游戏动漫::/youxi/{{page}}/\n科幻灵异::/kehuan/{{page}}/\n女生言情::/yanqing/{{page}}/",
+    "lastUpdateTime": 1612109218617,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.d_title@tag.a.0@text",
+      "coverUrl": "id.bookimg@tag.img@src",
+      "intro": "id.bookintro@tag.div@text##【展开】|【收起】",
+      "kind": "id.count@tag.span.0@text&&class.new@tag.span.1@text##更新时间.",
+      "lastChapter": "class.new@tag.a.0@text",
+      "name": "class.d_title@tag.h1@text##作者.*|\\s",
+      "tocUrl": "class.motion@tag.a.0@href",
+      "wordCount": "id.count@tag.span.4@text"
+    },
+    "ruleContent": {
+      "content": "class.read-content@html##.*免费阅读！|佰度搜索.*|.*悠久小说.*|",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "author": "tag.a.2@text",
+      "bookList": "id.sitembox@tag.dl",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img@src",
+      "intro": "tag.dd.2@text",
+      "kind": "tag.span.1@text&&tag.span.-1@text",
+      "lastChapter": "tag.a.3@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.shulist@tag.ul",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##http://www.ujxs.com/files/article/image/$2/$1/$1s.jpg###",
+      "kind": "tag.li.1@text&&tag.li.4@text&&tag.li.5@text",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.readerlist@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/searchbooks.php?searchkey={{key}}",
+    "weight": 0
+  }]

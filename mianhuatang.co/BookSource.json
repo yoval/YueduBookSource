@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "👍优质",
+    "bookSourceName": "👍 棉花糖.co",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.mianhuatang.co",
+    "bookUrlPattern": "",
+    "customOrder": -115017,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "lastUpdateTime": 1612584099022,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.author.0@tag.p.0@tag.a.%@text",
+      "coverUrl": "class.con_limg.0@tag.img.0@src",
+      "intro": "class.r_cons.0@text",
+      "name": "class.info.0@tag.h1.0@tag.a.0@text",
+      "tocUrl": "id.diralinks.0@href"
+    },
+    "ruleContent": {
+      "content": "id.book_text@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "lastChapter": "class.even.0@tag.a.0@text",
+      "name": "class.odd.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterlist@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.mianhuatang.co/modules/article/search.php?ct=2097152&ie=gbk&searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

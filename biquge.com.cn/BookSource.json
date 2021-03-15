@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🍺特优",
+    "bookSourceName": "🍺 笔趣阁④",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.biquge.com.cn",
+    "bookUrlPattern": "",
+    "customOrder": -116818,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1604152321792,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "//*[@property=\"og:description\"]/@content"
+    },
+    "ruleContent": {
+      "content": "id.content@html",
+      "nextContentUrl": "//*[@class=\"bottem1\"]/*[contains(text(),\"下一章\")]/@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "//*[contains(text(), \"作者\")]/../span[2]/text()",
+      "bookList": "//div[starts-with(@class,\"result-item\")]",
+      "bookUrl": "//*[@cpos=\"title\"]/@href",
+      "coverUrl": "//*[@class=\"result-game-item-pic-link-img\"]/@src",
+      "intro": "class.result-game-item-desc@text",
+      "lastChapter": "//*[contains(text(), \"最新章节\")]/../a/text()",
+      "name": "//*[@cpos=\"title\"]/span/text()"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd",
+      "chapterName": "//a/text()",
+      "chapterUrl": "//a/@href"
+    },
+    "searchUrl": "https://www.biquge.com.cn/search.php?q={{key}}",
+    "weight": 0
+  }]

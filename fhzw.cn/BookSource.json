@@ -1,0 +1,34 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "C级",
+    "bookSourceName": "烽火中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://fhzw.cn",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "name": "id.nav.0@text##》.*|《"
+    },
+    "ruleContent": {
+      "content": "id.zhengwen@tag.td@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a@text##.*》|/.*",
+      "bookList": "tag.body@tag.a",
+      "bookUrl": "tag.a@href",
+      "name": "tag.a@text##》.*|《"
+    },
+    "ruleToc": {
+      "chapterList": "tag.font@tag.a!0:1:2:3:4:5:6:7:8",
+      "chapterName": "tag.a.0@text",
+      "chapterUrl": "$tag.a.0@href",
+      "nextTocUrl": "text.下一页.0@href"
+    },
+    "searchUrl": "http://fhzw.cn/search_out.php?pno=0,{\n  \"method\": \"POST\",\n  \"body\": \"s_key={{key}}&s_type=1&submit=%E5%B0%8F%E8%AF%B4%E6%90%9C%E7%B4%A2\"\n}",
+    "weight": 0
+  }]

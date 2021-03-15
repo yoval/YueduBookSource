@@ -1,0 +1,43 @@
+[  {
+    "bookSourceComment": "error:Timed out waiting for 180000 ms\n",
+    "bookSourceGroup": "🔰普通",
+    "bookSourceName": "🔰 笔下看书[防盗字体]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.jininggeyin.com",
+    "bookUrlPattern": "",
+    "customOrder": -114574,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "",
+    "lastUpdateTime": 1612782433445,
+    "ruleBookInfo": {
+      "author": "class.infos@tag.a.0@text",
+      "intro": "class.intro@text",
+      "name": "tag.h1@text",
+      "tocUrl": "class.more@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "id.txt@html##天才一秒.*小说网站!|\\(\\d\\/\\d+\\)|.*第.*?章.*",
+      "imageStyle": "0",
+      "nextContentUrl": "id.pt_next@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.i.0@text",
+      "bookList": "class.details.0@tag.div",
+      "bookUrl": "class.item-pic@tag.a.0@href",
+      "coverUrl": "tag.img.0@src",
+      "intro": "tag.p.2@text",
+      "lastChapter": "tag.a.2@text",
+      "name": "tag.h3.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapterlist@dd||class.last9@tag.li!0",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "https://www.jininggeyin.com/search.html?keyword={{key}}&t_btnsearch=",
+    "weight": 0
+  }]

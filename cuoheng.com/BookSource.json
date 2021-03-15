@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "👍优质",
+    "bookSourceName": "👍 错衡文学网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://cuoheng.com",
+    "bookUrlPattern": "",
+    "customOrder": 15912,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最新更新::http://cuoheng.com/page/{{page}}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "img@src",
+      "intro": "class.article-content@tag.p.0@textNodes##.*内容简介：",
+      "lastChapter": "class.muted.3@text",
+      "tocUrl": "class.article-content@h2@a@href"
+    },
+    "ruleContent": {
+      "content": "id.content@p@html||class.content@p@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.focus@a@img@alt##.*》| 著|.*\\)|\\[.*\\]",
+      "bookList": "class.content@article",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "kind": "class.label label-important@text",
+      "lastChapter": "class.muted.1@text",
+      "name": "class.focus@a@img@alt##.*《|》.*|\\(.*|\\[.*"
+    },
+    "ruleToc": {
+      "chapterList": "class.Volume@dl@dd@a",
+      "chapterName": "text##.*错衡文学网下载.*",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://cuoheng.com/?s={{key}}",
+    "weight": 0
+  }]

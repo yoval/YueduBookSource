@@ -1,0 +1,50 @@
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "🍺特优,失效",
+    "bookSourceName": "🍺 书本网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.bookben.net",
+    "customOrder": -32787,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/xuanhuan/{{page}}.html\n修真小说::/xiuzhen/{{page}}.html\n都市小说::/dushi/{{page}}.html\n穿越小说::/chuanyue/{{page}}.html\n网游小说::/wangyou/{{page}}.html\n科幻小说::/kehuan/{{page}}.html\n其他小说::/qita/{{page}}.html\n总点击榜::/allvisit/{{page}}.html\n月点击榜::/monthvisit/{{page}}.html\n周点击榜::/weekvisit/{{page}}.html\n日点击榜::/dayvisit/{{page}}.html\n总推荐榜::/allvote/{{page}}.html\n月推荐榜::/monthvote/{{page}}.html\n周推荐榜::/weekvote/{{page}}.html\n日推荐榜::/dayvote/{{page}}.html\n总收藏榜::/goodnum/{{page}}.html\n总字数榜::/size/{{page}}.html\n最新入库::/postdate/{{page}}.html\n最近更新::/lastupdate/{{page}}.html\n强推榜单::/toptime/{{page}}.html\n新书榜单::/goodnew/{{page}}.html",
+    "lastUpdateTime": 1603341822909,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "//*[@class=\"yxjj\"]/dd[2]/a/text()",
+      "coverUrl": "//*[@class=\"ebookpic\"]/img/@src",
+      "intro": "//*[@class=\"xgjsdd\"]/p/text()",
+      "kind": "//*[@class=\"yxjj\"]/dd[1]/a/text()",
+      "lastChapter": "//*[@class=\"yxjj\"]/dd[5]/text()",
+      "name": "//*[@class=\"ct\"]/a/text()##[《》]",
+      "tocUrl": "//*[@class=\"xz2ul\"]/li[1]/a/@href",
+      "wordCount": "//*[@class=\"yxjj\"]/dd[4]/text()"
+    },
+    "ruleContent": {
+      "content": "//*[@id=\"content\"]@html"
+    },
+    "ruleExplore": {
+      "author": "//dd[3]/text()",
+      "bookList": "//*[@class=\"lblr\"]/dl",
+      "bookUrl": "//dt/a/@href",
+      "coverUrl": "//dd/a/img/@src",
+      "kind": "//dd[2]/text()",
+      "name": "//dt/a/text()",
+      "wordCount": "//dd[4]/text()"
+    },
+    "ruleSearch": {
+      "author": "",
+      "bookList": "//*[@class=\"zjjs\"]",
+      "bookUrl": "//h2/a/@href",
+      "coverUrl": "//a[1]/img/@src",
+      "intro": "//text()",
+      "name": "//h2/a/text()##[《》]"
+    },
+    "ruleToc": {
+      "chapterList": "//*[@class=\"n\"]/a",
+      "chapterName": "text##\\[bookben.net\\]",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.bookben.net/search.html,{\n     \"method\": \"POST\",\n     \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

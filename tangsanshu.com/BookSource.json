@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "👍优质",
+    "bookSourceName": "👍 唐三中文网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.tangsanshu.com",
+    "customOrder": -114852,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612811113981,
+    "ruleBookInfo": {
+      "author": "class.block_txt@tag.p.2@text##作者：",
+      "coverUrl": "class.block_img2@tag.img@src",
+      "intro": "class.intro_info@html##最新章节推荐地址.*",
+      "name": "class.block_txt2@tag.h2@tag.a@text"
+    },
+    "ruleContent": {
+      "content": "id.nr1@textNodes##\\s*第.*章.*\\s*\\(第...页\\).*",
+      "nextContentUrl": "id.pb_next@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.block_txt@tag.p.3@text##作者：",
+      "bookList": "class.block",
+      "bookUrl": "class.block_txt@tag.h2@tag.a@href",
+      "kind": "class.block_txt@tag.p.2@text##分类：",
+      "lastChapter": "class.block_txt@tag.p.4@tag.a@text",
+      "name": "class.block_txt@tag.h2@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter.1@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "class.right@tag.a@href"
+    },
+    "searchUrl": "http://m.tangsanshu.com/s.php?s=11634403173562452546&q={{key}}&submit=",
+    "weight": 0
+  }]

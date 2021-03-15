@@ -1,0 +1,43 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "杰米哒小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.xs63.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36\"\n}",
+    "lastUpdateTime": 1604852456689,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "//meta[@property=\"og:novel:author\"]/@content",
+      "coverUrl": "//meta[@property=\"og:image\"]/@content",
+      "intro": "//meta[@property=\"og:description\"]/@content##简介： ",
+      "kind": "//meta[@property=\"og:novel:category\"]/@content",
+      "lastChapter": "//meta[@property=\"og:novel:latest_chapter_name\"]/@content",
+      "name": "//meta[@property=\"og:title\"]/@content",
+      "tocUrl": "//meta[@property=\"og:novel:read_url\"]/@content##https://63.yiliant.com/(.*)##http://www.xs63.com/$1###"
+    },
+    "ruleContent": {
+      "content": "@js:\nif(baseUrl.indexOf('page')>-1){\npage=baseUrl.match(/page=(\\d+)/)[1];\n\ncid=baseUrl.match(/(\\d+)\\.html/)[1];\n\nbid=baseUrl.match(/http:\\/\\/www.xs63.com\\/.*?\\/(.*?)\\/\\d+\\.html/)[1];\n\nid=result.match(/var keys1 = '(\\d+)'\\+'(\\d+)';/);\n\nkey=result.match(/var keyss = keys1 \\+ '(\\d+)'/)[1];\n\nkeys=id[1]+id[2]+key;\n\nvar time = parseInt(Date.now()/1000);\n\nurl='http://www.xs63.com/index/bookinfo/?cid='+cid+'&bid='+bid+'&page='+page+'&keys='+keys+'&keyss='+keys+'&time='+time;\n\nheader={\"Referer\":baseUrl}\n\npost={\n\"method\":\"POST\",\n\"headers\":JSON.stringify(header)\n}\n\njava.getString('@@id.htmlContent@tag.p!-2@html',false)+JSON.parse(java.ajax(url+','+JSON.stringify(post))).data;\n}\nelse{result=java.getString('@@id.htmlContent@tag.p!-2@html',false)}",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": "##\\s*--x--s--6--3=====w\\s*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s3@text",
+      "bookList": "class.lis@dl",
+      "bookUrl": ".s2@a@href##https://63.yiliant.com/(.*)##http://www.xs63.com/$1###",
+      "kind": ".s1@text##\\[|\\]",
+      "name": "class.s2@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.book_list.1@li@a||class.chapter.1@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search,{\n  \"headers\": \"{Referer:'http://m.xs63.com/search'}\",\n  \"method\": \"POST\",\n  \"body\": \"kw={{key}}\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎨漫画",
+    "bookSourceName": "🎨 奇妙漫画",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.qimiaomh.com",
+    "customOrder": -115870,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部::/list-1------updatetime--{{page}}.html\n热血::/list-1-7-----updatetime--{{page}}.html\n恋爱::/list-1-8-----updatetime--{{page}}.html\n青春::/list-1-9-----updatetime--{{page}}.html\n彩虹::/list-1-10-----updatetime--{{page}}.html\n冒险::/list-1-11-----updatetime--{{page}}.html\n后宫::/list-1-12-----updatetime--{{page}}.html\n悬疑::/list-1-13-----updatetime--{{page}}.html\n玄幻::/list-1-14-----updatetime--{{page}}.html\n穿越::/list-1-16-----updatetime--{{page}}.html\n都市::/list-1-17-----updatetime--{{page}}.html\n腹黑::/list-1-18-----updatetime--{{page}}.html\n爆笑::/list-1-19-----updatetime--{{page}}.html\n少年::/list-1-20-----updatetime--{{page}}.html\n奇幻::/list-1-21-----updatetime--{{page}}.html\n古风::/list-1-22-----updatetime--{{page}}.html\n妖恋::/list-1-23-----updatetime--{{page}}.html\n元气::/list-1-24-----updatetime--{{page}}.html\n治愈::/list-1-25-----updatetime--{{page}}.html\n励志::/list-1-26-----updatetime--{{page}}.html\n日常::/list-1-27-----updatetime--{{page}}.html\n百合::/list-1-28-----updatetime--{{page}}.html",
+    "lastUpdateTime": 1612114301218,
+    "ruleBookInfo": {
+      "author": "class.author@ownText",
+      "coverUrl": "class.ctdbLeft@img@src",
+      "intro": "id.worksDesc@text",
+      "kind": "class.labelBox@a@text",
+      "lastChapter": "class.num@text",
+      "name": "class.title.0@ownText"
+    },
+    "ruleContent": {
+      "content": "class.loadimg@html",
+      "imageStyle": "FULL",
+      "replaceRegex": "##src=\".*?\" data-"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.classification",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@data-src||img@src",
+      "lastChapter": "class.ellipsis@text",
+      "name": "h2@text"
+    },
+    "ruleToc": {
+      "chapterList": "-class.comic-content-list@class.tit@a",
+      "chapterName": "text",
+      "chapterUrl": "href##$##,{\"webView\":true}"
+    },
+    "searchUrl": "https://www.qimiaomh.com/action/Search?keyword={{key}}",
+    "weight": 0
+  }]

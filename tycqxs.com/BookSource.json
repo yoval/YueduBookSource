@@ -1,0 +1,42 @@
+[  {
+    "bookSourceComment": "error:timeout\n",
+    "bookSourceGroup": "🔰普通,失效",
+    "bookSourceName": "🔰 天域小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.tycqxs.com",
+    "customOrder": 16269,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/xuanhuanxiaoshuo/\n修真::/xiuzhenxiaoshuo/\n都市::/dushixiaoshuo/\n穿越::/chuanyuexiaoshuo/\n网游::/wangyouxiaoshuo/\n科幻::/kehuanxiaoshuo/",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text##作\\s*者：",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@text",
+      "name": "id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {
+      "author": "class.s5@text",
+      "bookList": "ul!0:2@tag.li",
+      "bookUrl": "class.s2@tag.a@href",
+      "lastChapter": "class.s3@text",
+      "name": "class.s2@tag.a@text"
+    },
+    "ruleSearch": {
+      "author": "class.even.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.even.0@tag.a.0@href",
+      "lastChapter": "class.odd.0@tag.a.0@text",
+      "name": "class.even.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.tycqxs.com/search.php?searchkey={{key}}",
+    "weight": 0
+  }]

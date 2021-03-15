@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 22k小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.22k.org",
+    "bookUrlPattern": "",
+    "customOrder": -32452,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36\"\n}",
+    "lastUpdateTime": 1602811524291,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.info-text f-big@text",
+      "lastChapter": "class.f-gray.0@tag.a@text",
+      "name": "class.title-info@tag.h4@text",
+      "tocUrl": "text.点击阅读@href"
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.article-list search-list",
+      "bookUrl": "tag.p.0@tag.a.0@href",
+      "intro": "class.p-intro@text",
+      "lastChapter": "tag.p.2@tag.a@text",
+      "name": "tag.img@alt"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter-list@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.22k.org/modules/article/search.php?searchtype=articlename&searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,36 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 热门小说网备用™",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.remen88.com",
+    "customOrder": -115193,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612606798048,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.content@html",
+      "nextContentUrl": "text.下一页.1@href",
+      "replaceRegex": "##喜欢.*请大家收藏：.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p.1@tag.a@text",
+      "bookList": "class.list@tag.li",
+      "bookUrl": "tag.p.0@tag.a@href",
+      "coverUrl": "tag.a@img@src",
+      "intro": "tag.p.2@text",
+      "kind": "tag.p.1@tag.span.0@text",
+      "lastChapter": "tag.p.3@tag.a@text",
+      "name": "tag.p.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.read@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://m.remen88.com/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

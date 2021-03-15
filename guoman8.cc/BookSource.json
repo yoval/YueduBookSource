@@ -1,0 +1,44 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎨漫画",
+    "bookSourceName": "🎨 国漫吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.guoman8.cc",
+    "bookUrlPattern": "http://www.guoman8.cc/27807/01.html",
+    "customOrder": -115871,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "日本::http://www.guoman8.cc/list/area-%E6%97%A5%E6%9C%AC-p-{{page}}&&港台::http://www.guoman8.cc/list/area-%E6%B8%AF%E5%8F%B0-p-{{page}}&&欧美::http://www.guoman8.cc/list/area-%E6%AC%A7%E7%BE%8E-p-{{page}}&&韩国::http://www.guoman8.cc/list/area-%E9%9F%A9%E5%9B%BD-p-{{page}}&&国产::http://www.guoman8.cc/list/area-%E5%9B%BD%E4%BA%A7-p-{{page}}&&热血::http://www.guoman8.cc/list/smid-1-p-{{page}}&&武侠::http://www.guoman8.cc/list/smid-2-p-{{page}}&&搞笑::http://www.guoman8.cc/list/smid-3-p-{{page}}&&耽美::http://www.guoman8.cc/list/smid-4-p-{{page}}&&爱情::http://www.guoman8.cc/list/smid-5-p-{{page}}&&科幻::http://www.guoman8.cc/list/smid-6-p-{{page}}&&魔法::http://www.guoman8.cc/list/smid-7-p-{{page}}&&神魔::http://www.guoman8.cc/list/smid-8-p-{{page}}&&竞技::http://www.guoman8.cc/list/smid-9-p-{{page}}&&格斗::http://www.guoman8.cc/list/smid-10-p-{{page}}&&机战::http://www.guoman8.cc/list/smid-11-p-{{page}}&&体育::http://www.guoman8.cc/list/smid-12-p-{{page}}&&运动::http://www.guoman8.cc/list/smid-13-p-{{page}}&&校园::http://www.guoman8.cc/list/smid-14-p-{{page}}&&励志::http://www.guoman8.cc/list/smid-15-p-{{page}}&&历史::http://www.guoman8.cc/list/smid-16-p-{{page}}&&伪娘::http://www.guoman8.cc/list/smid-17-p-{{page}}&&百合::http://www.guoman8.cc/list/smid-18-p-{{page}}&&后宫::http://www.guoman8.cc/list/smid-19-p-{{page}}&&治愈::http://www.guoman8.cc/list/smid-20-p-{{page}}&&美食::http://www.guoman8.cc/list/smid-21-p-{{page}}&&推理::http://www.guoman8.cc/list/smid-22-p-{{page}}&&悬疑::http://www.guoman8.cc/list/smid-23-p-{{page}}&&恐怖::http://www.guoman8.cc/list/smid-24-p-{{page}}&&职场::http://www.guoman8.cc/list/smid-25-p-{{page}}&&BL::http://www.guoman8.cc/list/smid-26-p-{{page}}&&剧情::http://www.guoman8.cc/list/smid-27-p-{{page}}&&生活::http://www.guoman8.cc/list/smid-28-p-{{page}}&&幻想::http://www.guoman8.cc/list/smid-29-p-{{page}}&&战争::http://www.guoman8.cc/list/smid-30-p-{{page}}&&仙侠::http://www.guoman8.cc/list/smid-33-p-{{page}}&&性转换::http://www.guoman8.cc/list/smid-40-p-{{page}}&&冒险::http://www.guoman8.cc/list/smid-41-p-{{page}}&&其他::http://www.guoman8.cc/list/smid-32-p-{{page}}\n完结::http://www.guoman8.cc/list/lz-2-p-{{page}}",
+    "lastUpdateTime": 1612114679877,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "intro": "id.bookIntro@text",
+      "kind": "[property=\"og:novel:category\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "@js:\nheader={\"Referer\":baseUrl};\nheaders={\"headers\":JSON.stringify(header)};\neval(result.match(/(eval\\(.+?\\}\\)\\))/)[1]);\npiclist=cInfo.fs;\nserver = \"http://images.720rs.com\";\npiclist.map(u=>\"<img src=\\\"\"+server+u+','+JSON.stringify(headers)+\"\\\">\").join(\"\\n\")",
+      "imageStyle": "FULL"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.tags.2@a@text",
+      "bookList": "class.book-result@tag.li||id.contList@tag.li",
+      "bookUrl": "tag.a.0@href||class.ell@href",
+      "coverUrl": "img@src||tag.img@data-src",
+      "intro": ".intro@span@textNodes##\\[|\\]",
+      "kind": "class.red.0@text",
+      "lastChapter": ".blue@text&&class.red.1@text",
+      "name": "tag.a.0@title||class.bcover@title",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "-id.chpater-list-1@li@a",
+      "chapterName": "span@ownText",
+      "chapterUrl": "href",
+      "updateTime": "i@text"
+    },
+    "searchUrl": "http://www.guoman8.cc/search/q_{{key}}",
+    "weight": 0
+  }]

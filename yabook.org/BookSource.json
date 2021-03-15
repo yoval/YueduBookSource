@@ -1,0 +1,64 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "雅书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://yabook.org/",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "小说文学::https://yabook.org/xiaoshuo//index<,_{{page}}>.html&&经典·名著::https://yabook.org/mingzhu/index<,_{{page}}>.html&&现代·当代::https://yabook.org/wenxue/index<,_{{page}}>.html&&外国·文学::https://yabook.org/waiguo/index<,_{{page}}>.html&&文学·传记::https://yabook.org/chuanji/index<,_{{page}}>.html&&科幻·推理::https://yabook.org/kehuan/index<,_{{page}}>.html&&社会·人生::https://yabook.org/shehui/index<,_{{page}}>.html&&情感·言情::https://yabook.org/yanqing/index<,_{{page}}>.html&&军事·历史::https://yabook.org/junshi/index<,_{{page}}>.html&&恐怖·悬疑::https://yabook.org/kongbu/index<,_{{page}}>.html&&官场·商战::https://yabook.org/guangshang/index<,_{{page}}>.html&&武侠·玄幻::https://yabook.org/wuxia/index<,_{{page}}>.html&&经济管理::https://yabook.org/jingjiguangli//index<,_{{page}}>.html&&历史人物::https://yabook.org/lishi//index<,_{{page}}>.html&&计算机类::https://yabook.org/jisuanji//index<,_{{page}}>.html&&人文社科::https://yabook.org/renwen//index<,_{{page}}>.html&&心理科学::https://yabook.org/xinli//index<,_{{page}}>.html&&成功励志::https://yabook.org/lizhi//index<,_{{page}}>.html&&科普百科::https://yabook.org/kepu//index<,_{{page}}>.html&&设计艺术::https://yabook.org/shejiyishu//index<,_{{page}}>.html&&摄影数码::https://yabook.org/sheying//index<,_{{page}}>.html&&哲学宗教::https://yabook.org/zhexue//index<,_{{page}}>.html&&投资理财::https://yabook.org/chuanli//index<,_{{page}}>.html&&生活百科::https://yabook.org/shenghuo//index<,_{{page}}>.html&&医学养生::https://yabook.org/yixue//index<,_{{page}}>.html&&英语培训::https://yabook.org/yingyu//index<,_{{page}}>.html&&教辅用书::https://yabook.org/jiaofu//index<,_{{page}}>.html&&政治军事::https://yabook.org/zhengzhi//index<,_{{page}}>.html&&法律法规::https://yabook.org/falv//index<,_{{page}}>.html&&科技农工::https://yabook.org/keji//index<,_{{page}}>.html&&英文原版::https://yabook.org/yingwen//index<,_{{page}}>.html&&视频教程::https://yabook.org/course//index<,_{{page}}>.html&&词条解析::https://yabook.org/citiao//index<,_{{page}}>.html&&",
+    "header": "",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "",
+      "init": "",
+      "intro": "//h3[contains(text(), \"内容简介\")]/following-sibling::p",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "@js:\"点击章节链接跳转浏览器下载\"+baseUrl",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "",
+      "bookList": "class.post",
+      "bookUrl": "h2@a@href##$##,{\"webView\":true}",
+      "coverUrl": "img@src",
+      "intro": "class.postintro@text",
+      "kind": "",
+      "lastChapter": "",
+      "name": "h2@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "tag.html",
+      "chapterName": "class.posttitle@text",
+      "chapterUrl": "class.filetit@a@href||||class.PLun_record_item_saytext@text@js:if(result.match(/回复/)){\nresult=result.match(/(http.*) 回复/)[1];\n}else{result=result}",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "https://yabook.org/e/search/index.php,{\"method\":\"POST\",\"body\":\"keyboard={{key}}&show=title&tempid=1&tbname=news\"}",
+    "weight": 0
+  }]

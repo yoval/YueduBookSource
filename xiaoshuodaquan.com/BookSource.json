@@ -1,0 +1,42 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "👍优质",
+    "bookSourceName": "👍 书书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xiaoshuodaquan.com",
+    "customOrder": 15871,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "class.r420@tag.a.0@text",
+      "coverUrl": "class.con_limg@tag.img.0@src",
+      "intro": "class.r_cons@text",
+      "kind": "class.crumbswrap@tag.a.1@text",
+      "lastChapter": "class.lastrecord@tag.a.0@text",
+      "name": "class.r420@tag.h1.0@text",
+      "tocUrl": "class.diralinks@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes",
+      "imageStyle": "0.0"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.width111@tag.a.0@text",
+      "bookList": "class.listconl@tag.li",
+      "bookUrl": "class.width369 jhfd@tag.a.0@href",
+      "coverUrl": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "class.width369 jhfd@tag.a.0@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.clearfix dirconone@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.xiaoshuodaquan.com/bookso.php?kw={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

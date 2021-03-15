@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "//备用网址\nhttp://www.qingdouw.cc",
+    "bookSourceGroup": "💡 发现",
+    "bookSourceName": "💡 土豆小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.tudouw.cc",
+    "customOrder": -2068,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/xuanhuan/list_{{page}}.html\n仙侠::/xianxia/list_{{page}}.html\n都市::/dushi/list_{{page}}.html\n言情::/yanqing/list_{{page}}.html\n武侠::/wuxia/list_{{page}}.html\n灵异::/lingyi/list_{{page}}.html\n悬疑::/xuanyi/list_{{page}}.html\n同人::/tongren/list_{{page}}.html\n奇幻::/qihuan/list_{{page}}.html\n军事::/junshi/list_{{page}}.html\n历史::/lishi/list_{{page}}.html\n游戏::/youxi/list_{{page}}.html\n竞技::/jingji/list_{{page}}.html\n科幻::/kehuan/list_{{page}}.html\n娱乐::/yule/list_{{page}}.html\n商场::/shangchang/list_{{page}}.html\n校园::/xiaoyuan/list_{{page}}.html\n青春::/qingchun/list_{{page}}.html\n职场::/zhichang/list_{{page}}.html\n其他::/qita/list_{{page}}.html\n现言::/xianyan/list_{{page}}.html\n穿越::/chuanyue/list_{{page}}.html\n耽美::/danmei/list_{{page}}.html\n古言::/guyan/list_{{page}}.html\n官场::/guanchang/list_{{page}}.html",
+    "lastUpdateTime": 1605637791247,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content##\\s",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "[property=\"og:novel:read_url\"]@content"
+    },
+    "ruleContent": {
+      "content": "id.chapter_content@tag.p@text"
+    },
+    "ruleExplore": {
+      "author": "tag.a.3@text",
+      "bookList": "ul@tag.li!0:1:2",
+      "bookUrl": "tag.a.1@href",
+      "kind": "tag.a.0@text&&tag.span.2@text##小说",
+      "lastChapter": "tag.a.2@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "ul@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search.php?keyword={{key}}",
+    "weight": 0
+  }]

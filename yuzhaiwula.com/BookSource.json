@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备,🛠️待修",
+    "bookSourceName": "🚬 海棠书房[无正文]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yuzhaiwula.com",
+    "bookUrlPattern": "",
+    "customOrder": -116422,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部::/category/0/{{page}}.html\n耽美::/category/1/{{page}}.html\n言情::/category/2/{{page}}.html\n高辣::/category/3/{{page}}.html\n百合::/category/4/{{page}}.html\n玄幻::/category/5/{{page}}.html\n其它::/category/7/{{page}}.html\n种田::/category/8/{{page}}.html\n修真::/category/9/{{page}}.html\n高干::/category/10/{{page}}.html\n腹黑::/category/11/{{page}}.html\n网游::/category/12/{{page}}.html\n都市::/category/15/{{page}}.html\n穿越::/category/16/{{page}}.html\n科幻::/category/17/{{page}}.html",
+    "lastUpdateTime": 1612454162310,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.BGsectionOne-top-left@tag.img.0@src",
+      "tocUrl": "class.BGsectionOne-bottom@tag.li.1@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {
+      "author": "tag.p.1@tag.a.0@text",
+      "bookList": "class.CGsectionTwo-right-content-unit",
+      "bookUrl": "tag.p.0@tag.a.0@href",
+      "intro": "tag.p.2@text",
+      "name": "tag.p.0@tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "tag.span.2@tag.a.0@text",
+      "bookList": "class.SHsectionThree-middle.1@tag.p||class.SHsectionThree-middle.0@tag.p",
+      "bookUrl": "tag.span.1@tag.a.0@href",
+      "name": "tag.span.1@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.BCsectionTwo-top@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.yuzhaiwula.com/search/{{key}}",
+    "weight": 0
+  }]

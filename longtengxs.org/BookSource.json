@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备,🛠️待修",
+    "bookSourceName": "🚬 龙腾小说longtengxs[缺章]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://wap.longtengxs.org",
+    "bookUrlPattern": "",
+    "customOrder": -116424,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1605531062845,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.synopsisArea_detail@tag.p.0@text##作\\s*者：",
+      "coverUrl": "tag.img.2@src",
+      "intro": "class.review@text",
+      "name": "class.channelHeader channelHeader2@tag.span@text"
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@html",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@text##.*作者：",
+      "bookList": "class.hot_sale",
+      "bookUrl": "tag.a.0@href",
+      "kind": "tag.p.1@text##\\|.*",
+      "lastChapter": "tag.p.2@text##.*\\|.*\\：",
+      "name": "class.title@tag.p.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.directoryArea@tag.p",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "class.right@tag.a.0@href"
+    },
+    "searchUrl": "https://wap.longtengxs.org/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,42 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🍺特优",
+    "bookSourceName": "🍺 猫扑小说[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.mop369.com",
+    "bookUrlPattern": "",
+    "customOrder": -116872,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全本::/quanben/{{page}}.html\n玄幻::/list/xuanhuan/{{page}}.html\n武侠::/list/wuxia/{{page}}.html\n都市::/list/dushi/{{page}}.html\n历史::/list/lishi/{{page}}.html\n游戏::/list/youxi/{{page}}.html\n科幻::/list/kehuan/{{page}}.html\n灵异::/list/lingyi/{{page}}.html\n女生::/list/nvsheng/{{page}}.html\n其他::/list/qita/{{page}}.html",
+    "lastUpdateTime": 1610684854104,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.info@tag.a.1@text",
+      "coverUrl": "class.book-img@id.fimg@tag.img@src",
+      "intro": "id.intro@text##.*小说简介：",
+      "name": "class.book-info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "class.read-content@html",
+      "replaceRegex": "##最新网址(.|\\n)*|更新最快(.|\\n)*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.info@tag.a.0@text",
+      "bookList": "class.book-list@tag.li",
+      "bookUrl": "class.tit@tag.a.0@href",
+      "coverUrl": "class.pic@tag.img@src",
+      "intro": "class.intro@text",
+      "kind": "class.info@tag.a.1@text&&class.finish@text",
+      "lastChapter": "class.even.0@tag.a.0@text||id.intro@tag.a.0@text",
+      "name": "class.tit@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapters!0@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.mop369.com/search.html?searchtype=novelsearch&searchkey={{key}}",
+    "weight": 0
+  }]

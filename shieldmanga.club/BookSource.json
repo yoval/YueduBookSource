@@ -1,0 +1,46 @@
+[  {
+    "bookSourceComment": "haxc",
+    "bookSourceGroup": "🌐外语",
+    "bookSourceName": "🌐 Shield",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://shieldmanga.club",
+    "bookUrlPattern": "",
+    "customOrder": -115731,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "Action::/manga-genre/action/page/{{page}}\nHarem::/manga-genre/harem/page/{{page}}\nMartial Arts::/manga-genre/martial-arts/page/{{page}}\nAdventure::/manga-genre/adventure/page/{{page}}\nFantasy::/manga-genre/fantasy/page/{{page}}\nMature::/manga-genre/mature/page/{{page}}\nHorror::/manga-genre/horror/page/{{page}}\nMystery::/manga-genre/mystery/page/{{page}}\nSlice of Life::/manga-genre/slice-of-life/page/{{page}}\nTragedy::/manga-genre/tragedy/page/{{page}}\nSupernatural::/manga-genre/supernatural/page/{{page}}\nWebtoon::/manga-genre/webtoon/page/{{page}}\nShounen::/manga-genre/shounen/page/{{page}}\nRomance::/manga-genre/romance/page/{{page}}\nDrama::/manga-genre/drama/page/{{page}}\nComedy::/manga-genre/comedy/page/{{page}}\nEcchi::/manga-genre/ecchi/page/{{page}}",
+    "header": "{\"User-Agent\": \"Mobile\"}",
+    "lastUpdateTime": 1604053654389,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.author-content@a@text",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "class.genres-content@a@text",
+      "lastChapter": "class.list-chap@tag.li.0@a@text",
+      "name": "[property=\"og:title\"]@content"
+    },
+    "ruleContent": {
+      "content": "class.reading-content@div@tag.img@src@js:\nlist=result.split(\"\\n\");\nheader={\"Referer\":baseUrl};\nheaders={\"headers\":JSON.stringify(header)}\nhtml='';\nfor(i in list){\nhtml+='<img src=\"'+list[i]+'\">'\n}\nhtml",
+      "imageStyle": "FULL",
+      "nextContentUrl": "",
+      "sourceRegex": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.summary-content.1@a@text",
+      "bookList": "class.row c-tabs-item__content||class.col-12",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "class.img-responsive@img@src",
+      "intro": "class.summary-content.0@text",
+      "kind": "class.summary-content.2@a@text",
+      "name": "tag.h3@text"
+    },
+    "ruleToc": {
+      "chapterList": "-class.list-chap@li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://shieldmanga.club/?s={{key}}&post_type=wp-manga",
+    "weight": 0
+  }]

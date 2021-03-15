@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🍄特殊",
+    "bookSourceName": "🍄 吾爱破解",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.52pojie.cn",
+    "customOrder": -115758,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "原创发布::https://www.52pojie.cn/forum-2-{{page}}.html\n精品软件::https://www.52pojie.cn/forum-16-{{page}}.html\n脱壳破解::https://www.52pojie.cn/forum-5-{{page}}.html\n移动安全::https://www.52pojie.cn/forum-65-{{page}}.html\n软件调试::https://www.52pojie.cn/forum-59-{{page}}.html\n编程语言::https://www.52pojie.cn/forum-24-{{page}}.html\n动画发布::https://www.52pojie.cn/forum-6-{{page}}.html\n逆向资源::https://www.52pojie.cn/forum-4-{{page}}.html\n病毒分析::https://www.52pojie.cn/forum-32-{{page}}.html",
+    "lastUpdateTime": 1604135525525,
+    "loginUrl": "https://www.52pojie.cn/member.php?mod=logging&action=login",
+    "ruleBookInfo": {
+      "tocUrl": "@js:baseUrl"
+    },
+    "ruleContent": {
+      "content": "class.t_fsz@html"
+    },
+    "ruleExplore": {
+      "author": "class.res-ti@tag.a@text",
+      "bookList": "class.new||class.common",
+      "bookUrl": "##content_menu[^=]*=\"(?:[^=]*=){5,6}\"(thread.*?)\"##$1###",
+      "kind": "tag.a.1@text",
+      "lastChapter": "tag.p@text##.*•",
+      "name": "class.s xst@text"
+    },
+    "ruleSearch": {
+      "bookList": "class.result f s0!0",
+      "bookUrl": "tag.a.0@href",
+      "intro": "tag.h3@html",
+      "lastChapter": "tag.span.0@text",
+      "name": "tag.h3@text##\\_.*"
+    },
+    "ruleToc": {
+      "chapterList": "tag.h1",
+      "chapterName": "tag.span.0@text",
+      "chapterUrl": "tag.a.1@href"
+    },
+    "searchUrl": "http://zhannei.baidu.com/cse/site?q={{key}}&p={{page}}&nsid=&cc=52pojie.cn",
+    "weight": 0
+  }]

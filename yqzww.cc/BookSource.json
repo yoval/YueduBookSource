@@ -1,0 +1,42 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🍒言情",
+    "bookSourceName": "🍒 言情中文网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yqzww.cc",
+    "customOrder": -115953,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::https://www.yqzww.cc/xuanhuan/?page={{page}}&&都市小说::/dushi/?page={{page}}&&武侠小说::/wuxia/?page={{page}}&&历史小说::/lishi/?page={{page}}&&科幻小说::/kehuan/?page={{page}}&&恐怖小说::/kongbu/?page={{page}}&&完本小说::/wanben/?page={{page}}&&",
+    "lastUpdateTime": 1610037973673,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:title\"]@content",
+      "wordCount": "[property=\"og:novel:status\"]@content"
+    },
+    "ruleContent": {
+      "content": "#nr1@html||#content@html##.*?www.yqzww.cc.*",
+      "nextContentUrl": "#pb_next@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": ".s4@text",
+      "bookList": ".novelslistss li||.l li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href<js>\nvar id = result.match(/_(\\d+)/)[1];\nvar iid = parseInt(id/1000);\n'https://www.yqzww.cc/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+      "kind": ".s1@text",
+      "lastChapter": ".s3@text",
+      "name": ".s2@text"
+    },
+    "ruleToc": {
+      "chapterList": "#list a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.yqzww.cc/modules/article/search.php?searchkey={{key}}&page={{page}},{\n\"charset\": \"gbk\"}",
+    "weight": 0
+  }]

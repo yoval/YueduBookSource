@@ -1,0 +1,52 @@
+[  {
+    "bookSourceComment": "error:org.mozilla.javascript.EcmaError: SyntaxError: Unexpected token: < (<Unknown source>#1) in <Unknown source> at line number 1\n",
+    "bookSourceGroup": "📡发现,失效",
+    "bookSourceName": "📡 高端书院",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://gaoduan.szjinruixin.com/yushuge/index/index.html",
+    "bookUrlPattern": "http://appapi.szjinruixin.com/books/book/get/.*",
+    "customOrder": -33048,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全·Type·State::http://appapi.szjinruixin.com/books/book/getbooklist/0/0/0/0/10/{{page}}\n全·Type·连载::http://appapi.szjinruixin.com/books/book/getbooklist/0/0/0/1/10/{{page}}\n全·Type·完结::http://appapi.szjinruixin.com/books/book/getbooklist/0/0/0/2/10/{{page}}\n全·玄幻·State::http://appapi.szjinruixin.com/books/book/getbooklist/0/0/1/0/10/{{page}}\n全·玄幻·连载::http://appapi.szjinruixin.com/books/book/getbooklist/0/0/1/1/10/{{page}}\n全·玄幻·完结::http://appapi.szjinruixin.com/books/book/getbooklist/0/0/1/2/10/{{page}}\n全·仙侠·State::http://appapi.szjinruixin.com/books/book/getbooklist/0/0/2/0/10/{{page}}\n全·仙侠·连载::http://appapi.szjinruixin.com/books/book/getbooklist/0/0/2/1/10/{{page}}\n全·仙侠·完结::http://appapi.szjinruixin.com/books/book/getbooklist/0/0/2/2/10/{{page}}\n全·都市·State::http://appapi.szjinruixin.com/books/book/getbooklist/0/0/3/0/10/{{page}}\n全·都市·连载::http://appapi.szjinruixin.com/books/book/getbooklist/0/0/3/1/10/{{page}}\n全·都市·完结::http://appapi.szjinruixin.com/books/book/getbooklist/0/0/3/2/10/{{page}}\n全·言情·State::http://appapi.szjinruixin.com/books/book/getbooklist/0/0/4/0/10/{{page}}\n全·言情·连载::http://appapi.szjinruixin.com/books/book/getbooklist/0/0/4/1/10/{{page}}\n全·言情·完结::http://appapi.szjinruixin.com/books/book/getbooklist/0/0/4/2/10/{{page}}\n全·穿越·State::http://appapi.szjinruixin.com/books/book/getbooklist/0/0/5/0/10/{{page}}\n全·穿越·连载::http://appapi.szjinruixin.com/books/book/getbooklist/0/0/5/1/10/{{page}}\n全·穿越·完结::http://appapi.szjinruixin.com/books/book/getbooklist/0/0/5/2/10/{{page}}\n全·游戏·State::http://appapi.szjinruixin.com/books/book/getbooklist/0/0/6/0/10/{{page}}\n全·游戏·连载::http://appapi.szjinruixin.com/books/book/getbooklist/0/0/6/1/10/{{page}}\n全·游戏·完结::http://appapi.szjinruixin.com/books/book/getbooklist/0/0/6/2/10/{{page}}\n全·科幻·State::http://appapi.szjinruixin.com/books/book/getbooklist/0/0/7/0/10/{{page}}\n全·科幻·连载::http://appapi.szjinruixin.com/books/book/getbooklist/0/0/7/1/10/{{page}}\n全·科幻·完结::http://appapi.szjinruixin.com/books/book/getbooklist/0/0/7/2/10/{{page}}\n全·灵异·State::http://appapi.szjinruixin.com/books/book/getbooklist/0/0/8/0/10/{{page}}\n全·灵异·连载::http://appapi.szjinruixin.com/books/book/getbooklist/0/0/8/1/10/{{page}}\n全·灵异·完结::http://appapi.szjinruixin.com/books/book/getbooklist/0/0/8/2/10/{{page}}\n男·Type·State::http://appapi.szjinruixin.com/books/book/getbooklist/0/1/0/0/10/{{page}}\n男·Type·连载::http://appapi.szjinruixin.com/books/book/getbooklist/0/1/0/1/10/{{page}}\n男·Type·完结::http://appapi.szjinruixin.com/books/book/getbooklist/0/1/0/2/10/{{page}}\n男·玄幻·State::http://appapi.szjinruixin.com/books/book/getbooklist/0/1/1/0/10/{{page}}\n男·玄幻·连载::http://appapi.szjinruixin.com/books/book/getbooklist/0/1/1/1/10/{{page}}\n男·玄幻·完结::http://appapi.szjinruixin.com/books/book/getbooklist/0/1/1/2/10/{{page}}\n男·仙侠·State::http://appapi.szjinruixin.com/books/book/getbooklist/0/1/2/0/10/{{page}}\n男·仙侠·连载::http://appapi.szjinruixin.com/books/book/getbooklist/0/1/2/1/10/{{page}}\n男·仙侠·完结::http://appapi.szjinruixin.com/books/book/getbooklist/0/1/2/2/10/{{page}}\n男·都市·State::http://appapi.szjinruixin.com/books/book/getbooklist/0/1/3/0/10/{{page}}\n男·都市·连载::http://appapi.szjinruixin.com/books/book/getbooklist/0/1/3/1/10/{{page}}\n男·都市·完结::http://appapi.szjinruixin.com/books/book/getbooklist/0/1/3/2/10/{{page}}\n男·言情·State::http://appapi.szjinruixin.com/books/book/getbooklist/0/1/4/0/10/{{page}}\n男·言情·连载::http://appapi.szjinruixin.com/books/book/getbooklist/0/1/4/1/10/{{page}}\n男·言情·完结::http://appapi.szjinruixin.com/books/book/getbooklist/0/1/4/2/10/{{page}}\n男·穿越·State::http://appapi.szjinruixin.com/books/book/getbooklist/0/1/5/0/10/{{page}}\n男·穿越·连载::http://appapi.szjinruixin.com/books/book/getbooklist/0/1/5/1/10/{{page}}\n男·穿越·完结::http://appapi.szjinruixin.com/books/book/getbooklist/0/1/5/2/10/{{page}}\n男·游戏·State::http://appapi.szjinruixin.com/books/book/getbooklist/0/1/6/0/10/{{page}}\n男·游戏·连载::http://appapi.szjinruixin.com/books/book/getbooklist/0/1/6/1/10/{{page}}\n男·游戏·完结::http://appapi.szjinruixin.com/books/book/getbooklist/0/1/6/2/10/{{page}}\n男·科幻·State::http://appapi.szjinruixin.com/books/book/getbooklist/0/1/7/0/10/{{page}}\n男·科幻·连载::http://appapi.szjinruixin.com/books/book/getbooklist/0/1/7/1/10/{{page}}\n男·科幻·完结::http://appapi.szjinruixin.com/books/book/getbooklist/0/1/7/2/10/{{page}}\n男·灵异·State::http://appapi.szjinruixin.com/books/book/getbooklist/0/1/8/0/10/{{page}}\n男·灵异·连载::http://appapi.szjinruixin.com/books/book/getbooklist/0/1/8/1/10/{{page}}\n男·灵异·完结::http://appapi.szjinruixin.com/books/book/getbooklist/0/1/8/2/10/{{page}}\n女·Type·State::http://appapi.szjinruixin.com/books/book/getbooklist/0/2/0/0/10/{{page}}\n女·Type·连载::http://appapi.szjinruixin.com/books/book/getbooklist/0/2/0/1/10/{{page}}\n女·Type·完结::http://appapi.szjinruixin.com/books/book/getbooklist/0/2/0/2/10/{{page}}\n女·玄幻·State::http://appapi.szjinruixin.com/books/book/getbooklist/0/2/1/0/10/{{page}}\n女·玄幻·连载::http://appapi.szjinruixin.com/books/book/getbooklist/0/2/1/1/10/{{page}}\n女·玄幻·完结::http://appapi.szjinruixin.com/books/book/getbooklist/0/2/1/2/10/{{page}}\n女·仙侠·State::http://appapi.szjinruixin.com/books/book/getbooklist/0/2/2/0/10/{{page}}\n女·仙侠·连载::http://appapi.szjinruixin.com/books/book/getbooklist/0/2/2/1/10/{{page}}\n女·仙侠·完结::http://appapi.szjinruixin.com/books/book/getbooklist/0/2/2/2/10/{{page}}\n女·都市·State::http://appapi.szjinruixin.com/books/book/getbooklist/0/2/3/0/10/{{page}}\n女·都市·连载::http://appapi.szjinruixin.com/books/book/getbooklist/0/2/3/1/10/{{page}}\n女·都市·完结::http://appapi.szjinruixin.com/books/book/getbooklist/0/2/3/2/10/{{page}}\n女·言情·State::http://appapi.szjinruixin.com/books/book/getbooklist/0/2/4/0/10/{{page}}\n女·言情·连载::http://appapi.szjinruixin.com/books/book/getbooklist/0/2/4/1/10/{{page}}\n女·言情·完结::http://appapi.szjinruixin.com/books/book/getbooklist/0/2/4/2/10/{{page}}\n女·穿越·State::http://appapi.szjinruixin.com/books/book/getbooklist/0/2/5/0/10/{{page}}\n女·穿越·连载::http://appapi.szjinruixin.com/books/book/getbooklist/0/2/5/1/10/{{page}}\n女·穿越·完结::http://appapi.szjinruixin.com/books/book/getbooklist/0/2/5/2/10/{{page}}\n女·游戏·State::http://appapi.szjinruixin.com/books/book/getbooklist/0/2/6/0/10/{{page}}\n女·游戏·连载::http://appapi.szjinruixin.com/books/book/getbooklist/0/2/6/1/10/{{page}}\n女·游戏·完结::http://appapi.szjinruixin.com/books/book/getbooklist/0/2/6/2/10/{{page}}\n女·科幻·State::http://appapi.szjinruixin.com/books/book/getbooklist/0/2/7/0/10/{{page}}\n女·科幻·连载::http://appapi.szjinruixin.com/books/book/getbooklist/0/2/7/1/10/{{page}}\n女·科幻·完结::http://appapi.szjinruixin.com/books/book/getbooklist/0/2/7/2/10/{{page}}\n女·灵异·State::http://appapi.szjinruixin.com/books/book/getbooklist/0/2/8/0/10/{{page}}\n女·灵异·连载::http://appapi.szjinruixin.com/books/book/getbooklist/0/2/8/1/10/{{page}}\n女·灵异·完结::http://appapi.szjinruixin.com/books/book/getbooklist/0/2/8/2/10/{{page}}\n点击榜::http://appapi.szjinruixin.com/books/book/getclicklist/0/0/1/0/0/{{page}}\n收藏榜::http://appapi.szjinruixin.com/books/book/getcollectionlist/0/0/1/0/0/{{page}}\n打赏榜::http://appapi.szjinruixin.com/books/book/getrewardlist/0/0/1/0/0/{{page}}",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9; HWI-AL00 Build/HUAWEIHWI-AL00; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36 qrqmxsapptoken\"\n}",
+    "lastUpdateTime": 1603033530864,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "$..bAuthor",
+      "coverUrl": "$..ImgUrl",
+      "intro": "$..bIntro",
+      "kind": "$..Bname",
+      "name": "$..Cname@put:{bid:$..ID}",
+      "tocUrl": "http://appapi.szjinruixin.com/books/chapter/getCacheList/{$..ID}/5000/1/"
+    },
+    "ruleContent": {
+      "content": "<js>\nvar json = JSON.parse(result);\njson.errcode == \"0\" ? json.data.rows.Contents : json.errmsg\n</js>"
+    },
+    "ruleExplore": {
+      "author": "$.bAuthor",
+      "bookList": "$.data.rows[*]",
+      "bookUrl": "http://appapi.szjinruixin.com/books/book/get/{$.ID}",
+      "coverUrl": "$.ImgUrl",
+      "intro": "$.bIntro",
+      "kind": "$.bType<js>\nvar b1=[\"Type\",\"玄幻\",\"仙侠\",\"都市\",\"言情\",\"穿越\",\"游戏\",\"科幻\",\"灵异\"];\n\nb1[parseInt(String(result).match(/\\d+/)[0])]\n</js>",
+      "name": "$.Cname"
+    },
+    "ruleSearch": {
+      "author": "$.bAuthor",
+      "bookList": "<js>\nvar url=\"http://appapi.szjinruixin.com/books/book/searchbycname\";\nvar json='{\"key\":\"'+decodeURIComponent(baseUrl.match(/query=(.*)/)[1])+'\"}';\nvar doc=org.jsoup.Jsoup.connect(url)\n .requestBody(json)\n .header(\"Content-Length\", \"16\")\n .ignoreContentType(true)\n .post();\nJSON.parse(String(doc).match(/body>\\s*(.*)\\s*<\\/bo/)[1]).data.rows\n</js>",
+      "bookUrl": "http://appapi.szjinruixin.com/books/book/get/{$.ID}",
+      "coverUrl": "$.ImgUrl",
+      "intro": "$.bIntro",
+      "kind": "$.bType<js>\nvar b1=[\"玄幻\",\"仙侠\",\"都市\",\"言情\",\"穿越\",\"游戏\",\"科幻\",\"灵异\"];\n\nb1[parseInt(String(result).match(/\\d+/)[0])-1]\n</js>",
+      "name": "$.Cname"
+    },
+    "ruleToc": {
+      "chapterList": "+<js>\nvar base=\"http://appapi.szjinruixin.com/books/chapter/getdetail/no-uid/@get:{bid}/0/☆/0/0/2/1\";\n\nJSON.parse(result).data.rows\n.map(ch=>({\n  title:ch.Title,\n  link:base.replace(\"☆\",ch.SortID)\n}))\n</js>",
+      "chapterName": "title",
+      "chapterUrl": "link",
+      "nextTocUrl": "<js>\nvar page=\"\";\nvar n=baseUrl.match(/\\/(\\d+)\\/(\\d+)\\/$/);\nvar index=parseInt(n[2])+1;\nvar size=n[1];\nif(JSON.parse(result).data.rows.length==size)\n  page=baseUrl.replace(/\\/(\\d+)\\/$/,\"/\"+index+\"/\");\npage\n</js>"
+    },
+    "searchUrl": "http://api01pbmp.zhuishushenqi.com/book/fuzzy-search?query={{key}}",
+    "weight": 0
+  }]

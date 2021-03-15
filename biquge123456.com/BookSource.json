@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "失效",
+    "bookSourceName": "★APP-5★",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://api.biquge123456.com",
+    "bookUrlPattern": "http://api.biquge123456.com/api/ct/f_ct_getOneBook\\?bookId=.*&app_type=2&app_version=1.5.9",
+    "customOrder": 10011,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "$.data.author",
+      "coverUrl": "$.data.ook_picture_url",
+      "intro": "$.data.introduction",
+      "kind": "$.data.dict_name_1&&$.data.dict_name_2",
+      "name": "$.data.book_name",
+      "tocUrl": "http://api.biquge123456.com/api/ct/f_ct_getChapterPage?bookId={$.data.id}&pageSize=99999&pageNo=1&app_type=2&app_version=1.5.9"
+    },
+    "ruleContent": {
+      "content": "html## ##<br>"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$.author",
+      "bookList": "$..data[*]",
+      "bookUrl": "http://api.biquge123456.com/api/ct/f_ct_getOneBook?bookId={$.id}&app_type=2&app_version=1.5.9",
+      "coverUrl": "$.book_picture_url",
+      "intro": "$.introduction",
+      "kind": "$.dict_name_1&&$.dict_name_2",
+      "name": "$.book_name"
+    },
+    "ruleToc": {
+      "chapterList": "$..list[*]",
+      "chapterName": "$.chapter_title",
+      "chapterUrl": "http://pic.biquge123456.com{$.content_url}||char=gbk"
+    },
+    "searchUrl": "http://api.biquge123456.com/api/ct/f_ct_searchBook?book_name_author={{key}}&pageSize=20&pageNo={{page}},{\n  \"charset\": \"utf8\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,52 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 肉肉屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.b1txt.org",
+    "bookUrlPattern": "",
+    "customOrder": -116471,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "点击::/top/allvisit_{{page}}/\n收藏::/top/goodnum_{{page}}/\n字数::/top/size_{{page}}/\n最新::/top/postdate_{{page}}/\n最近::/top/lastupdate_{{page}}/\n推荐::/top/allvote_{{page}}/\n全本::/quanben/{{page}}/\n玄幻::/list/1-{{page}}.html\n修真::/list/2-{{page}}.html\n都市::/list/3-{{page}}.html\n历史::/list/4-{{page}}.html\n网游::/list/5-{{page}}.html\n科幻::/list/6-{{page}}.html\n竞技::/list/7-{{page}}.html\n言情::/list/8-{{page}}.html\n其他::/list/9-{{page}}.html",
+    "lastUpdateTime": 1605025567470,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.nr1@textNodes",
+      "nextContentUrl": "class.next@tag.a@href"
+    },
+    "ruleExplore": {
+      "author": "tag.a.1@text",
+      "bookList": "class.cover@tag.p",
+      "bookUrl": "tag.a.0@href",
+      "intro": "",
+      "kind": "class.line@text##\\[|\\].*",
+      "name": "tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "tag.a.1@text",
+      "bookList": "class.cover@tag.p",
+      "bookUrl": "tag.a.0@href",
+      "intro": "",
+      "kind": "",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter!0@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "class.right@tag.a@href"
+    },
+    "searchUrl": "/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "发现",
+    "bookSourceName": "八八读书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.x88dushu.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::https://www.x88dushu.com/sort1/{{page}}/\n武侠修真::https://www.x88dushu.com/sort2/{{page}}/\n都市言情::https://www.x88dushu.com/sort3/{{page}}/\n历史穿越::https://www.x88dushu.com/sort4/{{page}}/\n恐怖悬疑::https://www.x88dushu.com/sort5/{{page}}/\n游戏竞技::https://www.x88dushu.com/sort6/{{page}}/\n军事科幻::https://www.x88dushu.com/sort7/{{page}}/\n女生频道::https://www.x88dushu.com/sort9/{{page}}/\n综合类型::https://www.x88dushu.com/sort8/{{page}}/",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.msg@tag.em.0@text",
+      "intro": "class.intro@textNodes",
+      "kind": "class.msg@tag.em.1@text&&class.msg@tag.em.2@text",
+      "lastChapter": "class.msg@tag.em.3@tag.a.0@text",
+      "name": "class.rt@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "class.yd_text2@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.block_txt@tag.p.2@text||class.zz.0@text",
+      "bookList": "class.block||class.booklist@tag.li!0",
+      "bookUrl": "class.block_txt@tag.h2@tag.a@href||class.sm.0@tag.a.0@href",
+      "coverUrl": "class.block_img.0@tag.img.0@src",
+      "kind": "class.block_txt@tag.p.3@text",
+      "lastChapter": "||class.zj.0@text",
+      "name": "class.block_txt@tag.h2.0@tag.a.0@text||class.sm.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.mulu@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://so.x88dushu.com/search/so.php?search_field=0&q={{key}}&p={{page}}",
+    "weight": 0
+  }]

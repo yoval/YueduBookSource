@@ -1,0 +1,51 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 第二书包网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://wap.shubaoan.com",
+    "customOrder": -116618,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "收藏::/top/goodnum_{{page}}/\n点击::/top/allvisit_{{page}}/\n推荐::/top/allvote_{{page}}/\n最近::/top/lastupdate_{{page}}/\n最新::/top/postdate_{{page}}/\n玄幻::/sort-1-{{page}}/\n武侠::/sort-2-{{page}}/\n都市::/sort-3-{{page}}/\n高辣::/sort-5-{{page}}/\n腹黑::/sort-6-{{page}}/\n种田::/sort-7-{{page}}/\n其他::/sort-8-{{page}}/",
+    "lastUpdateTime": 1607004731694,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content##小说",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "##<a href=\"([^\"]*)\">查看目录##$1###",
+      "wordCount": "##更新：([^<]+)<##$1###"
+    },
+    "ruleContent": {
+      "content": "id.nr1@textNodes##\\-->>.*|\\【未完待续\\】|\\【待续\\】",
+      "imageStyle": "0",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "kind": "",
+      "name": ""
+    },
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.line",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.a.1@href<js>String(result).replace(/.+\\D((\\d+)\\d{3})\\D/,\"https://www.shubaoan.com/files/article/image/$2/$1/$1s.jpg\")</js>",
+      "kind": "tag.a.0@text##\\[|\\]|小说",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "text.下一页@href||text.下页.href"
+    },
+    "searchUrl": "/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"type=articlename&s={{key}}\"\n}",
+    "weight": 0
+  }]

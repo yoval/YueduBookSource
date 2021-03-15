@@ -1,0 +1,50 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "优质",
+    "bookSourceName": "乐阅读小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.6ks.net",
+    "customOrder": 267,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻仙侠::/sort/1/{{page}}.html\n都市异能::/sort/2/{{page}}.html\n历史军事::/sort/3/{{page}}.html\n无限科幻::/sort/4/{{page}}.html\n恐怖悬疑::/sort/5/{{page}}.html\n竞技游戏::/sort/6/{{page}}.html\n女生穿越::/sort/7/{{page}}.html\n其他类别::/sort/8/{{page}}.html\n经典玄幻::/sort/9/{{page}}.html\n经典架空::/sort/10/{{page}}.html\n经典无限::/sort/11/{{page}}.html\n经典盗墓::/sort/12/{{page}}.html\n经典穿越::/sort/13/{{page}}.html\n经典总裁::/sort/14/{{page}}.html\n现代言情::/sort/15/{{page}}.html\n古代言情::/sort/16/{{page}}.html\n豪门总裁::/sort/17/{{page}}.html\n青春校园::/sort/18/{{page}}.html",
+    "lastUpdateTime": 1606785520219,
+    "ruleBookInfo": {
+      "author": "[name=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[name=\"og:novel:category\"]@content&&[name=\"og:novel:status\"]@content&&[name=\"og:novel:update_time\"]@content",
+      "lastChapter": "[name=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[name=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+      "content": "class.content_read@html##.*爱书网.*|\\(本章完\\)|温馨提示(.|\\n)* ",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "author": "class.s4@text",
+      "bookList": "class.l@tag.li",
+      "bookUrl": "class.s2@tag.a@href",
+      "coverUrl": "class.s2@tag.a@href##.+\\D((\\d+)\\d{3})\\D##https://www.6ks.net/files/article/image/$2/$1/$1s.jpg###",
+      "kind": "class.s1@text&&class.s5@text##\\[|\\]",
+      "lastChapter": "class.s3@text",
+      "name": "class.s2@text"
+    },
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "id.nr",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##https://www.6ks.net/files/article/image/$2/$1/$1s.jpg###",
+      "kind": "tag.td.4@text&&tag.td.5@text",
+      "lastChapter": "tag.td.1@text",
+      "name": "tag.td.0@text",
+      "wordCount": "tag.td.3@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=articlename\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "👍优质",
+    "bookSourceName": "👍 棋子小说网02",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.qizi02.com",
+    "customOrder": -114879,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1604944643909,
+    "ruleBookInfo": {
+      "author": "class.info2@tag.h3@a@text",
+      "coverUrl": "class.info1@tag.img@src",
+      "intro": "class.info2@tag.div.0@tag.p@text",
+      "kind": "class.panel-body text-center info3@tag.p.0@text&&class.panel-body text-center info3@tag.p.1@font@text##小说类别： |写作状态：",
+      "lastChapter": "class.panel-body text-center info3@tag.p.2@a@text",
+      "name": "class.info2@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "class.panel-body content-body content-ext@html",
+      "nextContentUrl": "text.下一页.1@href",
+      "replaceRegex": "##.*本章未完，点击下一页.*|师姐可太咸鱼了.*青色兔子"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "id.booklast@tag.p@a@text",
+      "bookList": "class.bookcon@tag.tbody@tag.tr!0",
+      "bookUrl": "tag.td@tag.p@a@href",
+      "kind": "tag.td.3@p@text&&tag.td.4@p@text",
+      "name": "tag.td.1@tag.p@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list-group list-charts.0@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.qizi02.com/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

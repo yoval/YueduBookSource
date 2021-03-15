@@ -1,0 +1,36 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 炫书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.ixuanquge.com",
+    "customOrder": -115717,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612806826370,
+    "ruleBookInfo": {
+      "author": "class.downInfoRowL@tag.a.0@text",
+      "coverUrl": "class.downInfoRowL@tag.img@src",
+      "intro": "id.mainSoftIntro@tag.p@text",
+      "name": "id.downInfoTitle@text##TXT.*",
+      "tocUrl": "class.downlistbox@tag.li.1@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "id.view_content_txt@textNodes##声明：本书为炫书网.*|找好书，看好书.*|书友.*|-|用户上传之内容开始|本书由【炫书网】|.*提供下载.*|炫书网.*|=|.*严正声明.*|本书籍是网络收集.*|请不要使用在商业.*|我们会尽快去掉您认为侵.*|"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.searchTopic@tag.a@text##.*作者：",
+      "bookList": "id.searchmain@tag.div!0",
+      "bookUrl": "class.searchTopic.0@tag.a@href",
+      "kind": "class.searchInfo@tag.a.0@tag.span.0@text",
+      "name": "class.searchTopic@tag.a@text##/作者.*"
+    },
+    "ruleToc": {
+      "chapterList": "class.read_list@tag.a",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.ixuanquge.com/search.html?searchtype=novelname&searchkey={{key}}",
+    "weight": 0
+  }]

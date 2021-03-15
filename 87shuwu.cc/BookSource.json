@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 霸气书屋[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.87shuwu.cc",
+    "bookUrlPattern": "",
+    "customOrder": -31511,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全本::/shuku/0-lastupdate-2-{{page}}.html\n玄幻奇幻::/shuku/1-lastupdate-2-{{page}}.html\n仙侠武侠::/shuku/2-lastupdate-2-{{page}}.html\n言情都市::/shuku/3-lastupdate-2-{{page}}.html\n穿越历史::/shuku/4-lastupdate-2-{{page}}.html\n科幻灵异::/shuku/5-lastupdate-2-{{page}}.html\n藏经阁::/shuku/6-lastupdate-2-{{page}}.html\n其他类型::/shuku/7-lastupdate-2-{{page}}.html",
+    "lastUpdateTime": 1602936162150,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.bd.2@text"
+    },
+    "ruleContent": {
+      "content": "class.page-content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.info@text##字.*",
+      "bookList": "class.column-2@tag.li",
+      "bookUrl": "class.name@href",
+      "kind": "class.words@text",
+      "lastChapter": "class.update@text",
+      "name": "class.name@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list.1@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "class.nextPage@text.下页@href"
+    },
+    "searchUrl": "http://www.87shuwu.cc/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"type=articlename&s={{key}}\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,45 @@
+[  {
+    "bookSourceComment": "error:Timed out waiting for 180000 ms\n",
+    "bookSourceGroup": "🎉精品,失效",
+    "bookSourceName": "🎉 给力文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.geilwx.cc",
+    "customOrder": -32376,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/fenlei1/{{page}}.html\n武侠修真::/fenlei2/{{page}}.html\n都市言情::/fenlei3/{{page}}.html\n历史军事::/fenlei4/{{page}}.html\n侦探推理::/fenlei5/{{page}}.html\n网游动漫::/fenlei6/{{page}}.html\n科幻小说::/fenlei7/{{page}}.html\n恐怖灵异::/fenlei8/{{page}}.html\n穿越小说::/fenlei9/{{page}}.html\n其他类型::/fenlei10/{{page}}.html",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##正文\\s",
+      "name": "[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@html##给力文学.*|本章未完.*",
+      "imageStyle": "0",
+      "nextContentUrl": "id.linkNext@tag.a@href"
+    },
+    "ruleExplore": {
+      "kind": ""
+    },
+    "ruleSearch": {
+      "author": "tag.small@text##/.*",
+      "bookList": "class.col-md-4",
+      "bookUrl": "tag.h4@tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "tag.p@text",
+      "kind": "",
+      "lastChapter": "",
+      "name": "tag.h4@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.col-md-3",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.geilwx.cc/modules/article/search.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}&page={{page}}\"\n}",
+    "weight": 0
+  }]

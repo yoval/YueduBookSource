@@ -1,0 +1,34 @@
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": "普通,失效",
+    "bookSourceName": "轩宇阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xyyuedu.com",
+    "customOrder": 71,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "##在线阅读-([^<]+)<\\/title>##$1###",
+      "coverUrl": "##<img src=\"(\\/uploads\\/[^\"]+)##$1###",
+      "intro": "##<\\/p>\\s+<p>([\\s\\S]+?)<\\/p><br>##$1###",
+      "name": "##<title>《([^》]+)##$1###"
+    },
+    "ruleContent": {
+      "content": "@css:#onearcxsbd>p,#onearcxsbd@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "##在线阅读-(\\S+?)<\\/a>##$1###",
+      "bookList": "@css:a[href~=xyyuedu\\.com(\\/[a-z]+){2,3}\\/$]",
+      "bookUrl": "href",
+      "name": "##blank\">《?([^《]+)[_》](小说)?在线阅读##$1###"
+    },
+    "ruleToc": {
+      "chapterList": ":href=\"([a-z\\/]+\\d+\\.html)\" title=\"([^\"]+)\"",
+      "chapterName": "$2",
+      "chapterUrl": "$1"
+    },
+    "searchUrl": "http://so.xyyuedu.com/cse/search?q={{key}}&p={{page-1}}&s=17209289454422605142,{\n  \"charset\": \"utf-8\"\n}",
+    "weight": 0
+  }]

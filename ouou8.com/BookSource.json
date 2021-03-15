@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "👍优质",
+    "bookSourceName": "👍 偶偶小说吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.ouou8.com",
+    "bookUrlPattern": "",
+    "customOrder": -114821,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最新更新::https://www.ouou8.com/lastupdate/p<{{page}}>.html\n最近入库::https://www.ouou8.com/postdate/p<{{page}}>.html\n总点击榜::https://www.ouou8.com/allvisit/p<{{page}}>.html\n总推荐榜::https://www.ouou8.com/allvote/p<{{page}}>.html\n总收藏榜::https://www.ouou8.com/goodnum/p<{{page}}>.html\n总字数榜::https://www.ouou8.com/size/p<{{page}}>.html\n全本小说::https://www.ouou8.com/all/lastupdate_0_{{page}}.html\n玄幻奇幻::https://www.ouou8.com/xuanhuan/p<{{page}}>.html\n武侠修真::https://www.ouou8.com/wuxia/p<{{page}}>.html\n都市言情::https://www.ouou8.com/yanqing/p<{{page}}>.html\n历史军事::https://www.ouou8.com/lishi/p<{{page}}>.html\n科幻小说::https://www.ouou8.com/kehuan/p<{{page}}>.html\n网游小说::https://www.ouou8.com/wangyou/p<{{page}}>.html\n女生小说::https://www.ouou8.com/nvsheng/p<{{page}}>.html\n其他小说::https://www.ouou8.com/qita/p<{{page}}>.html",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; Redmi Note 8 Pro Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.101 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 1612827303260,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.bookintro@img@src",
+      "intro": "class.bookintro@text",
+      "lastChapter": "class.bookchapter@text"
+    },
+    "ruleContent": {
+      "content": "class.readcontent@p@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@text##\\|.*",
+      "bookList": "class.bookbox",
+      "bookUrl": "a@href",
+      "coverUrl": "tag.a.0@href##/(\\d+)_(\\d+)/##/upimg/files/article/image/$1/$2/$2s.jpg",
+      "kind": "class.author.0@text##.*\\||作者.*|状态：",
+      "lastChapter": "class.cat@a@text",
+      "name": "class.bookname@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.all-chapter clear@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://www.ouou8.com/modules/article/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=all&submit=\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,47 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🍑耽美",
+    "bookSourceName": "🍑 御书阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.yuzhaige.cc",
+    "customOrder": -116089,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "快穿::/tag/1/p_{{page}}.html\n美攻::/tag/2/p_{{page}}.html\n肉文::/tag/3/p_{{page}}.html\n年下::/tag/4/p_{{page}}.html\n年上::/tag/5/p_{{page}}.html\n人兽::/tag/6/p_{{page}}.html\n强强::/tag/7/p_{{page}}.html\n穿越::/tag/8/p_{{page}}.html\n双性::/tag/9/p_{{page}}.html\n强受::/tag/10/p_{{page}}.html\nABO::/tag/11/p_{{page}}.html\n重生::/tag/12/p_{{page}}.html\n HP ::/tag/13/p_{{page}}.html\n虐文::/tag/14/p_{{page}}.html\n温馨::/tag/15/p_{{page}}.html\n NP ::/tag/16/p_{{page}}.html\n父子::/tag/17/p_{{page}}.html\n兄弟::/tag/18/p_{{page}}.html\n萌文::/tag/19/p_{{page}}.html\n BE ::/tag/20/p_{{page}}.html\n末世::/tag/21/p_{{page}}.html",
+    "lastUpdateTime": 1612198997877,
+    "ruleBookInfo": {
+      "author": "class.infotype@tag.p.0@tag.a@text",
+      "coverUrl": "class.pic@tag.img@src",
+      "intro": "class.intro@text##.*简介：",
+      "kind": "class.infotype@tag.p.1@text##类型：|小说",
+      "lastChapter": "class.infotype@tag.p.3@tag.a@text",
+      "name": "class.cataloginfo@tag.h3@text",
+      "tocUrl": "class.infolink@tag.li.1@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "id.content@html",
+      "nextContentUrl": "class.curr@tag.a@href"
+    },
+    "ruleExplore": {
+      "author": "tag.span.0@text",
+      "bookList": "id.list_ul@li",
+      "bookUrl": "tag.a.1@href",
+      "intro": "",
+      "kind": "tag.a.0@text##小说",
+      "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+      "author": "class.author@tag.a@text",
+      "bookList": "p!0:1",
+      "bookUrl": "tag.a.0@href",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapters@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "http://www.yuzhaige.cc/s.html,{\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&type=articlename\"\n}",
+    "weight": 0
+  }]

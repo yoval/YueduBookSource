@@ -1,0 +1,47 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 52书库",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.52shuku.me",
+    "bookUrlPattern": "https://www.52shuku.me/.*?/\\d+/.*?html",
+    "customOrder": -32130,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "lastUpdateTime": 1602786439722,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.article-header@tag.h1@text##.*_|【.*",
+      "coverUrl": "@js:'https://m.kanshujun.com/style/noimg.jpg'",
+      "intro": "class.article-content@tag.p.1@text##.*】",
+      "name": "class.article-header@tag.h1@text##_.*|\\[.*\\]"
+    },
+    "ruleContent": {
+      "content": "class.article-content@p@html##52书.*|推荐浏览.*",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "intro": "",
+      "name": ""
+    },
+    "ruleSearch": {
+      "author": "tag.h2@tag.a@text##.*_|【.*?】",
+      "bookList": "class.excerpt",
+      "bookUrl": "class.excerpt@tag.h2@tag.a@href",
+      "coverUrl": "@js:'https://m.kanshujun.com/style/noimg.jpg'",
+      "intro": "class.note@text##.*】",
+      "lastChapter": "class.muted.0@text##\\(|\\).*",
+      "name": "tag.h2@tag.a@text##_.*|作者.*"
+    },
+    "ruleToc": {
+      "chapterList": "class.list clearfix@tag.li",
+      "chapterName": "tag.a@text##章##页",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.52shuku.vip/e/search/,{\n  \"method\": \"POST\",\n  \"body\": \"tbname=article&tempid=1&show=title%2Cwriter&keyboard={{key}}\"\n}",
+    "weight": 0
+  }]

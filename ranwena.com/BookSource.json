@@ -1,0 +1,35 @@
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": ",失效",
+    "bookSourceName": "燃文小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ranwena.com",
+    "customOrder": 16,
+    "enabled": true,
+    "enabledExplore": false,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@tag.p.0@textNodes"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4.0@text||id.info@tag.p.0@text",
+      "bookList": "class.novelslist2@tag.li!0||class.box_con.0",
+      "bookUrl": "class.s2.0@tag.a@href",
+      "kind": "class.s1.0@tag.a@text||class.con_top@tag.a.2@text",
+      "lastChapter": "class.s3.0@tag.a@text||id.info@tag.p.3@tag.a@text",
+      "name": "class.s2.0@tag.a@text||id.info@tag.h1.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.box_con@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a.0@href"
+    },
+    "searchUrl": "https://www.ranwena.com/modules/article/search.php?searchtype=keywords&ie=gbk&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

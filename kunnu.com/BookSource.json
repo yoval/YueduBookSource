@@ -1,0 +1,51 @@
+[  {
+    "bookSourceComment": "haxc",
+    "bookSourceGroup": "",
+    "bookSourceName": "鲲弩小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.kunnu.com",
+    "bookUrlPattern": "",
+    "customOrder": -117603,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "言情穿越::https://www.kunnu.com/yanqing/\n中文经典::https://www.kunnu.com/jingdian/",
+    "header": "",
+    "lastUpdateTime": 1615686223353,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.book-describe@tag.p.0@text##作者：",
+      "coverUrl": "class.img-img@src",
+      "intro": "class.describe-html@tag.p!-1@text",
+      "kind": "class.book-describe@tag.p.1@text##类型：",
+      "lastChapter": "class.book-describe@tag.p.4@a@text",
+      "name": "class.book-describe@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.nr1@html",
+      "imageStyle": "",
+      "replaceRegex": "##鲲.*弩.*小.*说.*"
+    },
+    "ruleExplore": {
+      "author": "class.pop-intro@text##.*\\/",
+      "bookList": "ol@li",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "",
+      "kind": "class.pop-intro@text##\\/.*",
+      "name": "tag.h2@text"
+    },
+    "ruleSearch": {
+      "bookList": "class.search-list@li",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "",
+      "intro": "",
+      "name": "tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.book-list@tag.li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.kunnu.com/page/{{page}}/?s={{key}}",
+    "weight": 0
+  }]

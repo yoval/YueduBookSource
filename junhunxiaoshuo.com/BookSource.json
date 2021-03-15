@@ -1,0 +1,36 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔰普通",
+    "bookSourceName": "🔰 军婚小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.junhunxiaoshuo.com",
+    "bookUrlPattern": "",
+    "customOrder": -114567,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612537349592,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.list@tag.p@text",
+      "name": "class.dh@tag.a.2@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html##一秒记住.*",
+      "replaceRegex": "##军婚小说网.*最快更新.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.novelslistss@tag.li",
+      "bookUrl": "class.s2@tag.a.0@href",
+      "lastChapter": "class.s3@tag.a.0@text",
+      "name": "class.s2@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.junhunxiaoshuo.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

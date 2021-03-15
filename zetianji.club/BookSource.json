@@ -1,0 +1,35 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "泽天记[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://zetianji.club",
+    "customOrder": -117667,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "泽天记::http://zetianji.club",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 5.1.1; MX4 Pro Build/LMY48W) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/40.0.2214.127 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 1615704081291,
+    "ruleBookInfo": {
+      "coverUrl": "http://www.siluwu.com/image/85/85150/85150s.jpg",
+      "intro": ""
+    },
+    "ruleContent": {
+      "content": "class.main-content@p!0@textNodes"
+    },
+    "ruleExplore": {
+      "author": "class.project-tagline@text##作者\\s",
+      "bookList": "tag.body",
+      "bookUrl": "",
+      "intro": "",
+      "kind": "",
+      "name": "class.project-name@text"
+    },
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "class.main-content@a!0:-1:-2:-3",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "weight": 0
+  }]

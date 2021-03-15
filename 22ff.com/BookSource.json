@@ -1,0 +1,34 @@
+[  {
+    "bookSourceComment": "error:Failed to connect to www.22ff.com/47.244.201.52:443\n",
+    "bookSourceGroup": "🎉精品,失效",
+    "bookSourceName": "🎉 无弹窗小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.22ff.com-By Dark",
+    "customOrder": -32519,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "coverUrl": "class.main.1@class.fw@tag.img.0@src",
+      "intro": "class.main.1@tag.tbody.0@tag.td.9@textNodes"
+    },
+    "ruleContent": {
+      "content": "id.chapter_content@tag.p@text##soudu|org|www|ttzw|com|c66c"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.neirong4@tag.a.0@text",
+      "bookList": "class.neirong@tag.ul!0",
+      "bookUrl": "class.neirong1@tag.a.0@href",
+      "lastChapter": "class.neirong2@tag.a.0@text",
+      "name": "class.neirong1@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.neirong@class.clc!0",
+      "chapterName": "tag.a.0@text",
+      "chapterUrl": "tag.a.0@href"
+    },
+    "searchUrl": "https://www.22ff.com/s_{{key}}",
+    "weight": 0
+  }]

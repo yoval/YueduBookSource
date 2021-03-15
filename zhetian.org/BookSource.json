@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "error:正文内容为空\n",
+    "bookSourceGroup": "🎉精品,失效",
+    "bookSourceName": "🎉 圣墟小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.zhetian.org",
+    "bookUrlPattern": "",
+    "customOrder": -32032,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "id.intro@tag.p.0@text"
+    },
+    "ruleContent": {
+      "content": "class.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.span.1@tag.a@text",
+      "bookList": "class.body@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "kind": "tag.span.2@tag.a@text",
+      "lastChapter": "class.last@tag.a@text",
+      "name": "class.novelname.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.dirlist@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.zhetian.org/search.html?searchtype=novelname&searchkey={{key}}",
+    "weight": 0
+  }]

@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 笔下文学④",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.bixia.org",
+    "bookUrlPattern": "",
+    "customOrder": -31954,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "tag.img@src",
+      "intro": "class.m-desc xs-show@html##简介:",
+      "lastChapter": "class.section-list fix.0@tag.li.0@a@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html##.*章节错误.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.txt-list txt-list-row5@li",
+      "bookUrl": "class.s2@tag.a@href",
+      "kind": "class.s1@text##\\[|]",
+      "lastChapter": "class.s3@text",
+      "name": "class.s2@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.section-list fix.1@li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.bixia.org/ar.php?keyWord={{key}}",
+    "weight": 0
+  }]

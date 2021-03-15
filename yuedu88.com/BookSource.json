@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "📚出版",
+    "bookSourceName": "📚 在线阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.yuedu88.com",
+    "customOrder": -24730,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "首页::http://www.yuedu88.com",
+    "lastUpdateTime": 1603002837259,
+    "ruleBookInfo": {
+      "author": "class.bookinfo@tag.em@text",
+      "coverUrl": "class.bookinfo@tag.img@src",
+      "intro": "class.tuijian@text||class.intro@text##.*简介."
+    },
+    "ruleContent": {
+      "content": "id.BookText@html##在线阅读.*|在线读书.*|在线阅 读.*|资料来源：.*",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p.0@text",
+      "bookList": "id.searchText@tag.li||class.details!-1:-2",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@src",
+      "lastChapter": "tag.p.1@text",
+      "name": "tag.a@text##在线阅读.*|小说"
+    },
+    "ruleToc": {
+      "chapterList": "class.inner@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.yuedu88.com/search.php?q={{key}}",
+    "weight": 0
+  }]

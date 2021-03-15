@@ -1,0 +1,51 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🍒言情",
+    "bookSourceName": "🍒 雨后中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yuhouzw.com",
+    "bookUrlPattern": "",
+    "customOrder": -31073,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/xuanhuan/{{page}}.html\n武侠::/wuxia/{{page}}.html\n都市::/dushi/{{page}}.html\n历史::/lishi/{{page}}.html\n游戏::/youxi/{{page}}.html\n科幻::/kehuan/{{page}}.html\n恐怖::/xuanyi/{{page}}.html\n同人::/erciyuan/{{page}}.html\n经典::/jingdian/{{page}}.html\n古代::/guyan/{{page}}.html\n现代::/xianyan/{{page}}.html\n幻想::/huanqing/{{page}}.html\n青春::/qingchun/{{page}}.html\n网络::/wangluo/{{page}}.html\n妹科::/mmkehuan/{{page}}.html\n鬼怪::/lingyi/{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.a.0@text",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@tag.p.0@text",
+      "kind": "class.infotop@tag.td.0@text##小说分类：",
+      "lastChapter": "id.info@tag.p.3@tag.a@text",
+      "name": "id.info@tag.h1@text",
+      "tocUrl": "class.btopt@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "id.content@tag.p@textNodes##.*雨后中文更新.*"
+    },
+    "ruleExplore": {
+      "author": "tag.a.2@text",
+      "bookList": "id.newscontent@tag.li||class.novelslist2@tag.li.!0",
+      "bookUrl": "tag.a.0@href",
+      "kind": "class.s1@text##\\p{Punct}",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "tag.dd.1@tag.span.0@text",
+      "bookList": "id.sitembox@tag.dl",
+      "bookUrl": "tag.dd.0@tag.a@href",
+      "coverUrl": "tag.dt@tag.img@src",
+      "intro": "tag.dd.2@text",
+      "kind": "tag.dd.1@tag.span.1@text&&tag.dd.1@tag.span.2@text",
+      "lastChapter": "tag.dd.3@tag.a@text",
+      "name": "tag.dd.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8:9:10:11@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search.html,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=all&searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

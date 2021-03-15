@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 藏书阁②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.csg99.com",
+    "bookUrlPattern": "",
+    "customOrder": -31961,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "@css:.infotype p[1] a@text",
+      "coverUrl": "class.pic@tag.img@src",
+      "intro": "@css:.intro p@text",
+      "kind": "@css:.infotype p[2] a@text",
+      "lastChapter": "class.infotype@tag.p.3@a@text",
+      "name": "@css:.cataloginfo h3@text",
+      "tocUrl": "text.章节目录@href"
+    },
+    "ruleContent": {
+      "content": "id.novelcontent@html||class.novelcontent@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@a@text",
+      "bookList": "class.searchresult@tag.p",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##/book/(\\d+)(\\d{3})/##/files/article/image/$1/$1$2/$1$2s.jpg",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapters@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://m.csg99.com/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&type=articlename\"\n}",
+    "weight": 0
+  }]

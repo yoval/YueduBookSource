@@ -1,0 +1,64 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 无错小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.wcxsw.net",
+    "bookUrlPattern": "",
+    "customOrder": -32564,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.bookTitle@a@text",
+      "coverUrl": "class.img-thumbnail@src",
+      "init": "",
+      "intro": "class.text-muted.0@text",
+      "kind": "",
+      "lastChapter": "",
+      "name": "class.bookTitle@text## /.*",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@html##无错小说网.*?最新章节！|本章未完，点击下一页继续阅读",
+      "nextContentUrl": "text.下一页@href",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.text-muted fs-12@text## / 著",
+      "bookList": "class.book-coverlist",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "class.thumbnail@text",
+      "intro": "class.text-muted fs-12 hidden-xs@text",
+      "kind": "",
+      "lastChapter": "",
+      "name": "h4@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "id.list-chapterAll@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "https://www.wcxsw.net/modules/article/search.php?searchkey={{key}}&page={{page}},{\n\"charset\":\"gbk\"\n}",
+    "weight": 0
+  }]

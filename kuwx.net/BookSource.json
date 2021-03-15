@@ -1,0 +1,50 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🛠️待修",
+    "bookSourceName": "🛠️ 系统小说[缺页]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://wap.kuwx.net",
+    "customOrder": 11753,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "总点击榜::/good/allvisit_{{page}}.html\n总收藏榜::/good/goodnum_{{page}}.html\n字数排行::/good/size_{{page}}.html\n总推荐榜::/good/allvote_{{page}}.html\n最新入库::/good/postdate_{{page}}.html\n最近更新::/good/lastupdate_{{page}}.html\n玄幻魔法::/good/1_{{page}}.html\n武侠修真::/good/2_{{page}}.html\n都市言情::/good/3_{{page}}.html\n历史军事::/good/4_{{page}}.html\n网游动漫::/good/5_{{page}}.html\n科幻小说::/good/6_{{page}}.html\n恐怖灵异::/good/7_{{page}}.html\n其他类型::/good/8_{{page}}.html\n完结小说::/quanben/{{page}}.html",
+    "lastUpdateTime": 1609989080964,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "[property=\"og:novel:read_url\"]@content"
+    },
+    "ruleContent": {
+      "content": "id.txt@tag.p@text",
+      "replaceRegex": "##阅读.*最新章节.*"
+    },
+    "ruleExplore": {
+      "author": "tag.span@text##.*：",
+      "bookList": "class.clearfix.1@tag.li",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@data-original",
+      "intro": "tag.p.0@text",
+      "kind": "tag.em@text",
+      "name": "tag.a@text"
+    },
+    "ruleSearch": {
+      "author": "tag.span@text##.*：",
+      "bookList": "class.clearfix@tag.li",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@data-original",
+      "intro": "tag.p.0@text",
+      "kind": "tag.em@text",
+      "name": "tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.listsss@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/s.php?s={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

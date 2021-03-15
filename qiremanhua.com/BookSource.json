@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "error:Index: 0, Size: 0\n",
+    "bookSourceGroup": "🎨漫画,失效",
+    "bookSourceName": "🎨 奇热漫画",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.qiremanhua.com",
+    "bookUrlPattern": "",
+    "customOrder": -31321,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "精品推荐::https://m.qiremanhua.com/book/more_ajax?id=26&page={{page}}\nVIP专区::https://m.qiremanhua.com/book/more_ajax?id=29&page={{page}}\n热门必看::https://m.qiremanhua.com/book/more_ajax?id=28&page={{page}}\n近期新番::https://m.qiremanhua.com/book/more_ajax?id=27&page={{page}}\n总裁言情::https://m.qiremanhua.com/book/more_ajax?id=30&page={{page}}\n真人漫画::https://m.qiremanhua.com/book/more_ajax?id=31&page={{page}}\n惊悚悬疑::https://m.qiremanhua.com/book/more_ajax?id=32&page={{page}}\n完结佳作::https://m.qiremanhua.com/book/more_ajax?id=33&page={{page}}\n最新更新::https://m.qiremanhua.com/book/renew_ajax?page={{page}}\n推荐::https://m.qiremanhua.com/book/book_cate_ajax?tid=all&vip=all&end=all&sort=1&page={{page}}\n人气::https://m.qiremanhua.com/book/book_cate_ajax?tid=all&vip=all&end=all&sort=2&page={{page}}\n最新::https://m.qiremanhua.com/book/book_cate_ajax?tid=all&vip=all&end=all&sort=3&page={{page}}\n穿越::https://m.qiremanhua.com/book/book_cate_ajax?tid=12&vip=all&end=all&sort=1&page={{page}}\n恋爱::https://m.qiremanhua.com/book/book_cate_ajax?tid=2&vip=all&end=all&sort=1&page={{page}}\n总裁::https://m.qiremanhua.com/book/book_cate_ajax?tid=8&vip=all&end=all&sort=1&page={{page}}\n校园::https://m.qiremanhua.com/book/book_cate_ajax?tid=1&vip=all&end=all&sort=1&page={{page}}\n恐怖::https://m.qiremanhua.com/book/book_cate_ajax?tid=11&vip=all&end=all&sort=1&page={{page}}\n古风::https://m.qiremanhua.com/book/book_cate_ajax?tid=3&vip=all&end=all&sort=1&page={{page}}\n奇幻::https://m.qiremanhua.com/book/book_cate_ajax?tid=13&vip=all&end=all&sort=1&page={{page}}\n热血::https://m.qiremanhua.com/book/book_cate_ajax?tid=4&vip=all&end=all&sort=1&page={{page}}\n悬疑::https://m.qiremanhua.com/book/book_cate_ajax?tid=5&vip=all&end=all&sort=1&page={{page}}\n都市::https://m.qiremanhua.com/book/book_cate_ajax?tid=7&vip=all&end=all&sort=1&page={{page}}\n爆笑::https://m.qiremanhua.com/book/book_cate_ajax?tid=9&vip=all&end=all&sort=1&page={{page}}\n真人::https://m.qiremanhua.com/book/book_cate_ajax?tid=14&vip=all&end=all&sort=1&page={{page}}\n微漫::https://m.qiremanhua.com/book/book_cate_ajax?tid=16&vip=all&end=all&sort=1&page={{page}}\n连载::https://m.qiremanhua.com/book/book_cate_ajax?tid=all&vip=all&end=0&sort=1&page={{page}}\n完结::https://m.qiremanhua.com/book/book_cate_ajax?tid=all&vip=all&end=1&sort=1&page={{page}}\n免费::https://m.qiremanhua.com/book/book_cate_ajax?tid=all&vip=0&end=1&sort=1&page={{page}}\n付费::https://m.qiremanhua.com/book/book_cate_ajax?tid=all&vip=2&end=1&sort=1&page={{page}}\nnull",
+    "lastUpdateTime": 1603283597164,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.book-container__author@text##作者：",
+      "intro": "class.book-container__detail@text",
+      "kind": "class.book-hero__detail@class.item@text",
+      "name": "class.book-hero__detail@class.title@text",
+      "tocUrl": "@js:\"https://m.qiremanhua.com/book/chaplist_ajax?sort=1&book_id=@get:{bid}\""
+    },
+    "ruleContent": {
+      "content": ":_S001_K8bTKH2G2N99z92XA6OMq14YB0rgfDeebirD8hxVfiGolLy+H6ILe+NHrhfP6ALP1MjIgMes5w13\nxp1uW0180aCSmlmwA7GOQXYf5AkatUAZYTEq8bqvsu+GOt6PYmkCUjjSd1GJuVYysCSuHwnVKQ==\n"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$.book_author",
+      "bookList": "$.data.*",
+      "bookUrl": "@js:\"https://m.qiremanhua.com/book/@get:{bid}/\"",
+      "coverUrl": "$.book_unruly||$.book_cover",
+      "kind": "$.tags",
+      "lastChapter": "$.last_chapter_name",
+      "name": "$.book_name@put:{bid:id||book_id}"
+    },
+    "ruleToc": {
+      "chapterList": "@JSon:$.data.*",
+      "chapterName": "$.chapterFullName",
+      "chapterUrl": "https://m.qiremanhua.com/book/@get:{bid}/{$.chapterId}/"
+    },
+    "searchUrl": "https://m.qiremanhua.com/book/ajax_search?key={{key}}&page={{page}}",
+    "weight": 0
+  }]

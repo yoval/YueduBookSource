@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "haxc",
+    "bookSourceGroup": "🍒言情",
+    "bookSourceName": "🍒 夜读侠",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.ydx8.com",
+    "bookUrlPattern": "",
+    "customOrder": -115954,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "近代现代::/cat/jindaixiandai/{{page}}.html\n穿越奇遇::/cat/chuanyueqiyu/{{page}}.html\n花季青春::/cat/huajiqingchun/{{page}}.html\n架空历史::/cat/jiakonglishi/{{page}}.html\n同人衍生::/cat/tongrenyansheng/{{page}}.html\n仙侠奇幻::/cat/xianxiaqihuan/{{page}}.html\n游戏推理::/cat/youxituili/{{page}}.html\n科幻无限::/cat/kehuanwuxian/{{page}}.html",
+    "lastUpdateTime": 1610038298280,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "[name=\"og:novel:author\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[name=\"og:novel:category\"]@content",
+      "lastChapter": "[property=\"og:novel:lastest_chapter_name\"]@content",
+      "name": "[name=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+      "content": "class.contentz@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.0@text##.*作者：|.*by：|（.*）|.*BY：|.*By：",
+      "bookList": "class.book-listz@li",
+      "bookUrl": "tag.a@href",
+      "intro": "tag.p.0@text",
+      "kind": "tag.p.1@tag.a.1@text",
+      "name": "tag.a.0@text##作者[^（]+|by[^（]+|By[^（]+|BY[^（]+"
+    },
+    "ruleToc": {
+      "chapterList": "class.pagesz@tag.li!0:1:-1:-2@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.ydx8.com/plus/search.php?q={{key}}&searchtype=titlekeyword&channeltype=0&orderby=&kwtype=0&pagesize=10&typeid=0&PageNo={{page}},{charset:\"gbk\"}",
+    "weight": 0
+  }]

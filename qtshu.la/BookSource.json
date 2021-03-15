@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "18禁; 发现",
+    "bookSourceName": "奇塔文学🔞",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.qtshu.la",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::https://m.qtshu.la/allvisit-1-{{page}}.html\n武侠修真::https://m.qtshu.la/allvisit-2-{{page}}.html\n都市言情::https://m.qtshu.la/allvisit-3-{{page}}.html\n历史穿越::https://m.qtshu.la/allvisit-4-{{page}}.html\n侦探推理::https://m.qtshu.la/allvisit-5-{{page}}.html\n网游动漫::https://m.qtshu.la/allvisit-6-{{page}}.html\n科幻小说::https://m.qtshu.la/allvisit-7-{{page}}.html\n恐怖灵异::https://m.qtshu.la/allvisit-8-{{page}}.html\n散文诗词::https://m.qtshu.la/allvisit-9-{{page}}.html\n其他类型::https://m.qtshu.la/allvisit-10-{{page}}.html\n全本::https://m.qtshu.la/allvisit-0-1-{{page}}.html\n日点击榜::https://m.qtshu.la/dayvisit-0-{{page}}.html\n周点击榜::https://m.qtshu.la/weekvisit-0-{{page}}.html\n月点击榜::https://m.qtshu.la/monthvisit-0-{{page}}.html\n总点击榜::https://m.qtshu.la/allvisit-0-{{page}}.html\n总收藏榜::https://m.qtshu.la/goodnum-0-{{page}}.html\n字数排行::https://m.qtshu.la/size-0-{{page}}.html\n日推荐榜::https://m.qtshu.la/dayvote-0-{{page}}.html\n周推荐榜::https://m.qtshu.la/weekvote-0-{{page}}.html\n月推荐榜::https://m.qtshu.la/monthvote-0-{{page}}.html\n总推荐榜::https://m.qtshu.la/allvote-0-{{page}}.html\n最新入库::https://m.qtshu.la/postdate-0-{{page}}.html\n最近更新::https://m.qtshu.la/lastupdate-0-{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.block_txt2@tag.p.2@text##作者：",
+      "coverUrl": "class.block_img2@tag.img.0@src",
+      "intro": "class.intro_info@text##最新章节推荐地址：.*",
+      "name": "class.block_txt2@tag.h2.0@text",
+      "tocUrl": "class.footer@tag.li.1@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "class.contentbox@tag.p@text"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "text||class.result-game-item-info-tag.0@tag.span.1@text##\\[.*/",
+      "bookList": "class.cover@tag.p||class.result-item",
+      "bookUrl": "tag.a.0@href||class.result-game-item-pic.0@tag.a.0@href",
+      "coverUrl": "tag.img.0@src",
+      "kind": "class.result-game-item-info-tag.1@tag.span.1@text",
+      "lastChapter": "class.result-game-item-info-tag.3@tag.a.0@text",
+      "name": "tag.a.0@text||class.result-game-item-detail@tag.h3.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.booklist@tag.li!0:1:2:3:4:5:6:7:8",
+      "chapterName": "tag.a.@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://zhannei.baidu.com/cse/search?q={{key}}&s=4345477332235929278&page={{page-1}}",
+    "weight": 0
+  }]

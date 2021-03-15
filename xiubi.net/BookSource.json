@@ -1,0 +1,48 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "优质",
+    "bookSourceName": "修笔小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xiubi.net",
+    "customOrder": -32,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/xuanhuan/\n武侠仙侠::/xiuzhen/\n都市职场::/dushi/\n军事历史::/lishi/\n游戏体育::/wangyou/\n科幻灵异::/kehuan/\n女生频道::/nvsheng/\n其他小说::/qita/\n全本小说::/quanben/",
+    "lastUpdateTime": 1607043037911,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "@css:#info>p:nth-child(4)@text",
+      "coverUrl": "@css:#fmimg>img@src",
+      "intro": "@css:#intro>p:nth-child(1)@text",
+      "kind": "@css:#info>p:nth-child(2)@text##分类：",
+      "lastChapter": "@css:#info>p:nth-child(6)>a@text",
+      "name": "@css:#info>h1@text"
+    },
+    "ruleContent": {
+      "content": "@css:.#content\"]@html"
+    },
+    "ruleExplore": {
+      "author": "@css:.s4@text",
+      "bookList": "@css:.l.bd>ul>li",
+      "bookUrl": "@css:.s2>a@href",
+      "lastChapter": "@css:.s3>a@text",
+      "name": "@css:.s2>a@text"
+    },
+    "ruleSearch": {
+      "author": "@css:.author@text",
+      "bookList": "@css:.bookbox",
+      "bookUrl": "@css:.bookname>a@href",
+      "coverUrl": "@css:.bookimg>a>img@src",
+      "intro": "@css:p@text",
+      "kind": "@css:.cat@text##分类：",
+      "lastChapter": "@css:.update>a@text",
+      "name": "@css:h4.bookname>a@text"
+    },
+    "ruleToc": {
+      "chapterList": "@css:.listmain>dl>dd:nth-child(n+2)>a",
+      "chapterName": "@text",
+      "chapterUrl": "@href"
+    },
+    "searchUrl": "https://www.xiubi.net/s.php?ie=gbk&q={{key}}",
+    "weight": 0
+  }]

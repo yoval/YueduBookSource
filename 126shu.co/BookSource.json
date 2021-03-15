@@ -1,0 +1,35 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "A级; 发现",
+    "bookSourceName": "奇书网126shu.co",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.126shu.co",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/novel-list-1<,-{{page}}>.html\n武侠仙侠::/novel-list-2<,-{{page}}>.html\n女频言情::/novel-list-3<,-{{page}}>.html\n现代都市::/novel-list-4<,-{{page}}>.html\n历史军事::/novel-list-5<,-{{page}}>.html\n游戏竞技::/novel-list-6<,-{{page}}>.html\n科幻灵异::/novel-list-7<,-{{page}}>.html\n美文同人::/novel-list-8<,-{{page}}>.html\n最新小说::/novel-list-9<,-{{page}}>.html\n热门小说::/novel-list-10<,-{{page}}>.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "tocUrl": "text.【在线阅读】@href"
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s@text##大小.*",
+      "bookList": "class.listBox@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text##《|》.*"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.126shu.co/modules/article/search.php?s=12622474051500695548&orderby=1&show=title,bname,zuozhe,smalltext&myorder=1&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "普通",
+    "bookSourceName": "小说2016",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xiaoshuo2016.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.phr@tag.p.0@tag.span.0@text",
+      "coverUrl": "class.thumbnail@tag.img.0@src",
+      "intro": "class.intro-detail@tag.p.0@text",
+      "name": "class.introMid@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "class.articleCon@tag.p@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.clearfix.0@tag.p.1@tag.a.0@text||class.phr@tag.p.0@tag.span.0@text",
+      "bookList": "class.clearfix||class.intro",
+      "bookUrl": "class.clearfix.0@tag.a.0@href",
+      "coverUrl": "class.clearfix.0@tag.img.0@src||class.thumbnail@tag.img.0@src",
+      "kind": "class.phr@tag.p.0@tag.span.1@text",
+      "lastChapter": "class.clearfix.0@tag.p.2@text||class.phr@tag.p.1@tag.span.0@text",
+      "name": "class.name@tag.a.0@text||class.introMid@tag.h1.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.cate-List@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.xiaoshuo2016.com/modules/article/search.php?searchtype=articlename&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

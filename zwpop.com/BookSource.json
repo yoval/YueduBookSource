@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "🎉精品,失效",
+    "bookSourceName": "🎉 中文泡泡",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.zwpop.com",
+    "bookUrlPattern": "",
+    "customOrder": -32073,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.xx@tag.a.1@text",
+      "coverUrl": "class.xsfm@img@src",
+      "intro": "class.jianjie@textNodes##本文链接：https://m.zwpop.com/book/\\d+\\.html",
+      "name": "tag.h1.0@text##TXT下载",
+      "tocUrl": "text.查看更多章节>.0@href"
+    },
+    "ruleContent": {
+      "content": "class.content@tag.p@textNodes##微信可长按识别图中二维码|方便下次阅读|关注官方微信公众号|本章未完|请点击|继续阅读|下一页|第|共|页",
+      "nextContentUrl": "text.下一页.0@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.1@text",
+      "bookList": "class.fk@li",
+      "bookUrl": "tag.a.0@href",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "//*[@class=\"zjlb\"]//a[@title]",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页.0@href"
+    },
+    "searchUrl": "https://m.zwpop.com/s/all/{{key}}/{{page}}.html",
+    "weight": 0
+  }]

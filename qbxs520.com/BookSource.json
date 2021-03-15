@@ -1,0 +1,51 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🍺特优",
+    "bookSourceName": "🍺 全本小说屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.qbxs520.com",
+    "bookUrlPattern": "",
+    "customOrder": -116880,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/sort/xuanhuan_{{page}}.html\n都市娱乐::/sort/dushi_{{page}}.html\n仙侠武侠::/sort/xianxia_{{page}}.html\n历史军事::/sort/lishi_{{page}}.html\n女频言情::/sort/yanqing_{{page}}.html\n游戏竞技::/sort/youxi_{{page}}.html\n科幻灵异::/sort/kehuan_{{page}}.html\n综合其他::/sort/qita_{{page}}.html",
+    "lastUpdateTime": 1605238073580,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.author@tag.a@text",
+      "coverUrl": "id.bookimg@tag.img@src",
+      "intro": "id.bookintro@tag.p@text",
+      "kind": "class.pd_r.0@text",
+      "lastChapter": "id.keywords@tag.a@text",
+      "name": "class.bookright@tag.h1@text",
+      "tocUrl": "class.newrap@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "class.content@textNodes"
+    },
+    "ruleExplore": {
+      "author": "class.book_other.0@tag.a.0@text",
+      "bookList": "id.sitebox@tag.dl",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.book_des@text",
+      "kind": "class.uptime@tag.span.0@text",
+      "lastChapter": "class.book_other.1@tag.a.0@text",
+      "name": "h3@tag.a.0@text",
+      "wordCount": "class.book_other.0@tag.span.1@text"
+    },
+    "ruleSearch": {
+      "author": "class.s3@tag.a.0@text",
+      "bookList": "class.searchcon@tag.ul!0",
+      "bookUrl": "class.s2@tag.a.0@href",
+      "lastChapter": "class.s2@tag.a.1@text",
+      "name": "class.s2@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.newlist!0@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.qbxs520.com/modules/article/search.php?searchkey={{key}}&action=login&searchtype=all&submit=",
+    "weight": 0
+  }]

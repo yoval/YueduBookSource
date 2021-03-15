@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🍑耽美",
+    "bookSourceName": "🍑 镇魂小说[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.zhenhunxiaoshuo.com",
+    "bookUrlPattern": "",
+    "customOrder": -116078,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "纯爱::https://www.zhenhunxiaoshuo.com/chunai<,{{page}}>\n言情::https://www.zhenhunxiaoshuo.com/yanqing<,{{page}}>\npriest集::https://www.zhenhunxiaoshuo.com/priest\n镇魂::https://www.zhenhunxiaoshuo.com/lunhuigui/\n作者::https://www.zhenhunxiaoshuo.com/%e4%bd%9c%e8%80%85",
+    "lastUpdateTime": 1606844651999,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "##作者：([^<]+)<##$1###",
+      "intro": "class.focusbox-text@text",
+      "name": "h1@text"
+    },
+    "ruleContent": {
+      "content": "class.article-content@html<js>if(result!=null){result=result}else{\nresult=\"请复制链接通过 ▓ 添加书籍网址▓ 来将书籍加入书架\\n\"+\"↓↓↓↓↓↓↓↓↓↓↓↓\\n\"+baseUrl\n}</js>"
+    },
+    "ruleExplore": {
+      "author": "//td[@width=\"236\"]/text()",
+      "bookList": "//table[@width=\"1284\"]//tr[position()>1]||//table[@width=\"1075\"]//tr[position()>1]||//tr/td/a||h1",
+      "bookUrl": "tag.a.0@href",
+      "intro": "class.focusbox-text@text",
+      "kind": "//td[@width=\"277\"]/text()",
+      "name": "//td[@width=\"245\"]//strong/text()||//td[@width=\"277\"]//strong/text()||text()"
+    },
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "class.excerpts@article||class.article-content@tr@td",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href"
+    },
+    "searchUrl": "-",
+    "weight": 0
+  }]

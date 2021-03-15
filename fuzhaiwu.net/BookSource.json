@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "A级; 耽美; 发现",
+    "bookSourceName": "腐宅屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.fuzhaiwu.net",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "耽美::/danmei<,/11-{{page}}>.html\n百合::/baihe<,/22-{{page}}>.html\n言情::/yanqing<,/33-{{page}}>.html\n高辣::/lawen<,/44-{{page}}>.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "//*[@class=\"info\"]/ul/li[1]/a/text()",
+      "intro": "//*[@class=\"words\"]/p/a/text()",
+      "name": "//*[@class=\"title\"]/h2/a/text()",
+      "tocUrl": "//*[@class=\"booklist\"]/h3/a/@href"
+    },
+    "ruleContent": {
+      "content": "//*[@class=\"box_box\"]"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "//p[1]/span/a/text()",
+      "bookList": "//*[@class=\"wen\"]",
+      "bookUrl": "##<p class=\"title\"><a href=\"http://m.fuzhaiwu.net([^\"]+)\" title=\"[^\"]+\">[^<]+</a>##http://www.fuzhaiwu.net$1###",
+      "intro": "//p[3]/a/text()",
+      "name": "//p[1]/a[1]/text()"
+    },
+    "ruleToc": {
+      "chapterList": "//*[@id=\"booklistBox\"]//a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://m.fuzhaiwu.net/so/{{key}}<,-{{page}}>.html",
+    "weight": 0
+  }]

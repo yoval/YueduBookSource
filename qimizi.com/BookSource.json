@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 笔趣阁⑤",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.qimizi.com",
+    "bookUrlPattern": "",
+    "customOrder": -115579,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最近更新::http://www.qimizi.com/\n最新入库::http://www.qimizi.com/rank/postdate/{{page}}.html\n总点击榜::http://www.qimizi.com/rank/totalvisit/{{page}}.html\n总推荐榜::http://www.qimizi.com/rank/vote/{{page}}.html\n总收藏榜::http://www.qimizi.com/rank/mark/{{page}}.html\n总下载榜::http://www.qimizi.com/rank/down/{{page}}.html\n全本小说::http://www.qimizi.com/over/{{page}}.html\n玄幻小说::http://www.qimizi.com/category/1/{{page}}.html\n修真小说::http://www.qimizi.com/category/2/{{page}}.html\n都市小说::http://www.qimizi.com/category/3/{{page}}.html\n历史小说::http://www.qimizi.com/category/4/{{page}}.html\n网游小说::http://www.qimizi.com/category/5/{{page}}.html\n科幻小说::http://www.qimizi.com/category/6/{{page}}.html\n女频小说::http://www.qimizi.com/category/7/{{page}}.html\n其他小说::http://www.qimizi.com/category/8/{{page}}.html",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36\"\n}",
+    "lastUpdateTime": 1603990773247,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.pt-bookdetail@img@src",
+      "intro": "class.compulsory-row-three pt-bookdetail-intro@p@textNodes",
+      "lastChapter": "class.color2 mr20.0@text",
+      "tocUrl": "text.书籍详情@href"
+    },
+    "ruleContent": {
+      "content": "class.size16 color5 pt-read-text@p@html##一秒记住.*m|首发网址.*m|记住网址.*ｍ|&&lt.*&&gt;|本书由.*与发行"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "h3@a@text||class.mr30.0@text||tag.a.3@text##.*\\(|\\).*|TXT.*",
+      "bookList": "class.result||class.pt-sort-detail@children||class.pt-update-list@li||class.pt-rank-detail",
+      "bookUrl": "h3@a@href||tag.a.1@href##http://wap.qimizi.com##http://www.qimizi.com",
+      "coverUrl": "h3@a@href||tag.a.1@href##/book/(\\d+).html##/novels/$1.jpg",
+      "kind": "class.category@text||class.fl color7@tag.a.1@text||tag.span.0@text##\\[|]|wap.*|www.*",
+      "lastChapter": "class.fl lh100@a@text||tag.a.2@text",
+      "name": "h3@a@text||tag.a.1@text##\\(.*|TXT.*"
+    },
+    "ruleToc": {
+      "chapterList": "class.pt-chapter-cont-detail full@class.compulsory-row-one",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://zhannei.baidu.com/cse/search?q={{key}}&s=2009806085867895417&entry=1",
+    "weight": 0
+  }]

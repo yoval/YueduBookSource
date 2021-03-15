@@ -1,0 +1,42 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceName": "格格党小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.ggdowns.net/",
+    "customOrder": -223,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻修真::1/{{page}}.html\n都市商战::2/{{page}}.html\n历史军事::3/{{page}}.html\n网游科幻::4/{{page}}.html\n恐怖推理::5/{{page}}.html\n穿越架空::6/{{page}}.html\n古典言情::7/{{page}}.html\n现代言情::8/{{page}}.html\n耽美同人::9/{{page}}.html\n综合其他::10/{{page}}.html",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "class.b21@tag.h3.0@text",
+      "coverUrl": "class.binfo2_1@tag.img@src",
+      "intro": "class.b22@textNodes",
+      "kind": "class.b21@tag.h3.1@tag.a@text",
+      "name": "class.bname@tag.a@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "class.cn@html"
+    },
+    "ruleExplore": {
+      "author": "class.rt_right@tag.span@text",
+      "bookList": "class.retui2@tag.dd",
+      "bookUrl": "class.rt_right@tag.h3@tag.a@href",
+      "coverUrl": "class.rt_left@tag.img@src",
+      "name": "class.rt_right@tag.h3@tag.a@text"
+    },
+    "ruleSearch": {
+      "author": "class.rt_right@tag.span@text",
+      "bookList": "class.retui2@dd",
+      "bookUrl": "class.rt_right@tag.h3@tag.a@href",
+      "coverUrl": "class.rt_left@tag.img@src",
+      "name": "class.rt_right@tag.h3@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapterlist@tag.li!0:1:2:3:4:5",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.ggdowns.net/search.aspx?q={{key}}&p={{page}}",
+    "weight": 0
+  }]

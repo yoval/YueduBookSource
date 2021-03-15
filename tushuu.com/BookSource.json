@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🍺特优",
+    "bookSourceName": "🍺 半亩方塘[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.tushuu.com",
+    "bookUrlPattern": "",
+    "customOrder": -116907,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最新入库::/gengxin.html\n玄幻奇幻::/xhqh/{{page}}/\n武侠仙侠::/wxxx/{{page}}/\n言情都市::/yqds/{{page}}/\n历史架空::/lsjk/{{page}}/\n灵异科幻::/lykh/{{page}}/\n网游竞技::/wyjj/{{page}}/\n耽美同人::/dmtr/{{page}}/",
+    "lastUpdateTime": 1610684995079,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.bookleft@tag.img@src",
+      "intro": "id.bookintro@tag.p.2@text",
+      "tocUrl": "id.button_all@tag.ul.0@tag.li.2@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.book_other.0@tag.span.0@text||class.odd.1@text||class.bookright@tag.p.0@tag.a.0@text",
+      "bookList": "id.sitebox@tag.dl||class.grid searall@tag.tr!0||id.bookinfo",
+      "bookUrl": "tag.dd.0@tag.h3@tag.a.0@href||class.odd.0@tag.a.0@href",
+      "coverUrl": "tag.dt.0@tag.a.0@tag.img@src||class.bookleft@tag.img@src",
+      "kind": "class.book_other.0@tag.span.1@text||class.even.2@text||class.bookright@tag.span.0@text",
+      "lastChapter": "class.book_other.1@tag.a.0@text||class.even.0@tag.a.0@text||id.keywords@text",
+      "name": "tag.dd.0@tag.h3@tag.a.0@text||class.odd.0@tag.a.0@text||class.bookright@tag.h1@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.readerlist@tag.ul@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.tushuu.com/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=articlename\"\n}",
+    "weight": 0
+  }]

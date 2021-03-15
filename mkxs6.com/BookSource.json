@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "error:SSL handshake aborted: ssl=0x7e598ed2c8: I/O error during system call, Connection reset by peer\n",
+    "bookSourceGroup": "🎉精品,失效",
+    "bookSourceName": "🎉 泊星石[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.mkxs6.com",
+    "bookUrlPattern": "",
+    "customOrder": -32139,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::https://m.mkxs6.com/list/1_{{page}}.shtml\n武侠修真::https://m.mkxs6.com/list/2_{{page}}.shtml\n都市言情::https://m.mkxs6.com/list/3_{{page}}.shtml\n历史军事::https://m.mkxs6.com/list/4_{{page}}.shtml\n侦探推理::https://m.mkxs6.com/list/5_{{page}}.shtml\n网游动漫::https://m.mkxs6.com/list/6_{{page}}.shtml\n科幻小说::https://m.mkxs6.com/list/7_{{page}}.shtml\n恐怖灵异::https://m.mkxs6.com/list/8_{{page}}.shtml\n耽美同人::https://m.mkxs6.com/list/9_{{page}}.shtml",
+    "lastUpdateTime": 1602937718833,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.novel_msg@tag.li.0@text##作者：",
+      "coverUrl": "class.novel_img@tag.a@tag.img@src",
+      "intro": "id.description1@textNodes",
+      "name": "class.blue_bg@tag.h1@tag.a@text",
+      "tocUrl": "text.全文阅读@href"
+    },
+    "ruleContent": {
+      "content": "id.text_area@textNodes##[\\(（].{1,30}com[\\)）]"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.line",
+      "bookUrl": "class.blue@href@js:result.replace(\"/book\",\"https://www.mkxs8.com/book\")",
+      "kind": "tag.a.0@text##\\[|\\]",
+      "name": "class.blue@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.box-item@tag.ul@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://m.mkxs6.com/modules/article/waps.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=articlename&searchkey={{key}}&submit=\"\n}",
+    "weight": 0
+  }]

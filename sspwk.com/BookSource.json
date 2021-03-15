@@ -1,0 +1,42 @@
+[  {
+    "bookSourceComment": "error:failed to connect to sspwk.com/46.82.174.68 (port 443) from /192.168.0.103 (port 39160) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "🍑耽美,失效",
+    "bookSourceName": "🍑 少数派",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://sspwk.com",
+    "customOrder": -31189,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "❀                              耽美                           ❀::/BL/<,index_{{page}}.html>\n❀    古代    ❀::/gudai/<,index_{{page}}.html>\n❀    现代    ❀::/xiandaiwen/<,index_{{page}}.html>\n❀    甜宠    ❀::/chongwen/<,index_{{page}}.html>\n❀    穿越    ❀::/chuanyuexiaoshuo/<,index_{{page}}.html>\n❀    重生    ❀::/chongsheng/<,index_{{page}}.html>\n❀    总裁    ❀::/zongcai/<,index_{{page}}.html>\n❀    快穿    ❀::/kuaichuan/<,index_{{page}}.html>\n❀   御宅屋   ❀::/yuzhaiwu/<,index_{{page}}.html>\n❀   腐国度   ❀::/fuguodu/<,index_{{page}}.html>",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "intro": "class.article-content@textNodes",
+      "wordCount": "class.muted@tag.time@text"
+    },
+    "ruleContent": {
+      "content": "id.nr1@html",
+      "imageStyle": "0",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+      "author": "tag.a@text##.*作者.|\\【.*|\\[.*|\\（.*|\\(.*",
+      "bookList": "class.article-list@tag.dd",
+      "bookUrl": "tag.a@href",
+      "intro": "tag.p@textNodes",
+      "name": "tag.a@text##\\s作者.*"
+    },
+    "ruleSearch": {
+      "author": "tag.a@text##.*作者.|\\【.*|\\[.*|\\（.*|\\(.*",
+      "bookList": "class.article-list@tag.dd",
+      "bookUrl": "tag.a@href",
+      "intro": "tag.p@textNodes",
+      "name": "tag.a@text##\\s作者.*"
+    },
+    "ruleToc": {
+      "chapterList": "class.list clearfix@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/e/search/index.php,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"keyboard={{key}}&show=title&classid=0\"\n}",
+    "weight": 0
+  }]

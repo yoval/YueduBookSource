@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "B级",
+    "bookSourceName": "第八区dibaqu123.com",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.dibaqu123.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.info2@tag.h3.0@tag.a.0@text",
+      "coverUrl": "class.lf@tag.img@src",
+      "intro": "class.intro@text",
+      "name": "class.rt@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "class.panel panel-default@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "",
+      "bookList": "class.bookcon@tag.tr!0",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list-group list-charts.0@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.dibaqu123.com/modules/article/search.php?searchkey={{key}},{\n\"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

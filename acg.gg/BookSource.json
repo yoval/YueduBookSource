@@ -1,0 +1,45 @@
+[  {
+    "bookSourceComment": "error:failed to connect to novel.acg.gg/47.75.67.248 (port 80) from /192.168.0.103 (port 45442) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "🎈轻文,失效",
+    "bookSourceName": "🎈 ACG狗狗",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://novel.acg.gg",
+    "bookUrlPattern": "",
+    "customOrder": -30849,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部书库::/fenlei/_{{page}}/\n电击文库::/fenlei/1_{{page}}/\n富士见文库::/fenlei/2_{{page}}/\n角川文库::/fenlei/3_{{page}}/\nMF文库J::/fenlei/4_{{page}}/\nFami通文库::/fenlei/5_{{page}}/\nGA文库::/fenlei/6_{{page}}/\n其他文库::/fenlei/7_{{page}}/",
+    "lastUpdateTime": 1602904722817,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.bigpic@tag.img@src",
+      "intro": "class.book-intro@text##标签.*",
+      "tocUrl": "@css:.bookbtn-bd a:contains(查看目录)@href"
+    },
+    "ruleContent": {
+      "content": "class.article-con@textNodes"
+    },
+    "ruleExplore": {
+      "bookList": "id.container@class.box",
+      "bookUrl": "class.booktitle@href",
+      "coverUrl": "tag.img@data-original",
+      "intro": "@css:p:contains(点击阅读) span@text",
+      "name": "class.booktitle@text"
+    },
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "id.conn@tag.tr!0",
+      "bookUrl": "tag.td.0@tag.a@href",
+      "coverUrl": "tag.td.0@tag.a@href<js>\nvar id = result.match(/(\\d+)\\.html/)[1];\nvar iid = parseInt(id/1000);\n'/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+      "kind": "tag.td.-1@text&&tag.td.-2@text&&tag.td.-3@text",
+      "lastChapter": "tag.td.1@text",
+      "name": "tag.td.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter-list@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

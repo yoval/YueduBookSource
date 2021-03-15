@@ -1,0 +1,35 @@
+[  {
+    "bookSourceComment": "error:正文内容为空\n",
+    "bookSourceGroup": "🎨漫画,失效",
+    "bookSourceName": "🎨 塔多漫画",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.taduo.net",
+    "bookUrlPattern": "",
+    "customOrder": -31360,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1602994651430,
+    "ruleBookInfo": {
+      "author": "class.cont-list@tag.dl.2@tag.dd@text",
+      "intro": "class.book-intro@text",
+      "kind": "class.cont-list@tag.dl.3@tag.dd@text"
+    },
+    "ruleContent": {
+      "content": "function getImgList(){\n    var p = \"cp=\\\"(.*?)\\\"\";\n    var str = html.match(p)[1];\n    if (str!=null){\n        eval(\"(\"+window.atob(str)+\")\");\n        var piclist = new Array([packedarr.length]);\n        for (var i = 0; i < packedarr.length; i++) {\n            piclist[i] = \"http://f.taduo.net/\" + packedarr[i];\n        }\n        return piclist;\n    }else {\n        return null;\n    }\n}"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.cont-list@tag.li",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "class.thumb@tag.img@data-src",
+      "lastChapter": "class.chapter@text",
+      "name": "tag.a@tag.h3@text"
+    },
+    "ruleToc": {
+      "chapterList": "-id.chapterList2@tag.ul@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://m.taduo.net/e/search/?searchget=1&tbname=mh&show=title,player,playadmin,bieming,pinyin,playadmin&tempid=4&keyboard={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

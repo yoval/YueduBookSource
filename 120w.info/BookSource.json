@@ -1,0 +1,35 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 你懂得",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.120w.info",
+    "customOrder": -31640,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "coverUrl": "class.book-img@tag.img@src",
+      "intro": "class.book-intro@textNodes",
+      "tocUrl": "class.b-orange@href"
+    },
+    "ruleContent": {
+      "content": "id.BookText@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.i.0@text",
+      "bookList": "class.details@class.item-pic",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@tag.img@src",
+      "lastChapter": "tag.p.1@tag.a@text",
+      "name": "tag.h3.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapterlist@tag.dd",
+      "chapterName": "tag.a@textNodes",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.120w.info/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

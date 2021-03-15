@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "error:Unable to resolve host \"www.85zw.com\": No address associated with hostname\n",
+    "bookSourceGroup": "🎉精品,失效",
+    "bookSourceName": "🎉 85中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.85zw.com",
+    "bookUrlPattern": "",
+    "customOrder": -31903,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.a.0@text",
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "intro": "id.intro@text",
+      "lastChapter": "id.info@tag.a.1@text",
+      "name": "id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.c_value.0@text",
+      "bookList": "id.jieqi_page_contents@children",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@src",
+      "kind": "class.c_value.1@text",
+      "lastChapter": "class.c_value@tag.a.0@text",
+      "name": "class.c_subject@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@dl@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.85zw.com/modules/article/search.php?searchkey={{key}}&page={{page}}",
+    "weight": 0
+  }]

@@ -1,0 +1,46 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🌐外语,🚀VPN",
+    "bookSourceName": "🌐 武侠世界1",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://wuxiaworld.site",
+    "customOrder": -115733,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "All总点击榜::https://wuxiaworld.site/novel-list/page/{{page}}/\nMost Viewed总阅读榜::https://wuxiaworld.site/novel-list/page/{{page}}/?m_orderby=views\nTrending流行榜::https://wuxiaworld.site/novel-list/page/{{page}}/?m_orderby=trending\nAction动作::https://wuxiaworld.site/genre/action/page/{{page}}/\nAdventure冒险::https://wuxiaworld.site/genre/adventure/page/{{page}}/\nComedy喜剧::https://wuxiaworld.site/genre/Comedy/page/{{page}}/\nDrama戏剧::https://wuxiaworld.site/genre/Drama/page/{{page}}/\nEcchi恋爱::https://wuxiaworld.site/genre/ecchi/page/{{page}}/\nTragedy悲剧::https://wuxiaworld.site/genre/tragedy/page/{{page}}/\nXuanHuan玄幻::https://wuxiaworld.site/genre/xuanhuan/page/{{page}}/\nWuXia武侠::https://wuxiaworld.site/genre/wuxia/page/{{page}}/\nXianXia仙侠::https://wuxiaworld.site/genre/xianxia/page/{{page}}/\nFantasy奇幻::https://wuxiaworld.site/genre/Fantasy/page/{{page}}/\nHarem种马::https://wuxiaworld.site/genre/harem/page/{{page}}/\nMartial Arts武术::https://wuxiaworld.site/genre/martial-arts/page/{{page}}/\nJosei::https://wuxiaworld.site/genre/josei/page/{{page}}/\nGender Bender双性::https://wuxiaworld.site/genre/Gender-Bender/page/{{page}}/\nHistorical历史::https://wuxiaworld.site/genre/Historical/page/{{page}}/\nHorror恐怖::https://wuxiaworld.site/genre/Horror/page/{{page}}/\nMature成人::https://wuxiaworld.site/genre/mature/page/{{page}}/\nMecha机甲::https://wuxiaworld.site/genre/mecha/page/{{page}}/\nMystery神秘::https://wuxiaworld.site/genre/mystery/page/{{page}}/\nPsychological心理学::https://wuxiaworld.site/genre/Psychological/page/{{page}}/\nRomance浪漫::https://wuxiaworld.site/genre/Romance/page/{{page}}/\nSchool Life校园生活::https://wuxiaworld.site/genre/school-life/page/{{page}}/\nSci-fi科幻::https://wuxiaworld.site/genre/sci-fi/page/{{page}}/\nSeinen年轻人::https://wuxiaworld.site/genre/Seinen/page/{{page}}/\nShoujo女孩::https://wuxiaworld.site/genre/shoujo/page/{{page}}/\nShounen男孩::https://wuxiaworld.site/genre/shounen/page/{{page}}/\nSlice Of Life生活::https://wuxiaworld.site/genre/Slice-of-life/page/{{page}}/\nSports体育::https://wuxiaworld.site/genre/sports/page/{{page}}/\nSupernatural超自然::https://wuxiaworld.site/genre/Supernatural/page/{{page}}/",
+    "lastUpdateTime": 1610086944712,
+    "ruleBookInfo": {
+      "author": "class.author-content.0@tag.a@text",
+      "coverUrl": "class.tab-summary .0@tag.img@src",
+      "intro": "class.tab-summary .0@class.summary-content.2@text&&class.description-summary.0@tag.p.1@text",
+      "kind": "class.genres-content.0@tag.a@text",
+      "name": "class.breadcrumb.0@tag.li.1@text"
+    },
+    "ruleContent": {
+      "content": "class.text-left.0@html"
+    },
+    "ruleExplore": {
+      "bookList": "class.tab-content-wrap.0@class.page-item-detail text",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@tag.img@src",
+      "intro": "tag.span.0@text",
+      "lastChapter": "tag.span.1@text",
+      "name": "tag.h5.0@text"
+    },
+    "ruleSearch": {
+      "author": "class.summary-content.1@tag.a@text",
+      "bookList": "class.c-tabs-item.0@class.c-tabs-item__content",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@tag.img@src",
+      "kind": "class.summary-content.2@text",
+      "lastChapter": "class.font-meta-chapter@tag.a@text",
+      "name": "tag.h4.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "-class.main version-chap.0@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://wuxiaworld.site/?s={{key}}&post_type=wp-manga",
+    "weight": 0
+  }]

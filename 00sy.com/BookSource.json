@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": "🎉精品,失效",
+    "bookSourceName": "🎉 零点书院①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.00sy.com",
+    "bookUrlPattern": "",
+    "customOrder": -32002,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.top_left@img@src",
+      "intro": "class.des@text",
+      "lastChapter": "class.latest lz@tag.dl@dd@a@text"
+    },
+    "ruleContent": {
+      "content": "class.content@textNodes",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@text##作者：",
+      "bookList": "class.book mt@children",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##.*/(\\d+)(\\d{3}).*##/files/article/image/$1/$1$2/$1$2s.jpg",
+      "lastChapter": "class.cat@a@text",
+      "name": "h4@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.con@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.00sy.com/modules/article/search.php?searchkey={{key}}",
+    "weight": 0
+  }]

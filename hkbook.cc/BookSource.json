@@ -1,0 +1,36 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "好看小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.hkbook.cc",
+    "bookUrlPattern": "",
+    "customOrder": 1318,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "tocUrl": "class.module-header@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.i.0@text",
+      "bookList": "class.details@class.item-pic",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@tag.img@src",
+      "intro": "class.intro@text",
+      "lastChapter": "tag.a.2@text",
+      "name": "tag.h3.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dl!0@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.hkbook.cc/search.php?searchkey={{key}}",
+    "weight": 0
+  }]

@@ -1,0 +1,47 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "pkgg言情小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.pkgg.net",
+    "bookUrlPattern": "",
+    "customOrder": -964,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "//*[@property=\"og:novel:author\"]/@content",
+      "coverUrl": "//*[@property=\"og:image\"]/@content",
+      "intro": "class.book_profiles@text",
+      "kind": "//*[@property=\"og:novel:category\"]/@content",
+      "lastChapter": "[property=og:novel:latest_chapter_name]@content",
+      "name": "//*[@property=\"og:novel:book_name\"]/@content",
+      "tocUrl": "class.p2@href",
+      "wordCount": "class.word-num.2@text##字数："
+    },
+    "ruleContent": {
+      "content": "id.contentText@html",
+      "nextContentUrl": "class.page-next@tag.a@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "",
+      "bookList": "class.book-item",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "class.book-box@tag.img@src",
+      "intro": "class.desc@text",
+      "kind": "class.state@text##状态：",
+      "lastChapter": "",
+      "name": "class.book-name@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter@tag.a",
+      "chapterName": "tag.h4@text",
+      "chapterUrl": "href",
+      "nextTocUrl": "class.page-next@href"
+    },
+    "searchUrl": "/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}",
+    "weight": 0
+  }]

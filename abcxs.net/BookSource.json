@@ -1,0 +1,64 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔰普通",
+    "bookSourceName": "🔰 ABC小说网[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.abcxs.net",
+    "bookUrlPattern": "",
+    "customOrder": -114797,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/xuanhuan/\n武侠修真::/wuxia/\n都市言情::/dushi/\n历史军事::/lishi/\n侦探推理::/zhentan/\n网游竞技::/wangyou/\n科幻小说::/kehuan/\n恐怖灵异::/kongbu/\n其他小说::/othersbooks/\n全本小说::/quanben/",
+    "header": "",
+    "lastUpdateTime": 1610035676631,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "##:author\"[^\"]+\"([^\"]+)##$1###",
+      "coverUrl": "##:image\"[^\"]+\"([^\"]+)##$1###",
+      "init": "",
+      "intro": "[property=\"og:description\"]@content##(^|[。！？]+[”」）】]?)##$1<br>",
+      "kind": "##:category\"[^\"]+\"([^\"]+)##$1###",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content&&[property=\"og:novel:update_time\"]@content",
+      "name": "##:book_name\"[^\"]+\"([^\"]+)##$1###",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "<js>\norg.jsoup.Jsoup.parse(result).selectFirst('#content').textNodes().toArray().slice(0,-2).join('<br>')\n</js>",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "class.s4.0@text",
+      "bookList": "class.up.0@class.l.0@tag.li",
+      "bookUrl": "class.s2.0@tag.a.0@href",
+      "coverUrl": "class.s2.0@tag.a.0@href##(\\d+)##$1###<js>\nif(result == 1000){\n\tresult = '/images/nocover.jpg';\n}else{\n\tresult = '/files/article/image/'+Math.floor(result/1000)+'/'+result+'/'+result+'s.jpg';\n}\n</js>",
+      "intro": "@js:'★★★     本书暂无简介     ★★★'",
+      "kind": "",
+      "lastChapter": "class.s3.0@tag.a.0@text",
+      "name": "class.s2.0@tag.a.0@text",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.author.0@text##作者：",
+      "bookList": "class.bookbox",
+      "bookUrl": "class.bookname.0@tag.a.0@href",
+      "coverUrl": "tag.img.0@src",
+      "intro": "tag.p.0@text",
+      "kind": "class.cat@text##分类：",
+      "lastChapter": "class.update.0@tag.a.0@text",
+      "name": "class.bookname.0@tag.a.0@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": ":正文卷</dt[\\w\\W]+?</dl&&\"([^\"]*)[^>]+>([^<]*)",
+      "chapterName": "$2",
+      "chapterUrl": "$1",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "/s111.php?ie=gbk&q={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

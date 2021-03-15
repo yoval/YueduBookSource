@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 快眼小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.kyxs5.com",
+    "bookUrlPattern": "",
+    "customOrder": -31593,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1601282979067,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@tag.a@text",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@text",
+      "name": "id.info@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##\\/\\/| www.kyxsw.com 快眼小说网|\\(|请搜索，或者直接输入看最新章节|\\)",
+      "replaceRegex": "##未完待续(.|\\n)*就是我最大的动力。|.中文.小说..."
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.novelslist2@tag.ul@tag.li!0",
+      "bookUrl": "class.s2@tag.a@href",
+      "kind": "class.s6@text",
+      "lastChapter": "class.s3@text",
+      "name": "class.s2@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dl@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.kyxs5.com/index.php?s=/web/index/search&name={{key}}",
+    "weight": 0
+  }]

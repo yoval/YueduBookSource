@@ -1,0 +1,33 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "B级",
+    "bookSourceName": "笔趣阁中文bqgzw.com",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.bqgzw.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "class.bookbox",
+      "bookUrl": "class.bookname@tag.a.0@href",
+      "coverUrl": "class.bookimg@tag.img.0@src",
+      "intro": "tag.p@text",
+      "name": "class.bookname@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.bqgzw.com/s.php?ie=gbk&q={{key}}",
+    "weight": 0
+  }]

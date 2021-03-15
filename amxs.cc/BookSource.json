@@ -1,0 +1,44 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🛠️待修",
+    "bookSourceName": "🛠️ 艾米小说[缺页]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.amxs.cc",
+    "bookUrlPattern": "",
+    "customOrder": 11704,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/sort/1/{{page}}.html\n武侠仙侠::/sort/2/{{page}}.html\n都市言情::/sort/3/{{page}}.html\n女生频道::/sort/4/{{page}}.html\n游戏竞技::/sort/5/{{page}}.html\n科幻灵异::/sort/6/{{page}}.html\n历史军事::/sort/7/{{page}}.html\n其他小说::/sort/8/{{page}}.html",
+    "lastUpdateTime": 1612772636226,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "@css:[property=og:novel:author]@content",
+      "coverUrl": "@css:[property=og:image]@content",
+      "intro": "@css:[property=og:description]@content",
+      "kind": "@css:[property=og:novel:category]@content",
+      "lastChapter": "@css:[property=og:novel:latest_chapter_name]@content",
+      "name": "@css:[property=og:novel:book_name]@content",
+      "tocUrl": "text.章节目录@href"
+    },
+    "ruleContent": {
+      "content": "class.novelcontent@p@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.dd.0@text||class.author@text##作者：|\\|\\s*.*",
+      "bookList": "class.article@tag.div.0||class.search-list@dl",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "img@src||tag.a.0@href##/book/(\\d+)(\\d{3})/##/files/article/image/$1/$1$2/$1$2s.jpg",
+      "kind": "tag.dd.0@text##.*\\|\\s*",
+      "lastChapter": "tag.dd@a@text",
+      "name": "tag.h6@a@text||tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapters@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&type=articlename\"\n}",
+    "weight": 0
+  }]

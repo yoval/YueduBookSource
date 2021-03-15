@@ -1,0 +1,52 @@
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "🚬刘备,失效",
+    "bookSourceName": "🚬 蓝柔小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.lanrou2.net",
+    "customOrder": -31580,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/fenlei/1_{{page}}.html\n武侠修真::/fenlei/2_{{page}}.html\n都市青春::/fenlei/3_{{page}}.html\n历史军事::/fenlei/4_{{page}}.html\n网游小说::/fenlei/5_{{page}}.html\n科幻小说::/fenlei/6_{{page}}.html\n恐怖灵异::/fenlei/7_{{page}}.html\n肉文辣文::/fenlei/8_{{page}}.html\n其他类型::/fenlei/9_{{page}}.html",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "##作者：([^<]+)<##$1###",
+      "coverUrl": "class.pic@tag.img@src",
+      "init": "",
+      "intro": "class.intro@textNodes##\\&.*",
+      "kind": "tag.td.4@text&&tag.td.6@text##.*\\：",
+      "lastChapter": "class.ti.0@tag.a@text##.*\\)",
+      "name": "tag.h1@text##\\(.*|作者.*",
+      "tocUrl": "class.btopt@tag.a@href",
+      "wordCount": "tag.td.9@text##.*\\："
+    },
+    "ruleContent": {
+      "content": "id.content@html##以下是繁体(.|\\n)*|以下繁体版(.|\\n)*",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "lastChapter": "",
+      "name": ""
+    },
+    "ruleSearch": {
+      "author": "tag.span.0@text",
+      "bookList": "id.alistbox",
+      "bookUrl": "class.title@tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.intro@textNodes",
+      "lastChapter": "class.sys@tag.a@text",
+      "name": "class.title@tag.a@text##\\(.*"
+    },
+    "ruleToc": {
+      "chapterList": "class.liebiao@tag.li!0",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.lanrou2.net/modules/article/search.php?searchkey={{key}}&page={{page}},{\n\"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

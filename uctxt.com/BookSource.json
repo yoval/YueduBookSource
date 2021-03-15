@@ -1,0 +1,35 @@
+[  {
+    "bookSourceComment": "error:failed to connect to www.uctxt.com/104.250.128.34 (port 80) from /192.168.0.103 (port 46268) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "优,失效",
+    "bookSourceName": "UC书盟",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.uctxt.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "class.l.1@tag.em@text##作者：",
+      "intro": "class.intro@text##内容简介：|@.*",
+      "name": "class.l.1@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.other.0@text||class.l.1@tag.em@text##作者：|[0-9].*",
+      "bookList": "class.list-lastupdate@tag.li||class.mb clrfix",
+      "bookUrl": "class.name.0@tag.a.0@href",
+      "kind": "class.class.0@text||class.c2@text##.*\\[|\\]|>",
+      "lastChapter": "class.name.0@tag.small@tag.a@text||class.l.2@tag.a@text",
+      "name": "class.name.0@tag.a.0@text||class.l.1@tag.h1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter-list clrfix@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

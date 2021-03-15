@@ -1,0 +1,43 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "失效",
+    "bookSourceName": "书写小说吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.shuxie8.com",
+    "bookUrlPattern": "",
+    "customOrder": -850,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.info xb10 xm12 xs12 xl8 float-right@tag.p@tag.span.1@tag.a@text",
+      "init": "class.clearfix ",
+      "intro": "class.intro.0@text",
+      "lastChapter": "class.info xb10 xm12 xs12 xl8 float-right@tag.p@tag.span.2@tag.a@text",
+      "name": "class.info xb10 xm12 xs12 xl8 float-right@tag.h2@text",
+      "tocUrl": "class.book-an clearfix xb12 xm12 xs12 xl12@tag.a.1@href"
+    },
+    "ruleContent": {
+      "content": "id.nr@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.3@text",
+      "bookList": "class.newlist@tag.li",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.intro@text",
+      "kind": "tag.a.0@text",
+      "lastChapter": "tag.a.2@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.container-layout@class.clearfix@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.shuxie8.com/modules/article/search.php?submit=%CB%D1%CB%F7&searchtype=articlename&searchkey={{key}}",
+    "weight": 0
+  }]

@@ -1,0 +1,48 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎼音乐",
+    "bookSourceName": "🎼 听蛙FM",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://so.itingwa.com",
+    "customOrder": -31404,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "电台NJ::https://www.itingwa.com/radio/nj/{{page}}",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9; Pixel 3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.90 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "",
+      "intro": "class.top_10 intro@text",
+      "name": "",
+      "tocUrl": "id.item_music@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "class.jp-jplayer@init-data",
+      "nextContentUrl": ""
+    },
+    "ruleExplore": {
+      "bookList": "class.clearfix nj_list@tag.li",
+      "bookUrl": "class.top_15@tag.a@href",
+      "coverUrl": "tag.img@src",
+      "kind": "class.color2@text",
+      "name": "class.font_14@text"
+    },
+    "ruleSearch": {
+      "author": "tag.a.1@text",
+      "bookList": "class.music_list@tag.tr",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@src",
+      "kind": "",
+      "lastChapter": "",
+      "name": "tag.a.0@text##未知"
+    },
+    "ruleToc": {
+      "chapterList": "class.frame1||class.left@tag.a",
+      "chapterName": "tag.h1@text||tag.a@text##下载音乐 支持听蛙",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://so.itingwa.com/?c=index&m=index&k={{key}}&t=1",
+    "weight": 0
+  }]

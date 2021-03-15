@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔰普通",
+    "bookSourceName": "🔰 多多书院",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.txtduo.com",
+    "customOrder": 16171,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "class.bookinfo@tag.p.0@text##本书",
+      "coverUrl": "class.bookcover@tag.img@src",
+      "intro": "class.uc_cont.1@text",
+      "kind": "class.bookinfo@tag.p.1@text##本书类别：",
+      "name": "class.uc_cont@tag.h1@tag.a@text",
+      "tocUrl": "class.booklink@tag.a@href||class.bookcover@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "class.text@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "tag.tbody@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a@href",
+      "lastChapter": "class.even.0@tag.a@text",
+      "name": "class.odd.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.uclist@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.txtduo.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

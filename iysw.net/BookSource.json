@@ -1,0 +1,46 @@
+[  {
+    "bookSourceComment": "点击地址栏下载",
+    "bookSourceGroup": "📥下载",
+    "bookSourceName": "📥 万书楼",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.iysw.net",
+    "bookUrlPattern": "",
+    "customOrder": -115902,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "热门::https://m.iysw.net/zb.html\n关注::https://m.iysw.net/gzzb.html\n皇叔::https://m.iysw.net/xy/<,index_{{page}}.html>",
+    "lastUpdateTime": 1610039070144,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "canReName": "true",
+      "coverUrl": "class.fmm@tag.img@src",
+      "intro": "class.bookdesdd.0@textNodes",
+      "kind": "class.booki@tag.p.-3@text&&class.downcount@tag.li.1@text##类别|大小|\\:|：",
+      "tocUrl": "class.bookdes.2@tag.a.0@href##^##https://m.iysw.net"
+    },
+    "ruleContent": {
+      "content": ""
+    },
+    "ruleExplore": {
+      "author": "tag.li.1@text",
+      "bookList": "class.listtxt",
+      "bookUrl": "tag.a.0@href##^##https://m.iysw.net",
+      "kind": "class.pingfenlist@text",
+      "lastChapter": "{{'地址栏📥下载'}}",
+      "name": "tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "text##.*\\[|\\]",
+      "bookList": "class.list_content@tag.h2",
+      "bookUrl": "tag.a@href##^##https://m.iysw.net",
+      "lastChapter": "{{'地址栏📥下载'}}",
+      "name": "tag.a@text##\\[.*"
+    },
+    "ruleToc": {
+      "chapterList": "class.fmm@tag.a.0",
+      "chapterName": "{{book.latestChapterTitle}}",
+      "chapterUrl": "{{'https://m.iysw.net/e/DownSys'}}{{@@href}}##\\.\\."
+    },
+    "searchUrl": "https://www.iysw.net/e/search/index.php,{\n\"charset\": \"\",\n\"method\": \"POST\",\n\"body\": \"show=title&keyboard={{key}}&Submit22=%E6%90%9C%E7%B4%A2\"\n}",
+    "weight": 0
+  }]

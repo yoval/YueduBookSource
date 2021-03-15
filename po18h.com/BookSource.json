@@ -1,0 +1,33 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备,🍑耽美",
+    "bookSourceName": "🚬 po18",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.po18h.com",
+    "customOrder": -116656,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612528997921,
+    "ruleBookInfo": {
+      "intro": "tag.pre@text",
+      "tocUrl": "//a[@style=\"color:red;\"]/@href"
+    },
+    "ruleContent": {
+      "content": "id.nr1@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p.0@strong@text",
+      "bookList": "class.common-bookele",
+      "bookUrl": "tag.a.0@href",
+      "kind": "class.lastupdate@text##栏目：",
+      "name": "class.articlename@text"
+    },
+    "ruleToc": {
+      "chapterList": "tag.ul@li!-1@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&type=articlename\"\n}",
+    "weight": 0
+  }]

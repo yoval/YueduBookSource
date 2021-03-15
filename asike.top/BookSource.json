@@ -1,0 +1,45 @@
+[  {
+    "bookSourceComment": "error:org.mozilla.javascript.EcmaError: TypeError: Cannot read property \"totalChapter\" from undefined (<Unknown source>#2) in <Unknown source> at line number 2\n",
+    "bookSourceGroup": "优质,修复,失效",
+    "bookSourceName": "蜗牛小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.asike.top",
+    "bookUrlPattern": "",
+    "customOrder": 74,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 1610456815078,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "canReName": "",
+      "coverUrl": "",
+      "init": "",
+      "intro": "",
+      "kind": "@js:book=JSON.parse(result).book;\njava.put(\"page\",parseInt(book.totalChapter/100));\njava.put(\"last\",'第'+book.totalChapter+'章'+'（'+new Date(Number(book.updateTime)).toISOString().replace(/T.+/,'')+'）');\n\nbook.category+\",\"+book.bookStatus+\",\"+book.bookScore+'分,'+book.bookSize+'万字'",
+      "lastChapter": "@get:{last}",
+      "name": "",
+      "tocUrl": "http://www.asike.top/api/content-list/@get:{id}/0"
+    },
+    "ruleContent": {
+      "content": "chapter.body"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "bookAuthor",
+      "bookList": "$..BookList[*]",
+      "bookUrl": "http://www.asike.top/api/detail-book,{\n\"method\": \"POST\",\n\"body\": \"book_id={{$.bookid}}\"}",
+      "coverUrl": "bookCover@put:{id:$.bookid}",
+      "intro": "introduction",
+      "kind": "category",
+      "lastChapter": "",
+      "name": "bookName"
+    },
+    "ruleToc": {
+      "chapterList": "$.contentList",
+      "chapterName": "chapterName",
+      "chapterUrl": "http://content.asike.top{{$.contentUrl}}",
+      "nextTocUrl": "@js:f=baseUrl.split(/(?=\\d+$)/);\n(b=Number(f[1]))<java.get(\"page\")?f[0]+(b+1):\"\""
+    },
+    "searchUrl": "http://www.asike.top/api/search/booklist?searchkey={{key}}",
+    "weight": 0
+  }]

@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "💵正版",
+    "bookSourceName": "💵 绾书文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://api.wanshu.com ",
+    "bookUrlPattern": "",
+    "customOrder": -34001,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "总字数::/novel/libraryList?page={{page}}&pageSize=20&order=word_num&complete_status=-1&word_range=&category_id=\n月点击::/novel/libraryList?page={{page}}&pageSize=20&order=month_view_count&complete_status=-1&word_range=&category_id=\n最近更新::/novel/libraryList?page={{page}}&pageSize=20&order=update_time&complete_status=-1&word_range=&category_id=\n都市言情::/novel/libraryList?page={{page}}&pageSize=20&order=month_view_count&complete_status=-1&word_range=&category_id=1\n时空穿越::/novel/libraryList?page={{page}}&pageSize=20&order=month_view_count&complete_status=-1&word_range=&category_id=2\n总裁豪门::/novel/libraryList?page={{page}}&pageSize=20&order=month_view_count&complete_status=-1&word_range=&category_id=3\n玄幻仙侠::/novel/libraryList?page={{page}}&pageSize=20&order=month_view_count&complete_status=-1&word_range=&category_id=4\n悬疑灵异::/novel/libraryList?page={{page}}&pageSize=20&order=month_view_count&complete_status=-1&word_range=&category_id=6\n都市异能::/novel/libraryList?page={{page}}&pageSize=20&order=month_view_count&complete_status=-1&word_range=&category_id=7",
+    "lastUpdateTime": 1603029596684,
+    "loginUrl": "｡◕‿◕｡",
+    "ruleBookInfo": {
+      "tocUrl": "/novel/chapterList?page=1&pageSize=10000&novel_id={$.data.novel_id}"
+    },
+    "ruleContent": {
+      "content": "$..content@js:result.replace(/\\<|\\/|\\p|\\>/g,\"\\n\")"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "author",
+      "bookList": "data",
+      "bookUrl": "/novel/novelInfo?novel_id={$.novel_id}",
+      "coverUrl": "cover",
+      "intro": "description",
+      "kind": "{$.category_name},{$.complete_status},{$.latest_chapter_update_time}##(.+)[\\s中].*##$1",
+      "lastChapter": "latest_chapter",
+      "name": "name"
+    },
+    "ruleToc": {
+      "chapterList": "data",
+      "chapterName": "{$.is_free}🔒{$.name}##^(true🔒|false)",
+      "chapterUrl": "/novel/chapterInfo?novel_chapter_id={$.id}"
+    },
+    "searchUrl": "/novel/search?page={{page}}&pageSize=10&kw={{key}}",
+    "weight": 0
+  }]

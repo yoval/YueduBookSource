@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "御宅屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yuzhaiwu.info",
+    "bookUrlPattern": "",
+    "customOrder": 105,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.infotitle@tag.a.0@text",
+      "intro": "id.aboutbook@text",
+      "name": "class.infotitle@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id._chapter@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "class.bd@tag.tr",
+      "bookUrl": "class.range.0@tag.a.0@href",
+      "kind": "tag.tr@tag.td.1@tag.a.0@text",
+      "lastChapter": "class.range.0@tag.a.1@text##章节目录",
+      "name": "class.range.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.float-list fill-block@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.yuzhaiwu.info/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=all&searchkey={{key}}&act=search&submit=搜索&page={{page}}\"\n}",
+    "weight": 0
+  }]

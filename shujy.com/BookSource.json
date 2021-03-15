@@ -1,0 +1,46 @@
+[  {
+    "bookSourceComment": "error:SSL handshake aborted: ssl=0x7e66f388c8: I/O error during system call, Connection reset by peer\n",
+    "bookSourceGroup": "🔰普通,失效",
+    "bookSourceName": "🔰 书家园",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.shujy.com",
+    "customOrder": 16259,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/fenlei/111/<,{{page}.html>\n武侠修真::/fenlei/112/<,{{page}.html>\n都市言情::/fenlei/113/<,{{page}.html>\n历史军事::/fenlei/114/<,{{page}.html>\n现实同人::/fenlei/115/<,{{page}.html>\n网游动漫::/fenlei/116/<,{{page}.html>\n科幻灵异::/fenlei/117/<,{{page}.html>\n其他类型::/fenlei/118/<,{{page}.html>\n全本小说::/quanben/<,{{page}.html>",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text##作者：",
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "intro": "id.intro@tag.p.0@text",
+      "lastChapter": "p.1@text",
+      "name": "id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+      "author": "class.s5@text",
+      "bookList": "ul!0:2@tag.li",
+      "bookUrl": "class.s2@tag.a@href",
+      "lastChapter": "class.s3@text",
+      "name": "class.s2@tag.a@text"
+    },
+    "ruleSearch": {
+      "author": "class.odd.1@text||id.info@tag.p.0@text",
+      "bookList": "class.grid@tag.tr!0||class.box_con",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "kind": "class.con_top@tag.a.7@text",
+      "lastChapter": "class.even@tag.a.0@text||id.info@tag.p.2@text",
+      "name": "class.odd.0@tag.a.0@text||id.info@tag.h1.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a.0@href"
+    },
+    "searchUrl": "https://www.shujy.com/modules/article/search.php?searchkey={{key}}",
+    "weight": 0
+  }]

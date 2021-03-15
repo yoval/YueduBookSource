@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 笔趣阁⑧②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.52biquge.com",
+    "bookUrlPattern": "",
+    "customOrder": -115100,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612606352110,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.imgbox@img@src",
+      "intro": "class.m-desc xs-show@textNodes",
+      "lastChapter": "class.section-list fix.0@tag.li.0@a@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html##温馨提示：|还在用浏览器看.*书友都在用\"笔趣阁APP\"看.*百万小说免费看.*|.*关注微信公众号.*|章节错误.*请耐心等待,并刷新页面。",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.txt-list txt-list-row5@li",
+      "bookUrl": "a@href",
+      "kind": "class.s1@text##\\[|]",
+      "lastChapter": "class.s3@a@text",
+      "name": "class.s2@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.section-list fix.1@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://m.52biquge.com/ar.php?keyWord={{key}}",
+    "weight": 0
+  }]

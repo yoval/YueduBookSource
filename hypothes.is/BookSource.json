@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "优化免VPN; 发现; 18",
+    "bookSourceName": "三匹小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://via.hypothes.is/https://3p5i.club",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "首页::https://via.hypothes.is/https://3p5i.club/?paged={{page}}\n制服诱惑::https://via.hypothes.is/https://3p5i.club/?cat=2&paged={{page}}\n学生校园::https://via.hypothes.is/https://3p5i.club/?cat=3&paged={{page}}\n淫色人妻::https://via.hypothes.is/https://3p5i.club/?cat=4&paged={{page}}\n乱伦性爱::https://via.hypothes.is/https://3p5i.club/?cat=5&paged={{page}}\n强奸凌辱::https://via.hypothes.is/https://3p5i.club/?cat=6&paged={{page}}\n情色武侠::https://via.hypothes.is/https://3p5i.club/?cat=7&paged={{page}}\n激情艳女::https://via.hypothes.is/https://3p5i.club/?cat=8&paged={{page}}\n经典情色::https://via.hypothes.is/https://3p5i.club/?cat=9&paged={{page}}\n",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "@css:.post-byline a@text",
+      "intro": "",
+      "kind": "@css:post-tags a@text",
+      "name": "@css:h1.post-title@text"
+    },
+    "ruleContent": {
+      "content": "class.entry-inner@tag.p!-1@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "@css:.post-list .post",
+      "bookUrl": "@css:.post-title a@href",
+      "coverUrl": "@js:'http://1t.click/GPx'",
+      "intro": "@css:.entry p@text@js:result.trim()",
+      "kind": "@css:.post-meta p@text",
+      "name": "@css:.post-title a@text"
+    },
+    "ruleToc": {
+      "chapterList": "@css:h1.post-title",
+      "chapterName": "text"
+    },
+    "searchUrl": "https://via.hypothes.is/https://3p5i.club/?s={{key}}",
+    "weight": 0
+  }]

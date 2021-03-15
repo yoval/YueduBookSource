@@ -1,0 +1,43 @@
+[  {
+    "bookSourceComment": "error:timeout\n",
+    "bookSourceGroup": "🚬刘备,失效",
+    "bookSourceName": "🚬 甜梦文库网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.tianmengwenku.org",
+    "bookUrlPattern": "",
+    "customOrder": -31668,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "日点击榜::/top/dayvisit_{{page}}/\n周点击榜::/top/weekvisit_{{page}}/\n月点击榜::/top/monthvisit_{{page}}/\n总点击榜::/top/allvisit_{{page}}/",
+    "lastUpdateTime": 1602933367243,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.p2.1@text",
+      "lastChapter": "class.p3@tag.a@text"
+    },
+    "ruleContent": {
+      "content": "class.novelcontent@textNodes",
+      "nextContentUrl": "class.p4@href"
+    },
+    "ruleExplore": {
+      "author": "class.p3@tag.a@text",
+      "bookList": "class.user_content@tag.div",
+      "bookUrl": "class.p2@tag.a@href",
+      "name": "class.p2@tag.a@text"
+    },
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.search_box@tag.p",
+      "bookUrl": "tag.a.0@href",
+      "kind": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.p2.3@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "class.right@tag.a@href"
+    },
+    "searchUrl": "https://m.tianmengwenku.org/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&type=articlename\"\n}",
+    "weight": 0
+  }]

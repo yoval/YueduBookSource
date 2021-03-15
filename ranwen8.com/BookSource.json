@@ -1,0 +1,57 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🌸常用",
+    "bookSourceName": "🌸 燃文小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ranwen8.com",
+    "bookUrlPattern": "",
+    "customOrder": -117052,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "排行::/top/allvisit/{{page}}.html\n推荐::/top/allvote/{{page}}.html\n收藏::/top/goodnum/{{page}}.html\n字数::/top/size/{{page}}.html\n最新::/top/postdate/{{page}}.html\n更新::/top/lastupdate/{{page}}.html\n站推::/top/toptime/{{page}}.html\n玄幻::/fenlei/1_{{page}}/\n仙侠::/fenlei/2_{{page}}/\n都市::/fenlei/3_{{page}}/\n历史::/fenlei/4_{{page}}/\n科幻::/fenlei/5_{{page}}/\n网游::/fenlei/6_{{page}}/\n完本::/quanben/{{page}}",
+    "lastUpdateTime": 1606425298315,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##小说|\\s.*",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##正文\\s|正文卷.",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@html##燃文小说网.*章节！",
+      "imageStyle": "0",
+      "nextContentUrl": "id.linkNext@tag.a@href"
+    },
+    "ruleExplore": {
+      "author": "class.s4@text||tag.td.2@text",
+      "bookList": "class.news@tag.li||tbody@tag.tr!0",
+      "bookUrl": "class.s2@tag.a@href||tag.a.0@href",
+      "coverUrl": "class.s2@tag.a@href||tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##https://www.ranwen8.com/files/article/image/$2/$1/$1s.jpg###",
+      "kind": "class.s1@text&&class.s5@text&&tag.td.5@text&&tag.td.6@text##小说",
+      "lastChapter": "class.s3@text||tag.td.1@text",
+      "name": "class.s2@text||tag.td.0@text",
+      "wordCount": "tag.td.4@text"
+    },
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "tbody@tag.tr!0",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##https://www.ranwen8.com/files/article/image/$2/$1/$1s.jpg###",
+      "intro": "",
+      "kind": "tag.td.4@text&&tag.td5@text",
+      "lastChapter": "tag.td.1@text",
+      "name": "tag.td.0@text",
+      "wordCount": "tag.td.3@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapterlist.1@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&page={{page}}\"\n}",
+    "weight": 0
+  }]

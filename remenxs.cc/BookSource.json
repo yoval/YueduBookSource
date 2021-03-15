@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "B级; 发现",
+    "bookSourceName": "热门小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.remenxs.cc",
+    "bookUrlPattern": "",
+    "customOrder": 58,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/xuanhuan-{{page}}.html\n仙侠::/xianxia-{{page}}.html\n都市::/dushi-{{page}}.html\n军史::/junshi-{{page}}.html\n网游::/wangyou-{{page}}.html\n科幻::/kehuan-{{page}}.html\n灵异::/lingyi-{{page}}.html\n言情::/yanqing-{{page}}.html\n其他::/qita-{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.booktag@tag.a.0@text",
+      "coverUrl": "class.bookintro@img@src",
+      "name": "class.booktitle@text"
+    },
+    "ruleContent": {
+      "content": "class.readcontent@html##--&&gt;&&gt;|本章未完.*",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text##作者：",
+      "bookList": "class.bookbox",
+      "bookUrl": "tag.a.0@href",
+      "intro": "class.update@text",
+      "lastChapter": "class=.cat@a@text",
+      "name": "h4@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list-chapterAll@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.remenxs.cc/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

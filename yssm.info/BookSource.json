@@ -1,0 +1,58 @@
+[  {
+    "bookSourceComment": "error:Timed out waiting for 180000 ms\n",
+    "bookSourceGroup": "🍺特优",
+    "bookSourceName": "🍺 幼狮书盟",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.yssm.info",
+    "bookUrlPattern": "",
+    "customOrder": -116997,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/ucbook1/{{page}}.html\n武侠仙侠::/ucbook2/{{page}}.html\n都市言情::/ucbook3/{{page}}.html\n历史军事::/ucbook4/{{page}}.html\n科幻灵异::/ucbook5/{{page}}.html\n网游竞技::/ucbook6/{{page}}.html\n女频频道::/ucbook7/{{page}}.html",
+    "header": "",
+    "lastUpdateTime": 1612530595394,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "init": "",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+      "lastChapter": "[property=\"og:novel:lastest_chapter_name\"]@content##正文.",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.txt-list@tag.li!0",
+      "bookUrl": "class.s2@tag.a@href",
+      "coverUrl": "",
+      "kind": "class.s1@text&&class.s5@text##\\[|\\]",
+      "lastChapter": "class.s3@text##正文.",
+      "name": "class.s2@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.section-list.1@tag.li",
+      "chapterName": "tag.a@text##正文.",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/ar.php?keyWord={{key}}",
+    "weight": 0
+  }]

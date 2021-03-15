@@ -1,0 +1,48 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "阅读3.0有声源",
+    "bookSourceName": "一路听🐱",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://16ting.com",
+    "bookUrlPattern": "",
+    "customOrder": 34,
+    "enabled": true,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "",
+      "intro": "class.bookintro2@text",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "id.jp_audio_0@src",
+      "nextContentUrl": ""
+    },
+    "ruleExplore": {
+      "intro": ""
+    },
+    "ruleSearch": {
+      "author": "tag.p@tag.a.1@text",
+      "bookList": "class.gnlist@tag.li",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "class.photo@tag.img@i",
+      "kind": "class.bookinfo@tag.a.0@text",
+      "lastChapter": "",
+      "name": "class.bookname@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.i_time@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "tag.a@href@js:result+',{webView:“true”}'",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "http://16ting.com/search/{{key}}.html",
+    "weight": 0
+  }]

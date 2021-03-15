@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "error:Unable to resolve host \"m.didaxiaoshuo.cc\": No address associated with hostname\n",
+    "bookSourceGroup": "🎉精品,失效",
+    "bookSourceName": "🎉 滴答小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.didaxiaoshuo.cc",
+    "customOrder": -32614,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "总排行榜::/top/allvisit_{{page}}/\r\n最近更新::/top/lastupdate_{{page}}/\r\n字数排行::/top/size_{{page}}/",
+    "lastUpdateTime": 1602812200428,
+    "ruleBookInfo": {
+      "author": "class.block_txt2@tag.p.2@tag.a@text",
+      "intro": "class.intro_info@text",
+      "lastChapter": "class.block_txt2@tag.p.6@tag.a@text",
+      "tocUrl": "class.ablum_read@text.完整目录@href"
+    },
+    "ruleContent": {
+      "content": "id.nr1@textNodes",
+      "nextContentUrl": "class.next@tag.a@href"
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "name": ""
+    },
+    "ruleSearch": {
+      "bookList": "class.cover@class.line",
+      "bookUrl": "tag.a@href",
+      "name": "tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "class.page@text.下一页@href"
+    },
+    "searchUrl": "/s.php,{\n\"charset\"=\"gbk\",\n\"method\"=\"POST\",\n\"body\":\"type=articlename&s={{key}}&submit=\"}",
+    "weight": 0
+  }]

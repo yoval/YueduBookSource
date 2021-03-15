@@ -1,0 +1,35 @@
+[  {
+    "bookSourceComment": "error:正文内容为空\n",
+    "bookSourceGroup": "🎉精品,失效",
+    "bookSourceName": "🎉 布壳阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://client.ywread.com",
+    "customOrder": -32499,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1600953668378,
+    "ruleBookInfo": {
+      "tocUrl": "http://client.ywread.com/api/V1/books/@get:{book}/chapters?page=1&appid=hFh4X7t4uSAjEpsP&signature=cbc9bb68e02a13ccfe7846d79277fc53338d0a0a&timestamp=1571396242"
+    },
+    "ruleContent": {
+      "content": "$..contents"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "author",
+      "bookList": "data.list",
+      "bookUrl": "http://client.ywread.com/api/V1/books/{$.id}/chapters?page=1&appid=hFh4X7t4uSAjEpsP&signature=cbc9bb68e02a13ccfe7846d79277fc53338d0a0a&timestamp=1571396242",
+      "coverUrl": "cover",
+      "intro": "summary",
+      "kind": "cate_title",
+      "name": "title@put:{book:$.id}"
+    },
+    "ruleToc": {
+      "chapterList": "data.list",
+      "chapterName": "title",
+      "chapterUrl": "http://client.ywread.com/api/V1/books/@get:{book}/chapters/{$.id}?appid=hFh4X7t4uSAjEpsP&signature=aa54f44892683478e38d658b43c518dcff1ff095&timestamp=1571396336",
+      "nextTocUrl": "<js>\nvar a = 'http://client.ywread.com/api/V1/books/@get:{book}/chapters?appid=hFh4X7t4uSAjEpsP&signature=cbc9bb68e02a13ccfe7846d79277fc53338d0a0a&timestamp=1571396242&page=';\nvar r = [];\nfor(var i=1;i<99;i++){\n    r.push(a + parseInt(i*1));\n}\nr\n</js>"
+    },
+    "searchUrl": "http://client.ywread.com/api/V1/keyword_books?keyword={{key}}&page={{page}}&appid=hFh4X7t4uSAjEpsP&signature=24b90862b5cca8b9bcc6de70b4c4f1fa85945709&timestamp=1571396035",
+    "weight": 0
+  }]

@@ -1,0 +1,53 @@
+[  {
+    "bookSourceComment": "有毒\n存档",
+    "bookSourceGroup": "",
+    "bookSourceName": "愉悦小说(关站)",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.yuyuexs.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "历史军事::/sort/4_{{page}}/\n都市小说::/sort/3_{{page}}/\n仙侠小说::/sort/2_{{page}}/\n玄幻小说::/sort/1_{{page}}/\n科幻小说::/sort/6_{{page}}/\n恐怖小说::/sort/7_{{page}}/\n网游小说::/sort/5_{{page}}/\n其他小说::/sort/8_{{page}}/",
+    "lastUpdateTime": 1610935746000,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "canReName": "true",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "class.intro@textNodes##^\\s*##<br>",
+      "kind": "class.place@tag.a.-1@text&&[property=\"og:novel:status\"]@content&&class.msg@tag.em.2@text##更新时间：|\\s.*",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##章节目录\\s",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "class.yd_text2@textNodes",
+      "nextContentUrl": "",
+      "replaceRegex": ""
+    },
+    "ruleExplore": {
+      "author": "tag.a.2@text",
+      "bookList": "@css:.xbk:nth-child(n+2)",
+      "bookUrl": "{{'https://www.yuyuexs.com'}}{{@@tag.a.1@href}}{{'\\/'}}##\\.html",
+      "coverUrl": "tag.img@src",
+      "intro": "tag.span.-2@text",
+      "kind": "tag.i@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "@css:.fk li",
+      "bookUrl": "{{'https://www.yuyuexs.com'}}{{@@tag.a.1@href}}{{'\\/'}}##\\.html",
+      "coverUrl": "tag.a.1@href##book/(\\d+).html##$1###\n@js:var xid=Math.floor(result/1000);\n'https://www.yuyuexs.com/files/article/image/'+xid+'/'+result+'/'+result+'s.jpg'",
+      "kind": "tag.a.0@text##\\[|\\]",
+      "lastChapter": "#\ntag.a.1@href\n<js>java.ajax('https://m.yuyuexs.com'+result)</js>\nid.xinxi@tag.a.2@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "@css:.mulu li a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": ""
+    },
+    "searchUrl": "/s.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"submit=&type=articlename&s={{key}}\"\n}",
+    "weight": 0
+  }]

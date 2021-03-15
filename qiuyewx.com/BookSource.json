@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "酷安",
+    "bookSourceGroup": "🔰普通",
+    "bookSourceName": "🔰 平板电子书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://wap.qiuyewx.com",
+    "customOrder": -114785,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1610039806814,
+    "ruleBookInfo": {
+      "canReName": "true",
+      "intro": "class.intro@tag.p.1@text",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "id.main@html",
+      "nextContentUrl": "",
+      "replaceRegex": "##.*\\s*.*{{book.durChapterTitle}}\\s*|.*\\s*.*\\s*推荐阅读：.*\\s*|\\s*txt下载地址：.*\\s*.*\\s*.*\\s*.*\\s*.*|请记住本书首发域.*|『点击章节报错』|最新网址：www.qiuyewx.com|（本章完）|『加入书签，方便阅读』|(https:)"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p.-2@text",
+      "bookList": "class.block",
+      "bookUrl": "tag.a.2@href##^##https://www.qiuyewx.com",
+      "coverUrl": "tag.img@src",
+      "kind": "tag.p.-3@text##分类：",
+      "lastChapter": "tag.a.-1@text",
+      "name": "tag.a.2@text"
+    },
+    "ruleToc": {
+      "chapterList": "@css:.list dl dd a",
+      "chapterName": "text",
+      "chapterUrl": "{{book.bookUrl}}{{@@href}}",
+      "nextTocUrl": ""
+    },
+    "searchUrl": "/search.php,{\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}&submit=\"\n}",
+    "weight": 0
+  }]

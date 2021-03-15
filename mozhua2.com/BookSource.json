@@ -1,0 +1,55 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 魔爪小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.mozhua2.com",
+    "bookUrlPattern": "",
+    "customOrder": -116468,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "【最新】::\n武侠::/3476/{{page}}.html\n仙侠::/6829/{{page}}.html\n言情::/3658/{{page}}.html\n都市::/1631/{{page}}.html\n军事::/6736/{{page}}.html\n穿越::/4989/{{page}}.html\n耽美::/1995/{{page}}.html\n百合::/5539/{{page}}.html\n游戏::/3773/{{page}}.html\n科幻::/3280/{{page}}.html\n悬疑::/9163/{{page}}.html\n免费::/4743/{{page}}.html\n【完结】::\n武侠::/quanji/3476/{{page}}.html\n仙侠::/quanji/6829/{{page}}.html\n言情::/quanji/3658/{{page}}.html\n都市::/quanji/1631/{{page}}.html\n军事::/quanji/6736/{{page}}.html\n穿越::/quanji/4989/{{page}}.html\n耽美::/quanji/1995/{{page}}.html\n百合::/quanji/5539/{{page}}.html\n游戏::/quanji/3773/{{page}}.html\n科幻::/quanji/3280/{{page}}.html\n悬疑::/quanji/9163/{{page}}.html\n免费::/quanji/4743/{{page}}.html\n【热门】::\n武侠::/dianji/3476/{{page}}.html\n仙侠::/dianji/6829/{{page}}.html\n言情::/dianji/3658/{{page}}.html\n都市::/dianji/1631/{{page}}.html\n军事::/dianji/6736/{{page}}.html\n穿越::/dianji/4989/{{page}}.html\n耽美::/dianji/1995/{{page}}.html\n百合::/dianji/5539/{{page}}.html\n游戏::/dianji/3773/{{page}}.html\n科幻::/dianji/3280/{{page}}.html\n悬疑::/dianji/9163/{{page}}.html\n免费::/dianji/4743/{{page}}.html",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 1612451824689,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "@js:\nif(baseUrl.match(/https:\\/\\/m.mozhua2.com\\/.*?\\/\\d*\\w*_(.*?)\\.html/)){\na=baseUrl.match(/https:\\/\\/m.mozhua2.com\\/.*?\\/\\d*\\w*_(.*?)\\.html/);\nresult=\"https://m.mozhua2.com/txt/\"+a[1]+\"/mulu.html\"}else{if(baseUrl.match(/txt/)){\nresult=baseUrl.replace(/\\.html/,\"/mulu.html\")\n}else{\na=baseUrl.match(/(https:\\/\\/m.mozhua2.com\\/.*?\\/.*?)\\.html/);\nresult=a[1]+\".html\"}}",
+      "wordCount": "class.xs-6@tag.p@text##年代.|\\s"
+    },
+    "ruleContent": {
+      "content": "@js:a=result.match(/initTxt\\(\"([^\"]+)\".*?\\)/)[1];\nresult=String(String(java.ajax(a)).replace(/\",\"replace\"[\\s\\S]+/g,\"\").replace(/_txt_call\\(\\{\"content\":\"\u0002/,\"\").replace(/([\\d\\w]{4})./g,\"%u$1\"));\nresult=result.replace(/[;,]%u([0-9]+)/g,\"$1\").replace(/;*\\\\n/g,\"\\n\").replace(/;*\\\\/g,\"\").replace(/.%u3000%u3000/g,'');\nresult=unescape(result).replace(/;*%u/g,\"\").replace(/;/g,\"\")",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "author": "##class=\"gray\">\\((.*?)\\)##$1###",
+      "bookList": "class.list-item",
+      "bookUrl": "tag.a.0@href",
+      "intro": "tag.p.1@text##.*最新章节.|.*文案.|.*简介.|第.+章，",
+      "kind": "tag.span.1@text&&tag.font@text##\\[|\\]",
+      "lastChapter": "##最新章节：(.*?)，##$1###",
+      "name": "##<p>\\d+\\.([^<]+) <span##$1###"
+    },
+    "ruleSearch": {
+      "author": "tag.a.1@text##作者.",
+      "bookList": "class.list-item",
+      "bookUrl": "tag.a.0@href",
+      "intro": "tag.a.3@text",
+      "kind": "tag.font@text##\\[|\\]",
+      "lastChapter": "tag.a.2@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.row book-list chapter-list@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/search/,{\n  \"method\": \"POST\",\n  \"body\": \"type=&key={{key}}\"\n}",
+    "weight": 0
+  }]

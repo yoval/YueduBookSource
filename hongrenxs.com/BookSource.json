@@ -1,0 +1,43 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 红人小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.hongrenxs.com",
+    "customOrder": -116448,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "总点击榜::/paihang/allvisit_{{page}}.html\n月点击榜::/paihang/monthvisit_{{page}}.html\n周点击榜::/paihang/weekvisit_{{page}}.html\n总推荐榜::/paihang/allvote_{{page}}.html\n月推荐榜::/paihang/monthvote_{{page}}.html\n周推荐榜::/paihang/weekvote_{{page}}.html\n总收藏榜::/paihang/goodnum_{{page}}.html\n总字数榜::/paihang/size_{{page}}.html\n最新入库::/paihang/postdate_{{page}}.html\n最近更新::/paihang/lastupdate_{{page}}.html\n精品小说::/jingpinxiaoshuo/{{page}}.html\n海棠耽美::/haitangdanmei/{{page}}.html\n耽美小说::/danmeixiaoshuo/{{page}}.html\n海棠言情::/haitangyanqing/{{page}}.html\n言情小说::/yanqingxiaoshuo/{{page}}.html\n高辣小说::/gaolaxiaoshuo/{{page}}.html\npo18小说::/popoxiaoshuo/{{page}}.html\n科幻灵异::/kehuanlingyi/{{page}}.html",
+    "lastUpdateTime": 1612824060806,
+    "ruleBookInfo": {
+      "author": "class.bq@tag.a@text",
+      "coverUrl": "class.pic@tag.img@src",
+      "intro": "class.jj@textNodes",
+      "kind": "class.bq@tag.span.0@text&&class.bq@tag.span.2@text##.*：",
+      "lastChapter": "class.lastchapter@tag.a@text",
+      "name": "class.introduce@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.articlecontent@tag.p@html",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.td.2@text||tag.a.2@text##.*：",
+      "bookList": "tbody@tag.tr!0||class.tt",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src||tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##http://www.hongrenxs.com/files/article/cover/$2/$1/$1s.jpg###",
+      "intro": "class.p2@text",
+      "kind": "tag.td.4@text&&tag.td.5@text",
+      "lastChapter": "tag.td.1@text",
+      "name": "tag.a.0@text",
+      "wordCount": "tag.td.3@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.ml_list@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/mysearch.html,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&page={{page}}\"\n}",
+    "weight": 0
+  }]

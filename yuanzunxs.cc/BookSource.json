@@ -1,0 +1,45 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "完整书名直接跳转详情/目录页，无搜索列表",
+    "bookSourceName": "笔趣阁（❗避免少字）",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yuanzunxs.cc",
+    "bookUrlPattern": "",
+    "customOrder": -117574,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 1615347770292,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.red.0@text",
+      "coverUrl": "img@src",
+      "intro": "img@text",
+      "kind": "class.red.1@text",
+      "lastChapter": "class.bookchapter@text##章节目录\\s",
+      "name": "class.booktitle@text",
+      "wordCount": "class.blue@text"
+    },
+    "ruleContent": {
+      "content": "class.readcontent@html##\\<!--AD4--\\>|本章未完，点击下一页继续阅读|\\-->\\>",
+      "imageStyle": "0",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "id.list-chapterAll@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.yuanzunxs.cc/modules/article/search.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}&action=login\"\n}",
+    "weight": 0
+  }]

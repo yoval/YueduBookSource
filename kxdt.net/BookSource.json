@@ -1,0 +1,49 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 云书阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.kxdt.net",
+    "customOrder": -115062,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::https://m.kxdt.net/sort/1_{{page}}/&&修真小说::https://m.kxdt.net/sort/2_{{page}}/&&都市小说::https://m.kxdt.net/sort/3_{{page}}/&&历史小说::https://m.kxdt.net/sort/4_{{page}}/&&网游小说::https://m.kxdt.net/sort/5_{{page}}/&&科幻小说::https://m.kxdt.net/sort/6_{{page}}/&&",
+    "lastUpdateTime": 1610038393954,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "#intro@text",
+      "kind": "[property=\"og:novel:category\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content&&[property=\"og:novel:update_time\"]@content",
+      "name": "[property=\"og:title\"]@content",
+      "wordCount": "[property=\"og:novel:status\"]@content&&"
+    },
+    "ruleContent": {
+      "content": "#novelcontent@html||#content@html",
+      "nextContentUrl": "text.下一章@href"
+    },
+    "ruleExplore": {
+      "author": ".p4@text",
+      "bookList": ".tt",
+      "bookUrl": "tag.a.0@href@js:'https://www.kxdt.net'+result",
+      "coverUrl": "img@src",
+      "intro": ".p5@text",
+      "name": "tag.a.1@text",
+      "wordCount": ".p2@text&&.p3@text"
+    },
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "@css:tr#nr",
+      "bookUrl": "tag.a.0@href",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text",
+      "wordCount": "tag.td.3@text&&tag.td.4@text&&tag.td.5@text"
+    },
+    "ruleToc": {
+      "chapterList": "#list a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.kxdt.net/modules/article/search.php?searchtype=articlename&searchkey={{key}}&action=login&submit=%26%23160%3B%CB%D1%26%23160%3B%26%23160%3B%CB%F7%26%23160%3B&page={{page}},{\"charset\": \"gbk\"}",
+    "weight": 0
+  }]

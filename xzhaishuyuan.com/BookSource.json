@@ -1,0 +1,60 @@
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\nxpath;coolapk@芜恙",
+    "bookSourceGroup": "🎉精品,失效",
+    "bookSourceName": "🎉 斋书苑ⓧ",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xzhaishuyuan.com#sitembox dl",
+    "bookUrlPattern": "https://www.xzhaishuyuan.com/book/\\d+",
+    "customOrder": -31813,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "lastUpdateTime": 1601573232368,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "//*[@property=\"og:novel:author\"]/@content",
+      "coverUrl": "//*[@property=\"og:image\"]/@content",
+      "intro": "//*[@class=\"wrapper\"]##(^|[。！？]+[”」）】]?)##$1<br>",
+      "kind": "//*[@property=\"og:novel:category\"]/@content&&\n//*[@property=\"og:novel:status\"]/@content##中|已",
+      "lastChapter": "//*[@id=\"newlist\"]/ul/li[1]/a/text()&&//*[@property=\"og:novel:update_time\"]/@content\n<js>\nvar n = result.replace(/(\\s-|\\n).*/g, '');\nvar t = result.match(/-(\\d+-\\d+)/)[1];\nn + '▪' + t\n</js>",
+      "name": "//*[@property=\"og:novel:book_name\"]/@content",
+      "tocUrl": "//*[@id=\"pdu\"]/@href",
+      "wordCount": "//*[@class=\"count\"]/ul/li[2]/span/text()##$##字"
+    },
+    "ruleContent": {
+      "content": "//*[@id=\"content\"]",
+      "nextContentUrl": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "//dd[2]/span[1]//text()",
+      "bookList": "//*[@id=\"sitembox\"]/dl",
+      "bookUrl": "//dt/a/@href",
+      "coverUrl": "//img/@_src",
+      "intro": "//dd[3]/text()",
+      "kind": "//dd[2]/span[3]/text()&&//dd[2]/span[2]/text()##中|已",
+      "lastChapter": "//dd[4]//text()\n<js>\nvar n = result.replace(/最新章节：|更新时间.*/g, '');\nvar t = result.match(/(\\d+-\\d+)/)[1];\nn + '▪' + t\n</js>",
+      "name": "//h3/a//text()",
+      "wordCount": "//dd[2]/span[4]/text()##$##字"
+    },
+    "ruleToc": {
+      "chapterList": "//*[@id=\"readerlists\"]/ul/li/a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

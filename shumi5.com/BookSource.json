@@ -1,0 +1,42 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "👍优质",
+    "bookSourceName": "👍 欻书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.shumi5.com",
+    "customOrder": -114882,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/sort/1_{{page}}/&&仙侠小说::/sort/2_{{page}}/&&都市小说::/sort/3_{{page}}/&&军史小说::/sort/4_{{page}}/&&网游小说::/sort/5_{{page}}/&&科幻小说::/sort/6_{{page}}/&&恐怖小说::/sort/7_{{page}}/&&其他小说::/sort/8_{{page}}/",
+    "lastUpdateTime": 1603904826511,
+    "ruleBookInfo": {
+      "coverUrl": "",
+      "intro": ".intro@p@textNodes",
+      "kind": ".infotype@tag.p.1@text",
+      "lastChapter": ".infotype@tag.p.3@text",
+      "tocUrl": "<js>\nvar id = baseUrl.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\nbaseUrl.replace('book',iid)\n</js>"
+    },
+    "ruleContent": {
+      "content": "#novelcontent@html##【网址：m.shumi5.com】|返回目录|加入书签|上一章|下一章",
+      "sourceRegex": ""
+    },
+    "ruleExplore": {
+      "coverUrl": ""
+    },
+    "ruleSearch": {
+      "author": ".author@text||tag.a.1@text",
+      "bookList": "@css:p.sone||.article",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://www.shumi5.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+      "intro": ".simple@textNodes",
+      "name": "h6@text||tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": ".chapters@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "@js:\na=baseUrl.match(/(\\/\\d+\\/\\d+)\\//)[1];\nvar n=result.match(/\\/(\\d+)页/)[1];\nvar list=[];\nfor(var i=2;i<=n;i++){list.push(a+\"_\"+i+\"/\");}\nlist"
+    },
+    "searchUrl": "http://m.shumi5.com/s.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"s={{key}}&type=articlename\",\n\"headers\": \"{referer:\\\"http://m.shumi5.com\\\"}\"}\n",
+    "weight": 0
+  }]

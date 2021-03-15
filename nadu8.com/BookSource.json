@@ -1,0 +1,43 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎨漫画",
+    "bookSourceName": "🎨 哪读吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.nadu8.com",
+    "bookUrlPattern": "",
+    "customOrder": -115813,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部::https://www.nadu8.com/proxyapi/comic/list?size=10&page={{page}}&type=0\n热血::https://www.nadu8.com/proxyapi/comic/list?size=10&page={{page}}&type=2\n冒险::https://www.nadu8.com/proxyapi/comic/list?size=10&page={{page}}&type=6\n神魔::https://www.nadu8.com/proxyapi/comic/list?size=10&page={{page}}&type=11\n恋爱::https://www.nadu8.com/proxyapi/comic/list?size=10&page={{page}}&type=16\n悬疑::https://www.nadu8.com/proxyapi/comic/list?size=10&page={{page}}&type=14\n运动::https://www.nadu8.com/proxyapi/comic/list?size=10&page={{page}}&type=4\n搞笑::https://www.nadu8.com/proxyapi/comic/list?size=10&page={{page}}&type=9\n社会::https://www.nadu8.com/proxyapi/comic/list?size=10&page={{page}}&type=15",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36\"\n}",
+    "lastUpdateTime": 1609991622196,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.comic-author@tag.dd.0@text",
+      "coverUrl": "",
+      "intro": "class.comic-synopsis-content@text",
+      "kind": "class.comic-types@tag.a@text",
+      "lastChapter": "span.lastest-chapter@text",
+      "name": "h1.comic-name@text"
+    },
+    "ruleContent": {
+      "content": "class.comic-pic-list@li@img@data-src##\\/\\/##https\\:\\/\\/@js:\nlist=result.split(\"\\n\");\nheader={\"Referer\":baseUrl};\nheaders={\"headers\":JSON.stringify(header)}\nhtml='';\nfor(i in list){\nhtml+='<img src=\"'+list[i]+'-webp'+','+JSON.stringify(headers)+'\">'\n}\nhtml",
+      "imageStyle": "FULL"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "$..list.*",
+      "bookUrl": "$.comic_id@js:'https://www.nadu8.com/ac/'+result",
+      "coverUrl": "$.cover.c3r4@js:'https://img.nadu8.com/'+result+'-webp'",
+      "kind": "$.types..name",
+      "lastChapter": "$.latest.chapter_name",
+      "name": "$.comic_name"
+    },
+    "ruleToc": {
+      "chapterList": "-class.chapter-list@li@a",
+      "chapterName": "text##\\d+-\\d+",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://nadu8.com/proxyapi/comic/list?size=12&page={{page}}&type=0&keywords={{key}}",
+    "weight": 0
+  }]

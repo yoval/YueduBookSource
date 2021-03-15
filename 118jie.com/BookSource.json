@@ -1,0 +1,42 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 非主流中文网[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.118jie.com",
+    "bookUrlPattern": "",
+    "customOrder": -116438,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "总排行榜::http://m.118jie.com/mcls_rank_0_{{page}}\n玄幻魔法::http://m.118jie.com/mcls_1_{{page}}/\n武侠修真::http://m.118jie.com/mcls_2_{{page}}/\n都市言情::http://m.118jie.com/mcls_3_{{page}}/\n历史军事::http://m.118jie.com/mcls_4_{{page}}/\n游戏竞技::http://m.118jie.com/mcls_6_{{page}}/\n科幻恐怖::http://m.118jie.com/mcls_7_{{page}}/\n其他类型::http://m.118jie.com/mcls_9_{{page}}/\n耽美专区::http://m.118jie.com/mcls_10_{{page}}/\n肉文专区::http://m.118jie.com/mcls_11_{{page}}/\n更多分类::http://m.118jie.com/mcls_12_{{page}}/",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; Redmi Note 8 Pro Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.101 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 1612829549079,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.synopsisArea_detail@img@src",
+      "intro": "class.review@text",
+      "lastChapter": "class.lastchapters@a@text"
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@textNodes##.*本章未完，请点击.*|.*第.*/.*页.*",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@text##.*作者：",
+      "bookList": "class.recommend mybook@children||id.main@children",
+      "bookUrl": "a@href",
+      "coverUrl": "img@data-original",
+      "kind": "class.author.1@text##\\|.*",
+      "lastChapter": "class.author.1@a@text",
+      "name": "class.title@text##【|】.*"
+    },
+    "ruleToc": {
+      "chapterList": "class.directoryArea.1@p@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "http://m.118jie.com/mbook_search.html,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&t=1\"\n}",
+    "weight": 0
+  }]

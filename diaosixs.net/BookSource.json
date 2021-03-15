@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 屌丝小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.diaosixs.net",
+    "bookUrlPattern": "",
+    "customOrder": -116454,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最近更新::http://m.diaosixs.net/top/lastupdate_{{page}}/\n最新入库::http://m.diaosixs.net/top/postdate_{{page}}/\n总点击榜::http://m.diaosixs.net/top/allvisit_{{page}}/\n总收藏榜::http://m.diaosixs.net/top/goodnum_{{page}}/\n总推荐榜::http://m.diaosixs.net/top/allvote_{{page}}/\n总字数榜::http://m.diaosixs.net/top/size_{{page}}/\n全本小说::http://m.diaosixs.net/full/{{page}}/\n玄幻小说::http://m.diaosixs.net/sort/1_{{page}}/\n仙侠修真::http://m.diaosixs.net/sort/2_{{page}}/\n都市小说::http://m.diaosixs.net/sort/3_{{page}}/\n历史小说::http://m.diaosixs.net/sort/4_{{page}}/\n网游小说::http://m.diaosixs.net/sort/5_{{page}}/\n科幻小说::http://m.diaosixs.net/sort/6_{{page}}/\n其他小说::http://m.diaosixs.net/sort/7_{{page}}/",
+    "lastUpdateTime": 1605146060572,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.block_img2@img@src",
+      "intro": "class.intro_info@text",
+      "lastChapter": "class.block_txt2@tag.p.6@tag.a@text",
+      "tocUrl": "text.查看目录@href"
+    },
+    "ruleContent": {
+      "content": "id.nr1@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.cover@p",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.a.1@href##/book/(\\d+)(\\d{3})/##http://www.diaosixs.net/files/article/image/$1/$1$2/$1$2s.jpg",
+      "kind": "tag.a.0@text##\\[|]",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "http://m.diaosixs.net/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"type=articlename&s={{key}}&submit=\"\n}",
+    "weight": 0
+  }]

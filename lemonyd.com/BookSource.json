@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "error:org.mozilla.javascript.EcmaError: TypeError: Cannot find function replace in object [379455, ENDtrue]. (<Unknown source>#1) in <Unknown source> at line number 1\n",
+    "bookSourceGroup": "优,失效",
+    "bookSourceName": "柠檬中文网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.lemonyd.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "@js:'\r\n'+java.get('Intro')"
+    },
+    "ruleContent": {
+      "content": "data.content.value"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "authorname",
+      "bookList": "data.content[:3]",
+      "bookUrl": "https://www.lemonyd.com/v1/book/{$.id}/catalog?id={$.id}&size=19999",
+      "coverUrl": "iconUrlSmall",
+      "intro": "introduce@put:{bid:$.id}@js:\njava.put('Intro', result);\nresult.replace(/[\\s\\t]+/g, '');",
+      "kind": "words&&sortname&&END{$.finished}@js:\nresult.replace('ENDtrue', '完结').replace('ENDfalse', '连载')",
+      "lastChapter": "{$.lastchaptername}（{$.lastchaptertime}）@js:\nresult.replace(/\\s+\\d+:\\d+:\\d+\\s*/, '').replace(/\\s+/g, ' ')",
+      "name": "name"
+    },
+    "ruleToc": {
+      "chapterList": "$..chapters[*]",
+      "chapterName": "name",
+      "chapterUrl": "/v1/chapter/@get:{bid}/{$.id}"
+    },
+    "searchUrl": "https://search.lemonyd.com/m/book/search?page=1&sort=-1&words=-1&order=0&queryString={{key}}&highlight=false&size=3&free=true",
+    "weight": 0
+  }]

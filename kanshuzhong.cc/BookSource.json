@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "🎉精品,失效",
+    "bookSourceName": "🎉 看书中",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.kanshuzhong.cc",
+    "bookUrlPattern": "",
+    "customOrder": -31994,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部分类::https://m.kanshuzhong.cc/xclass/0/{{page}}.html\n玄幻奇幻::https://m.kanshuzhong.cc/xclass/1/{{page}}.html\n武侠修真::https://m.kanshuzhong.cc/xclass/2/{{page}}.html\n都市言情::https://m.kanshuzhong.cc/xclass/3/{{page}}.html\n历史穿越::https://m.kanshuzhong.cc/xclass/4/{{page}}.html\n网游小说::https://m.kanshuzhong.cc/xclass/5/{{page}}.html\n科幻小说::https://m.kanshuzhong.cc/xclass/6/{{page}}.html\n恐怖灵异::https://m.kanshuzhong.cc/xclass/7/{{page}}.html\n女生小说::https://m.kanshuzhong.cc/xclass/8/{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.readtip@tag.img@src||class.synopsisArea_detail@tag.img@src",
+      "intro": "class.readtip@text||class.review@text##.*小说简介.|直达底部.*",
+      "tocUrl": "class.btn_toMyBook@href"
+    },
+    "ruleContent": {
+      "content": "class.textcontent@html||id.chaptercontent@textNodes##[（未完，点击下一章继续阅读）]|[邀您关注微信公众号“\n　　”]|"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@text##作者：|.*\\|",
+      "bookList": "class.recommend mybook@children||id.main@children",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@data-original||tag.a.0@href##/book/(\\d+)(\\d{3})/##https://www.kanshuzhong.cc/image/$1/$1$2/$1$2s.jpg",
+      "kind": "class.author.0@text##作者.*|\\|.*",
+      "lastChapter": "tag.p.2@text##.*更新：|简介.*",
+      "name": "class.title@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.bookcontent@tag.dd||id.chapterlist@tag.a",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://m.kanshuzhong.cc/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}",
+    "weight": 0
+  }]

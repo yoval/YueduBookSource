@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🧾优选",
+    "bookSourceName": "🧾灵域小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.lingyutxt.com",
+    "customOrder": -34188,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "lastUpdateTime": 1605401391069,
+    "ruleBookInfo": {
+      "coverUrl": "id.thumb@img@src",
+      "tocUrl": "text.章节列表@href"
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@textNodes",
+      "nextContentUrl": "text.下一页@href##/wapbook/\\d+_\\d+.html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p.1@text",
+      "bookList": "class.hot_sale",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.a.0@href<js>result.replace(/.*\\/(\\d{0,3})(\\d*).*/,\"/files/article/image/$1/$1$2/$1$2s.jpg\")</js>",
+      "intro": "tag.p.2@text##简介：",
+      "kind": "",
+      "lastChapter": "tag.p.2@tag.a@text",
+      "name": "tag.p.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterlist@tag.p!0",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://m.lingyutxt.com/SearchBook.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}",
+    "weight": 0
+  }]

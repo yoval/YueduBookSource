@@ -1,0 +1,56 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🌱辅助",
+    "bookSourceName": "🌱数据",
+    "bookSourceType": 0,
+    "bookSourceUrl": "Data",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "今日热门::https://www.yousuu.com/api/home/hotJumpBoard?t={{Date.now()}}\n\n优秀新书::https://www.yousuu.com/api/home/recomBook?t={{Date.now()}}\n\n男频周热::https://www.yousuu.com/api/home/channelBooks?channel=male&weekNum=&t={{Date.now()}}\n\n\n✣现 实✣::\n三日百万::https://www.yousuu.com/api/bookStore/books?channel=0&classId=7&countWord=2&status=0&update=0&page={{page}}&t={{Date.now()}}\n半年完结::https://www.yousuu.com/api/bookStore/books?channel=0&classId=7&status=1&update=2&page={{page}}&t={{Date.now()}}\n\n\n✣都 市✣::\n三日百万::https://www.yousuu.com/api/bookStore/books?channel=0&classId=6&countWord=2&status=0&update=0&page={{page}}&t={{Date.now()}}\n半年完结::https://www.yousuu.com/api/bookStore/books?channel=0&classId=6&status=1&update=2&page={{page}}&t={{Date.now()}}\n\n都市生活::\n三日百万::https://www.yousuu.com/api/bookStore/books?channel=0&classId=6&tag=都市生活&status=0&update=0&countWord=2&page={{page}}&t={{Date.now()}}\n半年完结::https://www.yousuu.com/api/bookStore/books?channel=0&classId=6&tag=都市生活&status=1&update=2&page={{page}}&t={{Date.now()}}\n\n娱乐明星::\n三日百万::https://www.yousuu.com/api/bookStore/books?channel=0&classId=6&tag=娱乐明星&status=0&update=0&countWord=2&page={{page}}&t={{Date.now()}}\n半年完结::https://www.yousuu.com/api/bookStore/books?channel=0&classId=6&tag=娱乐明星&status=1&update=2&page={{page}}&t={{Date.now()}}\n\n商战职场::\n三日百万::https://www.yousuu.com/api/bookStore/books?channel=0&classId=6&tag=商战职场&status=0&update=0&countWord=2&page={{page}}&t={{Date.now()}}\n半年完结::https://www.yousuu.com/api/bookStore/books?channel=0&classId=6&tag=商战职场&status=1&update=2&page={{page}}&t={{Date.now()}}\n\n\n✣历 史✣::\n三日百万::https://www.yousuu.com/api/bookStore/books?channel=0&classId=9&countWord=2&status=0&update=0&page={{page}}&t={{Date.now()}}\n半年完结::https://www.yousuu.com/api/bookStore/books?channel=0&classId=9&status=1&update=2&page={{page}}&t={{Date.now()}}\n\n清史民国::\n三日百万::https://www.yousuu.com/api/bookStore/books?channel=0&classId=9&tag=清史民国&status=0&update=0&countWord=2&page={{page}}&t={{Date.now()}}\n半年完结::https://www.yousuu.com/api/bookStore/books?channel=0&classId=9&tag=清史民国&status=1&update=2&page={{page}}&t={{Date.now()}}\n\n\n✣军 事✣::\n三日百万::https://www.yousuu.com/api/bookStore/books?channel=0&classId=8&countWord=2&status=0&update=0&page={{page}}&t={{Date.now()}}\n半年完结::https://www.yousuu.com/api/bookStore/books?channel=0&classId=8&status=1&update=2&page={{page}}&t={{Date.now()}}\n\n\n✣次 元✣::\n三日百万::https://www.yousuu.com/api/bookStore/books?channel=0&classId=14&countWord=2&status=0&update=0&page={{page}}&t={{Date.now()}}\n半年完结::https://www.yousuu.com/api/bookStore/books?channel=0&classId=14&status=1&update=2&page={{page}}&t={{Date.now()}}\n\n\n✣同 人✣::\n三日百万::https://www.yousuu.com/api/bookStore/books?channel=0&classId=16&countWord=2&status=0&update=0&page={{page}}&t={{Date.now()}}\n半年完结::https://www.yousuu.com/api/bookStore/books?channel=0&classId=16&status=1&update=2&page={{page}}&t={{Date.now()}}\n\n\n✣其 它✣::\n三日百万::https://www.yousuu.com/api/bookStore/books?channel=0&classId=29&countWord=2&status=0&update=0&page={{page}}&t={{Date.now()}}\n半年完结::https://www.yousuu.com/api/bookStore/books?channel=0&classId=29&status=1&update=2&page={{page}}&t={{Date.now()}}",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "",
+      "canReName": "true",
+      "coverUrl": "",
+      "init": "",
+      "intro": "$..introduction",
+      "kind": "",
+      "lastChapter": "",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "$.author",
+      "bookList": "$.data.books||$.data",
+      "bookUrl": "https://www.yousuu.com/api/book/{{$.bookId}}",
+      "coverUrl": "$.cover",
+      "intro": "$.introduction",
+      "kind": "$.tags",
+      "lastChapter": "@js:parseInt({{$.countWord}}/10000) + '万字🕰' + '{{$.updateAt}}'##\\..*|T.*",
+      "name": "$.title",
+      "wordCount": "$.countWord##\\..*"
+    },
+    "ruleToc": {
+      "chapterList": "$.data.bookSource",
+      "chapterName": "$.siteName",
+      "chapterUrl": "$.bookPage",
+      "nextTocUrl": ""
+    },
+    "searchUrl": "https://www.yousuu.com/api/search?type=title&value={{key}}&page={{page}}&t={{Date.now()}}",
+    "weight": 0
+  }]

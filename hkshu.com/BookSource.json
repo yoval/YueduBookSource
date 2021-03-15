@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 好看书吧[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.hkshu.com",
+    "customOrder": -115529,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/l1_{{page}}/\n武侠小说::/l2_{{page}}/\n都市小说::/l3_{{page}}/\n言情小说::/l4_{{page}}/\n穿越小说::/l5_{{page}}/\n网游小说::/l6_{{page}}/\n官场小说::/l7_{{page}}/\n校园小说::/l8_{{page}}/\n历史小说::/l9_{{page}}/\n推理小说::/l10_{{page}}/\n科幻小说::/l11_{{page}}/\n恐怖小说::/l12_{{page}}/\n其它小说::/l13_{{page}}/\n小说排行::/allvisit_{{page}}/\n最近更新::/lastupdate_{{page}}/\n最新入库::/postdate_{{page}}/\n完本小说::/full_{{page}}.html\n",
+    "lastUpdateTime": 1606914324020,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.bookinfoimg@img@src",
+      "intro": "class.intro@text"
+    },
+    "ruleContent": {
+      "content": "id.BookText@html##.*?本章未完.*|本章手机版.*|完整章节，进\"好看 书吧\"|好看书吧\",|好看 书 吧|好 看 书 吧|好看书 吧",
+      "nextContentUrl": "text.下一页.0@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s3@text",
+      "bookList": "class.item-con@tag.li",
+      "bookUrl": "tag.a@href",
+      "kind": "class.s1@text&&class.s5@text&&class.s4@text",
+      "lastChapter": "class.s2@i@a@text",
+      "name": "class.s2@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapterlist@tag.dd!0",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/s.php,{\n\"method\": \"post\",\n\"charset\": \"gbk\",\n\"body\": \"s={{key}}\"\n}",
+    "weight": 0
+  }]

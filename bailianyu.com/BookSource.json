@@ -1,0 +1,35 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "经典文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://app.bailianyu.com",
+    "customOrder": 1246,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "tocUrl": "@JSon:http://app.bailianyu.com:1819/appapiv1/chapterlist?appkey=%2BYxWjxL1mJx1gdEILt68w%2BFSlHhJoFWNt1H2OIEtuJo%3D&article_id={$..id}&flag={$..flag}"
+    },
+    "ruleContent": {
+      "content": "@JSon:$.data",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "@JSon:$.author",
+      "bookList": "@JSon:$.data[*]",
+      "bookUrl": "@JSon:http://app.bailianyu.com:1819/appapiv1/article?appkey=%2BYxWjxL1mJx1gdEILt68w%2BFSlHhJoFWNt1H2OIEtuJo%3D&id={$.id}",
+      "coverUrl": "@JSon:$.image",
+      "intro": "@JSon:$.introduction",
+      "lastChapter": "@JSon:$.last_chapter_name",
+      "name": "@JSon:$.title"
+    },
+    "ruleToc": {
+      "chapterList": "@JSon:$.data",
+      "chapterName": "@JSon:$.title",
+      "chapterUrl": "@JSon:http://app.bailianyu.com:1819/appapiv1/getchaptercontent?appkey=%2BYxWjxL1mJx1gdEILt68w%2BFSlHhJoFWNt1H2OIEtuJo%3D&chapter_id={$..id}&article_id={$..article_id}&flag={$..flag}"
+    },
+    "searchUrl": "http://app.bailianyu.com:1819/appapiv1/search?appkey=%2BYxWjxL1mJx1gdEILt68w%2BFSlHhJoFWNt1H2OIEtuJo%3D&keyword={{key}}&page=1&page_size=10",
+    "weight": 0
+  }]

@@ -1,0 +1,45 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceName": "秒书屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.miaoshuwu.cc",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部::https://m.miaoshuwu.cc/sort/0_{{page}}/&&玄幻小说::/sort/1_{{page}}/&&修真小说::/sort/2_{{page}}/&&都市小说::/sort/3_{{page}}/&&历史小说::/sort/4_{{page}}/&&网游小说::/sort/5_{{page}}/&&科幻小说::/sort/6_{{page}}/&&其它小说::/sort/7_{{page}}/&&",
+    "lastUpdateTime": 1604655914264,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "tocUrl": "text.查看完整目录@href"
+    },
+    "ruleContent": {
+      "content": "#content@html||#chaptercontent@html##天才一秒.*?无广告！|首发网址.*|第.*?章.*?\\[\\d+\\/\\d+页\\]|『加入书签，方便阅读』",
+      "nextContentUrl": ".next@href||#pb_next@href"
+    },
+    "ruleExplore": {
+      "author": "tag.a.3@text",
+      "bookList": "@css:.hot_sale",
+      "bookUrl": "tag.a.2@href<js>'https://www.miaoshuwu.cc/info-'+result.replace('/book/','')</js>",
+      "coverUrl": "img@data-original",
+      "intro": ".longview@text",
+      "name": "tag.a.2@text"
+    },
+    "ruleSearch": {
+      "author": "h3@text##.*?-((.*?)-)*.*?在线阅读.*##$2###",
+      "bookList": "tag.article",
+      "bookUrl": "tag.a.0@href\n<js>java.ajax(result)</js>\n##window.location.replace\\(\"([^\"]+)\"\\);##$1###<js>result.replace('m.','www.')</js>",
+      "name": "h3@text##(.*?)-(.*?-)*.*?在线阅读.*##$1###"
+    },
+    "ruleToc": {
+      "chapterList": "#list a||#chapterlist a",
+      "chapterName": "text##↓直达页面底部↓",
+      "chapterUrl": "href",
+      "nextTocUrl": "option@value"
+    },
+    "searchUrl": "https://m.baidu.com/from=1022560v/ssid=0/s?pn={{page*10-10}}&word={{key}} site:miaoshuwu.cc@js:java.put('key',key);result\n",
+    "weight": 0
+  }]

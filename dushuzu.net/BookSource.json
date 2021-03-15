@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "读书族",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.dushuzu.net",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.black.0@text",
+      "coverUrl": "class.con_limg@tag.img@src",
+      "intro": "class.r_cons@text",
+      "lastChapter": "class.lastrecord@tag.a@text",
+      "name": "class.r420@tag.h1@text",
+      "tocUrl": "class.dirlwrap@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "id.BookText@tag.td.0@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a@href",
+      "lastChapter": "class.even@tag.a.0@text",
+      "name": "tag.tr@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.dushuzu.net/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

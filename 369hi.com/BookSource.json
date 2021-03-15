@@ -1,0 +1,45 @@
+[  {
+    "bookSourceComment": "更新\n天涯&豆瓣&贴吧脱水\n部分文章需登录\n支持关键词搜索，也可直接搜索帖子网址，需关闭精准搜索",
+    "bookSourceGroup": "🥈补充",
+    "bookSourceName": "🥈369脱水吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.369hi.com",
+    "customOrder": 0,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "推荐::/hot\n天涯::/tysq/page/{{page}}\n贴吧::/tb/page/{{page}}\n豆瓣::/dbht/page/{{page}}\n最近::/recent/page/{{page}}\n新更::/active/page/{{page}}",
+    "lastUpdateTime": 0,
+    "loginUrl": "http://www.369hi.com/users/sign_in",
+    "ruleBookInfo": {
+      "canReName": "true",
+      "tocUrl": "text.目录@href"
+    },
+    "ruleContent": {
+      "content": "class.content round mb-2@textNodes",
+      "imageStyle": "",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+      "author": "tag.span.1@text",
+      "bookList": "class.list-group-item",
+      "bookUrl": "tag.a.0@href",
+      "intro": "tag.small@text",
+      "kind": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "class.border.0@tag.a@text||tag.span.1@text",
+      "bookList": "class.container.3||class.list-group-item",
+      "bookUrl": "class.border.4@tag.a@href||tag.a.0@href",
+      "kind": "class.border.1@tag.a@text||tag.a.1@text",
+      "name": "tag.h1@text||tag.a.0@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.tlist@tag.li@tag.a.0",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search?page={{page}}&q={{key}}",
+    "weight": 0
+  }]

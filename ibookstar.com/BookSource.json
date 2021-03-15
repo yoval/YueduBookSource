@@ -1,0 +1,35 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🍺特优",
+    "bookSourceName": "🍺 阅读星②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://api.ibookstar.com:80",
+    "bookUrlPattern": "",
+    "customOrder": -32723,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9; MI MAX 3 Build/PKQ1.181007.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/74.0.3729.136 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 1603199223750,
+    "loginUrl": "",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "$.data.content"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "author",
+      "bookList": "$.books[:5]",
+      "bookUrl": "http://api.ibookstar.com:80/book/chapters?bid={$.bid}&page.page=1&order=0&page.size=99999",
+      "coverUrl": "bigCoverLogo",
+      "intro": "introduction",
+      "kind": "category",
+      "name": "name"
+    },
+    "ruleToc": {
+      "chapterList": "$.data.content",
+      "chapterName": "name##[\\(（].*[求更谢乐发推].*[）\\)]",
+      "chapterUrl": "http://inlek.ibookwe.com:80/book/chapter?bid={{$.bid}}&cid={{$.id}}&envirment=1,{\n\"method\": \"POST\",\n\"headers\":\"{info-channel: readerlekan_xiaomi,info-html: true,info-imei: QHCFH76W1FPMRIIQ,info-product: 8115}\"\n}"
+    },
+    "searchUrl": "/publish_books/mix_query?key={{key}}&offset={{page-1}}&count=5&type=0",
+    "weight": 0
+  }]

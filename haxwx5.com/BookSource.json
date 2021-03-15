@@ -1,0 +1,56 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 海岸线",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.haxwx5.com",
+    "bookUrlPattern": "",
+    "customOrder": -116489,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "日榜::/top-dayvisit-{{page}}/\n周榜::/top-weekvisit-{{page}}/\n月榜::/top-monthvisit-{{page}}/\n总榜::/top-allvisit-{{page}}/\n收藏::/top-goodnum-{{page}}/\n字数::/top-size-{{page}}/\n推荐::/top-allvote-{{page}}/\n最近::/top-lastupdate-{{page}}/\n玄幻::/xuanhuanxiaoshuo/\n都市::/dushixiaoshuo/\n历史::/lishixiaoshuo/\n乡村::/xiangcunxiaoshuo/\n其他::/qitaxiaoshuo/\n完本::/wanbenxiaoshuo/",
+    "lastUpdateTime": 1612452084954,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.info@tag.a.0@text",
+      "coverUrl": "class.img@tag.img@src",
+      "intro": "id.intro@text||class.intro_info@text",
+      "lastChapter": "class.info@tag.a.1@text##正文.",
+      "name": "class.info@tag.h1.0@text",
+      "tocUrl": "text.查看目录@href"
+    },
+    "ruleContent": {
+      "content": "id.book_text@html||id.nr1@html",
+      "imageStyle": "0",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": "##高速文字首发 本站域名\n　　www.haxwx5.com 手机同步阅读\n　　m.haxwx5.com"
+    },
+    "ruleExplore": {
+      "author": "class.name@tag.span.1@text||text||tag.a.2@text##.*/",
+      "bookList": "id.BookList@tag.li||class.mainas@tag.li||class.cover@tag.p",
+      "bookUrl": "tag.a.1@href||class.name@tag.a.0@href||tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.nrrk@tag.p@text",
+      "kind": "tag.span.0@text&&tag.i.0@text&&tag.em.-1@text##类别.|小说",
+      "lastChapter": "tag.dl@tag.a.0@text##最新章节.",
+      "name": "tag.a.1@text||class.name@tag.a.0@text||tag.a.0@text##/.*",
+      "wordCount": "tag.span.2@text"
+    },
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "tag.a.0@href",
+      "kind": "tag.td.4@text&&tag.td.5@text",
+      "lastChapter": "tag.td.1@text",
+      "name": "tag.td.0@text",
+      "wordCount": "tag.td.3@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.article_texttitleb@tag.li||class.chapter@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=articlename&searchkey={{key}}&action=login&submit={{key}}&page={{page}}\"\n}",
+    "weight": 0
+  }]

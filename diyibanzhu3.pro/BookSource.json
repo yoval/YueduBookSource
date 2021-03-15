@@ -1,0 +1,34 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "发现; A级; 18",
+    "bookSourceName": "第一版主san",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.diyibanzhu3.pro",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部·总集::https://www.diyibanzhu3.pro/shuku/0-lastupdate-0-searchPage.html\n全部·完本::https://www.diyibanzhu3.pro/shuku/0-lastupdate-2-searchPage.html\n全部·连载::https://www.diyibanzhu3.pro/shuku/0-lastupdate-1-searchPage.html\n奇幻·玄幻::https://www.diyibanzhu3.pro/shuku/1-lastupdate-0-searchPage.html\n仙侠·武侠::https://www.diyibanzhu3.pro/shuku/2-lastupdate-0-searchPage.html\n都市·言情::https://www.diyibanzhu3.pro/shuku/3-lastupdate-0-searchPage.html\n穿越·历史::https://www.diyibanzhu3.pro/shuku/4-lastupdate-0-searchPage.html\n科幻·灵异::https://www.diyibanzhu3.pro/shuku/5-lastupdate-0-searchPage.html\n藏经阁::https://www.diyibanzhu3.pro/shuku/6-lastupdate-0-searchPage.html\n其他类型::https://www.diyibanzhu3.pro/shuku/7-lastupdate-0-searchPage.html\n总人气::https://www.diyibanzhu3.pro/shuku/0-allvisit-0-searchPage.html\n月人气::https://www.diyibanzhu3.pro/shuku/0-monthvisit-0-searchPage.html\n字数::https://www.diyibanzhu3.pro/shuku/0-size-0-searchPage.html\n新书::https://www.diyibanzhu3.pro/shuku/0-postdate-0-searchPage.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.page-content@p@html<js>\nm=[];n=[];\nfunction x(a,b){m.push(a);n.push(b)};\nx(/#正则#/gi,\"文本\");x(/#aiai#/gi,\"爱\");x(/#baobao#/gi,\"暴\");x(/#bangbang#/gi,\"棒\");x(/#bang2bang2#/gi,\"帮\");x(/#bibi#/gi,\"逼\");x(/#biaobiao#/gi,\"婊\");x(/#bobo#/gi,\"勃\");x(/#caocao#/gi,\"操\");x(/#chacha#/gi,\"插\");x(/#chaochao#/gi,\"潮\");x(/#chuchu#/gi,\"处\");x(/#chunchun#/gi,\"唇\");x(/#dandan#/gi,\"单\");x(/#dan2dan2#/gi,\"蛋\");x(/#dangdang#/gi,\"党\");x(/#dang2dang2#/gi,\"荡\");x(/#didi#/gi,\"嫡\");x(/#di2di2#/gi,\"弟\");x(/#dingding#/gi,\"丁\");x(/#dongdong#/gi,\"洞\");x(/#dudu#/gi,\"毒\");x(/#du2du2#/gi,\"杜\");x(/#fenfen#/gi,\"粉\");x(/#fengfeng#/gi,\"缝\");x(/#fufu#/gi,\"妇\");x(/#fu2fu2#/gi,\"府\");x(/#gaogao#/gi,\"高\");x(/#gao2gao2#/gi,\"搞\");x(/#gangan#/gi,\"干\");x(/#ganggang#/gi,\"肛\");x(/#gonggong#/gi,\"共\");x(/#gong2gong2#/gi,\"宫\");x(/#gougou#/gi,\"狗\");x(/#guigui#/gi,\"龟\");x(/#guoguo#/gi,\"国\");x(/#gungun#/gi,\"棍\");x(/#hanhan#/gi,\"含\");x(/#huhu#/gi,\"胡\");x(/#huihui#/gi,\"秽\");x(/#jiji#/gi,\"激\");x(/#ji2ji2#/gi,\"鸡\");x(/#ji3ji3#/gi,\"纪\");x(/#ji4ji4#/gi,\"妓\");x(/#jiaojiao#/gi,\"交\");x(/#jianjian#/gi,\"奸\");x(/#jian2jian2#/gi,\"贱\");x(/#jiejie#/gi,\"介\");x(/#jinjin#/gi,\"锦\");x(/#jiujiu#/gi,\"九\");x(/#jingjing#/gi,\"茎\");x(/#jing2jing2#/gi,\"精\");x(/#juejue#/gi,\"厥\");x(/#jvjv#/gi,\"具\");x(/#jv2jv2#/gi,\"菊\");x(/#kengkeng#/gi,\"坑\");x(/#lingling#/gi,\"凌\");x(/#liuliu#/gi,\"流\");x(/#loulou#/gi,\"露\");x(/#lulu#/gi,\"露\");x(/#lu2lu2#/gi,\"撸\");x(/#lu3lu3#/gi,\"颅\");x(/#lunlun#/gi,\"伦\");x(/#lun2lun2#/gi,\"轮\");x(/#luoluo#/gi,\"裸\");x(/#luanluan#/gi,\"乱\");x(/#mama#/gi,\"麻\");x(/#ma2ma2#/gi,\"马\");x(/#ma3ma3#/gi,\"妈\");x(/#mangmang#/gi,\"氓\");x(/#meimei#/gi,\"美\");x(/#mimi#/gi,\"迷\");x(/#mi2mi2#/gi,\"蜜\");x(/#miemie#/gi,\"灭\");x(/#mumu#/gi,\"母\");x(/#nainai#/gi,\"奶\");x(/#neinei#/gi,\"内\");x(/#nennen#/gi,\"嫩\");x(/#niaoniao#/gi,\"尿\");x(/#nunu#/gi,\"奴\");x(/#nuenue#/gi,\"虐\");x(/#paopao#/gi,\"炮\");x(/#pao999pao999#/gi,\"刨\");x(/#pengpeng#/gi,\"鹏\");x(/#pipi#/gi,\"屁\");x(/#qiangqiang#/gi,\"枪\");x(/#qinqin#/gi,\"亲\");x(/#qingqing#/gi,\"情\");x(/#riri#/gi,\"日\");x(/#rourou#/gi,\"肉\");x(/#ruru#/gi,\"乳\");x(/#ru2ru2#/gi,\"辱\");x(/#saosao#/gi,\"骚\");x(/#sese#/gi,\"色\");x(/#shasha#/gi,\"杀\");x(/#sheshe#/gi,\"舌\");x(/#shenshen#/gi,\"呻\");x(/#she2she2#/gi,\"射\");x(/#shishi#/gi,\"尸\");x(/#shi2shi2#/gi,\"湿\");x(/#shoushou#/gi,\"兽\");x(/#shushu#/gi,\"熟\");x(/#shuishui#/gi,\"水\");x(/#sisi#/gi,\"死\");x(/#si2si2#/gi,\"丝\");x(/#suansuan#/gi,\"酸\");x(/#taitai#/gi,\"台\");x(/#taotao#/gi,\"涛\");x(/#tiantian#/gi,\"舔\");x(/#tongtong#/gi,\"童\");x(/#toutou#/gi,\"偷\");x(/#tuntun#/gi,\"臀\");x(/#tun2tun2#/gi,\"吞\");x(/#tuitui#/gi,\"腿\");x(/#wangwang#/gi,\"亡\");x(/#weiwei#/gi,\"未\");x(/#wenwen#/gi,\"温\");x(/#xi2xi2#/gi,\"席\");x(/#xi3xi3#/gi,\"吸\");x(/#xiongxiong#/gi,\"胸\");x(/#xingxing#/gi,\"性\");x(/#xuexue#/gi,\"学\");x(/#xue2xue2#/gi,\"穴\");x(/#xue3xue3#/gi,\"血\");x(/#yaoyao#/gi,\"摇\");x(/#yao2yao2#/gi,\"药\");x(/#yiyi#/gi,\"义\");x(/#yi2yi2#/gi,\"漪\");x(/#yin3yin3#/gi,\"淫\");x(/#yin2yin2#/gi,\"阴\");x(/#yinyin#/gi,\"吟\");x(/#yingying#/gi,\"硬\");x(/#youyou#/gi,\"诱\");x(/#you2you2#/gi,\"幼\");x(/#yuyu#/gi,\"欲\");x(/#zaizai#/gi,\"在\");x(/#zhazha#/gi,\"炸\");x(/#zhanzhan#/gi,\"斩\");x(/#zeze#/gi,\"泽\");x(/#zhongzhong#/gi,\"中\");x(/#zhizhi#/gi,\"指\");x(/#zhuzhu#/gi,\"主\");x(/#zuzu#/gi,\"足\");x(/#zuozuo#/gi,\"做\");\nx(/[MmＭｍ]\\.[BbＢｂ][^\\u4e00-\\u9fa5]+[MmＭｍ]/g,\"\");\nresult=result.replace(/<img src=\"image\\/([^\"]+)\\.jpg\">/g,\"#$1#\");\nfor(i in m){result=result.replace(m[i],n[i])}\n</js>"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "##作者：([^<]*)##$1###",
+      "bookList": ".column-2",
+      "bookUrl": "tag.a.0@href",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list.1@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "text.下页.0@href"
+    },
+    "searchUrl": "http://www.diyibanzhu3.pro/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"objectType=2&type=articlename&s={{key}}\"\n}",
+    "weight": 0
+  }]

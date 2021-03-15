@@ -1,0 +1,35 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "📚出版",
+    "bookSourceName": "📚 金庸小说[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.jinyongwang.com",
+    "customOrder": -116685,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "首页::http://www.jinyongwang.com/book/",
+    "lastUpdateTime": 1606809325611,
+    "ruleBookInfo": {
+      "intro": "class.booklist@tag.p@text"
+    },
+    "ruleContent": {
+      "content": "class.vcon@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p.2@text##\\/|.*社|.*年|",
+      "bookList": "class.booklist@tag.li",
+      "bookUrl": "tag.p.0@tag.a@href",
+      "coverUrl": "tag.p.0@tag.img@src",
+      "kind": "tag.p.2@text##\\/|.*社||金.*",
+      "lastChapter": "tag.p.2@text##\\/.*",
+      "name": "tag.p.1@text||tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.mlist@tag.li||class.jy_contet",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.jinyongwang.com",
+    "weight": 0
+  }]

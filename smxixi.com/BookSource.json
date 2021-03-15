@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 八一中文网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.smxixi.com",
+    "bookUrlPattern": "",
+    "customOrder": -32363,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.p_box@class.pic@tag.a.0@tag.img.0@src",
+      "intro": "class.j_box@class.words@tag.p.1@textNodes"
+    },
+    "ruleContent": {
+      "content": "class.box_box@textNodes##.*最新章节."
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.words@tag.p.0@tag.a.0@text",
+      "bookList": "class.ul_b_list@tag.li||",
+      "bookUrl": "tag.h2.0@tag.a.0@href",
+      "coverUrl": "class.pic@tag.a.0@tag.img.0@src",
+      "kind": "tag.h2.0@tag.span.0@text",
+      "lastChapter": "class.words@tag.p.3@text##-章节目录.*",
+      "name": "tag.h2.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list_box@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.smxixi.com//plus/search.php?kwtype=0&searchtype=articlename&q={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

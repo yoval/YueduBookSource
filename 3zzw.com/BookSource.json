@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "A级; 发现",
+    "bookSourceName": "三章中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.3zzw.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/xs/1/{{page}}.html\n武侠小说::/xs/2/{{page}}.html\n都市小说::/xs/3/{{page}}.html\n历史小说::/xs/4/{{page}}.html\n网游小说::/xs/5/{{page}}.html\n科幻小说::/xs/6/{{page}}.html\n言情小说::/xs/7/{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@text",
+      "name": "class.booktitle cf@text"
+    },
+    "ruleContent": {
+      "content": "class.content@html",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.span.0@text",
+      "bookList": "class.category-div||class.l@tag.li",
+      "bookUrl": "class.flex flex-between commend-title@tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.intro indent@text",
+      "name": "tag.h3@text||class.s2@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.info-chapters flex flex-wrap!0@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.3zzw.com/search/,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&Submit=\"\n}",
+    "weight": 0
+  }]

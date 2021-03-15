@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🍑耽美",
+    "bookSourceName": "🍑 尹柔小说[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.dytxts.com",
+    "bookUrlPattern": "",
+    "customOrder": -116079,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/wapsort/1_{{page}}.html\n武侠修真::/wapsort/2_{{page}}.html\n都市言情::/wapsort/3_{{page}}.html\n历史军事::/wapsort/4_{{page}}.html\n侦探推理::/wapsort/5_{{page}}.html\n网游动漫::/wapsort/6_{{page}}.html\n科幻::/wapsort/7_{{page}}.html\n耽美::/wapsort/8_{{page}}.html\n穿越::/wapsort/9_{{page}}.html\n其他::/wapsort/10_{{page}}.html\n百合::/wapsort/11_{{page}}.html",
+    "lastUpdateTime": 1612198647020,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "kind": "",
+      "tocUrl": "//a[@style=\"color:red;\"]/@href"
+    },
+    "ruleContent": {
+      "content": "id.nr1@html##\\&&lt;|&&gt;|/"
+    },
+    "ruleExplore": {
+      "intro": ""
+    },
+    "ruleSearch": {
+      "author": "tag.p.0@strong@text",
+      "bookList": "class.common-bookele",
+      "bookUrl": "tag.a.0@href",
+      "kind": "##栏目：([^<]+)<##$1###",
+      "name": "tag.a.0@text##\\_.*"
+    },
+    "ruleToc": {
+      "chapterList": "li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.dytxts.com/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,44 @@
+[  {
+    "bookSourceComment": "error:Connection reset\n",
+    "bookSourceGroup": "🚬刘备,🍑耽美",
+    "bookSourceName": "🍑 凤舞阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.fengwug.com",
+    "bookUrlPattern": "",
+    "customOrder": -116132,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "lastUpdateTime": 1604983551951,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.block_txt2@tag.p.2@a@text",
+      "coverUrl": "class.block_img2@img@src",
+      "intro": "class.intro_info@text",
+      "lastChapter": "class.block_txt2@tag.p.6@a@text",
+      "name": "class.block_txt2@h2@text",
+      "tocUrl": "text.查看目录@href"
+    },
+    "ruleContent": {
+      "content": "id.nr1@html##（本章未完.*|&&amp;hellip|.*④∨④∨④∨.с☉Μ.*|.*第.*/.*页.*",
+      "imageStyle": "0",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.cover@p",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.a.1@href<js>'https://www.baishul.net/files/article/image'+String(result).replace(/.*?(\\d*?)(\\d{1,3})\\//,'/$1/$1$2/$1$2s.jpg').replace('//','/0/')</js>",
+      "kind": "tag.a.0@text##\\[|\\]",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "http://m.fengwug.com/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&type=articlename\"\n}",
+    "weight": 0
+  }]

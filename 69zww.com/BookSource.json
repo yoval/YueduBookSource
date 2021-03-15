@@ -1,0 +1,46 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🍺特优",
+    "bookSourceName": "🍺 69中文网①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.69zww.com",
+    "customOrder": -116876,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/list/1/{{page}}.html\n言情::/list/2/{{page}}.html\n仙侠::/list/3/{{page}}.html\n都市::/list/4/{{page}}.html\n历史::/list/5/{{page}}.html\n网游::/list/6/{{page}}.html\n竞技::/list/7/{{page}}.html\n科幻::/list/8/{{page}}.html\n最新::/list/9/{{page}}.html\n全本::/quanben/{{page}}",
+    "lastUpdateTime": 1605238049667,
+    "ruleBookInfo": {
+      "author": "class.item.0@tag.a.0@text",
+      "coverUrl": "class.img_in@tag.img@src",
+      "intro": "id.intro@text",
+      "name": "id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html##69中文网.*"
+    },
+    "ruleExplore": {
+      "author": ".author@text",
+      "bookList": "class.titlelist@li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##https://www.69zww.com/files/article/image/$2/$1/$1s.jpg###",
+      "intro": "",
+      "lastChapter": "class.zz@a@text",
+      "name": ".zp@a@text",
+      "wordCount": ".sj@text"
+    },
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##https://www.69zww.com/files/article/image/$2/$1/$1s.jpg###",
+      "lastChapter": "class.even.0@tag.a.0@text",
+      "name": "class.odd.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.zjlist@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.69zww.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

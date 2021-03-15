@@ -1,0 +1,48 @@
+[  {
+    "bookSourceComment": "error:Index: 0, Size: 0\n",
+    "bookSourceGroup": "📡发现,失效",
+    "bookSourceName": "📡 写意小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.xieyixs.com",
+    "customOrder": -33042,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "言情::/yanqing/1_{{page}}/\n纯爱::/chunai/2_{{page}}/\n玄幻::/xuanhuan/3_{{page}}/\n仙侠::/xianxia/4_{{page}}/\n都市::/dushi/5_{{page}}/\n穿越::/chuanyue/6_{{page}}/\n网游::/wangyou/7_{{page}}/\n科幻::/kehuan/8_{{page}}/\n灵异::/lingyi/9_{{page}}/\n其他::/qita/10_{{page}}/",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0\"\n}",
+    "lastUpdateTime": 1602769158603,
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text##作 者：",
+      "coverUrl": "id.list@tag.a.0@href##(\\/\\d+)_(\\d+)\\/.*##/files/article/image$1/$2/$2s.jpg",
+      "intro": "id.intro@p@text",
+      "kind": "id.info@tag.p.2@text##.*：|\\s.*",
+      "lastChapter": "id.list@tag.a.-1@text",
+      "name": "h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {
+      "author": "a!0:1@text",
+      "bookList": ".tt",
+      "bookUrl": "a@href##(\\/\\d+_\\d+\\/).*##https://www.xieyixs.com$1",
+      "coverUrl": "img@src",
+      "intro": ".p5@text",
+      "kind": "p!0:3:4@text",
+      "name": "a!0:2@text"
+    },
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "id.nr",
+      "bookUrl": "a@href",
+      "coverUrl": "a@href##.*(\\/\\d+)_(\\d+)\\/##/files/article/image$1/$2/$2s.jpg",
+      "kind": "td!0:1:2@text",
+      "lastChapter": "a!0@text",
+      "name": "a!1@text"
+    },
+    "ruleToc": {
+      "chapterList": "+id.list@dd@a",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.xieyixs.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

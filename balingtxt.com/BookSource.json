@@ -1,0 +1,48 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 八零电子书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.balingtxt.com",
+    "customOrder": -32364,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "奇幻修真::/sort3/{{page}}.html\n奇幻魔法::/sort13/{{page}}.html\n异术超能::/sort1/{{page}}.html\n东方传奇::/sort12/{{page}}.html\n王朝争霸::/sort14/{{page}}.html\n江湖武侠::/sort15/{{page}}.html\n未来幻想::/sort9/{{page}}.html\n灵异鬼怪::/sort10/{{page}}.html\n探险揭秘::/sort22/{{page}}.html\n历史传记::/sort6/{{page}}.html\n特种军旅::/sort7/{{page}}.html\n虚拟网游::/sort16/{{page}}.html\n竞技体育::/sort8/{{page}}.html\n魔幻女强::/sort2/{{page}}.html\n都市婚姻::/sort4/{{page}}.html\n百合之恋::/sort5/{{page}}.html\n同人美文::/sort11/{{page}}.html\n穿越架空::/sort17/{{page}}.html\n王室贵族::/sort18/{{page}}.html\n魔法校园::/sort19/{{page}}.html\n乡土布衣::/sort20/{{page}}.html\n官职商战::/sort21/{{page}}.html\n间谍暗战::/sort23/{{page}}.html\n唯美言情::/sort24/{{page}}.html\n诗歌文集::/sort25/{{page}}.html",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "tocUrl": "text.在线阅读_目录@href"
+    },
+    "ruleContent": {
+      "content": "id.content@html##最新网址(.|\\n)* |80电子书.*|最新章节.*|.*阅读记录，.*",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "author": "tag.a.1@text",
+      "bookList": "id.list_art_2013",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.book_jj@text",
+      "kind": "tag.span.0@text",
+      "lastChapter": "tag.b.0@text",
+      "name": "tag.a.0@text##TXT.*",
+      "wordCount": "##大小:</small>([^<]+)<##$1###"
+    },
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "id.content@ul",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "tag.p.1@text",
+      "kind": "##分类：([^<]+)<##$1###",
+      "lastChapter": "##最新章节:([^<]+)<##$1###",
+      "name": "tag.a.1@text##\\《|\\》.*",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "id.yulan@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=articlename\"\n}",
+    "weight": 0
+  }]

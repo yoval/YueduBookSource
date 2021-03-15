@@ -1,0 +1,53 @@
+[  {
+    "bookSourceComment": "error:Unable to resolve host \"www.dudj.net\": No address associated with hostname\n",
+    "bookSourceGroup": "📚出版,失效",
+    "bookSourceName": "📚 读典籍",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.dudj.net",
+    "bookUrlPattern": "",
+    "customOrder": -24748,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "古文典籍::http://www.dudj.net/guwendianji/\n红色经典::http://www.dudj.net/hongsejingdian/\n世界名著::http://www.dudj.net/shijiemingzhu/\n文学经典::http://www.dudj.net/wenxuejingdian/\n人物传记::http://www.dudj.net/renwuzhuanji/\n哲学宗教::http://www.dudj.net/zhexuezongjiao/\n社会伦理::http://www.dudj.net/shehuilunli/\n美学艺术::http://www.dudj.net/meixueyishu/\n教育生活::http://www.dudj.net/jiaoyushenghuo/\n政治军事::http://www.dudj.net/zhengzhijunshi/\n经济财经::http://www.dudj.net/jingjicaijing/\n史籍历史::http://www.dudj.net/shijilishi/\n自然科学::http://www.dudj.net/zirankexue/",
+    "lastUpdateTime": 1602912000434,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.bktitle@a@text",
+      "coverUrl": "id.zuo@tag.img.0@src",
+      "intro": "class.neir@text##简介：",
+      "kind": "class.zhaungtai@tag.a.0@text",
+      "lastChapter": "class.zlb@tag.tr.1@tag.a.0@text",
+      "tocUrl": "class.butt@href",
+      "wordCount": "class.zhaungtai@tag.span.2@text"
+    },
+    "ruleContent": {
+      "content": "class.zw@html##<!-- 多条广告如下脚本只需引入一次 -->"
+    },
+    "ruleExplore": {
+      "author": "class.ex@tag.a.1@text",
+      "bookList": "id.zuo@class.bbox",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.ex@tag.p.2@text",
+      "lastChapter": "class.ex@tag.a.0@text",
+      "name": "tag.h3@a@text"
+    },
+    "ruleSearch": {
+      "author": "class.atitle.a@text",
+      "bookList": "class.sbintro",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "",
+      "intro": "class.tp@text##简介：",
+      "kind": "class.blue.1@text",
+      "lastChapter": "",
+      "name": "tag.a.0@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "@js:\njava.getElements('@@class.zlb@tag.li@tag.a').toArray().sort().map(x=>x)",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/e/search/index.php,{\n\"charset\": \"\",\n\"method\": \"POST\",\n\"body\": \"show=title,writer&tempid=1&keyboard={{key}}&page={{page}}\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "⑤🔞; 发现",
+    "bookSourceName": "东方小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.dfyuedu.org",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最近更新::http://www.dfyuedu.org/top/lastupdate/{{page}}.html\n最新入库::http://www.dfyuedu.org/top/postdate/{{page}}.html\n全本小说::http://www.dfyuedu.org/over/{{page}}.html\n总点击榜::http://www.dfyuedu.org/top/allvisit/{{page}}.html\n总收藏榜::http://www.dfyuedu.org/top/marknum/{{page}}.html\n总推荐榜::http://www.dfyuedu.org/top/votenum/{{page}}.html\n总下载榜::http://www.dfyuedu.org/top/downnum/{{page}}.html\n全部小说::http://www.dfyuedu.org/sort/all/{{page}}.html\n玄幻小说::http://www.dfyuedu.org/sort/xuanhuan/{{page}}.html\n奇幻小说::http://www.dfyuedu.org/sort/qihuan/{{page}}.html\n武侠小说::http://www.dfyuedu.org/sort/wuxia/{{page}}.html\n仙侠小说::http://www.dfyuedu.org/sort/xianxia/{{page}}.html\n都市小说::http://www.dfyuedu.org/sort/dushi/{{page}}.html\n历史小说::http://www.dfyuedu.org/sort/lishi/{{page}}.html\n军事小说::http://www.dfyuedu.org/sort/junshi/{{page}}.html\n游戏小说::http://www.dfyuedu.org/sort/youxi/{{page}}.html\n竞技小说::http://www.dfyuedu.org/sort/jingji/{{page}}.html\n科幻小说::http://www.dfyuedu.org/sort/kehuan/{{page}}.html\n灵异小说::http://www.dfyuedu.org/sort/lingyi/{{page}}.html\n同人小说::http://www.dfyuedu.org/sort/tongren/{{page}}.html\n女生小说::http://www.dfyuedu.org/sort/nvsheng/{{page}}.html\n其他小说::http://www.dfyuedu.org/sort/qita/{{page}}.html\n文学小说::http://www.dfyuedu.org/sort/wenxue/{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.novelinfo-r@img@src",
+      "intro": "class.card mt20.0@tag.div.2@textNodes##各位书友要是.*",
+      "lastChapter": "class.novelinfo-l@tag.li.5@a@text##【|】"
+    },
+    "ruleContent": {
+      "content": "class.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.info@tag.span.1@a@text",
+      "bookList": "class.librarylist@li",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "kind": "class.info@tag.span.2@a@text",
+      "lastChapter": "class.last@a@text##【|】",
+      "name": "class.info@tag.span.0@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.dirlist clearfix.1@li@a",
+      "chapterName": "text##【|】",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.dfyuedu.org/search.html?searchtype=novelname&searchkey={{key}}",
+    "weight": 0
+  }]

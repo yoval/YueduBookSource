@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 566小说网[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.5666xs.com",
+    "bookUrlPattern": "",
+    "customOrder": -115550,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻·奇幻::/xuanhuan.html\n仙侠·武侠::/xianxia.html\n都市·言情::/dushi.html\n穿越·历史::/chuanyue.html\n科幻·灵异::/kehuan.html\n同人·网游::/tongren.html\n玄幻书库::/quanshuku_1_1.html\n武侠书库::/quanshuku_1_2.html\n言情书库::/quanshuku_1_3.html\n穿越书库::/quanshuku_1_4.html\n科幻书库::/quanshuku_1_5.html\n同人书库::/quanshuku_1_6.html\n玄幻小说排行::/quanshuku_1_7.html\n仙侠小说排行::/quanshuku_1_8.html\n言情小说排行::/quanshuku_1_9.html\n穿越小说排行::/quanshuku_1_10.html\n科幻小说排行::/quanshuku_1_11.html\n同人小说排行::/quanshuku_1_12.html",
+    "lastUpdateTime": 1606913846863,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.info@tag.a.0@text",
+      "coverUrl": "class.pic@tag.img@src",
+      "intro": "class.words@text##.*小说简介："
+    },
+    "ruleContent": {
+      "content": "class.box_box@html##本章未完，点击[ 下一页 ]继续阅读",
+      "nextContentUrl": "@js:if(result.match(/>下一页</)){if(baseUrl.match(/_\\d+.html/)){p=baseUrl.match(/_(\\d+).html/)[1];\nn=baseUrl.replace(/_\\d+.html/,'_'+[p+1]+'.html');\nn}else{n=baseUrl.replace(/.html/,'_2.html');\nn}}",
+      "sourceRegex": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@tag.a@text||class.words@tag.a.0@text",
+      "bookList": "id.main@tag.li||class.ul_m_list@tag.li||class.list_box@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "class.pic@tag.img@src",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list_box@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.5666xs.com/plus/search.php?q={{key}}",
+    "weight": 0
+  }]

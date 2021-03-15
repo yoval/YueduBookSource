@@ -1,0 +1,36 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 说说520™[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.xshuoshuo.com",
+    "customOrder": -115721,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部::http://m.xshuoshuo.com/ph/week_{{page}}.html\n玄幻魔法::http://m.xshuoshuo.com/ph/week1_{{page}}.html\n武侠修真::http://m.xshuoshuo.com/ph/week2_{{page}}.html\n都市言情::http://m.xshuoshuo.com/ph/week3_{{page}}.html\n历史军事::http://m.xshuoshuo.com/ph/week4_{{page}}.html\n网游竞技::http://m.xshuoshuo.com/ph/week5_{{page}}.html\n科幻小说::http://m.xshuoshuo.com/ph/week6_{{page}}.html\n恐怖灵异::http://m.xshuoshuo.com/ph/week7_{{page}}.html\n其它类型::http://m.xshuoshuo.com/ph/week8_{{page}}.html",
+    "lastUpdateTime": 1612805487857,
+    "ruleBookInfo": {
+      "coverUrl": "class.synopsisArea_detail@tag.img@src",
+      "tocUrl": "class.recommend@tag.h2.1@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@textNodes||class.Readarea ReadAjax_content@textNodes##.*最新章节！|说说520.*",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "class.hot_sale",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "class.lazy@data-original",
+      "lastChapter": "class.review@text##简介：",
+      "name": "class.title@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterlist@tag.p!0:",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.baidu.com/s?searchkey={{key}}&m.xshuoshuo.com=downbook.net",
+    "weight": 0
+  }]

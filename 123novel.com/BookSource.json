@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "优,失效",
+    "bookSourceName": "123小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.123novel.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.info@tag.a@text",
+      "coverUrl": "class.base clearfix@tag.img@src",
+      "intro": "class.intro@text",
+      "kind": "class.info@tag.2@text",
+      "name": "tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "class.read-content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.result f s0",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "name": "class.c-title@tag.a@text##小说在线阅读 - 123小说网.*|小说.*|免费试读.*|最新章节.*|全文免费.*|"
+    },
+    "ruleToc": {
+      "chapterList": "class.attentions@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://zhannei.baidu.com/cse/search?q={{key}}&s=6918356289489702868&entry=1",
+    "weight": 0
+  }]

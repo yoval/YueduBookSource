@@ -1,0 +1,43 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "自制",
+    "bookSourceName": "39小说网手机阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.xyshuk.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/sort/1_{{page}}",
+    "lastUpdateTime": 1614334227895,
+    "ruleBookInfo": {
+      "author": "class.block_txt2@tag.a.2@text",
+      "coverUrl": "class.block_img2@img@src",
+      "init": "",
+      "intro": "class.intro_info@html",
+      "kind": "class.block_txt2@tag.a.3@text",
+      "lastChapter": "class.block_txt2@tag.a.4@text",
+      "name": "h2@tag.a@text",
+      "tocUrl": "text.查看目录@href"
+    },
+    "ruleContent": {
+      "content": "id.nr1@html",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": "##（本章未完.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.line",
+      "bookUrl": "tag.a.1@href",
+      "kind": "tag.a.0@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "http://m.xyshuk.com/s.php,{\n\"charset\": \"utf-8\",\n\"method\": \"POST\",\n\"body\": \"s={{key}}\"\n}",
+    "weight": 0
+  }]

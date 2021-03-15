@@ -1,0 +1,36 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🌸常用",
+    "bookSourceName": "🌸 笔趣阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.biqiuge.com",
+    "customOrder": -117022,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1604164789631,
+    "ruleBookInfo": {
+      "author": "class.small@tag.span.0@text",
+      "coverUrl": "img@src",
+      "intro": "class.intro@text",
+      "kind": "class.small@tag.span.1@text",
+      "lastChapter": "class.small@tag.span.5@text",
+      "name": "class.cover@text"
+    },
+    "ruleContent": {
+      "content": "class.showtxt@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.search-list@tag.ul@tag.li",
+      "bookUrl": "class.s2@tag.a@href",
+      "name": "class.s2@tag.a@text##"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.dl@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://so.biqusoso.com/s.php?ie=utf-8&siteid=biqiuge.com&q={{key}}",
+    "weight": 0
+  }]

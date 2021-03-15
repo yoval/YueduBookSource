@@ -1,0 +1,43 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔮发现,📙漫画",
+    "bookSourceName": "📙可乐漫画",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.kelemh.com",
+    "bookUrlPattern": "",
+    "customOrder": -34155,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "连载::https://www.kelemh.com/booklist?page={{page}}\n剧情::/booklist?tag=剧情&page={{page}}\n恋爱::/booklist?tag=恋爱&page={{page}}\n冒险::/booklist?tag=冒险&page={{page}}\n动作::/booklist?tag=动作&page={{page}}\n校园::/booklist?tag=校园&page={{page}}\n恐怖::/booklist?tag=恐怖&page={{page}}\n古风::/booklist?tag=古风&page={{page}}\n耽美::/booklist?tag=BL&page={{page}}\n搞笑::/booklist?tag=搞笑&page={{page}}\n科幻::/booklist?tag=科幻&page={{page}}\n其他::/booklist?tag=其他&page={{page}}\n爱情::/booklist?tag=爱情&page={{page}}\n生活::/booklist?tag=生活&page={{page}}\n后宫::/booklist?tag=后宫&page={{page}}\n热血::/booklist?tag=热血&page={{page}}\n真人::/booklist?tag=真人&page={{page}}",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MIX 2 Build/OPR1.170623.027) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1\"\n}",
+    "lastUpdateTime": 1605403698150,
+    "ruleBookInfo": {
+      "author": "class.detail-main-info@tag.p.2@text",
+      "coverUrl": "tag.img@data-original",
+      "intro": "class.detail-desc@text",
+      "kind": "class.detail-main-info-class@text",
+      "lastChapter": "id.detail-list-select@tag.li.-1@tag.a@text",
+      "name": "class.book-list-info@tag.a@tag.p.0@text",
+      "wordCount": "class.detail-main-info@tag.p.3@text"
+    },
+    "ruleContent": {
+      "content": "class.lazy@html##src.*\\\"\n@js:result.replace(/data-original/g,\"src\")",
+      "imageStyle": "FULL"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.span.0@text",
+      "bookList": "tag.ul@tag.li",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@data-original",
+      "intro": "tag.p.1@text",
+      "name": "tag.p.0@text||tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.detail-list-select@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.kelemh.com/search,{\n\"charset\": \"\",\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}\"\n}",
+    "weight": 0
+  }]

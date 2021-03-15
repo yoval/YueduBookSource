@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🌸常用",
+    "bookSourceName": "🌸 三K小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.kkkxs.com",
+    "customOrder": -117005,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::http://m.kkkxs.com/xuanhuan/{{page}}.html&&武侠仙侠::/wuxia/{{page}}.html&&都市生活::/dushi/{{page}}.html&&历史军事::/lishi/&&游戏竞技::/youxi/{{page}}.html&&科幻未来::/kehuan/{{page}}.html&&恐怖悬疑::/xuanyi/&&二次元::/erciyuan/{{page}}.html&&经典网文::/jingdian/{{page}}.html&&古代言情::/guyan/{{page}}.html&&现代言情::/xianyan/{{page}}.html&&幻想奇缘::/huanqing/{{page}}.html&&青春校园::/qingchun/{{page}}.html&&网络情缘::/wangluo/{{page}}.html&&科幻空间::/mmkehuan/{{page}}.html&&鬼怪灵异::/lingyi/&&N次元::/Nciyuan/{{page}}.html&&言情美文::/yanqing/{{page}}.html&&",
+    "lastUpdateTime": 1612276880163,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": ".content@p@textNodes##.*?kkkxs.com.*",
+      "nextContentUrl": "text.下一章@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": ".list li",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "img@src",
+      "intro": ".intro@textNodes",
+      "kind": "tag.span.0@text",
+      "lastChapter": "tag.a.3@text",
+      "name": "tag.a.1@text",
+      "wordCount": "tag.span.1@text"
+    },
+    "ruleToc": {
+      "chapterList": ".read a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "option@value"
+    },
+    "searchUrl": "http://m.kkkxs.com/search.html?searchkey={{key}}",
+    "weight": 0
+  }]

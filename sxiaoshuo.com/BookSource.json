@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 搜小说①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.sxiaoshuo.com",
+    "bookUrlPattern": "",
+    "customOrder": -32207,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/book/sort1/0/{{page}}.html\n武侠修真::/book/sort2/0/{{page}}.html\n都市言情::/book/sort3/0/{{page}}.html\n历史军事::/book/sort4/0/{{page}}.html\n穿越架空::/book/sort5/0/{{page}}.html\n游戏竞技::/book/sort6/0/{{page}}.html\n科幻未来::/book/sort7/0/{{page}}.html\n恐怖灵异::/book/sort8/0/{{page}}.html\n幻想言情::/book/sort9/0/{{page}}.html\n其他::/book/sort10/0/{{page}}.html\n经部::/book/sort11/0/{{page}}.html\n史部::/book/sort12/0/{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.c_description@text",
+      "name": "",
+      "tocUrl": "class.ulrow mt tc@tag.li@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "id.acontent@textNodes##\\(搜小说.*\\)|关注.*\\>|开通.*\\>|"
+    },
+    "ruleExplore": {
+      "name": ""
+    },
+    "ruleSearch": {
+      "author": "class.c_tag.0@class.c_value.0@text",
+      "bookList": "class.c_row",
+      "bookUrl": "class.c_subject@tag.a@href",
+      "coverUrl": "class.fl@tag.a@tag.img@src",
+      "kind": "class.c_tag.0@class.c_value.1@text",
+      "lastChapter": "class.c_tag.1@class.c_value.0@tag.a@text",
+      "name": "class.c_subject@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapters@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.sxiaoshuo.com/modules/article/search.php?searchkey={{key}}&searchtype=all&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

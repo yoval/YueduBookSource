@@ -1,0 +1,54 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 97中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://wap.97wz.net",
+    "customOrder": -115291,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "奇幻玄幻::https://m.97wz.net/xuanhuan/<,{{page}}.html>\n武侠仙侠::https://m.97wz.net/wuxia/<,{{page}}.html>\n都市生活::https://m.97wz.net/dushi/<,{{page}}.html>\n历史军事::https://m.97wz.net/lishi/{<,{{page}}.html>\n游戏竞技::https://m.97wz.net/youxi/<,{{page}}.html>\n科幻未来::https://m.97wz.net/kehuan/<,{{page}}.html>\n恐怖悬疑::https://m.97wz.net/xuanyi/<,{{page}}.html>\n二次元::https://m.97wz.net/erciyuan/<,{{page}}.html>\n经典网文::https://m.97wz.net/jingdian/<,{{page}}.html>\n古代言情::https://m.97wz.net/guyan/<,{{page}}.html>\n现代言情::https://m.97wz.net/xianyan/<,{{page}}.html>\n幻想奇缘::https://m.97wz.net/huanqing/<,{{page}}.html>\n青春校园::https://m.97wz.net/qingchun/<,{{page}}.html>\n网络情缘::https://m.97wz.net/wangluo/<,{{page}}.html>\n科幻空间::https://m.97wz.net/mmkehuan/<,{{page}}.html>\n鬼怪灵异::https://m.97wz.net/lingyi/<,{{page}}.html>\nN次元::https://m.97wz.net/Nciyuan/<,{{page}}.html>\n言情美文::https://m.97wz.net/yanqing/<,{{page}}.html>",
+    "lastUpdateTime": 1604165432000,
+    "ruleBookInfo": {
+      "author": "class.detail@class.author@tag.a@text",
+      "coverUrl": "class.detail@img@src",
+      "init": "",
+      "intro": "class.box.0@class.intro@tag.p.0@text",
+      "kind": "class.detail@class.layui-btn layui-btn-xs layui-btn-radius@text",
+      "lastChapter": "class.detail@class.new@tag.a@text",
+      "name": "class.detail@class.name@text",
+      "tocUrl": "class.action@tag.li.0@tag.a@href",
+      "wordCount": "class.detail@class.layui-btn layui-btn-xs layui-bg-red@text"
+    },
+    "ruleContent": {
+      "content": "class.content@html"
+    },
+    "ruleExplore": {
+      "author": "tag.p.1@tag.a@text",
+      "bookList": "class.list@tag.li",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.a@img@src",
+      "intro": "tag.p.2@text",
+      "lastChapter": "tag.p.3@tag.a@text",
+      "name": "tag.p.0@tag.a@text"
+    },
+    "ruleSearch": {
+      "author": "tag.p.1@tag.a@text",
+      "bookList": "class.list@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@src",
+      "intro": "tag.p.2@text",
+      "kind": "tag.p.1@tag.span.0@text",
+      "lastChapter": "tag.p.3@tag.a@text",
+      "name": "tag.p.0@tag.a@text",
+      "wordCount": "tag.p.1@tag.span.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.read@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://m.97wz.net/search.html,{\"method\":\"POST\";\"body\":\"searchkey={{key}}\"}",
+    "weight": 0
+  }]

@@ -1,0 +1,46 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 四合读书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.siheds.com",
+    "customOrder": -115466,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/xuanhuan/{{page}}.html\n武侠::/wuxia/{{page}}.html\n都市::/dushi/{{page}}.html\n历史::/lishi/{{page}}.html\n游戏::/youxi/{{page}}.html\n科幻::/kehuan/{{page}}.html\n恐怖::/xuanyi/{{page}}.html\n二次::/erciyuan/{{page}}.html\n经典::/jingdian/{{page}}.html\n古代::/guyan/{{page}}.html\n现代::/xianyan/{{page}}.html\n幻想::/huanqing/{{page}}.html\n青春::/qingchun/{{page}}.html\n网络::/wangluo/{{page}}.html\n科幻::/mmkehuan/{{page}}.html\n鬼怪::/lingyi/{{page}}.html\nN次::/Nciyuan/{{page}}.html\n言情::/yanqing/{{page}}.html",
+    "lastUpdateTime": 1605265107274,
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@tag.p.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@tag.p@text##喜欢.*四合读书更新速度最快。",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "author": "class.s4@text",
+      "bookList": "id.newscontent@tag.li",
+      "bookUrl": "class.s2@tag.a@href",
+      "kind": "class.s1@text##\\[|\\]",
+      "lastChapter": "class.s3@tag.a@text",
+      "name": "class.s2@tag.a@text"
+    },
+    "ruleSearch": {
+      "author": "class.book_other.0@tag.span.0@text",
+      "bookList": "id.sitembox@tag.dl",
+      "bookUrl": "tag.dd.0@tag.h3@tag.a@href",
+      "coverUrl": "tag.dt@tag.a@tag.img@src",
+      "intro": "class.book_des@text",
+      "kind": "class.book_other.0@tag.span.2@text",
+      "lastChapter": "class.book_other.1@tag.a@text",
+      "name": "tag.dd.0@tag.h3@tag.a@text",
+      "wordCount": "class.book_other.0@tag.span.3@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.siheds.com/search.html,{\"charset\": \"utf-8\",\"method\": \"POST\", \"body\": \"searchkey={{key}}\"}",
+    "weight": 0
+  }]

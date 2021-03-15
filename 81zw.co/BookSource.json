@@ -1,0 +1,49 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "👍优质",
+    "bookSourceName": "👍 八一中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.81zw.co",
+    "customOrder": -114922,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/fenlei/1_{{page}}/\n言情::/fenlei/2_{{page}}/\n仙侠::/fenlei/3_{{page}}/\n都市::/fenlei/4_{{page}}/\n历史::/fenlei/5_{{page}}/\n网游::/fenlei/6_{{page}}/\n竞技::/fenlei/7_{{page}}/\n科幻::/fenlei/8_{{page}}/\n完本::/quanben/{{page}}/",
+    "lastUpdateTime": 1612541432565,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##小说|\\s.*",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##正文\\s|正文卷\\s|章节目录\\s",
+      "name": "[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+      "content": "id.content@html##八一中文.*"
+    },
+    "ruleExplore": {
+      "author": "class.author@text",
+      "bookList": "id.tlist@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##https://www.81zw.co/files/article/image/$2/$1/$1s.jpg###",
+      "kind": "class.sj@text",
+      "lastChapter": "class.zz@text",
+      "name": "class.zp@text"
+    },
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "id.main@tag.tr!0",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##https://www.81zw.co/files/article/image/$2/$1/$1s.jpg###",
+      "kind": "tag.td.4@text&&tag.td.5@text",
+      "lastChapter": "tag.td.1@text",
+      "name": "tag.td.0@text",
+      "wordCount": "tag.td.3@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.zjlist@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&submit={{key}}&page={{page}}\"\n}",
+    "weight": 0
+  }]

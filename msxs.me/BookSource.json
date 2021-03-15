@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "A级; 18; 发现",
+    "bookSourceName": "乡村小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.msxs.me",
+    "bookUrlPattern": "",
+    "customOrder": 364,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "乡村小说::http://www.misexs.com/module/novel/type.php?tid=1&page={{page}}\n激情小说::http://www.misexs.com/module/novel/type.php?tid=9&page={{page}}\n最新入库::http://www.misexs.com/module/novel/toplist.php?tid=0&type=1&page={{page}}\n全部推荐::http://www.misexs.com/module/novel/toplist.php?tid=0&type=12&page={{page}}\n全部点击::http://www.misexs.com/module/novel/toplist.php?tid=0&type=2&page={{page}}\n全部收藏::http://www.misexs.com/module/novel/toplist.php?tid=0&type=7&page={{page}}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.first@tag.em@text",
+      "coverUrl": "class.works-cover@tag.img@src",
+      "intro": "class.works-intro-short@text",
+      "tocUrl": "text.章节目录列表.0@href"
+    },
+    "ruleContent": {
+      "content": "class.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "-||tag.p.1@text",
+      "bookList": "class.mod_book_list@tag.li||class.ret-search-list@tag.li||class.rank-ul@tag.li",
+      "bookUrl": "tag.h4.0@tag.a@href||tag.h3.0@tag.a@href||tag.a.0@href",
+      "coverUrl": "tag.img.0@src||class.ret-works-cover.0@tag.img@src",
+      "kind": "-||class.ret-works-tags@tag.a@text",
+      "lastChapter": "class.mod_book_update@text||tag.a.1@text",
+      "name": "tag.h4.0@text||tag.h3.0@text||tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.works-chapter-item",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.msxs.me/module/novel/search.php?type=1&key={{key}}&page={{page}}",
+    "weight": 0
+  }]

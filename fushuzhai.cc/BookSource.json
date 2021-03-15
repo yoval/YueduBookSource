@@ -1,0 +1,64 @@
+[  {
+    "bookSourceComment": "error:Connection reset\n",
+    "bookSourceGroup": "🚬刘备,🍑耽美",
+    "bookSourceName": "🍑 腐书宅②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.fushuzhai.cc",
+    "bookUrlPattern": "",
+    "customOrder": -116139,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1605534901006,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.article_info_td@tag.a.0@text",
+      "coverUrl": "",
+      "init": "",
+      "intro": "//*[@id=\"novelMain\"]/div[3]/div",
+      "kind": "class.article_info_td@tag.a.1@text",
+      "lastChapter": "class.article_info_td@tag.a.2@text",
+      "name": "",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "@js:\n\ncontent={\n    childNode:[],\n    childNodes:java.getElements(\".content@p\").toArray(),\n    UpWz:function(m, i) {\n        var k = Math.ceil((i + 1) % this.code);\n        k = Math.ceil(m - k);\n        return k\n    },\n    load:function(){\n  this.code=result.match(/codeurl=.(\\d+)/)[1];\n        var e =String(java.base64Decode(java.getString('[name=client]@content',!1))).split(/[A-Z]+%/);\n\n        for (var i = 0; i < e.length; i++) {\n            var k = this.UpWz(e[i], i);\n            this.childNode[k]=this.childNodes[i]\n        }}\n}\n\n\nif((/codeurl/).test(result)){\ncontent.load();\nresult=content.childNode.join(\"<br>\");}\n\nif(baseUrl.match(/novel\\/\\d+\\.html/)){\nresult=\"暂不支持本书目录解析,请到浏览器阅读\"}\n\nresult=result.replace(/^net::ERR_.*/g,baseUrl+\"加载失败,请刷新\")",
+      "nextContentUrl": ".chapterPages@tag.a.!0@href##(_2.html$)##$1,{webView:true}",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "tag.p.0@strong@text",
+      "bookList": "class.common-bookele",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "",
+      "intro": "tag.a.1@text",
+      "kind": "tag.p.1@text##栏目：",
+      "lastChapter": "",
+      "name": "tag.a.0@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "-@js:\n//完整目录需要验证码\n//正文http://m.fushuzhai.cc/novel/bid/cid.html\n//目录的某种规律是cid依次加1\n//目录有时不需要验证码\n//目录时而正序时而负序\n\ntry{\n\nlet bid=baseUrl.match(/(\\d+)/)[1];\nlet chapter_num=result.match(/共(\\d+)章节/)[1];\nlet cata=java.getElements(\"class.lb_mulu chapterList@tag.li.!-1@a\").toArray();\n\nlet cid_1=cata[0].toString().match(/\\/(\\d+)\\.html/)[1],\ncid_2=cata[chapter_num>1?1:0].toString().match(/\\/(\\d+)\\.html/)[1];\n\nif(cid_1-cid-2==1){\nlet list=[];\nfor(i=1;i<=chapter_num;i++,cid_1--){\nlist.push({text:\"分卷阅读\"+i,href:\"/novel/\"+bid+\"/\"+cid_1+\".html\"});}\nresult=list;}\n\nelse if(cata.length==chapter_num){\nresult=cata.sort().map(x=>({text:x.text(),href:x.attr(\"href\")}));}\n\nelse{result=[{text:\"暂不支持本书目录的完整解析\",href:baseUrl}]}\n}\ncatch(e){[{text:\"网站已改版6.27\"+e,href:baseUrl}]}",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "/search.html?key={{key}}&page={{page}}",
+    "weight": 0
+  }]

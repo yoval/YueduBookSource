@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎨漫画",
+    "bookSourceName": "🎨 微博动漫",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://manhua.weibo.com",
+    "bookUrlPattern": "",
+    "customOrder": -31300,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "剧情::http://apiwap.vcomic.com/wbcomic/comic/filter_result?end_status=0&comic_pay_status=0&_debug_=yes&_request_from=pc&order=comic_read_num&rows_num=16&page_num={{page}}&cate_id=1\n恋爱::http://apiwap.vcomic.com/wbcomic/comic/filter_result?end_status=0&comic_pay_status=0&_debug_=yes&_request_from=pc&order=comic_read_num&rows_num=16&page_num={{page}}&cate_id=5\n搞笑::http://apiwap.vcomic.com/wbcomic/comic/filter_result?end_status=0&comic_pay_status=0&_debug_=yes&_request_from=pc&order=comic_read_num&rows_num=16&page_num={{page}}&cate_id=3\n日常::http://apiwap.vcomic.com/wbcomic/comic/filter_result?end_status=0&comic_pay_status=0&_debug_=yes&_request_from=pc&order=comic_read_num&rows_num=16&page_num={{page}}&cate_id=4\n总裁::http://apiwap.vcomic.com/wbcomic/comic/filter_result?end_status=0&comic_pay_status=0&_debug_=yes&_request_from=pc&order=comic_read_num&rows_num=16&page_num={{page}}&cate_id=6\n奇幻::http://apiwap.vcomic.com/wbcomic/comic/filter_result?end_status=0&comic_pay_status=0&_debug_=yes&_request_from=pc&order=comic_read_num&rows_num=16&page_num={{page}}&cate_id=2\n少年::http://apiwap.vcomic.com/wbcomic/comic/filter_result?end_status=0&comic_pay_status=0&_debug_=yes&_request_from=pc&order=comic_read_num&rows_num=16&page_num={{page}}&cate_id=7\n动作::http://apiwap.vcomic.com/wbcomic/comic/filter_result?end_status=0&comic_pay_status=0&_debug_=yes&_request_from=pc&order=comic_read_num&rows_num=16&page_num={{page}}&cate_id=8\n校园::http://apiwap.vcomic.com/wbcomic/comic/filter_result?end_status=0&comic_pay_status=0&_debug_=yes&_request_from=pc&order=comic_read_num&rows_num=16&page_num={{page}}&cate_id=9\n都市::http://apiwap.vcomic.com/wbcomic/comic/filter_result?end_status=0&comic_pay_status=0&_debug_=yes&_request_from=pc&order=comic_read_num&rows_num=16&page_num={{page}}&cate_id=10\n悬疑::http://apiwap.vcomic.com/wbcomic/comic/filter_result?end_status=0&comic_pay_status=0&_debug_=yes&_request_from=pc&order=comic_read_num&rows_num=16&page_num={{page}}&cate_id=12\n灵异::http://apiwap.vcomic.com/wbcomic/comic/filter_result?end_status=0&comic_pay_status=0&_debug_=yes&_request_from=pc&order=comic_read_num&rows_num=16&page_num={{page}}&cate_id=11\n古风::http://apiwap.vcomic.com/wbcomic/comic/filter_result?end_status=0&comic_pay_status=0&_debug_=yes&_request_from=pc&order=comic_read_num&rows_num=16&page_num={{page}}&cate_id=15\n其他::http://apiwap.vcomic.com/wbcomic/comic/filter_result?end_status=0&comic_pay_status=0&_debug_=yes&_request_from=pc&order=comic_read_num&rows_num=16&page_num={{page}}&cate_id=16",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/62.0.2357.134 Safari/537.36\"\n}",
+    "lastUpdateTime": 1603283569374,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "@JSon:$.data.comic.sina_nickname",
+      "intro": "@JSon:$..description",
+      "kind": "@JSon:$.comic_tag.tag_name",
+      "lastChapter": "@JSon:$..chapter_num",
+      "name": "@JSon:$.data.comic.name"
+    },
+    "ruleContent": {
+      "content": ":_S001_znsjFwKLq7u73uPZef3+PRNql4CmOyzEGibbuCdcSI4=\n"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "@JSon:$.sina_nickname",
+      "bookList": "@JSon:$.data.data",
+      "bookUrl": "http://apiwap.vcomic.com/wbcomic/comic/comic_show?comic_id={$.comic_id}&_request_from=pc",
+      "coverUrl": "@JSon:$.hcover||comic_hcover",
+      "kind": "@JSon:$.cates.cate_name",
+      "name": "@JSon:$.name||comic_name"
+    },
+    "ruleToc": {
+      "chapterList": "@JSon:$..chapter_list[*]",
+      "chapterName": "@JSon:$.chapter_name",
+      "chapterUrl": "http://apiwap.vcomic.com/wbcomic/comic/comic_play?chapter_id={$.chapter_id}&_request_from=pc"
+    },
+    "searchUrl": "http://apiwap.vcomic.com/wbcomic/home/search?page_num={{page}}&rows_num=16&word={{key}}&_request_from=pc",
+    "weight": 0
+  }]

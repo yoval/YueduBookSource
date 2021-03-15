@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 自走棋小说[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.zizouqixs.com",
+    "bookUrlPattern": "",
+    "customOrder": -116506,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部小说::http://www.zizouqixs.com/shuku/0-lastupdate-0-{{page}}.html\n精品小说::http://www.zizouqixs.com/shuku/1-lastupdate-0-{{page}}.html\n藏经阁::http://www.zizouqixs.com/shuku/2-lastupdate-0-{{page}}.html\n高辣文::http://www.zizouqixs.com/shuku/3-lastupdate-0-{{page}}.html\n耽美小说::http://www.zizouqixs.com/shuku/4-lastupdate-0-{{page}}.html\n海棠耽美::http://www.zizouqixs.com/shuku/5-lastupdate-0-{{page}}.html\n言情小说::http://www.zizouqixs.com/shuku/6-lastupdate-0-{{page}}.html\n海棠言情::http://www.zizouqixs.com/shuku/7-lastupdate-0-{{page}}.html\n百合小说::http://www.zizouqixs.com/shuku/8-lastupdate-0-{{page}}.html\n情欲小说::http://www.zizouqixs.com/shuku/9-lastupdate-0-{{page}}.html\n评书品书::http://www.zizouqixs.com/shuku/10-lastupdate-0-{{page}}.html\n私密趣事::http://www.zizouqixs.com/shuku/11-lastupdate-0-{{page}}.html\n总人气::http://www.zizouqixs.com/shuku/0-allvisit-0-{{page}}.html\n月人气::http://www.zizouqixs.com/shuku/0-monthvisit-0-{{page}}.html\n字数::http://www.zizouqixs.com/shuku/0-size-0-{{page}}.html\n新书::http://www.zizouqixs.com/shuku/0-postdate-0-{{page}}.html",
+    "lastUpdateTime": 1605540709195,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.bd/a@text",
+      "intro": "class.bd.2@text",
+      "kind": "class.bd.1@text##.*类型：|字数.*",
+      "lastChapter": "class.list.0@tag.li.0@a@text",
+      "name": "class.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.info@tag.a.0@text",
+      "bookList": "class.container@tag.li",
+      "bookUrl": "class.right@tag.a.0@href",
+      "coverUrl": "tag.a.0@href##.*/(\\d+)/(\\d+).*##http://www.zizouqixs.com/images/jipin-default.jpg",
+      "kind": "class.right@tag.span.0@text",
+      "lastChapter": "class.update@tag.a.0@text",
+      "name": "class.right@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.mod block update chapter-list@class.list@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.zizouqixs.com/s.html,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"objectType=2&wd={{key}}\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,54 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 天眼看",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://novel.zhwenpg.com",
+    "bookUrlPattern": "",
+    "customOrder": -32096,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "首页::/?page={{page}}\n武侠::/index.php?page={{page}}&genre=10000\n玄幻::/index.php?page={{page}}&genre=10001\n仙侠::/index.php?page={{page}}&genre=10002\n都市::/index.php?page={{page}}&genre=10003\n校园::/index.php?page={{page}}&genre=10004\n修真::/index.php?page={{page}}&genre=10005\n历史::/index.php?page={{page}}&genre=10006\n游戏::/index.php?page={{page}}&genre=10007\n科幻::/index.php?page={{page}}&genre=10008\n灵异::/index.php?page={{page}}&genre=10009\n言情::/index.php?page={{page}}&genre=10010\n体育::/index.php?page={{page}}&genre=10011\n军事::/index.php?page={{page}}&genre=10012\n幻想::/index.php?page={{page}}&genre=10013\n完本::/index.php?page={{page}}&genre=1",
+    "lastUpdateTime": 1602899585344,
+    "loginUrl": "https://novel.zhwenpg.com/",
+    "ruleBookInfo": {
+      "author": "class.fontwt@tag.font@text",
+      "coverUrl": "tag.img@data-src",
+      "intro": "tag.table.2@tag.tr.2@html##阿米巴.*",
+      "lastChapter": "class.fontchap@tag.font@text",
+      "name": "tag.h2@text"
+    },
+    "ruleContent": {
+      "content": "id.tdcontent@tag.p@text",
+      "imageStyle": "0",
+      "nextContentUrl": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": ""
+    },
+    "ruleSearch": {
+      "author": "tag.font.2@text",
+      "bookList": "class.cbooksingle",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img@data-src",
+      "intro": "tag.p@text##阿米巴.*",
+      "kind": "tag.font.4@text&&tag.font.7@text",
+      "lastChapter": "tag.font.6@text",
+      "name": "tag.font.0@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "<js>\njava.getElements(\"id.dulist@tag.li@tag.a\")\n.toArray()\n.sort()\n.map(x=>x)\n</js>",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/index.php,{\n  \"method\": \"POST\",\n  \"body\": \"qk={{key}}\"\n}",
+    "weight": 0
+  }]

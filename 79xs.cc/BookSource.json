@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 七九小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.79xs.cc",
+    "bookUrlPattern": "",
+    "customOrder": -32020,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻修真::http://www.79xs.cc/1_{{page}}.html\n都市商战::http://www.79xs.cc/2_{{page}}.html\n历史军事::http://www.79xs.cc/3_{{page}}.html\n网游科幻::http://www.79xs.cc/4_{{page}}.html\n恐怖推理::http://www.79xs.cc/5_{{page}}.html\n穿越架空::http://www.79xs.cc/6_{{page}}.html\n古典言情::http://www.79xs.cc/7_{{page}}.html\n现代言情::http://www.79xs.cc/8_{{page}}.html\n耽美同人::http://www.79xs.cc/9_{{page}}.html\n综合其他::http://www.79xs.cc/10_{{page}}.html",
+    "lastUpdateTime": 1602815551233,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.binfo2_l@img@src",
+      "intro": "class.b22@text##.*简介：",
+      "lastChapter": "class.chapterlist.0@tag.li.0@a@text"
+    },
+    "ruleContent": {
+      "content": "class.cn@p@html",
+      "replaceRegex": "##http.*html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "span@text",
+      "bookList": "id.con@dd",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "name": "h3@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapterlist.1@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.79xs.cc/search.aspx,{\n  \"method\": \"POST\",\n  \"body\": \"q={{key}}\"\n}",
+    "weight": 0
+  }]

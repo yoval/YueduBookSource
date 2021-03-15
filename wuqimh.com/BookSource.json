@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎨漫画",
+    "bookSourceName": "🎨 57漫画",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.wuqimh.com",
+    "bookUrlPattern": "",
+    "customOrder": -31324,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部::http://m.wuqimh.com/list/p-{{page}}\n日本::http://m.wuqimh.com/list/area-%E6%97%A5%E6%9C%AC-p-{{page}}\n港台::http://m.wuqimh.com/list/area-%E6%B8%AF%E5%8F%B0-p-{{page}}\n欧美::http://m.wuqimh.com/list/area-%E6%AC%A7%E7%BE%8E-p-{{page}}\n韩国::http://m.wuqimh.com/list/area-%E9%9F%A9%E5%9B%BD-p-{{page}}\n国产::http://m.wuqimh.com/list/area-%E5%9B%BD%E4%BA%A7-p-{{page}}\n热血::http://m.wuqimh.com/list/smid-1-p-{{page}}\n武侠::http://m.wuqimh.com/list/smid-2-p-{{page}}\n搞笑::http://m.wuqimh.com/list/smid-3-p-{{page}}\n耽美::http://m.wuqimh.com/list/smid-4-p-{{page}}\n爱情::http://m.wuqimh.com/list/smid-5-p-{{page}}\n科幻::http://m.wuqimh.com/list/smid-6-p-{{page}}\n魔法::http://m.wuqimh.com/list/smid-7-p-{{page}}\n神魔::http://m.wuqimh.com/list/smid-8-p-{{page}}\n竞技::http://m.wuqimh.com/list/smid-9-p-{{page}}\n格斗::http://m.wuqimh.com/list/smid-10-p-{{page}}\n机战::http://m.wuqimh.com/list/smid-11-p-{{page}}\n体育::http://m.wuqimh.com/list/smid-12-p-{{page}}\n运动::http://m.wuqimh.com/list/smid-13-p-{{page}}\n校园::http://m.wuqimh.com/list/smid-14-p-{{page}}\n励志::http://m.wuqimh.com/list/smid-15-p-{{page}}\n历史::http://m.wuqimh.com/list/smid-16-p-{{page}}\n伪娘::http://m.wuqimh.com/list/smid-17-p-{{page}}\n百合::http://m.wuqimh.com/list/smid-18-p-{{page}}\n后宫::http://m.wuqimh.com/list/smid-19-p-{{page}}\n治愈::http://m.wuqimh.com/list/smid-20-p-{{page}}\n美食::http://m.wuqimh.com/list/smid-21-p-{{page}}\n推理::http://m.wuqimh.com/list/smid-22-p-{{page}}\n悬疑::http://m.wuqimh.com/list/smid-23-p-{{page}}\n恐怖::http://m.wuqimh.com/list/smid-24-p-{{page}}\n职场::http://m.wuqimh.com/list/smid-25-p-{{page}}\n剧情::http://m.wuqimh.com/list/smid-27-p-{{page}}\n生活::http://m.wuqimh.com/list/smid-28-p-{{page}}\n幻想::http://m.wuqimh.com/list/smid-29-p-{{page}}\n战争::http://m.wuqimh.com/list/smid-30-p-{{page}}\n仙侠::http://m.wuqimh.com/list/smid-33-p-{{page}}\n古风::http://m.wuqimh.com/list/smid-36-p-{{page}}\n玄幻::http://m.wuqimh.com/list/smid-37-p-{{page}}\n穿越::http://m.wuqimh.com/list/smid-38-p-{{page}}\n性转换::http://m.wuqimh.com/list/smid-40-p-{{page}}\n冒险::http://m.wuqimh.com/list/smid-41-p-{{page}}\n其他::http://m.wuqimh.com/list/smid-32-p-{{page}}\n奇幻::http://m.wuqimh.com/list/smid-42-p-{{page}}\n排行榜::http://m.wuqimh.com/rank/<,_{{page}}>",
+    "lastUpdateTime": 1603283608137,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "id.bookIntro@text",
+      "kind": "class.cont-list@tag.dl.3@tag.dd@tag.a!0@text"
+    },
+    "ruleContent": {
+      "content": ":_S001_vMMQZsSqq66JHArA5uAkie0HggcTlAN5afH0/yptEIEvlmVwblO+qHdJcpdWjSAEsETOd3HaezR4\n9lVT34ar+CpGj4tQ73skR9Fzb98BJ1sQegGFppnytuyDhPjvUAo5k2wrJMuJ2zkOPNX+umdC9jYz\nRWQkJObabXTCEagutReIPE6El0ROphVqoXlkGd9at2hp624SnQqJVXpAaY+eUu3i5nux9ZjX3PSQ\nj2x+iNB0H7Ohbt4MI0e6aolxOCOcuI/buc8cXknyKC28rnAgsDErs0UYzJrOEjbsdsrIdK0aukeH\nf2+hhNCGe+vHjXzFF53rLiPuq8Qcd7CRfzZUiybyt+YG60HXSRuM4V0RL3SM12ecCz/IBQm/XkWC\n4AurmRJvyBMQcQoWramExlT0xIQwds8udd/1ddpuVkTy8ujGc41/DQRB7s/ngmhQO6SU\n"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.dd.0@tag.a@text",
+      "bookList": "-class.cont-list@tag.li||id.contList@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@data-src||tag.img@src",
+      "kind": "class.thumb.0@text",
+      "lastChapter": "tag.dd.2@tag.a@text",
+      "name": "tag.h3.0@text||class.bcover@title"
+    },
+    "ruleToc": {
+      "chapterList": "-id.chapterList@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://m.wuqimh.com/search/q_{{key}}-p-{{page}}",
+    "weight": 0
+  }]

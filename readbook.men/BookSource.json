@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "正文规则错误",
+    "bookSourceGroup": "🚬刘备,🛠️待修",
+    "bookSourceName": "🚬 疯情阅读④[无正文]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://readbook.men",
+    "bookUrlPattern": "",
+    "customOrder": -116429,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部小说::https://readbook.men/search?s_wd=&sort=-1&pn={{page}}\n完本小说::https://readbook.men/search?s_wd=&isFinish=1&sort=-1&pn={{page}}\n玄幻仙侠::https://readbook.men/search?s_wd=&catId=%E7%8E%84%E5%B9%BB%E4%BB%99%E4%BE%A0&sort=-1&pn={{page}}\n官场职场::https://readbook.men/search?s_wd=&catId=%E5%AE%98%E5%9C%BA%E8%81%8C%E5%9C%BA&sort=-1&pn={{page}}\n历史古典::https://readbook.men/search?s_wd=&catId=%E5%8E%86%E5%8F%B2%E5%8F%A4%E5%85%B8&sort=-1&pn={{page}}\n惊悚灵异::https://readbook.men/search?s_wd=&catId=%E6%83%8A%E6%82%9A%E7%81%B5%E5%BC%82&sort=-1&pn={{page}}\n穿越同人::https://readbook.men/search?s_wd=&catId=%E7%A9%BF%E8%B6%8A%E5%90%8C%E4%BA%BA&sort=-1&pn={{page}}\n生活都市::https://readbook.men/search?s_wd=&catId=%E7%94%9F%E6%B4%BB%E9%83%BD%E5%B8%82&sort=-1&pn={{page}}\n耽美女尊::https://readbook.men/search?s_wd=&catId=%E8%80%BD%E7%BE%8E%E5%A5%B3%E5%B0%8A&sort=-1&pn={{page}}\n言情校园::https://readbook.men/search?s_wd=&catId=%E8%A8%80%E6%83%85%E6%A0%A1%E5%9B%AD&sort=-1&pn={{page}}\n玄幻小说::https://readbook.men/search?s_wd=&catId=xuanhuan&sort=-1&pn={{page}}\n职场小说::https://readbook.men/search?s_wd=&catId=zhichang&sort=-1&pn={{page}}\n古典小说::https://readbook.men/search?s_wd=&catId=gudian&sort=-1&pn={{page}}\n惊悚小说::https://readbook.men/search?s_wd=&catId=jingsong&sort=-1&pn={{page}}\n网游小说::https://readbook.men/search?s_wd=&catId=wangyou&sort=-1&pn={{page}}\n乡土小说::https://readbook.men/search?s_wd=&catId=xiangtu&sort=-1&pn={{page}}\n历史小说::https://readbook.men/search?s_wd=&catId=lishi&sort=-1&pn={{page}}\n耽美小说::https://readbook.men/search?s_wd=&catId=danmei&sort=-1&pn={{page}}\n女尊小说::https://readbook.men/search?s_wd=&catId=nvzun&sort=-1&pn={{page}}\n穿越小说::https://readbook.men/search?s_wd=&catId=chuanyue&sort=-1&pn={{page}}\n同人小说::https://readbook.men/search?s_wd=&catId=tongren&sort=-1&pn={{page}}\n校园小说::https://readbook.men/search?s_wd=&catId=xiaoyuan&sort=-1&pn={{page}}\n言情小说::https://readbook.men/search?s_wd=&catId=yanqing&sort=-1&pn={{page}}\n官场小说::https://readbook.men/search?s_wd=&catId=guanchang&sort=-1&pn={{page}}\n异能小说::https://readbook.men/search?s_wd=&catId=yineng&sort=-1&pn={{page}}\n都市小说::https://readbook.men/search?s_wd=&catId=dushi&sort=-1&pn={{page}}\n武侠小说::https://readbook.men/search?s_wd=&catId=wuxia&sort=-1&pn={{page}}\n仙侠小说::https://readbook.men/search?s_wd=&catId=xianxia&sort=-1&pn={{page}}\n单篇小说::https://readbook.men/search?s_wd=&catId=danpian&sort=-1&pn={{page}}",
+    "lastUpdateTime": 1607712097001,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.bookprofile@img@src",
+      "intro": "class.introcontent@dd@textNodes",
+      "lastChapter": "class.sub-newest@a@text",
+      "tocUrl": "class.bookprofile@img@src##.*/bimg/(\\d+).jpg##https://readbook.men/partview/GetChapterList?bookid=$1&noNeedBuy=1&special=0"
+    },
+    "ruleContent": {
+      "content": "class.menumybclist@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "h4@tag.a.1@textNodes",
+      "bookList": "class.result-list@li",
+      "bookUrl": "a@href",
+      "coverUrl": "img@data-src",
+      "kind": "h4@tag.a.2@textNodes&&h4@tag.span.1@textNodes",
+      "lastChapter": "class.number@tag.span.2@text",
+      "name": "h4@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.catalog-list cl@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://readbook.men/search?s_wd={{key}}&s_keyword={{key}}&sort=-1&pn={{page}}",
+    "weight": 0
+  }]

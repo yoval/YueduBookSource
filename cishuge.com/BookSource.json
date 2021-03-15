@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "error:Unable to resolve host \"www.cishuge.com\": No address associated with hostname\n",
+    "bookSourceGroup": "🎉精品,失效",
+    "bookSourceName": "🎉 词书阁小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.cishuge.com",
+    "bookUrlPattern": "",
+    "customOrder": -31965,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.author.0@tag.a.0@text",
+      "coverUrl": "tag.img.0@src",
+      "intro": "id.bookintro@p@textNodes##.*各位书友要是.*",
+      "lastChapter": "class.chaw@tag.li.-1@tag.a@text",
+      "name": "id.bookinfo.0@class.bookright.0@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.TextContent@p@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.dd.1@tag.span.0@text",
+      "bookList": "id.sitebox@tag.dl",
+      "bookUrl": "tag.dd.0@tag.h3.0@tag.a.0@href",
+      "coverUrl": "tag.img.0@data-original",
+      "kind": "tag.dd.1@tag.span.1@text",
+      "lastChapter": "||tag.dd.3@tag.a.0@text",
+      "name": "tag.dd.0@tag.h3.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterList@tag.li@tag.a",
+      "chapterName": "text##[a-zA-Z\\.]{5,30}",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.cishuge.com/search/,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

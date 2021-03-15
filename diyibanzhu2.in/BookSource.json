@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "R18",
+    "bookSourceName": "第一版主网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.diyibanzhu2.in/",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/fenlei/1_1.html\n仙侠武侠::/fenlei/2_1.html\n都市言情::/fenlei/3_1.html\n穿越历史::/fenlei/4_1.html\n科幻灵异::/fenlei/5_1.html\n藏经阁::/fenlei/6_1.html\n其他类别::/fenlei/7_1.html\n最近更新::/shuku/0-lastupdate-0-{{page}}.html",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": ".right@.info@text##\\作者：(.*)\\类型.*##$1###",
+      "intro": "class.mod book-intro@class.bd@textNodes",
+      "kind": ".right@.info@text##\\.*类型：(.*)\\字数.*##$1###",
+      "lastChapter": "class.mod block update chapter-list.0@tag.li.0@tag.a@text",
+      "name": ".right@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "//*[@id=\"ChapterView\"]//p",
+      "nextContentUrl": "//a[@class=\"curr\"]/following-sibling::a[1]/@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p@.info@text##\\作者：(.*)\\字数.*##$1###",
+      "bookList": "class.mod block book-all-list@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "lastChapter": ".update@tag.a@text",
+      "name": ".name@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.mod block update chapter-list.1@tag.li@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": ".page@tag.a.2@href"
+    },
+    "searchUrl": "https://www.diyibanzhu7.net/s.php,{\n  \"headers\": \"{referer:diyibanzhu7.net}\",\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"objectType=2&type=articlename&s={{key}}\"\n}",
+    "weight": 0
+  }]

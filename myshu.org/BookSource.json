@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 天天小书屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.myshu.org",
+    "bookUrlPattern": "",
+    "customOrder": -32042,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@p.1@text",
+      "coverUrl": "tag.img@src",
+      "intro": "id.intro@text",
+      "lastChapter": "id.info@p!0:1:2@a@text",
+      "name": "id.info@h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##本站重要通知.*|天才一秒.*|http.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "class.bookbox",
+      "bookUrl": "class.bookname@tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "kind": "class.cat@text##分类：",
+      "lastChapter": "class.update@tag.a.0@text",
+      "name": "class.bookname@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.dl@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.myshu.org/s.php?ie=gbk&q={{key}}",
+    "weight": 0
+  }]

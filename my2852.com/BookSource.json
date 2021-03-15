@@ -1,0 +1,33 @@
+[  {
+    "bookSourceComment": "error:Unable to resolve host \"www.my2852.com\": No address associated with hostname\n",
+    "bookSourceGroup": "📚出版,失效",
+    "bookSourceName": "📚 梦远书城[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.my2852.com",
+    "bookUrlPattern": "",
+    "customOrder": -24728,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "先秦典籍::/gdwx/dj/index.htm\n诸子百家::/gdwx/bj/index.htm\n古典小说::/gdwx/xs/index.htm\n才子佳人::/gdwx/xs/cz/index.htm\n讲史演义::/gdwx/xs/yyi/index.htm\n公案小说::/gdwx/xs/ga/index.htm\n讽刺谴责::/gdwx/xs/fc/index.htm\n唐宋传奇::/gdwx/xs/tscq/index.htm\n英雄传奇::/gdwx/xs/yx/index.htm\n古典散文::/gdwx/sw/index.htm\n古典戏曲::/gdwx/xq/index.htm\n古诗库::/sc/gsk/index.htm\n古典诗词::/gdwx/gdsc/index.htm\n古典::/gdwx/index.htm\n名家::/xdmj/index.htm\n现代::/xdwx/index.htm\n历史::/ls/index.htm\n笔记::/gdwx/xs/bj/index.htm\n蒙学::/gdwx/mx/index.htm\n传记::/zj/index.htm\n外国::/wgwx/zpj/index.htm\n古典小说::/gdwx/index.htm\n现代文学::/xdwx/index.htm\n名家锦集::/xdmj/index.htm\n历史史记::/shishu/index.htm\n言情小说::/yq/index.htm\n侦探推理::/zt/index.htm\n军事军旅::/js/index.htm\n科幻小说::/kh/index.htm\n时尚阅读::/cx/index.htm\n外国名著::/wgwx/index.htm\n传记纪实::/zj/index.htm\n港台文学::/gt/index.htm\n诗词歌赋::/sc/index.htm\n古典文学::/gdwx/index.htm\n武侠小说::/wuxia/index.htm\n玄幻奇侠::/xh/index.htm\n影视小说::/ysyz/index.htm\n穿越·宫闱::/cy/index.htm\n青春校园::/xy/index.htm",
+    "lastUpdateTime": 1602912156317,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "tag.td.3@text",
+      "name": "tag.td.0@text"
+    },
+    "ruleContent": {
+      "content": "tag.td@html||tag.td@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "tag.tr!0:1@tag.td@tag.a||tag.tr!0:1@tag.td@tag.a",
+      "bookUrl": "tag.a@href",
+      "name": "text"
+    },
+    "ruleToc": {
+      "chapterList": "tag.tbody@tag.td!",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "weight": 0
+  }]

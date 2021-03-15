@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "👍优质",
+    "bookSourceName": "👍 书馆中文网(仅联通)",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.sgwaa.com",
+    "bookUrlPattern": "",
+    "customOrder": 15836,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::http://www.sgwaa.com/list/1_{{page}}.html\n武侠修真::http://www.sgwaa.com/list/2_{{page}}.html\n都市言情::http://www.sgwaa.com/list/3_{{page}}.html\n历史军事::http://www.sgwaa.com/list/4_{{page}}.html\n穿越时空::http://www.sgwaa.com/list/5_{{page}}.html\n网游动漫::http://www.sgwaa.com/list/6_{{page}}.html\n科幻小说::http://www.sgwaa.com/list/7_{{page}}.html\n乡村小说::http://www.sgwaa.com/list/8_{{page}}.html\n其他类型::http://www.sgwaa.com/list/10_{{page}}.html\n总排行榜::http://www.sgwaa.com/top/allvisit_{{page}}.html\n月排行榜::http://www.sgwaa.com/top/monthvisit_{{page}}.html\n周排行榜::http://www.sgwaa.com/top/weekvisit_{{page}}.html\n总推荐榜::http://www.sgwaa.com/top/allvote_{{page}}.html\n月推荐榜::http://www.sgwaa.com/top/monthvote_{{page}}.html\n周推荐榜::http://www.sgwaa.com/top/weekvote_{{page}}.html\n最新入库::http://www.sgwaa.com/top/postdate_{{page}}.html\n最近更新::http://www.sgwaa.com/top/lastupdate_{{page}}.html\n总收藏榜::http://www.sgwaa.com/top/goodnum_{{page}}.html\n字数排行::http://www.sgwaa.com/top/size_{{page}}.html\n本站推荐::http://www.sgwaa.com/top/toptime_{{page}}.html,{\"charset\": \"gbk\"}",
+    "lastUpdateTime": 1603272738856,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.book_news@tag.img@src",
+      "intro": "class.msgarea@text||id.description1@text",
+      "tocUrl": "class.button2 white@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "id.booktext@textNodes##恋上你看书网.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text||tag.td.3@tag.a@text||tag.li.0@tag.a.0@text",
+      "bookList": "class.grid@tag.tr!0||id.views_con_1@tag.tr!0||id.content",
+      "bookUrl": "class.odd.0@tag.a@href||tag.td.1@tag.a@href||tag.a.0@href",
+      "coverUrl": "class.novel_img@tag.img@src||class.odd.0@tag.a@href##read/(\\d+)/index.html##files/article/image/0/$1/$1s.jpg",
+      "kind": "class.even.2@text||tag.td.4@text||tag.li.4@text##类型：",
+      "lastChapter": "class.even.0@tag.a@text||tag.td.2@tag.a@text||class.update@tag.a@text",
+      "name": "class.odd.0@tag.a@text||tag.td.1@tag.a@text||tag.h1@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.book_article_listtext@tag.dl@id.chapterlist@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.sgwaa.com/modules/article/search.php?searchtype=articlename&searchkey={{key}}&action=login,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 新御书屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.yy228.com",
+    "bookUrlPattern": "",
+    "customOrder": -116529,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::https://m.yy228.com/sort/1_{{page}}/\n武侠仙侠::https://m.yy228.com/sort/2_{{page}}/\n都市言情::https://m.yy228.com/sort/3_{{page}}/\n科幻网游::https://m.yy228.com/sort/4_{{page}}/\n惊悚悬疑::https://m.yy228.com/sort/5_{{page}}/\n耽美同人::https://m.yy228.com/sort/6_{{page}}/\n穿越架空::https://m.yy228.com/sort/7_{{page}}/\n高辣浓情::https://m.yy228.com/sort/8_{{page}}/\n禁忌百合::https://m.yy228.com/sort/9_{{page}}/\n精品文学::https://m.yy228.com/sort/10_{{page}}/",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36\"\n}",
+    "lastUpdateTime": 1612448651883,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.tu@img@src",
+      "intro": "class.jj@class.p2@textNodes##请┆收┊藏┋.*|爱┆阅┊读┋.*",
+      "lastChapter": "class.tab@class.p3@a@text"
+    },
+    "ruleContent": {
+      "content": "id.novelcontent@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.p4@a@text||tag.a.2@text",
+      "bookList": "class.search_box@p||class.fl_list@children",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@src||a@href##/book/(\\d+)(\\d{3}).html##http://img.yy228.com/image/$1/$1$2/$1$2s.jpg",
+      "kind": "class.p2@text||tag.a.1@text##\\[|]",
+      "name": "class.p1@a@text||tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.info_chapters@tag.ul.1@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://m.yy228.com/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"submit=&type=articlename&s={{key}}\"\n}",
+    "weight": 0
+  }]

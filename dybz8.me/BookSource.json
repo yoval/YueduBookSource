@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔞 特殊",
+    "bookSourceName": "第™🔞瞬间",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.dybz8.me/",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/shuku/1-allvisit-2-{{page}}.html\n仙侠武侠::/shuku/2-allvisit-2-{{page}}.html\n都市言情::/shuku/3-allvisit-2-{{page}}.html\n历史穿越::/shuku/4-allvisit-2-{{page}}.html\n科幻灵异::/shuku/5-allvisit-2-{{page}}.html\n藏经阁::/shuku/6-allvisit-2-{{page}}.html\n其他::/shuku/7-allvisit-2-{{page}}.html\n全部::/shuku/0-allvisit-2-{{page}}.html",
+    "lastUpdateTime": 1609782056056,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.mod book-intro@class.bd@text"
+    },
+    "ruleContent": {
+      "content": "class.page-content font-large@tag.p.0@html\n<js>\tlet site='https://www.dybz8.me/';\tcache_str=java.ajax('https://service-eay633yd-1256208280.ap-shanghai.apigateway.myqcloud.com/release/ocr?image_url='+site+'&get_cache=true');\t\nvar cache=JSON.parse(cache_str).result;\tresult=result.replace(/<img src=\"(.+?)\">/g,(group0,group1)=>{\t\tlet url=site+group1;\t\n\tif (cache[url]){\t\t\treturn cache[url];\t\t}\t\n\tlet ocrResult=java.ajax('https://service-eay633yd-1256208280.ap-shanghai.apigateway.myqcloud.com/release/ocr?image_url='+url+'&handle_png=true');\t\tlet word= JSON.parse(ocrResult).result;\t\tcache[url]=word;\t\treturn word;  });  result.replace(/.w.w.w.0.1'b.z.n.e.t.||.找.回.网.址.请.百喥.索.弟.*?板.*?综.合.社.区|| zui.快.看.更.新.就.要.来.*?１ Ь ｚ.ｎ е ｔ||.fa.送. e mail 到. ｄｉｙｉｂａｎｚｈｕ@ｑｑ.ｃｏｍ||.huo.得.最.新.地.址||.bai.du 搜.索. .第.一.b... j.搞.定||ωωω．〇１Вz．ｎеｔ||.寻.*?网.*?址.*?百.*?喥.*?弟.*?板.*?综.*?合.*?社.*?区.?||地址发布页２ｕ２ｕ２ｕ．ｃｏｍ。||发布页⒉∪⒉∪⒉∪.￠○㎡||哋址发咘.*?[Cc].[mMｍ]/g,'');</js>",
+      "nextContentUrl": "@XPath://center[@class=\"chapterPages\"]/a[@class=\"curr\"]/following-sibling::*[1]/@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.info@text##字数.*",
+      "bookList": "class.column-2",
+      "bookUrl": "class.name@href",
+      "lastChapter": "class.update@tag.a.0@text",
+      "name": "class.name@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.mod block update chapter-list!0@class.list@tag.li",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href",
+      "nextTocUrl": "class.nextPage@href"
+    },
+    "searchUrl": "/s.php,{\n  \"charset\": \"gb2312\",\n  \"method\": \"POST\",\n  \"body\": \"type=articlename&objectType=2&s={{key}}\"\n}",
+    "weight": 0
+  }]

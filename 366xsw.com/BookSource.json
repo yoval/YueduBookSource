@@ -1,0 +1,49 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 366",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.366xsw.com",
+    "bookUrlPattern": "",
+    "customOrder": -116450,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻武侠::/list/1/1.html\n耽美言情::/list/2/1.html\n恐怖灵异::/list/3/1.html\n历史军事::/list/4/1.html\n侦探推理::/list/5/1.html\n网游科幻::/list/6/1.html\n辣文激情::/list/7/1.html\n种田小说::/list/8/1.html\n短篇合集::/list/9/1.html\n其他类型::/list/10/1.html\n全本小说::/modules/article/index.php?fullflag=1",
+    "lastUpdateTime": 1607160491151,
+    "loginUrl": "｡◕‿◕｡",
+    "ruleBookInfo": {
+      "coverUrl": "class.book-img@tag.img@src",
+      "intro": "class.book-intro@textNodes",
+      "name": "class.btitle@tag.h1@text",
+      "tocUrl": "class.b-orange@href"
+    },
+    "ruleContent": {
+      "content": "id.BookText@textNodes"
+    },
+    "ruleExplore": {
+      "author": "class.s3@text",
+      "bookList": "class.details@tag.li",
+      "bookUrl": "class.s2@tag.a.0@href",
+      "coverUrl": "class.s2@tag.a.0@href<js>\nvar id = result.match(/\\/(\\d+)/)[1];\nvar iid = parseInt(id/1000);\n'/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+      "kind": "class.s1@text&&class.s4@text&&class.s5@text@js:result.replace(/\\[|\\]|中/g, '').replace(/已?完成/, '完结')",
+      "lastChapter": "class.s2@tag.a.1@text",
+      "name": "class.s2@tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "tag.i.0@text",
+      "bookList": "class.details@class.item-pic",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@tag.img@src@js:(result && !result.includes('nocover')) ? result : 'http://1t.click/GPx'",
+      "intro": "tag.p.-1@text",
+      "kind": "tag.i.1@text&&tag.i.2@text##已?完成##完结",
+      "lastChapter": "tag.p.1@tag.a@text",
+      "name": "tag.h3.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapterlist@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

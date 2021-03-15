@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "💵正版,🆔登录",
+    "bookSourceName": "💵 随缘居",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.mtslash.me/forum.php/",
+    "customOrder": -117445,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "影视::http://www.mtslash.me/forum-1-{{page}}.html\n复联::http://www.mtslash.me/forum-54-{{page}}.html\n影视热门::http://www.mtslash.me/forum-19-{{page}}.html\n电视剧::http://www.mtslash.me/forum-2-{{page}}.html\n福尔摩斯::http://www.mtslash.me/forum-55-{{page}}.html\n电视剧热门::http://www.mtslash.me/forum-20-{{page}}.html\n游戏专区::http://www.mtslash.me/forum-58-{{page}}.html\n游戏热门::http://www.mtslash.me/forum-59-{{page}}.html",
+    "lastUpdateTime": 1607768619014,
+    "loginUrl": "http://www.mtslash.me/forum.php",
+    "ruleBookInfo": {
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "class.t_f@html"
+    },
+    "ruleExplore": {
+      "author": "class.by.0@tag.a.0@text",
+      "bookList": "id.threadlisttableid@tag.tbody!0",
+      "bookUrl": "class.s xst@href",
+      "name": "class.s xst@text"
+    },
+    "ruleSearch": {
+      "author": "tag.span.1@text",
+      "bookList": "class.pbw",
+      "bookUrl": "tag.h3@tag.a@href",
+      "intro": "tag.p.1@text",
+      "name": "tag.h3@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "+<js>\nvar n;\nif\n((result.match(/ \\/ (\\d+) 页/))!=null){\nn=result.match(/ \\/ (\\d+) 页/)[1];\nvar list=[];\nfor(var i=1;i<=n;i++){\nlist.push({k:'第'+i+'页',v:baseUrl+'&&page='+i});\n}\n}else{\nvar list=[{k:'第1页',v:baseUrl}];\n}\nlist\n</js>",
+      "chapterName": "k",
+      "chapterUrl": "v"
+    },
+    "searchUrl": "http://www.mtslash.me/search.php?searchsubmit=yes&mod=forum&srchtype=title&srhfid=&srhlocality=forum::index&srchtxt={{key}}&searchsubmit=true,{\n  \"charset\": \"utf-8\"\n}}}",
+    "weight": 0
+  }]

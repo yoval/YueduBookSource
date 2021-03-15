@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 轮回小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.9xs.org",
+    "bookUrlPattern": "",
+    "customOrder": -32005,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": ".zz@text##作者：",
+      "coverUrl": "class.f1_L@img@src",
+      "intro": "class.jj_con@text##阅读.*最新章节请关.*",
+      "lastChapter": "class.zj@text",
+      "name": "h3@a@text",
+      "tocUrl": "class.mulu@a@href"
+    },
+    "ruleContent": {
+      "content": "id.txt@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.tags@tag.span.0@text",
+      "bookList": "class.result@li",
+      "bookUrl": "h3@a@href",
+      "coverUrl": "img@data-original",
+      "kind": "class.tags@tag.span.1@text##分类：",
+      "lastChapter": "tag.p.1@a@text",
+      "name": "h3@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "<js>'<p>' + result.match(/\\<a\\s(href=\"\\d+\\.html\").+?a\\>/g).sort() + '</p>'</js>//a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.9xs.org/search.php?key={{key}},{\n  \"charset\": \"utf-8\"\n}",
+    "weight": 0
+  }]

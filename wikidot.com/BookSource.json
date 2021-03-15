@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🍄特殊",
+    "bookSourceName": "🍄 SCP基金会",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://scp-wiki-cn.wikidot.com",
+    "customOrder": -30893,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "SCP-CN系列 I::http://scp-wiki-cn.wikidot.com/scp-series-cn-\nSCP-CN系列 II::http://scp-wiki-cn.wikidot.com/scp-series-cn-2\nSCP系列 I::http://scp-wiki-cn.wikidot.com/scp-series-1\nSCP系列 II::http://scp-wiki-cn.wikidot.com/scp-series-2\nSCP系列 III::http://scp-wiki-cn.wikidot.com/scp-series-3\nSCP系列 IV::http://scp-wiki-cn.wikidot.com/scp-series-4\nSCP系列 V::http://scp-wiki-cn.wikidot.com/scp-series-5",
+    "lastUpdateTime": 1602849690521,
+    "loginUrl": "http://scp-wiki-cn.wikidot.com/search:site/a/p/q/searchKey/p/searchPage",
+    "ruleBookInfo": {
+      "name": "id.page-title@text"
+    },
+    "ruleContent": {
+      "content": "id.page-content@html"
+    },
+    "ruleExplore": {
+      "bookList": ":li><a href=\"(.+?)\">[^>]*>\\s-\\s(.*?)<",
+      "bookUrl": "$1",
+      "name": "$2"
+    },
+    "ruleSearch": {
+      "bookList": "class.item",
+      "bookUrl": "a@href",
+      "intro": "class.preview@text",
+      "name": "a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.page-title",
+      "chapterName": "id.page-title@text",
+      "chapterUrl": "-"
+    },
+    "searchUrl": "http://scp-wiki-cn.wikidot.com/search:site/a/p/q/{{key}}/p/{{page}}",
+    "weight": 0
+  }]

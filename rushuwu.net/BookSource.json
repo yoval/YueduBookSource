@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceName": "如书屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.rushuwu.net",
+    "customOrder": 7,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "日点击榜::https://m.rushuwu.org/top/dayvisit_{{page}}/    \n周点击榜::https://m.rushuwu.org/top/weekvisit_{{page}}/   \n月点击榜::https://m.rushuwu.org/top/monthvisit_{{page}}/  \n总点击榜::https://m.rushuwu.org/top/allvisit_{{page}}/    \n总收藏榜::https://m.rushuwu.org/top/goodnum_{{page}}/   \n字数排行::https://m.rushuwu.org/top/size_{{page}}/   \n总推荐榜::https://m.rushuwu.org/top/allvote_{{page}}/ \n最新入库::https://m.rushuwu.org/top/postdate_{{page}}/   \n最近更新::https://m.rushuwu.org/top/lastupdate_{{page}}/",
+    "lastUpdateTime": 1610631610180,
+    "ruleBookInfo": {
+      "intro": "id.intro@p@text",
+      "lastChapter": ""
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {
+      "author": "tag.a.2@text",
+      "bookList": "@css:.user_content>div",
+      "bookUrl": "class.blue@tag.a@href@js:\"https://www.rushuwu.org\"+result",
+      "coverUrl": "class.blue@tag.a@href##\\/(\\d+)_(\\d+)##https://www.rushuwu.org/files/article/image/$1/$2/$2s.jpg##",
+      "name": "class.blue@text"
+    },
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "tag.tr!0",
+      "bookUrl": "tag.td@a@href",
+      "coverUrl": "tag.td@a@href##\\/(\\d+)_(\\d+)##https://www.rushuwu.org/files/article/image/$1/$2/$2s.jpg##",
+      "lastChapter": "tag.td.1@text",
+      "name": "tag.td.0@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.rushuwu.org/modules/article/search.php?searchtype=articlename&searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

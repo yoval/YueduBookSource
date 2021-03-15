@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🍒言情",
+    "bookSourceName": "🍒 玄葫堂™",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.xuanhutang.com",
+    "customOrder": -115991,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "青春校园::https://m.xuanhutang.com/sort/1_{{page}}/\n都市校园::https://m.xuanhutang.com/sort/2_{{page}}/\n穿越校园::https://m.xuanhutang.com/sort/3_{{page}}/\n古代校园::https://m.xuanhutang.com/sort/4_{{page}}/\n同人校园::https://m.xuanhutang.com/sort/5_{{page}}/\n玄幻校园::https://m.xuanhutang.com/sort/6_{{page}}/\n日点击榜::https://m.xuanhutang.com/top/dayvisit_{{page}}/\n周点击榜::https://m.xuanhutang.com/top/weekvisit_{{page}}/\n月点击榜::https://m.xuanhutang.com/top/monthvisit_{{page}}/\n总点击榜::https://m.xuanhutang.com/top/allvisit_{{page}}/\n总收藏榜::https://m.xuanhutang.com/top/goodnum_{{page}}/\n字数排行::https://m.xuanhutang.com/top/size_{{page}}/\n日推荐榜::https://m.xuanhutang.com/top/dayvote_{{page}}/\n周推荐榜::https://m.xuanhutang.com/top/weekvote_{{page}}/\n月推荐榜::https://m.xuanhutang.com/top/monthvote_{{page}}/\n总推荐榜::https://m.xuanhutang.com/top/allvote_{{page}}/\n最新入库::https://m.xuanhutang.com/top/postdate_{{page}}/\n最近更新::https://m.xuanhutang.com/top/lastupdate_{{page}}/",
+    "lastUpdateTime": 1612368224794,
+    "ruleBookInfo": {
+      "coverUrl": "class.block_img2@tag.img.0@src",
+      "intro": "class.intro_info@text",
+      "tocUrl": "class.ablum_read.0@tag.a.1@href"
+    },
+    "ruleContent": {
+      "content": "id.nr1@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.cover@tag.p",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.a.1@href##https://m.xuanhutang.com/book/(\\d+)(\\d{3})/##https://www.xuanhutang.com/files/article/image/$1/$1$2/$1$2s.jpg",
+      "kind": "tag.a.0@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter@tag.li",
+      "chapterName": "tag.a.0@text",
+      "chapterUrl": "tag.a.0@href",
+      "nextTocUrl": "class.page.0@tag.a.2@text.下一页@href||class.page.0@tag.a.0@text.下一页@href"
+    },
+    "searchUrl": "https://m.xuanhutang.com/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"type=articlename&s={{key}}\"\n}",
+    "weight": 0
+  }]

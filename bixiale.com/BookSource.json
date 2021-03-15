@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "天域战歌",
+    "bookSourceName": "笔下乐",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.bixiale.com",
+    "customOrder": 0,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "最近更新::https://m.bixiale.com/wenxue/top_lastupdate_{{page}}.html\n最新入库::https://m.bixiale.com/wenxue/top_postdate_{{page}}.html\n总点击榜::https://m.bixiale.com/wenxue/top_allvisit_{{page}}.html\n总收藏榜::https://m.bixiale.com/wenxue/top_goodnum_{{page}}.html\n总推荐榜::https://m.bixiale.com/wenxue/top_allvote_{{page}}.html\n总字数榜::https://m.bixiale.com/wenxue/top_size_{{page}}.html\n全部小说::https://m.bixiale.com/wenxue/allbook_{{page}}.html\n全本小说::https://m.bixiale.com/wenxue/full_{{page}}.html\n玄幻魔法::https://m.bixiale.com/wenxue/sort_1_{{page}}.html\n仙侠修真::https://m.bixiale.com/wenxue/sort_2_{{page}}.html\n都市言情::https://m.bixiale.com/wenxue/sort_3_{{page}}.html\n历史军事::https://m.bixiale.com/wenxue/sort_4_{{page}}.html\n网游竞技::https://m.bixiale.com/wenxue/sort_5_{{page}}.html\n科幻小说::https://m.bixiale.com/wenxue/sort_6_{{page}}.html\n恐怖灵异::https://m.bixiale.com/wenxue/sort_7_{{page}}.html\n其他小说::https://m.bixiale.com/wenxue/sort_8_{{page}}.html",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "coverUrl": "class.infoimg@img@src",
+      "intro": "class.jianjie@textNodes##.*好看小说：",
+      "lastChapter": "class.article@tag.li.2@a@text",
+      "tocUrl": "text.目录列表@href"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes",
+      "nextContentUrl": "text.下一页@href##.*/(\\d+)/(\\d+)_(\\d+).html.*##/$1/$2_$3.html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.li.1@a@text||tag.a.1@text",
+      "bookList": "class.searchcon@ul||class.ph_list@li",
+      "bookUrl": "a@href##.*/(\\d+)/.*##/$1/",
+      "coverUrl": "a@href#.*/(\\d+)/.*#/$1/<js>java.ajax('https://m.bixiale.com'+result)</js>class.infoimg@img@src",
+      "kind": "class.lastupdate@span@text",
+      "lastChapter": "class.lastupdate@textNodes||textNodes",
+      "name": "h3@a@text||class.articlelink@strong@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.listchapter@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://m.bixiale.com/com/so.php,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&type=articlename\"\n}",
+    "weight": 0
+  }]

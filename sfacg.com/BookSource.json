@@ -1,0 +1,48 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎈轻文",
+    "bookSourceName": "🎈 SF轻小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.sfacg.com",
+    "bookUrlPattern": "",
+    "customOrder": -115938,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "首页::/\n最新::/latelist\n签约::/latelist/s\nVIP::/vip/\n人气::/rank/original.html\n畅销::/rank/sale.html\n新书::/rank/new.html\n日轻::/rank/jp.html\n收藏::/rank/bm.html\n月票::/rank/ticket.html\n魔幻::/API/HTML5.ashx?op=latest&index={{page}}&tid=21\n玄幻::/API/HTML5.ashx?op=latest&index={{page}}&tid=22\n古风::/API/HTML5.ashx?op=latest&index={{page}}&tid=23\n科幻::/API/HTML5.ashx?op=latest&index={{page}}&tid=24\n校园::/API/HTML5.ashx?op=latest&index={{page}}&tid=25\n都市::/API/HTML5.ashx?op=latest&index={{page}}&tid=26\n游戏::/API/HTML5.ashx?op=latest&index={{page}}&tid=27\n同人::/API/HTML5.ashx?op=latest&index={{page}}&tid=28\n悬疑::/API/HTML5.ashx?op=latest&index={{page}}&tid=29",
+    "lastUpdateTime": 1612353851133,
+    "loginUrl": "https://m.sfacg.com/login",
+    "ruleBookInfo": {
+      "intro": "@js:\"<br>\"+java.get('intro')",
+      "tocUrl": "text.目录列表@href"
+    },
+    "ruleContent": {
+      "content": "div[style=text-indent: 2em;]@html@js:\nresult.replace(/<img.*?>/,'本内容为图片，阅读暂不支持')"
+    },
+    "ruleExplore": {
+      "author": "@js:\nif(baseUrl.match(/API/))\nJSON.parse(result).AuthorName;\nelse {\njava.setContent(result);\nString(java.getString(\"tag.div.-1@text\",false)).replace(/\\/.*/,'').replace(/null/,'');}",
+      "bookList": "<js>\nif(baseUrl.match(/API/))\n//JSON.parse(decodeURIComponent(result));\ndecodeURIComponent(result).match(/\\{.*?\\}/g);\nelse\norg.jsoup.Jsoup.parse(result).select(\".book_bk_qs1 a:has(img)\")\n</js>",
+      "bookUrl": "href||/b/{$.NovelID}/",
+      "coverUrl": "img@src||https://rs.sfacg.com/web/novel/images/NovelCover/Big/{$.NovelCover}",
+      "intro": "tag.li.0@text",
+      "kind": "@js:\nif(baseUrl.match(/API/))\nJSON.parse(result).TypeName;\nelse {\njava.setContent(result);\nString(java.getString(\"tag.div.-1@text\",false)).replace(/.*?\\//,'').replace(/null/,'');}",
+      "lastChapter": "@js:\"更多信息请搜索本书重新添加\";",
+      "name": "id.listtitle@textNodes||text||$.NovelName"
+    },
+    "ruleSearch": {
+      "author": "$.AuthorName",
+      "bookList": "$.Novels[0,1]",
+      "bookUrl": "/i/{$.NovelID}/",
+      "coverUrl": "https://rs.sfacg.com/web/novel/images/NovelCover/Big/{$.NovelCover}",
+      "intro": "@js:java.get('intro')",
+      "kind": "@js:\nvar bid=String(result).match(/NovelID=(\\d+)/)[1];\nvar url=\"http://book.sfacg.com/Novel/\"+bid+\"/\";\nimportClass(org.jsoup.Jsoup);\nresult=Jsoup.parse(java.ajax(url));\nvar intro=String(result.select(\".introduce\").text()).trim();\nvar last=result.select(\".chapter-title a\").text();\nvar tags=result.select(\".text-row:eq(0)\").text();\njava.put('intro',intro);\njava.put('last',last);\ntags=tags.match(/类型：(.*?)\\s字数：(.*?)字\\[(.*?)\\]\\s.*/);\n(tags)?tags.shift()&&tags.join(',').replace(/已|中/,''):'';",
+      "lastChapter": "@js:java.get('last')",
+      "name": "$.NovelName"
+    },
+    "ruleToc": {
+      "chapterList": "+@js:\nvar list = [],url = result.match(/\\/c\\/\\d+\\//g);\nvar n1 = new RegExp(/mulu\">(.+)<\\/d/g);\nvar n3 = new RegExp(/href=\"\\/c\\/\\d+\\/\"><li>(.+?)<\\/l/g);\nvar n,n_pre = '',n_sub,n_temp,t = i= -1,p = [],p_tmp,i_tmp;\n//获取每卷的标题\nwhile ((n_temp = n1.exec(result)) != null) {\n\ti = i + 1;\n\tp.push({\n\t\tq: n_temp[1],\n\t\tw: n1.lastIndex\n\t});\n}\ni_tmp = i;n_tmp='';\n\nwhile ((n_temp = n3.exec(result)) != null) {\n\t//获取每话的标题\n\tn_sub = n_temp[1];\n\t//判断VIP\n\tif ((n_sub.match(/span/)) != null) {\n\t\tn_sub = n_sub.match(/span>(.+)<\\/span><spa/)[1];\n\t\tn_sub = '🔒' + n_sub;\n\t}\n\t//添加卷标题和二级标题\n\tif (p[0] != null) {\n\t\ti = i_tmp;\n\t\tp_tmp = p[i].w;\n\t\twhile (p_tmp > n3.lastIndex) {\n\t\t\ti = i - 1;\n\t\t\tp_tmp = p[i].w;\n\t\t}\n\t\tn_pre = p[i].q;\nif(n_pre!=n_tmp){\n   list.push({\n\t\t  k: ''+n_pre+'',\n\t\t  v: 'http://localhost/'+n_pre\n\t});n_tmp=n_pre;\n}\n\t\tn_pre ='';\n\t}\n\t//保存数据到数组\n\n\n\tn = n_pre + n_sub;\n\tt = t + 1;\n\tlist.push({\n\t\tk: n,\n\t\tv: url[t]\n\t});n_pre = '';\n}\nlist;",
+      "chapterName": "k",
+      "chapterUrl": "v"
+    },
+    "searchUrl": "/API/HTML5.ashx?op=search&keyword={{key}}",
+    "weight": 0
+  }]

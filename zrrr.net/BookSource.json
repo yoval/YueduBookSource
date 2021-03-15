@@ -1,0 +1,43 @@
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\nxpath;coolapk@芜恙;intro;nextUrl",
+    "bookSourceGroup": "🍑耽美,失效",
+    "bookSourceName": "🍑 PKGG",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.zrrr.net#searchcon ul",
+    "bookUrlPattern": "http://www.zrrr.net/book/.+",
+    "customOrder": -31116,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1602810740357,
+    "ruleBookInfo": {
+      "author": "//*[@class=\"author\"]/span[2]/text()",
+      "coverUrl": "//*[@class=\"fengmian\"]/img/@src",
+      "intro": "//*[@class=\"intro\"]/p",
+      "kind": "//*[@class=\"author\"]/span[1]/text()&&//p[@class=\"author\"]/span[3]/text()##.*：|中.*|已",
+      "lastChapter": "//*[@class=\"lastchapter\"]/a/text()&&//*[@class=\"author\"]/span[4]/text()##(.+)\\n.*\\d+-(\\d+-\\d+).*##$1▪$2",
+      "name": "//h1/text()"
+    },
+    "ruleContent": {
+      "content": "//*[@id=\"TextContent\"]@js:result+'本章未完'",
+      "nextContentUrl": "@js:if(result.match(/\\(1\\/(\\d+)\\)分页/)){\n    page = result.match(/\\(1\\/(\\d+)\\)分页/)[1];\n    list = [];\n    for (i = 2; i <= page; i++) {\n        list.push(baseUrl.replace(/.html/g, '_' + i + '.html'))\n    }\n    list\n}",
+      "replaceRegex": "##\\s*本章未完\\s*|.*本章完.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "//li[9]/text()",
+      "bookList": "//*[@class=\"searchcon\"]/ul",
+      "bookUrl": "//li[7]/a/@href",
+      "coverUrl": "//li[7]/a/@href##.*/((\\d+)\\d{3})/##/image/$2/$1/$1s.jpg",
+      "kind": "//li[12]/text()",
+      "lastChapter": "//li[8]/a/text()&&//li[11]/text()@js:var t = result.replace(/.*\\n/,'');\nvar n = result.replace(/\\n.*/,'');\nn+ '▪' +t;",
+      "name": "//li[7]/a/text()",
+      "wordCount": "//li[10]/text()"
+    },
+    "ruleToc": {
+      "chapterList": "//*[@class=\"chapters\"]/li/a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

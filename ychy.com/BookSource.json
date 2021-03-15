@@ -1,0 +1,52 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "📻有声",
+    "bookSourceName": "📻 海洋听书",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://www.ychy.com",
+    "customOrder": -115790,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "盗墓探险::/list/45<,_{{page}}>.html\n官场刑侦::/list/14<,_{{page}}>.html\n网络玄幻::/list/52<,_{{page}}>.html\n历史军事::/list/15<,_{{page}}>.html\n人物传记::/list/16<,_{{page}}>.html\n儿童读物::/list/4<,_{{page}}>.html\n恐怖悬疑::/list/17<,_{{page}}>.html\n都市言情::/list/13<,_{{page}}>.html\n职场商战::/list/81<,_{{page}}>.html\n传统武侠::/list/12<,_{{page}}>.html\n相声戏曲::/list/7<,_{{page}}>.html\n百家讲坛::/list/32<,_{{page}}>.html\n   评书   ::/list/3<,_{{page}}>.html\n 广播 剧 ::/list/18<,_{{page}}>.html\n文艺戏曲::/list/53<,_{{page}}>.html",
+    "lastUpdateTime": 1611734442489,
+    "ruleBookInfo": {
+      "author": "class.content_center.0@tag.a.1@text",
+      "coverUrl": "class.content_right.0@img@src",
+      "intro": "class.txtbox@text",
+      "kind": "class.content_center.0@tag.a.0@text&&\nclass.content_center.0@tag.a.2@text&&\nclass.content_center.1@text##.*日期:|标签.*|",
+      "lastChapter": "class.content_center.1@text##日期.*|状态:",
+      "name": "class.content_title@h1@text##有声小说"
+    },
+    "ruleContent": {
+      "content": "<js>result</js>",
+      "imageStyle": "0",
+      "sourceRegex": ".*\\.(mp3|m4a).*"
+    },
+    "ruleExplore": {
+      "author": "tag.p.2@text&&tag.p.1@text",
+      "bookList": "class.bx_channel_test",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "tag.p.3@text",
+      "lastChapter": "tag.p.0@text",
+      "name": "class.bx_channel_testname@tag.a@title"
+    },
+    "ruleSearch": {
+      "author": "tag.dd.1@text",
+      "bookList": "class.list_container@li",
+      "bookUrl": "a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.impression@text",
+      "kind": "tag.dd.3@text&&\ntag.dd.0@text&&\ntag.dd.7@text",
+      "lastChapter": "tag.dd.2@text",
+      "name": "tag.span.0@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.playlist@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href@js:result+',{webView:“true”}'"
+    },
+    "searchUrl": "http://www.ychy.com/Search.asp,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"page={{page}}&searchword={{key}}&searchtype=-1\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "天域战歌",
+    "bookSourceName": "海棠书屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.33bk.cn",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "热门小说::http://m.33bk.cn/paihang.html\n全部小说::http://m.33bk.cn/xiaoshuodaquan</page_{{page}}.html>\n玄幻小说::http://m.33bk.cn/xuanhuan<page_{{page}}.html>\n修真小说::http://m.33bk.cn/xiuzhen<page_{{page}}.html>\n都市小说::http://m.33bk.cn/dushi<page_{{page}}.html>\n历史小说::http://m.33bk.cn/lishi<page_{{page}}.html>\n网游小说::http://m.33bk.cn/wangyou<page_{{page}}.html>\n科幻小说::http://m.33bk.cn/kehuan<page_{{page}}.html>\n女频小说::http://m.33bk.cn/nvpin<page_{{page}}.html>",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; Redmi K30 5G Build/QKQ1.191222.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.101 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.lf@img@src",
+      "intro": "class.intro@textNodes",
+      "lastChapter": "class.msg@tag.em.3@a@text"
+    },
+    "ruleContent": {
+      "content": "id.BookText@textNodes##-->>",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.pt-author@tag.a.0@text",
+      "bookList": "class.ptm-card.-1@li",
+      "bookUrl": "a@href##^##http://www.33bk.cn",
+      "coverUrl": "img@src",
+      "kind": "class.pt-author@tag.a.1@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "tag.ul.1@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href##^##http://m.33bk.cn"
+    },
+    "searchUrl": "http://m.33bk.cn/home/search,{\n  \"method\": \"POST\",\n  \"body\": \"action=search&q={{key}}\"\n}",
+    "weight": 0
+  }]

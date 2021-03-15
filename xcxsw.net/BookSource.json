@@ -1,0 +1,51 @@
+[  {
+    "bookSourceComment": "haxc",
+    "bookSourceGroup": "",
+    "bookSourceName": "乡村小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xcxsw.net",
+    "customOrder": -113145,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "乡村小说::/type3/{{page}}.html\n都市小说::/type5/{{page}}.html",
+    "lastUpdateTime": 1613023735435,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "class.book-img@img@src",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "class.m-post@html##{{chapter.title}}\\s*",
+      "nextContentUrl": "",
+      "replaceRegex": "##.*感谢各位书友的支持.*"
+    },
+    "ruleExplore": {
+      "author": "tag.span@text",
+      "bookList": "ol@li",
+      "bookUrl": "tag.a.@href",
+      "coverUrl": "tag.img@src",
+      "name": "tag.h2@text"
+    },
+    "ruleSearch": {
+      "author": "tag.em@text##\\d+.*",
+      "bookList": "class.post type-post post-query",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "",
+      "intro": "tag.p@text",
+      "kind": "",
+      "name": "tag.h3@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.xsbox@li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/e/search/index.php,{\n\"charset\": \"\",\n\"method\": \"POST\",\n\"body\": \"keyboard={{key}}&tbname=book&tempid=1&show=title,writer,bookfilename\"\n}",
+    "weight": 0
+  }]

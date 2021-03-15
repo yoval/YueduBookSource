@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉精品UU小说网uu234",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.uu234.net",
+    "customOrder": -115722,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612807112037,
+    "ruleBookInfo": {
+      "author": "class.author@tag.a.0@text",
+      "coverUrl": "class.con_limg@tag.img@src",
+      "intro": "class.r_cons@text##内容简介:",
+      "name": "class.r420@tag.h1@text",
+      "tocUrl": "class.dirtools@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "class.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.width111@tag.a.0@text",
+      "bookList": "class.listcon clearfix@tag.li",
+      "bookUrl": "class.width369@tag.a.0@href",
+      "kind": "class.width369@tag.span.0@text##\\].*|\\[",
+      "lastChapter": "class.width369@tag.a.1@text",
+      "name": "class.width369@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.clearfix dirconone.1@tag.li",
+      "chapterName": "tag.a.0@text",
+      "chapterUrl": "tag.a.0@href"
+    },
+    "searchUrl": "http://www.uu234.net/search?wd={{key}}&pn={{page-1}}",
+    "weight": 0
+  }]

@@ -1,0 +1,35 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "📥下载,🍑耽美",
+    "bookSourceName": "🍑 当书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.downbook.org",
+    "customOrder": -116006,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::https://m.downbook.org/TXT/list4_{{page}}.html\n武侠仙侠::https://m.downbook.org/TXT/list5_{{page}}.html\n都市重生::https://m.downbook.org/TXT/list6_{{page}}.html\n历史军事::https://m.downbook.org/TXT/list7_{{page}}.html\n恐怖推理::https://m.downbook.org/TXT/list8_{{page}}.html\n科幻网游::https://m.downbook.org/TXT/list9_{{page}}.html\n都市言情::https://m.downbook.org/TXT/list10_{{page}}.html\n古代言情::https://m.downbook.org/TXT/list11_{{page}}.html\n穿越重生::https://m.downbook.org/TXT/list12_{{page}}.html\n玄幻仙侠::https://m.downbook.org/TXT/list13_{{page}}.html\n青春同人::https://m.downbook.org/TXT/list14_{{page}}.html\n网游科幻::https://m.downbook.org/TXT/list15_{{page}}.html\n现代耽美::https://m.downbook.org/TXT/list27_{{page}}.html\n古代架空::https://m.downbook.org/TXT/list28_{{page}}.html\n重生穿越::https://m.downbook.org/TXT/list29_{{page}}.html\n玄幻科幻::https://m.downbook.org/TXT/list30_{{page}}.html\nbl同人::https://m.downbook.org/TXT/list31_{{page}}.html\ngl百合::https://m.downbook.org/TXT/list32_{{page}}.html\nnull",
+    "lastUpdateTime": 1610077742962,
+    "ruleBookInfo": {
+      "coverUrl": "tag.img.1@src",
+      "intro": "class.jj@html",
+      "tocUrl": "text.在线阅读@href@js:if(result.match(/id/)){a=result.match(/\\D+(\\d+)\\D.+\\/(.+).txt/);'/book.php?id='+a[1]+'&txt=/TXT/'+Packages.java.lang.String(a[2]).getBytes('gb2312').map(x =>'%'+(x&0xff).toString(16)).join('')+'.txt'}"
+    },
+    "ruleContent": {
+      "content": "<js>org.jsoup.Jsoup.connect(baseUrl).get()</js>.chapter_content@html##本书总字数为[:：0-9]*个"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.0@text##.*作者：|大小.*",
+      "bookList": "@css:div.lb li",
+      "bookUrl": "tag.a.0@href",
+      "kind": "tag.a.1@text",
+      "name": "tag.a.0@text##作者.*"
+    },
+    "ruleToc": {
+      "chapterList": "+@js:list=[];if(baseUrl.match(/id/)){p=org.jsoup.Jsoup.connect(baseUrl).get().toString().match(/=(\\d+)\">末 页/)[1];for(i=0;i<=p;i++){list.push({n:'第'+[i+1]+'页',u:baseUrl.replace(/$/,'&yeshu='+i)})}}else list.push({n:'空',u:''});list",
+      "chapterName": "n",
+      "chapterUrl": "u"
+    },
+    "searchUrl": "https://m.downbook.org/search.asp?word={{key}}&btzz=b&s=0&m=2,{\n  \"charset\": \"gb2312\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,51 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔰普通",
+    "bookSourceName": "🔰 百家网[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.baijiaw.com",
+    "bookUrlPattern": "",
+    "customOrder": -114705,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/sort/1_{{page}}/\n武侠仙侠::/sort/2_{{page}}/\n都市职场::/sort/3_{{page}}/\n历史军事::/sort/4_{{page}}/\n游戏竞技::/sort/5_{{page}}/\n科幻灵异::/sort/6_{{page}}/\n女生频道::/sort/7_{{page}}/\n综合类型::/sort/8_{{page}}/\n全本::/full/{{page}}/\n总榜::/top/all_{{page}}.html\n月榜::/top/month_{{page}}.html\n周榜::/top/week_{{page}}.html",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows; U; Windows NT 5.2;. en-US) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/57.0.2987.108 Safari/537.36 Quark/2.4.6\"\n}",
+    "lastUpdateTime": 1612534146315,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text##作 者：|\\/全文完整",
+      "coverUrl": "img@src",
+      "intro": "id.intro@textNodes#《.*?免费阅读，作者：?.*?该书主要讲述了：|.*是原作者.*精心创作的.*大作，免费同步更新.*|(?s)关键词：\\s*、.*|小说内容章节生动充实，故事情节.*?读者大大阅读!|@?各位书友要是觉得《.*?还不错的话，?请.*|.*?》小说简介：|.*》免费阅读全文，.*是小说主角，小说.*?全文简介：|小说.*?》在线免费阅读全文，|分享书籍《.*?》作者：.*\n<js>result.replace(/…/gi,\"\\...\").replace(/“/g,\"“\").replace(/”/g,\"”\")</js>",
+      "kind": ".con_top@tag.a.-1@text&&id.info@tag.p.2@text##.*：",
+      "lastChapter": "id.info@tag.a.-1@text",
+      "name": "h1@text## 小说$|txt全集(下载)?$|（全集）|\\(电子书\\)|[\\s·]番外$|(全文|小说|最新章节|在线|大结局)?((免费|在线)阅读|(完整|免费)版)$|最新章节$|(免费阅读)?全[文本](免费)?$"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##亲，本章.*?(下一页哦|阅读愉快！)\\^0\\^|\\（本章完\\）",
+      "nextContentUrl": "text.下一页.0@href"
+    },
+    "ruleExplore": {
+      "author": "p!0:2@text##作者：",
+      "bookList": ".hot_sale",
+      "bookUrl": "a@href<js>result.replace(/\\/book\\/(\\d*?)(\\d{1,3}\\/)/,'https://www.baijiaw.com/$1_$1$2').replace('\\/_','/0_')</js>",
+      "coverUrl": "img@data-original",
+      "intro": "p!0:1@text##《.*?免费阅读，作者：?.*?该书主要讲述了：|.*是原作者.*精心创作的.*大作，免费同步更新.*|小说内容章节生动充实，故事情节.*?读者大大阅读!|@?各位书友要是觉得《.*?还不错的话，?请.*|.*?》小说简介：|^简介：\\s*|.*》免费阅读全文，.*是小说主角，小说.*?全文简介：|小说.*?》在线免费阅读全文，|分享书籍《.*?》作者：.*",
+      "name": "p!1:2@text## 小说$|txt全集(下载)?$|（全集）|\\(电子书\\)|[\\s·]番外$|(全文|小说|最新章节|在线|大结局)?((免费|在线)阅读|(完整|免费)版)$|最新章节$|(免费阅读)?全[文本](免费)?$"
+    },
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "id.nr",
+      "bookUrl": "a!1@href",
+      "coverUrl": "a!1@href##.*\\/(\\d+)_(\\d+)\\/##/files/article/image/$1/$2/$2s.jpg",
+      "kind": "td!0:1:2@text",
+      "lastChapter": "a!0@text",
+      "name": "a!1@text## 小说$|txt全集(下载)?$|（全集）|\\(电子书\\)|[\\s·]番外$|(全文|小说|最新章节|在线|大结局)?((免费|在线)阅读|(完整|免费)版)$|最新章节$|(免费阅读)?全[文本](免费)?$"
+    },
+    "ruleToc": {
+      "chapterList": ":f=\"(\\d+\\.)[^>]*>([^<]*)",
+      "chapterName": "$2",
+      "chapterUrl": "$1html"
+    },
+    "searchUrl": "https://www.baijiaw.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

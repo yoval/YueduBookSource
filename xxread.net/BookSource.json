@@ -1,0 +1,36 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "发现",
+    "bookSourceName": "肉肉阅读半成品",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xxread.net",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::https://www.xxread.net/category.php?t=xuanhuan&p={{page}}\nnull",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.m-bookdetail@tag.img@src",
+      "intro": "class.m-newupdate@tag.p@text"
+    },
+    "ruleContent": {
+      "content": "class.item"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "class.even",
+      "bookUrl": "class.book-name@tag.a.0@href",
+      "lastChapter": "class.book-newest-chapter@text",
+      "name": "class.book-name@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.item",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": ",{\n  \"charset\": \"UTF-8\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,63 @@
+[  {
+    "bookSourceComment": "error:failed to connect to www.zxcs.me/83.166.242.116 (port 80) from /10.128.204.1 (port 43676) after 15000ms\n",
+    "bookSourceGroup": "📥下载",
+    "bookSourceName": "📥 知轩藏书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.zxcs.me",
+    "bookUrlPattern": "",
+    "customOrder": -115895,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "都市::http://www.zxcs.me/sort/23<,/page/{{page}}>\n武侠::http://www.zxcs.me/sort/36<,/page/{{page}}>\n仙侠::http://www.zxcs.me/sort/37<,/page/{{page}}>\n奇幻::http://www.zxcs.me/sort/38<,/page/{{page}}>\n玄幻::http://www.zxcs.me/sort/39<,/page/{{page}}>\n科幻::http://www.zxcs.me/sort/40<,/page/{{page}}>\n灵异::http://www.zxcs.me/sort/41<,/page/{{page}}>\n历史::http://www.zxcs.me/sort/42<,/page/{{page}}>\n军事::http://www.zxcs.me/sort/43<,/page/{{page}}>\n竞技::http://www.zxcs.me/sort/44<,/page/{{page}}>\n游戏::http://www.zxcs.me/sort/45<,/page/{{page}}>\n次元::http://www.zxcs.me/sort/55<,/page/{{page}}>",
+    "header": "",
+    "lastUpdateTime": 1606808464181,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "@css:#content > a img@src",
+      "init": "",
+      "intro": "<js>\nvar J = org.jsoup.Jsoup.parse(result);\n\nvar res = java.ajax(\n  baseUrl.replace(\n    /.+post\\//,\n    'http://www.zxcs.me/content/plugins/cgz_xinqing/cgz_xinqing_action.php?action=show&id='\n  )\n);\n\nvar voteTags = ['仙草', '粮草', '干草', '枯草', '毒草'];\n\nvar vote = String(res)\n  .split(',')\n  .map((v, i) => ('🏷️' + voteTags[i] + ' ➣ ' + v + '人' + '   ').slice(0, 12));\n\nvar intro =\n  String(J.select('#vote').text()) +\n  '<br>' +\n  String(J.select('p:contains(内容简介)').html()).replace(/.+】：/g, '');\n\n'<br>' +\n  vote.slice(0, 3).join('  ') +\n  '<br>' +\n  vote.slice(3).join('  ') +\n  '<br>' +\n  intro;\n</js>",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "<js>\nvar content;\n\nvar J = org.jsoup.Jsoup.parse(result);\ncontent = String(J.select('.plus_l').html())\n  .replace('推荐级别 ：', '')\n  .trim();\nvar downfile = J.select('.downfile a')\n  .toArray()\n  .map(a => '【' + a.text() + '】<br>' + a.attr('href'))\n  .join('<br>');\n\ncontent = [\n  content,\n  downfile,\n  '如果看不到下载链接，可以在右上对本源禁用“替换净化”。'\n].join('<br>━━━━━<br>');\n\ncontent;\n</js>",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "dt a@text##.+作者：",
+      "bookList": "#plist",
+      "bookUrl": "dt a@href",
+      "coverUrl": "",
+      "intro": ".des@text##.+】：|[\\s]+|优质订阅书源.+",
+      "kind": "@css:.des + dd > a@text",
+      "lastChapter": "dt a@text&&.des + dd@textNodes\n<js>\nString(result).replace(/.+?（/, '').replace(/）[\\s\\S]+时间：(.+)/, ' • $1');\n</js>",
+      "name": "dt a@text##《|》.+",
+      "wordCount": ".des@text##.*大小】：(.+?)\\s*【.*##$1"
+    },
+    "ruleToc": {
+      "chapterList": "h1",
+      "chapterName": "text##《|》|作者：.+",
+      "chapterUrl": "<js>baseUrl.replace(/post\\//, 'download.php?id=')</js>",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "/?keyword={{key}}",
+    "weight": 0
+  }]

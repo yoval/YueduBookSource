@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 笔趣阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.biqumo.com",
+    "customOrder": -115531,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1604164994485,
+    "ruleBookInfo": {
+      "author": "class.small.0@tag.span.0@text##作者：",
+      "coverUrl": "class.cover.0@tag.img.0@src",
+      "intro": "class.intro.0@text",
+      "kind": "class.small.0@tag.span.1@text##分类：",
+      "lastChapter": "class.last.1@tag.a.0@text",
+      "name": "tag.h2.0@text"
+    },
+    "ruleContent": {
+      "content": "class.showtxt.0@html",
+      "nextContentUrl": "text.下一章.0@href##(\\/\\d+_\\d+_\\d+\\/)##$1##"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4.0@text",
+      "bookList": "class.l bd.0@tag.li",
+      "bookUrl": "class.s2.0@tag.a.0@href",
+      "kind": "class.s1.0@text##\\[(.*)\\]##$1##",
+      "lastChapter": "class.s3.0@tag.a.0@text",
+      "name": "class.s2.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain.0@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.biqumo.com/search/?ie=gbk&siteid=xszww.com&q={{key}}",
+    "weight": 0
+  }]

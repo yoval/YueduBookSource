@@ -1,0 +1,33 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 就看奇闻",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.9kqw.com",
+    "customOrder": -31701,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36\"\n}",
+    "lastUpdateTime": 1603268663909,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.book-content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@tag.a.0@text",
+      "bookList": "//ul[@class=\"all-img-list cf search-list\"]\u0014P",
+      "bookUrl": "class.book-mid-info@tag.h4@tag.a@href",
+      "coverUrl": "class.book-img-box@tag.a@tag.img@src",
+      "intro": "class.intro@text",
+      "kind": "class.author@tag.a.1@text",
+      "name": "class.book-mid-info@tag.h4@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.contents-lst@tag.li",
+      "chapterName": "class.contents-tab@tag.a@title",
+      "chapterUrl": "class.contents-tab@tag.a@href"
+    },
+    "searchUrl": "http://www.9kqw.com/home/search?kw={{key}}&p={{page}}",
+    "weight": 0
+  }]

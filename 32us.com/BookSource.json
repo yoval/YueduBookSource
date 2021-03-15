@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "A级",
+    "bookSourceName": "顶点小说32us.com",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.32us.com",
+    "bookUrlPattern": "",
+    "customOrder": 104,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.fl.1@tag.td.1@text",
+      "coverUrl": "class.bdsub@id.content@class.fl.0@tag.a.0@tag.img@src",
+      "intro": "id.content@tag.dd.3@tag.p.1@textNodes",
+      "name": "id.content@tag.h1@text##全文阅读",
+      "tocUrl": "class.btnlinks@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "id.TextContent@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "lastChapter": "class.even.0@tag.a.0@text",
+      "name": "class.odd.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.at@tag.tr@tag.td",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.32us.com/modules/article/search.php?searchtype=articlename&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

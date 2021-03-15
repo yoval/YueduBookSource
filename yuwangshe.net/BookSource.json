@@ -1,0 +1,33 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 欲望社",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.yuwangshe.net",
+    "customOrder": -116598,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612499826016,
+    "ruleBookInfo": {
+      "intro": "class.text-muted@html"
+    },
+    "ruleContent": {
+      "content": "class.panel-body@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.li.2@text",
+      "bookList": "class.mySearch@tag.ul",
+      "bookUrl": "tag.li.0@tag.a@href",
+      "kind": "tag.li.3@text##大小.",
+      "lastChapter": "tag.li.1@tag.a@text",
+      "name": "class.b@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.panel-body@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.yuwangshe.net/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

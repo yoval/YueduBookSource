@@ -1,0 +1,49 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 一曲书斋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yiqushu.org",
+    "bookUrlPattern": "",
+    "customOrder": -116486,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "耽美小说::/danmeixiaoshuo/<,index_{{page}}.html>\n穿越重生::/chuanyuezhongsheng/<,index_{{page}}.html>\n现代都市::/xiandaidushi/<,index_{{page}}.html>\n古代架空::/gudaijiakong/<,index_{{page}}.html>\n综漫同人::/tongrenBL/<,index_{{page}}.html>\n百合ＧＬ::/baiheGL/<,index_{{page}}.html>\n玄幻网游::/xuanhuanwangyou/<,index_{{page}}.html>\n高辣小说::/gaolawen/<,index_{{page}}.html>\n言情小说::/yanqing/<,index_{{page}}.html>",
+    "lastUpdateTime": 1612452302101,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "lastChapter": "tag.option.-1@text",
+      "name": ""
+    },
+    "ruleContent": {
+      "content": "class.article-content@html",
+      "imageStyle": "0",
+      "nextContentUrl": "##<a href=\"([^\"]*)\">下一页##$1###",
+      "replaceRegex": "##首页 上一页 下一页 尾页(.|\\n)*"
+    },
+    "ruleExplore": {
+      "author": "tag.a.0@text##.*作者.",
+      "bookList": "class.excerpt",
+      "bookUrl": "tag.a.0@href",
+      "intro": "class.note@text",
+      "name": "tag.a.0@text##作者.*",
+      "wordCount": "tag.span.1@text##.*\\(|\\)"
+    },
+    "ruleSearch": {
+      "author": "tag.a.0@text##.*作者.",
+      "bookList": "class.excerpt",
+      "bookUrl": "tag.a.0@href",
+      "intro": "tag.td.0@text",
+      "kind": "tag.a.1@text",
+      "name": "tag.a.0@text##作者.*",
+      "wordCount": "##html - ([^<]*)##$1###"
+    },
+    "ruleToc": {
+      "chapterList": ":<option value=\"([^\"]+)\">第\\((\\d+)\\)章</option>",
+      "chapterName": "第$2页",
+      "chapterUrl": "$1"
+    },
+    "searchUrl": "/e/search/,{\n  \"method\": \"POST\",\n  \"body\": \"tbname=article&tempid=1&show=title,writer&keyboard={{key}}&submit=\"\n}",
+    "weight": 0
+  }]

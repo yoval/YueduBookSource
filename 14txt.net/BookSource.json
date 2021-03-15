@@ -1,0 +1,44 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "一世书城",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.14txt.net",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部::https://m.14txt.net/xclass/0/{{page}}.html\n玄幻小说::https://m.14txt.net/xclass/1/{{page}}.html\n仙侠修真::https://m.14txt.net/xclass/2/{{page}}.html\n都市小说::https://m.14txt.net/xclass/3/{{page}}.html\n历史小说::https://m.14txt.net/xclass/4/{{page}}.html\n网游小说::https://m.14txt.net/xclass/5/{{page}}.html\n科幻小说::https://m.14txt.net/xclass/6/{{page}}.html\n其他小说::https://m.14txt.net/xclass/7/{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.review@text",
+      "tocUrl": "class.btn@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@textNodes",
+      "nextContentUrl": "id.pt_next@text.下一页@href<js>var a=result;var b=new RegExp(\"_\",\"g\");var c;c=b.exec(a);if(c==\"_\"){a;}</js>"
+    },
+    "ruleExplore": {
+      "author": "class.author@tag.a.1@text",
+      "bookList": "id.main@class.hot_sale",
+      "bookUrl": "class.detail@tag.a.0@href",
+      "coverUrl": "class.bookimg@tag.img.0@src",
+      "intro": "class.review@text##.*》",
+      "name": "class.title@text"
+    },
+    "ruleSearch": {
+      "author": "class.author.0@tag.a.1@text",
+      "bookList": "class.slide-item list1@tag.div!0",
+      "bookUrl": "tag.a.0@href",
+      "lastChapter": "class.author.1@text",
+      "name": "class.title@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterlist@tag.p!0",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://m.14txt.net/SearchBook.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}",
+    "weight": 0
+  }]

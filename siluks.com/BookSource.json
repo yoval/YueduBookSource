@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 无限小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.siluks.com",
+    "bookUrlPattern": "",
+    "customOrder": -116458,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最近入库::http://m.siluks.com/top-postdate<,/{{page}}>.html\n总点击榜::http://m.siluks.com/top-allvisit<,/{{page}}>.html\n总推荐榜::http://m.siluks.com/top-vote<,/{{page}}>.html\n总收藏榜::http://m.siluks.com/top-mark<,/{{page}}>.html\n总下载榜::http://m.siluks.com/top-down<,/{{page}}>.html\n总评论榜::http://m.siluks.com/top-comment<,/{{page}}>.html\n总评分榜::http://m.siluks.com/top-star_score<,/{{page}}>.html\n全本小说::http://m.siluks.com/over<,/{{page}}>.html\n玄幻小说::http://m.siluks.com/sort-xuanhuan<,/{{page}}>.html\n武侠小说::http://m.siluks.com/sort-wuxia<,/{{page}}>.html\n都市小说::http://m.siluks.com/sort-dushi<,/{{page}}>.html\n历史小说::http://m.siluks.com/sort-lishi<,/{{page}}>.html\n青春小说::http://m.siluks.com/sort-qc<,/{{page}}>.html\n游戏小说::http://m.siluks.com/sort-youxi<,/{{page}}>.html\n悬疑小说::http://m.siluks.com/sort-xy<,/{{page}}>.html\n科幻小说::http://m.siluks.com/sort-kehuan<,/{{page}}>.html\n言情小说::http://m.siluks.com/sort-yq<,/{{page}}>.html\n其他小说::http://m.siluks.com/sort-qita<,/{{page}}>.html",
+    "lastUpdateTime": 1605083521581,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.block_img2@img@src",
+      "intro": "class.intro_info@tag.p.0@text",
+      "lastChapter": "class.block_txt2@tag.p.6@a@text",
+      "tocUrl": "text.章节目录@href"
+    },
+    "ruleContent": {
+      "content": "class.content@p@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "class.bookbox",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "lastChapter": "class.update@a@text",
+      "name": "class.bookname@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://m.siluks.com/search/result.html?searchkey={{key}}&submit=",
+    "weight": 0
+  }]

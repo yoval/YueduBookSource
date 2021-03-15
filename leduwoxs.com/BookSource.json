@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "A级",
+    "bookSourceName": "乐读窝",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.leduwoxs.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.bookTitle@address@text##作\\s*者：",
+      "coverUrl": "id.bigImg@img@src",
+      "intro": "id.contentA@text",
+      "name": "id.bookTitle@h1@text",
+      "tocUrl": "text.开始阅读@href"
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "tbody@tag.tr!0",
+      "bookUrl": "tag.a.0@href",
+      "kind": "tag.td.5@text",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.ccss@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.leduwoxs.com/modules/article/search.php?searchtype=articlename&searchkey={{key}}&action=login&submit=%3F%CB%D1%3F%3F%CB%F7%3F&page=1,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

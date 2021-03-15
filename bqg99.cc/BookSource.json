@@ -1,0 +1,48 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 笔趣阁99",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.bqg99.cc",
+    "bookUrlPattern": "https://m.bqg99.cc/book/.*",
+    "customOrder": -115327,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9; Pixel 3) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.90 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 1612627644025,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.info@tag.span.0@text",
+      "coverUrl": "class.bookimg@tag.img@src",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "class.book_more@a@href"
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@html##『加入书签，方便阅读』|（本章完）",
+      "nextContentUrl": "id.pb_next@href",
+      "replaceRegex": "##\\s*（本章未完.*）\\s*|[(未完待续].*|后面章节在app上.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "class.bookbox",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "intro": "class.intro_line@text",
+      "kind": "class.cat@text##分类：",
+      "lastChapter": "class.update@text##最新章节：",
+      "name": "h4@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.book_last@tag.dd!0",
+      "chapterName": "a@text## - \\d+-\\d+$",
+      "chapterUrl": "a@href",
+      "nextTocUrl": ""
+    },
+    "searchUrl": "/s.php?q={{key}}",
+    "weight": 0
+  }]

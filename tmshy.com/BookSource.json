@@ -1,0 +1,31 @@
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": "🛠️劣质,失效",
+    "bookSourceName": "🛠️ 天幕小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.tmshy.com",
+    "bookUrlPattern": "",
+    "customOrder": 16377,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1602898982230,
+    "loginUrl": "",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.chaptercontent@html",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.ptm-list-view ptm-grid-view pt-card-1.1@tag.li",
+      "bookUrl": "class.ptm-block pt-name ptm-text-cut@tag.a.0@href",
+      "name": "class.ptm-block pt-name ptm-text-cut@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.ptm-list-view.1@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://m.tmshy.com/home/search,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"action=search&q={{key}}\"\n}",
+    "weight": 0
+  }]

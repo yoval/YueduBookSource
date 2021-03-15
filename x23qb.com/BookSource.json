@@ -1,0 +1,50 @@
+[  {
+    "bookSourceComment": "细节fix",
+    "bookSourceGroup": "",
+    "bookSourceName": "铅笔~x23qb.com",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.x23qb.com/",
+    "bookUrlPattern": ".+/book/\\d+/",
+    "customOrder": -100001,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最近更新::/book/0-lastupdate-0-0-0-0-0-0-{{page}}.html\n最新入库::/book/0-postdate-0-0-0-0-0-0-{{page}}.html\n总点击榜::/book/0-allvisit-0-0-0-0-0-0-{{page}}.html\n总推荐榜::/book/0-allvote-0-0-0-0-0-0-{{page}}.html\n总收藏榜::/book/0-goodnum-0-0-0-0-0-0-{{page}}.html\n总字数榜::/book/0-size-0-0-0-0-0-0-{{page}}.html\n完本小说::/book/0-quanben-0-0-0-0-2-0-{{page}}.html\n全部小说::/book/0-quanben-0-0-0-0-0-0-{{page}}.html\n言情女生::/book/1-quanben-0-0-0-0-0-0-{{page}}.html\n玄幻奇幻::/book/2-quanben-0-0-0-0-0-0-{{page}}.html\n都市青春::/book/3-quanben-0-0-0-0-0-0-{{page}}.html\n武侠仙侠::/book/4-quanben-0-0-0-0-0-0-{{page}}.html\n唯美纯爱::/book/5-quanben-0-0-0-0-0-0-{{page}}.html\n科幻灵异::/book/6-quanben-0-0-0-0-0-0-{{page}}.html\n历史军事::/book/8-quanben-0-0-0-0-0-0-{{page}}.html\n轻の小说::/book/7-quanben-0-0-0-0-0-0-{{page}}.html",
+    "header": "",
+    "lastUpdateTime": 1614782739315,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+      "lastChapter": "[property=\"og:novel:update_time\"]@content&&[property=\"og:novel:latest_chapter_name\"]@content##\\n##▪",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "@css:#TextContent p@text",
+      "imageStyle": "",
+      "nextContentUrl": "##([^\"]+\\d_\\d\\.html)\">下一页</a>##$1###",
+      "replaceRegex": "##铅笔小说|禁止转码.+?浏览器阅读模式！\\n?|\\s+（继续下一页）\\s+|(?<=[，、“（【])\\s+"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "",
+      "bookList": "@css:#sitebox>dl",
+      "bookUrl": "@css:dt>a@href",
+      "coverUrl": "@css:img@_src",
+      "intro": "@css:.book_des@textNodes",
+      "kind": "@css:.book_other:eq(2)>span:eq(0)@text",
+      "lastChapter": "@css:.book_other:eq(4)>a:eq(0)@text",
+      "name": "@css:h3>a@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "+id.chapterList@tag.a",
+      "chapterName": "text##(?<=\\d章\\h)\\d+(\\+\\d+)?[，、]|(?<!^|[章卷部集]\\h?|[零一二三四五六七八九十][、\\h])[（［【\\{\\[\\(](?![一二三四五六七八九十]{1,3}\\W$|\\d{1,3}\\D$|[上中下完终续]\\W)[^（［【\\{\\[\\(]+|^(?=请\\w{0,2}假|解释|上架|推封|新书)\\S{2,}$",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search2.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&page={{page}}\"\n}",
+    "weight": 0
+  }]

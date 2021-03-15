@@ -1,0 +1,45 @@
+[  {
+    "bookSourceComment": "haxc",
+    "bookSourceGroup": "",
+    "bookSourceName": "西西文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.vv44.net",
+    "bookUrlPattern": "https://www.vv44.net/book/.*.html",
+    "customOrder": -113163,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/cat/xuanhuanmofa/{{page}}.html\n武侠修真::/cat/wuxiaxiuzhen/{{page}}.html\n都市言情::/cat/dushiyanqing/{{page}}.html\n历史军事::/cat/lishijunshi/{{page}}.html\n网游动漫::/cat/wangyoudongman/{{page}}.html\n科幻小说::/cat/kehuanxiaoshuo/{{page}}.html\n恐怖灵异::/cat/kongbulingyi/{{page}}.html\n其他类型::/cat/qita/{{page}}.html",
+    "lastUpdateTime": 1614602950289,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "class.intro@text##简介：",
+      "kind": "[property=\"og:novel:category\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "class.content@html",
+      "nextContentUrl": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "tag.tbody@tr",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "",
+      "kind": "",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": ".booklist@class.list-group@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": ""
+    },
+    "searchUrl": "https://www.vv44.net/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"search={{key}}\"\n}",
+    "weight": 0
+  }]

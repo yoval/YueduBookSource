@@ -1,0 +1,57 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "👍 优质",
+    "bookSourceName": "👍 老幺小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.laoyao.org",
+    "customOrder": -1784,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻异界::/library/1_0_0_2_0_{{page}}.html\n奇幻修真::/library/2_0_0_2_0_{{page}}.html\n纯爱耽美::/library/3_0_0_2_0_{{page}}.html\n历史架空::/library/4_0_0_2_0_{{page}}.html\n动漫同人::/library/5_0_0_2_0_{{page}}.html\n科幻未来::/library/6_0_0_2_0_{{page}}.html\n恐怖悬疑::/library/7_0_0_2_0_{{page}}.html\n名著经典::/library/8_0_0_2_0_{{page}}.html",
+    "lastUpdateTime": 1605872973449,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "class.mod@class.intro@text",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content##正文.",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "[property=\"og:novel:read_url\"]@content",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.txt@tag.p@text",
+      "imageStyle": "0",
+      "replaceRegex": "##.*老幺小说.*|.*最新内容.*"
+    },
+    "ruleExplore": {
+      "author": "class.author@tag.a.0@text",
+      "bookList": "class.library@tag.li",
+      "bookUrl": "class.bookname@tag.a@href",
+      "coverUrl": "class.bookimg@tag.img@data-original",
+      "intro": "class.intro@tag.p@text",
+      "kind": "tag.a.3@text&&tag.span@text",
+      "lastChapter": "class.chapter@tag.a@text",
+      "name": "class.bookname@tag.a@text",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.tags@tag.a.0@text",
+      "bookList": "class.result@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.int@text",
+      "kind": "class.tags@tag.a.1@text&&class.tags@tag.span.2@text##状态：",
+      "lastChapter": "tag.a.4@title",
+      "name": "class.book_cov@title",
+      "wordCount": "class.tags@tag.span.3@text##总字数："
+    },
+    "ruleToc": {
+      "chapterList": "id.newlist@tag.dd",
+      "chapterName": "tag.a@text##正文.",
+      "chapterUrl": "tag.a@href",
+      "updateTime": "tag.span@text##更新."
+    },
+    "searchUrl": "/search.php?key={{key}}&page={{page}}",
+    "weight": 0
+  }]

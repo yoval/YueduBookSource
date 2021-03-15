@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": "👍优质,失效",
+    "bookSourceName": "👍 追书网zhuishu5.com",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.zhuishu5.com",
+    "bookUrlPattern": "",
+    "customOrder": 15873,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
+    "lastUpdateTime": 1599727403167,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "id.bookIntro@textNodes"
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@html",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.booktag@tag.a.0@text",
+      "bookList": "class.row",
+      "bookUrl": "class.bookTitle@tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "lastChapter": "tag.p.1@tag.a.0@text",
+      "name": "class.bookTitle@text##留言反馈"
+    },
+    "ruleToc": {
+      "chapterList": "class.panel-body panel-chapterlist.1@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.zhuishu5.com/modules/article/searchx.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

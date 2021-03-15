@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 杰瑞文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.jieruiwx.com",
+    "bookUrlPattern": "",
+    "customOrder": -31985,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "id.intro@tag.p.0@text",
+      "lastChapter": "id.info@tag.p.3@a@text",
+      "name": "id.info.0@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.book_other.0@tag.span.0@text",
+      "bookList": "id.sitembox@tag.dl",
+      "bookUrl": "tag.dd.0@tag.a.0@href",
+      "coverUrl": "tag.img.0@src",
+      "kind": "class.book_other.0@tag.span.2@text",
+      "lastChapter": "class.book_other@tag.a.0@text",
+      "name": "h3@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@dl@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.jieruiwx.com/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

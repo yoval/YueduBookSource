@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "error:Unable to resolve host \"www.dhzw8.com\": No address associated with hostname\n",
+    "bookSourceGroup": "🎉精品,失效",
+    "bookSourceName": "🎉 大海中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.dhzw8.com",
+    "bookUrlPattern": "",
+    "customOrder": -32213,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/sort1/{{page}}.html\n修真::/sort2/{{page}}.html\n都市::/sort3/{{page}}.html\n穿越::/sort4/{{page}}.html\n网游::/sort5/{{page}}.html\n科幻::/sort6/{{page}}.html\n全本::/quanben/{{page}}",
+    "lastUpdateTime": 1602545345981,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.infotitle.0@tag.i.0@text##作\\s*者：",
+      "coverUrl": "id.fmimg.0@tag.img.0@src",
+      "intro": "class.intro.0@text##各位书友要是觉得.*",
+      "name": "class.infotitle.0@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.BookText@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4.0@text",
+      "bookList": "id.newscontent@class.l@tag.li",
+      "bookUrl": "class.s2.0@tag.a.0@href",
+      "kind": "class.s1.0@text##.*\\[|\\]|小说|\\[|\\]",
+      "lastChapter": "class.s3.0@tag.a.0@text##正文",
+      "name": "class.s2.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd@tag.a",
+      "chapterName": "tag.a@text##正文",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.dhzw8.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

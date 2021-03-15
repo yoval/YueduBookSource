@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "error:failed to connect to www.gazww.com/115.238.239.133 (port 80) from /192.168.0.103 (port 39506) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "🎉精品,失效",
+    "bookSourceName": "🎉 广安中文网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.gazww.com",
+    "customOrder": -31702,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::http://www.gazww.com/list/1_1.shtml\n武侠修真::http://www.gazww.com/list/2_1.shtml\n都市言情::http://www.gazww.com/list/3_1.shtml\n历史军事::http://www.gazww.com/list/4_1.shtml\n网游动漫::http://www.gazww.com/list/6_1.shtml\n科幻小说::http://www.gazww.com/list/7_1.shtml\n恐怖灵异::http://www.gazww.com/list/8_1.shtml\n耽美同人::http://www.gazww.com/list/9_1.shtml\n社会文学::http://www.gazww.com/list/10_1.shtml\n综合其他::http://www.gazww.com/list/11_1.shtml\n完本小说::http://www.gazww.com/quanben/1/\n排行::http://www.gazww.com/top/postdate/1.shtml",
+    "lastUpdateTime": 1603269341629,
+    "ruleBookInfo": {
+      "author": "class.s1.0@tag.a@text",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@text",
+      "name": "tag.h1@text",
+      "tocUrl": "id.info@tag.a.4@href"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4.0@text",
+      "bookList": "class.novelslist3@tag.li!0",
+      "bookUrl": "class.s2.0@tag.a@href",
+      "kind": "class.s1.0@text",
+      "lastChapter": "class.s3.0@tag.a@text",
+      "name": "class.s2.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd!0",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.gazww.com/modules/article/search.php?keyword={{key}}",
+    "weight": 0
+  }]

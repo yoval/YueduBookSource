@@ -1,0 +1,31 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 老二小说 ",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.lexs.xyz",
+    "customOrder": -116548,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "都市经历::/category-1_{{page}}.html\n校园艳情::/category-2_{{page}}.html\n乱伦乱搞::/category-3_{{page}}.html\n职场乱性::/category-4_{{page}}.html\n骚货淫女::/category-5_{{page}}.html\n武侠浪女::/category-6_{{page}}.html",
+    "lastUpdateTime": 1605535554560,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.post-content@tag.p@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.post-item!0:1",
+      "bookUrl": "tag.a.0@href",
+      "intro": "tag.p.-1@text",
+      "kind": "tag.a.1@text&&tag.span.2@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "html",
+      "chapterName": "tag.h1@text"
+    },
+    "searchUrl": "/search.php?q={{key}}&page={{page}}",
+    "weight": 0
+  }]

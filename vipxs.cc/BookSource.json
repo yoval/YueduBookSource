@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 vip小说网②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.vipxs.cc",
+    "bookUrlPattern": "",
+    "customOrder": -115333,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612606418534,
+    "loginUrl": "http://m.vipxs.cc",
+    "ruleBookInfo": {
+      "author": "class.auto@text",
+      "coverUrl": "class.synopsisArea_detail@tag.img@src",
+      "intro": "class.review@text",
+      "kind": "class.sort@text",
+      "lastChapter": "class.directoryArea@tag.p.0@tag.a@text",
+      "name": "class.synopsisArea_detail@tag.a@tag.p@text",
+      "tocUrl": "text.查看完整目录@href"
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@html##一秒记住.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.hot_sale @tag.a@tag.p.1@text",
+      "bookList": "class.hot_sale!:0",
+      "bookUrl": "class.hot_sale @tag.a@href",
+      "lastChapter": "class.hot_sale @tag.a@tag.p.2@text",
+      "name": "class.hot_sale @tag.a@tag.p.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.directoryArea@tag.p!0@tag.a",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://m.vipxs.cc/s.php?keyword={{key}}&t=1",
+    "weight": 0
+  }]

@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "💵正版,失效",
+    "bookSourceName": "💵 逐浪小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.zhulang.com",
+    "customOrder": -34036,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "点击榜::http://www.zhulang.com/Rank/visit/p/{{page}}.html\n收藏榜::http://www.zhulang.com/Rank/collection/p/{{page}}.html\n鲜花榜::http://www.zhulang.com/Rank/flower/p/{{page}}.html\n打赏榜::http://www.zhulang.com/Rank/reward/p/{{page}}.html",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "class.cover-tit@tag.a.0@text",
+      "coverUrl": "class.bdrbox cover-box clearfix@tag.img.0@src",
+      "intro": "class.summ-part@text",
+      "name": "class.cover-tit@tag.h2@text",
+      "tocUrl": "class.cover-btn clearfix@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "class.read-content@tag.p@text"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.dd@tag.a.1@text||tag.a.2@text",
+      "bookList": "class.ranking-con@tag.tr!0||class.clearfix@tag.li",
+      "bookUrl": "tag.dd@tag.a.0@href||tag.a.0@href",
+      "coverUrl": "tag.dt@tag.img@data-src",
+      "kind": "tag.td.1@text##\\].*|\\[",
+      "lastChapter": "tag.dd@tag.p.0@text||tag.a.1@text##.*\\|第|\\|更新：.*",
+      "name": "tag.dd@tag.a.0@text||tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter-list@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "-",
+    "weight": 0
+  }]

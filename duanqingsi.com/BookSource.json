@@ -1,0 +1,42 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 断青丝",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.duanqingsi.com",
+    "bookUrlPattern": "",
+    "customOrder": -116503,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::http://m.duozhekan.com/sort-1-{{page}}/\n仙侠::http://m.duozhekan.com/sort-2-{{page}}/\n都市::http://m.duozhekan.com/sort-3-{{page}}/\n历史::http://m.duozhekan.com/sort-4-{{page}}/\n精品::http://m.duozhekan.com/sort-5-{{page}}/\n科幻::http://m.duozhekan.com/sort-6-{{page}}/\n其他::http://m.duozhekan.com/sort-7-{{page}}/",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36\"\n}",
+    "lastUpdateTime": 1612450039236,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@img@src",
+      "intro": "class.intro_info@text",
+      "name": " id.info@h1@text",
+      "tocUrl": "class.ablum_read.0@tag.span.1@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "id.nr1@html##支持:断青丝小说网，请把本站分享给你们的好友！手机端：https://m.duanqingsi.com,百度搜不到断青丝小说网的建议使用360，搜狗去搜索，求书，报错以及求更请留言。|断青丝小说网(.|\\n)*永不丢失！|｛(.|\\n)*｝|[【(.|\\n)*】]|[【]|[＊(.|\\n)*＊]",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": "##....第./.页.本章未完，请点击下一页继续阅读."
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "text##.*/",
+      "bookList": "class.line",
+      "bookUrl": "tag.a.1@href",
+      "kind": "tag.a.0@text##\\[|\\]",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页.0@href"
+    },
+    "searchUrl": "/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"type=articlename&s={{key}}&submit=\"\n}",
+    "weight": 0
+  }]

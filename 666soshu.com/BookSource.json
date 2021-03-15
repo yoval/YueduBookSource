@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 666搜书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.666soshu.com",
+    "bookUrlPattern": "",
+    "customOrder": -115084,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "男生小说::http://www.666soshu.com/cat/1/<,?Page={{page}}>\n男生权重::http://www.666soshu.com/cat/1/_9/<,?Page={{page}}>\n男生热搜::http://www.666soshu.com/cat/1/4_9/<,?Page={{page}}>\n玄幻奇幻::http://www.666soshu.com/cat/1/101/<,?Page={{page}}>\n仙侠武侠::http://www.666soshu.com/cat/1/102/<,?Page={{page}}>\n都市小说::http://www.666soshu.com/cat/1/103/<,?Page={{page}}>\n历史军事::http://www.666soshu.com/cat/1/104/<,?Page={{page}}>\n游戏竞技::http://www.666soshu.com/cat/1/105/<,?Page={{page}}>\n科幻末世::http://www.666soshu.com/cat/1/106/<,?Page={{page}}>\n悬疑灵异::http://www.666soshu.com/cat/1/107/<,?Page={{page}}>\n同人次元::http://www.666soshu.com/cat/1/108/<,?Page={{page}}>\n其他小说::http://www.666soshu.com/cat/1/109/<,?Page={{page}}>\n女生小说::http://www.666soshu.com/cat/1/<,?Page={{page}}>\n女生权重::http://www.666soshu.com/cat/2/_9/<,?Page={{page}}>\n女生热搜::http://www.666soshu.com/cat/2/4_9/<,?Page={{page}}>\n古代言情::http://www.666soshu.com/cat/2/201/<,?Page={{page}}>\n都市言情::http://www.666soshu.com/cat/2/202/<,?Page={{page}}>\n青春校园::http://www.666soshu.com/cat/2/203/<,?Page={{page}}>\n玄幻仙侠::http://www.666soshu.com/cat/2/204/<,?Page={{page}}>\n异能魔法::http://www.666soshu.com/cat/2/205/<,?Page={{page}}>\n科幻游戏::http://www.666soshu.com/cat/2/206/<,?Page={{page}}>\n恐怖悬疑::http://www.666soshu.com/cat/2/207/<,?Page={{page}}>\n同人萌系::http://www.666soshu.com/cat/2/208/<,?Page={{page}}>",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36\"\n}",
+    "lastUpdateTime": 1612116490821,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.book-img@a@img@src",
+      "intro": "class.mlintro@p@textNodes",
+      "lastChapter": "class.container mod  s-list chapters cl.0@tag.li.0@a@text"
+    },
+    "ruleContent": {
+      "content": "class.content c1@p@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.line author@text",
+      "bookList": "class.rank-table-list all@tr",
+      "bookUrl": "class.line name@href",
+      "coverUrl": "class.line name@href##/soshu/(.*?)/##/cover/$1.jpg",
+      "intro": "class.line intro@text",
+      "kind": "tag.em.0@text",
+      "lastChapter": "class.line chapter@text",
+      "name": "class.line name@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.container mod  s-list chapters cl@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href##$##$,{\"webView\":true}"
+    },
+    "searchUrl": "http://www.666soshu.com/search?k={{key}}",
+    "weight": 0
+  }]

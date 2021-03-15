@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "💵正版",
+    "bookSourceName": "💵 南瓜夜读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.ngread.com",
+    "bookUrlPattern": "",
+    "customOrder": -33996,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.cover_l@src",
+      "intro": "id.introl@textNodes",
+      "lastChapter": "class.c_row nw@a@text",
+      "tocUrl": "text.显示全部章节@href"
+    },
+    "ruleContent": {
+      "content": "id.acontent@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.row_text@tag.p@text##\\|.*",
+      "bookList": "class.c_row cf",
+      "bookUrl": "class.db cf@href",
+      "coverUrl": "class.cover_m@src",
+      "name": "class.row_text@tag.h4@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.db",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "http://www.ngread.com/modules/article/search.php?searchkey={{key}}&searchtype=all&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

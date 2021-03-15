@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "章节不显示多少章; 多少话; 只有那章节名称",
+    "bookSourceGroup": "🎨漫画",
+    "bookSourceName": "🎨 卡推漫画",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.700mh.com",
+    "bookUrlPattern": "",
+    "customOrder": -31262,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "热血冒险::http://m.700mh.com/rexuemaoxian/index<,_{{page}}>.html\n恋爱耽美::http://m.700mh.com/lianaidanmei/index<,_{{page}}>.html\n科幻魔幻::http://m.700mh.com/kehuanmohuan/index<,_{{page}}>.html\n侦探推理::http://m.700mh.com/zhentantuili/index<,_{{page}}>.html\n武侠格斗::http://m.700mh.com/wuxiagedou/index<,_{{page}}>.html\n搞笑恶搞::http://m.700mh.com/gaoxiaoegao/index<,_{{page}}>.html\n恐怖悬疑::http://m.700mh.com/kongbuxuanyi/index<,_{{page}}>.html\n最新漫画::http://m.700mh.com/manhua/update.html\n漫画排行::http://m.700mh.com/manhua/paihang.html",
+    "lastUpdateTime": 1603265625730,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.cont-list@tag.dl.2@tag.dd@text",
+      "intro": "class.book-intro@text",
+      "kind": "class.cont-list@tag.dl.3@tag.dd@text"
+    },
+    "ruleContent": {
+      "content": ":_S001_vMMQZsSqq66JHArA5uAkiRHCOSIuU98nZGpNKuZy/Y7vgOwjOThKYsSxU+jwhRO7iHMwVJfwauQU\ndpvI+mEgTzy42RKiad+CG2Ivz+ubjoTlkVdr5LzbpJEXJ3E60K7ii//GGY/cDSBmX/cHBo/pLId3\nXT815lt+xj125J3EhtdHycvNlBcAlmLlPlJJGjmm2uaGNKCLpfvDLwLY5J6WTgi8tma5Bff9SLUw\nbqhJQHauW1WNZucdFXwtxg0QmVqJnzBKqKEPZ+9qw1HTKNZ+mteoNn/7UsfiflgCvZfG3ZVYQ3ie\nJA1xHM1nJg/RceYYzfrjKYx4yM0Anys1ZLXvmPsGHTIPUqZV6P+0WjBachoxwyROENkrr6BrrbwW\n5wo9SNq8q2CabqSR6asOmciOKJrTMGtubljQH3mJjtRneIwWJlf8fpTI7cmQ9ymFzRMM\n"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.cont-list@tag.li",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "class.thumb@tag.img@data-src",
+      "lastChapter": "class.chapter@text",
+      "name": "tag.a@tag.h3@text"
+    },
+    "ruleToc": {
+      "chapterList": "-id.c2@tag.dt",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://m.700mh.com/e/search/?searchget=1&tbname=mh&show=title,player,playadmin,bieming,pinyin,playadmin&tempid=4&keyboard={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

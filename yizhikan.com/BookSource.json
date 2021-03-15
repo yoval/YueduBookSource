@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎨漫画",
+    "bookSourceName": "🎨 一直看",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yizhikan.com",
+    "customOrder": -31364,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "首页::https://www.yizhikan.com/day/{{page-1}}\n最新::https://www.yizhikan.com/tag/filter?tagid1=0&tagid2=0&tagid3=0&tagid4=0&offset={{28*page}}&count=28\n最热::https://www.yizhikan.com/tag/filter?tagid1=0&tagid2=0&tagid3=0&tagid4=1&offset={{28*page}}&count=28\n连载::https://www.yizhikan.com/tag/filter?tagid1=0&tagid2=1&tagid3=0&tagid4=0&offset={{28*page}}&count=28\n完结::https://www.yizhikan.com/tag/filter?tagid1=0&tagid2=2&tagid3=0&tagid4=0&offset={{28*page}}&count=28\n免费::https://www.yizhikan.com/tag/filter?tagid1=0&tagid2=0&tagid3=1&tagid4=0&offset={{28*page}}&count=28\n付费::https://www.yizhikan.com/tag/filter?tagid1=0&tagid2=0&tagid3=2&tagid4=0&offset={{28*page}}&count=28\n搞笑::https://www.yizhikan.com/tag/filter?tagid1=9&tagid2=0&tagid3=0&tagid4=0&offset={{28*page}}&count=28\n热血::https://www.yizhikan.com/tag/filter?tagid1=15&tagid2=0&tagid3=0&tagid4=0&offset={{28*page}}&count=28\n冒险::https://www.yizhikan.com/tag/filter?tagid1=30&tagid2=0&tagid3=0&tagid4=0&offset={{28*page}}&count=28\n恐怖::https://www.yizhikan.com/tag/filter?tagid1=17&tagid2=0&tagid3=0&tagid4=0&offset={{28*page}}&count=28\n玄幻::https://www.yizhikan.com/tag/filter?tagid1=3&tagid2=0&tagid3=0&tagid4=0&offset={{28*page}}&count=28\n校园::https://www.yizhikan.com/tag/filter?tagid1=10&tagid2=0&tagid3=0&tagid4=0&offset={{28*page}}&count=28\n悬疑::https://www.yizhikan.com/tag/filter?tagid1=1&tagid2=0&tagid3=0&tagid4=0&offset={{28*page}}&count=28\n古风::https://www.yizhikan.com/tag/filter?tagid1=11&tagid2=0&tagid3=0&tagid4=0&offset={{28*page}}&count=28\n都市::https://www.yizhikan.com/tag/filter?tagid1=6&tagid2=0&tagid3=0&tagid4=0&offset={{28*page}}&count=28\n恋爱::https://www.yizhikan.com/tag/filter?tagid1=5&tagid2=0&tagid3=0&tagid4=0&offset={{28*page}}&count=28\n历史::https://www.yizhikan.com/tag/filter?tagid1=20&tagid2=0&tagid3=0&tagid4=0&offset={{28*page}}&count=28\n青春::https://www.yizhikan.com/tag/filter?tagid1=7&tagid2=0&tagid3=0&tagid4=0&offset={{28*page}}&count=28\n治愈::https://www.yizhikan.com/tag/filter?tagid1=8&tagid2=0&tagid3=0&tagid4=0&offset={{28*page}}&count=28\n仙侠::https://www.yizhikan.com/tag/filter?tagid1=12&tagid2=0&tagid3=0&tagid4=0&offset={{28*page}}&count=28\n真人::https://www.yizhikan.com/tag/filter?tagid1=14&tagid2=0&tagid3=0&tagid4=0&offset={{28*page}}&count=28\n耽美::https://www.yizhikan.com/tag/filter?tagid1=16&tagid2=0&tagid3=0&tagid4=0&offset={{28*page}}&count=28\n百合::https://www.yizhikan.com/tag/filter?tagid1=67935&tagid2=0&tagid3=0&tagid4=0&offset={{28*page}}&count=28\n励志::https://www.yizhikan.com/tag/filter?tagid1=41&tagid2=0&tagid3=0&tagid4=0&offset={{28*page}}&count=28\n日漫::https://www.yizhikan.com/tag/filter?tagid1=175&tagid2=0&tagid3=0&tagid4=0&offset={{28*page}}&count=28\nnull",
+    "lastUpdateTime": 1602766312589,
+    "ruleBookInfo": {
+      "author": "class.author@text##作者:",
+      "coverUrl": "class.comicInfo@tag.img@src",
+      "intro": "class.infoBox@text",
+      "name": "class.title@text"
+    },
+    "ruleContent": {
+      "content": ":_S001_VnNt0ijqNZWALEiInXKWxnM1HOTL9DzUIDiX+exelOk=\n"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text||$.author.author",
+      "bookList": "class.itemList@tag.li||$.data.comics.*||$.data.*",
+      "bookUrl": "tag.a.0@href||https://www.yizhikan.cn/comic/{$.id}",
+      "coverUrl": "tag.img@src||$.cover",
+      "kind": "clasa.tg@text||tags.name",
+      "lastChapter": "$.latest_chapter_name##\\d+-",
+      "name": "class.name@text||$.name"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapterList@tag.li",
+      "chapterName": "class.title@text##\\d+-",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.yizhikan.com/ajaxsearch?word={{key}}&page={{page}}",
+    "weight": 0
+  }]

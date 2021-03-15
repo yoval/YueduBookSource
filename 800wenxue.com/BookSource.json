@@ -1,0 +1,45 @@
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "🎉精品,失效",
+    "bookSourceName": "🎉 800文学网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.800wenxue.com",
+    "customOrder": -32340,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/fenlei/1_{{page}}.html\n仙侠修真::/fenlei/2_{{page}}.html\n都市言情::/fenlei/3_{{page}}.html\n历史军事::/fenlei/4_{{page}}.html\n网游竞技::/fenlei/5_{{page}}.html\n科幻灵异::/fenlei/6_{{page}}.html\n恐怖惊悚::/fenlei/7_{{page}}.html\n其他类型::/fenlei/8_{{page}}.html\n完本小说::/quanben/{{page}}",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@tag.a.0@text",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@text",
+      "name": "id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "class.chapter-content@html##一秒记住.*"
+    },
+    "ruleExplore": {
+      "author": ".sp_4@text",
+      "bookList": "class.gx_cont@li",
+      "bookUrl": "tag.a.0@href",
+      "lastChapter": ".sp_3@a@text",
+      "name": ".sp_2@a@text",
+      "wordCount": ".sp_6@text"
+    },
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "kind": "class.odd.2@text&&class.even.2@text",
+      "lastChapter": "class.even.0@tag.a.0@text",
+      "name": "class.odd.0@tag.a.0@text",
+      "wordCount": "class.even.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.mulu_list@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.800wenxue.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

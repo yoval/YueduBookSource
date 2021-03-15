@@ -1,0 +1,36 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔰普通",
+    "bookSourceName": "🔰 友读小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://api10.youduwen.com",
+    "customOrder": 16093,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1602757064943,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "lastChapter": ".last_part",
+      "tocUrl": "https://4newtext.blob.core.windows.net/{$..parts}"
+    },
+    "ruleContent": {
+      "content": "body@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "book_author",
+      "bookList": "data[*]list[*]",
+      "bookUrl": "https://api10.youduwen.com/v4/app/book/book-details?book_id={$.book_id}&data_type=1",
+      "coverUrl": "book_images",
+      "intro": "book_introduction",
+      "kind": "category_name",
+      "name": "book_name"
+    },
+    "ruleToc": {
+      "chapterList": "[*]",
+      "chapterName": "title",
+      "chapterUrl": "https://4newtext.blob.core.windows.net/{$.content}"
+    },
+    "searchUrl": "https://api10.youduwen.com:443/v3/app/search/search?search_word={{key}}&field=book_name&page={{page}}",
+    "weight": 0
+  }]

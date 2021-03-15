@@ -1,0 +1,65 @@
+[  {
+    "bookSourceComment": "haxc",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 御书宅[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://wap.fjxs.net",
+    "bookUrlPattern": "",
+    "customOrder": -116502,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/sort/1_{{page}}/\n仙侠小说::/sort/2_{{page}}/\n都市小说::/sort/3_{{page}}/\n历史小说::/sort/4_{{page}}/\n游戏小说::/sort/5_{{page}}/\n科幻小说::/sort/6_{{page}}/\n其他小说::/sort/7_{{page}}/\n                                                              ::\n日点击榜::/top/dayvisit_{{page}}/\n周点击榜::/top/weekvisit_{{page}}/\n月点击榜::/top/monthvisit_{{page}}/\n总点击榜::/top/allvisit_{{page}}/\n总收藏榜::/top/goodnum_{{page}}/\n字数排行::/top/size_{{page}}/\n日推荐榜::/top/dayvote_{{page}}/\n周推荐榜::/top/weekvote_{{page}}/\n月推荐榜::/top/monthvote_{{page}}/\n总推荐榜::/top/allvote_{{page}}/\n最新入库::/top/postdate_{{page}}/\n最近更新::/top/lastupdate_{{page}}/\n全本小说::/full/{{page}}/",
+    "header": "",
+    "lastUpdateTime": 1605537668909,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "//div[@class='block_txt2']/p[3]/a[1]/text()",
+      "coverUrl": "//div[@class='block_img2']/img/@src",
+      "init": "",
+      "intro": "//div[@class='intro_info']/text()",
+      "kind": "//div[@class='block_txt2']/p[4]/a/text()",
+      "lastChapter": "//div[@class='block_txt2']/p[7]/a/text()",
+      "name": "//div[@class='block']/div[@class='block_txt2']/h2/a/text()",
+      "tocUrl": "//div[@class='cover']/div[@class='ablum_read'][1]/span[2]/a/@href",
+      "wordCount": "//div[@class='block_txt2']/p[6]/text()"
+    },
+    "ruleContent": {
+      "content": "//div[@id='nr1']##一秒记住【丝路.*|如遇断更，未更新，可到.*|如果使用QQ浏览器被畅读.*|\\s*本章未完，请点击下一页继续阅读》》\\s*|最新网址：wap.fjxs.net|分卷阅读.*\\(第.*页\\)|cranbetp|[()]|.本章未完，请点击下一页继续阅读|最新网址：3g.fjxs.net|更新最快更全的言情小说尽在|没有广告哦.",
+      "nextContentUrl": "//a[@id='pb_next' and contains(text(),'下一页')]/@href",
+      "replaceRegex": "##没有内容了(.|\\n)*|..go...",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "//a[3]/text()",
+      "bookList": "//div[@class='cover']/p",
+      "bookUrl": "//a[2]/@href",
+      "coverUrl": "//a[2]/@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://www.fjxs.net/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+      "intro": "",
+      "kind": "//a[1]/text()##\\[|\\]",
+      "lastChapter": "",
+      "name": "//a[2]/text()",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "//div[@class='cover']/ul[@class='chapter']/li",
+      "chapterName": "//a/text()",
+      "chapterUrl": "//a/@href",
+      "isVip": "",
+      "nextTocUrl": "//div[@class='page'][1]/a[contains(text(),'下一页')]/@href",
+      "updateTime": ""
+    },
+    "searchUrl": "/s.php,{\n \"charset\":\"\",\n \"method\":\"POST\",\n \"body\":\"type=articlename&s={{key}}&submit=\"\n}",
+    "weight": 0
+  }]

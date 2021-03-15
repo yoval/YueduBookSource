@@ -1,0 +1,42 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 爱尚小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.23xsw.cc",
+    "bookUrlPattern": "",
+    "customOrder": -115445,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::https://www.23xsw.cc/class/1_1.html\n武侠修真::https://www.23xsw.cc/class/2_1.html\n都市言情::https://www.23xsw.cc/class/3_1.html\n历史军事::https://www.23xsw.cc/class/4_1.html\n侦探推理::https://www.23xsw.cc/class/5_1.html\n网游动漫::https://www.23xsw.cc/class/6_1.html\n科幻小说::https://www.23xsw.cc/class/7_1.html\n恐怖灵异::https://www.23xsw.cc/class/8_1.html\n其他类型::https://www.23xsw.cc/class/10_1.html\n全本小说::https://www.23xsw.cc/full.html",
+    "lastUpdateTime": 1606908273734,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text",
+      "coverUrl": "img@src",
+      "intro": "id.intro@tag.p.0@text",
+      "lastChapter": "id.info@tag.p.3@a@text",
+      "name": "id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes",
+      "replaceRegex": "##.http(.|\\n)*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text||class.s4@text",
+      "bookList": "class.bookbox||class.l bd@tag.li||class.search-list@tag.li",
+      "bookUrl": "class.bookname@tag.a.0@href||class.s2@tag.a@href",
+      "coverUrl": "class.bookimg@tag.img@src||tag.a.0@href##http://www.23xsw.cc/book/goto/id/(\\d+)(\\d{3})##http://www.23xsw.cc/files/article/image/$1/$1$2/$1$2s.jpg",
+      "kind": "class.cat@text||class.s3@tag.a@text##分类:",
+      "lastChapter": "class.update@tag.a.0@text",
+      "name": "class.bookname@tag.a.0@text||class.s2@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.dd!0:1:2:3:4:5:6:7:8:9:10:11",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://so.biqusoso.com/s.php?s=17934470774457639775&siteid=23xsw.cc&ie=gbk&q={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

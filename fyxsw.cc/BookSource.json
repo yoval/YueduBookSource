@@ -1,0 +1,49 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 风云小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://wap.fyxsw.cc",
+    "bookUrlPattern": "",
+    "customOrder": -31806,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/list1_page{{page}}.html\n仙侠武侠::/list2_page{{page}}.html\n都市言情::/list3_page{{page}}.html\n穿越历史::/list4_page{{page}}.html\n科幻未来::/list5_page{{page}}.html\n同人网游::/list6_page{{page}}.html",
+    "lastUpdateTime": 1603021472627,
+    "ruleBookInfo": {
+      "author": "class.xx@tag.a.0@text",
+      "coverUrl": "tag.img.1@src",
+      "intro": "class.jianjie@text##最后更新.*",
+      "kind": "class.xx@tag.a.1@text",
+      "lastChapter": "class.zxjz@tag.li.0@tag.a@text",
+      "name": "tag.h1@text",
+      "tocUrl": "@js:baseUrl.replace('book', 'read')"
+    },
+    "ruleContent": {
+      "content": "id.nr@html##章节错误.*会处理",
+      "nextContentUrl": "id.np@href"
+    },
+    "ruleExplore": {
+      "author": "",
+      "lastChapter": "",
+      "name": ""
+    },
+    "ruleSearch": {
+      "author": "tag.p.0@a@text",
+      "bookList": "class.list@tag.ul",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.tjxsjs@text",
+      "kind": "tag.i@text",
+      "lastChapter": "",
+      "name": "tag.h3@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.lb fk@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "class.fy@a@href"
+    },
+    "searchUrl": "http://wap.fyxsw.cc/s.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"type=articlename&s={{key}}\"\n}",
+    "weight": 0
+  }]

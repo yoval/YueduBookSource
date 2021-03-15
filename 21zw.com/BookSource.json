@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 二一中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.21zw.com",
+    "bookUrlPattern": "",
+    "customOrder": -115396,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612782282932,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.a.1@text",
+      "coverUrl": "id.fmimg@img@src",
+      "intro": "id.intro@text##各位书友要是觉得《.*?还不错的话请.*|最新章节 \"www.*?com\"",
+      "kind": "id.info@tag.p.2@text##.*：|\\s.*",
+      "lastChapter": "id.info@tag.p.3@a@text",
+      "name": "h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##(快看|添加)\"HHXS665\"W信号，看更多好看的小说！"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.l@li",
+      "bookUrl": "class.s2@a@href",
+      "kind": "class.s1@text##\\[|]",
+      "lastChapter": "class.s3@a@text",
+      "name": "class.s2@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@dl@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.21zw.com/Search/{{key}},{\n  \"charset\": \"utf-8\"\n}",
+    "weight": 0
+  }]

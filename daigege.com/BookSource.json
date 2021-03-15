@@ -1,0 +1,36 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎨漫画",
+    "bookSourceName": "🎨 呆哥哥™",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.daigege.com",
+    "bookUrlPattern": "",
+    "customOrder": -31363,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1602994628069,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.cy_xinxi.0@tag.span.0@text",
+      "intro": "id.comic-description.0@text"
+    },
+    "ruleContent": {
+      "content": ":_S001_vMMQZsSqq66JHArA5uAkicN5b7qzfKNa5W3UMbXn/78wmLcah1HcxD9XJ6pz2K6lpwu4pkH6e8oa\ngP6owTpsHQnneca1nGQbGLowDwc3Lb+qKQWDUZdQCD2ZYLslzUzy6Gu/wUbueVUMfPKKDyEfXzMx\n11N6Cqyn73A/G4orHQVP6jx6ufCICPxJQSDoUdbyqisiSL5YCXyefyKjZDCbmg==\n"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.cy_list_mh@tag.ul@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img.0@src",
+      "kind": "class.biaoqian.0@tag.a.0@text",
+      "lastChapter": "class.updata.0@tag.a.0@tag.span.0@text",
+      "name": "class.title.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "-class.cy_plist@tag.ul@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.daigege.com/statics/search.aspx?key={{key}}&button=%E6%90%9C%E7%B4%A2",
+    "weight": 0
+  }]

@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎨漫画",
+    "bookSourceName": "🎨 漫画天堂",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.manhuatt.com",
+    "bookUrlPattern": "",
+    "customOrder": -115868,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部::http://www.manhuatt.com/all/{{page}}.html\n热血::http://www.manhuatt.com/rexue/{{page}}.html\n格斗::http://www.manhuatt.com/gedou/{{page}}.html\n科幻::http://www.manhuatt.com/kehuan/{{page}}.html\n竞技::http://www.manhuatt.com/jingji/{{page}}.html\n搞笑::http://www.manhuatt.com/gaoxiao/{{page}}.html\n推理::http://www.manhuatt.com/tuili/{{page}}.html\n恐怖::http://www.manhuatt.com/kongbu/{{page}}.html\n耽美::http://www.manhuatt.com/danmei/{{page}}.html\n少女::http://www.manhuatt.com/shaonv/{{page}}.html\n恋爱::http://www.manhuatt.com/lianai/{{page}}.html\n生活::http://www.manhuatt.com/shenghuo/{{page}}.html\n战争::http://www.manhuatt.com/zhanzheng/{{page}}.html\n故事::http://www.manhuatt.com/gushi/{{page}}.html\n冒险::http://www.manhuatt.com/maoxian/{{page}}.html\n魔幻::http://www.manhuatt.com/mohuan/{{page}}.html\n玄幻::http://www.manhuatt.com/xuanhuan/{{page}}.html\n校园::http://www.manhuatt.com/xiaoyuan/{{page}}.html\n悬疑::http://www.manhuatt.com/xuanyi/{{page}}.html\n萌系::http://www.manhuatt.com/mengxi/{{page}}.html\n穿越::http://www.manhuatt.com/chuanyue/{{page}}.html\n后宫::http://www.manhuatt.com/hougong/{{page}}.html\n都市::http://www.manhuatt.com/dushi/{{page}}.html\n武侠::http://www.manhuatt.com/wuxia/{{page}}.html\n历史::http://www.manhuatt.com/lishi/{{page}}.html\n同人::http://www.manhuatt.com/tongren/{{page}}.html\n励志::http://www.manhuatt.com/lizhi/{{page}}.html\n百合::http://www.manhuatt.com/baihe/{{page}}.html\n治愈::http://www.manhuatt.com/zhiyu/{{page}}.html\n机甲::http://www.manhuatt.com/jijia/{{page}}.html\n纯爱::http://www.manhuatt.com/chunai/{{page}}.html\n美食::http://www.manhuatt.com/meishi/{{page}}.html\n血腥::http://www.manhuatt.com/xuexing/{{page}}.html\n僵尸::http://www.manhuatt.com/jiangshi/{{page}}.html\n恶搞::http://www.manhuatt.com/egao/{{page}}.html\n虐心::http://www.manhuatt.com/nuexin/{{page}}.html\n动作::http://www.manhuatt.com/dongzuo/{{page}}.html\n惊险::http://www.manhuatt.com/jingxian/{{page}}.html\n唯美::http://www.manhuatt.com/weimei/{{page}}.html\n震撼::http://www.manhuatt.com/zhenhan/{{page}}.html\n复仇::http://www.manhuatt.com/fuchou/{{page}}.html\n侦探::http://www.manhuatt.com/zhentan/{{page}}.html\n脑洞::http://www.manhuatt.com/naodong/{{page}}.html\n奇幻::http://www.manhuatt.com/qihuan/{{page}}.html\n宫斗::http://www.manhuatt.com/gongdou/{{page}}.html\n爆笑::http://www.manhuatt.com/baoxiao/{{page}}.html\n运动::http://www.manhuatt.com/yundong/{{page}}.html\n青春::http://www.manhuatt.com/qingchun/{{page}}.html\n灵异::http://www.manhuatt.com/lingyi/{{page}}.html\n古风::http://www.manhuatt.com/gufeng/{{page}}.html\n权谋::http://www.manhuatt.com/quanmou/{{page}}.html\n节操::http://www.manhuatt.com/jiecao/{{page}}.html\n明星::http://www.manhuatt.com/mingxing/{{page}}.html\n暗黑::http://www.manhuatt.com/anhei/{{page}}.html\n社会::http://www.manhuatt.com/shehui/{{page}}.html\n浪漫::http://www.manhuatt.com/langman/{{page}}.html\n栏目::http://www.manhuatt.com/lanmu/{{page}}.html\n仙侠::http://www.manhuatt.com/xianxia/{{page}}.html",
+    "lastUpdateTime": 1612114091798,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.one@tag.a@text",
+      "coverUrl": "class.mh-date-bgpic@tag.img@src",
+      "intro": "id.workint@text",
+      "lastChapter": "class.cy_zhangjie_top@tag.a.0@text",
+      "name": "tag.h4.0@text"
+    },
+    "ruleContent": {
+      "content": "@js:\nvar html=result,\noptions={headers:{Referer:baseUrl}};\n\n(function getImgList() {\r\n    eval(html.match(/(var qTcms_Cur=[\\S\\s]+var qTcms_S_show_1=.*?;)/)[1]);\r\n    var list = java.base64Decode(qTcms_S_m_murl_e).split(\"\\\\$qingtiandy\\\\$\");\r\n    var piclist = new Array();\r\n    for (var i = 0; i < list.length; i++) {\n        var v = list[i];\r\n        var s = v;\r\n        if (v.substring(0, 1) == \"/\") {\r\n            s = qTcms_m_weburl + s;\r\n        } else {\r\n            if (qTcms_Pic_m_if != \"2\") {\r\n                v = v.replaceAll(\"\\\\?\", \"a1a1\");\r\n                v = v.replaceAll(\"&\", \"b1b1\");\r\n                v = v.replaceAll(\"%\", \"c1c1\");\r\n                var m_httpurl = \"\";\r\n                if (typeof(qTcms_S_m_mhttpurl) != \"undefined\") m_httpurl = java.base64Decode(qTcms_S_m_mhttpurl);\r\n            }\r\n        }\r\n        piclist[i] =s;\r\n    }\r\n    return piclist;\r\n}()).map(uri=>\n'<img src=\"'+uri+'\">').join(\"\\n\")",
+      "imageStyle": "FULL"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.mh-search-result@tag.li",
+      "bookUrl": "tag.h4@tag.a@href",
+      "coverUrl": "tag.img@src",
+      "kind": "class.mh-works-author@text",
+      "lastChapter": "class.cover-list-updata@tag.span@text",
+      "name": "tag.h4@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "-class.cy_plist@li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.manhuatt.com/statics/search.aspx?key={{key}}&page={{page}}",
+    "weight": 0
+  }]

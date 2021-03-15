@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🍺特优",
+    "bookSourceName": "🍺 三叶书屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.sanyewu.com",
+    "customOrder": -117000,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612532519947,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+      "content": "id.nr@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$3",
+      "bookList": ":id=\"auall\">[^\"]*\"(.*?)\"[^\"]*\"(.*?)\"(?:[^\"]*\"){6}>(.*?)<[^\"]*\"(.*?)\"(?:[^>]*>){5}(.*?)<",
+      "bookUrl": "$4",
+      "coverUrl": "$2",
+      "intro": "$5",
+      "name": "$1"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterList@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.sanyewu.com/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

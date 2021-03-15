@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🍺特优",
+    "bookSourceName": "🍺 泡书吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.paoshuba.cc",
+    "customOrder": -116977,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "",
+    "lastUpdateTime": 1610079982489,
+    "ruleBookInfo": {
+      "coverUrl": "",
+      "intro": "class.lb_jj@tag.div.-1@html",
+      "lastChapter": ""
+    },
+    "ruleContent": {
+      "content": "@js:r=java.getElement(\"id.TXT\");\nr.select(\"*:not(br,#TXT)\").remove();r.html()"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text||tag.div.1@text##作者：|\\s",
+      "bookList": "class.waps_one||class.lb_fm@tag.td.1@put:{j:class.lb_jj@tag.div.-1@html}",
+      "bookUrl": "tag.a.0@href##\\d+##http://www.xpaoshuba.cc/Partlist/$0/##",
+      "coverUrl": "tag.a.0@href##(\\d\\d)\\d+##http://www.xpaoshuba.cc/files/article/image/$1/$0/$0s.jpg##",
+      "intro": "@get:{j}",
+      "kind": ".waps_sort,.waps_full_0@text||div:eq(2)@text##类别：|[\\s()]",
+      "lastChapter": ".gengxin a@text||a[style=\"color:red;font-size:12px;\"]@text",
+      "name": "class.waps_name@text||tag.div.0@text##\\s"
+    },
+    "ruleToc": {
+      "chapterList": "dl a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://m.xpaoshuba.cc/article/waps.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"searchtype=articlename&searchkey={{key}}&t_btnsearch=\"}",
+    "weight": 0
+  }]

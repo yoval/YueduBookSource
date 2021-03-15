@@ -1,0 +1,57 @@
+[  {
+    "bookSourceComment": "error:failed to connect to www.biwu.cc/103.115.47.25 (port 443) from /192.168.0.103 (port 41480) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "👍优质,失效",
+    "bookSourceName": "👍 笔屋小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.biwu.cc",
+    "bookUrlPattern": "",
+    "customOrder": 15851,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
+    "lastUpdateTime": 1602874856032,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.p_author@a@text",
+      "coverUrl": "",
+      "init": "",
+      "intro": "id.bookintro@text",
+      "kind": "id.count@tag.a.1@text",
+      "name": "class.d_title@tag.h1@text",
+      "tocUrl": "class.b1@tag.a@href",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.TextContent@textNodes##<dt.*script>",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.book_other.0@tag.span@a@text",
+      "bookList": "id.sitebox",
+      "bookUrl": "id.nr@tag.dd.0@h3@a@href",
+      "coverUrl": "id.nr@tag.dt.0@img@_src",
+      "intro": "class.book_des@text",
+      "lastChapter": "class.book_other.1@tag.a.0@text",
+      "name": "id.nr@tag.dd.0@a@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterList@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search.html,{\n \"method\": \"POST\",\n \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

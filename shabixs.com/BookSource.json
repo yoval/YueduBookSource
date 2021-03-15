@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "普通",
+    "bookSourceName": "傻逼小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.shabixs.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.block_img2@img@src",
+      "intro": "class.intro_info@textNodes",
+      "tocUrl": "text.开始阅读@href"
+    },
+    "ruleContent": {
+      "content": "id.nr1@textNodes##[★◢→↑◆↗▅]傻.?逼.?小.?说,[Ww].{1,20}[Mm]”|【\\s*欢迎光临\\s*，\\s*】|【\\s*手机版域名：\\s*】",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p@tag.a.2@text",
+      "bookList": "class.line",
+      "bookUrl": "tag.p@tag.a.1@href",
+      "kind": "tag.p@tag.a.0@text##\\[|\\]",
+      "name": "tag.p@tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter@tag.li",
+      "chapterName": "tag.li@tag.a@text##[wWmM].+[mM]",
+      "chapterUrl": "tag.li@tag.a@href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "http://m.shabixs.com/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"type=articlename&s={{key}}&submit=\"\n}",
+    "weight": 0
+  }]

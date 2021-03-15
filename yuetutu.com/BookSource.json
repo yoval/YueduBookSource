@@ -1,0 +1,52 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "👍优质",
+    "bookSourceName": "👍 笔趣阁yuetutu",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.yuetutu.com",
+    "customOrder": -114884,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/ccls_1_{{page}}/&&武侠修真::http://www.yuetutu.com/ccls_2_{{page}}/&&都市言情::/ccls_3_{{page}}/&&历史军事::/ccls_4_{{page}}/&&网游动漫::/ccls_6_{{page}}/&&科幻小说::/ccls_7_{{page}}/&&排行榜::http://www.yuetutu.com/cbook_rank.html",
+    "header": "",
+    "lastUpdateTime": 1612583554591,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": ".intro_info@html||.intro@html",
+      "kind": "[property=\"og:novel:category\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "tocUrl": "",
+      "wordCount": "[property=\"og:novel:status\"]@content"
+    },
+    "ruleContent": {
+      "content": "id.cont-body@html||id.content@html##.*?yuetutu.com.*",
+      "nextContentUrl": "text.下一章@href",
+      "replaceRegex": ""
+    },
+    "ruleExplore": {
+      "author": "tag.span.0@text",
+      "bookList": "@css:div.item||#main li",
+      "bookUrl": "tag.a.1@href||tag.a.0@href",
+      "coverUrl": "img@src",
+      "intro": "dd@textNodes",
+      "kind": "",
+      "name": "tag.a.1@text||tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "",
+      "bookList": "tag.article@js:\nlist=result.toArray();\nlist1=[];\nfor(i in list){\nif(list[i].select('h3').text().indexOf(java.get('key'))>-1){\nlist1.push(list[i])\n}\n}\nlist1.map(x=>x)",
+      "bookUrl": "tag.a.0@href\n<js>java.ajax(result)</js>\n##window.location.replace\\(\"([^\"]+)\"\\);##$1###<js>result.replace('m.','www.').replace('mbook','cbook')</js>",
+      "coverUrl": "",
+      "name": "h3@text##(.*?)最新章节.*##$1###"
+    },
+    "ruleToc": {
+      "chapterList": "@css:dl dd a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "isVip": "",
+      "nextTocUrl": ""
+    },
+    "searchUrl": "https://m.baidu.com/s?pn={{page*10-10}}&word={{key}} site:yuetutu.com@js:java.put('key',key);result\n",
+    "weight": 0
+  }]

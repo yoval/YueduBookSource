@@ -1,0 +1,43 @@
+[  {
+    "bookSourceComment": "酷安&fix",
+    "bookSourceGroup": "",
+    "bookSourceName": "四库书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.sksxsw.com",
+    "customOrder": 0,
+    "enabled": false,
+    "enabledExplore": false,
+    "header": "",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "canReName": "true",
+      "coverUrl": "",
+      "intro": "[property=\"og:description\"]@content##\\s##<br>",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##小说|\\s.*",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "tocUrl": "{{book.bookUrl}}##m\\.##www\\."
+    },
+    "ruleContent": {
+      "content": "{{@@id.content@textNodes}}{{'⛓'}}",
+      "nextContentUrl": "##next_page = \"([^\"]+)\";##$1###",
+      "replaceRegex": "##\\s*⛓\\s*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "p.line",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.a.1@href##(\\d+)##$1###@js:var xid=Math.floor(result/1000);'http://www.sksxsw.com/files/article/image/'+xid+'/'+result+'/'+result+'s.jpg'",
+      "intro": "",
+      "kind": "tag.a.0@text##\\[|\\]",
+      "lastChapter": "",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "#list a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/s.php,{\n\"charset\":\"gbk\",\n\"method\":\"POST\",\n\"headers\":\"{\\\"referer\\\":\\\"http://m.sksxsw.com\\\"}\",\n\"body\": \"type=articlename&s={{key}}\"\n}",
+    "weight": 0
+  }]

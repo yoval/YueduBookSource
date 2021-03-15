@@ -1,0 +1,47 @@
+[  {
+    "bookSourceComment": "移动不能看",
+    "bookSourceGroup": "🎨漫画",
+    "bookSourceName": "🎨 漫画牛",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.manhuaniu.com",
+    "bookUrlPattern": "",
+    "customOrder": -115866,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最新更新::https://m.manhuaniu.com/list/update/?page={{page}}\n点击排行::https://m.manhuaniu.com/list/click/?page={{page}}\n最新发布::https://m.manhuaniu.com/list/post/?page={{page}}\n更新推荐::https://m.manhuaniu.com/update/{{page}}/\n全部::https://m.manhuaniu.com/list_{{page}}/\n连载::https://m.manhuaniu.com/list/lianzai/{{page}}/\n完结::https://m.manhuaniu.com/list/wanjie/{{page}}/\n儿童::https://m.manhuaniu.com/list/ertong/{{page}}/\n少年::https://m.manhuaniu.com/list/shaonian/{{page}}/\n少女::https://m.manhuaniu.com/list/shaonv/{{page}}/\n青年::https://m.manhuaniu.com/list/qingnian/{{page}}/\n日本::https://m.manhuaniu.com/list/riben/{{page}}/\n大陆::https://m.manhuaniu.com/list/dalu/{{page}}/\n香港::https://m.manhuaniu.com/list/hongkong/{{page}}/\n台湾::https://m.manhuaniu.com/list/taiwan/{{page}}/\n欧美::https://m.manhuaniu.com/list/oumei/{{page}}/\n韩国::https://m.manhuaniu.com/list/hanguo/{{page}}/\n其他::https://m.manhuaniu.com/list/qita/{{page}}/",
+    "header": "",
+    "lastUpdateTime": 1612115988539,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.pic_zi.1@tag.dd@text",
+      "coverUrl": "id.Cover@tag.mip-img@src",
+      "intro": "class.txtDesc@text##简介：",
+      "kind": "class.pic_zi.2@tag.dd@text",
+      "lastChapter": "class.pic_zi.0@tag.dd@text",
+      "name": "class.title.0@text"
+    },
+    "ruleContent": {
+      "content": "class.UnderPage@tag.mip-img.0@src@js:\nheader={\"Referer\":baseUrl};\nheaders={\"headers\":JSON.stringify(header)};\n'<img src=\"'+result.replace(/\\n/g,\"\").replace(/\\/image/,\"//image\")+\",\"+JSON.stringify(headers)+'\"/>'",
+      "imageStyle": "FULL",
+      "nextContentUrl": "class.action-list@tag.mip-link.2@href"
+    },
+    "ruleExplore": {
+      "coverUrl": "tag.img@src"
+    },
+    "ruleSearch": {
+      "author": "class.txtItme.0@text",
+      "bookList": "class.itemBox||class.list-comic",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.mip-img.0@src",
+      "kind": "class.pd@text",
+      "lastChapter": "class.coll@text||class.info@text",
+      "name": "class.title.0@text||class.txtA@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.comic-chapters@tag.li",
+      "chapterName": "tag.span@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://m.manhuaniu.com/search/?keywords={{key}}&page={{page}}",
+    "weight": 0
+  }]

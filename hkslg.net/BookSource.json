@@ -1,0 +1,34 @@
+[  {
+    "bookSourceComment": "error:SSL handshake timed out\n",
+    "bookSourceGroup": "优,失效",
+    "bookSourceName": "顺隆书院",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.hkslg.net",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "CLASS.infot.0@tag.SPAN.0@text##作者：",
+      "name": "CLASS.infot.0@tag.H1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@tag.p.0@textNodes##.*小.*说.*网.*\\】."
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.span.0@text##作者：",
+      "bookList": "class.info",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img.0@src",
+      "lastChapter": "tag.li@tag.a@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.defaulthtml4@tag.TD",
+      "chapterName": "tag.A@text",
+      "chapterUrl": "tag.A@href"
+    },
+    "searchUrl": "/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

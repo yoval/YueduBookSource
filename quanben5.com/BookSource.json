@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🛠️待修",
+    "bookSourceName": "🛠️ 全本小说②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.quanben5.com",
+    "customOrder": 11756,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1610079899838,
+    "ruleBookInfo": {
+      "author": "class.author@text",
+      "coverUrl": "class.pic@tag.img@src",
+      "intro": "class.description@text",
+      "name": "tag.h3@text",
+      "tocUrl": "class.button s1@href"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "class.pic_txt_list",
+      "bookUrl": "tag.h3@tag.a@href",
+      "coverUrl": "tag.img@src",
+      "lastChapter": "class.info@text",
+      "name": "tag.h3@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list@tag.li",
+      "chapterName": "tag.a@tag.span@text",
+      "chapterUrl": "*tag.a@href||tag.a@href"
+    },
+    "searchUrl": "http://www.quanben5.com/index.php?c=book&a=search&keywords={{key}}&page={{page}},{\n  \"charset\": \"utf-8\"\n}",
+    "weight": 0
+  }]

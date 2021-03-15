@@ -1,0 +1,54 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🐿️",
+    "bookSourceName": "言情小说园📱",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.yqxsy.com",
+    "bookUrlPattern": "",
+    "customOrder": 724,
+    "enabled": false,
+    "enabledExplore": false,
+    "exploreUrl": "豪门言情::/sort/1_1/\n总裁言情::/sort/2_1/\n女生言情::/sort/3_1/\n古代言情::/sort/4_1/\n穿越言情::/sort/5_1/\n冷门言情::/sort/6_1/\n其他小说::/sort/7_1/",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.catalog@class.p1@tag.a.0@text##作 者：",
+      "coverUrl": "@JSon:$.content",
+      "intro": "class.jj@tag.p@text",
+      "kind": "class.p4@text",
+      "lastChapter": "class.p3@tag.a@text",
+      "name": "id.info@tag.h1@text",
+      "wordCount": "class.p6@text"
+    },
+    "ruleContent": {
+      "content": "id.novelcontent@textNodes##恋上.*节！|【.*\\s+.*】",
+      "imageStyle": "0",
+      "nextContentUrl": "class.page_chapter@tag.li.3@tag.a@href"
+    },
+    "ruleExplore": {
+      "author": "class.p4@text",
+      "bookList": "class.tt",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a@tag.img@src",
+      "intro": "class.p5@text",
+      "kind": "class.p2@text",
+      "lastChapter": "",
+      "name": "class.p1@tag.a.0@text",
+      "wordCount": "class.p3@text"
+    },
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.search_list@tag.p",
+      "bookUrl": "tag.a@href",
+      "kind": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.info_chapters@class.p2.1@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "class.right@tag.a@href"
+    },
+    "searchUrl": "/s.php,{\n\"charset\":\"gbk\",\n\"method\":\"POST\",\n\"body\":\"type=articlename&s={{key}}&submit=\"\n}",
+    "weight": 0
+  }]

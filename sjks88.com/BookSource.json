@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🍺特优",
+    "bookSourceName": "🍺 手机看书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.sjks88.com",
+    "bookUrlPattern": "",
+    "customOrder": -116862,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1605238132435,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.desc@text",
+      "lastChapter": "class.list@tag.li.-1@a@text"
+    },
+    "ruleContent": {
+      "content": "class.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.bookWriter@tag.span.0@text##作者:",
+      "bookList": "class.list@tag.li||class.list_content@ul@li",
+      "bookUrl": "tag.a.0@href",
+      "intro": "class.desc@textNodes||class.intro@textNodes",
+      "kind": "class.info@a@text",
+      "lastChapter": "class.pubdate@text||class.info@textNodes",
+      "name": "a@b@text||tag.a.0@text##（.*）"
+    },
+    "ruleToc": {
+      "chapterList": "class.list@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.sjks88.com/e/search/index.php,{\n  \"charset\": \"gb2312\",\n  \"method\": \"POST\",\n  \"body\": \"show=title&keyboard={{key}}\"\n}",
+    "weight": 0
+  }]

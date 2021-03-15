@@ -1,0 +1,31 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "18AV小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://maa1802.com",
+    "customOrder": 0,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "学生校园::https://maa1802.com/serch_novel/students_on_campus_{{page}}.htm\n职场激情::https://maa1802.com/serch_novel/workplace_passion_{{page}}.htm\n经验故事::https://maa1802.com/serch_novel/experience_story_{{page}}.htm\n暴力虐待::https://maa1802.com/serch_novel/violent_abuse_{{page}}.htm\n不伦恋情::https://maa1802.com/serch_novel/not_london_love_{{page}}.htm\n群体换伴::https://maa1802.com/serch_novel/groups_companion_{{page}}.htm\n人妻熟女::https://maa1802.com/serch_novel/wife_mature_{{page}}.htm\n科学幻想::https://maa1802.com/serch_novel/sciencefiction_{{page}}.htm\n其他故事::https://maa1802.com/serch_novel/other_stories_{{page}}.htm\n玄幻仙侠::https://maa1802.com/serch_novel/other_fantasy_{{page}}.htm\n动漫修改::https://maa1802.com/serch_novel/anime_modification_{{page}}.htm\n长篇连载::https://maa1802.com/serch_novel/long_serial_{{page}}.htm\n其他分类::https://maa1802.com/serch_novel/Unclassified_{{page}}.htm",
+    "lastUpdateTime": 0,
+    "loginUrl": "https://maa1802.com",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "center@table@tbody@tr@td@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.c1",
+      "bookUrl": "a@href",
+      "kind": "a@text##\\[|\\].*",
+      "name": "a@text##.*\\]|《|》.*"
+    },
+    "ruleToc": {
+      "chapterList": "h1",
+      "chapterName": "text##.*\\]",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://maa1802.com/serch_novel/{{key}}_{{page}}.htm",
+    "weight": 0
+  }]

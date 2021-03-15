@@ -1,0 +1,55 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 龙腾小说②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.longteng2.org",
+    "bookUrlPattern": "",
+    "customOrder": -116496,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/xuanhuan/1_{{page}}.html\n修真::/xiuzhen/2_{{page}}.html\n都市::/dushi/3_{{page}}.html\n历史::/lishi/4_{{page}}.html\n网游::/wangyou/5_{{page}}.html\n科幻::/kehuan/7_{{page}}.html\n完本::/wanben/1_{{page}}",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; Redmi K20 Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.92 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 1605027443129,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content##各位书友要是.*",
+      "kind": "[property=\"og:novel:category\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "author": "class.s5@text",
+      "bookList": "class.l@tag.li",
+      "bookUrl": "class.s2@tag.a@href",
+      "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##http://www.longteng2.org/files/article/image/$2/$1/$1s.jpg###",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "class.s3@tag.a@text",
+      "name": "class.s2@tag.a@text",
+      "wordCount": "class.s3@tag.span@text##.*\\(|\\)"
+    },
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a@href",
+      "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##http://www.longteng2.org/files/article/image/$2/$1/$1s.jpg###",
+      "kind": "class.even.2@text&&class.odd.2@text",
+      "lastChapter": "class.even.0@tag.a@text##\\【.*\\】",
+      "name": "class.odd.0@tag.a@text",
+      "wordCount": "class.even.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk \",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=articlename&page={{page}}\"\n}",
+    "weight": 0
+  }]

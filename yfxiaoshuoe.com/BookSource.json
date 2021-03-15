@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 雁峰小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yfxiaoshuoe.com",
+    "bookUrlPattern": "",
+    "customOrder": -116566,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1605535765667,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.block_img2@src",
+      "intro": "class.cover@class.intro_info@text",
+      "name": "class.book-title@text",
+      "tocUrl": "text.全文阅读@href"
+    },
+    "ruleContent": {
+      "content": "id.BookText@html",
+      "nextContentUrl": "class.link@tag.a.2@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p.0@tag.i.0@text",
+      "bookList": "class.item-pic",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img@src",
+      "intro": "tag.p.2@text",
+      "lastChapter": "tag.a.2@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapterlist@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.yfxiaoshuoe.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

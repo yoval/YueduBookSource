@@ -1,0 +1,35 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "有声",
+    "bookSourceName": "虾米音乐",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://emumo.xiami.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.cdCDcover185@src",
+      "intro": "class.lrc_main@html"
+    },
+    "ruleContent": {
+      "content": "$.m4a||.mp3"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.song_artist@tag.a@text",
+      "bookList": "tag.tbody@tag.tr",
+      "bookUrl": "class.song_name@tag.a.0@href",
+      "kind": "class.song_album@tag.a@text",
+      "name": "class.song_name@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "tag.html",
+      "chapterName": "tag.meta.10@content",
+      "chapterUrl": "outerBody@js:\nvar bid=result.match(/onclick=\"play\\('(\\d+)', '(\\w+)', (\\d+), (\\w+)\\);\"/)[1];\n\"https://emumo.xiami.com/play?ids=/song/playlist/id/\"+bid+\"/object_name/default/object_id/0\""
+    },
+    "searchUrl": "https://emumo.xiami.com/search?pos=1&key={{key}}",
+    "weight": 0
+  }]

@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🌸常用",
+    "bookSourceName": "🌸 uc中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.uczw.com",
+    "customOrder": -117036,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1605255048570,
+    "ruleBookInfo": {
+      "lastChapter": "class.bookdes@a@text"
+    },
+    "ruleContent": {
+      "content": "id.booktxt@p@html##请关闭浏览器的阅读.*",
+      "nextContentUrl": "text.下一页@href##$##,{'webView':true}",
+      "webJs": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.-1@text",
+      "bookList": "class.content@dl",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@src",
+      "intro": "tag.dd.0@text",
+      "kind": "tag.span@text",
+      "lastChapter": "tag.a.0@href\n<js>java.ajax('https://www.uczw.com'+result)</js>\nclass.bookdes@a@text",
+      "name": "tag.dt@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.all@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href##$##,{'webView':true}"
+    },
+    "searchUrl": "https://www.uczw.com/search/?searchkey={{key}}",
+    "weight": 0
+  }]

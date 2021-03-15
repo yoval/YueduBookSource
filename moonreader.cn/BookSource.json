@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "非阅读站，查看排行数据评价",
+    "bookSourceGroup": "数据",
+    "bookSourceName": "隔壁大师▪数据",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://api.moonreader.cn/",
+    "customOrder": -117604,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "<js>\nresult=\"\";\nt=[\"玄幻\",\"奇幻\",\"武侠\",\"仙侠\",\"都市\",\"现实\",\"历史\",\"悬疑\",\"轻小说\",\"游戏\",\"体育\",\"科幻\",\"短篇\",\"军事\"];\na=\"::/mreader/discuss/queryBooksByTags.do,{\\\"method\\\":\\\"POST\\\",\\\"body\\\": \\\"tags=\";\nb=\"&from={{10*(page-1)}}&maxCount=10\\\",\\\"headers\\\":{\\\"User-Agent\\\": \\\"okhttp/3.12.0\\\"}}&&\";\nfor(i in t){result=result+t[i]+a+t[i]+b}\n</js>",
+    "lastUpdateTime": 1615703372798,
+    "ruleBookInfo": {
+      "coverUrl": "",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "$..content##(^)(?=\\S)##<p>——————</p>$1",
+      "imageStyle": "TEXT",
+      "replaceRegex": "##(?<=\\w：)\\s+(?=“\\w)|(?<=\\w，[”」]|[，、‘《（【［「『])\\s+|\\s+(?=[\\n，、’：；》）】］」』])"
+    },
+    "ruleExplore": {
+      "author": "bookAuthor",
+      "bookList": "data",
+      "bookUrl": "http://api.moonreader.cn/mreader/discuss/queryPostUrls.do,{\n\"charset\": \"\",\n\"method\": \"POST\",\n\"body\": \"bookId={{$.bookId}}&bookName={{$.bookName}}&bookAuthor={{$.bookAuthor}}\",\n\"headers\": {\"User-Agent\": \"\"}\n}",
+      "coverUrl": "bookIcn",
+      "intro": "bookIntro",
+      "kind": "lastTime&&bookSource&&categoryUrl&&categoryValue",
+      "name": "bookName",
+      "wordCount": "bookWords"
+    },
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "data",
+      "chapterName": "title",
+      "chapterUrl": "postUrl##n\\/(\\d+)\\/a##https://www.zhihu.com/api/v4/questions/$1/answers?include=data%5B*%5D.content%2C###",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "weight": 0
+  }]

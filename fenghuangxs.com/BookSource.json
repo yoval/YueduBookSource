@@ -1,0 +1,36 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "发现; 优",
+    "bookSourceName": "凤凰小说网①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.fenghuangxs.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻修真::http://www.fenghuangxs.com/fenlei/1_{{page}}.html\n都市商战::http://www.fenghuangxs.com/fenlei/2_{{page}}.html\n历史军事::http://www.fenghuangxs.com/fenlei/3_{{page}}.html\n穿越架空::http://www.fenghuangxs.com/fenlei/6_{{page}}.html\n恐怖推理::http://www.fenghuangxs.com/fenlei/5_{{page}}.html\n现代言情::http://www.fenghuangxs.com/fenlei/8_{{page}}.html\n古典言情::http://www.fenghuangxs.com/fenlei/7_{{page}}.html\n网游科幻::http://www.fenghuangxs.com/fenlei/4_{{page}}.html\n耽美同人::http://www.fenghuangxs.com/fenlei/9_{{page}}.html\n综合其他::http://www.fenghuangxs.com/fenlei/10_{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.binfo@class.binfo2@class.binfo2_l@tag.img.0@src",
+      "intro": "class.binfo2@class.binfo2_r@class.b22@text"
+    },
+    "ruleContent": {
+      "content": "class.cn@tag.p@text"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.rt_right@tag.span.0@text",
+      "bookList": "id.con@class.retui2@tag.dd",
+      "bookUrl": "class.rt_right@tag.h3.0@tag.a.0@href",
+      "coverUrl": "class.rt_left@tag.a.0@tag.img.0@src",
+      "name": "class.rt_right@tag.h3.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapterlist.0@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.fenghuangxs.com/search.aspx,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"q={{key}}&submit=小说搜索\"\n}",
+    "weight": 0
+  }]

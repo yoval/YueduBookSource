@@ -1,0 +1,42 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔰普通",
+    "bookSourceName": "🔰 读来读往",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://wap.dulaidw.com",
+    "customOrder": -32830,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::https://wap.dulaidw.com/sort-1-{{page}}/&&武侠仙侠::/sort-2-{{page}}/&&都市言情::/sort-3-{{page}}/&&历史军事::/sort-4-{{page}}/&&侦探推理::/sort-5-{{page}}/&&网游动漫::/sort-6-{{page}}/&&科幻小说::/sort-7-{{page}}/&&校园青春::/sort-8-{{page}}/&&穿越时空::/sort-9-{{page}}/&&",
+    "lastUpdateTime": 1603333879773,
+    "ruleBookInfo": {
+      "author": "class.block_txt2@tag.a.2@text",
+      "coverUrl": "img@src",
+      "intro": ".intro_info@textNodes",
+      "kind": "",
+      "lastChapter": "class.block_txt2@tag.a.-1@text",
+      "name": "tag.h1@text",
+      "tocUrl": "@js:baseUrl.replace('info','wapbook')"
+    },
+    "ruleContent": {
+      "content": ".nr_nr@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "@css:p.line",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.a.1@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://img.dulaidw.com/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+      "kind": "tag.a.0@text",
+      "lastChapter": "",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "@css:ul.chapter li a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://wap.dulaidw.com/modules/article/wapsel.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"searchtype=articlename&searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

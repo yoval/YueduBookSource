@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "A级; 发现",
+    "bookSourceName": "棉花糖小说网mianhuatang.me",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.mianhuatang.me",
+    "bookUrlPattern": "",
+    "customOrder": 301,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::http://www.mianhuatang.me/mulu/1-{{page}}.html\n武侠修真::http://www.mianhuatang.me/mulu/2-{{page}}.html\n都市言情::http://www.mianhuatang.me/mulu/3-{{page}}.html\n历史军事::http://www.mianhuatang.me/mulu/4-{{page}}.html\n恐怖灵异::http://www.mianhuatang.me/mulu/7-{{page}}.html\n科幻小说::http://www.mianhuatang.me/mulu/6-{{page}}.html\n网游动漫::http://www.mianhuatang.me/mulu/5-{{page}}.html\n同人小说::http://www.mianhuatang.me/mulu/8-{{page}}.html\n其他类型::http://www.mianhuatang.me/mulu/9-{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.con_limg@tag.img.0@src",
+      "intro": "class.info@class.r_cons@textNodes",
+      "tocUrl": "class.info@class.r_tools@tag.a.1@href"
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "coverUrl": "class.con_limg@tag.img.0@src",
+      "lastChapter": "class.even.0@tag.a.0@text",
+      "name": "class.odd.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.novel_list@tag.dl@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.mianhuatang.me/modules/article/search.php?ie=gbk&searchkey={{key}}&ct=2097152,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

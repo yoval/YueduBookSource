@@ -1,0 +1,33 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "美酷小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://s.meiku123.com",
+    "bookUrlPattern": "",
+    "customOrder": 73,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "tag.p.4@text",
+      "tocUrl": "class.zxbtn@data-read"
+    },
+    "ruleContent": {
+      "content": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.span.1@text",
+      "bookList": "class.other_s@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@tag.img@src",
+      "kind": "tag.span.2@text",
+      "lastChapter": "tag.span.3@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {},
+    "searchUrl": "http://s.meiku123.com/?f={{page}}&k={{key}}",
+    "weight": 0
+  }]

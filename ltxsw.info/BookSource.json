@@ -1,0 +1,50 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "特殊源🔞; 失效",
+    "bookSourceName": "🔞新龙腾",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ltxsw.info",
+    "bookUrlPattern": "https?://www\\.ltxsw\\.info/(modules/article/articleinfo.php?id=|book/)\\d+/?",
+    "customOrder": 10133,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/modules/article/articlelist.php?class=1&page={{page}}\n武侠小说::/modules/article/articlelist.php?class=2&page={{page}}\n都市小说::/modules/article/articlelist.php?class=3&page={{page}}\n历史小说::/modules/article/articlelist.php?class=4&page={{page}}\n网游小说::/modules/article/articlelist.php?class=5&page={{page}}\n乡土小说::/modules/article/articlelist.php?class=6&page={{page}}\n乡村小说::/modules/article/articlelist.php?class=7&page=searcgPage\n爱情小说::/modules/article/articlelist.php?class=8&page={{page}}\n官场小说::/modules/article/articlelist.php?class=9&page={{page}}\n香艳小说::/modules/article/articlelist.php?class=10&page={{page}}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "##(作(&nbsp;)*\\s*者：|item red\">(?:[^>]*>){2}\\s*)(.*?)<##$3###",
+      "coverUrl": "class.pic@img@src||tag.img.1@src",
+      "intro": "##简介：(?:[^>]*>){2}(.*?)<br##$1###",
+      "kind": "##(类(&nbsp;)*\\s*别|全文长度)：(.*?)<##$3###",
+      "lastChapter": "##(最近章节：(?:[^>]*>){2}|update\">[^>]*>)(章节目录\\s*)?(.*?)<##$3###",
+      "name": "h1@text||id.content@tag.span.0@text",
+      "tocUrl": "<js>baseUrl.replace(/.*?id=(\\d+)/,\"https://www.ltxsw.info/book/$1/\")</js>"
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@textNodes"
+    },
+    "ruleExplore": {
+      "author": "class.book_other@span@text",
+      "bookList": "class.sitebox@dl",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "img@src",
+      "intro": "class.book_des@text",
+      "kind": "class.uptime@text",
+      "lastChapter": "tag.a.2@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "tbody@tr!0",
+      "bookUrl": "tag.a.0@href",
+      "kind": "td!0:1:2@text",
+      "lastChapter": "tag.a.1@text##章节目录\\s*",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "+class.chapter@a",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php?action=login&searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

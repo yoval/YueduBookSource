@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": "🎉精品,失效",
+    "bookSourceName": "🎉 天天中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.day66.com",
+    "bookUrlPattern": "",
+    "customOrder": -32044,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.author@tag.a@text",
+      "coverUrl": "id.bookimg@tag.img@src",
+      "intro": "id.bookintro@text",
+      "name": "lass.bookright@text"
+    },
+    "ruleContent": {
+      "content": "class.readcontent@html##本章未完.*",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@text",
+      "bookList": "class.bookbox",
+      "bookUrl": "class.bookname@tag.a@href",
+      "lastChapter": "class.cat@tag.a.0@text",
+      "name": "class.bookname@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list-chapterAll@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "class.next@tag.a@href"
+    },
+    "searchUrl": "https://www.day66.com/modules/article/search.php?searchkey={{key}}&action=login&searchtype=all&submit=",
+    "weight": 0
+  }]

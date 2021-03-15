@@ -1,0 +1,35 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔰普通",
+    "bookSourceName": "🔰 第二书包[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.shubao85.com",
+    "customOrder": -114729,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/class1/1\n言情::/class2/1\n武侠::/class3/1\n穿越::/class4/1\n恐怖::/class5/1\n耽美::/class6/1\n网络::/class7/1\n青春::/class8/1\n经管::/class9/1\n生活::/class10/1\n教学::/class11/1\nh小说::/class12/1",
+    "lastUpdateTime": 1606859314047,
+    "ruleBookInfo": {
+      "author": "class.infotable@tag.tbody.0@tag.tr.1@tag.td.4@text",
+      "coverUrl": "class.icover@tag.img@src",
+      "intro": "class.summ@text",
+      "name": "class.ilbox@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "class.mcc@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.listbody@tag.table",
+      "bookUrl": "class.ltd@tag.a.0@href",
+      "coverUrl": "class.ltd@tag.img@src",
+      "name": "tag.tr.0@tag.td.1@tag.h4@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.mulu@tag.li!-1",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "-",
+    "weight": 0
+  }]

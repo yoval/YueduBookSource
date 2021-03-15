@@ -1,0 +1,46 @@
+[  {
+    "bookSourceComment": "不可听",
+    "bookSourceGroup": "📻有声",
+    "bookSourceName": "📻 中华听书",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://m.tingshucn.com#",
+    "customOrder": -115771,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻网游::/list/1-{{page}}.html\n都市言情::/list/2-{{page}}.html\n仙侠武侠::/list/3-{{page}}.html\n恐怖悬疑::/list/4-{{page}}.html\n穿越同人::/list/5-{{page}}.html\n历史军事::/list/6-{{page}}.html\n刑侦推理::/list/7-{{page}}.html\n社会情感::/list/8-{{page}}.html\n人文社科::/list/9-{{page}}.html\n官场商战::/list/10-{{page}}.html\n其他类别::/list/11-{{page}}.html\n儿童读物::/list/12-{{page}}.html\n幽默笑话::/list/13-{{page}}.html\n健康养生::/list/14-{{page}}.html\n文学名著::/list/15-{{page}}.html\n相声戏剧::/list/16-{{page}}.html\n名家评书::/list/17-{{page}}.html\n职业技能::/list/18-{{page}}.html\n外语学习::/list/19-{{page}}.html\n财经时评::/list/20-{{page}}.html\n广播剧::/list/21-{{page}}.html",
+    "lastUpdateTime": 1612830738967,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "class.bookimg@tag.img@src",
+      "intro": "class.book_intro@textNodes@js:'<br>'+result.replace(/\\s+/g,'<br>')",
+      "kind": "",
+      "lastChapter": "class.info@tag.span.2@text",
+      "name": "class.bookname@tag.h2@text",
+      "wordCount": "class.info@tag.span.3@text"
+    },
+    "ruleContent": {
+      "content": "<js>result</js>",
+      "imageStyle": "0",
+      "sourceRegex": ".*\\.(mp3|m4a).*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text##作者.",
+      "bookList": "class.bookbox",
+      "bookUrl": "bookid@js:'https://m.tingshucn.com/book/'+result+'.html'",
+      "coverUrl": "tag.img@orgsrc",
+      "intro": "class.intro_line@text##简介.",
+      "kind": "class.update@text##状态.",
+      "lastChapter": "",
+      "name": "tag.h4@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "id.playlist@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href@js:result+',{webView:“true”}'"
+    },
+    "searchUrl": "/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"page={{page}}&searchword={{key}}&searchtype=\"\n}",
+    "weight": 0
+  }]

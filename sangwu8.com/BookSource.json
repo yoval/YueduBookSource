@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 桑舞小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.sangwu8.com",
+    "customOrder": -32205,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/class/1_{{page}}.htm\n武侠::/class/2_{{page}}.htm\n都市::/class/3_{{page}}.htm\n网游::/class/4_{{page}}.htm\n科幻::/class/5_{{page}}.htm\n恐怖::/class/6_{{page}}.htm",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "class.introcents@tag.p.1@text##.*作者：",
+      "coverUrl": "class.introleft@tag.img.0@src",
+      "intro": "class.introcent@tag.p.3@text##.*：",
+      "name": "class.introcents@tag.h2.0@text"
+    },
+    "ruleContent": {
+      "content": "class.centent@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.introcent@tag.p.1@text||class.l_4@tag.p.0@text##.*作者：|状态：.*",
+      "bookList": "class.l_2||class.intro",
+      "bookUrl": "class.l_3@tag.a.0@href",
+      "coverUrl": "class.l_3@tag.img.0@src||class.introleft@tag.img.0@src",
+      "lastChapter": "class.l_5@tag.a.0@text||class.introcent@tag.p.2@text##最后更新：|.yqxs.cc",
+      "name": "class.l_4@tag.h2.0@text||class.introcents@tag.h2.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.main@tag.dd",
+      "chapterName": "tag.a.0@text##.*yqxs.cc",
+      "chapterUrl": "tag.a.0@href"
+    },
+    "searchUrl": "http://www.sangwu8.com/modules/article/search.php?searchkey={{key}}&page=1,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

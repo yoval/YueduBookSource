@@ -1,0 +1,42 @@
+[  {
+    "bookSourceComment": "error:failed to connect to wujixiaoshuo.com/115.238.239.133 (port 80) from /192.168.0.103 (port 47118) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "🔰普通,失效",
+    "bookSourceName": "🔰 无极小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://wujixiaoshuo.com",
+    "bookUrlPattern": "",
+    "customOrder": 16081,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1602754010739,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@@tag.a.0@text",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@text",
+      "lastChapter": "id.info@@tag.a.-1@text",
+      "name": "id.info@tag.h1@text",
+      "wordCount": "id.info@@tag.p.2@text##最后更新."
+    },
+    "ruleContent": {
+      "content": "id.content@html##天才一秒.*无广告！|章节错误.*|书客居阅读.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.novelslist2@tag.li!0",
+      "bookUrl": "class.s2@tag.a@href",
+      "lastChapter": "class.s3@text",
+      "name": "class.s2@tag.a@text",
+      "wordCount": "class.s6@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8:9:10:11",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://wujixiaoshuo.com/search.html?name={{key}}",
+    "weight": 0
+  }]

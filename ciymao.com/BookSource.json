@@ -1,0 +1,49 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "📡发现",
+    "bookSourceName": "📡 次元猫[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ciymao.com",
+    "bookUrlPattern": "https://www.ciymao.com/info/\\d+.html",
+    "customOrder": -117086,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "                 二 次元 ·连载                ::/store/c20/z2/t0/x0/p0/y{{page}}/n0/s0.html\n动漫同人::/store/c20/z2/t0/x1/p0/y{{page}}/n0/s0.html\n小说同人::/store/c20/z2/t0/x2/p0/y{{page}}/n0/s0.html\n影视同人::/store/c20/z2/t0/x3/p0/y{{page}}/n0/s0.html\n原生幻想::/store/c20/z2/t0/x4/p0/y{{page}}/n0/s0.html\n搞笑吐槽::/store/c20/z2/t0/x5/p0/y{{page}}/n0/s0.html\n                玄幻奇幻·连载                ::/store/c1/z2/t0/x0/p0/y{{page}}/n0/s0.html\n东方玄幻::/store/c1/z2/t0/x1/p0/y{{page}}/n0/s0.html\n异世大陆::/store/c1/z2/t0/x2/p0/y{{page}}/n0/s0.html\n史诗奇幻::/store/c1/z2/t0/x3/p0/y{{page}}/n0/s0.html\n高武世界::/store/c1/z2/t0/x4/p0/y{{page}}/n0/s0.html\n剑与魔法::/store/c1/z2/t0/x5/p0/y{{page}}/n0/s0.html\n                武侠仙侠·连载                ::/store/c2/z2/t0/x0/p0/y{{page}}/n0/s0.html\n古典仙侠::/store/c2/z2/t0/x1/p0/y{{page}}/n0/s0.html\n修真文明::/store/c2/z2/t0/x2/p0/y{{page}}/n0/s0.html\n现代修真::/store/c2/z2/t0/x3/p0/y{{page}}/n0/s0.html\n神话修真::/store/c2/z2/t0/x4/p0/y{{page}}/n0/s0.html\n武侠幻想::/store/c2/z2/t0/x5/p0/y{{page}}/n0/s0.html\n幻想修仙::/store/c2/z2/t0/x6/p0/y{{page}}/n0/s0.html\n                都市青春·连载                ::/store/c3/z2/t0/x0/p0/y{{page}}/n0/s0.html\n都市生活::/store/c3/z2/t0/x1/p0/y{{page}}/n0/s0.html\n官场沉浮::/store/c3/z2/t0/x2/p0/y{{page}}/n0/s0.html\n娱乐明星::/store/c3/z2/t0/x3/p0/y{{page}}/n0/s0.html\n异术超能::/store/c3/z2/t0/x4/p0/y{{page}}/n0/s0.html\n                历史军事·连载                ::/store/c4/z2/t0/x0/p0/y{{page}}/n0/s0.html\n架空历史::/store/c4/z2/t0/x1/p0/y{{page}}/n0/s0.html\n秦汉三国::/store/c4/z2/t0/x2/p0/y{{page}}/n0/s0.html\n两晋隋唐::/store/c4/z2/t0/x3/p0/y{{page}}/n0/s0.html\n两宋元明::/store/c4/z2/t0/x4/p0/y{{page}}/n0/s0.html\n清史民国::/store/c4/z2/t0/x5/p0/y{{page}}/n0/s0.html\n外国历史::/store/c4/z2/t0/x6/p0/y{{page}}/n0/s0.html\n军事战争::/store/c4/z2/t0/x7/p0/y{{page}}/n0/s0.html\n抗战烽火::/store/c4/z2/t0/x8/p0/y{{page}}/n0/s0.html\n                科幻灵异·连载                ::/store/c5/z2/t0/x0/p0/y{{page}}/n0/s0.html\n星际文明::/store/c5/z2/t0/x1/p0/y{{page}}/n0/s0.html\n超级科技::/store/c5/z2/t0/x2/p0/y{{page}}/n0/s0.html\n时空穿梭::/store/c5/z2/t0/x3/p0/y{{page}}/n0/s0.html\n进化变异::/store/c5/z2/t0/x4/p0/y{{page}}/n0/s0.html\n末世危机::/store/c5/z2/t0/x5/p0/y{{page}}/n0/s0.html\n灵异鬼怪::/store/c5/z2/t0/x6/p0/y{{page}}/n0/s0.html\n侦探推理::/store/c5/z2/t0/x7/p0/y{{page}}/n0/s0.html\n寻墓探险::/store/c5/z2/t0/x8/p0/y{{page}}/n0/s0.html\n游戏竞技::/store/c6/z2/t0/x0/p0/y{{page}}/n0/s0.html\n                女生言情·连载                ::/store/c9/z2/t0/x0/p0/y{{page}}/n0/s0.html\n豪门总裁::/store/c9/z2/t0/x1/p0/y{{page}}/n0/s0.html\n都市青春::/store/c9/z2/t0/x2/p0/y{{page}}/n0/s0.html\n星际科幻::/store/c9/z2/t0/x3/p0/y{{page}}/n0/s0.html\n灵异推理::/store/c9/z2/t0/x4/p0/y{{page}}/n0/s0.html\n婚恋情缘::/store/c9/z2/t0/x5/p0/y{{page}}/n0/s0.html\n穿越架空::/store/c9/z2/t0/x6/p0/y{{page}}/n0/s0.html\n玄幻仙侠::/store/c9/z2/t0/x7/p0/y{{page}}/n0/s0.html\n宫闱宅斗::/store/c9/z2/t0/x8/p0/y{{page}}/n0/s0.html\n                 二 次元 ·完结                ::/store/c20/z3/t0/x0/p0/y{{page}}/n0/s0.html\n动漫同人::/store/c20/z3/t0/x1/p0/y{{page}}/n0/s0.html\n小说同人::/store/c20/z3/t0/x2/p0/y{{page}}/n0/s0.html\n影视同人::/store/c20/z3/t0/x3/p0/y{{page}}/n0/s0.html\n原生幻想::/store/c20/z3/t0/x4/p0/y{{page}}/n0/s0.html\n搞笑吐槽::/store/c20/z3/t0/x5/p0/y{{page}}/n0/s0.html\n                玄幻奇幻·完结                ::/store/c1/z3/t0/x0/p0/y{{page}}/n0/s0.html\n东方玄幻::/store/c1/z3/t0/x1/p0/y{{page}}/n0/s0.html\n异世大陆::/store/c1/z3/t0/x2/p0/y{{page}}/n0/s0.html\n史诗奇幻::/store/c1/z3/t0/x3/p0/y{{page}}/n0/s0.html\n高武世界::/store/c1/z3/t0/x4/p0/y{{page}}/n0/s0.html\n剑与魔法::/store/c1/z3/t0/x5/p0/y{{page}}/n0/s0.html\n                武侠仙侠·完结                ::/store/c2/z3/t0/x0/p0/y{{page}}/n0/s0.html\n古典仙侠::/store/c2/z3/t0/x1/p0/y{{page}}/n0/s0.html\n修真文明::/store/c2/z3/t0/x2/p0/y{{page}}/n0/s0.html\n现代修真::/store/c2/z3/t0/x3/p0/y{{page}}/n0/s0.html\n神话修真::/store/c2/z3/t0/x4/p0/y{{page}}/n0/s0.html\n武侠幻想::/store/c2/z3/t0/x5/p0/y{{page}}/n0/s0.html\n幻想修仙::/store/c2/z3/t0/x6/p0/y{{page}}/n0/s0.html\n                都市青春·完结                ::/store/c3/z3/t0/x0/p0/y{{page}}/n0/s0.html\n都市生活::/store/c3/z3/t0/x1/p0/y{{page}}/n0/s0.html\n官场沉浮::/store/c3/z3/t0/x2/p0/y{{page}}/n0/s0.html\n娱乐明星::/store/c3/z3/t0/x3/p0/y{{page}}/n0/s0.html\n异术超能::/store/c3/z3/t0/x4/p0/y{{page}}/n0/s0.html\n                历史军事·完结                ::/store/c4/z3/t0/x0/p0/y{{page}}/n0/s0.html\n架空历史::/store/c4/z3/t0/x1/p0/y{{page}}/n0/s0.html\n秦汉三国::/store/c4/z3/t0/x2/p0/y{{page}}/n0/s0.html\n两晋隋唐::/store/c4/z3/t0/x3/p0/y{{page}}/n0/s0.html\n两宋元明::/store/c4/z3/t0/x4/p0/y{{page}}/n0/s0.html\n清史民国::/store/c4/z3/t0/x5/p0/y{{page}}/n0/s0.html\n外国历史::/store/c4/z3/t0/x6/p0/y{{page}}/n0/s0.html\n军事战争::/store/c4/z3/t0/x7/p0/y{{page}}/n0/s0.html\n抗战烽火::/store/c4/z3/t0/x8/p0/y{{page}}/n0/s0.html\n                科幻灵异·完结                ::/store/c5/z3/t0/x0/p0/y{{page}}/n0/s0.html\n星际文明::/store/c5/z3/t0/x1/p0/y{{page}}/n0/s0.html\n超级科技::/store/c5/z3/t0/x2/p0/y{{page}}/n0/s0.html\n时空穿梭::/store/c5/z3/t0/x3/p0/y{{page}}/n0/s0.html\n进化变异::/store/c5/z3/t0/x4/p0/y{{page}}/n0/s0.html\n末世危机::/store/c5/z3/t0/x5/p0/y{{page}}/n0/s0.html\n灵异鬼怪::/store/c5/z3/t0/x6/p0/y{{page}}/n0/s0.html\n侦探推理::/store/c5/z3/t0/x7/p0/y{{page}}/n0/s0.html\n寻墓探险::/store/c5/z3/t0/x8/p0/y{{page}}/n0/s0.html\n游戏竞技::/store/c6/z3/t0/x0/p0/y{{page}}/n0/s0.html\n                女生言情·完结                ::/store/c9/z3/t0/x0/p0/y{{page}}/n0/s0.html\n豪门总裁::/store/c9/z3/t0/x1/p0/y{{page}}/n0/s0.html\n都市青春::/store/c9/z3/t0/x2/p0/y{{page}}/n0/s0.html\n星际科幻::/store/c9/z3/t0/x3/p0/y{{page}}/n0/s0.html\n灵异推理::/store/c9/z3/t0/x4/p0/y{{page}}/n0/s0.html\n婚恋情缘::/store/c9/z3/t0/x5/p0/y{{page}}/n0/s0.html\n穿越架空::/store/c9/z3/t0/x6/p0/y{{page}}/n0/s0.html\n玄幻仙侠::/store/c9/z3/t0/x7/p0/y{{page}}/n0/s0.html\n宫闱宅斗::/store/c9/z3/t0/x8/p0/y{{page}}/n0/s0.html",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 1610683895228,
+    "ruleBookInfo": {
+      "author": "class.info@tag.span.0@text",
+      "coverUrl": "class.bookimg@tag.img@data-src\n@js:id=result.match(/(.*?)\\./)[1];\np=p=Math.round(id/450)-2;\nresult='https://static.ciymao.com/upload/'+p+'.'+result",
+      "intro": "class.book-intro@tag.p@text",
+      "kind": "class.info@tag.span.1@text&&class.info@tag.span.2@text",
+      "lastChapter": "class.newlist@tag.li.0@text",
+      "name": "id.book@text",
+      "tocUrl": "text.阅读@href",
+      "wordCount": "class.info@tag.span.3@text@js:result+'字'"
+    },
+    "ruleContent": {
+      "content": "all##<.*?>",
+      "imageStyle": "0",
+      "webJs": "getDecode();\na=document.documentElement.outerHTML.match(/<div\\s*class=\"([^\"]+)\"><div\\s*id=\"gdw2\"/)[1];\nhtml='#'+a;\n$(html).html();"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text##作者.",
+      "bookList": "class.bookbox",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@data-src\n@js:id=result.match(/(.*?)\\./)[1];\np=p=Math.round(id/450)-2;\nresult='https://static.ciymao.com/upload/'+p+'.'+result",
+      "intro": "class.intro_line@text##简介.",
+      "kind": "",
+      "lastChapter": "class.update@text##最新.",
+      "name": "class.bookname@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.newlist@tag.li@tag.a",
+      "chapterName": "text##\\s-\\s\\d+-\\d+",
+      "chapterUrl": "href##$##,{\"webView\":true}",
+      "nextTocUrl": "//option/@value",
+      "updateTime": "text##.*?\\s-\\s"
+    },
+    "searchUrl": "https://www.ciymao.com/search/,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"page={{page}}&key={{key}}\"\n}",
+    "weight": 0
+  }]

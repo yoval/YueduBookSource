@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🍺特优",
+    "bookSourceName": "🍺 新笔下文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.newbixia.com",
+    "bookUrlPattern": "",
+    "customOrder": -116755,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最新入库::http://www.newbixia.com/\n全本小说::http://www.newbixia.com/quanben/\n玄幻小说::http://www.newbixia.com/xuanhuan/{{page}}.html\n修真小说::http://www.newbixia.com/xianxia/{{page}}.html\n都市小说::http://www.newbixia.com/dushi/{{page}}.html\n历史小说::http://www.newbixia.com/junshi/{{page}}.html\n网游小说::http://www.newbixia.com/wangyou/{{page}}.html\n科幻小说::http://www.newbixia.com/kehuan/{{page}}.html\n言情小说::http://www.newbixia.com/yanqing/{{page}}.html\n其它小说::http://www.newbixia.com/qita/{{page}}.html",
+    "lastUpdateTime": 1605089268923,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@img@src",
+      "intro": "id.intro@text",
+      "lastChapter": "id.info@tag.p.3@a@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html##天才一秒记住.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text||class.s5@text",
+      "bookList": "class.novelslist2@ul@li||class.r@ul@li||class.l@ul@li",
+      "bookUrl": "a@href",
+      "coverUrl": "a@href##/book/(\\d+)/(\\d+)/##/imagesnew/$1/$2/$2.jpg",
+      "kind": "class.s1@text||class.s2@textNodes##《|》|\\[|]",
+      "lastChapter": "class.s3@a@text",
+      "name": "class.s2@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.newbixia.com/web/search.php?q={{key}}&p={{page}}",
+    "weight": 0
+  }]

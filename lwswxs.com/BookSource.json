@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔰普通",
+    "bookSourceName": "🔰 乐文书屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.lwswxs.com",
+    "bookUrlPattern": "",
+    "customOrder": 16192,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "tag.p.0@text"
+    },
+    "ruleContent": {
+      "content": "class.panel-body content-body content-ext@textNodes##收藏网址.*",
+      "nextContentUrl": "class.pager@tag.a.2@text.下一篇@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "id.booklast@text||class.text-center.1@tag.a@text",
+      "bookList": "tag.tbody@tag.tr!0",
+      "bookUrl": "tag.p@tag.a@href||class.text-center.0@href",
+      "coverUrl": "tag.img@src",
+      "kind": "tag.td.4@tag.p@text",
+      "lastChapter": "tag.td.3@tag.p@text",
+      "name": "tag.p.0@tag.a.0@text||class.text-center.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "tag.ul.4@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.lwswxs.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,53 @@
+[  {
+    "bookSourceComment": "error:Unable to resolve host \"m.ezkanshu.com\": No address associated with hostname\n",
+    "bookSourceGroup": "🍑耽美,失效",
+    "bookSourceName": "🍑 EZ看书[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.ezkanshu.com",
+    "bookUrlPattern": "",
+    "customOrder": -31214,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "❀      纯爱耽美      ❀::/sort/15_{{page}}/",
+    "lastUpdateTime": 1602881515532,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.block_txt2@tag.a.2@text",
+      "coverUrl": "class.block_img2@tag.img@src",
+      "intro": "class.intro_info@text",
+      "kind": "class.block_txt2@tag.a.3@text",
+      "lastChapter": "class.block_txt2@tag.a.4@text",
+      "name": "class.block_txt2@tag.h2@text",
+      "tocUrl": "class.ablum_read.0@tag.span.1@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "id.nr1@textNodes##喜欢.*请大家收藏.*|一秒记住.*用户.*章节！|欢迎来到.*宣传|一秒记住.*ezkanshu\\.|【EZ看书】.*\\n.*书友哦！",
+      "nextContentUrl": "id.pb_next@href",
+      "replaceRegex": "##作者有话要说(.|\\n)*"
+    },
+    "ruleExplore": {
+      "author": "tag.p.1@text",
+      "bookList": "@css:a:has(img)",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "tag.p.2@text",
+      "kind": "tag.p.1@tag.span@text",
+      "name": "tag.p.0@text"
+    },
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.cover@tag.p",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.a.1@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.ezkanshu.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+      "kind": "tag.a.0@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://m.ezkanshu.com/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"type=articlename&s={{key}}&submit=\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,43 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "全本小说~iqb5.com",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.iqb5.com/",
+    "bookUrlPattern": ".+/look/.+",
+    "customOrder": -39,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/list/1_{{page}}.html\n武侠小说::/list/2_{{page}}.html\n都市小说::/list/3_{{page}}.html\n历史小说::/list/4_{{page}}.html\n网游小说::/list/5_{{page}}.html\n科幻小说::/list/6_{{page}}.html\n恐怖小说::/list/7_{{page}}.html\n穿越小说::/list/8_{{page}}.html\n女生小说::/list/9_{{page}}.html\n乡村小说::/list/10_{{page}}.html\n总排行榜::/top/allvisit_{{page}}.html\n总推荐榜::/top/allvote_{{page}}.html\n月排行榜::/top/monthvisit_{{page}}.html\n月推荐榜::/top/monthvote_{{page}}.html\n周排行榜::/top/weekvisit_{{page}}.html\n周推荐榜::/top/weekvote_{{page}}.html\n最新入库::/top/postdate_{{page}}.html\n最近更新::/top/lastupdate_{{page}}.html\n原创更新::/top/authorupdate_{{page}}.html\n转载更新::/top/masterupdate_{{page}}.html\n总收藏榜::/top/goodnum_{{page}}.html\n字数排行::/top/size_{{page}}.html",
+    "header": "",
+    "lastUpdateTime": 1613434001244,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "tag.h3@textNodes||id.at@tag.tr.0@tag.td.1@text##[\\s\\|↓]",
+      "coverUrl": "",
+      "intro": "",
+      "name": "tag.h1@text##全文阅读|txt全集下载",
+      "tocUrl": "class.read@href"
+    },
+    "ruleContent": {
+      "content": "id.contents@textNodes##\\s*（本章未完，请翻页）\\s*|（本章完）"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "class.grid@tag.tr!0||id.content@tag.tbody@tag.tr!0",
+      "bookUrl": "tag.td.1@tag.a@href",
+      "coverUrl": "tag.td.0@tag.a@href##((\\d+)\\d{3})\\.html##/files/article/image/$2/$1/$1s.jpg###",
+      "intro": "",
+      "kind": "tag.td.3@text&&tag.td.5@text",
+      "lastChapter": "tag.td.4@text&&tag.td.1@text##\\n(.+?)(全文免费阅读)?$##▪$1",
+      "name": "tag.td.0@text##txt全集下载"
+    },
+    "ruleToc": {
+      "chapterList": "class.L@tag.a",
+      "chapterName": "text##(?<=\\d章\\h)\\d+(\\+\\d+)?[，、]|(?<!^|[章卷部集]\\h?|[零一二三四五六七八九十][、\\h])[（［【\\{\\[\\(](?![一二三四五六七八九十]{1,3}\\W$|\\d{1,3}\\D$|[上中下完终续]\\W)[^（［【\\{\\[\\(]+|^(?=请\\w{0,2}假|解释|上架|推封|关于|新书)\\S{2,}$",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.iqb5.com/modules/article/search.php?searchtype=articlename&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 疯情书库",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.aastory.space",
+    "bookUrlPattern": "",
+    "customOrder": -116523,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/category.php?t=xuanhuan\n职场::/category.php?t=zhichang\n古典::/category.php?t=gudian\n惊悚::/category.php?t=jingsong\n网游::/category.php?t=wangyou\n乡土::/category.php?t=xiangtu\n历史::/category.php?t=lishi\n耽美::/category.php?t=danmei\n女尊::/category.php?t=nvzun\n穿越::/category.php?t=chuanyue\n同人::/category.php?t=tongren\n校园::/category.php?t=xiaoyuan\n言情::/category.php?t=yanqing\n官场::/category.php?t=guanchang\n异能::/category.php?t=yineng\n都市::/category.php?t=dushi\n武侠::/category.php?t=wuxia\n仙侠::/category.php?t=xianxia\n单篇::/category.php?t=danpian\n点击榜::/ranking.php?t=click\n新书榜::/ranking.php?t=newbook\n总字数榜::/ranking.php?t=totalword",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/63.0.3239.132 Safari/537.36\"\n}",
+    "lastUpdateTime": 1612499597091,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.book_info_top_l@tag.img.0@src",
+      "intro": "class.jianjieneirong@text",
+      "lastChapter": "class.new_zhangjie1@tag.a@text",
+      "tocUrl": "class.xiaoshuomulu@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "<js>\nchapid=result.match(/ajaxGetContent\\(\\\"([0-9]+)\\\"\\);/)[1];\nstr=result.match(/id\\=\\\"\\+chapid\\+\\\"(.*)\\\",/)[1];\n'https://www.aastory.space/_getcontent.php?id='+chapid+str\n</js>\n<js>\njava.ajax(result)\n</js>//*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.1@text||class.author@text",
+      "bookList": "class.sousuojieguo@tag.ul.0@tag.li||class.yuepiaobang@tag.tbody@tag.tr",
+      "bookUrl": "tag.a.0@href||class.shuming@tag.a@href",
+      "kind": "textNodes||class.fenlei@text",
+      "name": "tag.a.0@text||class.shuming@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.section_list@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.aastory.space/search.php?searchword={{key}}",
+    "weight": 0
+  }]

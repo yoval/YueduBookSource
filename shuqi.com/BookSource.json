@@ -1,0 +1,64 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "💵正版",
+    "bookSourceName": "💵 阿里榜单",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.shuqi.com/rank",
+    "bookUrlPattern": "",
+    "customOrder": -117375,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "男频点击榜::https://www.shuqi.com/ranklist?rank=boyClick&page={{page}}&&女频点击榜::https://www.shuqi.com/ranklist?rank=girlClick&page={{page}}&&男频收藏榜::https://www.shuqi.com/ranklist?rank=boyStore&page={{page}}&&女频收藏榜::https://www.shuqi.com/ranklist?rank=girlStore&page={{page}}&&男频订阅榜::https://www.shuqi.com/ranklist?rank=boyOrder&page={{page}}&&女频订阅榜::https://www.shuqi.com/ranklist?rank=girlOrder&page={{page}}&&男频人气榜::https://www.shuqi.com/ranklist?rank=boyhot&page={{page}}&&女频人气榜::https://www.shuqi.com/ranklist?rank=girlhot&page={{page}}&&男频新书榜::https://www.shuqi.com/ranklist?rank=boyNew&page={{page}}&&女频新书榜::https://www.shuqi.com/ranklist?rank=girlNew&page={{page}}&&男频完结榜::https://www.shuqi.com/ranklist?rank=boyEnd&page={{page}}&&女频完结榜::https://www.shuqi.com/ranklist?rank=girlEnd&page={{page}}&&男频更新榜::https://www.shuqi.com/ranklist?rank=boyUpdate&page={{page}}&&女频更新榜::https://www.shuqi.com/ranklist?rank=girlUpdate&page={{page}}&&完结榜::https://www.shuqi.com/ranklist?rank=allEnd&page={{page}}&&新书人气榜::https://www.shuqi.com/ranklist?rank=allNew&page={{page}}&&字数榜::https://www.shuqi.com/ranklist?rank=allWords&page={{page}}&&点击榜::https://www.shuqi.com/ranklist?rank=allClick&page={{page}}&&收藏榜::https://www.shuqi.com/ranklist?rank=allStore&page={{page}}&&订阅榜::https://www.shuqi.com/ranklist?rank=allOrder&page={{page}}&&",
+    "header": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3741.400 QQBrowser/10.5.3863.400",
+    "lastUpdateTime": 1604940992589,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "",
+      "init": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "class.bkuser-icon@text",
+      "bookList": "class.ranklist-ul@class.clearfix",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.ranklist-des@text@js:'本接口仅提供榜单数据，请点击 [换源] 即可进行阅读！！！\\n BY木木 源仓库ku.mumuceo.com\\n'+result;",
+      "kind": "class.bkcate-icon@text&&class.ranklist-tag@tag.a@text",
+      "lastChapter": "",
+      "name": "tag.h3@text",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "",
+      "chapterName": "",
+      "chapterUrl": "",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "#",
+    "weight": 0
+  }]

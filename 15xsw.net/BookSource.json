@@ -1,0 +1,34 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 15小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.15xsw.net",
+    "customOrder": -116595,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612451778309,
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@tag.p.0@text##本书简介："
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes",
+      "replaceRegex": "##15(.|\\n)*青看点邀请码【49024486】|阿甘小说网(.|\\n)*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text||tag.p.0@text",
+      "bookList": "class.grid@tag.tr||id.maininfo",
+      "bookUrl": "class.odd@tag.a.0@href",
+      "lastChapter": "class.even@tag.a@text||tag.p.2@text",
+      "name": "class.odd@tag.a.0@text||id.info@tag.h1.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.15xsw.net/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

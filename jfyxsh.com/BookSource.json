@@ -1,0 +1,32 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 辣文合集[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.jfyxsh.com",
+    "customOrder": -31619,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "乡村小说::http://www.jfyxsh.com/xiangcunxiaoshuo/",
+    "lastUpdateTime": 1602982409942,
+    "ruleBookInfo": {
+      "intro": "class.container@tag.p@text"
+    },
+    "ruleContent": {
+      "content": "class.span12@tag.p@html||class.span12@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.span@text",
+      "bookList": "class.item span4",
+      "bookUrl": "tag.h3@tag.a@href",
+      "coverUrl": "class.img-thumbnail@tag.img@src",
+      "name": "tag.h3@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.thumbnails@tag.li",
+      "chapterName": "class.thumbnail@text",
+      "chapterUrl": "class.span3@tag.a@href"
+    },
+    "weight": 0
+  }]

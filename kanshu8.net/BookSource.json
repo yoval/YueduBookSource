@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔰普通",
+    "bookSourceName": "🔰 看书吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.kanshu8.net",
+    "bookUrlPattern": "",
+    "customOrder": 16388,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1603345832245,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "##作者：<a title=\"([^\"]+)\" ##$1###",
+      "coverUrl": "class.fl pt-bookdetail-img@src",
+      "intro": "class.compulsory-row-three pt-bookdetail-intro@text",
+      "lastChapter": "class.color2 mr20@text",
+      "name": "class.novelname@text"
+    },
+    "ruleContent": {
+      "content": "class.pt-read-text@p@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "#.*?_(.*?)_#$1###",
+      "bookList": "class.result-list@a",
+      "bookUrl": "href##m##www",
+      "coverUrl": "tag.a.0@href##/book/(\\d+)/##/novels/$1.jpg",
+      "name": "class.result-title@text##_.*"
+    },
+    "ruleToc": {
+      "chapterList": "class.pt-chapter-cont-detail full@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://zhannei.baidu.com/cse/search?q={{key}}&s=7884999895762181908&entry=1,{\n  \"headers\": \"{\\\"User-Agent\\\": \\\"Mozilla/5.0 (Linux; Android 8.1.0; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36\\\"}\"\n}",
+    "weight": 0
+  }]

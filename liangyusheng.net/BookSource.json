@@ -1,0 +1,42 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 梁羽生",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.liangyusheng.net",
+    "customOrder": -115200,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/xuanhuan/{{page}}.html\n仙侠小说::/xianxia/{{page}}.html\n都市小说::/dushi/{{page}}.html\n军史小说::/junshi/{{page}}.html\n网游小说::/wangyou/{{page}}.html\n科幻小说::/kehuan/{{page}}.html\n恐怖小说::/kongbu/{{page}}.html\n其它小说::/qita/{{page}}.html",
+    "lastUpdateTime": 1604165435047,
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@img@src",
+      "intro": "id.intro@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {
+      "author": "class.s4@tag.a@text",
+      "bookList": "class.l@tag.ul@tag.li",
+      "bookUrl": "class.s2@tag.a@href",
+      "kind": "class.s1@text&&class.s5@text",
+      "lastChapter": "class.s3@tag.a@text",
+      "name": "class.s2@tag.a@text"
+    },
+    "ruleSearch": {
+      "author": "class.s4 wid@tag.a@text",
+      "bookList": "class.novelslist2@tag.ul@tag.li",
+      "bookUrl": "class.s2 wid@tag.a@href",
+      "kind": "class.s6 wid6@text",
+      "lastChapter": "class.s3 wid3@tag.a@text",
+      "name": "class.s2 wid@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dl@tag.dd!0",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/index.php?s=/web/index/search&name={{key}},{\n\"method\": \"POST\"\n}",
+    "weight": 0
+  }]

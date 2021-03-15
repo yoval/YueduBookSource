@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": "🎉精品,失效",
+    "bookSourceName": "🎉 顶点龙腾",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yanjintoys.com/",
+    "customOrder": -31788,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1602755268550,
+    "ruleBookInfo": {
+      "coverUrl": "class.pic@img@src",
+      "intro": "class.intro@tag.p@text",
+      "kind": "class.infotype@tag.p.2@text",
+      "lastChapter": "class.infotype@tag.p.3@tag.a@text"
+    },
+    "ruleContent": {
+      "content": "class.txt@html",
+      "nextContentUrl": "text.下一章@href",
+      "replaceRegex": "##\\s*第.*\\s*|.*小说网站!"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.p3@text",
+      "bookList": "class.articlegeneral",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "",
+      "kind": "class.p1@text",
+      "name": "class.p2@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list_xm@tag.ul@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.yanjintoys.com/search.html?keyword={{key}}&page={{page}}",
+    "weight": 0
+  }]

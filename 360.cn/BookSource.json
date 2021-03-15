@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 指间免费小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://xiaoshuo.360.cn",
+    "bookUrlPattern": "",
+    "customOrder": -115087,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36\"\n}",
+    "lastUpdateTime": 1606907882473,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.book-cover@img@data-url",
+      "intro": "class.detail-article@tag.p.0@text",
+      "lastChapter": "class.item author@text##.*更新至",
+      "tocUrl": "class.btns@a@href@js:result.replace(/reader.*/,'chapter')"
+    },
+    "ruleContent": {
+      "content": "class.body@p@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@tag.span.0@text",
+      "bookList": "class.list@a",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "class.book-card@img@data-url",
+      "kind": "class.over@text",
+      "name": "class.title@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.catalog-list list@a",
+      "chapterName": "class.subtitle els@text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://xiaoshuo.360.cn/book/search?keyword={{key}}",
+    "weight": 0
+  }]

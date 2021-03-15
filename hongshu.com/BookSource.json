@@ -1,0 +1,36 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "💵正版",
+    "bookSourceName": "💵 红薯网♀",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://g.hongshu.com/nv.html",
+    "customOrder": -34028,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "女生人气榜::https://g.hongshu.com/bookajax/search.do?method=search&sortby=lastweek_salenum&paegsize=20&sex_flag=nv&pagenum={{page}}\n女生新书榜::https://g.hongshu.com/bookajax/search.do?method=search&sortby=&paegsize=20&sex_flag=nv&pagenum={{page}}",
+    "lastUpdateTime": 1601996623234,
+    "loginUrl": "https://g.hongshu.com/userlogin",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": ".rdtext@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "@json:$.authorname",
+      "bookList": "@json:$..bookinfo[*]",
+      "bookUrl": "https://g.hongshu.com/bookajax/chapterlist/bid/{$.bid}.do?bid={$.bid}&pagesize=50&sortby=ASC&pagenum=1",
+      "coverUrl": "@json:$.bookface",
+      "intro": "@json:$.intro",
+      "kind": "@json:{$.classname}&&{$.tag[*]}",
+      "lastChapter": "@json:$.last_update_title",
+      "name": "@json:$.catename"
+    },
+    "ruleToc": {
+      "chapterList": "@json:$..list[*]",
+      "chapterName": "@json:$.title",
+      "chapterUrl": "@json:https://g.hongshu.com/content/{$..bid}/{$.chapterid}.html",
+      "nextTocUrl": "@js:\nvar n=JSON.parse(result);\nn=n.totalpage;\nbaseUrl=baseUrl.replace(/(.+pagenum=)\\d+/,'$1');\nvar list=[];\nfor(var i=2;i<=n;i++){\nvar url=baseUrl+i;\nlist.push(url);\n}\nlist"
+    },
+    "searchUrl": "https://g.hongshu.com/bookajax/search.do?keyword={{key}}&pagesize=10&pagenum={{page}}&sex_flag=nv",
+    "weight": 0
+  }]

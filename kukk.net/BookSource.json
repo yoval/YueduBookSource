@@ -1,0 +1,50 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎨漫画",
+    "bookSourceName": "🎨 酷看漫画",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.kukk.net",
+    "customOrder": -115810,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "连载::/booklist/?end=0&page={{page}}\n完结::/booklist?end=1&page={{page}}\n更新::/update?page={{page}}\n﻿恋爱::/booklist?page={{page}}&tag=恋爱\n少年::/booklist?page={{page}}&tag=少年\n古风::/booklist?page={{page}}&tag=古风\n奇幻::/booklist?page={{page}}&tag=奇幻\n搞笑::/booklist?page={{page}}&tag=搞笑\n校园::/booklist?page={{page}}&tag=校园\n都市::/booklist?page={{page}}&tag=都市\n治愈::/booklist?page={{page}}&tag=治愈\n悬疑::/booklist?page={{page}}&tag=悬疑\n励志::/booklist?page={{page}}&tag=励志\n热血::/booklist?page={{page}}&tag=热血\n冒险::/booklist?page={{page}}&tag=冒险\n后宫::/booklist?page={{page}}&tag=后宫\n穿越::/booklist?page={{page}}&tag=穿越\n百合::/booklist?page={{page}}&tag=百合\n推理::/booklist?page={{page}}&tag=推理\n萌系::/booklist?page={{page}}&tag=萌系\n职场::/booklist?page={{page}}&tag=职场\n魔幻::/booklist?page={{page}}&tag=魔幻\n生活::/booklist?page={{page}}&tag=生活\n科幻::/booklist?page={{page}}&tag=科幻\n机战::/booklist?page={{page}}&tag=机战\n战争::/booklist?page={{page}}&tag=战争\n美食::/booklist?page={{page}}&tag=美食\n轻小说::/booklist?page={{page}}&tag=轻小说",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 1612115238638,
+    "ruleBookInfo": {
+      "author": "class.detail-main-info-author.1@a@text",
+      "coverUrl": "tag.img@data-original",
+      "intro": "class.detail-desc@text",
+      "kind": "class.detail-main-info-class@a@text",
+      "lastChapter": "class.detail-list-select@tag.li.-1@tag.a@text",
+      "name": "class.normal-top-title@text",
+      "wordCount": "class.detail-main-info-author.2@a@text"
+    },
+    "ruleContent": {
+      "content": ".lazy@html##src=.*\\\"@js:result.replace(/data-original/g,\"src\")",
+      "imageStyle": "FULL"
+    },
+    "ruleExplore": {
+      "author": "class.book-list-info-bottom-item@text",
+      "bookList": "class.manga-list-2@li",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@data-original",
+      "intro": "class.book-list-info-des@text",
+      "kind": "tag.span.1@text",
+      "lastChapter": "tag.p.1@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+      "bookList": "class.book-list@li",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@data-original",
+      "intro": "tag.p.1@text",
+      "name": "tag.p.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "#detail-list-select a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.kukk.net/search,{\n\"charset\": \"\",\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}\"\n}",
+    "weight": 0
+  }]

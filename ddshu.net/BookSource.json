@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "xpath;coolapk@芜恙;wordCount\n作者::/search.php,{\"headers\": \"{Accept-Language:\\\\\\\"zh-CN,zh;q=0.9\\\\\\\"}\",\"charset\": \"gbk\\\"\",\"method\": \"POST\",\"body\": \"keyword={{key}}&select=author&Submit=搜索\"}\n书名::/search.php,{\"headers\": \"{Accept-Language:\\\\\\\"zh-CN,zh;q=0.9\\\\\\\"}\",\"charset\": \"gbk\\\"\",\"method\": \"POST\",\"body\": \"keyword={{key}}&select=name&Submit=搜索\"}",
+    "bookSourceGroup": "🍒言情",
+    "bookSourceName": "🍒 豆豆小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ddshu.net",
+    "bookUrlPattern": "",
+    "customOrder": -31089,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "lastUpdateTime": 1603003797694,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "//*[@class=\"bookcover\"]/img/@src",
+      "intro": "//*[@class=\"bookintro\"]/div[2]",
+      "tocUrl": "//a[text()=\"点击阅读\"]/@href"
+    },
+    "ruleContent": {
+      "content": "//*[@id=\"content\"]##.*adsbygoogle.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "//li/a[2]/text()",
+      "bookList": "<js>result.match(/<ul id=\\\"info\\\"[\\w\\W]*?p_jg\\\"><\\/p>/g)</js>",
+      "bookUrl": "//li/a[1]/@href",
+      "intro": "//*[@class=\"bookintro\"]/text()",
+      "kind": "//li/a[3]/text()",
+      "lastChapter": "//li/a[5]/text()&&//li/text()\n<js>\nvar n = result.replace(/\\n.*/, '');\nvar t = result.match(/-(\\d+-\\d+)/)[1];\nn + '▪' + t\n</js>",
+      "name": "//li/a[1]/text()"
+    },
+    "ruleToc": {
+      "chapterList": "//tbody/tr/td/a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.ddshu.net/search.php,{\n  \"headers\": \"{Accept-Language:\\\"zh-CN,zh;q=0.9\\\"}\",\n  \"charset\": \"gb2312\",\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&select=name&Submit=搜索\"\n}",
+    "weight": 0
+  }]

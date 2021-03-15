@@ -1,0 +1,46 @@
+[  {
+    "bookSourceComment": "error:正文内容为空\n",
+    "bookSourceGroup": "🍒言情,🛠️待修",
+    "bookSourceName": "🍒 女生言情[无正文]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://dpyqxs.com",
+    "customOrder": -116005,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "都市言情::/xuanhuan/page_{{page}}.html\n现代言情::/xiuzhen/page_{{page}}.html\n古代言情::/dushi/page_{{page}}.html\n总裁豪门::/lishi/page_{{page}}.html\n宫斗小说::/wangyou/page_{{page}}.html\n校园言情::/kehuan/page_{{page}}.html\n穿越小说::/nvpin/page_{{page}}.html\n架空小说::/jiakong/page_{{page}}.html",
+    "lastUpdateTime": 1612368525000,
+    "ruleBookInfo": {
+      "author": "class.pt-info.0@tag.a@text",
+      "coverUrl": "class.baseinfo@tag.img@src",
+      "intro": "class.intro@text@js:result+'…'",
+      "kind": "class.pt-info.1@tag.a@text&&class.pt-info.2@text##更新.|\\s.*",
+      "lastChapter": "id.chapterlist@tag.a.-1@text",
+      "name": "class.pt-name@tag.a@text"
+    },
+    "ruleContent": {
+      "content": "id.BookText@tag.p@text##全本言情.*|喜欢.*收藏.*"
+    },
+    "ruleExplore": {
+      "author": "tag.a.2@text",
+      "bookList": "class.pt-card-7@tag.li",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.pt-desc@text@js:result+'…'",
+      "kind": "tag.a.3@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+      "bookList": "class.pt-card-1@tag.li",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img@src",
+      "name": "tag.a.1@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterlist@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href##$##$,{\"webView\":true}"
+    },
+    "searchUrl": "/home/search,{\n  \"method\": \"POST\",\n  \"body\": \"action=search&q={{key}}\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "🔰普通,失效",
+    "bookSourceName": "🔰 顶点小说网023shu.com",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.023shu.com",
+    "bookUrlPattern": "",
+    "customOrder": 16084,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}",
+    "lastUpdateTime": 1602882566535,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text##作\\s*者：",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@text",
+      "name": "class.booktitle cf@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.lll.1@tag.li",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.a@tag.img@src",
+      "name": "tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dl@tag.dd!0:1:2:3:4:5:6:7:8:9:10:11",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href##$##,{\"webView\":true}"
+    },
+    "searchUrl": "https://www.zhbiao.net/home/search,{\n  \"headers\": \"{\\\"referer\\\":\\\"https://www.zhbiao.com\\\"}\",\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"action=search&q={{key}}\"\n}",
+    "weight": 0
+  }]

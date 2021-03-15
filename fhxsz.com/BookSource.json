@@ -1,0 +1,53 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🍒言情",
+    "bookSourceName": "🍒 凤凰小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.fhxsz.com",
+    "bookUrlPattern": "",
+    "customOrder": -115982,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "穿越::/sort/1/{{page}}/\n架空::/sort/2/{{page}}/\n玄幻::/sort/3/{{page}}/\n魔幻::/sort/4/{{page}}/\n仙侠::/sort/5/{{page}}/\n古言::/sort/6/{{page}}/\n现言::/sort/7/{{page}}/\n爱情::/sort/8/{{page}}/\n历史::/sort/9/{{page}}/\n都市::/sort/10/{{page}}/\n恐怖::/sort/11/{{page}}/\n网游::/sort/12/{{page}}/\n动漫::/sort/13/{{page}}/\n奇幻::/sort/14/{{page}}/\n科幻::/sort/15/{{page}}/\n同人::/sort/16/{{page}}/\n耽美::/sort/17/{{page}}/\n其他::/sort/18/{{page}}/",
+    "lastUpdateTime": 1605162744099,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+      "content": "id.TXT@textNodes",
+      "imageStyle": "0",
+      "replaceRegex": ""
+    },
+    "ruleExplore": {
+      "author": "tag.span.0@text##作者.",
+      "bookList": "id.alistbox",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.intro@text",
+      "lastChapter": "tag.a.2@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "tag.tr!0",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##https://www.fhxsz.com/files/article/image/$2/$1/$1s.jpg###",
+      "kind": "tag.td.4@text&&tag.td.5@text",
+      "lastChapter": "tag.td.1@text",
+      "name": "tag.a.0@text",
+      "wordCount": "tag.td.3@text"
+    },
+    "ruleToc": {
+      "chapterList": "+<js>\nvar chapters = [];\nvar regex = /<dd>[^<]*<a href=\"([^\"]*)[^>]*>([^<]*)/g;\nvar match;\nwhile ((match = regex.exec(result)) != null) {\n    chapters.push({url: match[1], title: match[2]});\n}\nchapters.sort((x,y)=>x.url>y.url?1:-1);\n</js>",
+      "chapterName": "title",
+      "chapterUrl": "url"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

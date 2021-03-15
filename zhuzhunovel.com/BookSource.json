@@ -1,0 +1,34 @@
+[  {
+    "bookSourceComment": "error:failed to connect to www.zhuzhunovel.com/52.53.105.58 (port 80) from /192.168.0.103 (port 46582) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "📡发现,失效",
+    "bookSourceName": "📡 猪猪书屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.zhuzhunovel.com",
+    "customOrder": -33040,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "经管金融::http://www.zhuzhunovel.com/jingguanjinrong/<index,index{{page}}>.html\n穿越重生::http://www.zhuzhunovel.com/chongsheng/<index,index{{page}}>.html\n田园乡村::http://www.zhuzhunovel.com/zhongtian/<index,index{{page}}>.html\n女尊百合::http://www.zhuzhunovel.com/nvzunbl/<index,index{{page}}>.html\n现代耽美::http://www.zhuzhunovel.com/xddm/<index,index{{page}}>.html\n古风纯爱::http://www.zhuzhunovel.com/gfca/<index,index{{page}}>.html\n百合美文::http://www.zhuzhunovel.com/glmw/<index,index{{page}}>.html\n娱乐圈圈::http://www.zhuzhunovel.com/ylqq/<index,index{{page}}>.html\n衍生同人::http://www.zhuzhunovel.com/ystr/\n睡前故事::http://www.zhuzhunovel.com/sqgs/<index,index{{page}}>.html\n金庸武侠::http://www.zhuzhunovel.com/jinyong/<index,index{{page}}>.html\n技能教育::http://www.zhuzhunovel.com/jnjy/<index,index{{page}}>.html\n唐诗宋词::http://www.zhuzhunovel.com/tssc/<index,index{{page}}>.html\n总裁萌宠::http://www.zhuzhunovel.com/zcmq/<index,index{{page}}>.html\n影视风云::http://www.zhuzhunovel.com/ysfy/<index,index{{page}}>.html\n惊悚诡事::http://www.zhuzhunovel.com/jinsongguishi/\n盗墓风水::http://www.zhuzhunovel.com/daomufengshui/\n姻缘不散::http://www.zhuzhunovel.com/yinyuanbusan/\n悬疑推理::http://www.zhuzhunovel.com/xuanyituili/\n中外奇案::http://www.zhuzhunovel.com/zhongwaiqian/\n名校推荐::http://www.zhuzhunovel.com/mingxiaotj/\n十大禁书::http://www.zhuzhunovel.com/gudaijinshu/\nABO耽美::http://www.zhuzhunovel.com/abo/<index,index{{page}}>.html\n反攻耽美::http://www.zhuzhunovel.com/blfangong/<index,index{{page}}>.html\n强强耽美::http://www.zhuzhunovel.com/blqiangqiang/<index,index{{page}}>.html\n肉文耽美::http://www.zhuzhunovel.com/rouwen/<index,index{{page}}>.html\n肉耽耽美::http://www.zhuzhunovel.com/roudan/<index,index{{page}}>.html",
+    "lastUpdateTime": 1602728741870,
+    "ruleBookInfo": {
+      "author": "class.details-top-cover@tag.p.0@text",
+      "coverUrl": "class.details-top-cover@tag.img@src",
+      "intro": "class.ellipsis.0@text||class.details-top-article@tag.p@text",
+      "name": "class.details-top-cover@tag.h2.0@text"
+    },
+    "ruleContent": {
+      "content": "class.txtBox@tag.p@text"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.lists@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img.0@src",
+      "name": "tag.h2.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.wrap directory bwrite@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "weight": 0
+  }]

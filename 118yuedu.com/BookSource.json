@@ -1,0 +1,45 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔰普通",
+    "bookSourceName": "🔰 118阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.118yuedu.com",
+    "bookUrlPattern": "",
+    "customOrder": -32756,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::https://www.118yuedu.com/all/1-default-0-0-0-0-0-0-{{page}}.html\n都市职场::/all/2-default-0-0-0-0-0-0-{{page}}.html\n武侠仙侠::/all/3-default-0-0-0-0-0-0-{{page}}.html\n军事历史::/all/4-default-0-0-0-0-0-0-{{page}}.html\n网游竞技::/all/5-default-0-0-0-0-0-0-{{page}}.html\n穿越科幻::/all/6-default-0-0-0-0-0-0-{{page}}.html\n二次元::/all/7-default-0-0-0-0-0-0-{{page}}.html\n同人::/all/8-default-0-0-0-0-0-0-{{page}}.html\n悬疑推理::/all/9-default-0-0-0-0-0-0-{{page}}.html\n散文诗集::/all/10-default-0-0-0-0-0-0-{{page}}.html\n其他小说::/all/11-default-0-0-0-0-0-0-{{page}}.html\n言情小说::/all/12-default-0-0-0-0-0-0-{{page}}.html\n现代修真::/all/13-default-0-0-0-0-0-0-{{page}}.html\n仙侠奇缘::/all/14-default-0-0-0-0-0-0-{{page}}.html\n幻想言情::/all/15-default-0-0-0-0-0-0-{{page}}.html",
+    "lastUpdateTime": 1603337855547,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.pic@tag.img@src",
+      "intro": "class.bookinfo_intro@text##.*简介：|http.*/.*/|您要是.*！"
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@html",
+      "replaceRegex": "##精彩小说无弹窗免费阅读|..(狂|狅).*(說|说).(网|網).*"
+    },
+    "ruleExplore": {
+      "author": "tag.dd.1@tag.span@text",
+      "bookList": "class.sitebox@tag.dl",
+      "bookUrl": "tag.dd.0@tag.h3@tag.a@href",
+      "coverUrl": "tag.dt@img",
+      "intro": "tag.dd.2@text",
+      "lastChapter": "tag.dd.3@tag.a@text",
+      "name": "tag.dd.0@tag.h3@tag.a@text"
+    },
+    "ruleSearch": {
+      "author": "class.s3@text&&class.item.0@text",
+      "bookList": "id.content@tag.li.0&&id.content@tag.li.1&&id.content@tag.li.2&&class.box",
+      "bookUrl": "class.s1@tag.a@href",
+      "lastChapter": "class.s2@tag.a@text&&class.update@tag.a@text##章节目录",
+      "name": "class.s1@tag.a@text&&tag.h1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.book_list@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.118yuedu.com/modules/article/search.php?action=login&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

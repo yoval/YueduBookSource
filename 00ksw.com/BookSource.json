@@ -1,0 +1,42 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 零点看书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.00ksw.com",
+    "bookUrlPattern": "",
+    "customOrder": -32216,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "##:author\" content=\"([^\"]+)##$1###",
+      "coverUrl": "##:image\" content=\"([^\"]+)##$1###",
+      "intro": "##:description\" content=\"([^\"]+)##$1###",
+      "kind": "##:category\" content=\"([^\"]+)##$1###",
+      "lastChapter": "##_chapter_name\" content=\"([^\"]+)##$1###",
+      "name": "##:book_name\" content=\"([^\"]+)##$1###"
+    },
+    "ruleContent": {
+      "content": "class.articlecontent@html##\\（未完待续\\）"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "@css:td:eq(2)@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "coverUrl": "##html/(\\d+)/(\\d+)/\"##http://www.00ksw.net/img/$1/$2/$2s.jpg###",
+      "intro": "@css:td:eq(3)@text",
+      "kind": "@css:td:eq(4)@text",
+      "lastChapter": "@css:td:eq(1)@text",
+      "name": "@css:td:eq(0)@text"
+    },
+    "ruleToc": {
+      "chapterList": ":\\n {24}(?: {4}|<ul>)<li><a[^\"]+\"([^\"]*)\">([^<]*)",
+      "chapterName": "$2",
+      "chapterUrl": "$1"
+    },
+    "searchUrl": "https://www.00ksw.com/search.php?keyword={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

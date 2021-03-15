@@ -1,0 +1,35 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 闪闪书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.33shu.net",
+    "bookUrlPattern": "https://www.33shu.net/[a-z]+/\\d+/",
+    "customOrder": -32258,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.pic.0@tag.img@src",
+      "name": "id.info@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s3@text",
+      "bookList": "class.toplist@tag.li",
+      "bookUrl": "class.s1@tag.a.0@href",
+      "lastChapter": "class.s2@tag.a.0@text",
+      "name": "class.s1@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.book_list@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.33shu.net/modules/article/search.php?action=login&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

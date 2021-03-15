@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "🎉精品,失效",
+    "bookSourceName": "🎉 万卷吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.wanjuanba.net",
+    "customOrder": -32341,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/sort1/0/{{page}}.html\n武侠修真::/sort2/0/{{page}}.html\n都市言情::/sort3/0/{{page}}.html\n历史军事::/sort4/0/{{page}}.html\n侦探推理::/sort5/0/{{page}}.html\n网游动漫::/sort6/0/{{page}}.html\n科幻小说::/sort7/0/{{page}}.html\n恐怖灵异::/sort8/0/{{page}}.html\n散文诗词::/sort9/0/{{page}}.html\n其他类型::/sort10/0/{{page}}.html\n全本小说::/modules/article/index.php?fullflag=1&page={{page}}",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "class.wjb_infol@tag.img.0@src",
+      "intro": "class.wjb_infor@text##.*简介:|阅读提示.*",
+      "name": "",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a@href",
+      "kind": "class.odd.2@text&&class.even.2@text",
+      "lastChapter": "class.even.0@tag.a@text",
+      "name": "class.odd.0@tag.a@text##TXT下载",
+      "wordCount": "class.even.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.wjb_body@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.wanjuanba.net/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

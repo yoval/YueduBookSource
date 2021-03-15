@@ -1,0 +1,66 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 渣女小说[正文乱码]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.zhanvxs.cc",
+    "bookUrlPattern": "",
+    "customOrder": -116644,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "耽美小说::/sort/1_{{page}}/\n海棠耽美::/sort/2_{{page}}/\n言情小说::/sort/3_{{page}}/\n海棠言情::/sort/4_{{page}}/\n百合小说::/sort/5_{{page}}/\n情欲小说::/sort/6_{{page}}/\n长佩小说::/sort/7_{{page}}/\n连城小说::/sort/8_{{page}}/",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (iPhone; CPU OS 10_13_6 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/11.1.1 Mobile/14E304 Safari/605.1.15\"\n}",
+    "lastUpdateTime": 1612585892720,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.infotype@tag.a.0@text",
+      "coverUrl": "class.pic@img@src",
+      "init": "",
+      "intro": "class.intro@p@text##爱☆就☆收☆藏.*|禁忌书屋.*",
+      "kind": "class.infotype@tag.p.1@text##类型：",
+      "lastChapter": "class.infotype@tag.p.3@tag.a@text",
+      "name": "class.cataloginfo@tag.h3@text",
+      "tocUrl": "class.gochapter@a@href",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.novelcontent@html",
+      "imageStyle": "",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": "##上一章|返回目录|下一章|加入书签|下一页|\\s*本章尚未完结.*\\s*|努力加载.*刷新页面！",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "class.author@text",
+      "bookList": "class.article",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.simple@text",
+      "kind": "",
+      "lastChapter": "",
+      "name": "tag.h6@text",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "tag.a.1@text",
+      "bookList": "class.searchresult@tag.p",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.a.0@href##/(\\d+)(\\d{3})/##/files/article/image/$1/$1$2/$1$2s.jpg",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "tag.a.0@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.chapters@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "isVip": "",
+      "nextTocUrl": "text.下一页@href",
+      "updateTime": ""
+    },
+    "searchUrl": "http://m.zhanvxs.cc/s.html,{\n\"charset\":\"\",\n\"method\":\"POST\",\n\"body\":\"type=articlename&s={{key}}\"\n}",
+    "weight": 0
+  }]

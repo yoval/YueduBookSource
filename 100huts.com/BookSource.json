@@ -1,0 +1,46 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "A级; 发现",
+    "bookSourceName": "百草文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.100huts.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "更新::/List.aspx?page={{page}}\n玄幻::/List.aspx?tclassid=1&page={{page}}\n奇幻::/List.aspx?tclassid=2&page={{page}}\n都市::/List.aspx?tclassid=3&page={{page}}\n言情::/List.aspx?tclassid=4&page={{page}}\n武侠::/List.aspx?tclassid=5&page={{page}}\n仙侠::/List.aspx?tclassid=6&page={{page}}\n历史::/List.aspx?tclassid=7&page={{page}}\n军事::/List.aspx?tclassid=8&page={{page}}\n游戏::/List.aspx?tclassid=9&page={{page}}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.info_t@tag.span.1@text##作\\s*者：",
+      "coverUrl": "class.fengmian@tag.a.0@tag.img@src",
+      "intro": "class.bookintro@textNodes",
+      "name": "class.info_t@tag.h1.0@text",
+      "tocUrl": "class.book_read@tag.span.0@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "id.BookText@textNodes##请认准本站.*非法链接！|\\{.*\\}|"
+    },
+    "ruleExplore": {
+      "author": "class.author@text",
+      "bookList": "class.listbg1@tag.li",
+      "bookUrl": "class.bname@tag.a.0@href",
+      "lastChapter": "class.bchapter@tag.a.0@text",
+      "name": "class.bname@tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "class.title-info@text##.*作者：",
+      "bookList": "class.article-list",
+      "bookUrl": "class.li3@tag.a.0@href||class.bname@tag.a.0@href||class.article-list@tag.h6@tag.a.0@href",
+      "kind": "class.li2@tag.a.0@text||class.fl@tag.a.0@text||class.article-list@tag.a.1@text",
+      "lastChapter": "class.li3@tag.a.1@text||class.bchapter@tag.a.0@text||class.article-list@tag.a.2@text",
+      "name": "class.li3@tag.a.0@text||class.bname@tag.span.0@tag.a.0@text||class.article-list@tag.h6.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.TabCss@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.100huts.com/Book/Search.aspx,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"SearchClass=1&SearchKey={{key}}\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "📚出版",
+    "bookSourceName": "📚 盗墓笔记全集",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.daomubiji.org/?yuedu",
+    "bookUrlPattern": "",
+    "customOrder": -116698,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全集::/",
+    "lastUpdateTime": 1605176001709,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "name": "h1.text"
+    },
+    "ruleContent": {
+      "content": "class.content@tag.p@text"
+    },
+    "ruleExplore": {
+      "bookList": "class.header@tag.a!0",
+      "bookUrl": "href",
+      "name": "text"
+    },
+    "ruleSearch": {
+      "bookList": "class.header@tag.a!0",
+      "bookUrl": "href",
+      "name": "text"
+    },
+    "ruleToc": {
+      "chapterList": "class.page-content@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "?{{key}}",
+    "weight": 0
+  }]

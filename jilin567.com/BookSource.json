@@ -1,0 +1,43 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 吉林小说网[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.jilin567.com",
+    "customOrder": -115638,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/xuanhuan/{{page}}.html&&仙侠小说::/xianxia/{{page}}.html&&都市小说::/dushi/{{page}}.html&&军史小说::/junshi/{{page}}.html&&网游小说::/wangyou/{{page}}.html&&科幻小说::/kehuan/{{page}}.html&&恐怖小说::/kongbu/{{page}}.html",
+    "lastUpdateTime": 1612775341358,
+    "ruleBookInfo": {
+      "intro": ".jj@text"
+    },
+    "ruleContent": {
+      "content": ".articlecontent@html"
+    },
+    "ruleExplore": {
+      "author": ".p1@a@text",
+      "bookList": ".tt",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "intro": ".p2@text",
+      "name": "h3@a@text"
+    },
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "tbody@tr!0",
+      "bookUrl": "a@href",
+      "coverUrl": "a@href##\\/(\\d+)\\/(\\d+)\\/##/files/article/image/$1/$2/$2s.jpg###",
+      "kind": "class.even.2@text",
+      "lastChapter": "class.even.0@text",
+      "name": "tag.a.0@text",
+      "wordCount": "class.even.1@text"
+    },
+    "ruleToc": {
+      "chapterList": ".ml_list@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php?searchkey={{key}}&page={{page}},{\"charset\":\"gbk\"}",
+    "weight": 0
+  }]

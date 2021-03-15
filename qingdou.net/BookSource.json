@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 青豆小说①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.qingdou.net",
+    "customOrder": -115610,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/xuanhuan/<,list_{{page}}.html>\n武侠仙侠::/wuxia/<,list_{{page}}.html>\n都市生活::/dushi/<,list_{{page}}.html>\n历史军事::/lishi/<,list_{{page}}.html>\n游戏竞技::/youxi/<,list_{{page}}.html>\n科幻未来::/kehuan/<,list_{{page}}.html>\n恐怖悬疑::/xuanyi/<,list_{{page}}.html>\n二次元::/erciyuan/<,list_{{page}}.html>\n经典短篇::/jingdian/<,list_{{page}}.html>\n古代言情::/guyan/<,list_{{page}}.html>\n现代言情::/xianyan/<,list_{{page}}.html>\n幻想奇缘::/huanqing/<,list_{{page}}.html>\n浪漫青春::/qingchun/<,list_{{page}}.html>\n网络情缘::/mmyouxi/<,list_{{page}}.html>\n科幻空间::/mmkehuan/<,list_{{page}}.html>\n鬼怪灵异::/lingyi/<,list_{{page}}.html>\nN次元::/Nciyuan/<,list_{{page}}.html>\n言情美文::/yanqing/<,list_{{page}}.html>",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "coverUrl": "class.pic@img@src",
+      "kind": "class.bread-crumbs@tag.li.1@tag.a@text&&\nclass.top@tag.span.2@text&&\nclass.top@tag.span.3@text##小说状态：|更新时间：",
+      "lastChapter": "class.btopt@tag.a@text",
+      "wordCount": "class.top@tag.span.1@text##全文字数："
+    },
+    "ruleContent": {
+      "content": "id.content@html##喜欢.*青豆小说网更新速度最快。",
+      "imageStyle": "full"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.title@tag.span@tag.a@text",
+      "bookList": "id.alistbox",
+      "bookUrl": "class.title@tag.h2@tag.a@href",
+      "coverUrl": "class.pic@img@src",
+      "intro": "class.intro@text",
+      "lastChapter": "class.sys@tag.li@tag.a@text",
+      "name": "class.title@tag.h2@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.link_14@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.qingdou.net/search.html,{\r\n  \"method\": \"POST\",\r\n  \"body\": \"searchkey={{key}}\"\r\n}",
+    "weight": 0
+  }]

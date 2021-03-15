@@ -1,0 +1,51 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 御书文[缺章]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://wap.yushuwen.com",
+    "customOrder": -116488,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/sort/1_{{page}}/\n修真::/sort/2_{{page}}/\n言情::/sort/3_{{page}}/\n武侠::/sort/4_{{page}}/\n都市::/sort/5_{{page}}/\n科幻::/sort/6_{{page}}/\n网游::/sort/7_{{page}}/\n恐怖::/sort/8_{{page}}/\n耽美::/sort/9_{{page}}/\n历史::/sort/10_{{page}}/\n高辣::/sort/11_{{page}}/\n同人::/sort/12_{{page}}/\n腹黑::/sort/13_{{page}}/\n种田::/sort/14_{{page}}/\n高干::/sort/15_{{page}}/\n其他::/sort/16_{{page}}/\n百合::/sort/17_{{page}}/",
+    "lastUpdateTime": 1612456918600,
+    "ruleBookInfo": {
+      "author": "class.tab@class.p1@text##作者.",
+      "coverUrl": "class.tu@tag.img@src",
+      "intro": "class.p2.1@text##\\s",
+      "kind": "class.tab1@class.p4@text&&class.tab1@class.p5@text",
+      "lastChapter": "class.tab@class.p3@tag.a@text",
+      "name": "class.catalog1@tag.h1@text",
+      "wordCount": "class.tab1@class.p6@text"
+    },
+    "ruleContent": {
+      "content": "id.novelcontent@textNodes##大家可以到全文阅读|校风港|ROU.*|-",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "author": "class.p4@text",
+      "bookList": "class.tt",
+      "bookUrl": "class.p1@tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.p5@text##\\s",
+      "kind": "class.p2@text",
+      "name": "class.p1@text",
+      "wordCount": "class.p3@text"
+    },
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.search_list",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "##href=\"/(\\d+)/(\\d+)/\"##http://img.yushuwen.com/image/$1/$2/$2s.jpg###",
+      "kind": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.info_chapters@class.p2.1@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "class.right@tag.a@href"
+    },
+    "searchUrl": "/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"type=articlename&s={{key}}&submit=\"\n}",
+    "weight": 0
+  }]

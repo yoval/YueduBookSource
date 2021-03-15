@@ -1,0 +1,33 @@
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": "👍优质,失效",
+    "bookSourceName": "👍 博看小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.bkxs.net",
+    "customOrder": 15959,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1602777945500,
+    "ruleBookInfo": {
+      "coverUrl": "id.sidebar@id.fmimg@tag.img.0@src",
+      "intro": "id.maininfo@id.intro@textNodes"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.novelslist2@tag.li",
+      "bookUrl": "class.s2@tag.a.0@href",
+      "lastChapter": "class.s3@tag.a.0@text",
+      "name": "class.s2@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8:9:10:11",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.bkxs.net/index.php?s=/web/index/search,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"name={{key}}&submit=搜索\"\n}",
+    "weight": 0
+  }]

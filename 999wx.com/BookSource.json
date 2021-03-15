@@ -1,0 +1,36 @@
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "🎉精品,失效",
+    "bookSourceName": "🎉 999文学网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.999wx.com",
+    "customOrder": -32476,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最近更新::http://www.999wx.com/Book/ShowBookList.aspx?tclassid=0&nclassid=0&page={{page}}&orderbyid=8\n玄幻小说::http://www.999wx.com/Book/ShowBookList.aspx?tclassid=7&page={{page}}\n女生小说::http://www.999wx.com/Book/ShowBookList.aspx?tclassid=18&page={{page}}\n修真小说::http://www.999wx.com/Book/ShowBookList.aspx?tclassid=13&page={{page}}\n都市小说::http://www.999wx.com/Book/ShowBookList.aspx?tclassid=17&page={{page}}\n穿越小说::http://www.999wx.com/Book/ShowBookList.aspx?tclassid=19&page={{page}}\n灵异小说::http://www.999wx.com/Book/ShowBookList.aspx?tclassid=15&page={{page}}\n科幻小说::http://www.999wx.com/Book/ShowBookList.aspx?tclassid=16&page={{page}}\n游戏小说::http://www.999wx.com/Book/ShowBookList.aspx?tclassid=25&page={{page}}\n其他小说::http://www.999wx.com/Book/ShowBookList.aspx?tclassid=76&page={{page}}\n同人小说::http://www.999wx.com/Book/ShowBookList.aspx?tclassid=71&page={{page}}",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "coverUrl": "class.bortable wleft@tag.img@src",
+      "intro": "class.wright@tag.p.0@text",
+      "tocUrl": "id.box4@tag.span.0@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "id.CListTitle@tag.a.1@text||class.ro3@tag.a.0@text",
+      "bookList": "id.Content@tag.div!0||class.con@tag.ul!0",
+      "bookUrl": "id.CListTitle@tag.a.0@href||class.ro2@tag.a.1@href",
+      "kind": "id.CListTitle@tag.a.2@text||class.ro1@tag.a.0@text",
+      "lastChapter": "id.CListTitle@tag.a.4@text||class.ro2@tag.a.2@text",
+      "name": "id.CListTitle@tag.a.0@tag.b.0@text||class.ro2@tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list.1@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.999wx.com/Book/Search.aspx?SearchKey={{key}}&SearchClass=1,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

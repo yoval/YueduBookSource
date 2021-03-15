@@ -1,0 +1,54 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🍑耽美",
+    "bookSourceName": "🍑 爱他小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.hiaita.com",
+    "customOrder": -116059,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "熊熊::/plugin.php?id=jameson_read&contrl=index&act=shaixuan&category_id=17\n军警::/plugin.php?id=jameson_read&contrl=index&act=shaixuan&category_id=18\n古典::/plugin.php?id=jameson_read&contrl=index&act=shaixuan&category_id=19\n同志::/plugin.php?id=jameson_read&contrl=index&act=shaixuan&category_id=20\n校园::/plugin.php?id=jameson_read&contrl=index&act=shaixuan&category_id=4\n职场::/plugin.php?id=jameson_read&contrl=index&act=shaixuan&category_id=5\n中年::/plugin.php?id=jameson_read&contrl=index&act=shaixuan&category_id=6\n老年::/plugin.php?id=jameson_read&contrl=index&act=shaixuan&category_id=7",
+    "lastUpdateTime": 1612444374602,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.bookname@tag.a.0@text",
+      "coverUrl": "class.uk-grid-medium@tag.img.0@src",
+      "init": "",
+      "intro": "class.desco@tag.p@text",
+      "kind": "class.tag-book@tag.a.0@text&&class.tag-book@tag.a.1@text&&class.tag-book@tag.a.2@text&&class.tag-book@tag.a.3@text",
+      "lastChapter": "class.z@tag.a.0@text",
+      "name": "class.bookname@text##\\ .*",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "class.messagecontent@tag.p@textNodes",
+      "nextContentUrl": "text.下一章@href"
+    },
+    "ruleExplore": {
+      "author": "class.book-info@tag.a.1@text",
+      "bookList": "class.cl@tag.div.0",
+      "bookUrl": "class.book-info@tag.a.0@href",
+      "coverUrl": "class.book-img z@tag.img@src",
+      "intro": "class.desco@tag.p@text",
+      "kind": "class.book-info@tag.span.0@text&&class.book-info@tag.span.1@text",
+      "name": "class.book-info@tag.a.0@text",
+      "wordCount": "class.book-info@tag.span.2@text"
+    },
+    "ruleSearch": {
+      "author": "class.book-info@tag.a.1@text",
+      "bookList": "class.uk-grid-collapse@tag.div.0",
+      "bookUrl": "class.book-info@tag.a.0@href",
+      "coverUrl": "class.book-img@tag.img.0@src",
+      "kind": "class.tag512@tag.a.0@text&&class.tag512@tag.span.0@text&&class.tag512@tag.span.1@text",
+      "name": "class.book-info@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.uk-switcher@tag.div",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": ""
+    },
+    "searchUrl": "/plugin.php?keyword={{key}}&id=jameson_read&contrl=index&act=search",
+    "weight": 0
+  }]

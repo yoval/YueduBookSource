@@ -1,0 +1,44 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "翻书看",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.fanshukan.com/",
+    "customOrder": 2,
+    "enabled": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 1614950919943,
+    "ruleBookInfo": {
+      "author": "class.w.3@text",
+      "coverUrl": "tag.img.0@src",
+      "intro": "class.content gborder@text",
+      "kind": "class.w.0@text",
+      "lastChapter": "class.w.5@text",
+      "name": "tag.h1@text",
+      "tocUrl": "id.book_menuhead@tag.a@href",
+      "wordCount": "class.w.2@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html",
+      "nextContentUrl": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.3@text",
+      "bookList": "tag.table",
+      "bookUrl": "class.book@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.remark@text",
+      "kind": "tag.a.2@text",
+      "lastChapter": "class.br@text##浏览:\\d+次|字数:\\d+字|章节:| |上载:\\d+-\\d+-\\d+",
+      "name": "class.book@text",
+      "wordCount": "class.br@text##浏览:\\d+次| |字数:|章节:\\d+章|上载:\\d+-\\d+-\\d+"
+    },
+    "ruleToc": {
+      "chapterList": "id.menu_content@tag.a",
+      "chapterName": "tag.a.0@text",
+      "chapterUrl": "tag.a.0@href"
+    },
+    "searchUrl": "https://www.fanshukan.com/search?type=1&s={{key}},{\"charset\"=\"gbk\"}",
+    "weight": 0
+  }]

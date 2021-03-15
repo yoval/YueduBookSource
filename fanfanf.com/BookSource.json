@@ -1,0 +1,52 @@
+[  {
+    "bookSourceComment": "By Haxc.+ 乃星改",
+    "bookSourceGroup": "📡发现,🍑耽美",
+    "bookSourceName": "📡 饭饭论坛",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://bbs.fanfanf.com",
+    "bookUrlPattern": "",
+    "customOrder": -117084,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "❀                         耽美闲情                       ❀::/thread.php?fid=117&search=all#tabA&page={{page}} \n\n 穿|架|重 ::/thread.php?fid=117&type=50&type=50#tabA&page={{page}}\n玄幻耽美::/thread.php?fid=117&type=50&type=47#tabA&page={{page}}\n现代耽美::/thread.php?fid=117&type=47&type=48#tabA&page={{page}}\n古代耽美::/thread.php?fid=117&type=48&type=51#tabA&page={{page}}\n校园耽美::/thread.php?fid=117&type=51&type=53#tabA&page={{page}}\n生子耽美::/thread.php?fid=117&type=53&type=54#tabA&page={{page}}\n军旅耽美::/thread.php?fid=117&type=54&type=928#tabA&page={{page}}\n百合耽美::/thread.php?fid=117&type=928&type=49#tabA&page={{page}}\n网游耽美::/thread.php?fid=117&type=49&type=52#tabA&page={{page}}\n其他耽美::/thread.php?fid=117&type=52&type=55#tabA&page={{page}}\n   精  华   ::/thread.php?fid=117&search=digest&page={{page}}\n\n❀                         青春言情                       ❀::/thread.php?fid=10&search=all#tabA&page={{page}}\n\n穿越重生::/thread.php?fid=10&type=19&type=19#tabA&page={{page}}\n都市言情::/thread.php?fid=10&type=19&type=16#tabA&page={{page}}\n架空玄幻::/thread.php?fid=10&type=16&type=20#tabA&page={{page}}\n古装言情::/thread.php?fid=10&type=20&type=18#tabA&page={{page}}\n青春校园::/thread.php?fid=10&type=18&type=17#tabA&page={{page}}\n女尊天下::/thread.php?fid=10&type=17&type=536#tabA&page={{page}}\n情感驿站::/thread.php?fid=10&type=536&type=15#tabA&page={{page}}\n黑帮总裁::/thread.php?fid=10&type=15&type=22#tabA&page={{page}}\n网游言情::/thread.php?fid=10&type=22&type=21#tabA&page={{page}}\n   精  华   ::/thread.php?fid=10&search=digest&page={{page}}\n\n❀                         轻松同人                       ❀::/thread.php?fid=191&search=all#tabA&page={{page}}\n\n B L 综漫::/thread.php?fid=191&search=all&type=649#tabA&page={{page}}\n B L 影视::/thread.php?fid=191&search=all&type=658#tabA&page={{page}}\n B L 真人::/thread.php?fid=191&search=all&type=659#tabA&page={{page}}\n B L 其他::/thread.php?fid=191&search=all&type=660#tabA&page={{page}}\n BG 综漫::/thread.php?fid=191&search=all&type=652#tabA&page={{page}}\n BG  动漫::/thread.php?fid=191&search=all&type=653#tabA&page={{page}}\n BG  影视::/thread.php?fid=191&search=all&type=654#tabA&page={{page}}\n BG 其他::/thread.php?fid=191&search=all&type=655#tabA&page={{page}}\n   轻  文   ::/thread.php?fid=191&type=655&type=547#tabA&page={{page}}\n   精  华   ::/thread.php?fid=191&search=digest&page={{page}",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36\"\n}",
+    "lastUpdateTime": 1612271655098,
+    "loginUrl": "https://bbs.fanfanf.com/login.php",
+    "ruleBookInfo": {
+      "author": "tag.title@text##.*作者：(.*)【.*##$1",
+      "coverUrl": "class.lazy@data-original",
+      "intro": "id.read_tpc@textNodes&&id.read_tpc@tag.span@text##图片:.*|原文地址(.|\\n)*@js:result.replace(/^/,'    ')",
+      "kind": "",
+      "name": "tag.title@text##《(.*)》.*##$1",
+      "tocUrl": "text.在线阅读已开放@href",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "class.read-main-wrap@tag.p@html||class.tpc_content@html##作者更多新书.*|版权归作者.*|饭饭会员.*|感谢.*支持!",
+      "imageStyle": "0",
+      "nextContentUrl": "",
+      "replaceRegex": ""
+    },
+    "ruleExplore": {
+      "author": "class.subject_t f12@tag.a@text##.*作者.|\\【.*",
+      "bookList": "class.tr3!0:1:2:3:4:5:6:7:8:9:10",
+      "bookUrl": "tag.a@href",
+      "kind": "class.view s4 mr5 f14@tag.a@text&&class.mr5 s4 view f12@tag.a@text##\\[|\\]",
+      "name": "class.subject_t f12@tag.a@text##.*\\《|\\》.*|\\+番外.*"
+    },
+    "ruleSearch": {
+      "author": "tag.a.0@text##.*作者.|\\【.*",
+      "bookList": "class.tr3 tac",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "",
+      "kind": "tag.a.1@text##口-",
+      "name": "tag.a.0@text##\\《|\\》.*"
+    },
+    "ruleToc": {
+      "chapterList": "ul@class.cf@tag.li@tag.a",
+      "chapterName": "text##.*☆、",
+      "chapterUrl": "href##^##/"
+    },
+    "searchUrl": "https://bbs.fanfanf.com/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"step=2&keyword={{key}}&seekfid=all&orderway=lastpost&method=AND&sch_time=all&page={{page}}\"\n}",
+    "weight": 0
+  }]

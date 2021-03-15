@@ -1,0 +1,36 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "米花",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.mihua.net",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.book-layout@img@src",
+      "kind": "class.book-sort@a@text",
+      "tocUrl": "text.章节目录@href||"
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.search_title@tag.span@text",
+      "bookList": "class.search_li",
+      "bookUrl": "tag.a.0@href",
+      "intro": "class.search_intro@text",
+      "name": "h3@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter@li@a||ul!0@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://m.mihua.net/mcms/search.php?submit=%CB%D1%CB%F7&kw={{key}}&by=title,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

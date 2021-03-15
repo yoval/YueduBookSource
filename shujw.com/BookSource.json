@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "👍优质",
+    "bookSourceName": "👍 书籍网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.shujw.com",
+    "bookUrlPattern": "",
+    "customOrder": -32877,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::http://www.shujw.com/list/1-{{page}}.html\n仙侠修真::http://www.shujw.com/list/2-{{page}}.html\n都市言情::http://www.shujw.com/list/3-{{page}}.html\n历史军事::http://www.shujw.com/list/4-{{page}}.html\n网游动漫::http://www.shujw.com/list/5-{{page}}.html\n科幻小说::http://www.shujw.com/list/6-{{page}}.html\n恐怖灵异::http://www.shujw.com/list/7-{{page}}.html\n其他类型::http://www.shujw.com/list/8-{{page}}.html",
+    "lastUpdateTime": 1603357500267,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.info2@h3@a@text",
+      "coverUrl": "class.info1@tag.img@src",
+      "intro": "class.info2@tag.div.0@p@html##各位书友要是.*",
+      "lastChapter": "class.panel-body text-center info3@tag.p.2@a@text",
+      "name": "class.info2@h1@text"
+    },
+    "ruleContent": {
+      "content": "id.nr@html##shujiw.com|书籍网|shujw.com"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p.1@a@text||class.book_author@a@text",
+      "bookList": "id.bookcon@tbody@tag.tr||class.col-lg-6 col-sm-6  col-md-6 col-sm-index",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src||a@href##http://www.shujw.com/(\\d+)/(\\d+)/##/files/article/image/$1/$2/$2s.jpg",
+      "kind": "tag.p.3@text",
+      "lastChapter": "tag.p.2@text",
+      "name": "class.media-heading book-title@a@text||tag.p.0@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list-group list-charts@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.shujw.com/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&page={{page}}\"\n}",
+    "weight": 0
+  }]

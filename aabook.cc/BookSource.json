@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "error:正文内容为空",
+    "bookSourceGroup": "🚬刘备,🛠️待修",
+    "bookSourceName": "🚬 疯情书库④[无正文]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.aabook.cc",
+    "bookUrlPattern": "",
+    "customOrder": -116430,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最近更新::https://www.aabook.cc/category.php?p={{page}}&ob=update\n新书热榜::https://www.aabook.cc/ranking.php?t=newbook\n总点击榜::https://www.aabook.cc/ranking.php?t=click\n总字数榜::https://www.aabook.cc/ranking.php?t=totalword\n全部小说::https://www.aabook.cc/category.php?p={{page}}\n玄幻小说::https://www.aabook.cc/category.php?p={{page}}&t=xuanhuan\n古典小说::https://www.aabook.cc/category.php?p={{page}}&t=gudian\n惊悚小说::https://www.aabook.cc/category.php?p={{page}}&t=jingsong\n网游小说::https://www.aabook.cc/category.php?p={{page}}&t=wangyou\n乡土小说::https://www.aabook.cc/category.php?p={{page}}&t=xiangtu\n历史小说::https://www.aabook.cc/category.php?p={{page}}&t=lishi\n耽美小说::https://www.aabook.cc/category.php?p={{page}}&t=danmei\n女尊小说::https://www.aabook.cc/category.php?p={{page}}&t=nvzun\n穿越小说::https://www.aabook.cc/category.php?p={{page}}&t=chuanyue\n同人小说::https://www.aabook.cc/category.php?p={{page}}&t=tongren\n校园小说::https://www.aabook.cc/category.php?p={{page}}&t=xiaoyuan\n言情小说::https://www.aabook.cc/category.php?p={{page}}&t=yanqing\n官场小说::https://www.aabook.cc/category.php?p={{page}}&t=guanchang\n异能小说::https://www.aabook.cc/category.php?p={{page}}&t=yineng\n都市小说::https://www.aabook.cc/category.php?p={{page}}&t=dushi\n武侠小说::https://www.aabook.cc/category.php?p={{page}}&t=wuxia\n仙侠小说::https://www.aabook.cc/category.php?p={{page}}&t=xianxia\n单篇小说::https://www.aabook.cc/category.php?p={{page}}&t=danpian",
+    "lastUpdateTime": 1612454259764,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.book_info_top_l@img@src",
+      "intro": "class.jianjieneirong@text",
+      "lastChapter": "class.dt_l.0@a@text",
+      "tocUrl": "class.xiaoshuomulu@a@href"
+    },
+    "ruleContent": {
+      "content": "class.chapter_con@p@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.zuozhe@text||class.author@text",
+      "bookList": "class.sousuojieguo@li||class.yuepiaobang@tr||id.data@tr",
+      "bookUrl": "a@href",
+      "coverUrl": "a@href##.*id=(\\d+)##img-$1.jpg",
+      "kind": "class.fenlei@text||textNodes##\\[|]",
+      "lastChapter": "class.update@text",
+      "name": "class.biaoti@text||class.shuming@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.section_list@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.aabook.cc/search.php?searchword={{key}}",
+    "weight": 0
+  }]

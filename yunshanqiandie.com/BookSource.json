@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 云山千叠",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.yunshanqiandie.com",
+    "bookUrlPattern": "http://www.yunshanqiandie.com/ysqd/\\d+.html",
+    "customOrder": -115629,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1604155769301,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "[property=og:novel:author]@content",
+      "coverUrl": "[property=og:image]@content",
+      "intro": "[property=og:description]@content@js:'<br>'+result",
+      "kind": "[property=og:novel:category]@content&&[property=og:novel:status]@content##已|中",
+      "lastChapter": "[property=og:novel:latest_chapter_name]@content",
+      "name": "[property=og:novel:book_name]@content"
+    },
+    "ruleContent": {
+      "content": ".content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.td.-2@text",
+      "bookList": "tbody@tr",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##.*?(\\d+).*##http://www.yunshanqiandie.com/cover/$1.jpg###",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.container booklist@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.yunshanqiandie.com/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"search={{key}}\"\n}",
+    "weight": 0
+  }]

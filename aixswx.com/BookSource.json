@@ -1,0 +1,54 @@
+[  {
+    "bookSourceComment": "haxc",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 星空小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://wap.aixswx.com",
+    "bookUrlPattern": "",
+    "customOrder": -115712,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "完结小说::/quanben/{{page}}.html\n玄幻小说::/mulu/1_{{page}}.html\n仙侠小说::/mulu/2_{{page}}.html\n都市小说::/mulu/3_{{page}}.html\n历史小说::/mulu/4_{{page}}.html\n游戏小说::/mulu/5_{{page}}.html\n科幻小说::/mulu/6_{{page}}.html\n恐怖小说::/mulu/7_{{page}}.html\n女生小说::/mulu/8_{{page}}.html\n其他小说::/mulu/9_{{page}}.html",
+    "lastUpdateTime": 1612824434836,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "class.intro.0@text##阅读.*请关注.*",
+      "kind": "[property=\"og:novel:category\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "id.reading@href",
+      "wordCount": "[property=\"og:novel:status\"]@content"
+    },
+    "ruleContent": {
+      "content": "<js>\njava.getElements('@@id.txt@dd').toArray().sort((a,b)=>a.attr('data-id')-b.attr('data-id')).map(x=>x.html()).join('')</js>\n##阅读.*?最新章节.*",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": "##第.*页\\)\\s*|\\s*（本章未完，请点击下一页继续\\s*"
+    },
+    "ruleExplore": {
+      "author": "tag.a@ownText##\\:.*",
+      "bookList": "class.bd@tag.li",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.a@href##.*/(\\d+)(\\d{3}).html##http://wap.aixswx.com/files/article/image/$1/$1$2/$1$2s.jpg",
+      "kind": "tag.span@text",
+      "name": "tag.a@ownText##.*【(.*)】##$1"
+    },
+    "ruleSearch": {
+      "author": "tag.a@ownText##.*\\((.*)\\)##$1",
+      "bookList": "class.bd@tag.li",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.a@href##.*/(\\d+)(\\d{3}).html##http://wap.aixswx.com/files/article/image/$1/$1$2/$1$2s.jpg",
+      "kind": "tag.span@text",
+      "lastChapter": "",
+      "name": "tag.a@ownText##\\(.*\\)",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "+@js:org.jsoup.Jsoup.parse(result.replace(/\\.html/g,\"\")).select('.list li a').toArray().sort((a,b)=>a.attr('href')-b.attr('href')).map(x=>({n:x.text(),u:x.attr('href')+\".html\"}))",
+      "chapterName": "n",
+      "chapterUrl": "u"
+    },
+    "searchUrl": "http://wap.aixswx.com/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}\"\n}",
+    "weight": 0
+  }]

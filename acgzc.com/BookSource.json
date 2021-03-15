@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎈轻文",
+    "bookSourceName": "🎈 ACGZC",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.acgzc.com",
+    "bookUrlPattern": "",
+    "customOrder": -30850,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "古代幻想::/index.php/portal/booklist/?list=true&classid=19&classid=12&per_page={{page}}\n近代幻想::/index.php/portal/booklist/?list=true&classid=19&classid=19&per_page={{page}}\n未来幻想::/index.php/portal/booklist/?list=true&classid=19&classid=26&per_page={{page}}\n体育游戏::/index.php/portal/booklist/?list=true&classid=19&classid=33&per_page={{page}}\n同人作品::/index.php/portal/booklist/?list=true&classid=19&classid=42&per_page={{page}}\n短篇作品::/index.php/portal/booklist/?list=true&classid=19&classid=46&per_page={{page}}\n漫画世界::/index.php/portal/booklist/?list=true&classid=19&classid=50&per_page={{page}}\n异能时代::/index.php/portal/booklist/?list=true&classid=19&sclassid=20&per_page={{page}}\n穿越重生::/index.php/portal/booklist/?list=true&classid=19&sclassid=21&per_page={{page}}\n谍战风云::/index.php/portal/booklist/?list=true&classid=19&sclassid=22&per_page={{page}}\n架空战争::/index.php/portal/booklist/?list=true&classid=19&sclassid=23&per_page={{page}}\n军旅生活::/index.php/portal/booklist/?list=true&classid=19&sclassid=24&per_page={{page}}\n现代武林::/index.php/portal/booklist/?list=true&classid=19&sclassid=25&per_page={{page}}",
+    "lastUpdateTime": 1602905732291,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.a2@tag.h1@tag.span@text",
+      "coverUrl": "class.a1@tag.img.0@src",
+      "intro": "class.tab-content@tag.h3@text",
+      "name": "class.a2@tag.h1@text",
+      "tocUrl": "class.a3@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "class.z_zy@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@tag.a@text",
+      "bookList": "class.rank-bg@class.rank-detail",
+      "bookUrl": "class.chapter@tag.a@href",
+      "kind": "class.category@tag.a@text##\\[|\\]",
+      "name": "class.chapter@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.zpxg@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.acgzc.com/index.php/portal/booklist/?list=true&keywords={{key}}&per_page={{page}}",
+    "weight": 0
+  }]

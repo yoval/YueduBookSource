@@ -1,0 +1,44 @@
+[  {
+    "bookSourceComment": "酷安",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 爱看书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.aaaks.com",
+    "customOrder": -115704,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612818452420,
+    "ruleBookInfo": {
+      "author": "",
+      "canReName": "true",
+      "coverUrl": "class.catalog1@class.pic@tag.img@src",
+      "intro": "class.jj@textNodes##各位书友.*|{{book.name}}\\s*(TXT|最新章节|免费阅读).*",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "id.articlecontent@tag.p!-1@textNodes",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p.2@text",
+      "bookList": "@css:#rankinglist tr:nth-child(n+2)",
+      "bookUrl": "tag.a.0@href",
+      "intro": "",
+      "kind": "tag.p.-3@text&&tag.p.-2@text",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "@css:.ml_list li a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": ""
+    },
+    "searchUrl": "/search/,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

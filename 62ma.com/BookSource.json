@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "error:failed to connect to m.62ma.com/107.148.213.161 (port 80) from /192.168.0.103 (port 37094) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "🎉精品,失效",
+    "bookSourceName": "🎉 62文学网[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.62ma.com",
+    "bookUrlPattern": "",
+    "customOrder": -32559,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/s/allvisit_1_0_0_0_0_0_{{page}}.html\n修真::/s/allvisit_2_0_0_0_0_0_{{page}}.html\n都市::/s/allvisit_3_0_0_0_0_0_{{page}}.html\n穿越::/s/allvisit_4_0_0_0_0_0_{{page}}.html\n网游::/s/allvisit_5_0_0_0_0_0_{{page}}.html\n科幻::/s/allvisit_6_0_0_0_0_0_{{page}}.html\n其他::/s/allvisit_7_0_0_0_0_0_{{page}}.html\n女生::/s/allvisit_8_0_0_0_0_0_{{page}}.html\n恐怖::/s/allvisit_9_0_0_0_0_0_{{page}}.html",
+    "lastUpdateTime": 1602871834807,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.info@tag.a.0@text",
+      "coverUrl": "class.left@img@src",
+      "intro": "id.htmljieshao.0@text",
+      "name": "h2@text",
+      "tocUrl": "class.g_btn@a@href"
+    },
+    "ruleContent": {
+      "content": "id.acontent@html",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p.2@text##字数.*|.*作者：",
+      "bookList": "class.item list cont@li",
+      "bookUrl": "tag.a.0@href",
+      "kind": "tag.p.2@text##作者.*字数：##,",
+      "lastChapter": "tag.p.1@text",
+      "name": "tag.p.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://m.62ma.com/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

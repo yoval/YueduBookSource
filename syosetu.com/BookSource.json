@@ -1,0 +1,44 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎈轻文,🚀VPN,🌐外语",
+    "bookSourceName": "🎈 小説を読もう✈",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://yomou.syosetu.com",
+    "customOrder": -115907,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "排行::https://yomou.syosetu.com/rank/top",
+    "lastUpdateTime": 1610044476610,
+    "ruleBookInfo": {
+      "author": "##作者：([^<]*?)\\s*<##$1###",
+      "intro": "@css:#novel_ex@textNodes",
+      "name": "@css:.novel_title@text"
+    },
+    "ruleContent": {
+      "content": "@css:#novel_honbun@html"
+    },
+    "ruleExplore": {
+      "author": "##作者：[^>]+>([^<]*)##$1###",
+      "bookList": "@css:.ranking_top5box li",
+      "bookUrl": "@css:.tl@href",
+      "coverUrl": "@css:img@src",
+      "kind": "##ジャンル：[^>]+>([^<]*)##$1###",
+      "name": "@css:.tl@text"
+    },
+    "ruleSearch": {
+      "author": "##作者：[^>]+>([^<]*)##$1###",
+      "bookList": "@css:.searchkekka_box",
+      "bookUrl": "@css:.tl@href",
+      "intro": "@css:.ex@textNodes",
+      "kind": "@js:String(result).match(/キーワード：[^>]+>(.*?)<\\/a>\\s*<br/)[1].replace(/(\\s*<.*?>\\s*)+/g,',')",
+      "lastChapter": "##(最終更新日：[^<]*)[^>]+>(読了時間：[^<]*)##$1,$2###",
+      "name": "@css:.tl@text"
+    },
+    "ruleToc": {
+      "chapterList": ":subtitle\">[^\"]+\"([^\"]*)\">([^<]*)",
+      "chapterName": "$2",
+      "chapterUrl": "$1"
+    },
+    "searchUrl": "https://yomou.syosetu.com/search.php?word={{key}}",
+    "weight": 0
+  }]

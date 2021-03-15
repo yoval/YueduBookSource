@@ -1,0 +1,35 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "B级; 轻小说; 发现",
+    "bookSourceName": "老笔斋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.laobizhai.net",
+    "bookUrlPattern": "",
+    "customOrder": 59,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::https://m.laobizhai.net/sort/xuanhuan/{{page}}.html\n武侠::https://m.laobizhai.net/sort/wuxia/{{page}}.html\n仙侠::https://m.laobizhai.net/sort/xianxia/{{page}}.html\n都市::https://m.laobizhai.net/sort/dushi/{{page}}.html\n历史::https://m.laobizhai.net/sort/lishi/{{page}}.html\n军事::https://m.laobizhai.net/sort/junshi/{{page}}.html\n游戏::https://m.laobizhai.net/sort/youxi/{{page}}.html\n竞技::https://m.laobizhai.net/sort/jingji/{{page}}.html\n科幻::https://m.laobizhai.net/sort/kehuan/{{page}}.html\n灵异::https://m.laobizhai.net/sort/lingyi/{{page}}.html\n同人::https://m.laobizhai.net/sort/tongren/{{page}}.html\n女生::https://m.laobizhai.net/sort/nvsheng/{{page}}.html\n其他::https://m.laobizhai.net/sort/qita/{{page}}.html\n轻文::https://m.laobizhai.net/sort/qingwen/{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.book-detail-x@tag.img@src",
+      "intro": "class.cor-introduce@text"
+    },
+    "ruleContent": {
+      "content": "class.rd-txt@tag.p@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.info@tag.span.1@tag.a.0@text",
+      "bookList": "class.librarylist@tag.li",
+      "bookUrl": "class.info@tag.span.0@tag.a.0@href",
+      "name": "class.info@tag.span.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.dirlist clearfix@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.laobizhai.net/search.html?searchtype=novelname&searchkey={{key}}",
+    "weight": 0
+  }]

@@ -1,0 +1,51 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "📚出版",
+    "bookSourceName": "📚 鬼书集[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.guishuji.com",
+    "bookUrlPattern": "",
+    "customOrder": -116689,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "恐怖::/kongbu/<,index_{{page}}.html>\n道士::/daoshi/<,index_{{page}}.html>\n盗墓::/daomu/<,index_{{page}}.html>\n言情::/yanqing/<,index_{{page}}.html>\n都市::/dushi/<,index_{{page}}.html>\n武侠::/wuxia/<,index_{{page}}.html>\n科幻::/kehuan/<,index_{{page}}.html>\n官场::/guanchang/<,index_{{page}}.html>\n古典::/gudian/<,index_{{page}}.html>\n网络::/wangluo/<,index_{{page}}.html>\n外国::/waiguo/<,index_{{page}}.html>\n现代::/xiandai/<,index_{{page}}.html>\n儿童::/ertong/<,index_{{page}}.html>\n国学::/guoxue/<,index_{{page}}.html>\n逻辑思维::/luojisiwei/<,index_{{page}}.html>\n创业::/chuangye/<,index_{{page}}.html>\n互联网::/hulianwang/<,index_{{page}}.html>\n青春::/qingchun/<,index_{{page}}.html>\n文化::/wenhua/<,index_{{page}}.html>\n女性::/nvxing/<,index_{{page}}.html>\n育儿::/yuer/<,index_{{page}}.html>\n科普::/kepu/<,index_{{page}}.html>\n散文随笔::/sanwen/<,index_{{page}}.html>\n学习::/xuexi/<,index_{{page}}.html>\n诗集::/xuexi1/<,index_{{page}}.html>\n心理学::/xinlixue/<,index_{{page}}.html>\n旅游::/lvyou/<,index_{{page}}.html>\n哲学::/zhexue/<,index_{{page}}.html>\n健康与美食::/jkms/<,index_{{page}}.html>\n纪实::/jishi/<,index_{{page}}.html>\n畅销书::/changxiao/<,index_{{page}}.html>\n传记::/zhuanji/<,index_{{page}}.html>",
+    "lastUpdateTime": 1606806783847,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "@css:meta[property=\"og:novel:author\"]@content",
+      "coverUrl": "@css:meta[property=\"og:image\"]@content",
+      "init": "<js>java.get('InfoHTML') || result;</js>",
+      "intro": "class.intro@html||class.tuijian@html##^.*?简介：",
+      "kind": "@css:meta[property=\"og:novel:category\"]@content",
+      "lastChapter": "@css:meta[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "@css:meta[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+      "content": "id.BookText@html"
+    },
+    "ruleExplore": {
+      "author": "tag.a.2@text",
+      "bookList": "class.inner.0@class.item-img",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img.0@src",
+      "intro": "tag.p.0@text",
+      "name": "tag.h2.0@tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "@css:meta[property=\"og:novel:author\"]@content",
+      "bookList": "id.searchText@tag.li@tag.a.0\n<js>\n//只保留书名长度最短的图书。\nvar len = (o) => String(o.text()).length;\nvar list = result.toArray();\nvar min = Math.min.apply(null, list.map(e => len(e)));\nresult = list.filter(e => len(e) === min).map(v => java.ajax('https://www.guishuji.com'+v.attr('href')));\n</js>",
+      "bookUrl": "<js>java.put('InfoHTML', result); result = '';</js>",
+      "coverUrl": "@css:meta[property=\"og:image\"]@content",
+      "intro": "@css:meta[property=\"og:description\"]@content",
+      "kind": "@css:meta[property=\"og:novel:category\"]@content",
+      "lastChapter": "@css:meta[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "@css:meta[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleToc": {
+      "chapterList": "@css:.zlb li > a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.guishuji.com/e/search/index.php,{\n  \"method\": \"POST\",\n  \"body\": \"show=title&tempid=1&keyboard={{key}}\"\n}",
+    "weight": 0
+  }]

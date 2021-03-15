@@ -1,0 +1,42 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "👍优质",
+    "bookSourceName": "👍 4G小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.4gxs.org",
+    "customOrder": -115038,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1607720174138,
+    "ruleBookInfo": {
+      "author": "##:author\"[^\"]*\"([^\"]*)##$1###",
+      "coverUrl": "##:image\"[^\"]*\"([^\"]*)##$1###",
+      "intro": "@css:.p3@text##^\\s*##<br>",
+      "kind": "##:category\"[^\"]*\"([^\"]*)[\\s\\S]*?status\"[^\"]*\"([^\"]*)[\\s\\S]*?_time\"[^\"]*\"([^\"]*)##$1,$2,$3###",
+      "lastChapter": "##_chapter_name\"[^\"]*\"([^\"]*)##$1###",
+      "name": "##:book_name\"[^\"]*\"([^\"]*)##$1###",
+      "tocUrl": "@js:baseUrl.replace('https://www.4gxs.org/', 'http://app.4gxs.org:5678/')"
+    },
+    "ruleContent": {
+      "content": "#novelcontent@textNodes@js:result+'--->下一页'",
+      "nextContentUrl": "@css:a:contains(下一页)@href",
+      "replaceRegex": "##.*?本章完.*|\\s*--->下一页\\s*|&bp|;"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "+@css:.searchresult li p",
+      "bookUrl": "tag.a.0@href",
+      "kind": "tag.span.0@text",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": ":全部章节[\\s\\S]*?/ul&&href=\"([^\"]*)\">([^<]*)",
+      "chapterName": "$2",
+      "chapterUrl": "$1",
+      "nextTocUrl": "option@value"
+    },
+    "searchUrl": "https://www.4gxs.org/modules/article/search.php?searchkey={{key}}&t_btnsearch=&mhfe={{page}},{\n\"charset\": \"gbk\"\n}\n",
+    "weight": 0
+  }]

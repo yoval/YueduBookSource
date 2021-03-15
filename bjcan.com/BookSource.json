@@ -1,0 +1,35 @@
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": "🎈轻文,失效",
+    "bookSourceName": "🎈 笔尖小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.bjcan.com",
+    "bookUrlPattern": "",
+    "customOrder": -30844,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": ".content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "author",
+      "bookList": ".search-list<js>\nimportClass(org.jsoup.Jsoup);\nvar bookCount=2,searchList=[];\nfunction aa(b){\nreturn doc.select(\"[property=\"+b+\"]\").attr(\"content\")\n}\n\nfor(var i=0;i<bookCount;i++){\nvar url=result.select(\"li:eq(\"+i+\") .tit\").attr(\"href\");\nvar doc=Jsoup.parse(java.ajax(url));\nsearchList.push({\nname:aa(\"og:novel:book_name\"),\nauthor:aa(\"og:novel:author\"),\ntag:aa(\"og:novel:category\")+','+String(aa(\"og:novel:status\")).replace(/中|已/,''),\ncover:aa(\"og:image\"),\nintro:String(aa(\"og:description\")).replace(/简介.\\s*/,''),\nlast:aa(\"og:novel:latest_chapter_name\"),\nurl:String(url).replace(/book/,'home/chapter/lists/id')\n})\n}\nsearchList\n</js>",
+      "bookUrl": "url",
+      "coverUrl": "cover",
+      "intro": "intro",
+      "kind": "tag",
+      "lastChapter": "last",
+      "name": "name"
+    },
+    "ruleToc": {
+      "chapterList": ".attentions li a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/home/search/index.html?keyword={{key}}",
+    "weight": 0
+  }]

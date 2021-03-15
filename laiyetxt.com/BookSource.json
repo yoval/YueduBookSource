@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "A级",
+    "bookSourceName": "来也小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.laiyetxt.com",
+    "bookUrlPattern": "",
+    "customOrder": 191,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.info@tag.dd.0@tag.a.0@text",
+      "coverUrl": "class.pic fl bookShadow@tag.img.0@src",
+      "intro": "id.abstract-text@tag.p.0@text##简介：",
+      "name": "class.xxcont@tag.h3.0@text",
+      "tocUrl": "class.ft@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "id.dx@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.cont@tag.a.1@text",
+      "bookList": "class.booklist clearfix@tag.li",
+      "bookUrl": "class.text-overflow@tag.a.0@href",
+      "coverUrl": "class.pic scal bookShadow oh@tag.img.0@src",
+      "intro": "class.cont@tag.a.2@text",
+      "name": "class.text-overflow@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.mlist clearfix@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.laiyetxt.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

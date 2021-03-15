@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔰普通",
+    "bookSourceName": "🔰 笔趣阁app",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://souxs.pigqq.com",
+    "customOrder": -114770,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1603905414148,
+    "ruleBookInfo": {
+      "author": "$.Author",
+      "intro": "$.Desc",
+      "name": "$.Name",
+      "tocUrl": "@js:\nid='{{$.data.Id}}';\nnum=Math.ceil(id/1000);\nresult='https://infosxs.pigqq.com/BookFiles/Html/'+num+'/'+id+'/index.html'"
+    },
+    "ruleContent": {
+      "content": "$.data.content"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$.Author",
+      "bookList": "$.data[*]",
+      "bookUrl": "@js:\nid='{{$.Id}}';\nnum=Math.ceil(id/1000);\nresult='https://infosxs.pigqq.com/BookFiles/Html/'+num+'/'+id+'/info.html'",
+      "coverUrl": "$.Img@put:{bid:$.Id}",
+      "intro": "$.Desc",
+      "kind": "$.BookStatus&&$.CName",
+      "lastChapter": "{{$.LastChapter}}·{{$.UpdateTime}}",
+      "name": "$.Name",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "$.data.list[*].list[*]",
+      "chapterName": "$.name",
+      "chapterUrl": "@js:\nbid=java.get('bid');\nnum=Math.ceil(bid/1000);\nresult='https://contentxs.pigqq.com/BookFiles/Html/'+num+'/'+bid+'/'+'{{$.id}}.html'"
+    },
+    "searchUrl": "https://souxs.pigqq.com/search.aspx?key={{key}}&page=1&siteid=app2",
+    "weight": 0
+  }]

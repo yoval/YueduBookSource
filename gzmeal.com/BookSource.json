@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔰普通",
+    "bookSourceName": "🔰 食在广州",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.gzmeal.com",
+    "bookUrlPattern": "[^w]+www.gzmeal.com/xs\\d+.shtml",
+    "customOrder": 16218,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/list/1_{{page}}.shtml\n武侠修真::/list/2_{{page}}.shtml\n都市言情::/list/3_{{page}}.shtml\n历史军事::/list/4_{{page}}.shtml\n游戏竞技::/list/6_{{page}}.shtml\n综合其他::/list/10_{{page}}.shtml",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "<js>result.match(/【作者：([^】]+)/)[1]</js>",
+      "intro": "//p[img]/text()[1]",
+      "lastChapter": "//p[img]/a/text()",
+      "name": "<js>result.match(/\"book\">[^>]+>([^<]+)/)[1]</js>",
+      "tocUrl": "<js>baseUrl.replace('/xs','/')</js>"
+    },
+    "ruleContent": {
+      "content": "//*[@class=\"acontent\"]<js>String(result).replace(/.*弹窗免费！/,'')</js>"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": ":href=\"([^\"]+xs[^\"]+)\">([^<]+)",
+      "bookUrl": "$1",
+      "name": "$2"
+    },
+    "ruleToc": {
+      "chapterList": ":href=\"([^\"]+zhangjie[^\"]+)\">([^<]+)",
+      "chapterName": "$2",
+      "chapterUrl": "$1"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

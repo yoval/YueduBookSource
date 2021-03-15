@@ -1,0 +1,47 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔰普通",
+    "bookSourceName": "🔰 五六文学网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.56wen.com",
+    "customOrder": -114777,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "现代名著::/wenxue/<,index_{{page}}.html>\n古典名著::/gudian/<,index_{{page}}.html>\n世界名著::/waiguo/<,index_{{page}}.html>\n当代小说::/dangdai/<,index_{{page}}.html>\n文学评论::/pinglun/<,index_{{page}}.html>\n散文随笔::/sanwen/<,index_{{page}}.html>\n儿童文学::/ertong/<,index_{{page}}.html>\n青春校园::/qingchun/<,index_{{page}}.html>\n古代言情::/guyan/<,index_{{page}}.html>\n现代言情::/dushi/<,index_{{page}}.html>\n耽美小说::/danmei/<,index_{{page}}.html>\n玄幻仙侠::/xianxia/<,index_{{page}}.html>\n武侠小说::/wuxia/<,index_{{page}}.html>\n穿越小说::/chuanyue/<,index_{{page}}.html>\n科幻小说::/kehuan/<,index_{{page}}.html>\n军事小说::/junshi/<,index_{{page}}.html>\n网游小说::/youxi/<,index_{{page}}.html>\n侦探小说::/zhentan/<,index_{{page}}.html>\n恐怖小说::/kongbu/<,index_{{page}}.html>\n探险小说::/tanxian/<,index_{{page}}.html>\n人文社科::/renwen/<,index_{{page}}.html>\n人物传记::/zhuanji/<,index_{{page}}.html>\n历史小说::/lishi/<,index_{{page}}.html>\n励志书籍::/lizhi/<,index_{{page}}.html>\n生活科普::/shenghuo/<,index_{{page}}.html>",
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36\"}",
+    "lastUpdateTime": 1612533765551,
+    "ruleBookInfo": {
+      "author": "dl@tag.dd.0@a@text",
+      "coverUrl": "class.titlepic@img@src",
+      "intro": "id.full-intro@text##小说简介：",
+      "kind": "dl@tag.dd.1@a@text",
+      "lastChapter": "class.tlist@tag.li.-1@tag.a@text##{{book.name}}_",
+      "name": "tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.J_article_con@textNodes##五六文学.*最完整|《{{book.name}}》查看.*书评和.*专题网址|http://www.56wen.com/txt/\\d+/"
+    },
+    "ruleExplore": {
+      "author": "tag.b.1@text##小说作者：",
+      "bookList": "class.slist",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "tag.p.1@text##小说简介：",
+      "kind": "tag.p.0@a@text",
+      "name": "img@alt"
+    },
+    "ruleSearch": {
+      "author": "tag.a@text##.*阅读-|\\-五六.*",
+      "bookList": "class.content-main@class.result",
+      "bookUrl": "tag.a@href",
+      "intro": "class.c-abstract@text##小说简介：",
+      "name": "tag.a@text##txt.*"
+    },
+    "ruleToc": {
+      "chapterList": "class.tlist@li@a",
+      "chapterName": "text##{{book.name}}_",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://s.56wen.com/cse/search?s=10062529087620215852&entry=1&q={{key}}",
+    "weight": 0
+  }]

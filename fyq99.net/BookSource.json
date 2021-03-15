@@ -1,0 +1,53 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🌸常用",
+    "bookSourceName": "🌸 飞言情",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.fyq99.net",
+    "bookUrlPattern": "",
+    "customOrder": -117049,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部小说::https://www.fyq99.net/category/0/{{page}}.html\n高辣小说::https://www.fyq99.net/category/1/{{page}}.html\n言情小说::https://www.fyq99.net/category/2/{{page}}.html\n耽美小说::https://www.fyq99.net/category/3/{{page}}.html\n玄幻小说::https://www.fyq99.net/category/4/{{page}}.html\n高干小说::https://www.fyq99.net/category/5/{{page}}.html\n腹黑小说::https://www.fyq99.net/category/6/{{page}}.html\n修真小说::https://www.fyq99.net/category/7/{{page}}.html\n种田小说::https://www.fyq99.net/category/8/{{page}}.html\n网游小说::https://www.fyq99.net/category/9/{{page}}.html\n百合小说::https://www.fyq99.net/category/10/{{page}}.html\n飞魔幻::https://www.fyq99.net/category/13/{{page}}.html\n桃之夭夭::https://www.fyq99.net/category/14/{{page}}.html\n飞言情::https://www.fyq99.net/category/15/{{page}}.html\n花火::https://www.fyq99.net/category/16/{{page}}.html\n百花楼::https://www.fyq99.net/category/17/{{page}}.html\n其他小说::https://www.fyq99.net/category/19/{{page}}.html\n辣文小说::https://www.fyq99.net/category/20/{{page}}.html\n私密小说::https://www.fyq99.net/category/21/{{page}}.html\n都市小说::https://www.fyq99.net/category/22/{{page}}.html\n侦探小说::https://www.fyq99.net/category/23/{{page}}.html\n恐怖小说::https://www.fyq99.net/category/24/{{page}}.html\n穿越小说::https://www.fyq99.net/category/25/{{page}}.html\n科幻小说::https://www.fyq99.net/category/26/{{page}}.html\n精品小说::https://www.fyq99.net/category/27/{{page}}.html\n仙侠小说::https://www.fyq99.net/category/28/{{page}}.html",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 1605031027740,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content",
+      "lastChapter": "[property=\"og:novel:lastest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "text.章节目录@href"
+    },
+    "ruleContent": {
+      "content": "id.C0NTENT@p@html",
+      "replaceRegex": "##<.*>"
+    },
+    "ruleExplore": {
+      "author": "tag.a.2@text",
+      "bookList": "class.CGsectionTwo-right-content@tag.div",
+      "bookUrl": "tag.a@href",
+      "intro": "tag.p.2@text",
+      "lastChapter": "tag.p.-1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.SHsectionThree-middle@tag.p||class.CGsectionTwo-right-content-unit",
+      "bookUrl": "tag.a.1@href",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.BCsectionTwo-top@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href##$##,{\"webView\":true}",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://www.fyq99.net/search/{{key}}",
+    "weight": 0
+  }]

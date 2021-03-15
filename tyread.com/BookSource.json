@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "💵正版",
+    "bookSourceName": "💵 天翼阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://wap.tyread.com/pindao/shucheng/index.html?is_ctwap=0&fromModule=J-index-nav-shucheng&type=6",
+    "bookUrlPattern": "",
+    "customOrder": -117366,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1604656092091,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.pic@tag.a.0@tag.img@src",
+      "intro": "id.desc_li@tag.span.0@text",
+      "name": "class.txt-gray@class.txt-red@text",
+      "tocUrl": "@js:baseUrl.replace('gobookinfo', 'gochaptercontent-1')"
+    },
+    "ruleContent": {
+      "content": "<js>\nvar bid =baseUrl.match(/bookId=(\\d+)/)[1];\nvar cid =baseUrl.match(/chapterId=(\\d+)/)[1];\nresult = java.ajax(\"http://wap.tyread.com/goNewChapterContent.action?ac=read_chapter_content&bid=\"+bid+\"&cid=\"+cid);\nresult = JSON.parse(result);\nresult = result.content;\n</js>"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a@class.infos@tag.span@text",
+      "bookList": "class.list-colors@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "intro": "tag.a@class.infos@html",
+      "name": "tag.a@class.ellipsis@text"
+    },
+    "ruleToc": {
+      "chapterList": "form li a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "@css:a:contains(下页)@href"
+    },
+    "searchUrl": "http://wap.tyread.com/sendSearchContent.action?text={{key}}",
+    "weight": 0
+  }]

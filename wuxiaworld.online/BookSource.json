@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🌐外语,🚀VPN",
+    "bookSourceName": "🌐 武侠世界3",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://wuxiaworld.online",
+    "customOrder": -115732,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "Most Viewed总点击榜::https://wuxiaworld.online/wuxia-list?sort=popularity&page={{page}}\nLastest Releases::https://wuxiaworld.online/wuxia-list?sort=date_added&page={{page}}\nRecents Updated::https://wuxiaworld.online/wuxia-list?sort=recents&page={{page}}\nCompleted完本::https://wuxiaworld.online/wuxia-list?genres_include=Completed&page={{page}}\nChinese中国网文::https://wuxiaworld.online/wuxia-list?genres_include=Chinese&page={{page}}\nEnglish英语::https://wuxiaworld.online/wuxia-list?genres_include=English&page={{page}}\nAction动作::https://wuxiaworld.online/wuxia-list?genres_include=Action&page={{page}}\nAdventure冒险::https://wuxiaworld.online/wuxia-list?genres_include=Adventure&page={{page}}\nComedy喜剧::https://wuxiaworld.online/wuxia-list?genres_include=Comedy&page={{page}}\nThriller惊悚::https://wuxiaworld.online/wuxia-list?genres_include=Thriller&page={{page}}\nDrama戏剧::https://wuxiaworld.online/wuxia-list?genres_include=Drama&page={{page}}\nFuturistic未来::https://wuxiaworld.online/wuxia-list?genres_include=Futuristic&page={{page}}\nXuanHuan玄幻::https://wuxiaworld.online/wuxia-list?genres_include=Xuanhuan&page={{page}}\nXianXia仙侠::https://wuxiaworld.online/wuxia-list?genres_include=Xianxia&page={{page}}\nFantasy奇幻::https://wuxiaworld.online/wuxia-list?genres_include=Fantasy&page={{page}}\nHarem种马::https://wuxiaworld.online/wuxia-list?genres_include=Harem&page={{page}}\nMartial Arts武术::https://wuxiaworld.online/wuxia-list?genres_include=Martial Arts&page={{page}}\nAcademy学院::https://wuxiaworld.online/wuxia-list?genres_include=Academy&page={{page}}\nReincarnation转世::https://wuxiaworld.online/wuxia-list?genres_include=Reincarnation&page={{page}}\nHistorical历史::https://wuxiaworld.online/wuxia-list?genres_include=Historical&page={{page}}\nHorror恐怖::https://wuxiaworld.online/wuxia-list?genres_include=Horror&page={{page}}\nMature成人::https://wuxiaworld.online/wuxia-list?genres_include=Mature&page={{page}}\nDemons恶魔::https://wuxiaworld.online/wuxia-list?genres_include=Demons&page={{page}}\nMystery神秘::https://wuxiaworld.online/wuxia-list?genres_include=Mystery&page={{page}}\nPsychological心理学::https://wuxiaworld.online/wuxia-list?genres_include=Psychological&page={{page}}\nRomance浪漫::https://wuxiaworld.online/wuxia-list?genres_include=Romance&page={{page}}\nSchool Life校园生活::https://wuxiaworld.online/wuxia-list?genres_include=Schoollife&page={{page}}\nSci-fi科幻::https://wuxiaworld.online/wuxia-list?genres_include=Sci-Fi&page={{page}}\nGods神::https://wuxiaworld.online/wuxia-list?genres_include=Gods&page={{page}}\nCultivation种植::https://wuxiaworld.online/wuxia-list?genres_include=Cultivation&page={{page}}\nSlice Of Life生活::https://wuxiaworld.online/wuxia-list?genres_include=Sliceoflife&page={{page}}\nSupernatural超自然::https://wuxiaworld.online/wuxia-list?genres_include=Supernatural&page={{page}}",
+    "lastUpdateTime": 1610086931263,
+    "ruleBookInfo": {
+      "coverUrl": "class.truyen_info_right.0@tag.img@src",
+      "intro": "id.noidungm.0@text",
+      "lastChapter": "class.next-chapter.0@tag.a.0@text",
+      "name": "class.truyen_info_right.0@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "class.content-area.0@html"
+    },
+    "ruleExplore": {
+      "bookList": "class.contentstory.0@class.itemupdate first",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@tag.img@src",
+      "name": "tag.a.0@title"
+    },
+    "ruleSearch": {
+      "bookList": "tag.ul@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "-class.chapter-list.0@class.row@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://wuxiaworld.online/search.ajax?type=&query={{key}}",
+    "weight": 0
+  }]

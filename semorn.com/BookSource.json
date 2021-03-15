@@ -1,0 +1,56 @@
+[  {
+    "bookSourceComment": "error:Unable to resolve host \"www.semorn.com\": No address associated with hostname\n",
+    "bookSourceGroup": "阅读3.0有声源,失效",
+    "bookSourceName": "清沫电台🐱",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://www.semorn.com",
+    "bookUrlPattern": "",
+    "customOrder": 25,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "爱情电台::/listen/aiqingfm<,/page/{{page}}>\n成长电台::/listen/chengzhangfm<,/page/{{page}}>\n温暖电台::/listen/wennuanfm<,/page/{{page}}>\n伤感电台::/listen/zhiyufm<,/page/{{page}}>\n音乐电台::/music-story<,/page/{{page}}>\n广播电台::/guangbodiantai<,/page/{{page}}>\n有声读物::/youshengduwu<,/page/{{page}}>",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "",
+      "init": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "",
+      "nextContentUrl": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "class.postone",
+      "bookUrl": "class.thumbnail@tag.a@href",
+      "coverUrl": "class.thumbnail@tag.img@src",
+      "intro": "class.entry-content@text",
+      "kind": "class.tags@tag.a@text",
+      "lastChapter": "",
+      "name": "tag.h2@tag.a@text"
+    },
+    "ruleSearch": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": ""
+    },
+    "ruleToc": {
+      "chapterList": "html",
+      "chapterName": "class.wptao-title@text",
+      "chapterUrl": "class.wptao-res@tag.audio@src",
+      "nextTocUrl": ""
+    },
+    "searchUrl": "",
+    "weight": 0
+  }]

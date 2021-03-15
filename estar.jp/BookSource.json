@@ -1,0 +1,36 @@
+[  {
+    "bookSourceComment": "error:正文内容为空\n",
+    "bookSourceGroup": "🌐外语,失效",
+    "bookSourceName": "🌐 エブリスタ",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://estar.jp",
+    "bookUrlPattern": "",
+    "customOrder": 15822,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "青春·热榜::https://estar.jp/novels/kiriban?genre=1002&page={{page}}\n诗篇·热榜::https://estar.jp/novels/kiriban?genre=1003&page={{page}}\n纪实·热榜::https://estar.jp/novels/kiriban?genre=1005&page={{page}}\n空幻·热榜::https://estar.jp/novels/kiriban?genre=1006&page={{page}}\n科幻·热榜::https://estar.jp/novels/kiriban?genre=1007&page={{page}}\n恐怖·热榜::https://estar.jp/novels/kiriban?genre=1008&page={{page}}\n悬疑·热榜::https://estar.jp/novels/kiriban?genre=1009&page={{page}}\n历史·热榜::https://estar.jp/novels/kiriban?genre=1010&page={{page}}\n喜剧·热榜::https://estar.jp/novels/kiriban?genre=1015&page={{page}}\n设定·热榜::https://estar.jp/novels/kiriban?genre=1016&page={{page}}\nBL·热榜::https://estar.jp/novels/kiriban?genre=1018&page={{page}}\n恋爱·热榜::https://estar.jp/novels/kiriban?genre=1020&page={{page}}\n人情·热榜::https://estar.jp/novels/kiriban?genre=1021&page={{page}}\n随笔·热榜::https://estar.jp/novels/kiriban?genre=1022&page={{page}}\n现代·热榜::https://estar.jp/novels/kiriban?genre=1023&page={{page}}\n青春·完结::https://estar.jp/novels/ranking?type=finished&genre=1002&page={{page}}\n诗篇·完结::https://estar.jp/novels/ranking?type=finished&genre=1003&page={{page}}\n纪实·完结::https://estar.jp/novels/ranking?type=finished&genre=1005&page={{page}}\n空幻·完结::https://estar.jp/novels/ranking?type=finished&genre=1006&page={{page}}\n科幻·完结::https://estar.jp/novels/ranking?type=finished&genre=1007&page={{page}}\n恐怖·完结::https://estar.jp/novels/ranking?type=finished&genre=1008&page={{page}}\n悬疑·完结::https://estar.jp/novels/ranking?type=finished&genre=1009&page={{page}}\n历史·完结::https://estar.jp/novels/ranking?type=finished&genre=1010&page={{page}}\n喜剧·完结::https://estar.jp/novels/ranking?type=finished&genre=1015&page={{page}}\n设定·完结::https://estar.jp/novels/ranking?type=finished&genre=1016&page={{page}}\nBL·完结::https://estar.jp/novels/ranking?type=finished&genre=1018&page={{page}}\n恋爱·完结::https://estar.jp/novels/ranking?type=finished&genre=1020&page={{page}}\n人情·完结::https://estar.jp/novels/ranking?type=finished&genre=1021&page={{page}}\n随笔·完结::https://estar.jp/novels/ranking?type=finished&genre=1022&page={{page}}\n现代·完结::https://estar.jp/novels/ranking?type=finished&genre=1023",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.content -unselectable@textNodes@js:if(baseUrl.match(/page=\\d+/)){result.replace(/\\s/g,\"\\n\")}else{result=null}",
+      "nextContentUrl": "@js:\nif(baseUrl.match(/page=\\d+/)){\nn=parseInt(result.match(/max=\"([^\"]+)\"/)[1]);\nm=result.match(/(\\d+)\\/(\\d+)/);\na=result.match(/page=(\\d+)/)[1];\nc=parseInt(baseUrl.match(/page=(\\d+)/)[1]);\nb=baseUrl.match(/(https:\\/\\/estar.jp\\/.*?\\/\\d+\\/viewer\\?page=)\\d+/)[1];\nif(c<n){\nif(parseInt(m[1])<parseInt(m[2])){\nresult=b+String(parseInt(a))}}}"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "h4@text",
+      "bookList": "class.novelListItem",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "class.pictureIconNovel@meta@content",
+      "intro": "class.nickname@text",
+      "kind": "class.label@text",
+      "name": "h3@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.item@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://estar.jp/novels?keyword={{key}}",
+    "weight": 0
+  }]

@@ -1,0 +1,43 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "A级; 发现",
+    "bookSourceName": "殿行说移动版",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.dianwxw.com",
+    "bookUrlPattern": "",
+    "customOrder": 29,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "首页::http://m.dianxs.com/\n玄幻奇幻::https://m.dianxs.com/xuanhuanqihuan/\n武侠仙侠::https://m.dianxs.com/wuxiaxianxia/\n都市言情::https://m.dianxs.com/dushiyanqing/\n历史军事::https://m.dianxs.com/lishijunshi/\n网游竞技::https://m.dianxs.com/wangyoujingji/\n科幻灵异::https://m.dianxs.com/kehuanlingyi/\n女频小说::https://m.dianxs.com/nvpinxiaoshuo/\n二元次::https://m.dianxs.com/eryuanci/\n短篇::https://m.dianxs.com/duanpian/",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 7.1.1; Mi Note 3 Build/NMF26X; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.98 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.author@text##作\\s*者：",
+      "coverUrl": "class.photo@tag.img@src",
+      "intro": "//meta[@property=\"og:description\"]/@content",
+      "lastChapter": "class.about@text",
+      "name": "class.bookname mb10@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "class.con@html##第.*下一页继续阅读。|[0-9].*下一页继续阅读。",
+      "nextContentUrl": "class.next@text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "class.item",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "class.photo@tag.img@src",
+      "kind": "class.category@text##分类：",
+      "lastChapter": "class.about@text",
+      "name": "class.bookname@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter-list@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://m.dianwxw.com/index/sou?searchkey={{key}}",
+    "weight": 0
+  }]

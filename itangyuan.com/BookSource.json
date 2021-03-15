@@ -1,0 +1,36 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "💵正版",
+    "bookSourceName": "💵 汤圆创作",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.itangyuan.com",
+    "bookUrlPattern": "",
+    "customOrder": -34014,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "校园::http://m.itangyuan.com/tag/179.html?page={{page}}\n青葱::http://m.itangyuan.com/tag/91.html?page={{page}}\n灵异::http://m.itangyuan.com/tag/22.html?page={{page}}\n古风::http://m.itangyuan.com/tag/193.html?page={{page}}\n穿越::http://m.itangyuan.com/tag/25.html?page={{page}}\n女强::http://m.itangyuan.com/tag/302.html?page={{page}}\n总裁::http://m.itangyuan.com/tag/60.html?page={{page}}\n奇幻::http://m.itangyuan.com/tag/74.html?page={{page}}\n现言::http://m.itangyuan.com/tag/4408.html?page={{page}}\n修仙::http://m.itangyuan.com/tag/171.html?page={{page}}\n重生::http://m.itangyuan.com/tag/26.html?page={{page}}\n爆笑::http://m.itangyuan.com/tag/105.html?page={{page}}\n二次元::http://m.itangyuan.com/tag/1662.html?page={{page}}\n青春::http://m.itangyuan.com/tag/83242.html?page={{page}}\n悬疑::http://m.itangyuan.com/tag/182.html?page={{page}}\n都市::http://m.itangyuan.com/tag/24.html?page={{page}}\n玄幻::http://m.itangyuan.com/tag/21.html?page={{page}}\n科幻::http://m.itangyuan.com/tag/23.html?page={{page}}\n游戏::http://m.itangyuan.com/tag/121.html?page={{page}}\n仙侠::http://m.itangyuan.com/tag/80.html?page={{page}}\n竞技::http://m.itangyuan.com/tag/290.html?page={{page}}\n军事::http://m.itangyuan.com/tag/251.html?page={{page}}\n历史::http://m.itangyuan.com/tag/439.html?page={{page}}\n武侠::http://m.itangyuan.com/tag/104.html?page={{page}}\n搞笑::http://m.itangyuan.com/tag/53.html?page={{page}}\n轻小说::http://m.itangyuan.com/tag/341.html?page={{page}}\n剧本::http://m.itangyuan.com/tag/112.html?page={{page}}\n同人::http://m.itangyuan.com/tag/52.html?page={{page}}\n诗歌::http://m.itangyuan.com/tag/208.html?page={{page}}\n随笔::http://m.itangyuan.com/tag/8.html?page={{page}}\n论文::http://m.itangyuan.com/tag/11908.html?page={{page}}",
+    "lastUpdateTime": 1602673938004,
+    "loginUrl": "https://m.itangyuan.com/login/phone.html",
+    "ruleBookInfo": {
+      "intro": "class.intro@tag.p@text",
+      "tocUrl": "class.btn-catalogue@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "id.chapterWrapper@tag.p@text"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.item-info.0@text##著",
+      "bookList": "class.list-book@tag.li",
+      "bookUrl": "class.list-item@tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "name": "class.item-name.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.catalogue-list@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://m.itangyuan.com/search-result.html?keyword={{key}}",
+    "weight": 0
+  }]

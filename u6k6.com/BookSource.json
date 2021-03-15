@@ -1,0 +1,36 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备,🍑耽美",
+    "bookSourceName": "🍑 腐文小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.u6k6.com",
+    "bookUrlPattern": "",
+    "customOrder": -116135,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "lastUpdateTime": 1604983601215,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "id.intro@html"
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text||class.s5@text||id.info@tag.p.0@text",
+      "bookList": "class.grid@tag.tr!0||id.wrapper",
+      "bookUrl": "class.odd.0@tag.a@href",
+      "kind": "class.odd.0@tag.a@text||id.info@tag.p.2@text##最后...",
+      "lastChapter": "class.even.0@tag.a@text||class.box_con@tag.dd.0@text",
+      "name": "class.odd.0@tag.a@text||id.info@tag.h1@text||class.s2@tag.a@text##\\_.*"
+    },
+    "ruleToc": {
+      "chapterList": "class.box_con@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.u6k6.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

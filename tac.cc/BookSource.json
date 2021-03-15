@@ -1,0 +1,48 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "📻有声",
+    "bookSourceName": "📻 畅悦听书",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://www.tac.cc",
+    "customOrder": -115782,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部::/index.php/vod/show/id/1/page/{{page}}.html\n玄幻::/index.php/vod/show/id/6/page/{{page}}.html\n武侠::/index.php/vod/show/id/7/page/{{page}}.html\n都市::/index.php/vod/show/id/8/page/{{page}}.html\n言情::/index.php/vod/show/id/9/page/{{page}}.html\n科幻::/index.php/vod/show/id/10/page/{{page}}.html\n恐怖::/index.php/vod/show/id/11/page/{{page}}.html\n惊悚::/index.php/vod/show/id/12/page/{{page}}.html\n历史::/index.php/vod/show/id/20/page/{{page}}.html\n军事::/index.php/vod/show/id/21/page/{{page}}.html\n推荐::/index.php/vod/show/id/22/page/{{page}}.html\n广播::/index.php/vod/show/id/23/page/{{page}}.html\n儿童::/index.php/vod/show/id/32/page/{{page}}.html\n财经::/index.php/vod/show/id/33/page/{{page}}.html\n评书::/index.php/vod/show/id/34/page/{{page}}.html\n相声::/index.php/vod/show/id/35/page/{{page}}.html\n网游::/index.php/vod/show/id/36/page/{{page}}.html\n诗歌::/index.php/vod/show/id/37/page/{{page}}.html\n戏曲::/index.php/vod/show/id/38/page/{{page}}.html\n粤语::/index.php/vod/show/id/39/page/{{page}}.html\n笑话::/index.php/vod/show/id/40/page/{{page}}.html",
+    "lastUpdateTime": 1612831385271,
+    "ruleBookInfo": {
+      "author": "class.info@class.category.0@tag.a@text",
+      "coverUrl": "class.album-info@img@original",
+      "init": "",
+      "intro": "class.album-intro.0@text",
+      "kind": "class.info@class.time@text##更新时间：",
+      "lastChapter": "class.info@h1@text##.*【|\\】|更新至",
+      "name": "class.info@h1@text##【.*"
+    },
+    "ruleContent": {
+      "content": "<js>result</js>",
+      "sourceRegex": ".*\\.(mp3|m4a).*"
+    },
+    "ruleExplore": {
+      "author": "class.ec_indezb@text",
+      "bookList": "class.album-wrapper",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@src",
+      "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+      "author": "class.ec-item@tag.p.0@tag.a.1@text",
+      "bookList": "class.padd",
+      "bookUrl": "class.ecitem-name@href",
+      "coverUrl": "img@src",
+      "intro": "class.ecitem-desc@text",
+      "lastChapter": "class.ec-item@tag.p.0@tag.a.0@text",
+      "name": "class.ecitem-name@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.playlist_1@a",
+      "chapterName": "text",
+      "chapterUrl": "href@js:result+',{webView:“true”}'"
+    },
+    "searchUrl": "http://www.tac.cc/index.php/vod/search/page/{{page}}/wd/{{key}}.html",
+    "weight": 0
+  }]

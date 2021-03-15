@@ -1,0 +1,45 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "斗罗小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.idouluo.com",
+    "customOrder": -913,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻 · 奇幻::/novelstacks/1-0-0-0-0-0-{{page}}/\n武侠 · 仙侠::/novelstacks/2-0-0-0-0-0-{{page}}/\n都市 · 言情::/novelstacks/3-0-0-0-0-0-{{page}}/\n历史 · 军事::/novelstacks/4-0-0-0-0-0-{{page}}/\n科幻 · 悬疑::/novelstacks/5-0-0-0-0-0-{{page}}/\n游戏 · 竞技::/novelstacks/6-0-0-0-0-0-{{page}}/\n女生 · 联美::/novelstacks/7-0-0-0-0-0-{{page}}/",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "lastChapter": "class.novel_info_title@tag.a.1@text"
+    },
+    "ruleContent": {
+      "content": "id.article@html"
+    },
+    "ruleExplore": {
+      "author": "class.li_bottom@text",
+      "bookList": "class.flex@tag.li",
+      "bookUrl": "class.w100@tag.a@href",
+      "coverUrl": "tag.img@data-original",
+      "intro": "class.indent@text",
+      "name": "tag.h2@text",
+      "wordCount": "class.orange@text"
+    },
+    "ruleSearch": {
+      "author": "tag.p.0@text##万字.*",
+      "bookList": "class.searchresult@tag.li",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@data-original",
+      "intro": "class.searchresult_p@text",
+      "kind": "class.hot@text",
+      "lastChapter": "tag.p.2@tag.a@text",
+      "name": "tag.h3@text",
+      "wordCount": "class.s_gray@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.ul_all_chapters@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.idouluo.com/search/?searchkey={{key}}&Submit=",
+    "weight": 0
+  }]

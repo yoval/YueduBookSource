@@ -1,0 +1,45 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 owlook",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.owlook.com.cn1",
+    "customOrder": -115068,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "起点榜::https://www.owlook.com.cn/md/qidian\n玄幻::https://www.owlook.com.cn/md/qidian?type=玄幻\n奇幻::https://www.owlook.com.cn/md/qidian?type=奇幻\n武侠::https://www.owlook.com.cn/md/qidian?type=武侠\n仙侠::https://www.owlook.com.cn/md/qidian?type=仙侠\n都市::https://www.owlook.com.cn/md/qidian?type=都市\n职场::https://www.owlook.com.cn/md/qidian?type=职场\n军事::https://www.owlook.com.cn/md/qidian?type=军事\n历史::https://www.owlook.com.cn/md/qidian?type=历史\n游戏::https://www.owlook.com.cn/md/qidian?type=游戏\n体育::https://www.owlook.com.cn/md/qidian?type=体育\n科幻::https://www.owlook.com.cn/md/qidian?type=科幻\n灵异::https://www.owlook.com.cn/md/qidian?type=灵异\n二次元::https://www.owlook.com.cn/md/qidian?type=二次元\n纵横榜::https://www.owlook.com.cn/md/zongheng\n",
+    "header": "",
+    "lastUpdateTime": 1607720580136,
+    "ruleBookInfo": {
+      "author": "class.container@tag.a.0@text##.*?作者(:|：)",
+      "coverUrl": "",
+      "tocUrl": "<js>if (result.match(/href=\"(\\/chapter\\?.*?)\"/)){var murl = /href=\"(\\/chapter\\?.*?)\"/g;\nvar match;\nvar listurl = [];\nwhile ((match = murl.exec(result)) != null) {\nlisturl.push(String(match[1]).replace(/\\\\/g,''))};\nvar i=Math.floor(Math.random() * 10);\n'https://www.owlook.com.cn'+listurl[i]\n}else{baseUrl}</js>",
+      "wordCount": "tag.i.0@text"
+    },
+    "ruleContent": {
+      "content": "#content@html",
+      "replaceRegex": "##\\[无限小说 www.wxzw.vip\\]"
+    },
+    "ruleExplore": {
+      "bookList": "table tr td a",
+      "bookUrl": "href ",
+      "coverUrl": "@js:'https://www.owlook.com.cn/static/novels/img/favicon.ico'",
+      "name": "text"
+    },
+    "ruleSearch": {
+      "author": "tag.a.0@text##.*?作者(:|：)",
+      "bookList": ".container li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "@js:'https://www.owlook.com.cn/static/novels/img/favicon.ico'",
+      "name": "tag.a.0@text##(.*?)--(.*?)--.*?作者.*##$2【$1】",
+      "wordCount": "tag.i.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "#list a",
+      "chapterName": "text",
+      "chapterUrl": "href@js:baseUrl.match(/(.*url=.*?\\/\\/.*?)\\//)[1]+result.replace(/.*?\\/\\/.*?\\//,'')",
+      "nextTocUrl": ""
+    },
+    "searchUrl": "https://www.owlook.com.cn/search?wd={{key}}",
+    "weight": 0
+  }]

@@ -1,0 +1,46 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🍑耽美",
+    "bookSourceName": "🍑 幅书吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.fushubbw.com",
+    "customOrder": -116050,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "现代言情::/bookall/xdyq/<,index_{{page}}.html>\n官场历史::/bookall/gcls/<,index_{{page}}.html>\n玄幻武侠::/bookall/xhwx/<,index_{{page}}.html>\n耽美同人::/bookall/blgl/<,index_{{page}}.html>\n穿越架空::/bookall/chuanyue/<,index_{{page}}.html>\n网游综漫::/bookall/wyzm/<,index_{{page}}.html>\n科幻灵异::/bookall/khly/<,index_{{page}}.html>\n其他综合::/bookall/qita/<,index_{{page}}.html>",
+    "lastUpdateTime": 1612528944826,
+    "ruleBookInfo": {
+      "intro": "id.text@tag.div@textNodes"
+    },
+    "ruleContent": {
+      "content": "@js:org.jsoup.Jsoup.parse(String(result).match(/(?:class=\"post\"|id=\"text\")>([\\s\\S]*?)<(?=div id=\"single-widget\">|script)/)[1]).html()",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "author": "tag.a.0@text##.*——|《|》|by：|.*?作者：",
+      "bookList": "class.loop",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "@js:'http://www.fushubb.com/e/data/images/notimg.gif'",
+      "intro": "tag.p.0@text##文案.|\\s",
+      "kind": "tag.a.2@text&&tag.span.3@text",
+      "lastChapter": "",
+      "name": "tag.a.0@text##——.*|\\[.*\\]|《|》|全本.*|作者.*|\\s|\\+.*"
+    },
+    "ruleSearch": {
+      "author": "tag.a.1@text##.*——|《|》|by：|.*?作者：",
+      "bookList": "class.topic-list@tag.li",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img.0@src",
+      "intro": "class.blog_entry@text##.*文案.|\\(全文\\).*|\\s",
+      "kind": "tag.a.-1@text&&tag.span.1@text",
+      "lastChapter": "",
+      "name": "tag.a.1@text##——.*|\\[.*\\]|《|》|全本.*|作者.*|\\s|\\+.*"
+    },
+    "ruleToc": {
+      "chapterList": "//select/option",
+      "chapterName": "text##.*\\((\\d+)\\)##第$1页",
+      "chapterUrl": "//@value"
+    },
+    "searchUrl": "/e/search/index.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"keyboard={{key}}&show=title\"\n}",
+    "weight": 0
+  }]

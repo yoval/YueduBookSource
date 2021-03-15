@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🚬刘备",
+    "bookSourceName": "🚬 妈妈小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.momxs.com",
+    "bookUrlPattern": "",
+    "customOrder": -116514,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "重生::http://m.momxs.com/momclass.asp?id=12&page={{page}}\n都市::http://m.momxs.com/momclass.asp?id=4&page={{page}}\n穿越::http://m.momxs.com/momclass.asp?id=11&page={{page}}\n玄幻::http://m.momxs.com/momclass.asp?id=1&page={{page}}\n灵异::http://m.momxs.com/momclass.asp?id=17&page={{page}}\n总裁::http://m.momxs.com/momclass.asp?id=25&page={{page}}\n竞技::http://m.momxs.com/momclass.asp?id=10&page={{page}}\n科幻::http://m.momxs.com/momclass.asp?id=16&page={{page}}\n官场::http://m.momxs.com/momclass.asp?id=13&page={{page}}\n乡村::http://m.momxs.com/momclass.asp?id=21&page={{page}}\n网游::http://m.momxs.com/momclass.asp?id=9&page={{page}}\n架空::http://m.momxs.com/momclass.asp?id=14&page={{page}}\n短篇::http://m.momxs.com/momclass.asp?id=22&page={{page}}\n热门::http://m.momxs.com/momclass.asp?id=24&page={{page}}\n武侠::http://m.momxs.com/momclass.asp?id=2&page={{page}}\n名著::http://m.momxs.com/momclass.asp?id=20&page={{page}}\n仙侠::http://m.momxs.com/momclass.asp?id=3&page={{page}}\n言情::http://m.momxs.com/momclass.asp?id=5&page={{page}}\n军事::http://m.momxs.com/momclass.asp?id=8&page={{page}}\n耽美::http://m.momxs.com/momclass.asp?id=15&page={{page}}",
+    "lastUpdateTime": 1612517695757,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.jie@tag.5@tag.a@text",
+      "intro": "class.novelinfo@text"
+    },
+    "ruleContent": {
+      "content": "class.novelinfvie@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.main@tag.span.1@text##时间：*",
+      "bookList": "class.list_a",
+      "bookUrl": "class.main@tag.a.0@href",
+      "coverUrl": "class.img@tag.img@src",
+      "kind": "class.main@tag.span.0@text",
+      "name": "class.main@tag.strong@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.sso_a@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://m.momxs.com/search.asp?word={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

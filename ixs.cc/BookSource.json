@@ -1,0 +1,36 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🍺特优",
+    "bookSourceName": "🍺 爱小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.ixs.cc",
+    "customOrder": -116976,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612535630510,
+    "ruleBookInfo": {
+      "author": "class.detail.0@tag.i.0@tag.a@text",
+      "coverUrl": "class.cover@tag.img@src",
+      "intro": "class.desc@text##.*简介：",
+      "name": "class.line.0@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "class.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.a2@tag.a@text",
+      "bookList": "class.left@tag.li!0",
+      "bookUrl": "class.n2@tag.a@href",
+      "kind": "class.nt@text",
+      "lastChapter": "class.c2@tag.a@text",
+      "name": "class.n2@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.col3!0:1:2:3:4:5:6:7:8",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.ixs.cc/search.htm?keyword={{key}}",
+    "weight": 0
+  }]

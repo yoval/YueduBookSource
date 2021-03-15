@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": "🎉精品,失效",
+    "bookSourceName": "🎉 神品屋①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.shenpinwu.com",
+    "bookUrlPattern": "",
+    "customOrder": -32031,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.author@tag.a.1@text",
+      "coverUrl": "class.synopsisArea_detail@tag.img@src",
+      "intro": "class.review@text",
+      "name": "class.title@text",
+      "tocUrl": "class.recommend@tag.h2.1@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@tag.a@text",
+      "bookList": "class.hot_sale",
+      "bookUrl": "class.title@tag.a@href",
+      "kind": "class.author.0@text##\\|.*",
+      "lastChapter": "class.author.1@tag.a@text",
+      "name": "class.title@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.directoryArea@tag.p!0@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://m.shenpinwu.com/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&t=1\"\n}",
+    "weight": 0
+  }]

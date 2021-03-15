@@ -1,0 +1,36 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "z",
+    "bookSourceName": "去看书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.qkshu6.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "都市小说::https://m.qkshu6.com/dushi/index_{{page}}.html\n玄幻小说::https://m.qkshu6.com/xuanhuan/index_{{page}}.html\n仙侠小说::https://m.qkshu6.com/xianxia/index_{{page}}.html\n历史小说::https://m.qkshu6.com/lishi/index_{{page}}.html\n科幻小说::https://m.qkshu6.com/kehuan/index_{{page}}.html\n悬疑小说::https://m.qkshu6.com/xuanyi/index_{{page}}.html\n其他小说::https://m.qkshu6.com/qita/index_{{page}}.html\n全本小说::https://m.qkshu6.com/quanben/index_{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "https://m.qkshu6.com/login.php",
+    "ruleBookInfo": {
+      "intro": "class.intro_info@text",
+      "lastChapter": ""
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {
+      "author": "class.author@text##作者：",
+      "bookList": "class.bookbox",
+      "bookUrl": "class.bookinfo@tag.a@href",
+      "coverUrl": "class.bookimg@tag.img@src",
+      "intro": "class.into_line@text",
+      "name": "class.bookname@text"
+    },
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "class.chapter@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "class.right@tag.a@href"
+    },
+    "weight": 0
+  }]

@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "👍优质",
+    "bookSourceName": "👍 凤舞文学网③",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.kknn.net",
+    "bookUrlPattern": "",
+    "customOrder": -114816,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612824831777,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.doc-info-img@src",
+      "intro": "class.m-book_info@p@textNodes##.*观看小说:",
+      "lastChapter": "class.m-upd@a@text"
+    },
+    "ruleContent": {
+      "content": "id.ad@textNodes##m.okma.net|www.okma.net|【狂沙文学网】|提醒书友谨记.*永不丢失！|.*百度搜不到狂沙文.*",
+      "nextContentUrl": "text.下一章@href##$##$,{\"webView\":true}"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "table@tbody@tr",
+      "bookUrl": "a@href",
+      "coverUrl": "tag.a.0@href##.*/(\\d+)/(\\d+)/##https://cssjs.lisawuwa.com//image/$1/$2/$2s.jpg",
+      "lastChapter": "tag.td.1@a@text",
+      "name": "tag.td.0@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.m-book-list.1@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href##$##$,{\"webView\":true}",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "http://www.kknn.net/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}",
+    "weight": 0
+  }]

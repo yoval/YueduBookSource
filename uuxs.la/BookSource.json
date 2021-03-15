@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "error:failed to connect to m.uuxs.la/104.250.140.202 (port 443) from /192.168.0.103 (port 44492) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "🔰普通,失效",
+    "bookSourceName": "🔰 uu小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.uuxs.la",
+    "bookUrlPattern": "",
+    "customOrder": 16344,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1602678581757,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "tag.em@text",
+      "intro": "class.intro@text##内容简介：",
+      "lastChapter": "class.fl.1@tag.a@text",
+      "name": "tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.BookText@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "textNodes##^.*\\s*",
+      "bookList": "class.details@tag.li",
+      "bookUrl": "tag.a@href",
+      "kind": "text##.*\\[|\\].*",
+      "name": "tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.inner@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://m.uuxs.la/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

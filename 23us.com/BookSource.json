@@ -1,0 +1,42 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🔰普通",
+    "bookSourceName": "🔰 顶点小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.23us.com",
+    "bookUrlPattern": "",
+    "customOrder": -114795,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::https://m.23us.com/class/1_1.html\n武侠修真::https://m.23us.com/class/2_1.html\n都市言情::https://m.23us.com/class/3_1.html\n历史军事::https://m.23us.com/class/4_1.html\n侦探推理::https://m.23us.com/class/5_1.html\n网游动漫::https://m.23us.com/class/6_1.html\n科幻小说::https://m.23us.com/class/7_1.html\n恐怖灵异::https://m.23us.com/class/8_1.html\n散文诗词::https://m.23us.com/class/9_1.html\n其他类型::https://m.23us.com/class/10_1.html",
+    "header": "",
+    "lastUpdateTime": 1610039131745,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.index_block@tag.p.0@text",
+      "kind": "class.index_block@tag.p.1@tag.a@text",
+      "name": "class.index_block@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.txt@html"
+    },
+    "ruleExplore": {
+      "author": "class.line@tag.a.1@text",
+      "bookList": "class.line",
+      "bookUrl": "class.blue@href",
+      "name": "class.blue@text"
+    },
+    "ruleSearch": {
+      "author": "class.line@tag.a.1@text",
+      "bookList": "class.cover@tag.p",
+      "bookUrl": "class.blue@href",
+      "name": "class.blue@text"
+    },
+    "ruleToc": {
+      "chapterList": "-class.chapter@tag.li@tag.a",
+      "chapterName": "@text",
+      "chapterUrl": "@href"
+    },
+    "searchUrl": "https://m.23us.com/modules/article/soso.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}&searchtype=keywords\"\n}",
+    "weight": 0
+  }]

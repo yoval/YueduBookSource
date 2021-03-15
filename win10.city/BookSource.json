@@ -1,0 +1,35 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "A级;特殊; 发现; 搜索; 18",
+    "bookSourceName": "欲望社①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.win10.city",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.text-muted@html"
+    },
+    "ruleContent": {
+      "content": "class.panel-body@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.li.2@text",
+      "bookList": "class.mySearch@tag.ul",
+      "bookUrl": "tag.li.0@tag.a@href",
+      "kind": "tag.li.3@text##大小.",
+      "lastChapter": "tag.li.1@tag.a@text",
+      "name": "class.b@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.panel-body@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.win10.city/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,36 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🍺特优",
+    "bookSourceName": "🍺 无弹窗530p",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.530p.com-By Dark",
+    "bookUrlPattern": "",
+    "customOrder": -32838,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
+    "lastUpdateTime": 1603357714467,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.ffw@tag.img@src",
+      "intro": "class.ffw@tag.tr.3@html"
+    },
+    "ruleContent": {
+      "content": "id.cp_content@textNodes##无弹窗.*小说.*|www.*com|soudu.*org|a\\n.*a"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.conter4.0@text",
+      "bookList": "class.conter@tag.ul!0",
+      "bookUrl": "class.conter1.0@tag.a@href",
+      "lastChapter": "class.conter2.0@tag.a@text",
+      "name": "class.conter1.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.conter@class.clc",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.530p.com/s/{{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

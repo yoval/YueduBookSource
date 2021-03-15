@@ -1,0 +1,42 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "📀优质",
+    "bookSourceName": "🏆 看看书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.kankanshu.cc",
+    "bookUrlPattern": "http?://www.kankanshu.cc/xs/\\d+/",
+    "customOrder": -269,
+    "enabled": true,
+    "enabledExplore": false,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "//meta[@property=\"og:novel:author\"]/@content",
+      "coverUrl": "//meta[@property=\"og:image\"]/@content",
+      "intro": "//meta[@property=\"og:description\"]/@content",
+      "kind": "//meta[@property=\"og:novel:category\"]/@content",
+      "lastChapter": "//meta[@property=\"og:novel:latest_chapter_name\"]/@content",
+      "name": "//meta[@property=\"og:novel:book_name\"]/@content"
+    },
+    "ruleContent": {
+      "content": "class.chaptercontent@children@text"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.info@tag.a.1@text",
+      "bookList": "class.librarylist@tag.li",
+      "bookUrl": "class.info@tag.a.0@href",
+      "coverUrl": "class.pt-ll-l@tag.img@src",
+      "kind": "class.info@tag.a.3@text",
+      "lastChapter": "class.last@tag.a@text",
+      "name": "class.info@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.dirlist@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href##/xs##http://m.kankanshu.cc/xs"
+    },
+    "searchUrl": "search.html?searchtype=novelname&searchkey={{key}}",
+    "weight": 0
+  }]

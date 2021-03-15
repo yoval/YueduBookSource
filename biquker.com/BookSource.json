@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "error:SSL handshake aborted: ssl=0x7e65822748: I/O error during system call, Connection reset by peer\n",
+    "bookSourceGroup": "👍优质,失效",
+    "bookSourceName": "👍 笔趣客(手痒做一下)",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.biquker.com",
+    "bookUrlPattern": "",
+    "customOrder": 15914,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部小说::https://www.biquker.com/shuku/0_0_{{page}}.html\n全本小说::https://www.biquker.com/shuku/0_2_{{page}}.html\n都市言情::https://www.biquker.com/shuku/3_0_{{page}}.html\n玄幻魔法::https://www.biquker.com/shuku/4_0_{{page}}.html\n武侠修真::https://www.biquker.com/shuku/5_0_{{page}}.html\n穿越冒险::https://www.biquker.com/shuku/6_0_{{page}}.html\n游戏竞技::https://www.biquker.com/shuku/7_0_{{page}}.html\n历史军事::https://www.biquker.com/shuku/8_0_{{page}}.html\n科幻灵异::https://www.biquker.com/shuku/9_0_{{page}}.html\n女生小说::https://www.biquker.com/shuku/10_0_{{page}}.html\n异世幻想::https://www.biquker.com/shuku/11_0_{{page}}.html\n穿越架空::https://www.biquker.com/shuku/12_0_{{page}}.html\n悬疑推理::https://www.biquker.com/shuku/13_0_{{page}}.html\n同人小说::https://www.biquker.com/shuku/14_0_{{page}}.html\n情色文学::https://www.biquker.com/shuku/15_0_{{page}}.html\n综合其他::https://www.biquker.com/shuku/16_0_{{page}}.html\n古典言情::https://www.biquker.com/shuku/17_0_{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.booktag@tag.a@text",
+      "coverUrl": "class.bookcover hidden-xs@tag.img@src",
+      "intro": "class.bookintro@text",
+      "lastChapter": "class.bookchapter@text",
+      "name": "class.booktitle@text"
+    },
+    "ruleContent": {
+      "content": "class.readcontent@p@textNodes",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@text##作者：",
+      "bookList": "class.keywords@children||class.content book@children",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##.*/(\\d+).html##/images/$1.jpg",
+      "lastChapter": "class.cat@tag.a@text",
+      "name": "class.bookname@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list-chapterAll@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.biquker.com/search,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&char=gbk\"\n}",
+    "weight": 0
+  }]

@@ -1,0 +1,37 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎨漫画",
+    "bookSourceName": "🎨 漫画DB",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.manhuadb.com",
+    "bookUrlPattern": "",
+    "customOrder": -31299,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部::https://www.manhuadb.com/manhua/list-page-{{page}}.html\n连载::https://www.manhuadb.com/manhua/list-s-1-page-{{page}}.html\n完结::https://www.manhuadb.com/manhua/list-s-2-page-{{page}}.html\n日本漫画::https://www.manhuadb.com/manhua/list-r-4-page-{{page}}.html\n香港漫画::https://www.manhuadb.com/manhua/list-r-5-page-{{page}}.html\n韩国漫画::https://www.manhuadb.com/manhua/list-r-6-page-{{page}}.html\n台湾漫画::https://www.manhuadb.com/manhua/list-r-7-page-{{page}}.html\n少年::https://www.manhuadb.com/manhua/list-a-3-page-{{page}}.html\n青年::https://www.manhuadb.com/manhua/list-a-4-page-{{page}}.html\n少女::https://www.manhuadb.com/manhua/list-a-5-page-{{page}}.html\n男性::https://www.manhuadb.com/manhua/list-a-6-page-{{page}}.html\n女性::https://www.manhuadb.com/manhua/list-a-7-page-{{page}}.html\n通用::https://www.manhuadb.com/manhua/list-a-9-page-{{page}}.html\n爱情::https://www.manhuadb.com/manhua/list-c-26-page-{{page}}.html\n冒险::https://www.manhuadb.com/manhua/list-c-12-page-{{page}}.html\n搞笑::https://www.manhuadb.com/manhua/list-c-41-page-{{page}}.html\n奇幻::https://www.manhuadb.com/manhua/list-c-13-page-{{page}}.html\n动作::https://www.manhuadb.com/manhua/list-c-18-page-{{page}}.html\n科幻::https://www.manhuadb.com/manhua/list-c-20-page-{{page}}.html\n喜剧::https://www.manhuadb.com/manhua/list-c-32-page-{{page}}.html\n魔幻::https://www.manhuadb.com/manhua/list-c-48-page-{{page}}.html\n热血::https://www.manhuadb.com/manhua/list-c-46-page-{{page}}.html\n恐怖::https://www.manhuadb.com/manhua/list-c-16-page-{{page}}.html\n生活::https://www.manhuadb.com/manhua/list-c-33-page-{{page}}.html\n悬疑::https://www.manhuadb.com/manhua/list-c-27-page-{{page}}.html\n职业::https://www.manhuadb.com/manhua/list-c-22-page-{{page}}.html\n校园::https://www.manhuadb.com/manhua/list-c-40-page-{{page}}.html\n体育::https://www.manhuadb.com/manhua/list-c-11-page-{{page}}.html\n魔法::https://www.manhuadb.com/manhua/list-c-43-page-{{page}}.html\n格斗::https://www.manhuadb.com/manhua/list-c-44-page-{{page}}.html\n耽美::https://www.manhuadb.com/manhua/list-c-53-page-{{page}}.html\n战争::https://www.manhuadb.com/manhua/list-c-30-page-{{page}}.html\n神鬼::https://www.manhuadb.com/manhua/list-c-52-page-{{page}}.html\n竞技::https://www.manhuadb.com/manhua/list-c-55-page-{{page}}.html\n百合::https://www.manhuadb.com/manhua/list-c-39-page-{{page}}.html\n历史::https://www.manhuadb.com/manhua/list-c-9-page-{{page}}.html\n推理::https://www.manhuadb.com/manhua/list-c-19-page-{{page}}.html\n伪娘::https://www.manhuadb.com/manhua/list-c-60-page-{{page}}.html\n励志::https://www.manhuadb.com/manhua/list-c-47-page-{{page}}.html\n惊悚::https://www.manhuadb.com/manhua/list-c-21-page-{{page}}.html\n料理::https://www.manhuadb.com/manhua/list-c-29-page-{{page}}.html\n美食::https://www.manhuadb.com/manhua/list-c-45-page-{{page}}.html\n萌系::https://www.manhuadb.com/manhua/list-c-59-page-{{page}}.html\n职场::https://www.manhuadb.com/manhua/list-c-58-page-{{page}}.html\n武侠::https://www.manhuadb.com/manhua/list-c-23-page-{{page}}.html\n治愈::https://www.manhuadb.com/manhua/list-c-54-page-{{page}}.html\n四格::https://www.manhuadb.com/manhua/list-c-56-page-{{page}}.html\n资料集::https://www.manhuadb.com/manhua/list-c-28-page-{{page}}.html\n音乐::https://www.manhuadb.com/manhua/list-c-17-page-{{page}}.html\n传记::https://www.manhuadb.com/manhua/list-c-10-page-{{page}}.html\n灾难::https://www.manhuadb.com/manhua/list-c-34-page-{{page}}.html\n侦探::https://www.manhuadb.com/manhua/list-c-51-page-{{page}}.html\n舞蹈::https://www.manhuadb.com/manhua/list-c-50-page-{{page}}.html\n后宫::https://www.manhuadb.com/manhua/list-c-57-page-{{page}}.html\n杂志::https://www.manhuadb.com/manhua/list-c-42-page-{{page}}.html\n宅男::https://www.manhuadb.com/manhua/list-c-49-page-{{page}}.html\n机战::https://www.manhuadb.com/manhua/list-c-61-page-{{page}}.html\n黑道::https://www.manhuadb.com/manhua/list-c-62-page-{{page}}.html\nnull",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4094.1 Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "tag.p@text"
+    },
+    "ruleContent": {
+      "content": ":_S001_vMMQZsSqq66JHArA5uAkiUbLSuwPs5tkRW9YSYI/1Cx2buf/6deO+1BkgzjvLTcJAs3toWhpuYNE\n4DuxFHjUeCz/IjVpQE2X+zVdsEB+46Exik6OdjI1Eu/llxbqw8rAluXev9VURVx+t68Hl5yX+Kcm\nh098f2BV1jLlH5nmw+mQORre5MoUULS7Un5TKoaN9UKS8jK5bfxSEDqxA6G/RqstYbLI3rERgiEv\nwz3EP0yNbGPm4rPBXQbZzgP8o9feuoZ2t/onogYWzTRY/YZ0QwwbgO3eJJV9DbACpzKvbNWQeHhf\nX83CxCO8PgsB8/01z81k8nBCdBjxewB7a5dYQBQx0gQEcfSQnEWZduAA9l/Im4SjZR1RFT5NU61c\nRlkBCFqJj2mG+abSzB9H/D7vVqsQl2iwQmRqVzgOZTIc1ZKp45bDKmNonaVgCGKumteg0HSZkygx\ntewvfZmrM36r7vWkeoTz4SZCHtmuuHXE+dPpK4ROoTd4jEm5lmbpS0AW6OHOpKdSGa3Wqllg3Jfo\nvh1lhrP9VquOPurgkxo6uP6R2pT3ADpjLv/wte3OlgX72RC6YCixdgaDE24EIgvE78PG0VP2H8Qa\nJSDjOb8rgvQCMzBO/+SRa6YuCWWyUUWMrjqBaP2X5HCrGwPnaoJwVQ==\n",
+      "nextContentUrl": "text.下一页@tag.a.0@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.1@text",
+      "bookList": "class.col-4 col-sm-2 col-xl-1 px-1 px-md-1 px-lg-2 px-xl-1 pb-3||class.comic-main-section bg-white p-3@class.media comic-book-unit",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "name": "tag.h2@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.links-of-books num_div.0@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.manhuadb.com/search?q={{key}}&p\n={{page}}",
+    "weight": 0
+  }]

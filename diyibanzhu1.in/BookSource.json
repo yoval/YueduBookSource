@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "📙刘备",
+    "bookSourceName": "📙第一版主③",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.diyibanzhu1.in",
+    "bookUrlPattern": "",
+    "customOrder": 3401,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻·奇幻::http://www.diyibanzhu1.in/fenlei/1_{{page}}.html\n仙侠·武侠::http://www.diyibanzhu1.in/fenlei/2_{{page}}.html\n都市·言情::http://www.diyibanzhu1.in/fenlei/3_{{page}}.html\n穿越·历史::http://www.diyibanzhu1.in/fenlei/4_{{page}}.html\n科幻·灵异::http://www.diyibanzhu1.in/fenlei/5_{{page}}.html\n藏经阁::http://www.diyibanzhu1.in/fenlei/6_{{page}}.html\n其他·类别::http://www.diyibanzhu1.in/fenlei/7_{{page}}.html\n作者大全::http://www.diyibanzhu1.in/fenlei/authors/",
+    "lastUpdateTime": 1605713594335,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.info@text",
+      "intro": "class.book-intro@class.bd@text",
+      "kind": "class.bd@tag.a.1@text",
+      "name": "tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "class.page-content@tag.p@textNodes",
+      "nextContentUrl": "//a[@class=\"curr\"]/following-sibling::a[1]/@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.info@text",
+      "bookList": "class.column-2",
+      "bookUrl": "class.name@href",
+      "lastChapter": "class.update@tag.a@text",
+      "name": "class.name@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter-list.1@tag.ul@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "class.nextPage@href"
+    },
+    "searchUrl": "http://www.diyibanzhu1.in/s.php,{\n \"charset\": \"gbk\",\n \"method\": \"POST\",\n \"body\": \"objectType=2&type=articlename&s={{key}}\"\n}",
+    "weight": 0
+  }]

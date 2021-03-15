@@ -1,0 +1,35 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 神藏小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.swang8.com-By Dark",
+    "customOrder": -32293,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "intro": "id.intro@tag.p.0@text"
+    },
+    "ruleContent": {
+      "content": "class.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.span.1@tag.a@text",
+      "bookList": "class.librarylist@children",
+      "bookUrl": "tag.span.0@tag.a@href",
+      "coverUrl": "class.pt-ll-l@tag.img@src",
+      "kind": "tag.span.2@tag.a@text",
+      "lastChapter": "class.last.0@tag.a@text",
+      "name": "tag.span.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.dirlist three clearfix@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.swang8.com/search.html?searchtype=novelname&searchkey={{key}}",
+    "weight": 0
+  }]

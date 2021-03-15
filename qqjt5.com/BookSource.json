@@ -1,0 +1,57 @@
+[  {
+    "bookSourceComment": "error:Timed out waiting for 180000 ms\n",
+    "bookSourceGroup": "📻有声,失效",
+    "bookSourceName": "📻 千千静听",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://www.qqjt5.com",
+    "customOrder": -31445,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "                  有声小说                  ::/fm/index19{{-page}}.html\n玄幻::/fm/index1{{-page}}.html\n武侠::/fm/index2{{-page}}.html\n都市::/fm/index3{{-page}}.html\n穿越::/fm/index4{{-page}}.html\n言情::/fm/index5{{-page}}.html\n恐怖::/fm/index6{{-page}}.html\n悬疑::/fm/index7{{-page}}.html\n科幻::/fm/index8{{-page}}.html\n网游::/fm/index25{{-page}}.html\n历史::/fm/index26{{-page}}.html\n推理::/fm/index27{{-page}}.html\n                    有声读物                    ::/fm/index20{{-page}}.html\n相声::/fm/index9{{-page}}.html\n经典::/fm/index28{{-page}}.html\n评书::/fm/index40{{-page}}.html\n脱口秀::/fm/index10{{-page}}.html\n小品::/fm/index41{{-page}}.html\n文学::/fm/index12{{-page}}.html\n情感::/fm/index11{{-page}}.html\n广播剧::/fm/index13{{-page}}.html\n教育::/fm/index14{{-page}}.html\n商业::/fm/index31{{-page}}.html\n英语::/fm/index15{{-page}}.html\n百家讲坛::/fm/index16{{-page}}.html\n儿童::/fm/index17{{-page}}.html\n音乐::/fm/index38{{-page}}.html\n戏曲::/fm/index39{{-page}}.html\n微声音::/fm/index18{{-page}}.html\n娱乐::/fm/index29{{-page}}.html\nIT科技::/fm/index32{{-page}}.html\n健康::/fm/index33{{-page}}.html\n旅游::/fm/index34{{-page}}.html\n动漫游戏::/fm/index35{{-page}}.html\n时尚::/fm/index36{{-page}}.html",
+    "lastUpdateTime": 1602592561620,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "<js>result.replace(/.*url=/,'').replace(/\\&\\?Next=.*/,'')</js>",
+      "imageStyle": "0",
+      "nextContentUrl": "",
+      "sourceRegex": ".*\\.(mp3|m4a).*"
+    },
+    "ruleExplore": {
+      "author": "tag.a.2@text",
+      "bookList": "class.tw w50p",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img@src",
+      "intro": "tag.p.1@text",
+      "kind": "tag.p.2@text##TAG.|更新.*|\\s",
+      "lastChapter": "tag.a.1@text##.*\\》|主播.*|\\s",
+      "name": "tag.a.1@text##\\《|\\》.*",
+      "wordCount": "tag.p.2@text##.*更新.|关注.*|\\s"
+    },
+    "ruleSearch": {
+      "author": "class.actor@tag.a@text",
+      "bookList": "class.tw w502p",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img@src",
+      "intro": "",
+      "kind": "tag.p.1@text##.*：",
+      "lastChapter": "",
+      "name": "tag.a.1@text",
+      "wordCount": "tag.p.-2@text##.*："
+    },
+    "ruleToc": {
+      "chapterList": "class.videourl@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href@js:result+',{webView:“true”}'"
+    },
+    "searchUrl": "/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"page={{page}}&searchword={{key}}&searchtype=\"\n}",
+    "weight": 0
+  }]

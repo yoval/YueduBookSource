@@ -1,0 +1,38 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎨漫画",
+    "bookSourceName": "🎨 漫画大全",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.3li.cc",
+    "bookUrlPattern": "",
+    "customOrder": -31284,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部::https://m.3li.cc/tagcat/all/{{page}}.html\n热血::https://m.3li.cc/tagcat/rexue/{{page}}.html\n机战::https://m.3li.cc/tagcat/jizhan/{{page}}.html\n运动::https://m.3li.cc/tagcat/yundong/{{page}}.html\n推理::https://m.3li.cc/tagcat/tuili/{{page}}.html\n冒险::https://m.3li.cc/tagcat/maoxian/{{page}}.html\n耽美::https://m.3li.cc/tagcat/liaomei/{{page}}.html\n百合::https://m.3li.cc/tagcat/baihe/{{page}}.html\n搞笑::https://m.3li.cc/tagcat/gaoxiao/{{page}}.html\n战争::https://m.3li.cc/tagcat/zhanzhen/{{page}}.html\n神魔::https://m.3li.cc/tagcat/shenmo/{{page}}.html\n忍者::https://m.3li.cc/tagcat/renzhe/{{page}}.html\n竞技::https://m.3li.cc/tagcat/jingji/{{page}}.html\n悬疑::https://m.3li.cc/tagcat/xuanyi/{{page}}.html\n社会::https://m.3li.cc/tagcat/shehui/{{page}}.html\n恋爱::https://m.3li.cc/tagcat/lianai/{{page}}.html\n宠物::https://m.3li.cc/tagcat/chongwu/{{page}}.html\n吸血::https://m.3li.cc/tagcat/xixue/{{page}}.html\n萝莉::https://m.3li.cc/tagcat/luoli/{{page}}.html\n后宫::https://m.3li.cc/tagcat/hougong/{{page}}.html\n御姐::https://m.3li.cc/tagcat/yujie/{{page}}.html\n霸总::https://m.3li.cc/tagcat/bazong/{{page}}.html\n玄幻::https://m.3li.cc/tagcat/xuanhuan/{{page}}.html\n古风::https://m.3li.cc/tagcat/gufeng/{{page}}.html\n历史::https://m.3li.cc/tagcat/lishi/{{page}}.html\n漫改::https://m.3li.cc/tagcat/mangai/{{page}}.html\n游戏::https://m.3li.cc/tagcat/youxi/{{page}}.html\n穿越::https://m.3li.cc/tagcat/chuanyue/{{page}}.html\n恐怖::https://m.3li.cc/tagcat/kongbu/{{page}}.html\n真人::https://m.3li.cc/tagcat/zhenren/{{page}}.html\n科幻::https://m.3li.cc/tagcat/kehuan/{{page}}.html\n都市::https://m.3li.cc/tagcat/dushi/{{page}}.html\n武侠::https://m.3li.cc/tagcat/wuxia/{{page}}.html\n修真::https://m.3li.cc/tagcat/xiuzhen/{{page}}.html\n生活::https://m.3li.cc/tagcat/shenghuo/{{page}}.html\n动作::https://m.3li.cc/tagcat/dongzuo/{{page}}.html",
+    "header": "{\n  \"User-Agent\": \"UCWEB/2.0 (MIDP-2.0; U; Adr 9.0.0) UCBrowser U2/1.0.0 Focus/7.0.6 Gecko/63.0 Firefox/63.0 iPhone/7.1 SearchCraft/2.8.2 baiduboxapp/3.2.5.10 BingWeb/9.1 ALiSearchApp/2.4 MttCustomUA/2 QBWebViewType/1 WKType/1\"\n}",
+    "lastUpdateTime": 1603283636231,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.minignore content@text##讲述：",
+      "kind": "class.tags-txt@text"
+    },
+    "ruleContent": {
+      "content": ":_S001_vMMQZsSqq66JHArA5uAkiZcI4GPJ6MdTzYoMYn6j5w1NmcPoRVFBmBPXw4AZgJ3fJ5jgdPqgCaBI\nW4JDjQ+aGitjKIsOINNu8Eewm1vsY/+RsnQX+ux+uAML5fkMkvv/HY1aZQ3RLnXIb+3bfO5keg==\n",
+      "nextContentUrl": "class.paginate@tag.a!0@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "-class.pt-card pt-card-2@tag.li||class.comic-sort@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "lastChapter": "class.chapter@text",
+      "name": "tag.a@title"
+    },
+    "ruleToc": {
+      "chapterList": "-class.chapterlist@tag.li",
+      "chapterName": "tag.a@title",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://m.3li.cc/search.html?searchkey={{key}}",
+    "weight": 0
+  }]

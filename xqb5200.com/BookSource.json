@@ -1,0 +1,47 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🍅优选",
+    "bookSourceName": "🍅全本小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xqb5200.com/",
+    "customOrder": 10781,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::https://www.xqb5200.com/list/1_{{page}}.html\n仙侠修真::/list/2_{{page}}.html\n都市言情::/list/3_{{page}}.html\n历史军事::/list/4_{{page}}.html\n网游竞技::/list/5_{{page}}.html\n科幻灵异::/list/6_{{page}}.html\n恐怖惊悚::/list/7_{{page}}.html\n其他类型::/list/8_{{page}}.html\n人气排行::/top/monthvisit_{{page}}.html\n全本小说::/quanben/{{page}}",
+    "lastUpdateTime": 1606326956899,
+    "ruleBookInfo": {
+      "author": "class.infos@tag.span.0@tag.a@text",
+      "coverUrl": "class.pic@img@src",
+      "intro": "class.intro@text",
+      "lastChapter": "class.infos@tag.span.2@tag.a@text",
+      "name": "class.panel-intro@tag.h1@text",
+      "wordCount": "class.infos@tag.span.1@text"
+    },
+    "ruleContent": {
+      "content": "id.BookText@html"
+    },
+    "ruleExplore": {
+      "author": "tag.span.2@text",
+      "bookList": "class.item-con@tag.li",
+      "bookUrl": "tag.span.1@tag.a.0@href",
+      "kind": "tag.span.0@text",
+      "lastChapter": "tag.span.1@tag.i@tag.a@text",
+      "name": "tag.span.1@tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "tag.p.0@tag.i.0@text",
+      "bookList": "class.details@class.item-pic",
+      "bookUrl": "tag.h3@tag.a@href",
+      "coverUrl": "img@src",
+      "intro": "tag.p.2@text",
+      "lastChapter": "tag.p.1@tag.a@text",
+      "name": "tag.h3@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapterlist@tag.dd",
+      "chapterName": "tag.dd@tag.a@text",
+      "chapterUrl": "tag.dd@tag.a@href"
+    },
+    "searchUrl": "https://www.xqb5200.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\"charset\":\"gbk\"}",
+    "weight": 0
+  }]

@@ -1,0 +1,42 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎉精品",
+    "bookSourceName": "🎉 笔趣阁⑩",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.bequgew.com",
+    "bookUrlPattern": "",
+    "customOrder": -31921,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.info@h3@a@text",
+      "coverUrl": "img@src",
+      "intro": "id.intro@p@text",
+      "kind": "class.info@tag.p.0@text##所属类型：",
+      "lastChapter": "class.info@span@a@text",
+      "name": "class.info@h1@text"
+    },
+    "ruleContent": {
+      "content": "id.book_text@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tr",
+      "bookUrl": "class.odd@a@href",
+      "coverUrl": "tag.a.0@href##/(\\d+)(\\d{3})/##/files/article/image/$1/$1$2/$1$2s.jpg",
+      "kind": "class.even.2@text",
+      "lastChapter": "class.even@a@text",
+      "name": "class.odd@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.article@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.bequgew.com/modules/article/search.php?searchkey={{key}}",
+    "weight": 0
+  }]

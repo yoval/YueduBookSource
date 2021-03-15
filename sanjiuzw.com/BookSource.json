@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "error:failed to connect to m.sanjiuzw.com/115.238.239.133 (port 443) from /192.168.0.103 (port 41484) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "🚬刘备,失效",
+    "bookSourceName": "🚬 39小说[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.sanjiuzw.com",
+    "bookUrlPattern": "",
+    "customOrder": -31477,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::https://m.sanjiuxs.com/sort/1_{{page}}/\n仙侠::https://m.sanjiuxs.com/sort/2_{{page}}/\n都市::https://m.sanjiuxs.com/sort/3_{{page}}/\n历史::https://m.sanjiuxs.com/sort/4_{{page}}/\n网游::https://m.sanjiuxs.com/sort/5_{{page}}/\n科幻::https://m.sanjiuxs.com/sort/6_{{page}}/\n其他::https://m.sanjiuxs.com/sort/7_{{page}}/",
+    "lastUpdateTime": 1603247420642,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.block_txt2@tag.p.2@a@text",
+      "coverUrl": "class.block_img2img@src",
+      "intro": "class.intro_info@text",
+      "name": "class.block_txt2@h2@text",
+      "tocUrl": "text.查看目录@href"
+    },
+    "ruleContent": {
+      "content": "id.nr1@html##（本章未完.*|&&amp;hellip;##…",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.line",
+      "bookUrl": "tag.a.1@href",
+      "kind": "tag.a.0@text##\\[|\\]",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://m.sanjiuzw.com/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&type=articlename\"\n}",
+    "weight": 0
+  }]

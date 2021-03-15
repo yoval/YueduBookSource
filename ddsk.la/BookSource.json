@@ -1,0 +1,34 @@
+[  {
+    "bookSourceComment": "error:failed to connect to www.ddsk.la/115.238.239.133 (port 80) from /192.168.0.103 (port 49494) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "🎉精品,失效",
+    "bookSourceName": "🎉 顶点中文ddsk.la",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.ddsk.la",
+    "bookUrlPattern": "",
+    "customOrder": -32149,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
+    "lastUpdateTime": 1602812183997,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.picborder@tag.img@src",
+      "intro": "id.centerm@tag.tr.3@text##【作品简介】："
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##天才一秒.*最快更新\\!无广告\\!"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "tag.a.0@href@js:String(result).replace(/\\/wapbook\\//g,'https\\:\\/\\/www.dingdianku.com\\/book\\/')",
+      "name": "class.even@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.dccss",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.ddsk.la/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"utf-8\"\n}",
+    "weight": 0
+  }]

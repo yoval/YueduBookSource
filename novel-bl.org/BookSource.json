@@ -1,0 +1,40 @@
+[  {
+    "bookSourceComment": "error:failed to connect to novel-bl.org/47.52.95.170 (port 443) from /192.168.0.103 (port 42430) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "🚬刘备,失效",
+    "bookSourceName": "🚬 御宅屋[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://novel-bl.org",
+    "customOrder": -31487,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "快穿::/tag/kc/p_{{page}}.html\n美攻::/tag/mg/p_{{page}}.html\n肉文::/tag/rw/p_{{page}}.html\n年下::/tag/nx/p_{{page}}.html\n年上::/tag/ns/p_{{page}}.html\n生子::/tag/sz/p_{{page}}.html\n人兽::/tag/rs/p_{{page}}.html\n强强::/tag/qq/p_{{page}}.html\n穿越::/tag/cy/p_{{page}}.html\n双性::/tag/sx/p_{{page}}.html\n强受::/tag/qs/p_{{page}}.html\nABO::/tag/abo/p_{{page}}.html\n重生::/tag/cs/p_{{page}}.html\nHP::/tag/hp/p_{{page}}.html\n虐文::/tag/nw/p_{{page}}.html\n温馨::/tag/wx/p_{{page}}.html\nNP::/tag/np/p_{{page}}.html\n父子::/tag/fz/p_{{page}}.html\n兄弟::/tag/xd/p_{{page}}.html\n萌文::/tag/mw/p_{{page}}.html\nBE::/tag/be/p_{{page}}.html\n末世::/tag/ms/p_{{page}}.html\n人鱼::/tag/ry/p_{{page}}.html\n师生::/tag/ss/p_{{page}}.html\n网游::/tag/wy/p_{{page}}.html\n娱乐圈::/tag/ylq/p_{{page}}.html\n高干::/tag/gg/p_{{page}}.html\n金手指::/tag/jsz/p_{{page}}.html\n反攻::/tag/fg/p_{{page}}.html\n诱受::/tag/ys/p_{{page}}.html\n种田::/tag/zt/p_{{page}}.html\nSM调教::/tag/sm/p_{{page}}.html",
+    "lastUpdateTime": 1603041206582,
+    "ruleBookInfo": {
+      "lastChapter": ".article_info_td@tag.div.2@a@text"
+    },
+    "ruleContent": {
+      "content": "//*[@id='nr_title' or @id='nr']"
+    },
+    "ruleExplore": {
+      "author": "span@text",
+      "bookList": "id.list_ul@li",
+      "bookUrl": "tag.a.1@href",
+      "kind": "tag.a.0@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+      "author": "tag.p.0@text",
+      "bookList": "class.common-bookele",
+      "bookUrl": "tag.a.0@href",
+      "intro": ".abstract@a@textNodes",
+      "kind": "tag.p.1@text##栏目：|更新时间：",
+      "name": "tag.a.0@text@put:{book_name:'tag.a.0@text'}"
+    },
+    "ruleToc": {
+      "chapterList": "+@js:\nvar chapter_num;\nvar chapter_id;\nchapter_num=result.match(/共(\\d+)章节/)[1];\nchapter_id=result.match(/<a href=\"https:\\/\\/novel-bl[^\\/]*\\/novel\\/\\d+\\/(\\d+).html\".*>1<\\/a>/)[1];\nbaseUrl=baseUrl.match(/(.+).html/)[1];\nvar list=[];\nfor(var i=1;i<=chapter_num;i++){\nlist.push({v:'分卷阅读'+i,k:baseUrl+'/'+chapter_id+'.html'});\nchapter_id++;\n}\nlist",
+      "chapterName": "v",
+      "chapterUrl": "k"
+    },
+    "searchUrl": "/search.html?key={{key}}&page={{page}}",
+    "weight": 0
+  }]

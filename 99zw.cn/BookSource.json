@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "",
+    "bookSourceName": "99中文网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.99zw.cn",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": false,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.divbox cf@text##.*作者：|类别.*",
+      "coverUrl": "class.divbox cf@tag.img@src",
+      "intro": "class.gray@text",
+      "kind": "class.divbox cf@text##.*类别：|状态.*",
+      "lastChapter": "class.divbox cf@tag.a.1@text",
+      "name": "class.ratitle@text"
+    },
+    "ruleContent": {
+      "content": "id.ccontent@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##/html/(\\d+)/(\\d+)/##/image/$1/$2/$2s.jpg",
+      "kind": "class.even.2@text%%class.odd.2@text%%class.even.1@text",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.ccss@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php?searchtype=articlename&searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

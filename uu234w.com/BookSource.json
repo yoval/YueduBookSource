@@ -1,0 +1,39 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🍺特优",
+    "bookSourceName": "🍺 UU小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.uu234w.com",
+    "bookUrlPattern": "",
+    "customOrder": -116820,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::http://www.uu234w.com/xuanhuan/list_update_{{page}}.html\n武侠::http://www.uu234w.com/wuxia/list_update_{{page}}.html\n现代::http://www.uu234w.com/dushi/list_update_{{page}}.html\n言情::http://www.uu234w.com/yanqing/list_update_{{page}}.html\n历史::http://www.uu234w.com/junshi/list_update_{{page}}.html\n游戏::http://www.uu234w.com/jingji/list_update_{{page}}.html\n科幻::http://www.uu234w.com/kehuan/list_update_{{page}}.html\n耽美::http://www.uu234w.com/shenmei/list_update_{{page}}.html\n同人::http://www.uu234w.com/tongren/list_update_{{page}}.html\n其他::http://www.uu234w.com/qita/list_update_{{page}}.html\n全本::http://www.uu234w.com/quanben/list_{{page}}.html",
+    "lastUpdateTime": 1612275941707,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.con_limg@img@src",
+      "intro": "class.r_cons@text##内容简介:|情节跌宕起伏.*",
+      "lastChapter": "class.lastrecord@a@text",
+      "tocUrl": "class.dirtools@a@href"
+    },
+    "ruleContent": {
+      "content": "class.content@textNodes##UU小说.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.width111@a@text",
+      "bookList": "class.listcon clearfix@li",
+      "bookUrl": "a@href",
+      "kind": "class.width369@textNodes##\\[|]",
+      "lastChapter": "class.width369@tag.a.1@text",
+      "name": "class.width369@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.clearfix dirconone.1@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.uu234w.com/search?wd={{key}}&pn={{page-1}}",
+    "weight": 0
+  }]

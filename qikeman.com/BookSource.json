@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "🎨漫画",
+    "bookSourceName": "🎨 奇客漫",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.qikeman.com",
+    "bookUrlPattern": "",
+    "customOrder": -31289,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部::https://www.qikeman.com/booklist?page={{page}}\n连载中::https://www.qikeman.com/booklist?tag=%E5%85%A8%E9%83%A8&area=-1&end=0&page={{page}}\n已完结::https://www.qikeman.com/booklist?tag=%E5%85%A8%E9%83%A8&area=-1&end=1&page={{page}}\n都市::https://www.qikeman.com/booklist?tag=%E9%83%BD%E5%B8%82&page={{page}}\n绅士::https://www.qikeman.com/booklist?tag=%E7%BB%85%E5%A3%AB&page={{page}}\n热血::https://www.qikeman.com/booklist?tag=%E7%83%AD%E8%A1%80&page={{page}}\n校园::https://www.qikeman.com/booklist?tag=%E6%A0%A1%E5%9B%AD&page={{page}}\n百合::https://www.qikeman.com/booklist?tag=%E7%99%BE%E5%90%88&page={{page}}\n后宫::https://www.qikeman.com/booklist?tag=%E5%90%8E%E5%AE%AB&page={{page}}\n冒险::https://www.qikeman.com/booklist?tag=%E5%86%92%E9%99%A9&page={{page}}\n科幻::https://www.qikeman.com/booklist?tag=%E7%A7%91%E5%B9%BB&page={{page}}\n搞笑::https://www.qikeman.com/booklist?tag=%E6%90%9E%E7%AC%91&page={{page}}\n奇幻::https://www.qikeman.com/booklist?tag=%E5%A5%87%E5%B9%BB&page={{page}}\n恐怖::https://www.qikeman.com/booklist?tag=%E6%81%90%E6%80%96&page={{page}}\n恋爱::https://www.qikeman.com/booklist?tag=%E6%81%8B%E7%88%B1&page={{page}}\nBL::https://www.qikeman.com/booklist?tag=BL&page={{page}}",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_2 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8H7 Safari/6533.18.5 Quark/2.4.2.986\"\n}",
+    "lastUpdateTime": 1603283556636,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.detail-main-info-author.1@text##作者：",
+      "intro": "class.detail-desc@text",
+      "kind": "class.detail-main-info-class@tag.span@text",
+      "lastChapter": "id.chapter_indexes@tag.li@tag.a.-1@text"
+    },
+    "ruleContent": {
+      "content": ":_S001_30he0RZ+KcIRod2CHwH8FJgwtf92u3S5Q03JpiSneIo=\n"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.span.0@text##作者：",
+      "bookList": "class.book-list@tag.li&&class.manga-list-2@tag.li",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@data-original",
+      "kind": "tag.span.1@text",
+      "lastChapter": "class.manga-list-2-tip@tag.a@text##已更新\\s",
+      "name": "tag.p.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapter_indexes@tag.li",
+      "chapterName": "tag.a@text##^.*：",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.qikeman.com/search?keyword={{key}}",
+    "weight": 0
+  }]

@@ -1,0 +1,41 @@
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "天域战歌",
+    "bookSourceName": "30书院",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.30sy.cc",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "周榜::https://m.30sy.cc/top/weekvisit/{{page}}.html\n月榜::https://m.30sy.cc/top/monthvisit/{{page}}.html\n总榜::https://m.30sy.cc/top/allvisit/{{page}}.html\n收藏::https://m.30sy.cc/top/marknum/{{page}}.html\n推荐::https://m.30sy.cc/top/votenum/{{page}}.html\n下载::https://m.30sy.cc/top/downnum/{{page}}.html\n全本::https://m.30sy.cc/over/{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.baseinfo@img@src",
+      "intro": "class.intro@text",
+      "lastChapter": "class.ptm-list-view@tag.li.0@a@text",
+      "name": "class.pt-name.0@text",
+      "tocUrl": "@js:baseUrl.replace(/m/,\"www\")"
+    },
+    "ruleContent": {
+      "content": "id.articlecon@html##30书院.*|.*章已阅读.*",
+      "nextContentUrl": "@js:\nif(result.match(/([^\"]*_\\d\\.html)/g)){\nresult='https://m.30sy.cc' + result.match(/([^\"]*_\\d\\.html)/g)[0];}"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.pt-info.0@tag.a.0@text",
+      "bookList": "class.baseinfo&&class.pt-card pt-card-2@li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "class.pt-cover@img@src",
+      "kind": "class.pt-info@tag.a.1@text",
+      "name": "class.pt-name@a@text##全文免费阅读|免费阅读"
+    },
+    "ruleToc": {
+      "chapterList": "class.dirlist clearfix.1@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href##^##https://m.30sy.cc"
+    },
+    "searchUrl": "https://m.30sy.cc/search.html?saerchkey={{key}}",
+    "weight": 0
+  }]

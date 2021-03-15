@@ -1,0 +1,64 @@
+[  {
+    "bookSourceComment": "error:Expected URL scheme 'http' or 'https' but was 'javascript'\n",
+    "bookSourceGroup": "🎉精品,失效",
+    "bookSourceName": "🎉 第九源小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.dijiuyuan.com",
+    "bookUrlPattern": "",
+    "customOrder": -32604,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1602811971260,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.p_author@tag.a@text",
+      "coverUrl": "id.bookimg@tag.img@src",
+      "init": "",
+      "intro": "id.bookintro@text",
+      "kind": "id.count@tag.li.0@text##分类：",
+      "lastChapter": "class.chaw@tag.li.0@text",
+      "name": "class.d_title@tag.h1@text",
+      "tocUrl": "class.b1@tag.a@href",
+      "wordCount": "id.count@tag.li.1@text##字数："
+    },
+    "ruleContent": {
+      "content": "id.TextContent@html",
+      "nextContentUrl": "id.next_url@href",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.book_other@tag.span.0@text",
+      "bookList": "id.sitebox@tag.dl",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.book_des@text",
+      "kind": "class.book_other@tag.span.1@text",
+      "lastChapter": "tag.a.-1@text",
+      "name": "tag.a.1@text",
+      "wordCount": "class.book_other@tag.span.2@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterList@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "https://www.dijiuyuan.com/search/,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]
