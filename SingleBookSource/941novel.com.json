@@ -1,1 +1,40 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "就是要小说", "bookSourceType": 0, "bookSourceUrl": "https://941novel.com", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "综合成人::https://941novel.com/archives/category/【綜合成人文學】/page/{{page}}\n不伦恋曲::https://941novel.com/archives/category/不倫戀曲系列/page/{{page}}\n人妻熟女::https://941novel.com/archives/category/人妻熟女系列/page/{{page}}\n其它类别::https://941novel.com/archives/category/其他類別系列/page/{{page}}\n凌辱调教::https://941novel.com/archives/category/凌辱調教系列/page/{{page}}\n日常生活::https://941novel.com/archives/category/日常生活系列/page/{{page}}\n校园师生::https://941novel.com/archives/category/校園師生系列/page/{{page}}\n玄幻武侠::https://941novel.com/archives/category/玄幻武俠系列/page/{{page}}\n科幻剧情::https://941novel.com/archives/category/科幻劇情系列/page/{{page}}\n经验分享::https://941novel.com/archives/category/經驗分享系列/page/{{page}}", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": "null", "name": "tag.h1@tag.a@text", "tocUrl": "tag.h1@tag.a@href"}, "ruleContent": {"content": "tag.h4.0@html"}, "ruleExplore": {"bookList": "id.archive-posts@tag.ul@tag.li", "bookUrl": "tag.li@tag.h3@tag.a@href", "kind": "tag.li@tag.span@text", "name": "tag.li@tag.h3@tag.a@text"}, "ruleSearch": {"bookList": "id.archive-posts@tag.ul@tag.li", "bookUrl": "tag.li@tag.h3@tag.a@href", "kind": "tag.li@tag.span@text", "name": "tag.li@tag.h3@tag.a@text"}, "ruleToc": {"chapterList": "id.content@tag.h1", "chapterName": "tag.h1@tag.a@text"}, "searchUrl": "https://941novel.com/?s={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "就是要小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://941novel.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "综合成人::https://941novel.com/archives/category/【綜合成人文學】/page/{{page}}\n不伦恋曲::https://941novel.com/archives/category/不倫戀曲系列/page/{{page}}\n人妻熟女::https://941novel.com/archives/category/人妻熟女系列/page/{{page}}\n其它类别::https://941novel.com/archives/category/其他類別系列/page/{{page}}\n凌辱调教::https://941novel.com/archives/category/凌辱調教系列/page/{{page}}\n日常生活::https://941novel.com/archives/category/日常生活系列/page/{{page}}\n校园师生::https://941novel.com/archives/category/校園師生系列/page/{{page}}\n玄幻武侠::https://941novel.com/archives/category/玄幻武俠系列/page/{{page}}\n科幻剧情::https://941novel.com/archives/category/科幻劇情系列/page/{{page}}\n经验分享::https://941novel.com/archives/category/經驗分享系列/page/{{page}}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "null",
+      "name": "tag.h1@tag.a@text",
+      "tocUrl": "tag.h1@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "tag.h4.0@html"
+    },
+    "ruleExplore": {
+      "bookList": "id.archive-posts@tag.ul@tag.li",
+      "bookUrl": "tag.li@tag.h3@tag.a@href",
+      "kind": "tag.li@tag.span@text",
+      "name": "tag.li@tag.h3@tag.a@text"
+    },
+    "ruleSearch": {
+      "bookList": "id.archive-posts@tag.ul@tag.li",
+      "bookUrl": "tag.li@tag.h3@tag.a@href",
+      "kind": "tag.li@tag.span@text",
+      "name": "tag.li@tag.h3@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.content@tag.h1",
+      "chapterName": "tag.h1@tag.a@text"
+    },
+    "searchUrl": "https://941novel.com/?s={{key}}",
+    "weight": 0
+  }]

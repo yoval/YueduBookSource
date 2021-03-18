@@ -1,1 +1,39 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "👍 黄鹤楼文学", "bookSourceType": 0, "bookSourceUrl": "https://www.hhlwx.com", "customOrder": -114844, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1612812451845, "ruleBookInfo": {"author": "class.nbs_1.0@tag.a@text", "coverUrl": "tag.img.2@src", "intro": "tag.div.103@text##最.*", "name": "tag.h1@text", "tocUrl": "text.点击阅读@href"}, "ruleContent": {"content": "tag.div.35@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.book_h@tag.span@text", "bookList": "class.shu_one", "bookUrl": "class.shu_book@tag.a@href", "coverUrl": "tag.img@src", "intro": "class.book_info@text", "kind": "class.book_text@tag.a@text", "lastChapter": "class.book_last@tag.a@textNodes", "name": "class.book_h@textNodes"}, "ruleToc": {"chapterList": "class.chapterlist@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "/hhllist/{{key}}_{{page}}.html", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "👍 黄鹤楼文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.hhlwx.com",
+    "customOrder": -114844,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612812451845,
+    "ruleBookInfo": {
+      "author": "class.nbs_1.0@tag.a@text",
+      "coverUrl": "tag.img.2@src",
+      "intro": "tag.div.103@text##最.*",
+      "name": "tag.h1@text",
+      "tocUrl": "text.点击阅读@href"
+    },
+    "ruleContent": {
+      "content": "tag.div.35@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.book_h@tag.span@text",
+      "bookList": "class.shu_one",
+      "bookUrl": "class.shu_book@tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.book_info@text",
+      "kind": "class.book_text@tag.a@text",
+      "lastChapter": "class.book_last@tag.a@textNodes",
+      "name": "class.book_h@textNodes"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapterlist@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/hhllist/{{key}}_{{page}}.html",
+    "weight": 0
+  }]

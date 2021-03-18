@@ -1,1 +1,39 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 国度书院", "bookSourceType": 0, "bookSourceUrl": "https://m.guodusy.com", "bookUrlPattern": "", "customOrder": -31982, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": "img@src", "intro": "class.intro@tag.p.0@text", "lastChapter": "class.new@a@text"}, "ruleContent": {"content": "class.content@html##喜欢.*m.guodusy.com.*更新速度最快。"}, "ruleExplore": {}, "ruleSearch": {"author": "class.data.0@tag.a.0@text", "bookList": "class.list@tag.li", "bookUrl": "class.bookname@tag.a.0@href", "coverUrl": "tag.img@src", "kind": "class.layui-btn layui-btn-xs layui-btn-radius@text", "lastChapter": "class.data.1@tag.a.0@text", "name": "class.bookname@tag.a.0@text"}, "ruleToc": {"chapterList": "class.read@tag.a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "text.下一页@href"}, "searchUrl": "https://m.guodusy.com/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 国度书院",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.guodusy.com",
+    "bookUrlPattern": "",
+    "customOrder": -31982,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "img@src",
+      "intro": "class.intro@tag.p.0@text",
+      "lastChapter": "class.new@a@text"
+    },
+    "ruleContent": {
+      "content": "class.content@html##喜欢.*m.guodusy.com.*更新速度最快。"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.data.0@tag.a.0@text",
+      "bookList": "class.list@tag.li",
+      "bookUrl": "class.bookname@tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "kind": "class.layui-btn layui-btn-xs layui-btn-radius@text",
+      "lastChapter": "class.data.1@tag.a.0@text",
+      "name": "class.bookname@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.read@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://m.guodusy.com/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

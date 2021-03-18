@@ -1,1 +1,40 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "燃文", "bookSourceType": 0, "bookSourceUrl": "http://www.778buy.com", "customOrder": 0, "enabled": true, "enabledExplore": false, "lastUpdateTime": 0, "loginUrl": "@js:\n//该书源不好用,网站经常打不开", "ruleBookInfo": {"author": "tag.meta.8@content", "coverUrl": "tag.img.0@src", "intro": "id.CrbsSum.0@text", "kind": "tag.meta.7@content", "lastChapter": "tag.meta.13@content", "name": "class.sf-mainbox.0@tag.a.1@text", "tocUrl": "class.head.0@tag.a.1@href"}, "ruleContent": {"content": "id.content.0@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@text", "bookList": "class.grid@tag.tr!0", "bookUrl": "tag.a.0@href", "kind": "tag.td.-1@text", "lastChapter": "class.even.0@tag.a.0@text", "name": "class.odd.0@tag.a.0@text"}, "ruleToc": {"chapterList": "class.link_14.0@tag.td", "chapterName": "tag.a.0@text", "chapterUrl": "tag.a.0@href"}, "searchUrl": "http://www.778buy.com/modules/article/dsearch.php,{\n     \t\"charset\": \"gbk\",\n     \t\"method\": \"POST\",\n     \t\"body\": \"searchkey={{key}}&searchtype=articlename\",\n     \t\"headers\": {\"Content-Type\":\"application/x-www-form-urlencoded\",\n\t\t\t\t\t\"Host\":\"www.778buy.com\",\n\t\t\t\t\t\"Origin\":\"http://www.778buy.com\",\n\t\t\t\t\t\"Referer\":\"http://www.778buy.com/\",\n\t\t\t\t\t\"User-Agent\":\"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36\"\n     \t}\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "燃文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.778buy.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "@js:\n//该书源不好用,网站经常打不开",
+    "ruleBookInfo": {
+      "author": "tag.meta.8@content",
+      "coverUrl": "tag.img.0@src",
+      "intro": "id.CrbsSum.0@text",
+      "kind": "tag.meta.7@content",
+      "lastChapter": "tag.meta.13@content",
+      "name": "class.sf-mainbox.0@tag.a.1@text",
+      "tocUrl": "class.head.0@tag.a.1@href"
+    },
+    "ruleContent": {
+      "content": "id.content.0@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "tag.a.0@href",
+      "kind": "tag.td.-1@text",
+      "lastChapter": "class.even.0@tag.a.0@text",
+      "name": "class.odd.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.link_14.0@tag.td",
+      "chapterName": "tag.a.0@text",
+      "chapterUrl": "tag.a.0@href"
+    },
+    "searchUrl": "http://www.778buy.com/modules/article/dsearch.php,{\n     \t\"charset\": \"gbk\",\n     \t\"method\": \"POST\",\n     \t\"body\": \"searchkey={{key}}&searchtype=articlename\",\n     \t\"headers\": {\"Content-Type\":\"application/x-www-form-urlencoded\",\n\t\t\t\t\t\"Host\":\"www.778buy.com\",\n\t\t\t\t\t\"Origin\":\"http://www.778buy.com\",\n\t\t\t\t\t\"Referer\":\"http://www.778buy.com/\",\n\t\t\t\t\t\"User-Agent\":\"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36\"\n     \t}\n}",
+    "weight": 0
+  }]

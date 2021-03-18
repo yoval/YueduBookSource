@@ -1,1 +1,48 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "📚 赤壁小说", "bookSourceType": 0, "bookSourceUrl": "https://www.cbxs.net", "bookUrlPattern": "https?://www\\.cbxs\\.net/\\w+/\\d+/", "customOrder": -116732, "enabled": true, "enabledExplore": true, "exploreUrl": "【排行榜单】::\n总点击榜::/top/\n总推荐榜::/top/index.php?type=1\n总下载榜::/top/index.php?type=2\n【经典小说】::\n武侠小说::/wuxia/<,index_{{page}}.html>\n言情小说::/yanqing/<,index_{{page}}.html>\n当代小说::/dangdai/<,index_{{page}}.html>\n外国文学::/waiguo/<,index_{{page}}.html>\n历史小说::/lishi/<,index_{{page}}.html>\n恐怖小说::/kongbu/<,index_{{page}}.html>\n网络小说::/xuanhuan/<,index_{{page}}.html>\n传记回忆::/zhuanji/<,index_{{page}}.html>\n英文读本::/yingwen/<,index_{{page}}.html>\n杂文随笔::/suibi/<,index_{{page}}.html>\n现代小说::/xiandai/<,index_{{page}}.html>\n侦探推理::/zhentan/<,index_{{page}}.html>\n寓言童话::/yuyan/<,index_{{page}}.html>\n青春都市::/dushi/<,index_{{page}}.html>\n社会心理::/shehui/<,index_{{page}}.html>\n科幻小说::/kehuan/<,index_{{page}}.html>\n纪实报告::/jishi/<,index_{{page}}.html>\n世界历史::/shijie/\n中国历史::/zhongguo/<,index_{{page}}.html>\n科普学习::/xuexi/<,index_{{page}}.html>\n诗歌戏曲::/shige/<,index_{{page}}.html>\n宗教哲学::/zhexue/<,index_{{page}}.html>\n文学理论::/lilun/<,index_{{page}}.html>\n日语读物::/riyu/\n作品集::/zuopinji/<,index_{{page}}.html>\n国学古籍::/guoxue/\n战争军事::/junshi/<,index_{{page}}.html>\n政治经济::/jingji/<,index_{{page}}.html>\n古典文学::/gudian/<,index_{{page}}.html>\n官场小说::/guanchang/<,index_{{page}}.html>\n轻の小说::/qing/<,index_{{page}}.html>\n【短篇文学】::\n小小说::/xxs/<,index_{{page}}.html>\n中篇::/zp/<,index_{{page}}.html>\n短篇::/dp/<,index_{{page}}.html>\n科幻::/kh/<,index_{{page}}.html>\n历史::/ls/\n侦探推理::/zt/<,index_{{page}}.html>\n杂文随便::/zw/<,index_{{page}}.html>\n电影剧本::/dy/\n经典美文::/mw/<,index_{{page}}.html>\n散文随笔::/sw/<,index_{{page}}.html>\n儿童文学::/et/<,index_{{page}}.html>\none/1个::/one/<,index_{{page}}.html>\n外国小说::/wg/<,index_{{page}}.html>\n推理小说::/tl/<,index_{{page}}.html>\n诗歌::/sg/\n古典文学::/gd/\n惊悚悬疑::/js/\n武侠小说::/wx/\n童话故事::/th/\n诗词歌赋::/sc/\n书信::/sx/\n剧本::/jb/\n纪实报告::/bg/\n科普学习::/kp/\n人物传记::/rw/\n影视评论::/ys/", "lastUpdateTime": 1605024596615, "loginUrl": "", "ruleBookInfo": {"author": ".authorbooks@text##作品集.+", "coverUrl": "img@src", "intro": ".m-bkcont@p@text", "kind": "##-my(?:[^>]*>){10}([^<]*)(?:[^>]*>){19}([^\\s]*)[^\\d]*([^\\/]*)##$1,$2,$3###", "lastChapter": ".book-list@tag.a.-1@text", "name": "h1!0@text"}, "ruleContent": {"content": "id.nr1@tag.p@text", "imageStyle": "0"}, "ruleExplore": {"author": "tag.a.2@text||tag.em.0@text", "bookList": ".bd@li||ol@li||class.newslist clearfix@li", "bookUrl": "tag.a.0@href", "coverUrl": "img@src", "intro": "tag.p.1@text", "kind": "tag.em.1@text", "name": "h2@text||a@text"}, "ruleSearch": {"bookList": ".newslist@li", "bookUrl": "a!0@href", "kind": "a!1@text", "name": "a!0@text"}, "ruleToc": {"chapterList": "+dl@dd@a||h1", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "/e/search/index.php,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"show=title&tempid=1&keyboard={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "📚 赤壁小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.cbxs.net",
+    "bookUrlPattern": "https?://www\\.cbxs\\.net/\\w+/\\d+/",
+    "customOrder": -116732,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "【排行榜单】::\n总点击榜::/top/\n总推荐榜::/top/index.php?type=1\n总下载榜::/top/index.php?type=2\n【经典小说】::\n武侠小说::/wuxia/<,index_{{page}}.html>\n言情小说::/yanqing/<,index_{{page}}.html>\n当代小说::/dangdai/<,index_{{page}}.html>\n外国文学::/waiguo/<,index_{{page}}.html>\n历史小说::/lishi/<,index_{{page}}.html>\n恐怖小说::/kongbu/<,index_{{page}}.html>\n网络小说::/xuanhuan/<,index_{{page}}.html>\n传记回忆::/zhuanji/<,index_{{page}}.html>\n英文读本::/yingwen/<,index_{{page}}.html>\n杂文随笔::/suibi/<,index_{{page}}.html>\n现代小说::/xiandai/<,index_{{page}}.html>\n侦探推理::/zhentan/<,index_{{page}}.html>\n寓言童话::/yuyan/<,index_{{page}}.html>\n青春都市::/dushi/<,index_{{page}}.html>\n社会心理::/shehui/<,index_{{page}}.html>\n科幻小说::/kehuan/<,index_{{page}}.html>\n纪实报告::/jishi/<,index_{{page}}.html>\n世界历史::/shijie/\n中国历史::/zhongguo/<,index_{{page}}.html>\n科普学习::/xuexi/<,index_{{page}}.html>\n诗歌戏曲::/shige/<,index_{{page}}.html>\n宗教哲学::/zhexue/<,index_{{page}}.html>\n文学理论::/lilun/<,index_{{page}}.html>\n日语读物::/riyu/\n作品集::/zuopinji/<,index_{{page}}.html>\n国学古籍::/guoxue/\n战争军事::/junshi/<,index_{{page}}.html>\n政治经济::/jingji/<,index_{{page}}.html>\n古典文学::/gudian/<,index_{{page}}.html>\n官场小说::/guanchang/<,index_{{page}}.html>\n轻の小说::/qing/<,index_{{page}}.html>\n【短篇文学】::\n小小说::/xxs/<,index_{{page}}.html>\n中篇::/zp/<,index_{{page}}.html>\n短篇::/dp/<,index_{{page}}.html>\n科幻::/kh/<,index_{{page}}.html>\n历史::/ls/\n侦探推理::/zt/<,index_{{page}}.html>\n杂文随便::/zw/<,index_{{page}}.html>\n电影剧本::/dy/\n经典美文::/mw/<,index_{{page}}.html>\n散文随笔::/sw/<,index_{{page}}.html>\n儿童文学::/et/<,index_{{page}}.html>\none/1个::/one/<,index_{{page}}.html>\n外国小说::/wg/<,index_{{page}}.html>\n推理小说::/tl/<,index_{{page}}.html>\n诗歌::/sg/\n古典文学::/gd/\n惊悚悬疑::/js/\n武侠小说::/wx/\n童话故事::/th/\n诗词歌赋::/sc/\n书信::/sx/\n剧本::/jb/\n纪实报告::/bg/\n科普学习::/kp/\n人物传记::/rw/\n影视评论::/ys/",
+    "lastUpdateTime": 1605024596615,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": ".authorbooks@text##作品集.+",
+      "coverUrl": "img@src",
+      "intro": ".m-bkcont@p@text",
+      "kind": "##-my(?:[^>]*>){10}([^<]*)(?:[^>]*>){19}([^\\s]*)[^\\d]*([^\\/]*)##$1,$2,$3###",
+      "lastChapter": ".book-list@tag.a.-1@text",
+      "name": "h1!0@text"
+    },
+    "ruleContent": {
+      "content": "id.nr1@tag.p@text",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "author": "tag.a.2@text||tag.em.0@text",
+      "bookList": ".bd@li||ol@li||class.newslist clearfix@li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@src",
+      "intro": "tag.p.1@text",
+      "kind": "tag.em.1@text",
+      "name": "h2@text||a@text"
+    },
+    "ruleSearch": {
+      "bookList": ".newslist@li",
+      "bookUrl": "a!0@href",
+      "kind": "a!1@text",
+      "name": "a!0@text"
+    },
+    "ruleToc": {
+      "chapterList": "+dl@dd@a||h1",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/e/search/index.php,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"show=title&tempid=1&keyboard={{key}}\"\n}",
+    "weight": 0
+  }]

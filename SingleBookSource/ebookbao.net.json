@@ -1,1 +1,39 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🍑 书包网", "bookSourceType": 0, "bookSourceUrl": "https://www.ebookbao.net", "customOrder": -116124, "enabled": true, "enabledExplore": true, "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0\"\n}", "lastUpdateTime": 1607691740725, "ruleBookInfo": {"author": "id.info@tag.a.0@text##免费阅读\\/", "coverUrl": "img@src", "intro": "id.intro@text", "kind": "id.info@tag.p.2@text##最后更新：|\\s.*", "lastChapter": "id.info@tag.a.-1@text", "name": "h1@text##((在线)?免费阅读|最新章节|txt全集(下载)?)$"}, "ruleContent": {"content": "id.content@textNodes##本站 0zw，最快更新.*?最新章节！|一秒记住，精彩小说无弹窗免费阅读！"}, "ruleExplore": {}, "ruleSearch": {"author": "$3", "bookList": ":k\\/(\\d+)[^>]*>([^<]*)<(?:[^>]*>){4}([^<]*)<(?:[^>]*>){4}([^<]*)<(?:[^>]*>){3}([^<]*)<", "bookUrl": "/book/$1/", "kind": "$5", "lastChapter": "$4", "name": "$2"}, "ruleToc": {"chapterList": "//*[@id=\"list\"]//dt[2]/following-sibling::dd/a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "/index.php?s=/web/index/search,{\n  \"method\": \"POST\",\n  \"body\": \"name={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍑 书包网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ebookbao.net",
+    "customOrder": -116124,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0\"\n}",
+    "lastUpdateTime": 1607691740725,
+    "ruleBookInfo": {
+      "author": "id.info@tag.a.0@text##免费阅读\\/",
+      "coverUrl": "img@src",
+      "intro": "id.intro@text",
+      "kind": "id.info@tag.p.2@text##最后更新：|\\s.*",
+      "lastChapter": "id.info@tag.a.-1@text",
+      "name": "h1@text##((在线)?免费阅读|最新章节|txt全集(下载)?)$"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##本站 0zw，最快更新.*?最新章节！|一秒记住，精彩小说无弹窗免费阅读！"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$3",
+      "bookList": ":k\\/(\\d+)[^>]*>([^<]*)<(?:[^>]*>){4}([^<]*)<(?:[^>]*>){4}([^<]*)<(?:[^>]*>){3}([^<]*)<",
+      "bookUrl": "/book/$1/",
+      "kind": "$5",
+      "lastChapter": "$4",
+      "name": "$2"
+    },
+    "ruleToc": {
+      "chapterList": "//*[@id=\"list\"]//dt[2]/following-sibling::dd/a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/index.php?s=/web/index/search,{\n  \"method\": \"POST\",\n  \"body\": \"name={{key}}\"\n}",
+    "weight": 0
+  }]

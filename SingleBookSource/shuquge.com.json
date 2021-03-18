@@ -1,1 +1,64 @@
-[{"bookSourceComment": "error:搜索内容为空并且没有发现\n", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 书趣阁", "bookSourceType": 0, "bookSourceUrl": "http://www.shuquge.com", "bookUrlPattern": "", "customOrder": -32595, "enabled": true, "enabledExplore": true, "exploreUrl": "", "header": "", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "class.small@tag.span.0@text##作者：", "coverUrl": "class.cover@tag.img@src", "init": "", "intro": "class.intro@text", "kind": "class.small@tag.span.1@text##分类：", "lastChapter": "class.listmain@tag.a.0@text", "name": "class.info@tag.h2@text", "tocUrl": "", "wordCount": "class.small@tag.span.3@text##字数："}, "ruleContent": {"content": "id.content@html##请记住本书首发.*|http.*html", "nextContentUrl": "", "sourceRegex": "", "webJs": ""}, "ruleExplore": {"author": "", "bookList": "", "bookUrl": "", "coverUrl": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "wordCount": ""}, "ruleSearch": {"author": "class.author.0@text##作者：", "bookList": "class.bookbox", "bookUrl": "class.bookname@tag.a@href", "coverUrl": "", "intro": "", "kind": "class.cat@text##分类：", "lastChapter": "class.update@tag.a@text", "name": "class.bookname@text", "wordCount": ""}, "ruleToc": {"chapterList": "class.listmain@tag.dd!0:1:2:3:4:5:6:7:8:9:10:11", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "isVip": "", "nextTocUrl": "", "updateTime": ""}, "searchUrl": "/search.php,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 书趣阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.shuquge.com",
+    "bookUrlPattern": "",
+    "customOrder": -32595,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.small@tag.span.0@text##作者：",
+      "coverUrl": "class.cover@tag.img@src",
+      "init": "",
+      "intro": "class.intro@text",
+      "kind": "class.small@tag.span.1@text##分类：",
+      "lastChapter": "class.listmain@tag.a.0@text",
+      "name": "class.info@tag.h2@text",
+      "tocUrl": "",
+      "wordCount": "class.small@tag.span.3@text##字数："
+    },
+    "ruleContent": {
+      "content": "id.content@html##请记住本书首发.*|http.*html",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.author.0@text##作者：",
+      "bookList": "class.bookbox",
+      "bookUrl": "class.bookname@tag.a@href",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "class.cat@text##分类：",
+      "lastChapter": "class.update@tag.a@text",
+      "name": "class.bookname@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.dd!0:1:2:3:4:5:6:7:8:9:10:11",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "/search.php,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

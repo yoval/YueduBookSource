@@ -1,1 +1,48 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "八一中文网", "bookSourceType": 0, "bookSourceUrl": "https://www.81zw.org", "customOrder": -32, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻小说::/xuanhuan/\n修真小说::/xiuzhen/\n都市小说::/dushi/\n历史小说::/lishi/\n网游小说::/wangyou/\n科幻小说::/kehuan/\n言情小说::/yanqing/\n其他小说::/qita/\n全本小说::/quanben/", "lastUpdateTime": 1607067285367, "loginUrl": "", "ruleBookInfo": {"author": "@css:#info>p:nth-child(4)@text", "coverUrl": "@css:#fmimg>img@src", "intro": "@css:#intro>p:nth-child(1)@text", "kind": "@css:#info>p:nth-child(2)@text##分类：", "lastChapter": "@css:#info>p:nth-child(6)>a@text", "name": "@css:#info>h1@text"}, "ruleContent": {"content": "@css:.#content\"]@html"}, "ruleExplore": {"author": "@css:.s4@text", "bookList": "@css:.l.bd>ul>li", "bookUrl": "@css:.s2>a@href", "lastChapter": "@css:.s3>a@text", "name": "@css:.s2>a@text"}, "ruleSearch": {"author": "@css:.author@text", "bookList": "@css:.bookbox", "bookUrl": "@css:.bookname>a@href", "coverUrl": "@css:.bookimg>a>img@src", "intro": "@css:p@text", "kind": "@css:.cat@text##分类：", "lastChapter": "@css:.update>a@text", "name": "@css:h4.bookname>a@text"}, "ruleToc": {"chapterList": "@css:.listmain>dl>dd:nth-child(n+2)>a", "chapterName": "@text", "chapterUrl": "@href"}, "searchUrl": "https://www.81zw.org/s.php?ie=gbk&q={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "八一中文网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.81zw.org",
+    "customOrder": -32,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/xuanhuan/\n修真小说::/xiuzhen/\n都市小说::/dushi/\n历史小说::/lishi/\n网游小说::/wangyou/\n科幻小说::/kehuan/\n言情小说::/yanqing/\n其他小说::/qita/\n全本小说::/quanben/",
+    "lastUpdateTime": 1607067285367,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "@css:#info>p:nth-child(4)@text",
+      "coverUrl": "@css:#fmimg>img@src",
+      "intro": "@css:#intro>p:nth-child(1)@text",
+      "kind": "@css:#info>p:nth-child(2)@text##分类：",
+      "lastChapter": "@css:#info>p:nth-child(6)>a@text",
+      "name": "@css:#info>h1@text"
+    },
+    "ruleContent": {
+      "content": "@css:.#content\"]@html"
+    },
+    "ruleExplore": {
+      "author": "@css:.s4@text",
+      "bookList": "@css:.l.bd>ul>li",
+      "bookUrl": "@css:.s2>a@href",
+      "lastChapter": "@css:.s3>a@text",
+      "name": "@css:.s2>a@text"
+    },
+    "ruleSearch": {
+      "author": "@css:.author@text",
+      "bookList": "@css:.bookbox",
+      "bookUrl": "@css:.bookname>a@href",
+      "coverUrl": "@css:.bookimg>a>img@src",
+      "intro": "@css:p@text",
+      "kind": "@css:.cat@text##分类：",
+      "lastChapter": "@css:.update>a@text",
+      "name": "@css:h4.bookname>a@text"
+    },
+    "ruleToc": {
+      "chapterList": "@css:.listmain>dl>dd:nth-child(n+2)>a",
+      "chapterName": "@text",
+      "chapterUrl": "@href"
+    },
+    "searchUrl": "https://www.81zw.org/s.php?ie=gbk&q={{key}}",
+    "weight": 0
+  }]

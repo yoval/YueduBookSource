@@ -1,1 +1,41 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "博听", "bookSourceType": 1, "bookSourceUrl": "http://www.boting.co", "bookUrlPattern": "https?://www.boting.co/book/\\d+.htm", "customOrder": 900, "enabled": false, "enabledExplore": true, "exploreUrl": "经典文学::/category/tingshu2sviewp{{page}}o1.html\n经典排行::/category/tingshu2sviewp{{page}}o4.html\n家庭教育::/category/tingshu3sviewp{{page}}o1.html\n教育排行::/category/tingshu3sviewp{{page}}o4.html\n人文社科::/category/tingshu4sviewp{{page}}o1.html\n人文排行::/category/tingshu4sviewp{{page}}o4.html\n英文学习::/category/tingshu5sviewp{{page}}o1.html\n英文排行::/category/tingshu5sviewp{{page}}o4.html\n经管励志::/category/tingshu6sviewp{{page}}o1.html\n经管排行::/category/tingshu6sviewp{{page}}o4.html\n有声小说::/category/tingshu7sviewp{{page}}o1.html\n有声排行::/category/tingshu7sviewp{{page}}o4.html\n在线评书::/category/tingshu8sviewp{{page}}o1.html\n评书排行::/category/tingshu8sviewp{{page}}o4.html\n相声大全::/category/tingshu76sviewp{{page}}o1.html\n相声排行::/category/tingshu76sviewp{{page}}o4.html\n小品大全::/category/tingshu9sviewp{{page}}o1.html\n小品排行::/category/tingshu9sviewp{{page}}o4.html\n戏曲大全::/category/tingshu130sviewp{{page}}o1.html\n戏曲排行::/category/tingshu130sviewp{{page}}o4.html", "lastUpdateTime": 0, "loginUrl": "｡◕‿◕｡", "ruleBookInfo": {"author": "class.infobt@tag.a.1@text", "coverUrl": "class.bookimg@src", "intro": "class.bookintro2@textNodes", "lastChapter": "class.infolist@class.stateto@text", "name": "h1@text"}, "ruleContent": {"content": "id.jp_audio_0@src"}, "ruleExplore": {}, "ruleSearch": {"author": "class.bookinfo@text<js>\nvar matcher = String(result).match(/\\[著\\](\\S*)/)[1];\n(matcher || '').replace('未知', '');\n</js>", "bookList": "class.gnlist@li", "bookUrl": "class.bookname@tag.a@href", "coverUrl": "class.photo@tag.img@i@js:result||'http://1t.click/HNK'", "kind": "class.bookinfo@text<js>\nvar matcher = String(result).match(/\\[音\\]([\\S\\[]*)/)[1];\nvar name = (matcher || '').replace('未知', '');\nname ? '播音：' + name : '';\n</js>", "name": "class.bookname@tag.a@text"}, "ruleToc": {"chapterList": "class.i_title@a||class.i_time@a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "text.下一页@href"}, "searchUrl": "/search/{{key}}.html?sType=view&oType=1&curpage={{page}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "博听",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://www.boting.co",
+    "bookUrlPattern": "https?://www.boting.co/book/\\d+.htm",
+    "customOrder": 900,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "经典文学::/category/tingshu2sviewp{{page}}o1.html\n经典排行::/category/tingshu2sviewp{{page}}o4.html\n家庭教育::/category/tingshu3sviewp{{page}}o1.html\n教育排行::/category/tingshu3sviewp{{page}}o4.html\n人文社科::/category/tingshu4sviewp{{page}}o1.html\n人文排行::/category/tingshu4sviewp{{page}}o4.html\n英文学习::/category/tingshu5sviewp{{page}}o1.html\n英文排行::/category/tingshu5sviewp{{page}}o4.html\n经管励志::/category/tingshu6sviewp{{page}}o1.html\n经管排行::/category/tingshu6sviewp{{page}}o4.html\n有声小说::/category/tingshu7sviewp{{page}}o1.html\n有声排行::/category/tingshu7sviewp{{page}}o4.html\n在线评书::/category/tingshu8sviewp{{page}}o1.html\n评书排行::/category/tingshu8sviewp{{page}}o4.html\n相声大全::/category/tingshu76sviewp{{page}}o1.html\n相声排行::/category/tingshu76sviewp{{page}}o4.html\n小品大全::/category/tingshu9sviewp{{page}}o1.html\n小品排行::/category/tingshu9sviewp{{page}}o4.html\n戏曲大全::/category/tingshu130sviewp{{page}}o1.html\n戏曲排行::/category/tingshu130sviewp{{page}}o4.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "｡◕‿◕｡",
+    "ruleBookInfo": {
+      "author": "class.infobt@tag.a.1@text",
+      "coverUrl": "class.bookimg@src",
+      "intro": "class.bookintro2@textNodes",
+      "lastChapter": "class.infolist@class.stateto@text",
+      "name": "h1@text"
+    },
+    "ruleContent": {
+      "content": "id.jp_audio_0@src"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.bookinfo@text<js>\nvar matcher = String(result).match(/\\[著\\](\\S*)/)[1];\n(matcher || '').replace('未知', '');\n</js>",
+      "bookList": "class.gnlist@li",
+      "bookUrl": "class.bookname@tag.a@href",
+      "coverUrl": "class.photo@tag.img@i@js:result||'http://1t.click/HNK'",
+      "kind": "class.bookinfo@text<js>\nvar matcher = String(result).match(/\\[音\\]([\\S\\[]*)/)[1];\nvar name = (matcher || '').replace('未知', '');\nname ? '播音：' + name : '';\n</js>",
+      "name": "class.bookname@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.i_title@a||class.i_time@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/search/{{key}}.html?sType=view&oType=1&curpage={{page}}",
+    "weight": 0
+  }]

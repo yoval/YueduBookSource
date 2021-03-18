@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "逆鳞~大主宰", "bookSourceType": 0, "bookSourceUrl": "https://alfh.top", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "首页::https://alfh.top", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"name": "title@text##^[^【|】]"}, "ruleContent": {"content": "class.entry@textNodes"}, "ruleExplore": {"bookList": "//div[@class='news']/ul/li", "bookUrl": "tag.a@href@put:{url:class.title@href}", "name": "tag.a@title"}, "ruleSearch": {"author": "//a[@class='author']/text()", "bookList": "class.result", "bookUrl": "class.title@href@put:{url:class.title@href}", "name": "class.title@textNodes##【|】.*"}, "ruleToc": {"chapterList": "title##【|】.*", "chapterName": "text", "chapterUrl": "@get:{url}"}, "searchUrl": "/e/search/index.php,{\n  \"charset\": \"gb2312\",\n  \"method\": \"POST\",\n  \"body\": \"show=title&tempid=1&tbname=article&mid=1&dopost=search&keyboard={{key}}&submit=\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "逆鳞~大主宰",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://alfh.top",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "首页::https://alfh.top",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "name": "title@text##^[^【|】]"
+    },
+    "ruleContent": {
+      "content": "class.entry@textNodes"
+    },
+    "ruleExplore": {
+      "bookList": "//div[@class='news']/ul/li",
+      "bookUrl": "tag.a@href@put:{url:class.title@href}",
+      "name": "tag.a@title"
+    },
+    "ruleSearch": {
+      "author": "//a[@class='author']/text()",
+      "bookList": "class.result",
+      "bookUrl": "class.title@href@put:{url:class.title@href}",
+      "name": "class.title@textNodes##【|】.*"
+    },
+    "ruleToc": {
+      "chapterList": "title##【|】.*",
+      "chapterName": "text",
+      "chapterUrl": "@get:{url}"
+    },
+    "searchUrl": "/e/search/index.php,{\n  \"charset\": \"gb2312\",\n  \"method\": \"POST\",\n  \"body\": \"show=title&tempid=1&tbname=article&mid=1&dopost=search&keyboard={{key}}&submit=\"\n}",
+    "weight": 0
+  }]

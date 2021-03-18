@@ -1,1 +1,48 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎨 90漫画", "bookSourceType": 0, "bookSourceUrl": "http://m.90mh.com", "customOrder": -115802, "enabled": true, "enabledExplore": true, "exploreUrl": "分类::http://m.90mh.com/list_{{page}}/\n国产::https//m.90mh.com/list/guochanmanhua/{{page}}/\n日本::http://m.90mh.com/list/riben/{{page}}/\n冒险::http://m.90mh.com/list/maoxian/{{page}}/\n魔法::http://m.90mh.com/list/mofa/{{page}}/\n", "lastUpdateTime": 1610038728945, "ruleBookInfo": {"author": "class.data@class.left@text##作者", "coverUrl": "class.img@tag.mip-img@src", "intro": "class.txtDesc@text", "kind": "class.data@class.pic_zi.5@class.left.1@text", "lastChapter": "", "name": "class.data@class.title@text##名称", "tocUrl": "", "wordCount": ""}, "ruleContent": {"content": "class.UnderPage@tag.mip-img.0@src@js:'<img src=\"'+result.replace(/\\n/g,\"\")+'\"/>'", "imageStyle": "FULL", "nextContentUrl": "class.action-list@tag.mip-link.2@href", "replaceRegex": "", "sourceRegex": ""}, "ruleExplore": {}, "ruleSearch": {"author": "class.itemTxt@tag.p.0@text", "bookList": "class.itemBox||class.list-comic", "bookUrl": "class.itemTxt@tag.a@href||class.ImgA@tag.a@href", "coverUrl": "tag.mip-img@src", "intro": "", "kind": "class.itemTxt@tag.p.1@text", "lastChapter": "class.coll@text||class.info@text", "name": "class.itemTxt@tag.a@text||class.txtA@tag.a@text"}, "ruleToc": {"chapterList": "-class.list@tag.a", "chapterName": "@text", "chapterUrl": "@href", "updateTime": "class.pic@tag.dl.3@tag.dd@text"}, "searchUrl": "/search/?keywords={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎨 90漫画",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.90mh.com",
+    "customOrder": -115802,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "分类::http://m.90mh.com/list_{{page}}/\n国产::https//m.90mh.com/list/guochanmanhua/{{page}}/\n日本::http://m.90mh.com/list/riben/{{page}}/\n冒险::http://m.90mh.com/list/maoxian/{{page}}/\n魔法::http://m.90mh.com/list/mofa/{{page}}/\n",
+    "lastUpdateTime": 1610038728945,
+    "ruleBookInfo": {
+      "author": "class.data@class.left@text##作者",
+      "coverUrl": "class.img@tag.mip-img@src",
+      "intro": "class.txtDesc@text",
+      "kind": "class.data@class.pic_zi.5@class.left.1@text",
+      "lastChapter": "",
+      "name": "class.data@class.title@text##名称",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "class.UnderPage@tag.mip-img.0@src@js:'<img src=\"'+result.replace(/\\n/g,\"\")+'\"/>'",
+      "imageStyle": "FULL",
+      "nextContentUrl": "class.action-list@tag.mip-link.2@href",
+      "replaceRegex": "",
+      "sourceRegex": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.itemTxt@tag.p.0@text",
+      "bookList": "class.itemBox||class.list-comic",
+      "bookUrl": "class.itemTxt@tag.a@href||class.ImgA@tag.a@href",
+      "coverUrl": "tag.mip-img@src",
+      "intro": "",
+      "kind": "class.itemTxt@tag.p.1@text",
+      "lastChapter": "class.coll@text||class.info@text",
+      "name": "class.itemTxt@tag.a@text||class.txtA@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "-class.list@tag.a",
+      "chapterName": "@text",
+      "chapterUrl": "@href",
+      "updateTime": "class.pic@tag.dl.3@tag.dd@text"
+    },
+    "searchUrl": "/search/?keywords={{key}}",
+    "weight": 0
+  }]

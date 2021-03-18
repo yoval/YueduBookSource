@@ -1,1 +1,43 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "舞文小说网", "bookSourceType": 0, "bookSourceUrl": "https://www.5wx.org", "bookUrlPattern": "", "customOrder": 297, "enabled": true, "enabledExplore": false, "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36\"\n}", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "tag.b.0@text##作者：", "coverUrl": "img!0@src", "intro": "id.wrap@text##阅读提示： ① 如果发现本小说没有更新.*", "lastChapter": ".infolist@tag.a.0@text", "name": "h1@text", "tocUrl": ".right@a@href"}, "ruleContent": {"content": "@js:java.getElements('p!0:1:2:-1:-3').toArray().sort((a,b)=>a.attr('data-id')-b.attr('data-id')).map(x=>x.html()).join('')"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.font.2@text", "bookList": ".info", "bookUrl": "b!1@a@href", "coverUrl": "img@src", "intro": "li!1@text##内容简介：|....$", "kind": "font!0:1:2@text", "lastChapter": "b!0@text", "name": "b!1@text"}, "ruleToc": {"chapterList": "+@js:org.jsoup.Jsoup.parse(result).select('[data-id]>li>span>a').toArray().sort().map(x=>({n:x.text(),u:x.attr('href')}))", "chapterName": "n", "chapterUrl": "u"}, "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "舞文小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.5wx.org",
+    "bookUrlPattern": "",
+    "customOrder": 297,
+    "enabled": true,
+    "enabledExplore": false,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.0; Pixel 2 Build/OPD3.170816.012) AppleWebKit/537.36 (KHTML, like Gecko) Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "tag.b.0@text##作者：",
+      "coverUrl": "img!0@src",
+      "intro": "id.wrap@text##阅读提示： ① 如果发现本小说没有更新.*",
+      "lastChapter": ".infolist@tag.a.0@text",
+      "name": "h1@text",
+      "tocUrl": ".right@a@href"
+    },
+    "ruleContent": {
+      "content": "@js:java.getElements('p!0:1:2:-1:-3').toArray().sort((a,b)=>a.attr('data-id')-b.attr('data-id')).map(x=>x.html()).join('')"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.font.2@text",
+      "bookList": ".info",
+      "bookUrl": "b!1@a@href",
+      "coverUrl": "img@src",
+      "intro": "li!1@text##内容简介：|....$",
+      "kind": "font!0:1:2@text",
+      "lastChapter": "b!0@text",
+      "name": "b!1@text"
+    },
+    "ruleToc": {
+      "chapterList": "+@js:org.jsoup.Jsoup.parse(result).select('[data-id]>li>span>a').toArray().sort().map(x=>({n:x.text(),u:x.attr('href')}))",
+      "chapterName": "n",
+      "chapterUrl": "u"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

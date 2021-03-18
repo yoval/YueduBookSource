@@ -1,1 +1,43 @@
-[{"bookSourceComment": "error:List is empty.\n", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 东方阅读", "bookSourceType": 0, "bookSourceUrl": "https://www.lnwow.co", "bookUrlPattern": "", "customOrder": -32544, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻奇幻::/Book/LC/5.html\n武侠仙侠::/book/LC/3.html\n都市小说::/book/LC/7.html\n历史军事::/book/LC/16.html\n游戏竞技::/book/LC/14.html\n科幻灵异::/book/LC/1.html\n同人小说::/book/LC/48.html\n女频言情::/book/LC/12.html\n其它小说::/book/LC/18.html", "lastUpdateTime": 1602875193200, "loginUrl": "", "ruleBookInfo": {"author": "tag.h1.0@text##.*/.", "coverUrl": "class.bookimg clearfix@tag.img@src", "intro": "class.intro clearfix@tag.p.0@text##作品简介：", "kind": "tag.em.0@text##作品类别：", "lastChapter": "class.chapterlist clearfix@tag.li.1@text", "name": "class.info@tag.h1.0@text##文.*"}, "ruleContent": {"content": "class.chaptercontent@tag.content@textNodes||id.chaptercontent@textNodes"}, "ruleExplore": {"bookList": "class.booklist@tag.dl", "bookUrl": "class.tab1@tag.a.0@href", "coverUrl": "tag.img@src", "name": "class.tab2@tag.a.0@title"}, "ruleSearch": {"bookList": "class.tab2", "bookUrl": "a@href", "name": "a@text##《|》"}, "ruleToc": {"chapterList": "class.chapterlist clearfix@tag.li!0:1:2:3:4:5:6:7:8", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.lnwow.co/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"q={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 东方阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.lnwow.co",
+    "bookUrlPattern": "",
+    "customOrder": -32544,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/Book/LC/5.html\n武侠仙侠::/book/LC/3.html\n都市小说::/book/LC/7.html\n历史军事::/book/LC/16.html\n游戏竞技::/book/LC/14.html\n科幻灵异::/book/LC/1.html\n同人小说::/book/LC/48.html\n女频言情::/book/LC/12.html\n其它小说::/book/LC/18.html",
+    "lastUpdateTime": 1602875193200,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "tag.h1.0@text##.*/.",
+      "coverUrl": "class.bookimg clearfix@tag.img@src",
+      "intro": "class.intro clearfix@tag.p.0@text##作品简介：",
+      "kind": "tag.em.0@text##作品类别：",
+      "lastChapter": "class.chapterlist clearfix@tag.li.1@text",
+      "name": "class.info@tag.h1.0@text##文.*"
+    },
+    "ruleContent": {
+      "content": "class.chaptercontent@tag.content@textNodes||id.chaptercontent@textNodes"
+    },
+    "ruleExplore": {
+      "bookList": "class.booklist@tag.dl",
+      "bookUrl": "class.tab1@tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "name": "class.tab2@tag.a.0@title"
+    },
+    "ruleSearch": {
+      "bookList": "class.tab2",
+      "bookUrl": "a@href",
+      "name": "a@text##《|》"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapterlist clearfix@tag.li!0:1:2:3:4:5:6:7:8",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.lnwow.co/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"q={{key}}\"\n}",
+    "weight": 0
+  }]

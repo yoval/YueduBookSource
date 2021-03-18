@@ -1,1 +1,32 @@
-[{"bookSourceComment": "error:搜索内容为空并且没有发现\n", "bookSourceGroup": "我的书源", "bookSourceName": "🍒 言情中文网", "bookSourceType": 0, "bookSourceUrl": "http://m.kun99.com", "customOrder": -116649, "enabled": true, "enabledExplore": true, "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}", "lastUpdateTime": 1604983648098, "ruleBookInfo": {}, "ruleContent": {"content": "id.chaptercontent@html", "nextContentUrl": "text.下一页@href"}, "ruleExplore": {}, "ruleSearch": {"author": "class.author.0@text", "bookList": "class.hot_sale", "bookUrl": "tag.a.0@href", "name": "class.title@text"}, "ruleToc": {"chapterList": "class.directoryArea!0@tag.p@tag.a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "text.下一页@href"}, "searchUrl": "http://m.kun99.com/mbook_search.html,{\n  \"headers\": \"{\\\"referer\\\":\\\"http://m.kun99.com\\\"}\",\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&t=1\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍒 言情中文网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.kun99.com",
+    "customOrder": -116649,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}",
+    "lastUpdateTime": 1604983648098,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "id.chaptercontent@html",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@text",
+      "bookList": "class.hot_sale",
+      "bookUrl": "tag.a.0@href",
+      "name": "class.title@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.directoryArea!0@tag.p@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "http://m.kun99.com/mbook_search.html,{\n  \"headers\": \"{\\\"referer\\\":\\\"http://m.kun99.com\\\"}\",\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&t=1\"\n}",
+    "weight": 0
+  }]

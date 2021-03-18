@@ -1,1 +1,52 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 25中文网", "bookSourceType": 0, "bookSourceUrl": "http://www.25zw.com", "customOrder": -115595, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻魔法::/shuku/lastupdate_1_0_0_0_{{page}}.html\n武侠修真::/shuku/lastupdate_2_0_0_0_{{page}}.html\n都市言情::/shuku/lastupdate_3_0_0_0_{{page}}.html\n历史军事::/shuku/lastupdate_4_0_0_0_{{page}}.html\n侦探推理::/shuku/lastupdate_5_0_0_0_{{page}}.html\n网游动漫::/shuku/lastupdate_6_0_0_0_{{page}}.html\n科幻小说::/shuku/lastupdate_7_0_0_0_{{page}}.html\n恐怖灵异::/shuku/lastupdate_8_0_0_0_{{page}}.html\n散文诗词::/shuku/lastupdate_9_0_0_0_{{page}}.html\n其他类型::/shuku/lastupdate_10_0_0_0_{{page}}.html", "lastUpdateTime": 0, "ruleBookInfo": {"author": "class.title@span@text##.*作者：", "coverUrl": "class.cover@img@src", "init": "", "intro": "class.info-text@text", "kind": "class.info@tag.p.0@text&&\nclass.fullflag @text##状态：|.*更新：", "lastChapter": "class.new@a@text", "name": "class.title@h1@text", "tocUrl": "id.read@href", "wordCount": "class.info@tag.p.0@text##阅读.*推荐：\\d+|更新.*"}, "ruleContent": {"content": "class.con_txt@html## 八 二 小 说 网 阅读，。"}, "ruleExplore": {"author": "class.info@tag.dd.0@span@text", "bookList": "class.clearfix@li", "bookUrl": "class.imgbox@a@href", "coverUrl": "class.imgbox@img@_src", "intro": "class.info@tag.dd.2@text", "lastChapter": "class.info@tag.dd.1@span@text", "name": "class.info@dt@a@text"}, "ruleSearch": {"author": "class.title@text##.*作者：|更新.*", "bookList": "class.book", "bookUrl": "tag.a.0@href", "coverUrl": "img@src", "intro": "tag.p.0@text", "kind": "class.title@span@text&&\nclass.title@text##.*更新时间：", "lastChapter": "tag.p.1@a@text", "name": "class.title@h2@a@text##《|》最新章节"}, "ruleToc": {"chapterList": "<js>\r\njava.getElements(\"class.list@tag.dl@tag.dd@tag.a\")\r\n.toArray()\r\n.sort()\r\n.map(x=>x)\r\n</js>", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.25zw.com/modules/article/search.php?searchtype=articlename&searchkey={{key}}&page={{page}},{\n\"charset\":\"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 25中文网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.25zw.com",
+    "customOrder": -115595,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/shuku/lastupdate_1_0_0_0_{{page}}.html\n武侠修真::/shuku/lastupdate_2_0_0_0_{{page}}.html\n都市言情::/shuku/lastupdate_3_0_0_0_{{page}}.html\n历史军事::/shuku/lastupdate_4_0_0_0_{{page}}.html\n侦探推理::/shuku/lastupdate_5_0_0_0_{{page}}.html\n网游动漫::/shuku/lastupdate_6_0_0_0_{{page}}.html\n科幻小说::/shuku/lastupdate_7_0_0_0_{{page}}.html\n恐怖灵异::/shuku/lastupdate_8_0_0_0_{{page}}.html\n散文诗词::/shuku/lastupdate_9_0_0_0_{{page}}.html\n其他类型::/shuku/lastupdate_10_0_0_0_{{page}}.html",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "class.title@span@text##.*作者：",
+      "coverUrl": "class.cover@img@src",
+      "init": "",
+      "intro": "class.info-text@text",
+      "kind": "class.info@tag.p.0@text&&\nclass.fullflag @text##状态：|.*更新：",
+      "lastChapter": "class.new@a@text",
+      "name": "class.title@h1@text",
+      "tocUrl": "id.read@href",
+      "wordCount": "class.info@tag.p.0@text##阅读.*推荐：\\d+|更新.*"
+    },
+    "ruleContent": {
+      "content": "class.con_txt@html## 八 二 小 说 网 阅读，。"
+    },
+    "ruleExplore": {
+      "author": "class.info@tag.dd.0@span@text",
+      "bookList": "class.clearfix@li",
+      "bookUrl": "class.imgbox@a@href",
+      "coverUrl": "class.imgbox@img@_src",
+      "intro": "class.info@tag.dd.2@text",
+      "lastChapter": "class.info@tag.dd.1@span@text",
+      "name": "class.info@dt@a@text"
+    },
+    "ruleSearch": {
+      "author": "class.title@text##.*作者：|更新.*",
+      "bookList": "class.book",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@src",
+      "intro": "tag.p.0@text",
+      "kind": "class.title@span@text&&\nclass.title@text##.*更新时间：",
+      "lastChapter": "tag.p.1@a@text",
+      "name": "class.title@h2@a@text##《|》最新章节"
+    },
+    "ruleToc": {
+      "chapterList": "<js>\r\njava.getElements(\"class.list@tag.dl@tag.dd@tag.a\")\r\n.toArray()\r\n.sort()\r\n.map(x=>x)\r\n</js>",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.25zw.com/modules/article/search.php?searchtype=articlename&searchkey={{key}}&page={{page}},{\n\"charset\":\"gbk\"\n}",
+    "weight": 0
+  }]

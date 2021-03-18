@@ -1,1 +1,56 @@
-[{"bookSourceComment": "error:搜索内容为空并且没有发现\n", "bookSourceGroup": "我的书源", "bookSourceName": "🌸 精武小说", "bookSourceType": 0, "bookSourceUrl": "http://www.jingwuhotel.com", "customOrder": -32911, "enabled": true, "enabledExplore": true, "exploreUrl": "", "lastUpdateTime": 1603353724939, "ruleBookInfo": {"author": "tag.p.0@text", "coverUrl": "tag.img.src", "intro": "class.introCon@text", "kind": "", "lastChapter": "class.chapterCon@text", "name": "tag.h2@text", "tocUrl": "", "wordCount": "class.detailNum@tag.li.0@text"}, "ruleContent": {"content": "class.articleDiv@html##记不住网址.*|(。|？|…).?s|手机直接.*txt\\.com|《.*》|", "nextContentUrl": "text.下一页@href", "replaceRegex": "##\\s*.?本章未完.*\\s*"}, "ruleExplore": {"author": "", "bookList": "", "bookUrl": "", "coverUrl": "", "intro": "", "kind": "", "lastChapter": "", "name": ""}, "ruleSearch": {"author": "tag.span@text", "bookList": "class.bookList@tag.a", "bookUrl": "tag.a@href", "coverUrl": "tag.img@src", "intro": "tag.p@text", "kind": "", "lastChapter": "", "name": "tag.h3@text", "wordCount": ""}, "ruleToc": {"chapterList": "class.categoryCon@tag.a", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "nextTocUrl": "class.next@href"}, "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=articlename&submit=&searchkey={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🌸 精武小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.jingwuhotel.com",
+    "customOrder": -32911,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "lastUpdateTime": 1603353724939,
+    "ruleBookInfo": {
+      "author": "tag.p.0@text",
+      "coverUrl": "tag.img.src",
+      "intro": "class.introCon@text",
+      "kind": "",
+      "lastChapter": "class.chapterCon@text",
+      "name": "tag.h2@text",
+      "tocUrl": "",
+      "wordCount": "class.detailNum@tag.li.0@text"
+    },
+    "ruleContent": {
+      "content": "class.articleDiv@html##记不住网址.*|(。|？|…).?s|手机直接.*txt\\.com|《.*》|",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": "##\\s*.?本章未完.*\\s*"
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": ""
+    },
+    "ruleSearch": {
+      "author": "tag.span@text",
+      "bookList": "class.bookList@tag.a",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "tag.p@text",
+      "kind": "",
+      "lastChapter": "",
+      "name": "tag.h3@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.categoryCon@tag.a",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "class.next@href"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=articlename&submit=&searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

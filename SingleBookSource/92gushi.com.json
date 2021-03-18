@@ -1,1 +1,28 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "📚 就爱故事网[仅发现]", "bookSourceType": 0, "bookSourceUrl": "https://www.92gushi.com", "customOrder": -24741, "enabled": true, "enabledExplore": true, "exploreUrl": "故事会::https://www.92gushi.com/", "lastUpdateTime": 1602912442347, "ruleBookInfo": {}, "ruleContent": {"content": "tag.p@text##就爱故事网"}, "ruleExplore": {}, "ruleSearch": {"bookList": "class.booklist@tag.td", "bookUrl": "class.time@tag.a.0@href", "name": "class.time@tag.a.0@text"}, "ruleToc": {"chapterList": "class.maglisttitle@tag.a", "chapterName": "text", "chapterUrl": "href"}, "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "📚 就爱故事网[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.92gushi.com",
+    "customOrder": -24741,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "故事会::https://www.92gushi.com/",
+    "lastUpdateTime": 1602912442347,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "tag.p@text##就爱故事网"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.booklist@tag.td",
+      "bookUrl": "class.time@tag.a.0@href",
+      "name": "class.time@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.maglisttitle@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "weight": 0
+  }]

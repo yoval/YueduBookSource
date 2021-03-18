@@ -1,1 +1,64 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "📥 无限", "bookSourceType": 0, "bookSourceUrl": "https://m.555x.org", "bookUrlPattern": "", "customOrder": -32692, "enabled": true, "enabledExplore": true, "exploreUrl": "", "header": "", "lastUpdateTime": 1602987663229, "loginUrl": "", "ruleBookInfo": {"author": "author", "coverUrl": "cover", "init": "<js>\nvar J = org.jsoup.Jsoup.parse(result);\nvar og = (selector) =>\n  String(J.select('[property=\"og:' + selector + '\"]').attr('content'));\n\nvar book = {\n  name: og('novel:book_name').replace(/(全文|小说|免费|最新章节).*|（.*）/,''),\n  author: og('novel:author'),\n  kind: og('novel:category') + ',' + og('novel:status').replace(/中|已/,''),\n  latest: J.select('.bookcover p').eq(4).text(),\n  cover: og('image'),\n  wordCount: parseInt(J.select('.num').eq(0).text().replace('字','')/10000)+'万',  \n  intro: '<br>最近更新：' + og('novel:update_time').replace(/\\s.*/,'') + '\\n' + String(J.select('.con').html()).replace(/.*简介：|各位书友.*/,'').replace(/\\s+/g,'<br>'),\n  url: og('novel:read_url').replace('m.','www.'),\n};\n\nbook;\n</js>", "intro": "intro", "kind": "kind", "lastChapter": "latest", "name": "name", "tocUrl": "url", "wordCount": "wordCount"}, "ruleContent": {"content": "#view_content_txt@textNodes", "nextContentUrl": "", "replaceRegex": "##D-", "sourceRegex": "", "webJs": ""}, "ruleExplore": {"author": "", "bookList": "", "bookUrl": "", "coverUrl": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "wordCount": ""}, "ruleSearch": {"author": "author", "bookList": ".searchlist li<js>\nresult\n   .toArray()\n   .slice(0, 3)\n   .map(function (el){\n    var url = String(el.select('a').eq(0).attr('href')).replace(\n      /^\\/([^\\/])/,\n      baseUrl.match(/(.+\\/\\/.+?\\/)/)[1] + '$1'\n    );\n    var J = org.jsoup.Jsoup.parse(String(java.ajax(url)));\n    var og = (selector) =>\n      String(J.select('[property=\"og:' + selector + '\"]').attr('content'));\n\n    return {\n      name: og('novel:book_name').replace(/(全文|小说|免费|最新章节).*|（.*）/,''),\n      author: og('novel:author'),\n      kind: og('novel:category') + ',' + og('novel:status').replace(/中|已/,''),\n      latest: J.select('.bookcover p').eq(4).text(),\n      cover: og('image'),\n      wordCount: parseInt(J.select('.num').eq(0).text().replace('字','')/10000)+'万',  \n      intro: og('description').replace(/.*简介：|各位书友.*/,'').replace(/\\s+/g,''),\n      url: url,\n    };\n  });\n</js>", "bookUrl": "url", "coverUrl": "cover", "intro": "intro", "kind": "kind", "lastChapter": "latest", "name": "name", "wordCount": "wordCount"}, "ruleToc": {"chapterList": ".read_list a", "chapterName": "text##.*分节阅读\\s", "chapterUrl": "href", "nextTocUrl": "", "updateTime": ""}, "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "📥 无限",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.555x.org",
+    "bookUrlPattern": "",
+    "customOrder": -32692,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1602987663229,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "author",
+      "coverUrl": "cover",
+      "init": "<js>\nvar J = org.jsoup.Jsoup.parse(result);\nvar og = (selector) =>\n  String(J.select('[property=\"og:' + selector + '\"]').attr('content'));\n\nvar book = {\n  name: og('novel:book_name').replace(/(全文|小说|免费|最新章节).*|（.*）/,''),\n  author: og('novel:author'),\n  kind: og('novel:category') + ',' + og('novel:status').replace(/中|已/,''),\n  latest: J.select('.bookcover p').eq(4).text(),\n  cover: og('image'),\n  wordCount: parseInt(J.select('.num').eq(0).text().replace('字','')/10000)+'万',  \n  intro: '<br>最近更新：' + og('novel:update_time').replace(/\\s.*/,'') + '\\n' + String(J.select('.con').html()).replace(/.*简介：|各位书友.*/,'').replace(/\\s+/g,'<br>'),\n  url: og('novel:read_url').replace('m.','www.'),\n};\n\nbook;\n</js>",
+      "intro": "intro",
+      "kind": "kind",
+      "lastChapter": "latest",
+      "name": "name",
+      "tocUrl": "url",
+      "wordCount": "wordCount"
+    },
+    "ruleContent": {
+      "content": "#view_content_txt@textNodes",
+      "nextContentUrl": "",
+      "replaceRegex": "##D-",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "author",
+      "bookList": ".searchlist li<js>\nresult\n   .toArray()\n   .slice(0, 3)\n   .map(function (el){\n    var url = String(el.select('a').eq(0).attr('href')).replace(\n      /^\\/([^\\/])/,\n      baseUrl.match(/(.+\\/\\/.+?\\/)/)[1] + '$1'\n    );\n    var J = org.jsoup.Jsoup.parse(String(java.ajax(url)));\n    var og = (selector) =>\n      String(J.select('[property=\"og:' + selector + '\"]').attr('content'));\n\n    return {\n      name: og('novel:book_name').replace(/(全文|小说|免费|最新章节).*|（.*）/,''),\n      author: og('novel:author'),\n      kind: og('novel:category') + ',' + og('novel:status').replace(/中|已/,''),\n      latest: J.select('.bookcover p').eq(4).text(),\n      cover: og('image'),\n      wordCount: parseInt(J.select('.num').eq(0).text().replace('字','')/10000)+'万',  \n      intro: og('description').replace(/.*简介：|各位书友.*/,'').replace(/\\s+/g,''),\n      url: url,\n    };\n  });\n</js>",
+      "bookUrl": "url",
+      "coverUrl": "cover",
+      "intro": "intro",
+      "kind": "kind",
+      "lastChapter": "latest",
+      "name": "name",
+      "wordCount": "wordCount"
+    },
+    "ruleToc": {
+      "chapterList": ".read_list a",
+      "chapterName": "text##.*分节阅读\\s",
+      "chapterUrl": "href",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

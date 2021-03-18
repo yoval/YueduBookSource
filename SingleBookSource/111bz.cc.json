@@ -1,1 +1,36 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,刘备书源", "bookSourceName": "🚬 第一版主111", "bookSourceType": 0, "bookSourceUrl": "https://www.111bz.cc", "customOrder": 24411, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1612499624213, "ruleBookInfo": {"author": "id.info@tag.p.0@text##作    者", "coverUrl": "id.fmimg@tag.img@src", "intro": "id.intro@tag.p@text", "lastChapter": "tag.dl@tag.dd.0@tag.a@text", "name": "tag.h1@text"}, "ruleContent": {"content": "id.content@text"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@text", "bookList": "tag.tbody.0@id.nr", "bookUrl": "class.odd.0@tag.a@href", "lastChapter": "class.even.0@tag.a@text", "name": "class.odd.0@tag.a@text"}, "ruleToc": {"chapterList": "tag.dl@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.111bz.cc/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,刘备书源",
+    "bookSourceName": "第一版主",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.111bz.cc",
+    "customOrder": 24699,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1615880512089,
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text##作    者",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@tag.p@text",
+      "lastChapter": "tag.dl@tag.dd.0@tag.a@text",
+      "name": "tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@text"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "tag.tbody.0@id.nr",
+      "bookUrl": "class.odd.0@tag.a@href",
+      "lastChapter": "class.even.0@tag.a@text",
+      "name": "class.odd.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "tag.dl@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.111bz.cc/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

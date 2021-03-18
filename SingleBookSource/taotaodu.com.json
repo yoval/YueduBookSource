@@ -1,1 +1,39 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🔰 淘淘全本小说", "bookSourceType": 0, "bookSourceUrl": "https://www.taotaodu.com", "bookUrlPattern": "", "customOrder": 16331, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1601982327613, "loginUrl": "", "ruleBookInfo": {"author": "tag.em@text##作\\s*者：", "coverUrl": "class.book-img@tag.img@src", "intro": "class.book-intro@text", "name": "class.book-title@tag.h1.0@text", "tocUrl": "class.book-link@tag.a.0@href"}, "ruleContent": {"content": "class.con_L@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@text", "bookList": "class.grid@tag.tr!0", "bookUrl": "tag.a.0@href", "kind": "class.even.2@text", "lastChapter": "class.even.0@text", "name": "class.odd.0@text"}, "ruleToc": {"chapterList": "id.book@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.taotaodu.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🔰 淘淘全本小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.taotaodu.com",
+    "bookUrlPattern": "",
+    "customOrder": 16331,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1601982327613,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "tag.em@text##作\\s*者：",
+      "coverUrl": "class.book-img@tag.img@src",
+      "intro": "class.book-intro@text",
+      "name": "class.book-title@tag.h1.0@text",
+      "tocUrl": "class.book-link@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "class.con_L@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "tag.a.0@href",
+      "kind": "class.even.2@text",
+      "lastChapter": "class.even.0@text",
+      "name": "class.odd.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.book@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.taotaodu.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

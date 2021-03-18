@@ -1,1 +1,36 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,刘备书源", "bookSourceName": "🚬 谷歌小说网", "bookSourceType": 0, "bookSourceUrl": "http://m.gugexs.com", "customOrder": 24403, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1610040430672, "ruleBookInfo": {"kind": "class.jie@tag.span.0:2:3@text", "lastChapter": "class.sso_a@tag.li.-1@a@text&&class.jie@tag.span.4@text##时间.", "wordCount": "class.jie@tag.span.1@text"}, "ruleContent": {"content": "class.novelinfvie@html"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.span.1@text##作者.|时间.*", "bookList": "class.list_a", "bookUrl": "class.main@a@href", "coverUrl": "class.img@a@img@src", "intro": "class.intro@textNodes", "kind": "tag.span.0@text&&tag.span.1@text##作者.*时间.", "name": "class.main@a@text"}, "ruleToc": {"chapterList": "class.sso_a@li@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "http://m.gugexs.com/find.asp?word={{key}},{\n\"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,刘备书源",
+    "bookSourceName": "🚬 谷歌小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.gugexs.com",
+    "customOrder": 24691,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1610040430672,
+    "ruleBookInfo": {
+      "kind": "class.jie@tag.span.0:2:3@text",
+      "lastChapter": "class.sso_a@tag.li.-1@a@text&&class.jie@tag.span.4@text##时间.",
+      "wordCount": "class.jie@tag.span.1@text"
+    },
+    "ruleContent": {
+      "content": "class.novelinfvie@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.span.1@text##作者.|时间.*",
+      "bookList": "class.list_a",
+      "bookUrl": "class.main@a@href",
+      "coverUrl": "class.img@a@img@src",
+      "intro": "class.intro@textNodes",
+      "kind": "tag.span.0@text&&tag.span.1@text##作者.*时间.",
+      "name": "class.main@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.sso_a@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://m.gugexs.com/find.asp?word={{key}},{\n\"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

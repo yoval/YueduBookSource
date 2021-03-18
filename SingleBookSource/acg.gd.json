@@ -1,1 +1,44 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎨 亲亲漫画", "bookSourceType": 0, "bookSourceUrl": "http://api.acg.gd", "bookUrlPattern": "", "customOrder": -115864, "enabled": true, "enabledExplore": true, "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4094.1 Safari/537.36\"\n}", "lastUpdateTime": 1612114163947, "loginUrl": "", "ruleBookInfo": {"author": "$.data.author", "coverUrl": "$..cover", "intro": "@JSon:$..description", "kind": "@JSon:$..subjects[*].name", "lastChapter": "$.data.last_chapter_name", "name": "$.data.name"}, "ruleContent": {"content": "@js:\nheader={\"Referer\":baseUrl};\nheaders={\"headers\":JSON.stringify(header)};\n$=JSON.parse(result);\nimglist=$.data.imageArray;\npath=$.data.path;\nurl='http://mangaimg.huliqun.com:44240/';\nurl=url+path;\nhtml='';\nfor(i in imglist){\nhtml +='<img src=\"'+url+imglist[i]+'\">'\n}\nhtml", "imageStyle": "FULL"}, "ruleExplore": {}, "ruleSearch": {"author": "@JSon:$.author", "bookList": "@JSon:$.items.*", "bookUrl": "http://api.acg.gd/app/comic/view?id={$.id}", "coverUrl": "$.coverUrl", "intro": "@JSon:$.description", "kind": "", "lastChapter": "@JSon:$.last_chapter_name", "name": "@JSon:$.name"}, "ruleToc": {"chapterList": "@JSon:$..chapterGroup.1.*", "chapterName": "@JSon:$.name", "chapterUrl": "http://api.acg.gd/app/chapter/view?id={$.id}"}, "searchUrl": "http://api.acg.gd/app/comic/search?keywords={{key}}&page={{page}}&sort=post", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎨 亲亲漫画",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://api.acg.gd",
+    "bookUrlPattern": "",
+    "customOrder": -115864,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4094.1 Safari/537.36\"\n}",
+    "lastUpdateTime": 1612114163947,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "$.data.author",
+      "coverUrl": "$..cover",
+      "intro": "@JSon:$..description",
+      "kind": "@JSon:$..subjects[*].name",
+      "lastChapter": "$.data.last_chapter_name",
+      "name": "$.data.name"
+    },
+    "ruleContent": {
+      "content": "@js:\nheader={\"Referer\":baseUrl};\nheaders={\"headers\":JSON.stringify(header)};\n$=JSON.parse(result);\nimglist=$.data.imageArray;\npath=$.data.path;\nurl='http://mangaimg.huliqun.com:44240/';\nurl=url+path;\nhtml='';\nfor(i in imglist){\nhtml +='<img src=\"'+url+imglist[i]+'\">'\n}\nhtml",
+      "imageStyle": "FULL"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "@JSon:$.author",
+      "bookList": "@JSon:$.items.*",
+      "bookUrl": "http://api.acg.gd/app/comic/view?id={$.id}",
+      "coverUrl": "$.coverUrl",
+      "intro": "@JSon:$.description",
+      "kind": "",
+      "lastChapter": "@JSon:$.last_chapter_name",
+      "name": "@JSon:$.name"
+    },
+    "ruleToc": {
+      "chapterList": "@JSon:$..chapterGroup.1.*",
+      "chapterName": "@JSon:$.name",
+      "chapterUrl": "http://api.acg.gd/app/chapter/view?id={$.id}"
+    },
+    "searchUrl": "http://api.acg.gd/app/comic/search?keywords={{key}}&page={{page}}&sort=post",
+    "weight": 0
+  }]

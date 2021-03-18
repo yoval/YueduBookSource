@@ -1,1 +1,39 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "晋江文学城(仅发现)", "bookSourceType": 0, "bookSourceUrl": "https://www.bm-xiaoshuo.com", "customOrder": 0, "enabled": false, "enabledExplore": true, "exploreUrl": "玄幻奇幻::https://m.bm-xiaoshuo.com/category/%E7%8E%84%E5%B9%BB%E5%A5%87%E5%B9%BB-{{page}}/\n武侠仙侠::https://m.bm-xiaoshuo.com/category/%E6%AD%A6%E4%BE%A0%E4%BB%99%E4%BE%A0-{{page}}/\n都市言情::https://m.bm-xiaoshuo.com/category/%E9%83%BD%E5%B8%82%E8%A8%80%E6%83%85-{{page}}/\n历史军事::https://m.bm-xiaoshuo.com/category/%E5%8E%86%E5%8F%B2%E5%86%9B%E4%BA%8B-{{page}}/\n科幻灵异::https://m.bm-xiaoshuo.com/category/%E7%A7%91%E5%B9%BB%E7%81%B5%E5%BC%82-{{page}}/\n网游竞技::https://m.bm-xiaoshuo.com/category/%E7%BD%91%E6%B8%B8%E7%AB%9E%E6%8A%80-{{page}}/\n恐怖悬疑::https://m.bm-xiaoshuo.com/category/%E6%81%90%E6%80%96%E6%82%AC%E7%96%91-{{page}}/\n动漫同人::https://m.bm-xiaoshuo.com/category/%E5%8A%A8%E6%BC%AB%E5%90%8C%E4%BA%BA-{{page}}/\n综合其他::https://m.bm-xiaoshuo.com/category/%E7%BB%BC%E5%90%88%E5%85%B6%E4%BB%96-{{page}}/", "lastUpdateTime": 0, "ruleBookInfo": {"author": "class.detail pt20@tag.a.0@text", "coverUrl": "class.cover@img@src", "intro": "class.desc.1@textNodes", "kind": "class.detail pt20@tag.a.1@text", "lastChapter": "class.detail@i@a@text", "name": "class.info@h1@text##免费阅读", "tocUrl": "class.btn btn-info@href"}, "ruleContent": {"content": "id.ajax_content@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.authorname@text", "bookList": "class.ui_booklistv@li", "bookUrl": "a@href##^##https://www.bm-xiaoshuo.com", "coverUrl": "img@src", "name": "h3@text||class.n2@a@text"}, "ruleToc": {"chapterList": "class.mulu@li", "chapterName": "class.col3@text", "chapterUrl": "id##(\\d+)##https://www.bm-xiaoshuo.com/chapter/$1/"}, "searchUrl": "https://www.bm-xiaoshuo.com/search/,{\n  \"method\": \"POST\",\n  \"body\": \"kw={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "晋江文学城(仅发现)",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.bm-xiaoshuo.com",
+    "customOrder": 0,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::https://m.bm-xiaoshuo.com/category/%E7%8E%84%E5%B9%BB%E5%A5%87%E5%B9%BB-{{page}}/\n武侠仙侠::https://m.bm-xiaoshuo.com/category/%E6%AD%A6%E4%BE%A0%E4%BB%99%E4%BE%A0-{{page}}/\n都市言情::https://m.bm-xiaoshuo.com/category/%E9%83%BD%E5%B8%82%E8%A8%80%E6%83%85-{{page}}/\n历史军事::https://m.bm-xiaoshuo.com/category/%E5%8E%86%E5%8F%B2%E5%86%9B%E4%BA%8B-{{page}}/\n科幻灵异::https://m.bm-xiaoshuo.com/category/%E7%A7%91%E5%B9%BB%E7%81%B5%E5%BC%82-{{page}}/\n网游竞技::https://m.bm-xiaoshuo.com/category/%E7%BD%91%E6%B8%B8%E7%AB%9E%E6%8A%80-{{page}}/\n恐怖悬疑::https://m.bm-xiaoshuo.com/category/%E6%81%90%E6%80%96%E6%82%AC%E7%96%91-{{page}}/\n动漫同人::https://m.bm-xiaoshuo.com/category/%E5%8A%A8%E6%BC%AB%E5%90%8C%E4%BA%BA-{{page}}/\n综合其他::https://m.bm-xiaoshuo.com/category/%E7%BB%BC%E5%90%88%E5%85%B6%E4%BB%96-{{page}}/",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "class.detail pt20@tag.a.0@text",
+      "coverUrl": "class.cover@img@src",
+      "intro": "class.desc.1@textNodes",
+      "kind": "class.detail pt20@tag.a.1@text",
+      "lastChapter": "class.detail@i@a@text",
+      "name": "class.info@h1@text##免费阅读",
+      "tocUrl": "class.btn btn-info@href"
+    },
+    "ruleContent": {
+      "content": "id.ajax_content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.authorname@text",
+      "bookList": "class.ui_booklistv@li",
+      "bookUrl": "a@href##^##https://www.bm-xiaoshuo.com",
+      "coverUrl": "img@src",
+      "name": "h3@text||class.n2@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.mulu@li",
+      "chapterName": "class.col3@text",
+      "chapterUrl": "id##(\\d+)##https://www.bm-xiaoshuo.com/chapter/$1/"
+    },
+    "searchUrl": "https://www.bm-xiaoshuo.com/search/,{\n  \"method\": \"POST\",\n  \"body\": \"kw={{key}}\"\n}",
+    "weight": 0
+  }]

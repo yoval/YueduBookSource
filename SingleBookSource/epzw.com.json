@@ -1,1 +1,44 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 一品中文", "bookSourceType": 0, "bookSourceUrl": "http://www.epzw.com", "bookUrlPattern": "", "customOrder": -32572, "enabled": true, "enabledExplore": true, "exploreUrl": "", "header": "", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "class.author@text作者.", "coverUrl": "tag.img.3@src", "intro": "class.p3@text", "kind": "class.topmenu chaptermenu@tag.a.1@text", "lastChapter": "class.p4.2@tag.a@text", "name": "class.p1.1@tag.h1@text", "wordCount": "class.p4.1@text##最后更新."}, "ruleContent": {"content": "id.content@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.s4@text", "bookList": "class.banner@tag.ul", "bookUrl": "class.s2@a@href", "kind": "class.s1@text##\\[|\\]", "lastChapter": "class.s3@text", "name": "class.s2@text", "wordCount": "class.s5@text"}, "ruleToc": {"chapterList": "class.chapterlist.1@li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.epzw.com/search.php?keyword={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 一品中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.epzw.com",
+    "bookUrlPattern": "",
+    "customOrder": -32572,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.author@text作者.",
+      "coverUrl": "tag.img.3@src",
+      "intro": "class.p3@text",
+      "kind": "class.topmenu chaptermenu@tag.a.1@text",
+      "lastChapter": "class.p4.2@tag.a@text",
+      "name": "class.p1.1@tag.h1@text",
+      "wordCount": "class.p4.1@text##最后更新."
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.banner@tag.ul",
+      "bookUrl": "class.s2@a@href",
+      "kind": "class.s1@text##\\[|\\]",
+      "lastChapter": "class.s3@text",
+      "name": "class.s2@text",
+      "wordCount": "class.s5@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapterlist.1@li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.epzw.com/search.php?keyword={{key}}",
+    "weight": 0
+  }]

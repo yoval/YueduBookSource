@@ -1,1 +1,45 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🌸 云轩阁", "bookSourceType": 0, "bookSourceUrl": "https://www.yunxuange.org", "customOrder": -117058, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1606572642808, "ruleBookInfo": {"author": "id.info@tag.p.0@tag.a@text", "coverUrl": "id.fmimg@tag.img@src", "intro": "id.intro@tag.p.0@text", "kind": "", "lastChapter": "id.info@tag.p.3@text", "name": "tag.h1@text", "tocUrl": ""}, "ruleContent": {"content": "id.content@html", "imageStyle": "full", "nextContentUrl": "text.下一页@href", "replaceRegex": "##喜欢.*?收\\s*藏.*|看.*yunxuange.*|图片正在加载中.*|{{title}}"}, "ruleExplore": {}, "ruleSearch": {"author": "class.book_other.0@tag.span.0@text", "bookList": "id.sitembox@tag.dl", "bookUrl": "tag.h3@tag.a@href", "coverUrl": "tag.img@src", "intro": "class.book_des@text", "kind": "class.book_other.0@tag.span.1@text", "lastChapter": "class.book_other.1@tag.a@text", "name": "tag.h3@text", "wordCount": "class.book_other.0@tag.span.1@2"}, "ruleToc": {"chapterList": "@css: #list dt~dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "/search.html?searchkey={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🌸 云轩阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yunxuange.org",
+    "customOrder": -117058,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1606572642808,
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@tag.a@text",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@tag.p.0@text",
+      "kind": "",
+      "lastChapter": "id.info@tag.p.3@text",
+      "name": "tag.h1@text",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "id.content@html",
+      "imageStyle": "full",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": "##喜欢.*?收\\s*藏.*|看.*yunxuange.*|图片正在加载中.*|{{title}}"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.book_other.0@tag.span.0@text",
+      "bookList": "id.sitembox@tag.dl",
+      "bookUrl": "tag.h3@tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.book_des@text",
+      "kind": "class.book_other.0@tag.span.1@text",
+      "lastChapter": "class.book_other.1@tag.a@text",
+      "name": "tag.h3@text",
+      "wordCount": "class.book_other.0@tag.span.1@2"
+    },
+    "ruleToc": {
+      "chapterList": "@css: #list dt~dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search.html?searchkey={{key}}",
+    "weight": 0
+  }]

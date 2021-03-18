@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "👍 茄子手机版", "bookSourceType": 0, "bookSourceUrl": "https://wap.free-xsw.com", "customOrder": -115033, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1612583642684, "ruleBookInfo": {"author": "class.autor.0@text", "coverUrl": ".book img@src", "intro": ".desp@textNodes", "lastChapter": "class.autor.4@tag.a@text", "tocUrl": ".m@tag.a.1@href"}, "ruleContent": {"content": ".s@html", "nextContentUrl": ".m1@tag.a.2@href", "replaceRegex": "##一秒记住域名.*|请记住本站域名.*|.*\"free-xsw.com\"。"}, "ruleExplore": {}, "ruleSearch": {"bookList": ".z li", "bookUrl": ".tit a@href", "kind": ".lei@text##\\[|\\]", "name": ".tit a@text"}, "ruleToc": {"chapterList": ".z a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "text.下页@href"}, "searchUrl": "/index.php?do=wap_sea&so=yes&name={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "👍 茄子手机版",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://wap.free-xsw.com",
+    "customOrder": -115033,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612583642684,
+    "ruleBookInfo": {
+      "author": "class.autor.0@text",
+      "coverUrl": ".book img@src",
+      "intro": ".desp@textNodes",
+      "lastChapter": "class.autor.4@tag.a@text",
+      "tocUrl": ".m@tag.a.1@href"
+    },
+    "ruleContent": {
+      "content": ".s@html",
+      "nextContentUrl": ".m1@tag.a.2@href",
+      "replaceRegex": "##一秒记住域名.*|请记住本站域名.*|.*\"free-xsw.com\"。"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": ".z li",
+      "bookUrl": ".tit a@href",
+      "kind": ".lei@text##\\[|\\]",
+      "name": ".tit a@text"
+    },
+    "ruleToc": {
+      "chapterList": ".z a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下页@href"
+    },
+    "searchUrl": "/index.php?do=wap_sea&so=yes&name={{key}}",
+    "weight": 0
+  }]

@@ -1,1 +1,38 @@
-[{"bookSourceComment": "需关闭精准搜索\n\n可搜索书名或作者名\n\n关键词第一优先级为男女主角的准确名字\n其它关键词为较频繁的龙套名或地点名、道具名、事件\n多个关键词以空格分隔，页面只列出满足所有关键词的结果\n\n可以在关键词前面加zj:表示搜索主角名\n例如：zj:韩立\n\n支持按后宫人数检索，数字1~20，超过20按20\n例如：zj:韩立 hg:5，表示只列出后宫人数大于等于5的小说\n可以设置人数区间，如：zj:韩立 hg:5~10\n后宫人数可能不准确，建议放宽范围", "bookSourceGroup": "我的书源", "bookSourceName": "🍄 拨云搜索", "bookSourceType": 0, "bookSourceUrl": "https://www.boyunso.com", "bookUrlPattern": "", "customOrder": -115747, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1610040355633, "loginUrl": "", "ruleBookInfo": {"canReName": "true", "intro": "class.book-intro@textNodes&&class.book-comment@text&&class.details-keys-head.0@text&&class.details-keys.0@tag.a@text@js:'\\n'+result"}, "ruleContent": {"content": "{{book.durChapterTitle}}", "replaceRegex": ""}, "ruleExplore": {}, "ruleSearch": {"author": "class.book-item-title@text##.*作者：|\\s*", "bookList": "class.book-item", "bookUrl": "tag.a.0@href", "intro": "class.book-intro@textNodes", "kind": "class.label label-info@text", "lastChapter": "{{'换源阅读'}}", "name": "class.book-item-title@text##\\s\\-\\s作者：.*"}, "ruleToc": {"chapterList": "class.details-keys.1@tag.li!-1@tag.a", "chapterName": "{{'类似的小说👁‍🗨'}}{{@@text}}", "chapterUrl": "href"}, "searchUrl": "/search/?kw={{key}}&p={{page-1}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "需关闭精准搜索\n\n可搜索书名或作者名\n\n关键词第一优先级为男女主角的准确名字\n其它关键词为较频繁的龙套名或地点名、道具名、事件\n多个关键词以空格分隔，页面只列出满足所有关键词的结果\n\n可以在关键词前面加zj:表示搜索主角名\n例如：zj:韩立\n\n支持按后宫人数检索，数字1~20，超过20按20\n例如：zj:韩立 hg:5，表示只列出后宫人数大于等于5的小说\n可以设置人数区间，如：zj:韩立 hg:5~10\n后宫人数可能不准确，建议放宽范围",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍄 拨云搜索",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.boyunso.com",
+    "bookUrlPattern": "",
+    "customOrder": -115747,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1610040355633,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "canReName": "true",
+      "intro": "class.book-intro@textNodes&&class.book-comment@text&&class.details-keys-head.0@text&&class.details-keys.0@tag.a@text@js:'\\n'+result"
+    },
+    "ruleContent": {
+      "content": "{{book.durChapterTitle}}",
+      "replaceRegex": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.book-item-title@text##.*作者：|\\s*",
+      "bookList": "class.book-item",
+      "bookUrl": "tag.a.0@href",
+      "intro": "class.book-intro@textNodes",
+      "kind": "class.label label-info@text",
+      "lastChapter": "{{'换源阅读'}}",
+      "name": "class.book-item-title@text##\\s\\-\\s作者：.*"
+    },
+    "ruleToc": {
+      "chapterList": "class.details-keys.1@tag.li!-1@tag.a",
+      "chapterName": "{{'类似的小说👁‍🗨'}}{{@@text}}",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search/?kw={{key}}&p={{page-1}}",
+    "weight": 0
+  }]

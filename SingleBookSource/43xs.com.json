@@ -1,1 +1,43 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "👍 风雨文学网™", "bookSourceType": 0, "bookSourceUrl": "https://www.43xs.com", "bookUrlPattern": "", "customOrder": -114858, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1612807687497, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.articleInfoLeft@tag.a@img@src", "intro": "id.wrap@text", "kind": "class.left@tag.strong.0@text", "lastChapter": "class.articleInfoRight@tag.span.0@text", "name": "class.articleInfoRight@tag.h1@text", "tocUrl": "text.点击阅读@href"}, "ruleContent": {"content": "id.content@html", "replaceRegex": "##您正在阅读.*的章节(.|\\n)*"}, "ruleExplore": {}, "ruleSearch": {"author": "class.info@tag.li.1@tag.font.0@text", "bookList": "class.info", "bookUrl": "class.info@tag.a@href", "coverUrl": "class.info@tag.a@img@src", "intro": "class.info@tag.li.0@text", "kind": "class.info@tag.li.1@tag.font.1@text", "lastChapter": "class.info@tag.li.1@tag.font.3@text", "name": "class.info@tag.h2@tag.b@tag.a@text"}, "ruleToc": {"chapterList": "class.ccss", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.43xs.com/modules/article/search.php?searchtype=articlename&searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "👍 风雨文学网™",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.43xs.com",
+    "bookUrlPattern": "",
+    "customOrder": -114858,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612807687497,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.articleInfoLeft@tag.a@img@src",
+      "intro": "id.wrap@text",
+      "kind": "class.left@tag.strong.0@text",
+      "lastChapter": "class.articleInfoRight@tag.span.0@text",
+      "name": "class.articleInfoRight@tag.h1@text",
+      "tocUrl": "text.点击阅读@href"
+    },
+    "ruleContent": {
+      "content": "id.content@html",
+      "replaceRegex": "##您正在阅读.*的章节(.|\\n)*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.info@tag.li.1@tag.font.0@text",
+      "bookList": "class.info",
+      "bookUrl": "class.info@tag.a@href",
+      "coverUrl": "class.info@tag.a@img@src",
+      "intro": "class.info@tag.li.0@text",
+      "kind": "class.info@tag.li.1@tag.font.1@text",
+      "lastChapter": "class.info@tag.li.1@tag.font.3@text",
+      "name": "class.info@tag.h2@tag.b@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.ccss",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.43xs.com/modules/article/search.php?searchtype=articlename&searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

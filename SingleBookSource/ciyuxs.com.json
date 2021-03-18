@@ -1,1 +1,43 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🔰 辞鱼小说", "bookSourceType": 0, "bookSourceUrl": "https://m.ciyuxs.com", "customOrder": -114791, "enabled": true, "enabledExplore": true, "exploreUrl": "穿越::https://m.ciyuxs.com/wapsort/1/{{page}}/&&架空::/wapsort/2/{{page}}/&&玄幻::/wapsort/3/{{page}}/&&古言::/wapsort/6/{{page}}/&&仙侠::/wapsort/5/{{page}}/&&审美::/wapsort/17/{{page}}/&&都市::/wapsort/10/{{page}}/&&历史::/wapsort/9/{{page}}/&&其他::/wapsort/18/{{page}}/&&", "lastUpdateTime": 1610038447402, "ruleBookInfo": {"author": "tag.p.2@tag.a@text", "coverUrl": "img@src", "intro": ".intro_info@text", "kind": "tag.p.3@tag.a@text", "lastChapter": "tag.p.6@tag.a@text", "name": "h2@text", "tocUrl": "@js:baseUrl.replace('wapread','wapbook')", "wordCount": "tag.p.4@text"}, "ruleContent": {"content": "#nr1@html", "nextContentUrl": "#pb_next@href"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.a.2@text", "bookList": ".line", "bookUrl": "tag.a.1@href", "coverUrl": "tag.a.1@href@js:var id = result.match(/\\/(\\d+)\\/$/)[1];\nxid=Math.floor(id/1000);\n'https://www.ciyuxs.com/files/article/image/'+xid+'/'+id+'/'+id+'s.jpg'", "kind": "tag.a.0@text", "name": "tag.a.1@text"}, "ruleToc": {"chapterList": ".chapter@a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "text.下页@href"}, "searchUrl": "https://m.ciyuxs.com/s.html?type=articlename&kw={{key}}&submit=&page={{page}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🔰 辞鱼小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.ciyuxs.com",
+    "customOrder": -114791,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "穿越::https://m.ciyuxs.com/wapsort/1/{{page}}/&&架空::/wapsort/2/{{page}}/&&玄幻::/wapsort/3/{{page}}/&&古言::/wapsort/6/{{page}}/&&仙侠::/wapsort/5/{{page}}/&&审美::/wapsort/17/{{page}}/&&都市::/wapsort/10/{{page}}/&&历史::/wapsort/9/{{page}}/&&其他::/wapsort/18/{{page}}/&&",
+    "lastUpdateTime": 1610038447402,
+    "ruleBookInfo": {
+      "author": "tag.p.2@tag.a@text",
+      "coverUrl": "img@src",
+      "intro": ".intro_info@text",
+      "kind": "tag.p.3@tag.a@text",
+      "lastChapter": "tag.p.6@tag.a@text",
+      "name": "h2@text",
+      "tocUrl": "@js:baseUrl.replace('wapread','wapbook')",
+      "wordCount": "tag.p.4@text"
+    },
+    "ruleContent": {
+      "content": "#nr1@html",
+      "nextContentUrl": "#pb_next@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": ".line",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.a.1@href@js:var id = result.match(/\\/(\\d+)\\/$/)[1];\nxid=Math.floor(id/1000);\n'https://www.ciyuxs.com/files/article/image/'+xid+'/'+id+'/'+id+'s.jpg'",
+      "kind": "tag.a.0@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": ".chapter@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下页@href"
+    },
+    "searchUrl": "https://m.ciyuxs.com/s.html?type=articlename&kw={{key}}&submit=&page={{page}}",
+    "weight": 0
+  }]

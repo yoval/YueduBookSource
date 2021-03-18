@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 心情小说", "bookSourceType": 0, "bookSourceUrl": "https://www.xinqing100.net", "bookUrlPattern": "", "customOrder": -32059, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": "tag.img@src", "intro": "id.bookIntro@text", "lastChapter": "class.col-md-10@tag.p.1@a@text##正文 |.*实时查看。）"}, "ruleContent": {"content": "class.panel-body@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.li.2@text##作者：", "bookList": "class.mySearch@ul", "bookUrl": "tag.a@href", "coverUrl": "tag.a.0@href##/book/(\\d+)(\\d{3}).html##/files/article/image/$1/$1$2/$1$2s.jpg", "kind": "tag.li.5@text##状态：", "lastChapter": "tag.li.1@a@text", "name": "tag.li.0@a@text"}, "ruleToc": {"chapterList": "id.list-chapterAll@dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.xinqing100.net/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 心情小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xinqing100.net",
+    "bookUrlPattern": "",
+    "customOrder": -32059,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "tag.img@src",
+      "intro": "id.bookIntro@text",
+      "lastChapter": "class.col-md-10@tag.p.1@a@text##正文 |.*实时查看。）"
+    },
+    "ruleContent": {
+      "content": "class.panel-body@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.li.2@text##作者：",
+      "bookList": "class.mySearch@ul",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.a.0@href##/book/(\\d+)(\\d{3}).html##/files/article/image/$1/$1$2/$1$2s.jpg",
+      "kind": "tag.li.5@text##状态：",
+      "lastChapter": "tag.li.1@a@text",
+      "name": "tag.li.0@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list-chapterAll@dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.xinqing100.net/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

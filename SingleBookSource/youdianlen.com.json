@@ -1,1 +1,53 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,刘备书源", "bookSourceName": "🚬 有点冷", "bookSourceType": 0, "bookSourceUrl": "http://www.youdianlen.com", "bookUrlPattern": "", "customOrder": 24506, "enabled": true, "enabledExplore": true, "exploreUrl": "评分::/rank/star_score/{{page}}.html\n点击::/rank/allvisit/{{page}}.html\n推荐::/rank/vote/{{page}}.html\n收藏::/rank/mark/{{page}}.html\n下载::/rank/down/{{page}}.html\n评论::/rank/comment/{{page}}.html\n入库::/rank/postdate/{{page}}.html\n百度::/rank/baidu/{{page}}.html\n追书::/rank/zhuishu/{{page}}.html\n书旗::/rank/shuqi/{{page}}.html\n掌阅::/rank/zhangyue/{{page}}.html\n17Ｋ::/rank/17k/{{page}}.html\n玄幻::/category/xuanhuan/{{page}}.html\n奇幻::/category/qihuan/{{page}}.html\n武侠::/category/wuxia/{{page}}.html\n仙侠::/category/xianxia/{{page}}.html\n都市::/category/dushixs/{{page}}.html\n历史::/category/lishi/{{page}}.html\n游戏::/category/youxi/{{page}}.html\n竞技::/category/jingji/{{page}}.html\n科幻::/category/kehuan/{{page}}.html\n灵异::/category/lingyi/{{page}}.html\n其他::/category/qita/{{page}}.html\n高辣::/category/gaola/{{page}}.html\n古典架空::/category/gudian/{{page}}.html\n都市现言::/category/dushi/{{page}}.html\n科幻灵异::/category/kehuanlingyi/{{page}}.html", "lastUpdateTime": 1607516458567, "loginUrl": "", "ruleBookInfo": {"author": "[property=\"og:novel:author\"]@content", "coverUrl": "[property=\"og:image\"]@content", "intro": "[property=\"og:description\"]@content", "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##小说|\\s.*", "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content", "name": "[property=\"og:novel:book_name\"]@content", "tocUrl": ""}, "ruleContent": {"content": "class.pt-read-text@tag.p@text"}, "ruleExplore": {"author": "tag.a.3@text", "bookList": "class.recommend-main", "bookUrl": "tag.a.1@href", "coverUrl": "tag.img@data-src", "intro": "class.book-intro@text", "kind": "tag.span.1@text##\\s.*", "lastChapter": "", "name": "tag.a.1@text"}, "ruleSearch": {"author": "tag.a.2@text", "bookList": "class.pt-rank-detail", "bookUrl": "tag.a.1@href", "coverUrl": "tag.img@src", "intro": "class.desc@text", "kind": "tag.a.3@text##小说", "lastChapter": "tag.span.-2@text", "name": "tag.a.1@text"}, "ruleToc": {"chapterList": "class.pt-chapter-cont-detail@tag.a", "chapterName": "tag.span@text", "chapterUrl": "href"}, "searchUrl": "/search/result.html?searchkey={{key}}&page={{page}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,刘备书源",
+    "bookSourceName": "🚬 有点冷",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.youdianlen.com",
+    "bookUrlPattern": "",
+    "customOrder": 24794,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "评分::/rank/star_score/{{page}}.html\n点击::/rank/allvisit/{{page}}.html\n推荐::/rank/vote/{{page}}.html\n收藏::/rank/mark/{{page}}.html\n下载::/rank/down/{{page}}.html\n评论::/rank/comment/{{page}}.html\n入库::/rank/postdate/{{page}}.html\n百度::/rank/baidu/{{page}}.html\n追书::/rank/zhuishu/{{page}}.html\n书旗::/rank/shuqi/{{page}}.html\n掌阅::/rank/zhangyue/{{page}}.html\n17Ｋ::/rank/17k/{{page}}.html\n玄幻::/category/xuanhuan/{{page}}.html\n奇幻::/category/qihuan/{{page}}.html\n武侠::/category/wuxia/{{page}}.html\n仙侠::/category/xianxia/{{page}}.html\n都市::/category/dushixs/{{page}}.html\n历史::/category/lishi/{{page}}.html\n游戏::/category/youxi/{{page}}.html\n竞技::/category/jingji/{{page}}.html\n科幻::/category/kehuan/{{page}}.html\n灵异::/category/lingyi/{{page}}.html\n其他::/category/qita/{{page}}.html\n高辣::/category/gaola/{{page}}.html\n古典架空::/category/gudian/{{page}}.html\n都市现言::/category/dushi/{{page}}.html\n科幻灵异::/category/kehuanlingyi/{{page}}.html",
+    "lastUpdateTime": 1607516458567,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##小说|\\s.*",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "class.pt-read-text@tag.p@text"
+    },
+    "ruleExplore": {
+      "author": "tag.a.3@text",
+      "bookList": "class.recommend-main",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img@data-src",
+      "intro": "class.book-intro@text",
+      "kind": "tag.span.1@text##\\s.*",
+      "lastChapter": "",
+      "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.pt-rank-detail",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.desc@text",
+      "kind": "tag.a.3@text##小说",
+      "lastChapter": "tag.span.-2@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.pt-chapter-cont-detail@tag.a",
+      "chapterName": "tag.span@text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search/result.html?searchkey={{key}}&page={{page}}",
+    "weight": 0
+  }]

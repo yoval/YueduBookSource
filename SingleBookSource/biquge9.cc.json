@@ -1,1 +1,42 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "🎉 笔趣阁", "bookSourceType": 0, "bookSourceUrl": "https://www.biquge9.cc", "bookUrlPattern": "", "customOrder": -32418, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1600951631354, "loginUrl": "", "ruleBookInfo": {"author": "class.small@tag.span.0@text##作者：", "coverUrl": "class.cover@tag.img@src", "intro": "class.intro@text", "kind": "class.small@tag.span.1@text##分类：", "lastChapter": "class.listmain@tag.dd.-1@tag.a@text", "name": "tag.h1@text"}, "ruleContent": {"content": "id.content@html##请记住本书首发域名：www.biquge9.cc。笔趣阁手机版更新最快网址：m.biquge9.cc"}, "ruleExplore": {}, "ruleSearch": {"author": "class.author@text", "bookList": "class.bookbox", "bookUrl": "tag.h4@tag.a@href", "coverUrl": "tag.img@src", "intro": "class.bookinfo@tag.p@text", "kind": "class.cat@text##分类：", "lastChapter": "class.update@tag.a@text", "name": "tag.h4@tag.a@text"}, "ruleToc": {"chapterList": "class.listmain@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "/s.php?q={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "🎉 笔趣阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.biquge9.cc",
+    "bookUrlPattern": "",
+    "customOrder": -32418,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1600951631354,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.small@tag.span.0@text##作者：",
+      "coverUrl": "class.cover@tag.img@src",
+      "intro": "class.intro@text",
+      "kind": "class.small@tag.span.1@text##分类：",
+      "lastChapter": "class.listmain@tag.dd.-1@tag.a@text",
+      "name": "tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html##请记住本书首发域名：www.biquge9.cc。笔趣阁手机版更新最快网址：m.biquge9.cc"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "class.bookbox",
+      "bookUrl": "tag.h4@tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.bookinfo@tag.p@text",
+      "kind": "class.cat@text##分类：",
+      "lastChapter": "class.update@tag.a@text",
+      "name": "tag.h4@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/s.php?q={{key}}",
+    "weight": 0
+  }]

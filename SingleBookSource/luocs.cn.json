@@ -1,1 +1,64 @@
-[{"bookSourceComment": "error:搜索内容为空并且没有发现\n", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 落尘小说", "bookSourceType": 0, "bookSourceUrl": "https://www.luocs.cn", "bookUrlPattern": "", "customOrder": -32486, "enabled": true, "enabledExplore": true, "exploreUrl": "", "header": "", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "", "coverUrl": "", "init": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "tocUrl": "", "wordCount": ""}, "ruleContent": {"content": "id.book_text@textNodes##记住本站网址(.*|\\n)本站", "nextContentUrl": "", "sourceRegex": "", "webJs": ""}, "ruleExplore": {"author": "", "bookList": "", "bookUrl": "", "coverUrl": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "wordCount": ""}, "ruleSearch": {"author": "author", "bookList": ".grid tr!0\n<js>\nresult.toArray().slice(0,3).map(o=>{\n    var detail = o.select('td:eq(0) a').attr('href');\n    var J = org.jsoup.Jsoup.parse(java.ajax(detail));\n    var oText = selector =>String(o.select(selector).text().trim()).replace(/.+：/, '');\n    return {\n       name:  oText('td:eq(0)'),\n       author: oText('td:eq(2)'),\n       tags:    [oText('td:eq(5)'),J.select('.info p:eq(0)').text()].join(','),\n       num:   oText('td:eq(3)') + '字',\n       latest:  oText('td:eq(1)') +  oText('td:eq(4)').replace(/(\\d+-\\d+-\\d+).*/,'（$1）'),\n       intro:  J.select('#intro p').text(),\n       cover: J.select('.img img').attr('src'),\n       catalogUrl: detail\n    }\n}).filter(v =>v.name);\n</js>", "bookUrl": "catalogUrl", "coverUrl": "cover", "intro": "intro", "kind": "tags", "lastChapter": "latest", "name": "name", "wordCount": "num"}, "ruleToc": {"chapterList": ".article_texttitleb@li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "isVip": "", "nextTocUrl": "", "updateTime": ""}, "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=articlename&searchkey={{key}}&action=login&submit=%26%23160%3B%CB%D1%26%23160%3B%26%23160%3B%CB%F7%26%23160%3B&page={{page}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 落尘小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.luocs.cn",
+    "bookUrlPattern": "",
+    "customOrder": -32486,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "",
+      "init": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.book_text@textNodes##记住本站网址(.*|\\n)本站",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "author",
+      "bookList": ".grid tr!0\n<js>\nresult.toArray().slice(0,3).map(o=>{\n    var detail = o.select('td:eq(0) a').attr('href');\n    var J = org.jsoup.Jsoup.parse(java.ajax(detail));\n    var oText = selector =>String(o.select(selector).text().trim()).replace(/.+：/, '');\n    return {\n       name:  oText('td:eq(0)'),\n       author: oText('td:eq(2)'),\n       tags:    [oText('td:eq(5)'),J.select('.info p:eq(0)').text()].join(','),\n       num:   oText('td:eq(3)') + '字',\n       latest:  oText('td:eq(1)') +  oText('td:eq(4)').replace(/(\\d+-\\d+-\\d+).*/,'（$1）'),\n       intro:  J.select('#intro p').text(),\n       cover: J.select('.img img').attr('src'),\n       catalogUrl: detail\n    }\n}).filter(v =>v.name);\n</js>",
+      "bookUrl": "catalogUrl",
+      "coverUrl": "cover",
+      "intro": "intro",
+      "kind": "tags",
+      "lastChapter": "latest",
+      "name": "name",
+      "wordCount": "num"
+    },
+    "ruleToc": {
+      "chapterList": ".article_texttitleb@li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=articlename&searchkey={{key}}&action=login&submit=%26%23160%3B%CB%D1%26%23160%3B%26%23160%3B%CB%F7%26%23160%3B&page={{page}}\"\n}",
+    "weight": 0
+  }]

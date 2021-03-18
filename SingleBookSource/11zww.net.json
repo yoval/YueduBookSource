@@ -1,1 +1,35 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🔰 11中文网", "bookSourceType": 0, "bookSourceUrl": "https://www.11zww.net", "bookUrlPattern": "", "customOrder": -114719, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1612533794869, "loginUrl": "", "ruleBookInfo": {"coverUrl": "tag.img@src", "intro": "id.intro@tag.p@text"}, "ruleContent": {"content": "id.content@textNodes##(http://)?([a-zA-Z]+\\.)+[a-zA-Z]+|(https?\\:)?(//)?[WwｗＷm]{1,3}.*|11中文网手机站:|"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@text", "bookList": "class.grid@tag.tr!0", "bookUrl": "class.odd.0@tag.a.0@href", "lastChapter": "class.even.0@tag.a@text", "name": "class.odd.0@tag.a.0@text"}, "ruleToc": {"chapterList": "id.list@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.11zww.net/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=articlename&searchkey={{key}}&action=login&submit=&#160;\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🔰 11中文网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.11zww.net",
+    "bookUrlPattern": "",
+    "customOrder": -114719,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612533794869,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "tag.img@src",
+      "intro": "id.intro@tag.p@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##(http://)?([a-zA-Z]+\\.)+[a-zA-Z]+|(https?\\:)?(//)?[WwｗＷm]{1,3}.*|11中文网手机站:|"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "lastChapter": "class.even.0@tag.a@text",
+      "name": "class.odd.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.11zww.net/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=articlename&searchkey={{key}}&action=login&submit=&#160;\"\n}",
+    "weight": 0
+  }]

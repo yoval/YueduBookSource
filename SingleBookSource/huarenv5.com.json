@@ -1,1 +1,53 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "华人论坛", "bookSourceType": 0, "bookSourceUrl": "http://www.huarenv5.com", "bookUrlPattern": "", "customOrder": -10792, "enabled": true, "enabledExplore": true, "exploreUrl": "未来幻想::http://www.huarenv5.com/forum/forumdisplay.php?fid=54&filter=type&typeid=108", "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36\"\n}", "lastUpdateTime": 1615429403887, "loginUrl": "http://www.huarenv5.com/forum/logging.php?action=login", "ruleBookInfo": {"author": "id.threadtitle@tag.h1@ownText##.*作者：(.*)（.*##$1", "coverUrl": "class.lazy@data-original", "intro": "id.read_tpc@textNodes&&id.read_tpc@tag.span@text##图片:.*|原文地址(.|\\n)*", "kind": "", "name": "tag.title@ownText##《(.*)》.*##$1", "tocUrl": "", "wordCount": ""}, "ruleContent": {"content": "@css:.postmessage tr td@ownText##(^|[。！？]+[”」）】]?)##$1<br>", "imageStyle": "", "nextContentUrl": ""}, "ruleExplore": {"author": "tag.span.0@tag.a@text##.*作者：(.*)（.*##$1", "bookList": "tag.tbody@tr", "bookUrl": "tag.a@href", "kind": "tag.span.0@tag.a@text#\\[(.*)\\]##$1", "name": "tag.span.0@tag.a@text##《(.*)》.*##$1", "wordCount": ""}, "ruleSearch": {"author": "class.author@tag.a@text##.*作者.|\\【.*", "bookList": "class.searchlist@tag.table@tag.tbody", "bookUrl": "tag.a@href##highlight.*", "coverUrl": "", "kind": "class.forum@tag.a@text##口-", "name": "class.subject@tag.a.0@text##\\《|\\》.*"}, "ruleToc": {"chapterList": "class.authorinfo.0@a&&class.pages.0@a", "chapterName": "text##只看该作者##1", "chapterUrl": "href##\\&authorid.*", "nextTocUrl": "text.下一页@href"}, "searchUrl": "http://www.huarenv5.com/forum/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"srchtxt={{key}}&searchsubmit=true&orderway=lastpost&srchtype=title&sch_time=all\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "华人论坛",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.huarenv5.com",
+    "bookUrlPattern": "",
+    "customOrder": -10792,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "未来幻想::http://www.huarenv5.com/forum/forumdisplay.php?fid=54&filter=type&typeid=108",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_11_4) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36\"\n}",
+    "lastUpdateTime": 1615429403887,
+    "loginUrl": "http://www.huarenv5.com/forum/logging.php?action=login",
+    "ruleBookInfo": {
+      "author": "id.threadtitle@tag.h1@ownText##.*作者：(.*)（.*##$1",
+      "coverUrl": "class.lazy@data-original",
+      "intro": "id.read_tpc@textNodes&&id.read_tpc@tag.span@text##图片:.*|原文地址(.|\\n)*",
+      "kind": "",
+      "name": "tag.title@ownText##《(.*)》.*##$1",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "@css:.postmessage tr td@ownText##(^|[。！？]+[”」）】]?)##$1<br>",
+      "imageStyle": "",
+      "nextContentUrl": ""
+    },
+    "ruleExplore": {
+      "author": "tag.span.0@tag.a@text##.*作者：(.*)（.*##$1",
+      "bookList": "tag.tbody@tr",
+      "bookUrl": "tag.a@href",
+      "kind": "tag.span.0@tag.a@text#\\[(.*)\\]##$1",
+      "name": "tag.span.0@tag.a@text##《(.*)》.*##$1",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.author@tag.a@text##.*作者.|\\【.*",
+      "bookList": "class.searchlist@tag.table@tag.tbody",
+      "bookUrl": "tag.a@href##highlight.*",
+      "coverUrl": "",
+      "kind": "class.forum@tag.a@text##口-",
+      "name": "class.subject@tag.a.0@text##\\《|\\》.*"
+    },
+    "ruleToc": {
+      "chapterList": "class.authorinfo.0@a&&class.pages.0@a",
+      "chapterName": "text##只看该作者##1",
+      "chapterUrl": "href##\\&authorid.*",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "http://www.huarenv5.com/forum/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"srchtxt={{key}}&searchsubmit=true&orderway=lastpost&srchtype=title&sch_time=all\"\n}",
+    "weight": 0
+  }]

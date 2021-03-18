@@ -1,1 +1,67 @@
-[{"bookSourceComment": "酷安", "bookSourceGroup": "我的书源", "bookSourceName": "瓜子小说", "bookSourceType": 0, "bookSourceUrl": "https://www.gzbpi.com", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "总点击::/modules/article/toplist.php?sort=allvisit&page={{page}}\n月点击::/modules/article/toplist.php?sort=monthvisit&page={{page}}\n周点击::/modules/article/toplist.php?sort=weekvisit&page={{page}}\n\n总推荐::/modules/article/toplist.php?sort=allvote&page={{page}}\n月推荐::/modules/article/toplist.php?sort=monthvote&page={{page}}\n周推荐::/modules/article/toplist.php?sort=weekvote&page={{page}}\n\n收藏榜::/modules/article/toplist.php?sort=goodnum&page={{page}}\n新入库::/modules/article/toplist.php?sort=postdate&page={{page}}", "header": "", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "[property=og:novel:author]@content", "canReName": "true", "coverUrl": "[property=og:image]@content##.*(nopic|nocover).*", "init": "", "intro": "[property=og:description]@content", "kind": "[property=og:novel:category],[property=og:novel:status],[property=og:novel:update_time]@content", "lastChapter": "[property=og:novel:latest_chapter_name]@content", "name": "[property=og:novel:book_name]@content", "tocUrl": "[property=og:novel:read_url]@content##book/(\\d+)##shu/$1/,{\"webView\":true}", "wordCount": ""}, "ruleContent": {"content": "div.page-content@html", "imageStyle": "", "nextContentUrl": "a.j_chapterNext@href", "replaceRegex": "##\\s*本章未完.*\\s*|\\s*.*瓜.*子.*小.*说.*\\s*", "sourceRegex": "", "webJs": ""}, "ruleExplore": {"author": "tag.p.0@text##\\s更新进度.*", "bookList": "div.sk_box", "bookUrl": "tag.a.0@href", "coverUrl": "img@src##.*(nopic|nocover).*\",", "intro": "p.p_nr@textNodes", "kind": "tag.a.2@text&&tag.p.0@text&&class.sp_02@text##.*进度|更新时间|：|\\:|\\[|\\]", "lastChapter": "span.sp_01 a@text", "name": "a.new@text", "wordCount": ""}, "ruleSearch": {"author": "div.c-header-title@text##_(.*)小说_##$1###", "bookList": "div.js-nature-result:contains(gzbpi.com)", "bookUrl": "tag.a.0@href##/(\\d+)[/_]##https://www.gzbpi.com/book/$1###", "coverUrl": "tag.a.0@href##/(\\d+)[/_]##$1###\n@js:var xid=Math.floor(result/1000);'https://img.gzbpi.com/'+xid+'/'+result+'/'+result+'s.jpg'", "intro": "", "kind": "", "lastChapter": "", "name": "div.c-header-title@text##最新章节.*", "wordCount": ""}, "ruleToc": {"chapterList": "ul.mulu_list a", "chapterName": "text", "chapterUrl": "href", "isVip": "", "nextTocUrl": "", "updateTime": ""}, "searchUrl": "https://quark.sm.cn/s?q={{key}}%20site:gzbpi.com,{\"webView\":true}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "酷安",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "瓜子小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.gzbpi.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "总点击::/modules/article/toplist.php?sort=allvisit&page={{page}}\n月点击::/modules/article/toplist.php?sort=monthvisit&page={{page}}\n周点击::/modules/article/toplist.php?sort=weekvisit&page={{page}}\n\n总推荐::/modules/article/toplist.php?sort=allvote&page={{page}}\n月推荐::/modules/article/toplist.php?sort=monthvote&page={{page}}\n周推荐::/modules/article/toplist.php?sort=weekvote&page={{page}}\n\n收藏榜::/modules/article/toplist.php?sort=goodnum&page={{page}}\n新入库::/modules/article/toplist.php?sort=postdate&page={{page}}",
+    "header": "",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "[property=og:novel:author]@content",
+      "canReName": "true",
+      "coverUrl": "[property=og:image]@content##.*(nopic|nocover).*",
+      "init": "",
+      "intro": "[property=og:description]@content",
+      "kind": "[property=og:novel:category],[property=og:novel:status],[property=og:novel:update_time]@content",
+      "lastChapter": "[property=og:novel:latest_chapter_name]@content",
+      "name": "[property=og:novel:book_name]@content",
+      "tocUrl": "[property=og:novel:read_url]@content##book/(\\d+)##shu/$1/,{\"webView\":true}",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "div.page-content@html",
+      "imageStyle": "",
+      "nextContentUrl": "a.j_chapterNext@href",
+      "replaceRegex": "##\\s*本章未完.*\\s*|\\s*.*瓜.*子.*小.*说.*\\s*",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "tag.p.0@text##\\s更新进度.*",
+      "bookList": "div.sk_box",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@src##.*(nopic|nocover).*\",",
+      "intro": "p.p_nr@textNodes",
+      "kind": "tag.a.2@text&&tag.p.0@text&&class.sp_02@text##.*进度|更新时间|：|\\:|\\[|\\]",
+      "lastChapter": "span.sp_01 a@text",
+      "name": "a.new@text",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "div.c-header-title@text##_(.*)小说_##$1###",
+      "bookList": "div.js-nature-result:contains(gzbpi.com)",
+      "bookUrl": "tag.a.0@href##/(\\d+)[/_]##https://www.gzbpi.com/book/$1###",
+      "coverUrl": "tag.a.0@href##/(\\d+)[/_]##$1###\n@js:var xid=Math.floor(result/1000);'https://img.gzbpi.com/'+xid+'/'+result+'/'+result+'s.jpg'",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "div.c-header-title@text##最新章节.*",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "ul.mulu_list a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "https://quark.sm.cn/s?q={{key}}%20site:gzbpi.com,{\"webView\":true}",
+    "weight": 0
+  }]

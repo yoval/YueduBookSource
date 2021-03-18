@@ -1,1 +1,44 @@
-[{"bookSourceComment": "haxc", "bookSourceGroup": "我的书源", "bookSourceName": "玫瑰小说.steczx", "bookSourceType": 0, "bookSourceUrl": "http://m.steczx.com", "customOrder": 177, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻魔法::/fenlei/1/{{page}}\n武侠修真::/fenlei/2/{{page}}\n都市言情::/fenlei/3/{{page}}\n历史军事::/fenlei/4/{{page}}\n科幻灵异::/fenlei/5/{{page}}\n游戏竞技::/fenlei/6/{{page}}\n女生小说::/fenlei/7/{{page}}\n其他类型::/fenlei/8/{{page}}", "lastUpdateTime": 1614843634867, "ruleBookInfo": {"author": "[property=\"og:novel:author\"]@content", "coverUrl": "[property=\"og:image\"]@content", "intro": "[property=\"og:description\"]@content", "kind": "[property=\"og:novel:category\"]@content", "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content", "name": "[property=\"og:novel:book_name\"]@content", "tocUrl": "class.bookchaptermore@href", "wordCount": "class.book-cell@tag.p.3@text"}, "ruleContent": {"content": "id.booktxt@html", "nextContentUrl": "id.next_url@href"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.a.1@text", "bookList": "class.content@tag.dl", "bookUrl": "tag.a.0@href", "intro": "tag.dd.0@text", "kind": "tag.span.0@text", "name": "tag.a.0@text", "wordCount": "tag.span.1@text"}, "ruleToc": {"chapterList": "tag.ul@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "nextTocUrl": "option@value"}, "searchUrl": "http://m.steczx.com/search4?searchkey={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "haxc",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "玫瑰小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.steczx.com",
+    "customOrder": 177,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/fenlei/1/{{page}}\n武侠修真::/fenlei/2/{{page}}\n都市言情::/fenlei/3/{{page}}\n历史军事::/fenlei/4/{{page}}\n科幻灵异::/fenlei/5/{{page}}\n游戏竞技::/fenlei/6/{{page}}\n女生小说::/fenlei/7/{{page}}\n其他类型::/fenlei/8/{{page}}",
+    "lastUpdateTime": 1615880852360,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "class.bookchaptermore@href",
+      "wordCount": "class.book-cell@tag.p.3@text"
+    },
+    "ruleContent": {
+      "content": "id.booktxt@html",
+      "nextContentUrl": "id.next_url@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.1@text",
+      "bookList": "class.content@tag.dl",
+      "bookUrl": "tag.a.0@href",
+      "intro": "tag.dd.0@text",
+      "kind": "tag.span.0@text",
+      "name": "tag.a.0@text",
+      "wordCount": "tag.span.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "tag.ul@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "option@value"
+    },
+    "searchUrl": "http://m.steczx.com/search4?searchkey={{key}}",
+    "weight": 0
+  }]

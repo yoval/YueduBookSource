@@ -1,1 +1,39 @@
-[{"bookSourceComment": "error:List is empty.\n", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "🛠️ 笔趣阁㊼[缺页]", "bookSourceType": 0, "bookSourceUrl": "https://www.xinxs.la", "bookUrlPattern": "", "customOrder": 11703, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1612782314903, "loginUrl": "", "ruleBookInfo": {"author": "id.info@tag.p.0@text##作\\s*者：", "coverUrl": "tag.img.0@src", "intro": "class.m-desc xs-show@text##简介:", "lastChapter": "class.section-list fix.0@tag.li.0@a@text", "name": "id.info@tag.h1.0@text"}, "ruleContent": {"content": "id.content@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.s4@text", "bookList": "class.search-list@tag.li!0", "bookUrl": "class.s2@tag.a.0@href", "kind": "class.s1@text##\\[|]", "lastChapter": "class.s3@tag.a.0@text", "name": "class.s2@tag.a.0@text"}, "ruleToc": {"chapterList": "class.section-list fix.1@li@a", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://sou.xanbhx.com/search?siteid=xsla&q={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "🛠️ 笔趣阁㊼[缺页]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xinxs.la",
+    "bookUrlPattern": "",
+    "customOrder": 11703,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612782314903,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text##作\\s*者：",
+      "coverUrl": "tag.img.0@src",
+      "intro": "class.m-desc xs-show@text##简介:",
+      "lastChapter": "class.section-list fix.0@tag.li.0@a@text",
+      "name": "id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.search-list@tag.li!0",
+      "bookUrl": "class.s2@tag.a.0@href",
+      "kind": "class.s1@text##\\[|]",
+      "lastChapter": "class.s3@tag.a.0@text",
+      "name": "class.s2@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.section-list fix.1@li@a",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://sou.xanbhx.com/search?siteid=xsla&q={{key}}",
+    "weight": 0
+  }]

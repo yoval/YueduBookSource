@@ -1,1 +1,54 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "👍 爱倍多书城", "bookSourceType": 0, "bookSourceUrl": "https://www.abdsc.com", "bookUrlPattern": "", "customOrder": -114887, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻奇幻::/xuanhuan/{{page}}.html\n武侠仙侠::/wuxia/{{page}}.html\n都市生活::/dushi/{{page}}.html\n历史军事::/lishi/{{page}}.html\n游戏竞技::/youxi/{{page}}.html\n科幻未来::/kehuan/{{page}}.html\n恐怖悬疑::/xuanyi/{{page}}.html\n 二次 元 ::/erciyuan/{{page}}.html\n经典网文::/jingdian/{{page}}.html\n古代言情::/guyan/{{page}}.html\n现代言情::/xianyan/{{page}}.html\n幻想奇缘::/huanqing/{{page}}.html\n青春校园::/qingchun/{{page}}.html\n网络情缘::/wangluo/{{page}}.html\n科幻空间::/mmkehuan/{{page}}.html\n鬼怪灵异::/lingyi/{{page}}.html\n  N次元  ::/Nciyuan/{{page}}.html\n言情美文::/yanqing/{{page}}.html", "header": "", "lastUpdateTime": 1603904497224, "loginUrl": "", "ruleBookInfo": {"author": "[property=\"og:novel:author\"]@content", "coverUrl": "[property=\"og:image\"]@content", "intro": "id.intro@tag.p.0@html", "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content", "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content", "name": "[property=\"og:novel:book_name\"]@content", "wordCount": "[property=\"og:novel:update_time\"]@content"}, "ruleContent": {"content": "id.content@tag.p@text##因某些原因.*回家的路！|喜欢.*速度最快。"}, "ruleExplore": {"author": "class.s4@text", "bookList": "class.l@ul@tag.li||class.novelslist2@ul@tag.li!0", "bookUrl": "class.s2@tag.a@href", "kind": "class.s1@text&&class.s6@text##\\[|\\]", "lastChapter": "class.s3@text", "name": "class.s2@text", "wordCount": "class.s5@text"}, "ruleSearch": {"author": "class.book_other.0@tag.span.0@text", "bookList": "id.sitembox@tag.dl", "bookUrl": "tag.a.1@href", "coverUrl": "tag.img@src", "intro": "class.book_des@text", "kind": "class.book_other.0@tag.span.1@text&&class.book_other.0@tag.span.2@text", "lastChapter": "class.book_other.1@tag.a.0@text", "name": "tag.a.1@text", "wordCount": "class.book_other.0@tag.span.3@text"}, "ruleToc": {"chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8:9:10:11@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "👍 爱倍多书城",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.abdsc.com",
+    "bookUrlPattern": "",
+    "customOrder": -114887,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/xuanhuan/{{page}}.html\n武侠仙侠::/wuxia/{{page}}.html\n都市生活::/dushi/{{page}}.html\n历史军事::/lishi/{{page}}.html\n游戏竞技::/youxi/{{page}}.html\n科幻未来::/kehuan/{{page}}.html\n恐怖悬疑::/xuanyi/{{page}}.html\n 二次 元 ::/erciyuan/{{page}}.html\n经典网文::/jingdian/{{page}}.html\n古代言情::/guyan/{{page}}.html\n现代言情::/xianyan/{{page}}.html\n幻想奇缘::/huanqing/{{page}}.html\n青春校园::/qingchun/{{page}}.html\n网络情缘::/wangluo/{{page}}.html\n科幻空间::/mmkehuan/{{page}}.html\n鬼怪灵异::/lingyi/{{page}}.html\n  N次元  ::/Nciyuan/{{page}}.html\n言情美文::/yanqing/{{page}}.html",
+    "header": "",
+    "lastUpdateTime": 1603904497224,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "id.intro@tag.p.0@html",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "wordCount": "[property=\"og:novel:update_time\"]@content"
+    },
+    "ruleContent": {
+      "content": "id.content@tag.p@text##因某些原因.*回家的路！|喜欢.*速度最快。"
+    },
+    "ruleExplore": {
+      "author": "class.s4@text",
+      "bookList": "class.l@ul@tag.li||class.novelslist2@ul@tag.li!0",
+      "bookUrl": "class.s2@tag.a@href",
+      "kind": "class.s1@text&&class.s6@text##\\[|\\]",
+      "lastChapter": "class.s3@text",
+      "name": "class.s2@text",
+      "wordCount": "class.s5@text"
+    },
+    "ruleSearch": {
+      "author": "class.book_other.0@tag.span.0@text",
+      "bookList": "id.sitembox@tag.dl",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.book_des@text",
+      "kind": "class.book_other.0@tag.span.1@text&&class.book_other.0@tag.span.2@text",
+      "lastChapter": "class.book_other.1@tag.a.0@text",
+      "name": "tag.a.1@text",
+      "wordCount": "class.book_other.0@tag.span.3@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8:9:10:11@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

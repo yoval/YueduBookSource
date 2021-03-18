@@ -1,1 +1,49 @@
-[{"bookSourceComment": "error:Failed to connect to www.adf.cc/185.201.226.75:443\n", "bookSourceGroup": "我的书源", "bookSourceName": "🔰 阿迪夫小说[仅发现]", "bookSourceType": 0, "bookSourceUrl": "https://www.adf.cc", "bookUrlPattern": "", "customOrder": 16253, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻奇幻::/qihuan/<,{{page}}.html>\n仙侠修真::/xiuzhen/<,{{page}}.html>\n都市现代::/xiandai/<,{{page}}.html>\n科幻未来::/weilai/<,{{page}}.html>\n网络游戏::/wangyou/<,{{page}}.html>\n青春校园::/qingchun/<,{{page}}.html>\n军事历史::/junshi/<,{{page}}.html>\n恐怖悬疑::/xuanyi/<,{{page}}.html>", "lastUpdateTime": 1602900567200, "loginUrl": "", "ruleBookInfo": {"intro": "class.info-text@text##.*最新章节", "lastChapter": "//*[@class=\"new\"]/a/text()", "tocUrl": "//*[@class=\"read_link\"]/a[1]/@href"}, "ruleContent": {"content": "class.content_left@tag.p@textNodes"}, "ruleExplore": {"author": "class.book_info@tag.a.1@text", "bookList": "class.book", "bookUrl": "class.book_info@tag.a.0@href", "coverUrl": "class.pic@tag.img.0@src", "intro": "class.book_info@tag.a.2@text", "lastChapter": "tag.span.0@text", "name": "class.book_info@tag.a.0@text##《|》", "wordCount": "class.book_info@tag.p.1@text##更新："}, "ruleSearch": {"author": "class.book_info@tag.span.0@text##\\/", "bookList": "//*[@class=\"book\"]", "bookUrl": "class.book_info@tag.a.0@href", "coverUrl": "class.book@tag.img.0@src", "intro": "class.book_info@tag.a.2@text", "lastChapter": "class.book_info@tag.a.1@text##最新章节：", "name": "class.book_info@tag.a.0@text##\\/.*|《|》", "wordCount": "class.book_info@tag.p.2@text##更新时间："}, "ruleToc": {"chapterList": "//*[@class=\"list\"]/dl[2]/dd/a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.shukeba.com/search.php?searchsubmit=1&q={{key}}&page={{page}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:Failed to connect to www.adf.cc/185.201.226.75:443\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🔰 阿迪夫小说[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.adf.cc",
+    "bookUrlPattern": "",
+    "customOrder": 16253,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/qihuan/<,{{page}}.html>\n仙侠修真::/xiuzhen/<,{{page}}.html>\n都市现代::/xiandai/<,{{page}}.html>\n科幻未来::/weilai/<,{{page}}.html>\n网络游戏::/wangyou/<,{{page}}.html>\n青春校园::/qingchun/<,{{page}}.html>\n军事历史::/junshi/<,{{page}}.html>\n恐怖悬疑::/xuanyi/<,{{page}}.html>",
+    "lastUpdateTime": 1602900567200,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.info-text@text##.*最新章节",
+      "lastChapter": "//*[@class=\"new\"]/a/text()",
+      "tocUrl": "//*[@class=\"read_link\"]/a[1]/@href"
+    },
+    "ruleContent": {
+      "content": "class.content_left@tag.p@textNodes"
+    },
+    "ruleExplore": {
+      "author": "class.book_info@tag.a.1@text",
+      "bookList": "class.book",
+      "bookUrl": "class.book_info@tag.a.0@href",
+      "coverUrl": "class.pic@tag.img.0@src",
+      "intro": "class.book_info@tag.a.2@text",
+      "lastChapter": "tag.span.0@text",
+      "name": "class.book_info@tag.a.0@text##《|》",
+      "wordCount": "class.book_info@tag.p.1@text##更新："
+    },
+    "ruleSearch": {
+      "author": "class.book_info@tag.span.0@text##\\/",
+      "bookList": "//*[@class=\"book\"]",
+      "bookUrl": "class.book_info@tag.a.0@href",
+      "coverUrl": "class.book@tag.img.0@src",
+      "intro": "class.book_info@tag.a.2@text",
+      "lastChapter": "class.book_info@tag.a.1@text##最新章节：",
+      "name": "class.book_info@tag.a.0@text##\\/.*|《|》",
+      "wordCount": "class.book_info@tag.p.2@text##更新时间："
+    },
+    "ruleToc": {
+      "chapterList": "//*[@class=\"list\"]/dl[2]/dd/a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.shukeba.com/search.php?searchsubmit=1&q={{key}}&page={{page}}",
+    "weight": 0
+  }]

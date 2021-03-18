@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 六一课堂", "bookSourceType": 0, "bookSourceUrl": "https://61ketang.com", "bookUrlPattern": "", "customOrder": -31820, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1602719423131, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.bookintro@img@src", "intro": "class.bookintro@textNodes##.*六一课堂实时更新.*", "lastChapter": "class.bookchapter@text"}, "ruleContent": {"content": "class.readcontent@p@html", "nextContentUrl": "text.下一页@herf"}, "ruleExplore": {}, "ruleSearch": {"author": "class.author.0@text", "bookList": "class.content book@children", "bookUrl": "a@href", "lastChapter": "class.cat@a@text", "name": "h4@a@text"}, "ruleToc": {"chapterList": "id.list-chapterAll@dd@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://61ketang.com/search/,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 六一课堂",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://61ketang.com",
+    "bookUrlPattern": "",
+    "customOrder": -31820,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1602719423131,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.bookintro@img@src",
+      "intro": "class.bookintro@textNodes##.*六一课堂实时更新.*",
+      "lastChapter": "class.bookchapter@text"
+    },
+    "ruleContent": {
+      "content": "class.readcontent@p@html",
+      "nextContentUrl": "text.下一页@herf"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@text",
+      "bookList": "class.content book@children",
+      "bookUrl": "a@href",
+      "lastChapter": "class.cat@a@text",
+      "name": "h4@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list-chapterAll@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://61ketang.com/search/,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

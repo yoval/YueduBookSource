@@ -1,1 +1,40 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "神坛小说", "bookSourceType": 0, "bookSourceUrl": "http://www.shentanxs.com", "customOrder": 0, "enabled": true, "enabledExplore": false, "header": "", "lastUpdateTime": 0, "ruleBookInfo": {"author": "class.w100 dispc.0@tag.a.0@text", "intro": "class.info-main-intro.0@text", "kind": "class.info-title.0@tag.a.1@text", "lastChapter": "class.info-main.0@class.dispc.1@tag.a.0@text", "name": "tag.h1.0@text"}, "ruleContent": {"content": "id.article.0@html", "nextContentUrl": "id.next_url.0@href##(.*_.*\\.html)##$1##"}, "ruleExplore": {}, "ruleSearch": {"author": "author", "bookList": "@js:\nvar list=[];\nvar bookSound=baseUrl.match(/(.*?\\/\\/.*?)\\//)[1];//? 非贪婪\nif(result.indexOf(\"<script>alert\")!=-1){\n\t//搜索出现问题,总会有问题的.软件默认一次搜索进行多次.网站规定30秒搜索1次\n}else{\n\tvar data=result.match(/container flex flex-wrap mb20([^@]*)container\"/)[1];\n\tvar dataList=data.split(\"category-div\");\n\tfor(var i=1,len=dataList.length;i<len;i++){\n\t\tvar temp=dataList[i].match(/flex flex-between commend-title\"><a href=\"(.*)\"><h3>([^@]*)<\\/h3>.*<span>([^@]*)<\\/span>[^@]*\"intro indent\">([^@]*?)<\\/div>/);\n\t\tlist.push({\n\t\t\t\"name\":temp[2],\n\t\t\t\"author\":temp[3],\n\t\t\t\"intro\":temp[4],\n\t\t\t\"bookUrl\":bookSound+temp[1]\n\t\t});\n\t}\n}\nlist;", "bookUrl": "bookUrl", "intro": "intro", "lastChapter": "", "name": "name", "wordCount": ""}, "ruleToc": {"chapterList": "class.container border3-2 mt8 mb20.0@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "http://www.shentanxs.com/search/,{\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}&Submit=\",\n\"headers\": {\"Content-Type\":\"application/x-www-form-urlencoded\"},\n\"webView\": true\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "神坛小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.shentanxs.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "header": "",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "class.w100 dispc.0@tag.a.0@text",
+      "intro": "class.info-main-intro.0@text",
+      "kind": "class.info-title.0@tag.a.1@text",
+      "lastChapter": "class.info-main.0@class.dispc.1@tag.a.0@text",
+      "name": "tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.article.0@html",
+      "nextContentUrl": "id.next_url.0@href##(.*_.*\\.html)##$1##"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "author",
+      "bookList": "@js:\nvar list=[];\nvar bookSound=baseUrl.match(/(.*?\\/\\/.*?)\\//)[1];//? 非贪婪\nif(result.indexOf(\"<script>alert\")!=-1){\n\t//搜索出现问题,总会有问题的.软件默认一次搜索进行多次.网站规定30秒搜索1次\n}else{\n\tvar data=result.match(/container flex flex-wrap mb20([^@]*)container\"/)[1];\n\tvar dataList=data.split(\"category-div\");\n\tfor(var i=1,len=dataList.length;i<len;i++){\n\t\tvar temp=dataList[i].match(/flex flex-between commend-title\"><a href=\"(.*)\"><h3>([^@]*)<\\/h3>.*<span>([^@]*)<\\/span>[^@]*\"intro indent\">([^@]*?)<\\/div>/);\n\t\tlist.push({\n\t\t\t\"name\":temp[2],\n\t\t\t\"author\":temp[3],\n\t\t\t\"intro\":temp[4],\n\t\t\t\"bookUrl\":bookSound+temp[1]\n\t\t});\n\t}\n}\nlist;",
+      "bookUrl": "bookUrl",
+      "intro": "intro",
+      "lastChapter": "",
+      "name": "name",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.container border3-2 mt8 mb20.0@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.shentanxs.com/search/,{\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}&Submit=\",\n\"headers\": {\"Content-Type\":\"application/x-www-form-urlencoded\"},\n\"webView\": true\n}",
+    "weight": 0
+  }]

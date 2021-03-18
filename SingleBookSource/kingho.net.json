@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🍒 king小说", "bookSourceType": 0, "bookSourceUrl": "https://www.kingho.net", "customOrder": -115955, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1604579849985, "ruleBookInfo": {"author": "//*[@property=\"og:novel:author\"]/@content", "intro": "//*[@property=\"og:description\"]/@content", "lastChapter": "//*[@property=\"og:novel:latest_chapter_name\"]/@content##章节目录\\s*", "name": "//*[@property=\"og:novel:book_name\"]/@content"}, "ruleContent": {"content": "id.html-Content@html##$##❌", "nextContentUrl": "text.下一页@href", "replaceRegex": "##\\s*❌\\s*"}, "ruleExplore": {}, "ruleSearch": {"author": "##作者：([^<]+)<##$1###", "bookList": "class.mySearch@ul", "bookUrl": "tag.a.0@href", "lastChapter": "tag.a.1@text", "name": "tag.a.0@text"}, "ruleToc": {"chapterList": "id.list-chapterAll@dd@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.kingho.net/modules/article/search.php?searchkey={{key}},{\"charset\":\"gbk\"}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍒 king小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.kingho.net",
+    "customOrder": -115955,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1604579849985,
+    "ruleBookInfo": {
+      "author": "//*[@property=\"og:novel:author\"]/@content",
+      "intro": "//*[@property=\"og:description\"]/@content",
+      "lastChapter": "//*[@property=\"og:novel:latest_chapter_name\"]/@content##章节目录\\s*",
+      "name": "//*[@property=\"og:novel:book_name\"]/@content"
+    },
+    "ruleContent": {
+      "content": "id.html-Content@html##$##❌",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": "##\\s*❌\\s*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "##作者：([^<]+)<##$1###",
+      "bookList": "class.mySearch@ul",
+      "bookUrl": "tag.a.0@href",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list-chapterAll@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.kingho.net/modules/article/search.php?searchkey={{key}},{\"charset\":\"gbk\"}",
+    "weight": 0
+  }]

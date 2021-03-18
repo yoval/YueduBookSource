@@ -1,1 +1,40 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "👍 无弹窗小说网", "bookSourceType": 0, "bookSourceUrl": "http://m.22ff.org", "bookUrlPattern": "", "customOrder": -115047, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1607717570073, "loginUrl": "", "ruleBookInfo": {"author": "class.global-flex-1@tag.p.0@text##作者：", "coverUrl": "class.global-flex@tag.img@src", "intro": "id.all@text", "kind": "class.global-flex-1@tag.p.1@tag.a.0@text", "lastChapter": "class.readed-info@tag.p.0@tag.a.0@text", "tocUrl": "class.global-btn-radius.0@href"}, "ruleContent": {"content": "class.text.-1@html"}, "ruleExplore": {}, "ruleSearch": {"bookList": "class.book_textList2@tag.li", "bookUrl": "tag.a.0@href", "kind": "class.tag-blue@text", "lastChapter": "tag.a.1@text", "name": "tag.a.0@text"}, "ruleToc": {"chapterList": "id.chapterlist@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "nextTocUrl": "class.btn_op.0@tag.a.0@text.下一页@href"}, "searchUrl": "http://m.22ff.org/search.htm?keyword={{key}}&pn={{page}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "👍 无弹窗小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.22ff.org",
+    "bookUrlPattern": "",
+    "customOrder": -115047,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1607717570073,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.global-flex-1@tag.p.0@text##作者：",
+      "coverUrl": "class.global-flex@tag.img@src",
+      "intro": "id.all@text",
+      "kind": "class.global-flex-1@tag.p.1@tag.a.0@text",
+      "lastChapter": "class.readed-info@tag.p.0@tag.a.0@text",
+      "tocUrl": "class.global-btn-radius.0@href"
+    },
+    "ruleContent": {
+      "content": "class.text.-1@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.book_textList2@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "kind": "class.tag-blue@text",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterlist@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "class.btn_op.0@tag.a.0@text.下一页@href"
+    },
+    "searchUrl": "http://m.22ff.org/search.htm?keyword={{key}}&pn={{page}}",
+    "weight": 0
+  }]

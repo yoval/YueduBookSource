@@ -1,1 +1,48 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 第三中文网", "bookSourceType": 0, "bookSourceUrl": "http://www.d3zww.com", "bookUrlPattern": "", "customOrder": -31805, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻::/xs/1-default-0-0-0-0-0-0-{{page}}.html\n仙侠::/xs/2-default-0-0-0-0-0-0-{{page}}.html\n都市::/xs/3-default-0-0-0-0-0-0-{{page}}.html\n军史::/xs/4-default-0-0-0-0-0-0-{{page}}.html\n网游::/xs/5-default-0-0-0-0-0-0-{{page}}.html\n科幻::/xs/6-default-0-0-0-0-0-0-{{page}}.html\n灵异::/xs/7-default-0-0-0-0-0-0-{{page}}.html\n言情::/xs/8-default-0-0-0-0-0-0-{{page}}.html\n其他::/xs/9-default-0-0-0-0-0-0-{{page}}.html\n全本::/xs/10-default-0-0-0-0-0-0-{{page}}.html", "lastUpdateTime": 1602743449368, "loginUrl": "", "ruleBookInfo": {"author": "class.options.0@class.item red.0@text", "coverUrl": "class.pic@tag.img@src", "intro": "class.bookinfo_intro@text", "kind": "class.title@tag.a.1@text", "lastChapter": "class.update@tag.a@title", "name": "id.info@tag.h1@text"}, "ruleContent": {"content": "id.htmlContent@html"}, "ruleExplore": {"author": "class.book_other.0@text", "bookList": "class.sitebox@dl", "bookUrl": "tag.h3@tag.a@href", "coverUrl": "tag.dt@tag.img@src", "intro": "class.book_des@text", "lastChapter": "class.book_other.1@tag.a@text", "name": "tag.h3@tag.a@text"}, "ruleSearch": {"author": "class.s3@text", "bookList": "class.toplist@tag.li", "bookUrl": "class.s1@tag.a@href", "lastChapter": "class.s2@tag.a@text", "name": "class.s1@tag.a@text"}, "ruleToc": {"chapterList": "class.book_list@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "/modules/article/search.php?action=login&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 第三中文网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.d3zww.com",
+    "bookUrlPattern": "",
+    "customOrder": -31805,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/xs/1-default-0-0-0-0-0-0-{{page}}.html\n仙侠::/xs/2-default-0-0-0-0-0-0-{{page}}.html\n都市::/xs/3-default-0-0-0-0-0-0-{{page}}.html\n军史::/xs/4-default-0-0-0-0-0-0-{{page}}.html\n网游::/xs/5-default-0-0-0-0-0-0-{{page}}.html\n科幻::/xs/6-default-0-0-0-0-0-0-{{page}}.html\n灵异::/xs/7-default-0-0-0-0-0-0-{{page}}.html\n言情::/xs/8-default-0-0-0-0-0-0-{{page}}.html\n其他::/xs/9-default-0-0-0-0-0-0-{{page}}.html\n全本::/xs/10-default-0-0-0-0-0-0-{{page}}.html",
+    "lastUpdateTime": 1602743449368,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.options.0@class.item red.0@text",
+      "coverUrl": "class.pic@tag.img@src",
+      "intro": "class.bookinfo_intro@text",
+      "kind": "class.title@tag.a.1@text",
+      "lastChapter": "class.update@tag.a@title",
+      "name": "id.info@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@html"
+    },
+    "ruleExplore": {
+      "author": "class.book_other.0@text",
+      "bookList": "class.sitebox@dl",
+      "bookUrl": "tag.h3@tag.a@href",
+      "coverUrl": "tag.dt@tag.img@src",
+      "intro": "class.book_des@text",
+      "lastChapter": "class.book_other.1@tag.a@text",
+      "name": "tag.h3@tag.a@text"
+    },
+    "ruleSearch": {
+      "author": "class.s3@text",
+      "bookList": "class.toplist@tag.li",
+      "bookUrl": "class.s1@tag.a@href",
+      "lastChapter": "class.s2@tag.a@text",
+      "name": "class.s1@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.book_list@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/modules/article/search.php?action=login&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

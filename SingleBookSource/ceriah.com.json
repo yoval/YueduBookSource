@@ -1,1 +1,54 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🍺 随梦小说", "bookSourceType": 0, "bookSourceUrl": "http://www.ceriah.com", "bookUrlPattern": "", "customOrder": -116810, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻奇幻::/xuanhuan/\n仙侠武侠::/xianxia/\n都市言情::/dushi/\n穿越历史::/chuanyue/\n科幻灵异::/kehuan/\n同人网游::/tongren/", "lastUpdateTime": 1604157093906, "loginUrl": "", "ruleBookInfo": {"author": "[property=\"og:novel:author\"]@content", "coverUrl": "[property=\"og:image\"]@content", "intro": "tag.p.1@textNodes", "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content", "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content", "name": "[property=\"og:novel:book_name\"]@content", "wordCount": "[property=\"og:novel:update_time\"]@content"}, "ruleContent": {"content": "class.box_box@html", "imageStyle": "0"}, "ruleExplore": {"author": "tag.a.3@text", "bookList": "class.ul_m_list@tag.li", "bookUrl": "tag.a.0@href", "coverUrl": "", "kind": "tag.span@text&&class.time@text", "lastChapter": "tag.a.2@text", "name": "tag.a.0@text", "wordCount": "class.words@text@js:result+'字'"}, "ruleSearch": {"author": "tag.a.3@text", "bookList": "class.ul_b_list@tag.li", "bookUrl": "tag.a.0@href", "coverUrl": "tag.img@src", "intro": "tag.p.2@textNodes", "kind": "tag.span.0@text", "name": "tag.a.0@text", "wordCount": "##最后更新：([^<]+)<##$1###"}, "ruleToc": {"chapterList": "class.list_box@tag.li@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "/plus/search.php?kwtype=0&searchtype=&q={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍺 随梦小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.ceriah.com",
+    "bookUrlPattern": "",
+    "customOrder": -116810,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/xuanhuan/\n仙侠武侠::/xianxia/\n都市言情::/dushi/\n穿越历史::/chuanyue/\n科幻灵异::/kehuan/\n同人网游::/tongren/",
+    "lastUpdateTime": 1604157093906,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "tag.p.1@textNodes",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "wordCount": "[property=\"og:novel:update_time\"]@content"
+    },
+    "ruleContent": {
+      "content": "class.box_box@html",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "author": "tag.a.3@text",
+      "bookList": "class.ul_m_list@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "",
+      "kind": "tag.span@text&&class.time@text",
+      "lastChapter": "tag.a.2@text",
+      "name": "tag.a.0@text",
+      "wordCount": "class.words@text@js:result+'字'"
+    },
+    "ruleSearch": {
+      "author": "tag.a.3@text",
+      "bookList": "class.ul_b_list@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "intro": "tag.p.2@textNodes",
+      "kind": "tag.span.0@text",
+      "name": "tag.a.0@text",
+      "wordCount": "##最后更新：([^<]+)<##$1###"
+    },
+    "ruleToc": {
+      "chapterList": "class.list_box@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/plus/search.php?kwtype=0&searchtype=&q={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

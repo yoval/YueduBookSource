@@ -1,1 +1,35 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 明智屋™九天之狼", "bookSourceType": 0, "bookSourceUrl": "http://www.mingzw.net", "customOrder": -32475, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "ruleBookInfo": {"tocUrl": "class.view-btn@tag.a@href"}, "ruleContent": {"content": "class.content@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.cont@tag.dl.0@tag.dd@text", "bookList": "class.figure-horizontal figure-1", "bookUrl": "class.cont@tag.h3@tag.a@href", "coverUrl": "class.pic@tag.img@src", "intro": "class.cont@tag.p@text", "kind": "class.info@text", "lastChapter": "class.update@text", "name": "class.cont@tag.h3@tag.a@text"}, "ruleToc": {"chapterList": "class.content gclearfix@tag.li", "chapterName": "tag.a@text##.*中文阅读|加入书架，方便阅读", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.mingzw.net/mzwlist/{{key}}_{{page}},{\n  \"charset\": \"utf-8\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 明智屋™九天之狼",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.mingzw.net",
+    "customOrder": -32475,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "tocUrl": "class.view-btn@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "class.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.cont@tag.dl.0@tag.dd@text",
+      "bookList": "class.figure-horizontal figure-1",
+      "bookUrl": "class.cont@tag.h3@tag.a@href",
+      "coverUrl": "class.pic@tag.img@src",
+      "intro": "class.cont@tag.p@text",
+      "kind": "class.info@text",
+      "lastChapter": "class.update@text",
+      "name": "class.cont@tag.h3@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.content gclearfix@tag.li",
+      "chapterName": "tag.a@text##.*中文阅读|加入书架，方便阅读",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.mingzw.net/mzwlist/{{key}}_{{page}},{\n  \"charset\": \"utf-8\"\n}",
+    "weight": 0
+  }]

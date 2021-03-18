@@ -1,1 +1,31 @@
-[{"bookSourceComment": "书名乱码，搜索第一篇为准", "bookSourceGroup": "我的书源", "bookSourceName": "📚 易文言", "bookSourceType": 0, "bookSourceUrl": "http://ewenyan.com", "bookUrlPattern": "", "customOrder": -116702, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1604135107176, "loginUrl": "", "ruleBookInfo": {}, "ruleContent": {"content": "tbody@tr@td@html##页面内容太多.*|【在线留言】|【返回前页】|【返回顶部】|【关闭窗口】"}, "ruleExplore": {}, "ruleSearch": {"bookList": "class.result f s0", "bookUrl": "tag.a.0@href", "intro": "class.c-abstract@text", "name": "tag.a.0@text##-【易.*"}, "ruleToc": {"chapterList": "+@js:if(result.match(/目录/)!=null){result=org.jsoup.Jsoup.parse(result).select(\"a[href~=.*articles.*]\").toArray().map(x=>({n:x.text(),u:x.attr('href')})).sort((a,b)=>a.u.match(/(\\d+)/)[1]-b.u.match(/(\\d+)/)[1]);\n}else{\nresult=[{n:\"1\",u:baseUrl}]}", "chapterName": "n", "chapterUrl": "u"}, "searchUrl": "http://zhannei.baidu.com/cse/search?s=9534517717229298676&menu1=http%3A%2F%2Fewenyan.com%2Fsearch%2Fsearch_b.html&q={{key}}&isNeedCheckDomain=1&jump=1,{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "书名乱码，搜索第一篇为准",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "📚 易文言",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://ewenyan.com",
+    "bookUrlPattern": "",
+    "customOrder": -116702,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1604135107176,
+    "loginUrl": "",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "tbody@tr@td@html##页面内容太多.*|【在线留言】|【返回前页】|【返回顶部】|【关闭窗口】"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.result f s0",
+      "bookUrl": "tag.a.0@href",
+      "intro": "class.c-abstract@text",
+      "name": "tag.a.0@text##-【易.*"
+    },
+    "ruleToc": {
+      "chapterList": "+@js:if(result.match(/目录/)!=null){result=org.jsoup.Jsoup.parse(result).select(\"a[href~=.*articles.*]\").toArray().map(x=>({n:x.text(),u:x.attr('href')})).sort((a,b)=>a.u.match(/(\\d+)/)[1]-b.u.match(/(\\d+)/)[1]);\n}else{\nresult=[{n:\"1\",u:baseUrl}]}",
+      "chapterName": "n",
+      "chapterUrl": "u"
+    },
+    "searchUrl": "http://zhannei.baidu.com/cse/search?s=9534517717229298676&menu1=http%3A%2F%2Fewenyan.com%2Fsearch%2Fsearch_b.html&q={{key}}&isNeedCheckDomain=1&jump=1,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

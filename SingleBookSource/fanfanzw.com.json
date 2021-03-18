@@ -1,1 +1,40 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🍺 饭饭中文", "bookSourceType": 0, "bookSourceUrl": "https://www.fanfanzw.com", "bookUrlPattern": "", "customOrder": -116939, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1606811391105, "loginUrl": "", "ruleBookInfo": {"author": "id.info@tag.p.0@a@text", "coverUrl": "id.fmimg@img@src", "intro": "id.intro@text", "name": "id.info@h1@text"}, "ruleContent": {"content": "id.content@html##喜欢.*速度最快。"}, "ruleExplore": {}, "ruleSearch": {"author": "class.book_other.0@tag.span.0@text", "bookList": "id.sitembox@dl", "bookUrl": "tag.a.0@href", "coverUrl": "img@src", "intro": "class.book_des@text", "kind": "class.book_other.0@tag.span.2@text", "lastChapter": "class.book_other@a@text", "name": "h3@text"}, "ruleToc": {"chapterList": "//*[@id=\"list\"]//dt[2]/following-sibling::dd/a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.fanfanzw.com/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍺 饭饭中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.fanfanzw.com",
+    "bookUrlPattern": "",
+    "customOrder": -116939,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1606811391105,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@a@text",
+      "coverUrl": "id.fmimg@img@src",
+      "intro": "id.intro@text",
+      "name": "id.info@h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html##喜欢.*速度最快。"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.book_other.0@tag.span.0@text",
+      "bookList": "id.sitembox@dl",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@src",
+      "intro": "class.book_des@text",
+      "kind": "class.book_other.0@tag.span.2@text",
+      "lastChapter": "class.book_other@a@text",
+      "name": "h3@text"
+    },
+    "ruleToc": {
+      "chapterList": "//*[@id=\"list\"]//dt[2]/following-sibling::dd/a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.fanfanzw.com/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

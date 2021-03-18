@@ -1,1 +1,64 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,刘备书源", "bookSourceName": "🚬 玉才小说网", "bookSourceType": 0, "bookSourceUrl": "http://m.yucaizw.com", "bookUrlPattern": "", "customOrder": 24569, "enabled": true, "enabledExplore": true, "exploreUrl": "", "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36\"\n}", "lastUpdateTime": 1602923842737, "loginUrl": "", "ruleBookInfo": {"author": "class.block_txt2@tag.p.2@text", "coverUrl": "tag.img@src", "init": "", "intro": "class.intro_info@text", "kind": "", "lastChapter": "class.chapter.0@tag.a.0@text", "name": "class.block_txt2@tag.h2@text", "tocUrl": "text.完整目录@href", "wordCount": "class.block_txt2@tag.a.3@text"}, "ruleContent": {"content": "id.nr1@html", "nextContentUrl": "id.pb_next@href", "sourceRegex": "", "webJs": ""}, "ruleExplore": {"author": "", "bookList": "", "bookUrl": "", "coverUrl": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "wordCount": ""}, "ruleSearch": {"author": "tag.a@owntext", "bookList": "class.cover@tag.p", "bookUrl": "tag.a.0@href", "coverUrl": "tag.a.0@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://pic.yucaizw.com/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>", "intro": "", "kind": "class.line@text##\\[|\\].*", "lastChapter": "", "name": "tag.a.0@text", "wordCount": ""}, "ruleToc": {"chapterList": "class.chapter@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "isVip": "", "nextTocUrl": "text.下一页@href", "updateTime": ""}, "searchUrl": "/s.php,{\n\"charset\":\"gbk\",\n\"method\":\"POST\",\n\"body\":\"type=articlename&s={{key}}&submit=\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,刘备书源",
+    "bookSourceName": "🚬 玉才小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.yucaizw.com",
+    "bookUrlPattern": "",
+    "customOrder": 24857,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 1602923842737,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.block_txt2@tag.p.2@text",
+      "coverUrl": "tag.img@src",
+      "init": "",
+      "intro": "class.intro_info@text",
+      "kind": "",
+      "lastChapter": "class.chapter.0@tag.a.0@text",
+      "name": "class.block_txt2@tag.h2@text",
+      "tocUrl": "text.完整目录@href",
+      "wordCount": "class.block_txt2@tag.a.3@text"
+    },
+    "ruleContent": {
+      "content": "id.nr1@html",
+      "nextContentUrl": "id.pb_next@href",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "tag.a@owntext",
+      "bookList": "class.cover@tag.p",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://pic.yucaizw.com/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+      "intro": "",
+      "kind": "class.line@text##\\[|\\].*",
+      "lastChapter": "",
+      "name": "tag.a.0@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "isVip": "",
+      "nextTocUrl": "text.下一页@href",
+      "updateTime": ""
+    },
+    "searchUrl": "/s.php,{\n\"charset\":\"gbk\",\n\"method\":\"POST\",\n\"body\":\"type=articlename&s={{key}}&submit=\"\n}",
+    "weight": 0
+  }]

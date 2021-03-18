@@ -1,1 +1,47 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎨 36漫画", "bookSourceType": 0, "bookSourceUrl": "https://m.36mh.com", "bookUrlPattern": "", "customOrder": -115809, "enabled": true, "enabledExplore": true, "exploreUrl": "最新更新::https://m.36mh.com/list/update/?page={{page}}&;点击排行::https://m.36mh.com/list/click/?page={{page}}\n最新发布::https://m.36mh.com/list/-post/?page={{page}}\n更新推荐::https://m.36mh.com/update/{{page}}/\n全部::https://m.36mh.com/list_{{page}}/\n连载::https://m.36mh.com/list/lianzai/{{page}}/\n完结::https://m.36mh.com/list/wanjie/{{page}}/\n儿童::https://m.36mh.com/list/ertong/{{page}}/\n少年::https://m.36mh.com/list/shaonian/{{page}}/\n少女::https://m.36mh.com/list/shaonv/{{page}}/\n青年::https://m.36mh.com/list/qingnian/{{page}}/\n日本::https://m.36mh.com/list/riben/{{page}}/\n大陆::https://m.36mh.com/list/dalu/{{page}}/\n香港::https://m.36mh.com/list/hongkong/{{page}}/\n台湾::https://m.36mh.com/list/taiwan/{{page}}/\n欧美::https://m.36mh.com/list/oumei/{{page}}/\n韩国::https://m.36mh.com/list/hanguo/{{page}}/\n其他::https://m.36mh.com/list/qita/{{page}}/", "header": "", "lastUpdateTime": 1607716202512, "loginUrl": "", "ruleBookInfo": {"author": "class.pic_zi.1@tag.dd@text", "coverUrl": "id.Cover@tag.mip-img@src", "intro": "class.txtDesc@text##简介：", "kind": "class.pic_zi.2@tag.dd@text", "lastChapter": "class.pic_zi.0@tag.dd@text", "name": "class.title.0@text"}, "ruleContent": {"content": "class.UnderPage@tag.mip-img.0@src@js:\nvar options={\"headers\":{\"Referer\":baseUrl}};\n'<img src=\"'+result.replace(/\\n/g,\"\")+\",\"+JSON.stringify(options)+'\"/>'", "imageStyle": "FULL", "nextContentUrl": "class.action-list@tag.mip-link.2@href"}, "ruleExplore": {"coverUrl": ""}, "ruleSearch": {"author": "class.txtItme.0@text", "bookList": "class.itemBox||class.list-comic", "bookUrl": "tag.a.0@href", "coverUrl": "tag.mip-img.0@src||tag.img@src", "kind": "class.pd@text", "lastChapter": "class.coll@text||class.info@text", "name": "class.title.0@text||class.txtA@text"}, "ruleToc": {"chapterList": "class.comic-chapters@tag.li", "chapterName": "tag.span@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://m.36mh.com/search/?keywords={{key}}&page={{page}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎨 36漫画",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.36mh.com",
+    "bookUrlPattern": "",
+    "customOrder": -115809,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最新更新::https://m.36mh.com/list/update/?page={{page}}&;点击排行::https://m.36mh.com/list/click/?page={{page}}\n最新发布::https://m.36mh.com/list/-post/?page={{page}}\n更新推荐::https://m.36mh.com/update/{{page}}/\n全部::https://m.36mh.com/list_{{page}}/\n连载::https://m.36mh.com/list/lianzai/{{page}}/\n完结::https://m.36mh.com/list/wanjie/{{page}}/\n儿童::https://m.36mh.com/list/ertong/{{page}}/\n少年::https://m.36mh.com/list/shaonian/{{page}}/\n少女::https://m.36mh.com/list/shaonv/{{page}}/\n青年::https://m.36mh.com/list/qingnian/{{page}}/\n日本::https://m.36mh.com/list/riben/{{page}}/\n大陆::https://m.36mh.com/list/dalu/{{page}}/\n香港::https://m.36mh.com/list/hongkong/{{page}}/\n台湾::https://m.36mh.com/list/taiwan/{{page}}/\n欧美::https://m.36mh.com/list/oumei/{{page}}/\n韩国::https://m.36mh.com/list/hanguo/{{page}}/\n其他::https://m.36mh.com/list/qita/{{page}}/",
+    "header": "",
+    "lastUpdateTime": 1607716202512,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.pic_zi.1@tag.dd@text",
+      "coverUrl": "id.Cover@tag.mip-img@src",
+      "intro": "class.txtDesc@text##简介：",
+      "kind": "class.pic_zi.2@tag.dd@text",
+      "lastChapter": "class.pic_zi.0@tag.dd@text",
+      "name": "class.title.0@text"
+    },
+    "ruleContent": {
+      "content": "class.UnderPage@tag.mip-img.0@src@js:\nvar options={\"headers\":{\"Referer\":baseUrl}};\n'<img src=\"'+result.replace(/\\n/g,\"\")+\",\"+JSON.stringify(options)+'\"/>'",
+      "imageStyle": "FULL",
+      "nextContentUrl": "class.action-list@tag.mip-link.2@href"
+    },
+    "ruleExplore": {
+      "coverUrl": ""
+    },
+    "ruleSearch": {
+      "author": "class.txtItme.0@text",
+      "bookList": "class.itemBox||class.list-comic",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.mip-img.0@src||tag.img@src",
+      "kind": "class.pd@text",
+      "lastChapter": "class.coll@text||class.info@text",
+      "name": "class.title.0@text||class.txtA@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.comic-chapters@tag.li",
+      "chapterName": "tag.span@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://m.36mh.com/search/?keywords={{key}}&page={{page}}",
+    "weight": 0
+  }]

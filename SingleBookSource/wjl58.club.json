@@ -1,1 +1,55 @@
-[{"bookSourceComment": "error:Unable to resolve host \"bk.wjl58.club\": No address associated with hostname\n", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 卡趣小说", "bookSourceType": 0, "bookSourceUrl": "http://bk.wjl58.club:2", "customOrder": -32297, "enabled": true, "enabledExplore": true, "exploreUrl": "                    男生连载                    ::/all/id/4/serialize/0.html?page={{page}}\n奇幻玄幻::/all/serialize/0/id/18.html?page={{page}}\n武侠仙侠::/all/serialize/0/id/19.html?page={{page}}\n历史军事::/all/serialize/0/id/20.html?page={{page}}\n都市娱乐::/all/serialize/0/id/21.html?page={{page}}\n科幻末日::/all/serialize/0/id/22.html?page={{page}}\n悬疑灵异::/all/serialize/0/id/23.html?page={{page}}\n游戏竞技::/all/serialize/0/id/34.html?page={{page}}\n其他类型::/all/serialize/0/id/35.html?page={{page}}\n                    男生完本                    ::/all/id/4/serialize/1.html?page={{page}}\n奇幻玄幻::/all/serialize/1/id/18.html?page={{page}}\n武侠仙侠::/all/serialize/1/id/19.html?page={{page}}\n历史军事::/all/serialize/1/id/20.html?page={{page}}\n都市娱乐::/all/serialize/1/id/21.html?page={{page}}\n科幻末日::/all/serialize/1/id/22.html?page={{page}}\n悬疑灵异::/all/serialize/1/id/23.html?page={{page}}\n游戏竞技::/all/serialize/1/id/34.html?page={{page}}\n其他类型::/all/serialize/1/id/35.html?page={{page}}\n                    女生连载                    ::/all/id/8/serialize/0.html?page={{page}}\n古装言情::/all/serialize/0/id/25.html?page={{page}}\n都市言情::/all/serialize/0/id/26.html?page={{page}}\n浪漫青春::/all/serialize/0/id/27.html?page={{page}}\n幻想言情::/all/serialize/0/id/28.html?page={{page}}\n科幻空间::/all/serialize/0/id/37.html?page={{page}}\n灵异悬疑::/all/serialize/0/id/38.html?page={{page}}\n同人衍生::/all/serialize/0/id/39.html?page={{page}}\n耽美百合::/all/serialize/0/id/40.html?page={{page}}\n女生其他::/all/serialize/0/id/42.html?page={{page}}\n                    女生完本                    ::/all/serialize/1/id/8.html?page={{page}}\n古装言情::/all/serialize/1/id/25.html?page={{page}}\n都市言情::/all/serialize/1/id/26.html?page={{page}}\n浪漫青春::/all/serialize/1/id/27.html?page={{page}}\n幻想言情::/all/serialize/1/id/28.html?page={{page}}\n科幻空间::/all/serialize/1/id/37.html?page={{page}}\n灵异悬疑::/all/serialize/1/id/38.html?page={{page}}\n同人衍生::/all/serialize/1/id/39.html?page={{page}}\n耽美百合::/all/serialize/1/id/40.html?page={{page}}\n女生其他::/all/serialize/1/id/42.html?page={{page}}", "lastUpdateTime": 0, "ruleBookInfo": {"author": "class.brief fl@tag.a.0@text", "coverUrl": "class.pic fl@tag.img@src", "init": "", "intro": "class.brief_text@tag.p.0@textNodes", "kind": "class.tags clearfixer@tag.span.0@text&&class.tags clearfixer@tag.span.1@text&&class.updatetime fr@tag.span.0@text##更新时间|:", "lastChapter": "class.chaptername fl@tag.a.0@text", "name": "class.brief fl@tag.span.0@text", "wordCount": "class.tags clearfixer@tag.span.2@text"}, "ruleContent": {"content": "class.read-content j_readContent@html"}, "ruleExplore": {"author": "tag.a.2@text", "bookList": "class.listboxw@tag.dl", "bookUrl": "tag.a.1@href", "coverUrl": "class.lazyimg@data-original", "intro": "tag.p.1@text", "kind": "tag.a.3@text&&tag.p.0@text##\\s|.*\\|", "lastChapter": "tag.span.1@text", "name": "tag.a.1@text", "wordCount": "tag.span.0@text##\\|"}, "ruleSearch": {"author": "tag.a.2@text", "bookList": "class.secd-rank-list", "bookUrl": "tag.a.1@href", "coverUrl": "class.lazyimg@data-original", "intro": "tag.p.1@text", "kind": "tag.a.3@text", "lastChapter": "tag.a.4@text##最近更新\\s", "name": "tag.a.1@text", "wordCount": "tag.em.0@text"}, "ruleToc": {"chapterList": "class.cate-list@tag.a", "chapterName": "tag.span.0@text", "chapterUrl": "href", "updateTime": "class.chapter_date@text"}, "searchUrl": "http://bk.wjl58.club:2/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&page={{page}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:Unable to resolve host \"bk.wjl58.club\": No address associated with hostname\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 卡趣小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://bk.wjl58.club:2",
+    "customOrder": -32297,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "                    男生连载                    ::/all/id/4/serialize/0.html?page={{page}}\n奇幻玄幻::/all/serialize/0/id/18.html?page={{page}}\n武侠仙侠::/all/serialize/0/id/19.html?page={{page}}\n历史军事::/all/serialize/0/id/20.html?page={{page}}\n都市娱乐::/all/serialize/0/id/21.html?page={{page}}\n科幻末日::/all/serialize/0/id/22.html?page={{page}}\n悬疑灵异::/all/serialize/0/id/23.html?page={{page}}\n游戏竞技::/all/serialize/0/id/34.html?page={{page}}\n其他类型::/all/serialize/0/id/35.html?page={{page}}\n                    男生完本                    ::/all/id/4/serialize/1.html?page={{page}}\n奇幻玄幻::/all/serialize/1/id/18.html?page={{page}}\n武侠仙侠::/all/serialize/1/id/19.html?page={{page}}\n历史军事::/all/serialize/1/id/20.html?page={{page}}\n都市娱乐::/all/serialize/1/id/21.html?page={{page}}\n科幻末日::/all/serialize/1/id/22.html?page={{page}}\n悬疑灵异::/all/serialize/1/id/23.html?page={{page}}\n游戏竞技::/all/serialize/1/id/34.html?page={{page}}\n其他类型::/all/serialize/1/id/35.html?page={{page}}\n                    女生连载                    ::/all/id/8/serialize/0.html?page={{page}}\n古装言情::/all/serialize/0/id/25.html?page={{page}}\n都市言情::/all/serialize/0/id/26.html?page={{page}}\n浪漫青春::/all/serialize/0/id/27.html?page={{page}}\n幻想言情::/all/serialize/0/id/28.html?page={{page}}\n科幻空间::/all/serialize/0/id/37.html?page={{page}}\n灵异悬疑::/all/serialize/0/id/38.html?page={{page}}\n同人衍生::/all/serialize/0/id/39.html?page={{page}}\n耽美百合::/all/serialize/0/id/40.html?page={{page}}\n女生其他::/all/serialize/0/id/42.html?page={{page}}\n                    女生完本                    ::/all/serialize/1/id/8.html?page={{page}}\n古装言情::/all/serialize/1/id/25.html?page={{page}}\n都市言情::/all/serialize/1/id/26.html?page={{page}}\n浪漫青春::/all/serialize/1/id/27.html?page={{page}}\n幻想言情::/all/serialize/1/id/28.html?page={{page}}\n科幻空间::/all/serialize/1/id/37.html?page={{page}}\n灵异悬疑::/all/serialize/1/id/38.html?page={{page}}\n同人衍生::/all/serialize/1/id/39.html?page={{page}}\n耽美百合::/all/serialize/1/id/40.html?page={{page}}\n女生其他::/all/serialize/1/id/42.html?page={{page}}",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "class.brief fl@tag.a.0@text",
+      "coverUrl": "class.pic fl@tag.img@src",
+      "init": "",
+      "intro": "class.brief_text@tag.p.0@textNodes",
+      "kind": "class.tags clearfixer@tag.span.0@text&&class.tags clearfixer@tag.span.1@text&&class.updatetime fr@tag.span.0@text##更新时间|:",
+      "lastChapter": "class.chaptername fl@tag.a.0@text",
+      "name": "class.brief fl@tag.span.0@text",
+      "wordCount": "class.tags clearfixer@tag.span.2@text"
+    },
+    "ruleContent": {
+      "content": "class.read-content j_readContent@html"
+    },
+    "ruleExplore": {
+      "author": "tag.a.2@text",
+      "bookList": "class.listboxw@tag.dl",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "class.lazyimg@data-original",
+      "intro": "tag.p.1@text",
+      "kind": "tag.a.3@text&&tag.p.0@text##\\s|.*\\|",
+      "lastChapter": "tag.span.1@text",
+      "name": "tag.a.1@text",
+      "wordCount": "tag.span.0@text##\\|"
+    },
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.secd-rank-list",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "class.lazyimg@data-original",
+      "intro": "tag.p.1@text",
+      "kind": "tag.a.3@text",
+      "lastChapter": "tag.a.4@text##最近更新\\s",
+      "name": "tag.a.1@text",
+      "wordCount": "tag.em.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.cate-list@tag.a",
+      "chapterName": "tag.span.0@text",
+      "chapterUrl": "href",
+      "updateTime": "class.chapter_date@text"
+    },
+    "searchUrl": "http://bk.wjl58.club:2/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&page={{page}}\"\n}",
+    "weight": 0
+  }]

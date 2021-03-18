@@ -1,1 +1,44 @@
-[{"bookSourceComment": "error:List is empty.\n", "bookSourceGroup": "我的书源", "bookSourceName": "🍑 御宅屋③", "bookSourceType": 0, "bookSourceUrl": "http://m.yuzhaiwu123.xyz", "bookUrlPattern": "", "customOrder": -31136, "enabled": true, "enabledExplore": true, "exploreUrl": "精耽::/xclass/11/{{page}}.html\n耽美::/xclass/1/{{page}}.html\n精高::/xclass/3/{{page}}.html\n高辣::/xclass/6/{{page}}.html\n言情::/xclass/5/{{page}}.html\n百合::/xclass/2/{{page}}.html\n武侠::/xclass/4/{{page}}.html\n腹黑::/xclass/7/{{page}}.html\n种田::/xclass/8/{{page}}.html\n高干::/xclass/9/{{page}}.html\n情欲::/xclass/10/{{page}}.html", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "class.infotitle@tag.a.0@text", "intro": "class.review@text", "kind": "class.sort@text##类别：|小说", "name": "class.infotitle@tag.h1@text", "tocUrl": "text.查看完整目录@href"}, "ruleContent": {"content": "id.chaptercontent@html##\\『加入书签.*\\』"}, "ruleExplore": {"author": "", "coverUrl": "", "intro": "", "name": ""}, "ruleSearch": {"author": "class.author.0@text##.*作\\s*者：", "bookList": "class.hot_sale", "bookUrl": "tag.a.0@href", "lastChapter": "class.author.1@text##.*更新：", "name": "class.title.0@text"}, "ruleToc": {"chapterList": "id.chapterlist@tag.p!0", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://m.yuzhaiwu123.xyz/s.php?keyword={{key}}&t=1", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍑 御宅屋③",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.yuzhaiwu123.xyz",
+    "bookUrlPattern": "",
+    "customOrder": -31136,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "精耽::/xclass/11/{{page}}.html\n耽美::/xclass/1/{{page}}.html\n精高::/xclass/3/{{page}}.html\n高辣::/xclass/6/{{page}}.html\n言情::/xclass/5/{{page}}.html\n百合::/xclass/2/{{page}}.html\n武侠::/xclass/4/{{page}}.html\n腹黑::/xclass/7/{{page}}.html\n种田::/xclass/8/{{page}}.html\n高干::/xclass/9/{{page}}.html\n情欲::/xclass/10/{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.infotitle@tag.a.0@text",
+      "intro": "class.review@text",
+      "kind": "class.sort@text##类别：|小说",
+      "name": "class.infotitle@tag.h1@text",
+      "tocUrl": "text.查看完整目录@href"
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@html##\\『加入书签.*\\』"
+    },
+    "ruleExplore": {
+      "author": "",
+      "coverUrl": "",
+      "intro": "",
+      "name": ""
+    },
+    "ruleSearch": {
+      "author": "class.author.0@text##.*作\\s*者：",
+      "bookList": "class.hot_sale",
+      "bookUrl": "tag.a.0@href",
+      "lastChapter": "class.author.1@text##.*更新：",
+      "name": "class.title.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterlist@tag.p!0",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://m.yuzhaiwu123.xyz/s.php?keyword={{key}}&t=1",
+    "weight": 0
+  }]

@@ -1,1 +1,41 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "文书楼 修复版，请更新", "bookSourceType": 0, "bookSourceUrl": "https://m.wenshulou.cc", "customOrder": -117583, "enabled": true, "enabledExplore": false, "lastUpdateTime": 1615382846864, "ruleBookInfo": {"author": "[property=\"og:novel:author\"]@content", "coverUrl": "[property=\"og:image\"]@content", "intro": "[property=\"og:description\"]@content", "kind": "[property=\"og:novel:category\"]@content", "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content", "name": "[property=\"og:novel:book_name\"]@content", "wordCount": "[property=\"og:novel:status\"]@content"}, "ruleContent": {"content": "id.nr@textNodes##打击盗版.*|\\.read.*hidden\\;\\}", "nextContentUrl": "text.下一页@href"}, "ruleExplore": {}, "ruleSearch": {"author": "", "bookList": "class.bookcase fk@ul@li", "bookUrl": "tag.a.0@href", "coverUrl": "", "kind": "", "lastChapter": "tag.a.1@text", "name": "tag.a.0@text"}, "ruleToc": {"chapterList": " class.chapter.1@li@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://m.wenshulou.cc/ar.php,{\n\"method\": \"POST\",\n\"body\": \"keyWord={{key}}&submit=\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "文书楼 修复版，请更新",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.wenshulou.cc",
+    "customOrder": -117583,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 1615382846864,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "wordCount": "[property=\"og:novel:status\"]@content"
+    },
+    "ruleContent": {
+      "content": "id.nr@textNodes##打击盗版.*|\\.read.*hidden\\;\\}",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "",
+      "bookList": "class.bookcase fk@ul@li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "",
+      "kind": "",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": " class.chapter.1@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://m.wenshulou.cc/ar.php,{\n\"method\": \"POST\",\n\"body\": \"keyWord={{key}}&submit=\"\n}",
+    "weight": 0
+  }]

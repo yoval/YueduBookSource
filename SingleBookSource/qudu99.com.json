@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "趣读书", "bookSourceType": 0, "bookSourceUrl": "http://book.qudu99.com", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": false, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"intro": "@js:'<br>'+java.get('intro')"}, "ruleContent": {"content": "@js:result=result.match(/content\":\"(.*?)\"}]\\)/);(result)?result[1]:'';"}, "ruleExplore": {}, "ruleSearch": {"author": ".author@textNodes", "bookList": "@css:#js_m_book_list li:lt(2) a", "bookUrl": "href@js:\nvar bid=result.match(/\\/(\\d+)/)[1];\njava.put('bid',bid);\n'http://book.qudu99.com/apidata/chapter?book='+bid+'&sort=0&size=100&&index=1';", "coverUrl": "img@data-src", "intro": ".desc@text#^\\s*@js:java.put('intro',result);", "kind": ".tag@text", "lastChapter": "href@js:\nvar bid=result.match(/\\/(\\d+)/)[1];\nresult='http://book.qudu99.com/apidata/chapter?book='+bid+'&sort=1&index=1&size=1';\nresult=java.ajax(result);\nvar last=result.match(/name\":\"([\\s\\S]*?)\",/);\n(last)?last[1]:'';", "name": ".name@text"}, "ruleToc": {"chapterList": "@js:\nresult=result.match(/\\((.*)\\)$/);\nresult=(result)?result[1]:'';\nvar reg1=new RegExp(/\"name\":\"(.*?)\"/g);\nvar reg2=new RegExp(/\"id\":(\\d+)/g);\nvar reg3=new RegExp(/\"coin\":\"(\\d+)\"/g);\nvar list=[],t;\nvar bid=java.get('bid');\nwhile((t=reg2.exec(result))){\nvar id=t[1];\nvar name=reg1.exec(result)[1];\nvar vip=reg3.exec(result)[1];\nname=((vip==0)?name:'🔒'+name);\nlist.push({name:name,id:'http://book.qudu99.com/apidata/read?book='+bid+'&curindex='+id+'&index='+id+'&size=1'});\n}\nlist;", "chapterName": "$.name", "chapterUrl": "$.id", "nextTocUrl": "@js:\nresult=result.match(/\\((.*)\\)$/);\nresult=(result)?result[1]:'';\nvar n=JSON.parse(result).data.total;\nvar list=[];\nvar url=baseUrl.match(/(.*?index=)\\d+/)[1];\nfor(var i=2;i<n/100+1;i++){\nlist.push(url+i);\n}\nlist;"}, "searchUrl": "/search?keyword={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "趣读书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://book.qudu99.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "@js:'<br>'+java.get('intro')"
+    },
+    "ruleContent": {
+      "content": "@js:result=result.match(/content\":\"(.*?)\"}]\\)/);(result)?result[1]:'';"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": ".author@textNodes",
+      "bookList": "@css:#js_m_book_list li:lt(2) a",
+      "bookUrl": "href@js:\nvar bid=result.match(/\\/(\\d+)/)[1];\njava.put('bid',bid);\n'http://book.qudu99.com/apidata/chapter?book='+bid+'&sort=0&size=100&&index=1';",
+      "coverUrl": "img@data-src",
+      "intro": ".desc@text#^\\s*@js:java.put('intro',result);",
+      "kind": ".tag@text",
+      "lastChapter": "href@js:\nvar bid=result.match(/\\/(\\d+)/)[1];\nresult='http://book.qudu99.com/apidata/chapter?book='+bid+'&sort=1&index=1&size=1';\nresult=java.ajax(result);\nvar last=result.match(/name\":\"([\\s\\S]*?)\",/);\n(last)?last[1]:'';",
+      "name": ".name@text"
+    },
+    "ruleToc": {
+      "chapterList": "@js:\nresult=result.match(/\\((.*)\\)$/);\nresult=(result)?result[1]:'';\nvar reg1=new RegExp(/\"name\":\"(.*?)\"/g);\nvar reg2=new RegExp(/\"id\":(\\d+)/g);\nvar reg3=new RegExp(/\"coin\":\"(\\d+)\"/g);\nvar list=[],t;\nvar bid=java.get('bid');\nwhile((t=reg2.exec(result))){\nvar id=t[1];\nvar name=reg1.exec(result)[1];\nvar vip=reg3.exec(result)[1];\nname=((vip==0)?name:'🔒'+name);\nlist.push({name:name,id:'http://book.qudu99.com/apidata/read?book='+bid+'&curindex='+id+'&index='+id+'&size=1'});\n}\nlist;",
+      "chapterName": "$.name",
+      "chapterUrl": "$.id",
+      "nextTocUrl": "@js:\nresult=result.match(/\\((.*)\\)$/);\nresult=(result)?result[1]:'';\nvar n=JSON.parse(result).data.total;\nvar list=[];\nvar url=baseUrl.match(/(.*?index=)\\d+/)[1];\nfor(var i=2;i<n/100+1;i++){\nlist.push(url+i);\n}\nlist;"
+    },
+    "searchUrl": "/search?keyword={{key}}",
+    "weight": 0
+  }]

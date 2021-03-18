@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "笔趣阁jusen2008.com", "bookSourceType": 0, "bookSourceUrl": "http://www.jusen2008.com", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": false, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "tag.h3.0@text", "coverUrl": "class.info1@tag.img@src", "intro": "class.info2@tag.p@text", "lastChapter": "class.info3@tag.a.0@text", "name": "tag.h1.0@text"}, "ruleContent": {"content": "class.panel-body@textNodes", "nextContentUrl": "text.下一页@href"}, "ruleExplore": {}, "ruleSearch": {"author": "class.c_value.0@text", "bookList": "class.c_row", "bookUrl": "tag.a.0@href", "name": "class.c_subject@tag.a.0@text"}, "ruleToc": {"chapterList": "class.panel-body panel-chapterlist!0@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.jusen2008.com/modules/article/search.php?searchkey={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "笔趣阁jusen2008.com",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.jusen2008.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "tag.h3.0@text",
+      "coverUrl": "class.info1@tag.img@src",
+      "intro": "class.info2@tag.p@text",
+      "lastChapter": "class.info3@tag.a.0@text",
+      "name": "tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "class.panel-body@textNodes",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.c_value.0@text",
+      "bookList": "class.c_row",
+      "bookUrl": "tag.a.0@href",
+      "name": "class.c_subject@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.panel-body panel-chapterlist!0@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.jusen2008.com/modules/article/search.php?searchkey={{key}}",
+    "weight": 0
+  }]

@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "👍 校园居", "bookSourceType": 0, "bookSourceUrl": "https://www.xxiaoyuanju.com", "bookUrlPattern": "", "customOrder": 15913, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1602875630739, "loginUrl": "", "ruleBookInfo": {"author": "class.block_txt2@tag.p.2@tag.a@text", "coverUrl": "class.block_img2@img@src", "intro": "class.intro_info@text", "name": "class.block_txt2@tag.h2@text", "tocUrl": "class.btopt@tag.a.0@href"}, "ruleContent": {"content": "id.htmlContent@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@text", "bookList": "class.grid@tag.tr!0", "bookUrl": "class.odd.0@tag.a.0@href", "lastChapter": "class.even.0@tag.a.0@text", "name": "class.odd.0@tag.a.0@text"}, "ruleToc": {"chapterList": "class.zjlist4@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.xxiaoyuanju.com/modules/article/search.php?searchkey={{key}}&submit=,{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "👍 校园居",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xxiaoyuanju.com",
+    "bookUrlPattern": "",
+    "customOrder": 15913,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1602875630739,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.block_txt2@tag.p.2@tag.a@text",
+      "coverUrl": "class.block_img2@img@src",
+      "intro": "class.intro_info@text",
+      "name": "class.block_txt2@tag.h2@text",
+      "tocUrl": "class.btopt@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "lastChapter": "class.even.0@tag.a.0@text",
+      "name": "class.odd.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.zjlist4@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.xxiaoyuanju.com/modules/article/search.php?searchkey={{key}}&submit=,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

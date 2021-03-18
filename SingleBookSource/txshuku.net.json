@@ -1,1 +1,40 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "📚 天下书库 ", "bookSourceType": 0, "bookSourceUrl": "http://www.txshuku.net", "bookUrlPattern": "", "customOrder": -116682, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻::http://book.txshuku.net/sort18/0/{{page}}.html\n武侠::http://book.txshuku.net/sort16/0/{{page}}.html\n言情::http://book.txshuku.net/sort15/0/{{page}}.html\n历 史::http://book.txshuku.net/sort22/0/{{page}}.html\n官场::http://book.txshuku.net/sort23/0/{{page}}.html\n科幻::http://book.txshuku.net/sort21/0/{{page}}.html\n灵 异::http://book.txshuku.net/sort20/0/{{page}}.html\n穿越::http://book.txshuku.net/sort19/0/{{page}}.html\n古典::http://book.txshuku.net/sort13/0/{{page}}.html\n三国系列::http://book.txshuku.net/sort1/0/{{page}}.html\n水浒系列::http://book.txshuku.net/sort2/0/{{page}}.html\n西游系列::http://book.txshuku.net/sort3/0/{{page}}.html\n红楼系列::http://book.txshuku.net/sort4/0/{{page}}.html\n典籍文献::http://book.txshuku.net/sort8/0/{{page}}.html\n诗词歌赋::http://book.txshuku.net/sort6/0/{{page}}.html\n佛教书籍::http://book.txshuku.net/sort30/0/{{page}}.html\n道教书籍::http://book.txshuku.net/sort32/0/{{page}}.html\n中医书籍::http://book.txshuku.net/sort31/0/{{page}}.html\n十三经注疏::http://book.txshuku.net/sort9/0/{{page}}.html\n世界名著::http://book.txshuku.net/sort7/0/{{page}}.html\n古典文学::http://book.txshuku.net/sort5/0/{{page}}.html\n英语文学::http://book.txshuku.net/sort11/0/{{page}}.html\n现代文学::http://book.txshuku.net/sort12/0/{{page}}.html\n散文随笔::http://book.txshuku.net/sort25/0/{{page}}.html\n 幼学琼林::http://book.txshuku.net/sort10/0/{{page}}.html\n经管营销::http://book.txshuku.net/sort26/0/{{page}}.html\n人文社科::http://book.txshuku.net/sort14/0/{{page}}.html\n励志教育::http://book.txshuku.net/sort28/0/{{page}}.html\n生活百科::http://book.txshuku.net/sort29/0/{{page}}.html\n人物传记::http://book.txshuku.net/sort27/0/{{page}}.html", "lastUpdateTime": 1612443552928, "loginUrl": "", "ruleBookInfo": {"intro": "class.mlist@text", "tocUrl": "class.pic325 fr@tag.a.0@href"}, "ruleContent": {"content": "id.htmlContent@html", "nextContentUrl": "class.chapter_Turnpage@tag.a.3@href"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.span.0@text##作者：", "bookList": "class.bd@tag.li", "bookUrl": "class.name@tag.a@href", "coverUrl": "tag.img@src", "kind": "tag.span.1@text##分类：", "lastChapter": "tag.span.3@text##更新：", "name": "class.name@tag.a@text"}, "ruleToc": {"chapterList": "class.mulu_list@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "nextTocUrl": "class.right@tag.a@href"}, "searchUrl": "http://book.txshuku.net/modules/article/search.php?searchtype=articlename&searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "📚 天下书库 ",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.txshuku.net",
+    "bookUrlPattern": "",
+    "customOrder": -116682,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::http://book.txshuku.net/sort18/0/{{page}}.html\n武侠::http://book.txshuku.net/sort16/0/{{page}}.html\n言情::http://book.txshuku.net/sort15/0/{{page}}.html\n历 史::http://book.txshuku.net/sort22/0/{{page}}.html\n官场::http://book.txshuku.net/sort23/0/{{page}}.html\n科幻::http://book.txshuku.net/sort21/0/{{page}}.html\n灵 异::http://book.txshuku.net/sort20/0/{{page}}.html\n穿越::http://book.txshuku.net/sort19/0/{{page}}.html\n古典::http://book.txshuku.net/sort13/0/{{page}}.html\n三国系列::http://book.txshuku.net/sort1/0/{{page}}.html\n水浒系列::http://book.txshuku.net/sort2/0/{{page}}.html\n西游系列::http://book.txshuku.net/sort3/0/{{page}}.html\n红楼系列::http://book.txshuku.net/sort4/0/{{page}}.html\n典籍文献::http://book.txshuku.net/sort8/0/{{page}}.html\n诗词歌赋::http://book.txshuku.net/sort6/0/{{page}}.html\n佛教书籍::http://book.txshuku.net/sort30/0/{{page}}.html\n道教书籍::http://book.txshuku.net/sort32/0/{{page}}.html\n中医书籍::http://book.txshuku.net/sort31/0/{{page}}.html\n十三经注疏::http://book.txshuku.net/sort9/0/{{page}}.html\n世界名著::http://book.txshuku.net/sort7/0/{{page}}.html\n古典文学::http://book.txshuku.net/sort5/0/{{page}}.html\n英语文学::http://book.txshuku.net/sort11/0/{{page}}.html\n现代文学::http://book.txshuku.net/sort12/0/{{page}}.html\n散文随笔::http://book.txshuku.net/sort25/0/{{page}}.html\n 幼学琼林::http://book.txshuku.net/sort10/0/{{page}}.html\n经管营销::http://book.txshuku.net/sort26/0/{{page}}.html\n人文社科::http://book.txshuku.net/sort14/0/{{page}}.html\n励志教育::http://book.txshuku.net/sort28/0/{{page}}.html\n生活百科::http://book.txshuku.net/sort29/0/{{page}}.html\n人物传记::http://book.txshuku.net/sort27/0/{{page}}.html",
+    "lastUpdateTime": 1612443552928,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.mlist@text",
+      "tocUrl": "class.pic325 fr@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@html",
+      "nextContentUrl": "class.chapter_Turnpage@tag.a.3@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.span.0@text##作者：",
+      "bookList": "class.bd@tag.li",
+      "bookUrl": "class.name@tag.a@href",
+      "coverUrl": "tag.img@src",
+      "kind": "tag.span.1@text##分类：",
+      "lastChapter": "tag.span.3@text##更新：",
+      "name": "class.name@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.mulu_list@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "class.right@tag.a@href"
+    },
+    "searchUrl": "http://book.txshuku.net/modules/article/search.php?searchtype=articlename&searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

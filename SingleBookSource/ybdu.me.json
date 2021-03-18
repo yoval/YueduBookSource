@@ -1,1 +1,36 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 一本读", "bookSourceType": 0, "bookSourceUrl": "http://www.ybdu.me", "bookUrlPattern": "", "customOrder": -32272, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻::http://www.ybdu.me/xuanhuan/\n修真::http://www.ybdu.me/xianxia/\n都市::http://www.ybdu.me/dushi/\n历史::http://www.ybdu.me/lishi/\n网游::http://www.ybdu.me/wangyou/\n科幻::http://www.ybdu.me/kehuan/\n言情::http://www.ybdu.me/yanqing/\n其他::http://www.ybdu.me/qita/\n全本::http://www.ybdu.me/quanben/\n排行榜::http://www.ybdu.me/top/", "lastUpdateTime": 0, "ruleBookInfo": {"coverUrl": "id.fmimg@tag.img@src", "intro": "id.intro@text"}, "ruleContent": {"content": "id.content@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.s4@text", "bookList": "class.novelslist2@tag.li!0||id.newscontent@tag.li", "bookUrl": "class.s2@tag.a@href", "kind": "class.s1@text", "lastChapter": "class.s3@tag.a@text", "name": "class.s2@tag.a@text"}, "ruleToc": {"chapterList": "id.list@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.ybdu.me/SearchBook.aspx?keyword={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 一本读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.ybdu.me",
+    "bookUrlPattern": "",
+    "customOrder": -32272,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::http://www.ybdu.me/xuanhuan/\n修真::http://www.ybdu.me/xianxia/\n都市::http://www.ybdu.me/dushi/\n历史::http://www.ybdu.me/lishi/\n网游::http://www.ybdu.me/wangyou/\n科幻::http://www.ybdu.me/kehuan/\n言情::http://www.ybdu.me/yanqing/\n其他::http://www.ybdu.me/qita/\n全本::http://www.ybdu.me/quanben/\n排行榜::http://www.ybdu.me/top/",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.novelslist2@tag.li!0||id.newscontent@tag.li",
+      "bookUrl": "class.s2@tag.a@href",
+      "kind": "class.s1@text",
+      "lastChapter": "class.s3@tag.a@text",
+      "name": "class.s2@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.ybdu.me/SearchBook.aspx?keyword={{key}}",
+    "weight": 0
+  }]

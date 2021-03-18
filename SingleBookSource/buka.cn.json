@@ -1,1 +1,48 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎨 布卡漫画$", "bookSourceType": 0, "bookSourceUrl": "http://www.buka.cn", "customOrder": -115846, "enabled": true, "enabledExplore": true, "exploreUrl": "更新::/news.html\n热门::/ranking.html\n付费::/category/12128/%E4%BB%98%E8%B4%B9%E6%BC%AB%E7%94%BB.html\n上新::/category/12084/%E6%9C%80%E8%BF%91%E4%B8%8A%E6%96%B0.html\n经典::/category/303/%E7%BB%8F%E5%85%B8.html\n联合::/category/12033/%E8%81%94%E5%90%88%E5%87%BA%E5%93%81.html\n条漫::/category/12036/%E6%9D%A1%E6%BC%AB.html\n玄幻::/category/12041/%E7%8E%84%E5%B9%BB.html\n都市::/category/12116/%E9%83%BD%E5%B8%82%E6%81%8B%E7%88%B1.html\n恋爱::/category/404/%E6%81%8B%E7%88%B1.html\n原创::/category/12091/%E7%94%A8%E6%88%B7%E5%8E%9F%E5%88%9B.html\n游戏::/category/12018/%E6%B8%B8%E6%88%8F.html\n治愈::/category/202/%E6%B2%BB%E6%84%88.html\n科幻::/category/403/%E7%A7%91%E5%B9%BB.html\n搞笑::/category/10008/%E6%90%9E%E7%AC%91.html\n励志::/category/12023/%E5%8A%B1%E5%BF%97.html\n格斗::/category/410/%E6%A0%BC%E6%96%97.html\n少女::/category/12103/%E5%B0%91%E5%A5%B3%E6%BC%AB.html\n少年::/category/12104/%E5%B0%91%E5%B9%B4%E6%BC%AB.html\n真人::/category/12117/%E7%9C%9F%E4%BA%BA%E6%BC%AB.html", "lastUpdateTime": 1605067641308, "loginUrl": "http://td.buka.cn/", "ruleBookInfo": {"author": "class.author@tag.a@text", "coverUrl": "class.manga-img@tag.img@src##x##m", "intro": "class.manga-desc-font@text", "kind": "class.time@tag.span@text", "lastChapter": "", "name": "class.title-font@tag.h1@text"}, "ruleContent": {"content": "@js:\r\nvar jp = /src=\"(.*?)0001.jpg/;\r\nvar p = /pcount = (.*);/;\r\nvar jpgstr = result.match(jp)[1];\r\nvar mp = +result.match(p)[1];\r\nvar piclist = new Array(mp); \r\nfor (var i = 0; i < mp; i++) {         \r\npiclist[i] = jpgstr+(new Array(4).join('0') + (i+1)).slice(-4)+\".jpg\";\r\n}\nhtml='';\nfor(i in piclist){\nhtml+='<img src=\"'+piclist[i]+'\">'\n}\nhtml", "imageStyle": "FULL"}, "ruleExplore": {"author": "", "bookList": "", "bookUrl": "", "coverUrl": "", "lastChapter": "", "name": ""}, "ruleSearch": {"author": "tag.a.2@text", "bookList": "class.manga-list@tag.li||id.mangawrap@tag.li", "bookUrl": "tag.a.1@href", "coverUrl": "tag.img@src", "lastChapter": "tag.a.3@text##最后更新.", "name": "tag.a.1@text"}, "ruleToc": {"chapterList": "<js>\nresult=result.replace(/onclick=\"payChapter\\('(.*?)','.*?',.*?\\);\"/g,'href=\"$1\"');\ndoc=org.jsoup.Jsoup.parse(result);\nlist=doc.select(\"#episodes a,#extra_episodes a\");\nif(String(list).match(/class=\"price_tag_icon\">￥/)){\nresult=list\n}else{\nlist=doc.select(\"#episodes a\");\nlist2=doc.select(\"#extra_episodes a\");\na=list.toArray().reverse().map(x=>({text:x.text(),\nhref:x.attr('href')}));\nb=list2.toArray().map(x=>({text:x.text(),\nhref:x.attr('href')}));\nresult=a.concat(b)\n}</js>", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "/search?word={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎨 布卡漫画$",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.buka.cn",
+    "customOrder": -115846,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "更新::/news.html\n热门::/ranking.html\n付费::/category/12128/%E4%BB%98%E8%B4%B9%E6%BC%AB%E7%94%BB.html\n上新::/category/12084/%E6%9C%80%E8%BF%91%E4%B8%8A%E6%96%B0.html\n经典::/category/303/%E7%BB%8F%E5%85%B8.html\n联合::/category/12033/%E8%81%94%E5%90%88%E5%87%BA%E5%93%81.html\n条漫::/category/12036/%E6%9D%A1%E6%BC%AB.html\n玄幻::/category/12041/%E7%8E%84%E5%B9%BB.html\n都市::/category/12116/%E9%83%BD%E5%B8%82%E6%81%8B%E7%88%B1.html\n恋爱::/category/404/%E6%81%8B%E7%88%B1.html\n原创::/category/12091/%E7%94%A8%E6%88%B7%E5%8E%9F%E5%88%9B.html\n游戏::/category/12018/%E6%B8%B8%E6%88%8F.html\n治愈::/category/202/%E6%B2%BB%E6%84%88.html\n科幻::/category/403/%E7%A7%91%E5%B9%BB.html\n搞笑::/category/10008/%E6%90%9E%E7%AC%91.html\n励志::/category/12023/%E5%8A%B1%E5%BF%97.html\n格斗::/category/410/%E6%A0%BC%E6%96%97.html\n少女::/category/12103/%E5%B0%91%E5%A5%B3%E6%BC%AB.html\n少年::/category/12104/%E5%B0%91%E5%B9%B4%E6%BC%AB.html\n真人::/category/12117/%E7%9C%9F%E4%BA%BA%E6%BC%AB.html",
+    "lastUpdateTime": 1605067641308,
+    "loginUrl": "http://td.buka.cn/",
+    "ruleBookInfo": {
+      "author": "class.author@tag.a@text",
+      "coverUrl": "class.manga-img@tag.img@src##x##m",
+      "intro": "class.manga-desc-font@text",
+      "kind": "class.time@tag.span@text",
+      "lastChapter": "",
+      "name": "class.title-font@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "@js:\r\nvar jp = /src=\"(.*?)0001.jpg/;\r\nvar p = /pcount = (.*);/;\r\nvar jpgstr = result.match(jp)[1];\r\nvar mp = +result.match(p)[1];\r\nvar piclist = new Array(mp); \r\nfor (var i = 0; i < mp; i++) {         \r\npiclist[i] = jpgstr+(new Array(4).join('0') + (i+1)).slice(-4)+\".jpg\";\r\n}\nhtml='';\nfor(i in piclist){\nhtml+='<img src=\"'+piclist[i]+'\">'\n}\nhtml",
+      "imageStyle": "FULL"
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "lastChapter": "",
+      "name": ""
+    },
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.manga-list@tag.li||id.mangawrap@tag.li",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img@src",
+      "lastChapter": "tag.a.3@text##最后更新.",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "<js>\nresult=result.replace(/onclick=\"payChapter\\('(.*?)','.*?',.*?\\);\"/g,'href=\"$1\"');\ndoc=org.jsoup.Jsoup.parse(result);\nlist=doc.select(\"#episodes a,#extra_episodes a\");\nif(String(list).match(/class=\"price_tag_icon\">￥/)){\nresult=list\n}else{\nlist=doc.select(\"#episodes a\");\nlist2=doc.select(\"#extra_episodes a\");\na=list.toArray().reverse().map(x=>({text:x.text(),\nhref:x.attr('href')}));\nb=list2.toArray().map(x=>({text:x.text(),\nhref:x.attr('href')}));\nresult=a.concat(b)\n}</js>",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search?word={{key}}",
+    "weight": 0
+  }]

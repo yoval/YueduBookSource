@@ -1,1 +1,51 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "笔趣阁", "bookSourceType": 0, "bookSourceUrl": "https://www.shcbylzx.com/", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻奇幻::https://www.shcbylzx.com/ksl/1/1.html\n武侠仙侠::https://www.shcbylzx.com/ksl/2/1.html\n都市言情::https://www.shcbylzx.com/ksl/3/1.html\n历史军事::https://www.shcbylzx.com/ksl/4/1.html\n科幻灵异::https://www.shcbylzx.com/ksl/5/1.html\n网游竞技::https://www.shcbylzx.com/ksl/6/1.html", "header": "", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "class.fix@tag.p.0@text", "coverUrl": "class.imgbox@tag.img@src", "intro": "class.m-desc xs-show@text", "kind": "class.xs-show@text", "lastChapter": "//div[1]/ul/li[1]/a/text()", "name": "class.top@tag.h1@text"}, "ruleContent": {"content": "id.content@textNodes", "nextContentUrl": "class.section-opt m-bottom-opt@tag.a.2@href"}, "ruleExplore": {"author": "class.s4@text", "bookList": "class.txt-list txt-list-row5@tag.li", "bookUrl": "class.s2@tag.a@href", "kind": "class.s1@text", "lastChapter": "class.s3@tag.a@text", "name": "class.s2@tag.a@text"}, "ruleSearch": {"author": "class.s4@text", "bookList": "class.txt-list txt-list-row5@tag.li!0", "bookUrl": "class.s2@tag.a@href", "kind": "class.s1@text", "lastChapter": "class.s3@tag.a@text", "name": "class.s2@tag.a@text"}, "ruleToc": {"chapterList": "class.section-list fix.1@tag.li@tag.a", "chapterName": "@text", "chapterUrl": "@href", "nextTocUrl": "class.onclick@text.下一页.0@href"}, "searchUrl": "https://www.shcbylzx.com/ar.php?keyWord={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "笔趣阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.shcbylzx.com/",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::https://www.shcbylzx.com/ksl/1/1.html\n武侠仙侠::https://www.shcbylzx.com/ksl/2/1.html\n都市言情::https://www.shcbylzx.com/ksl/3/1.html\n历史军事::https://www.shcbylzx.com/ksl/4/1.html\n科幻灵异::https://www.shcbylzx.com/ksl/5/1.html\n网游竞技::https://www.shcbylzx.com/ksl/6/1.html",
+    "header": "",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.fix@tag.p.0@text",
+      "coverUrl": "class.imgbox@tag.img@src",
+      "intro": "class.m-desc xs-show@text",
+      "kind": "class.xs-show@text",
+      "lastChapter": "//div[1]/ul/li[1]/a/text()",
+      "name": "class.top@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes",
+      "nextContentUrl": "class.section-opt m-bottom-opt@tag.a.2@href"
+    },
+    "ruleExplore": {
+      "author": "class.s4@text",
+      "bookList": "class.txt-list txt-list-row5@tag.li",
+      "bookUrl": "class.s2@tag.a@href",
+      "kind": "class.s1@text",
+      "lastChapter": "class.s3@tag.a@text",
+      "name": "class.s2@tag.a@text"
+    },
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.txt-list txt-list-row5@tag.li!0",
+      "bookUrl": "class.s2@tag.a@href",
+      "kind": "class.s1@text",
+      "lastChapter": "class.s3@tag.a@text",
+      "name": "class.s2@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.section-list fix.1@tag.li@tag.a",
+      "chapterName": "@text",
+      "chapterUrl": "@href",
+      "nextTocUrl": "class.onclick@text.下一页.0@href"
+    },
+    "searchUrl": "https://www.shcbylzx.com/ar.php?keyWord={{key}}",
+    "weight": 0
+  }]

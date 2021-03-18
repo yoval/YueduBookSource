@@ -1,1 +1,48 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "书包文学网", "bookSourceType": 0, "bookSourceUrl": "http://www.shubaowx.com", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻::/list/1/{{page}}.html\n武侠::/list/2/{{page}}.html\n都市::/list/3/{{page}}.html\n历史::/list/4/{{page}}.html\n游戏::/list/5/{{page}}.html\n科幻::/list/6/{{page}}.html\n综合::/list/7/{{page}}.html", "lastUpdateTime": 0, "ruleBookInfo": {"author": "class.novel_info_title@tag.a.0@text", "coverUrl": "class.novel_info_main@tag.img.0@src", "kind": "class.novel_info_title@tag.span.0@text&&class.novel_info_title@tag.span.2@text", "lastChapter": "class.flex to100@a@text", "name": "class.novel_info_title@tag.h1.0@text", "wordCount": "class.novel_info_title@tag.span.1@text&&class.flex to100@em@text"}, "ruleContent": {"content": "class.content@html", "nextContentUrl": "text.下一页@href"}, "ruleExplore": {"author": "tag.a.2@text##&nbsp;", "bookList": "ul@li", "bookUrl": "tag.a.0@href", "coverUrl": "img@data-original", "intro": "class.indent@text", "kind": "tag.span.0@text", "name": "h2@text", "wordCount": "tag.em.0@text&&tag.em.1@text"}, "ruleSearch": {"bookList": "class.flex@tag.li", "bookUrl": "tag.a.1@href", "coverUrl": "class.img_span@tag.img.0@src", "intro": "class.searchresult_p@text", "name": "tag.a.1@tag.h3.0@text"}, "ruleToc": {"chapterList": "id.ul_all_chapters@tag.li@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "http://www.shubaowx.com/search/?searchkey={{key}}&searchtype=all&Submit=,{\n  \"charset\": \"utf-8\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "书包文学网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.shubaowx.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/list/1/{{page}}.html\n武侠::/list/2/{{page}}.html\n都市::/list/3/{{page}}.html\n历史::/list/4/{{page}}.html\n游戏::/list/5/{{page}}.html\n科幻::/list/6/{{page}}.html\n综合::/list/7/{{page}}.html",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "class.novel_info_title@tag.a.0@text",
+      "coverUrl": "class.novel_info_main@tag.img.0@src",
+      "kind": "class.novel_info_title@tag.span.0@text&&class.novel_info_title@tag.span.2@text",
+      "lastChapter": "class.flex to100@a@text",
+      "name": "class.novel_info_title@tag.h1.0@text",
+      "wordCount": "class.novel_info_title@tag.span.1@text&&class.flex to100@em@text"
+    },
+    "ruleContent": {
+      "content": "class.content@html",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+      "author": "tag.a.2@text##&nbsp;",
+      "bookList": "ul@li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@data-original",
+      "intro": "class.indent@text",
+      "kind": "tag.span.0@text",
+      "name": "h2@text",
+      "wordCount": "tag.em.0@text&&tag.em.1@text"
+    },
+    "ruleSearch": {
+      "bookList": "class.flex@tag.li",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "class.img_span@tag.img.0@src",
+      "intro": "class.searchresult_p@text",
+      "name": "tag.a.1@tag.h3.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.ul_all_chapters@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.shubaowx.com/search/?searchkey={{key}}&searchtype=all&Submit=,{\n  \"charset\": \"utf-8\"\n}",
+    "weight": 0
+  }]

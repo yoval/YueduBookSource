@@ -1,1 +1,46 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "书农小说", "bookSourceType": 0, "bookSourceUrl": "http://www.yueleshow.com/", "bookUrlPattern": "", "customOrder": 1081, "enabled": false, "enabledExplore": false, "exploreUrl": "", "lastUpdateTime": 1613011914933, "loginUrl": "", "ruleBookInfo": {"author": "[property=\"og:novel:author\"]@content", "coverUrl": "", "intro": "class.bookCont_content@text", "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content", "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content", "name": "[property=\"og:novel:book_name\"]@content", "tocUrl": "", "wordCount": "[property=\"og:novel:update_time\"]@content##\\h.+"}, "ruleContent": {"content": "@css:#htmlContent>p:not(:has(a))@textNodes", "replaceRegex": "##.+\\h作者：\\S{1,5}\\n"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.a.1@text", "bookList": "class.listbox@tag.ul@tag.li", "bookUrl": "tag.a.0@href##//m\\.qxswk\\.com##//www.yueleshow.com", "coverUrl": "", "intro": "class.u@text", "kind": "", "name": "tag.a.0@text##《(.+?)》##$1###"}, "ruleToc": {"chapterList": "class.book_list@tag.ul@tag.a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": ""}, "searchUrl": "/e/search/index.php,{\n\"method\": \"POST\",\n\"body\":\"tbname=bookname&show=title&tempid=1&keyboard={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "书农小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.yueleshow.com/",
+    "bookUrlPattern": "",
+    "customOrder": 1081,
+    "enabled": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1613011914933,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "",
+      "intro": "class.bookCont_content@text",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "",
+      "wordCount": "[property=\"og:novel:update_time\"]@content##\\h.+"
+    },
+    "ruleContent": {
+      "content": "@css:#htmlContent>p:not(:has(a))@textNodes",
+      "replaceRegex": "##.+\\h作者：\\S{1,5}\\n"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.1@text",
+      "bookList": "class.listbox@tag.ul@tag.li",
+      "bookUrl": "tag.a.0@href##//m\\.qxswk\\.com##//www.yueleshow.com",
+      "coverUrl": "",
+      "intro": "class.u@text",
+      "kind": "",
+      "name": "tag.a.0@text##《(.+?)》##$1###"
+    },
+    "ruleToc": {
+      "chapterList": "class.book_list@tag.ul@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": ""
+    },
+    "searchUrl": "/e/search/index.php,{\n\"method\": \"POST\",\n\"body\":\"tbname=bookname&show=title&tempid=1&keyboard={{key}}\"\n}",
+    "weight": 0
+  }]

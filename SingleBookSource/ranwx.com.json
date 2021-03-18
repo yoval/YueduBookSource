@@ -1,1 +1,46 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "燃文学", "bookSourceType": 0, "bookSourceUrl": "http://www.ranwx.com", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻总人气::http://www.ranwx.com/xuanhuan?order=all&page={{page}}\n玄幻月人气::http://www.ranwx.com/xuanhuan?order=month&page={{page}}\n玄幻周人气::http://www.ranwx.com/xuanhuan?order=week&page={{page}}\n玄幻推荐票::http://www.ranwx.com/xuanhuan?order=vote&page={{page}}\n玄幻入库::http://www.ranwx.com/xuanhuan?order=post&page={{page}}\n玄幻更新::http://www.ranwx.com/xuanhuan?order=update&page={{page}}\n仙侠总人气::http://www.ranwx.com/xianxia?order=all&page={{page}}\n仙侠月人气::http://www.ranwx.com/xianxia?order=month&page={{page}}\n仙侠周人气::http://www.ranwx.com/xianxia?order=week&page={{page}}\n仙侠推荐票::http://www.ranwx.com/xianxia?order=vote&page={{page}}\n仙侠入库::http://www.ranwx.com/xianxia?order=post&page={{page}}\n仙侠更新::http://www.ranwx.com/xianxia?order=update&page={{page}}\n都市总人气::http://www.ranwx.com/dushi?order=all&page={{page}}\n都市月人气::http://www.ranwx.com/dushi?order=month&page={{page}}\n都市周人气::http://www.ranwx.com/dushi?order=week&page={{page}}\n都市推荐票::http://www.ranwx.com/dushi?order=vote&page={{page}}\n都市入库::http://www.ranwx.com/dushi?order=post&page={{page}}\n都市更新::http://www.ranwx.com/dushi?order=update&page={{page}}\n历史总人气::http://www.ranwx.com/lishi?order=all&page={{page}}\n历史月人气::http://www.ranwx.com/lishi?order=month&page={{page}}\n历史周人气::http://www.ranwx.com/lishi?order=week&page={{page}}\n历史推荐票::http://www.ranwx.com/lishi?order=vote&page={{page}}\n历史入库::http://www.ranwx.com/lishi?order=post&page={{page}}\n历史更新::http://www.ranwx.com/lishi?order=update&page={{page}}\n网游总人气::http://www.ranwx.com/wangyou?order=all&page={{page}}\n网游月人气::http://www.ranwx.com/wangyou?order=month&page={{page}}\n网游周人气::http://www.ranwx.com/wangyou?order=week&page={{page}}\n网游推荐票::http://www.ranwx.com/wangyou?order=vote&page={{page}}\n网游入库::http://www.ranwx.com/wangyou?order=post&page={{page}}\n网游更新::http://www.ranwx.com/wangyou?order=update&page={{page}}\n科幻总人气::http://www.ranwx.com/kehuan?order=all&page={{page}}\n科幻月人气::http://www.ranwx.com/kehuan?order=month&page={{page}}\n科幻周人气::http://www.ranwx.com/kehuan?order=week&page={{page}}\n科幻推荐票::http://www.ranwx.com/kehuan?order=vote&page={{page}}\n科幻入库::http://www.ranwx.com/kehuan?order=post&page={{page}}\n科幻更新::http://www.ranwx.com/kehuan?order=update&page={{page}}\n其他::http://www.ranwx.com/qita?order=all&page={{page}}\n全本::http://www.ranwx.com/quanben?order=all&page={{page}}", "lastUpdateTime": 0, "ruleBookInfo": {"author": "class.author fl@text", "coverUrl": "class.pic fl@tag.span@tag.img@src", "intro": "class.brief_text@text", "lastChapter": "class.chaptername fl@text", "name": "class.name fl@text"}, "ruleContent": {"content": "class.read-content j_readContent@html##.*?"}, "ruleExplore": {"author": "tag.dd@tag.p.0@tag.a@text", "bookList": "class.listboxw@tag.dl", "bookUrl": "tag.dd@tag.a@href", "intro": "tag.dd@tag.p.1@text", "lastChapter": "tag.dd@tag.p.3@tag.a@text", "name": "tag.dd@tag.a@text"}, "ruleSearch": {"author": "tag.dd@tag.p.0@tag.a.0@text", "bookList": "class.rankdatacont search.0@class.secd-rank-list", "bookUrl": "tag.dd@tag.a.0@href", "intro": "tag.dd@tag.p.1@text", "kind": "tag.dd@tag.p.0@tag.a.1@text", "lastChapter": "tag.dd@tag.p.2@tag.a.0@text", "name": "tag.dd@tag.a.0@text"}, "ruleToc": {"chapterList": "class.cate-list@tag.a", "chapterName": "tag.span@text", "chapterUrl": "href"}, "searchUrl": "http://www.ranwx.com/search?keyword={{key}}&page={{page}}&_token=mz3EVJomo9fbczVt0KJazNefhZ2ezUNkd3pinpSK", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "燃文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.ranwx.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻总人气::http://www.ranwx.com/xuanhuan?order=all&page={{page}}\n玄幻月人气::http://www.ranwx.com/xuanhuan?order=month&page={{page}}\n玄幻周人气::http://www.ranwx.com/xuanhuan?order=week&page={{page}}\n玄幻推荐票::http://www.ranwx.com/xuanhuan?order=vote&page={{page}}\n玄幻入库::http://www.ranwx.com/xuanhuan?order=post&page={{page}}\n玄幻更新::http://www.ranwx.com/xuanhuan?order=update&page={{page}}\n仙侠总人气::http://www.ranwx.com/xianxia?order=all&page={{page}}\n仙侠月人气::http://www.ranwx.com/xianxia?order=month&page={{page}}\n仙侠周人气::http://www.ranwx.com/xianxia?order=week&page={{page}}\n仙侠推荐票::http://www.ranwx.com/xianxia?order=vote&page={{page}}\n仙侠入库::http://www.ranwx.com/xianxia?order=post&page={{page}}\n仙侠更新::http://www.ranwx.com/xianxia?order=update&page={{page}}\n都市总人气::http://www.ranwx.com/dushi?order=all&page={{page}}\n都市月人气::http://www.ranwx.com/dushi?order=month&page={{page}}\n都市周人气::http://www.ranwx.com/dushi?order=week&page={{page}}\n都市推荐票::http://www.ranwx.com/dushi?order=vote&page={{page}}\n都市入库::http://www.ranwx.com/dushi?order=post&page={{page}}\n都市更新::http://www.ranwx.com/dushi?order=update&page={{page}}\n历史总人气::http://www.ranwx.com/lishi?order=all&page={{page}}\n历史月人气::http://www.ranwx.com/lishi?order=month&page={{page}}\n历史周人气::http://www.ranwx.com/lishi?order=week&page={{page}}\n历史推荐票::http://www.ranwx.com/lishi?order=vote&page={{page}}\n历史入库::http://www.ranwx.com/lishi?order=post&page={{page}}\n历史更新::http://www.ranwx.com/lishi?order=update&page={{page}}\n网游总人气::http://www.ranwx.com/wangyou?order=all&page={{page}}\n网游月人气::http://www.ranwx.com/wangyou?order=month&page={{page}}\n网游周人气::http://www.ranwx.com/wangyou?order=week&page={{page}}\n网游推荐票::http://www.ranwx.com/wangyou?order=vote&page={{page}}\n网游入库::http://www.ranwx.com/wangyou?order=post&page={{page}}\n网游更新::http://www.ranwx.com/wangyou?order=update&page={{page}}\n科幻总人气::http://www.ranwx.com/kehuan?order=all&page={{page}}\n科幻月人气::http://www.ranwx.com/kehuan?order=month&page={{page}}\n科幻周人气::http://www.ranwx.com/kehuan?order=week&page={{page}}\n科幻推荐票::http://www.ranwx.com/kehuan?order=vote&page={{page}}\n科幻入库::http://www.ranwx.com/kehuan?order=post&page={{page}}\n科幻更新::http://www.ranwx.com/kehuan?order=update&page={{page}}\n其他::http://www.ranwx.com/qita?order=all&page={{page}}\n全本::http://www.ranwx.com/quanben?order=all&page={{page}}",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "class.author fl@text",
+      "coverUrl": "class.pic fl@tag.span@tag.img@src",
+      "intro": "class.brief_text@text",
+      "lastChapter": "class.chaptername fl@text",
+      "name": "class.name fl@text"
+    },
+    "ruleContent": {
+      "content": "class.read-content j_readContent@html##.*?"
+    },
+    "ruleExplore": {
+      "author": "tag.dd@tag.p.0@tag.a@text",
+      "bookList": "class.listboxw@tag.dl",
+      "bookUrl": "tag.dd@tag.a@href",
+      "intro": "tag.dd@tag.p.1@text",
+      "lastChapter": "tag.dd@tag.p.3@tag.a@text",
+      "name": "tag.dd@tag.a@text"
+    },
+    "ruleSearch": {
+      "author": "tag.dd@tag.p.0@tag.a.0@text",
+      "bookList": "class.rankdatacont search.0@class.secd-rank-list",
+      "bookUrl": "tag.dd@tag.a.0@href",
+      "intro": "tag.dd@tag.p.1@text",
+      "kind": "tag.dd@tag.p.0@tag.a.1@text",
+      "lastChapter": "tag.dd@tag.p.2@tag.a.0@text",
+      "name": "tag.dd@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.cate-list@tag.a",
+      "chapterName": "tag.span@text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.ranwx.com/search?keyword={{key}}&page={{page}}&_token=mz3EVJomo9fbczVt0KJazNefhZ2ezUNkd3pinpSK",
+    "weight": 0
+  }]

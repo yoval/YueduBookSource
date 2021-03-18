@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "👍 小说屋", "bookSourceType": 0, "bookSourceUrl": "http://m.xiaoshuowu.com", "bookUrlPattern": "", "customOrder": -114806, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1612772428614, "loginUrl": "", "ruleBookInfo": {"intro": "class.intro@text", "lastChapter": "class.infotype@p@a@text"}, "ruleContent": {"content": "class.novelcontent@html", "nextContentUrl": "text.下一页@href", "replaceRegex": "## .*(第./.页)|上一章|返回目录|加入书签|下一章|上一页"}, "ruleExplore": {}, "ruleSearch": {"author": "class.author@text", "bookList": "class.sone", "bookUrl": "tag.a.0@href", "coverUrl": "tag.a.0@href@js:var o=result.match(/(\\d+)/); if(o!=null){'http://www.xiaoshuowu.com/files/article/image/'+parseInt(o[1]/1000)+'/'+o[1]+'/'+o[1]+'s.jpg';}", "name": "tag.a.0@text"}, "ruleToc": {"chapterList": "class.info_menu1.1@tag.li@tag.a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "text.下一页@href"}, "searchUrl": "http://m.xiaoshuowu.com/modules/article/search.php?q={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "👍 小说屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.xiaoshuowu.com",
+    "bookUrlPattern": "",
+    "customOrder": -114806,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612772428614,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.intro@text",
+      "lastChapter": "class.infotype@p@a@text"
+    },
+    "ruleContent": {
+      "content": "class.novelcontent@html",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": "## .*(第./.页)|上一章|返回目录|加入书签|下一章|上一页"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "class.sone",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href@js:var o=result.match(/(\\d+)/); if(o!=null){'http://www.xiaoshuowu.com/files/article/image/'+parseInt(o[1]/1000)+'/'+o[1]+'/'+o[1]+'s.jpg';}",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.info_menu1.1@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "http://m.xiaoshuowu.com/modules/article/search.php?q={{key}}",
+    "weight": 0
+  }]

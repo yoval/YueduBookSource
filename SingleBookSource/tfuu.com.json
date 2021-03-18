@@ -1,1 +1,35 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🔰 天赋小说网", "bookSourceType": 0, "bookSourceUrl": "http://www.tfuu.com", "customOrder": 16092, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1602756781543, "ruleBookInfo": {}, "ruleContent": {"content": ".main-text-wrap@p@html", "replaceRegex": "##<.*>"}, "ruleExplore": {}, "ruleSearch": {"author": "$4", "bookList": ":<dt>(?:[^\"]*\")(.*?)\"(?:[^\"]*\"){7}(.*?)\"(?:[^>]*>){5}\\s*(.*?)\\s.*<(?:[^>]*>){3}(.*?)<(?:[^>]*>){2}(.*?)<(?:[^>]*>){3}(.*?)<(?:[^>]*>){8}\\s*([^<]*)<(?:[^>]*>){3}(.*?)<(?:[^>]*>){2}\\|(.*?)<", "bookUrl": "$1", "coverUrl": "$2", "intro": "$7", "kind": "$5", "lastChapter": "$8,$9", "name": "$3", "wordCount": "$6"}, "ruleToc": {"chapterList": ":_blank\".*?\"(.*?)\"(?:[^>]*>){2}(.*?)</span>", "chapterName": "$2", "chapterUrl": "$1"}, "searchUrl": "/search.html?keyword={{key}}&page={{page}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🔰 天赋小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.tfuu.com",
+    "customOrder": 16092,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1602756781543,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": ".main-text-wrap@p@html",
+      "replaceRegex": "##<.*>"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$4",
+      "bookList": ":<dt>(?:[^\"]*\")(.*?)\"(?:[^\"]*\"){7}(.*?)\"(?:[^>]*>){5}\\s*(.*?)\\s.*<(?:[^>]*>){3}(.*?)<(?:[^>]*>){2}(.*?)<(?:[^>]*>){3}(.*?)<(?:[^>]*>){8}\\s*([^<]*)<(?:[^>]*>){3}(.*?)<(?:[^>]*>){2}\\|(.*?)<",
+      "bookUrl": "$1",
+      "coverUrl": "$2",
+      "intro": "$7",
+      "kind": "$5",
+      "lastChapter": "$8,$9",
+      "name": "$3",
+      "wordCount": "$6"
+    },
+    "ruleToc": {
+      "chapterList": ":_blank\".*?\"(.*?)\"(?:[^>]*>){2}(.*?)</span>",
+      "chapterName": "$2",
+      "chapterUrl": "$1"
+    },
+    "searchUrl": "/search.html?keyword={{key}}&page={{page}}",
+    "weight": 0
+  }]

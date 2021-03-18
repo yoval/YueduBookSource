@@ -1,1 +1,48 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,刘备书源,经典盗版", "bookSourceName": "🚬 笔趣阁", "bookSourceType": 0, "bookSourceUrl": "https://m.yqzw5.com", "customOrder": 24400, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻::/sort/1_{{page}}/\n仙侠::/sort/2_{{page}}/\n都市::/sort/3_{{page}}/\n穿越::/sort/4_{{page}}/\n网游::/sort/5_{{page}}/\n科幻::/sort/6_{{page}}/\n言情::/sort/7_{{page}}/", "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Wayland; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0\"\n}", "lastUpdateTime": 1612533239493, "ruleBookInfo": {"author": "tag.p.0@text##作者：", "coverUrl": "@js:baseUrl.replace(/.*(\\/\\d+)_(\\d+)\\//g,\"https://yqzw5.com/files/article/image$1/$2/$2s.jpg\")", "intro": "id.intro@text##主角：.*?。片段：|【展开】【收起】|(?<=[。，？！])\\...$|各位书友要是觉得.*?还不错.*", "kind": "tag.p.2@text##.*：| .*", "lastChapter": "id.list@tag.a.-3@text", "name": "h1@text##[（\\(【][正热]?文?\\+?(?:完[结整]版?|番外|全本|出书版)(?:手打完结)?[】\\)）]"}, "ruleContent": {"content": "id.content@textNodes"}, "ruleExplore": {"author": "tag.a.3@text", "bookList": ".block2", "bookUrl": "a@href##(/\\d+_\\d+/)##https://yqzw5.com$1", "coverUrl": "img@src", "intro": "tag.a.4@text## \\...$|各位书友要是觉得.*?还不错.*", "name": "h2@text"}, "ruleSearch": {"author": "tag.td.2@text", "bookList": "tr!0", "bookUrl": "a@href", "coverUrl": "a@href##.*(/\\d+)_(\\d+)/##https://yqzw5.com/files/article/image$1/$2/$2s.jpg", "kind": "td!0:1:2@text", "lastChapter": "a!0@text", "name": "a!1@text"}, "ruleToc": {"chapterList": "+dl@dd!-1:-2@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://yqzw5.com/modules/article/search.php?searchtype=articlename&searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,刘备书源,经典盗版",
+    "bookSourceName": "🚬 笔趣阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.yqzw5.com",
+    "customOrder": 24688,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/sort/1_{{page}}/\n仙侠::/sort/2_{{page}}/\n都市::/sort/3_{{page}}/\n穿越::/sort/4_{{page}}/\n网游::/sort/5_{{page}}/\n科幻::/sort/6_{{page}}/\n言情::/sort/7_{{page}}/",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Wayland; Linux x86_64; rv:62.0) Gecko/20100101 Firefox/62.0\"\n}",
+    "lastUpdateTime": 1612533239493,
+    "ruleBookInfo": {
+      "author": "tag.p.0@text##作者：",
+      "coverUrl": "@js:baseUrl.replace(/.*(\\/\\d+)_(\\d+)\\//g,\"https://yqzw5.com/files/article/image$1/$2/$2s.jpg\")",
+      "intro": "id.intro@text##主角：.*?。片段：|【展开】【收起】|(?<=[。，？！])\\...$|各位书友要是觉得.*?还不错.*",
+      "kind": "tag.p.2@text##.*：| .*",
+      "lastChapter": "id.list@tag.a.-3@text",
+      "name": "h1@text##[（\\(【][正热]?文?\\+?(?:完[结整]版?|番外|全本|出书版)(?:手打完结)?[】\\)）]"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {
+      "author": "tag.a.3@text",
+      "bookList": ".block2",
+      "bookUrl": "a@href##(/\\d+_\\d+/)##https://yqzw5.com$1",
+      "coverUrl": "img@src",
+      "intro": "tag.a.4@text## \\...$|各位书友要是觉得.*?还不错.*",
+      "name": "h2@text"
+    },
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "tr!0",
+      "bookUrl": "a@href",
+      "coverUrl": "a@href##.*(/\\d+)_(\\d+)/##https://yqzw5.com/files/article/image$1/$2/$2s.jpg",
+      "kind": "td!0:1:2@text",
+      "lastChapter": "a!0@text",
+      "name": "a!1@text"
+    },
+    "ruleToc": {
+      "chapterList": "+dl@dd!-1:-2@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://yqzw5.com/modules/article/search.php?searchtype=articlename&searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

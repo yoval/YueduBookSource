@@ -1,1 +1,35 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "📚 天涯知识[仅发现]", "bookSourceType": 0, "bookSourceUrl": "http://book.sbkk8.com", "customOrder": -116691, "enabled": true, "enabledExplore": true, "exploreUrl": "◎                    古典文学                    ◎::\n古典文学(总)::/gudai/\n四大名著::/gudai/sidawenxuemingzhu/\n   唐诗   ::/gudai/tangshi/\n   宋词   ::/gudai/songci/\n诸子百家::/gudai/zhuzibaijia/\n   史书   ::/gudai/shishu/\n中医医书::/gudai/gudaiyishu/\n   佛经   ::/gudai/fujingdaquan/\n   蒙学   ::/gudai/mengxue/\n   易经   ::/gudai/yijingshuji/\n古代兵书::/gudai/gudaibingshu/\n古典侠义::/gudai/gudianxiayixiaoshuo/\n神魔志怪::/gudai/gudianshenmozhiguaixiaoshuo/\n才子佳人::/gudai/caizijiaren/\n三言二拍::/gudai/sanyanerpaiheji/\n谴责小说::/gudai/qianzexiaoshuo/\n道教书籍::/gudai/daojiaoshuji/\n公案小说::/gudai/gonganxiaoshuo/\n辞赋鉴赏::/gudai/cifujianshang/\n高中文言文::/gudai/gaozhongwenyanwen/\n初中文言文::/gudai/chuzhongwenyanwen/\n◎                    历史人物                    ◎::\n历史故事(总)::/lishigushi/\n著名战役::/lishigushi/zhumingzhanyi/\n红楼梦人物::/lishigushi/hongloumengrenwu/\n水浒传人物::/lishigushi/shuihuchuanrenwu/\n\n◎                       作文                       ◎::\n作文大全(总)::/zuowen/\n主体作文::/zuowen/zhutizuowen/\n 读后 感 ::/zuowen/zhutizuowen/\n植物作文::/zuowen/zhiwuzuowen/\n节日作文::/zuowen/jierizuowen/\n风景作文::/zuowen/fengjingzuowen/\n自然现象::/zuowen/ziranxianxiang/\n事件作文::/zuowen/shijianzuowen/\n动物作文::/zuowen/dongwu/\n写人作文::/zuowen/xierenzuowen/\n\n◎                    其他栏目                    ◎::\n故事会::/gushihui/\n美容养生::/meirongyangsheng/\n健康饮食::/jiankangyinshi/\n\n◎                    外国文学                    ◎::\n外国名著(总)::/waiguo/\n凡尔纳::/waiguo/fanernazuopinji/\n维克多·雨果::/waiguo/yuguo/\n托马斯·曼::/waiguo/tuomasi_man/\n陀思妥耶夫斯基::/waiguo/tuosituoyefusiji/\n托马斯·哈代::/waiguo/hadai/\n列夫·托尔斯泰::/waiguo/liefu/\n屠格涅夫::/waiguo/tugeniefu/\n司汤达::/waiguo/sitangdazuopinji/\n德莱塞::/waiguo/delaisaizuopinji/\n乔治·奥威尔::/waiguo/qiaozhi_aoweier/\n马克吐温::/waiguo/maketuwenzuopinji/\n劳伦斯::/waiguo/laolunsizuopinji/\n江户川乱步::/waiguo/jianghuchuanluanbu/\n海明威::/waiguo/haimingweizuopinji/\n赫尔曼·黑塞::/waiguo/heerman_heisai/\n高罗佩::/waiguo/gaoluopei/\n果戈理::/waiguo/guogeli/\n高尔基::/waiguo/gaoerji/\n谷崎润一郎::/waiguo/guqirunyilang/\n菲茨杰拉德::/waiguo/feici/\n伊恩·弗莱明::/waiguo/yien/\n厄尔·德尔·比格斯::/waiguo/bigesi/\n简·奥斯丁::/waiguo/jian_aosiding/\n大仲马::/waiguo/dazhongmazuopinji/\n狄更斯::/waiguo/digengsi/\n斯蒂芬·茨威格::/waiguo/sidifen_ciweige/\n巴尔扎克::/waiguo/baerzhakezuopinji/\n米·布尔加科夫::/waiguo/mi_buerjiakefuzuopinji/\n莫泊桑::/waiguo/mobosangzuopinji/\n纪德::/waiguo/jidezuopinji/\n缪塞::/waiguo/miaosaizuopinji/\n王尔德::/waiguo/wangerdezuopinji/\n柯南·道尔::/waiguo/kenandaoerzuopinji/\n阿加莎·克里斯蒂::/waiguo/ajiashan/", "lastUpdateTime": 1612353490437, "ruleBookInfo": {"coverUrl": "class.fm@tag.img@src", "intro": "class.des@tag.p.0@text", "name": "class.listH11@text"}, "ruleContent": {"content": "id.content@html", "imageStyle": "0"}, "ruleExplore": {"bookList": "class.bookList", "bookUrl": "tag.p@tag.a@href", "coverUrl": "class.ablum@tag.img@src", "name": "tag.p@tag.a@text"}, "ruleSearch": {}, "ruleToc": {"chapterList": "class.mulu@tag.li@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "📚 天涯知识[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://book.sbkk8.com",
+    "customOrder": -116691,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "◎                    古典文学                    ◎::\n古典文学(总)::/gudai/\n四大名著::/gudai/sidawenxuemingzhu/\n   唐诗   ::/gudai/tangshi/\n   宋词   ::/gudai/songci/\n诸子百家::/gudai/zhuzibaijia/\n   史书   ::/gudai/shishu/\n中医医书::/gudai/gudaiyishu/\n   佛经   ::/gudai/fujingdaquan/\n   蒙学   ::/gudai/mengxue/\n   易经   ::/gudai/yijingshuji/\n古代兵书::/gudai/gudaibingshu/\n古典侠义::/gudai/gudianxiayixiaoshuo/\n神魔志怪::/gudai/gudianshenmozhiguaixiaoshuo/\n才子佳人::/gudai/caizijiaren/\n三言二拍::/gudai/sanyanerpaiheji/\n谴责小说::/gudai/qianzexiaoshuo/\n道教书籍::/gudai/daojiaoshuji/\n公案小说::/gudai/gonganxiaoshuo/\n辞赋鉴赏::/gudai/cifujianshang/\n高中文言文::/gudai/gaozhongwenyanwen/\n初中文言文::/gudai/chuzhongwenyanwen/\n◎                    历史人物                    ◎::\n历史故事(总)::/lishigushi/\n著名战役::/lishigushi/zhumingzhanyi/\n红楼梦人物::/lishigushi/hongloumengrenwu/\n水浒传人物::/lishigushi/shuihuchuanrenwu/\n\n◎                       作文                       ◎::\n作文大全(总)::/zuowen/\n主体作文::/zuowen/zhutizuowen/\n 读后 感 ::/zuowen/zhutizuowen/\n植物作文::/zuowen/zhiwuzuowen/\n节日作文::/zuowen/jierizuowen/\n风景作文::/zuowen/fengjingzuowen/\n自然现象::/zuowen/ziranxianxiang/\n事件作文::/zuowen/shijianzuowen/\n动物作文::/zuowen/dongwu/\n写人作文::/zuowen/xierenzuowen/\n\n◎                    其他栏目                    ◎::\n故事会::/gushihui/\n美容养生::/meirongyangsheng/\n健康饮食::/jiankangyinshi/\n\n◎                    外国文学                    ◎::\n外国名著(总)::/waiguo/\n凡尔纳::/waiguo/fanernazuopinji/\n维克多·雨果::/waiguo/yuguo/\n托马斯·曼::/waiguo/tuomasi_man/\n陀思妥耶夫斯基::/waiguo/tuosituoyefusiji/\n托马斯·哈代::/waiguo/hadai/\n列夫·托尔斯泰::/waiguo/liefu/\n屠格涅夫::/waiguo/tugeniefu/\n司汤达::/waiguo/sitangdazuopinji/\n德莱塞::/waiguo/delaisaizuopinji/\n乔治·奥威尔::/waiguo/qiaozhi_aoweier/\n马克吐温::/waiguo/maketuwenzuopinji/\n劳伦斯::/waiguo/laolunsizuopinji/\n江户川乱步::/waiguo/jianghuchuanluanbu/\n海明威::/waiguo/haimingweizuopinji/\n赫尔曼·黑塞::/waiguo/heerman_heisai/\n高罗佩::/waiguo/gaoluopei/\n果戈理::/waiguo/guogeli/\n高尔基::/waiguo/gaoerji/\n谷崎润一郎::/waiguo/guqirunyilang/\n菲茨杰拉德::/waiguo/feici/\n伊恩·弗莱明::/waiguo/yien/\n厄尔·德尔·比格斯::/waiguo/bigesi/\n简·奥斯丁::/waiguo/jian_aosiding/\n大仲马::/waiguo/dazhongmazuopinji/\n狄更斯::/waiguo/digengsi/\n斯蒂芬·茨威格::/waiguo/sidifen_ciweige/\n巴尔扎克::/waiguo/baerzhakezuopinji/\n米·布尔加科夫::/waiguo/mi_buerjiakefuzuopinji/\n莫泊桑::/waiguo/mobosangzuopinji/\n纪德::/waiguo/jidezuopinji/\n缪塞::/waiguo/miaosaizuopinji/\n王尔德::/waiguo/wangerdezuopinji/\n柯南·道尔::/waiguo/kenandaoerzuopinji/\n阿加莎·克里斯蒂::/waiguo/ajiashan/",
+    "lastUpdateTime": 1612353490437,
+    "ruleBookInfo": {
+      "coverUrl": "class.fm@tag.img@src",
+      "intro": "class.des@tag.p.0@text",
+      "name": "class.listH11@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "bookList": "class.bookList",
+      "bookUrl": "tag.p@tag.a@href",
+      "coverUrl": "class.ablum@tag.img@src",
+      "name": "tag.p@tag.a@text"
+    },
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "class.mulu@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "",
+    "weight": 0
+  }]

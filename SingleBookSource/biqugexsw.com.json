@@ -1,1 +1,41 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "🎉 笔趣阁㊶", "bookSourceType": 0, "bookSourceUrl": "https://www.biqugexsw.com", "bookUrlPattern": "", "customOrder": -31934, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1602719389465, "loginUrl": "", "ruleBookInfo": {"author": "class.small@tag.span.0@text", "coverUrl": "class.cover@tag.img@src", "intro": "class.intro@text##简介：|无弹窗推荐地.*", "lastChapter": "class.last@a@text", "name": "class.covr@tag.h2@text"}, "ruleContent": {"content": "class.showtxt@textNodes", "replaceRegex": "##http(.|\\n)*"}, "ruleExplore": {}, "ruleSearch": {"author": "class.s4@text", "bookList": "class.l bd@li", "bookUrl": "class.s2@tag.a.0@href", "coverUrl": "tag.a.0@href##.*_(\\d+)(\\d{3})/##/files/article/image/$1/$1$2/$1$2s.jpg", "kind": "class.s1@text##\\[|]", "lastChapter": "class.s3@tag.a@text", "name": "class.s2@tag.a@text"}, "ruleToc": {"chapterList": "class.listmain@tag.dd@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.biqiugexsw.com/search/?ie=gbk&siteid=xszww.com&q={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "🎉 笔趣阁㊶",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.biqugexsw.com",
+    "bookUrlPattern": "",
+    "customOrder": -31934,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1602719389465,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.small@tag.span.0@text",
+      "coverUrl": "class.cover@tag.img@src",
+      "intro": "class.intro@text##简介：|无弹窗推荐地.*",
+      "lastChapter": "class.last@a@text",
+      "name": "class.covr@tag.h2@text"
+    },
+    "ruleContent": {
+      "content": "class.showtxt@textNodes",
+      "replaceRegex": "##http(.|\\n)*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.l bd@li",
+      "bookUrl": "class.s2@tag.a.0@href",
+      "coverUrl": "tag.a.0@href##.*_(\\d+)(\\d{3})/##/files/article/image/$1/$1$2/$1$2s.jpg",
+      "kind": "class.s1@text##\\[|]",
+      "lastChapter": "class.s3@tag.a@text",
+      "name": "class.s2@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.biqiugexsw.com/search/?ie=gbk&siteid=xszww.com&q={{key}}",
+    "weight": 0
+  }]

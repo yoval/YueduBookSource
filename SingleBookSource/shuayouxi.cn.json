@@ -1,1 +1,36 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "超级悠读", "bookSourceType": 0, "bookSourceUrl": "https://shuayouxi.cn", "customOrder": 0, "enabled": false, "enabledExplore": true, "exploreUrl": "多看专区::https://shuayouxi.cn/duokan/page/{{page}}\n漫画::https://shuayouxi.cn/kdmh/page/{{page}}\n工具书::https://shuayouxi.cn/gjs/page/{{page}}\n原版书籍::https://shuayouxi.cn/ybs/page/{{page}}\n中亚官方合集资源::https://shuayouxi.cn/hjzy/gfzy/page/{{page}}\n官场商战·阴谋::https://shuayouxi.cn/jpwlxs/gcsz-jpwlxs/page/{{page}}\n悬疑恐怖·重生::https://shuayouxi.cn/jpwlxs/cycs/page/{{page}}\n武侠玄幻·仙侠::https://shuayouxi.cn/jpwlxs/wxxh/page/{{page}}\n科幻奇幻·异世::https://shuayouxi.cn/jpwlxs/khqh/page/{{page}}\n都市言情·体育::https://shuayouxi.cn/jpwlxs/dsyq/page/{{page}}\n经典名著社会哲学::https://shuayouxi.cn/cxts/jdmz/page/{{page}}\n生活养生运动健康::https://shuayouxi.cn/cxts/shys/page/{{page}}\n现代文学励志文学::https://shuayouxi.cn/cxts/xdwx/page/{{page}}\n军事科学历史地理::https://shuayouxi.cn/cxts/sjls/page/{{page}}\n官场商战人生百态::https://shuayouxi.cn/cxts/gcsz/page/{{page}}\n人物传记旅行见闻::https://shuayouxi.cn/cxts/lvxzj/page/{{page}}\n武侠玄幻穿越言情::https://shuayouxi.cn/cxts/wxyq/page/{{page}}\n科幻悬疑恐怖惊悚::https://shuayouxi.cn/cxts/khkb/page/{{page}}", "lastUpdateTime": 0, "ruleBookInfo": {"coverUrl": "class.article-content@p@img@src", "intro": "class.article-content@html@js:java.put(\"a\",result)"}, "ruleContent": {"content": "@js:\"点击章节链接跳转浏览器下载\"+baseUrl+\"\\n\"+java.get(\"a\")"}, "ruleExplore": {}, "ruleSearch": {"author": "##》([^（]+)（作者）##$1###", "bookList": "class.content@article", "bookUrl": "tag.a.0@href", "coverUrl": "tag.a.0@img@data-src", "intro": "h2@text&&class.note@text", "kind": "class.cat@text", "name": "##《([^》]+)》##$1###"}, "ruleToc": {"chapterList": "class.xydown_down_link||class.article-content", "chapterName": "##(提取码.*?|密码.*?)[复制\\&<]##$1###", "chapterUrl": "##(https://pan.baidu.com/s/[A-Za-z\\d\\w-]+)##$1###"}, "searchUrl": "https://shuayouxi.cn/?s={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "超级悠读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://shuayouxi.cn",
+    "customOrder": 0,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "多看专区::https://shuayouxi.cn/duokan/page/{{page}}\n漫画::https://shuayouxi.cn/kdmh/page/{{page}}\n工具书::https://shuayouxi.cn/gjs/page/{{page}}\n原版书籍::https://shuayouxi.cn/ybs/page/{{page}}\n中亚官方合集资源::https://shuayouxi.cn/hjzy/gfzy/page/{{page}}\n官场商战·阴谋::https://shuayouxi.cn/jpwlxs/gcsz-jpwlxs/page/{{page}}\n悬疑恐怖·重生::https://shuayouxi.cn/jpwlxs/cycs/page/{{page}}\n武侠玄幻·仙侠::https://shuayouxi.cn/jpwlxs/wxxh/page/{{page}}\n科幻奇幻·异世::https://shuayouxi.cn/jpwlxs/khqh/page/{{page}}\n都市言情·体育::https://shuayouxi.cn/jpwlxs/dsyq/page/{{page}}\n经典名著社会哲学::https://shuayouxi.cn/cxts/jdmz/page/{{page}}\n生活养生运动健康::https://shuayouxi.cn/cxts/shys/page/{{page}}\n现代文学励志文学::https://shuayouxi.cn/cxts/xdwx/page/{{page}}\n军事科学历史地理::https://shuayouxi.cn/cxts/sjls/page/{{page}}\n官场商战人生百态::https://shuayouxi.cn/cxts/gcsz/page/{{page}}\n人物传记旅行见闻::https://shuayouxi.cn/cxts/lvxzj/page/{{page}}\n武侠玄幻穿越言情::https://shuayouxi.cn/cxts/wxyq/page/{{page}}\n科幻悬疑恐怖惊悚::https://shuayouxi.cn/cxts/khkb/page/{{page}}",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "coverUrl": "class.article-content@p@img@src",
+      "intro": "class.article-content@html@js:java.put(\"a\",result)"
+    },
+    "ruleContent": {
+      "content": "@js:\"点击章节链接跳转浏览器下载\"+baseUrl+\"\\n\"+java.get(\"a\")"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "##》([^（]+)（作者）##$1###",
+      "bookList": "class.content@article",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@img@data-src",
+      "intro": "h2@text&&class.note@text",
+      "kind": "class.cat@text",
+      "name": "##《([^》]+)》##$1###"
+    },
+    "ruleToc": {
+      "chapterList": "class.xydown_down_link||class.article-content",
+      "chapterName": "##(提取码.*?|密码.*?)[复制\\&<]##$1###",
+      "chapterUrl": "##(https://pan.baidu.com/s/[A-Za-z\\d\\w-]+)##$1###"
+    },
+    "searchUrl": "https://shuayouxi.cn/?s={{key}}",
+    "weight": 0
+  }]

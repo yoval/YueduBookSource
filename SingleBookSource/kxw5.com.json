@@ -1,1 +1,49 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "啃星书库", "bookSourceType": 0, "bookSourceUrl": "https://www.kxw5.com", "bookUrlPattern": "", "customOrder": 82, "enabled": true, "enabledExplore": true, "exploreUrl": "军事::/xiaoshuo/junshi/index<,_{{page}}>.html\n玄幻::/xiaoshuo/xuanhuan/index<,_{{page}}>.html\n武侠::/xiaoshuo/wuxia/index<,_{{page}}>.html\n科幻::/xiaoshuo/kehuan/index<,_{{page}}>.html\n言情::/xiaoshuo/yanqing/index<,_{{page}}>.html\n现代::/xiaoshuo/xiandai/index<,_{{page}}>.html\n灵异::/xiaoshuo/lingyi/index<,_{{page}}>.html\n官场::/xiaoshuo/guanchang/index<,_{{page}}>.html\n穿越::/xiaoshuo/chuanyue/index<,_{{page}}>.html\n网游::/xiaoshuo/wangyou/index<,_{{page}}>.html\n耽美::/xiaoshuo/tongren/index<,_{{page}}>.html\n其它::/xiaoshuo/qita/index<,_{{page}}>.html\n文学::/wenxue/index<,_{{page}}>.html\n散文::/wenxue/sanwen/index<,_{{page}}>.html\n诗词::/wenxue/shici/index<,_{{page}}>.html\n名家::/wenxue/mingjia/index<,_{{page}}>.html\n纪实::/wenxue/jishi/index<,_{{page}}>.html\n国学::/wenxue/guoxue/index<,_{{page}}>.html\n理论::/wenxue/lilun/index<,_{{page}}>.html\n民间::/wenxue/mingjian/index<,_{{page}}>.html", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "h2@text@js:result.replace(/&\\#8226;/g,\"·\").replace(/作者：/g,\"·\")", "coverUrl": ".imgdiv@img@src", "intro": "id.xxinfo@text##^((内容)?简介|文案)：?|^文案--", "lastChapter": "class.clearfix.-1@tag.a.-1@text", "name": "h1@text"}, "ruleContent": {"content": "id.view_content_txt@textNodes"}, "ruleExplore": {"author": "strong@a@text@js:result.replace(/&\\#8226;/g,\"·\")", "bookList": ".topic-list@li", "bookUrl": "tag.a.0@href", "coverUrl": "img@src", "intro": "div!1@text##\\... \\(全文\\) [0-9].+|^((内容)?简介|文案)：?|^文案--", "kind": "span!0@text&&strong!1:2@text", "name": "h3@a!0@text##《|》"}, "ruleSearch": {"author": "span!1@text##.+作者：", "bookList": ".topic-list@li", "bookUrl": "h3@a@href", "coverUrl": "img@src", "intro": "div!1@text##书包迷 |\\... \\(全文\\) [0-9].+", "kind": "span!0@text&&strong!0:3@text##.*(：|:)", "name": "h3@text##《|》"}, "ruleToc": {"chapterList": "+.entry_video_list@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "/e/search/index.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"keyboard={{key}}&show=title,softwriter,writers\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "啃星书库",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.kxw5.com",
+    "bookUrlPattern": "",
+    "customOrder": 82,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "军事::/xiaoshuo/junshi/index<,_{{page}}>.html\n玄幻::/xiaoshuo/xuanhuan/index<,_{{page}}>.html\n武侠::/xiaoshuo/wuxia/index<,_{{page}}>.html\n科幻::/xiaoshuo/kehuan/index<,_{{page}}>.html\n言情::/xiaoshuo/yanqing/index<,_{{page}}>.html\n现代::/xiaoshuo/xiandai/index<,_{{page}}>.html\n灵异::/xiaoshuo/lingyi/index<,_{{page}}>.html\n官场::/xiaoshuo/guanchang/index<,_{{page}}>.html\n穿越::/xiaoshuo/chuanyue/index<,_{{page}}>.html\n网游::/xiaoshuo/wangyou/index<,_{{page}}>.html\n耽美::/xiaoshuo/tongren/index<,_{{page}}>.html\n其它::/xiaoshuo/qita/index<,_{{page}}>.html\n文学::/wenxue/index<,_{{page}}>.html\n散文::/wenxue/sanwen/index<,_{{page}}>.html\n诗词::/wenxue/shici/index<,_{{page}}>.html\n名家::/wenxue/mingjia/index<,_{{page}}>.html\n纪实::/wenxue/jishi/index<,_{{page}}>.html\n国学::/wenxue/guoxue/index<,_{{page}}>.html\n理论::/wenxue/lilun/index<,_{{page}}>.html\n民间::/wenxue/mingjian/index<,_{{page}}>.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "h2@text@js:result.replace(/&\\#8226;/g,\"·\").replace(/作者：/g,\"·\")",
+      "coverUrl": ".imgdiv@img@src",
+      "intro": "id.xxinfo@text##^((内容)?简介|文案)：?|^文案--",
+      "lastChapter": "class.clearfix.-1@tag.a.-1@text",
+      "name": "h1@text"
+    },
+    "ruleContent": {
+      "content": "id.view_content_txt@textNodes"
+    },
+    "ruleExplore": {
+      "author": "strong@a@text@js:result.replace(/&\\#8226;/g,\"·\")",
+      "bookList": ".topic-list@li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@src",
+      "intro": "div!1@text##\\... \\(全文\\) [0-9].+|^((内容)?简介|文案)：?|^文案--",
+      "kind": "span!0@text&&strong!1:2@text",
+      "name": "h3@a!0@text##《|》"
+    },
+    "ruleSearch": {
+      "author": "span!1@text##.+作者：",
+      "bookList": ".topic-list@li",
+      "bookUrl": "h3@a@href",
+      "coverUrl": "img@src",
+      "intro": "div!1@text##书包迷 |\\... \\(全文\\) [0-9].+",
+      "kind": "span!0@text&&strong!0:3@text##.*(：|:)",
+      "name": "h3@text##《|》"
+    },
+    "ruleToc": {
+      "chapterList": "+.entry_video_list@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/e/search/index.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"keyboard={{key}}&show=title,softwriter,writers\"\n}",
+    "weight": 0
+  }]

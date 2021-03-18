@@ -1,1 +1,34 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "📚 武侠名家[仅发现]", "bookSourceType": 0, "bookSourceUrl": "https://www.sbkk88.com/wuxia", "bookUrlPattern": "", "customOrder": -116735, "enabled": true, "enabledExplore": true, "exploreUrl": "金庸::https://www.sbkk88.com/jinyong/\n萧逸::https://www.sbkk88.com/sanwen/mingjiasanwen/xiaoyi/\n黄易::https://www.sbkk88.com/huangyi/\n李凉::https://www.sbkk88.com/sanwen/mingjiasanwen/liliang/\n戊戟::https://www.sbkk88.com/sanwen/mingjiasanwen/wuji/\n梁羽生::https://www.sbkk88.com/liangyusheng/\n卧龙生::https://www.sbkk88.com/sanwen/mingjiasanwen/wolongsheng/\n柳残阳::https://www.sbkk88.com/sanwen/mingjiasanwen/liucanyang/\n司马翎::https://www.sbkk88.com/wuxia/simaling/\n鬼谷子::https://www.sbkk88.com/wuxia/guiguzi/\n上官鼎::https://www.sbkk88.com/wuxia/shangguanding/\n云中岳::https://www.sbkk88.com/wuxia/yunzhongyue/\n松柏生::https://www.sbkk88.com/wuxia/songbaisheng/\n令狐庸::https://www.sbkk88.com/wuxia/linghuyong/\n陈青云::https://www.sbkk88.com/wuxia/chenqingyun/\n王度庐::https://www.sbkk88.com/wuxia/wangdulu/\n秋梦痕::https://www.sbkk88.com/wuxia/qiumenghen/\n于东楼::https://www.sbkk88.com/wuxia/yudonglou/\n墨余生::https://www.sbkk88.com/wuxia/moyusheng/\n曹若冰::https://www.sbkk88.com/wuxia/caoruobing/\n马荣成::https://www.sbkk88.com/wuxia/marongcheng/\n伴霞楼主::https://www.sbkk88.com/wuxia/banxialouzhu/\n诸葛青云::https://www.sbkk88.com/wuxia/zhugeqingyun/\n平江不肖生::https://www.sbkk88.com/wuxia/pingjiangbuxiaosheng/", "lastUpdateTime": 1604174819126, "loginUrl": "", "ruleBookInfo": {"intro": "class.des@text"}, "ruleContent": {"content": "id.f_article@textNodes||id.f_article@p@textNodes||class.articleText@p@textNodes||id.zoom@p@textNodes"}, "ruleExplore": {}, "ruleSearch": {"bookList": "class.infoList@tag.li||class.leftList@tag.li||class.bookIndex@tag.li||class.book_list@tag.li", "bookUrl": "class.articleTitle.0@href||tag.a@href", "coverUrl": "tag.img@src", "name": "tag.a.1@text||class.articleTitle.0@text||tag.a.1@text||class.text@text"}, "ruleToc": {"chapterList": "class.h||class.leftList@tag.a||class.articleLeft@h1||id.f_title1", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "http://zhannei.baidu.com/cse/search?q={{key}}&s=17759678409372279717&nsid=&isNeedCheckDomain=1&jump=1", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "📚 武侠名家[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.sbkk88.com/wuxia",
+    "bookUrlPattern": "",
+    "customOrder": -116735,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "金庸::https://www.sbkk88.com/jinyong/\n萧逸::https://www.sbkk88.com/sanwen/mingjiasanwen/xiaoyi/\n黄易::https://www.sbkk88.com/huangyi/\n李凉::https://www.sbkk88.com/sanwen/mingjiasanwen/liliang/\n戊戟::https://www.sbkk88.com/sanwen/mingjiasanwen/wuji/\n梁羽生::https://www.sbkk88.com/liangyusheng/\n卧龙生::https://www.sbkk88.com/sanwen/mingjiasanwen/wolongsheng/\n柳残阳::https://www.sbkk88.com/sanwen/mingjiasanwen/liucanyang/\n司马翎::https://www.sbkk88.com/wuxia/simaling/\n鬼谷子::https://www.sbkk88.com/wuxia/guiguzi/\n上官鼎::https://www.sbkk88.com/wuxia/shangguanding/\n云中岳::https://www.sbkk88.com/wuxia/yunzhongyue/\n松柏生::https://www.sbkk88.com/wuxia/songbaisheng/\n令狐庸::https://www.sbkk88.com/wuxia/linghuyong/\n陈青云::https://www.sbkk88.com/wuxia/chenqingyun/\n王度庐::https://www.sbkk88.com/wuxia/wangdulu/\n秋梦痕::https://www.sbkk88.com/wuxia/qiumenghen/\n于东楼::https://www.sbkk88.com/wuxia/yudonglou/\n墨余生::https://www.sbkk88.com/wuxia/moyusheng/\n曹若冰::https://www.sbkk88.com/wuxia/caoruobing/\n马荣成::https://www.sbkk88.com/wuxia/marongcheng/\n伴霞楼主::https://www.sbkk88.com/wuxia/banxialouzhu/\n诸葛青云::https://www.sbkk88.com/wuxia/zhugeqingyun/\n平江不肖生::https://www.sbkk88.com/wuxia/pingjiangbuxiaosheng/",
+    "lastUpdateTime": 1604174819126,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.des@text"
+    },
+    "ruleContent": {
+      "content": "id.f_article@textNodes||id.f_article@p@textNodes||class.articleText@p@textNodes||id.zoom@p@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.infoList@tag.li||class.leftList@tag.li||class.bookIndex@tag.li||class.book_list@tag.li",
+      "bookUrl": "class.articleTitle.0@href||tag.a@href",
+      "coverUrl": "tag.img@src",
+      "name": "tag.a.1@text||class.articleTitle.0@text||tag.a.1@text||class.text@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.h||class.leftList@tag.a||class.articleLeft@h1||id.f_title1",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://zhannei.baidu.com/cse/search?q={{key}}&s=17759678409372279717&nsid=&isNeedCheckDomain=1&jump=1",
+    "weight": 0
+  }]

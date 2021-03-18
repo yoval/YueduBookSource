@@ -1,1 +1,35 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 涮书", "bookSourceType": 0, "bookSourceUrl": "https://m.shuanshu.com", "customOrder": -115554, "enabled": true, "enabledExplore": true, "exploreUrl": "浪漫言情::/list/1-{{page}}.htm\n古代言情::/list/2-{{page}}.htm\n穿越架空::/list/3-{{page}}.htm\n耽美同人::/list/4-{{page}}.htm\n青春校园::/list/5-{{page}}.htm\n奇幻魔法::/list/6-{{page}}.htm\n职场总裁::/list/7-{{page}}.htm\n军婚高干::/list/9-{{page}}.htm\n港台小本::/list/10-{{page}}.htm\nnull", "lastUpdateTime": 1612606559793, "ruleBookInfo": {"intro": "class.intro_info@text", "tocUrl": "@js:\nvar id = baseUrl.match(/(\\d+).htm/)[1];\nxid=Math.floor(id/1000);\n'http://images.shuanshu.com/'+xid+'/'+id+'/'+id+'s.jpg'\n'http://www.shuanshu.com/files/article/html/'+xid+'/'+id+'/index.html'"}, "ruleContent": {"content": "id.htmlContent@html||id.nr1@html"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.a.2@text", "bookList": "class.line", "bookUrl": "tag.a.1@href", "coverUrl": "tag.a.1@href@js:\nvar id = result.match(/(\\d+).htm/)[1];\nxid=Math.floor(id/1000);\n'http://images.shuanshu.com/'+xid+'/'+id+'/'+id+'s.jpg'", "kind": "tag.a.0@text", "name": "tag.a.1@text"}, "ruleToc": {"chapterList": "ol@li@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://m.shuanshu.com/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"type=articlename&s={{key}}&submit=\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 涮书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.shuanshu.com",
+    "customOrder": -115554,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "浪漫言情::/list/1-{{page}}.htm\n古代言情::/list/2-{{page}}.htm\n穿越架空::/list/3-{{page}}.htm\n耽美同人::/list/4-{{page}}.htm\n青春校园::/list/5-{{page}}.htm\n奇幻魔法::/list/6-{{page}}.htm\n职场总裁::/list/7-{{page}}.htm\n军婚高干::/list/9-{{page}}.htm\n港台小本::/list/10-{{page}}.htm\nnull",
+    "lastUpdateTime": 1612606559793,
+    "ruleBookInfo": {
+      "intro": "class.intro_info@text",
+      "tocUrl": "@js:\nvar id = baseUrl.match(/(\\d+).htm/)[1];\nxid=Math.floor(id/1000);\n'http://images.shuanshu.com/'+xid+'/'+id+'/'+id+'s.jpg'\n'http://www.shuanshu.com/files/article/html/'+xid+'/'+id+'/index.html'"
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@html||id.nr1@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.line",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.a.1@href@js:\nvar id = result.match(/(\\d+).htm/)[1];\nxid=Math.floor(id/1000);\n'http://images.shuanshu.com/'+xid+'/'+id+'/'+id+'s.jpg'",
+      "kind": "tag.a.0@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "ol@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://m.shuanshu.com/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"type=articlename&s={{key}}&submit=\"\n}",
+    "weight": 0
+  }]

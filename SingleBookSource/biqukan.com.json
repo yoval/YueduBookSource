@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 笔趣看", "bookSourceType": 0, "bookSourceUrl": "https://www.biqukan.com", "bookUrlPattern": "", "customOrder": -31950, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.cover@tag.img@src", "intro": "class.intro@text##作者：.*", "lastChapter": "class.small@class.last.1@tag.a@text", "name": "class.info@tag.h2@text"}, "ruleContent": {"content": "id.content@textNodes##((\\(https:|请记住本书首发域名).*)"}, "ruleExplore": {}, "ruleSearch": {"author": "class.s4@text", "bookList": "class.search-list@tag.li!0", "bookUrl": "class.s2@tag.a@href", "coverUrl": "tag.a.0@href##.*/(\\d+)(\\d{3})##www.biqukan.com/files/article/image/$1/$1$2/$1$2s.jpg", "name": "class.s2@tag.a@text"}, "ruleToc": {"chapterList": "class.listmain@dl@dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://so.biqusoso.com/s.php?ie=utf-8&siteid=biqukan.com&q={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 笔趣看",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.biqukan.com",
+    "bookUrlPattern": "",
+    "customOrder": -31950,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.cover@tag.img@src",
+      "intro": "class.intro@text##作者：.*",
+      "lastChapter": "class.small@class.last.1@tag.a@text",
+      "name": "class.info@tag.h2@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##((\\(https:|请记住本书首发域名).*)"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.search-list@tag.li!0",
+      "bookUrl": "class.s2@tag.a@href",
+      "coverUrl": "tag.a.0@href##.*/(\\d+)(\\d{3})##www.biqukan.com/files/article/image/$1/$1$2/$1$2s.jpg",
+      "name": "class.s2@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@dl@dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://so.biqusoso.com/s.php?ie=utf-8&siteid=biqukan.com&q={{key}}",
+    "weight": 0
+  }]

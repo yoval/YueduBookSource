@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 92读书", "bookSourceType": 0, "bookSourceUrl": "http://www.92dus.com", "bookUrlPattern": "", "customOrder": -31704, "enabled": true, "enabledExplore": true, "exploreUrl": "全本小说::https://www.92dus.com/quanben/\n玄幻奇幻::https://www.92dus.com/xuanhuanqihuan/\n武侠修真::https://www.92dus.com/wuxiaxiuzhen\n都市言情::https://www.92dus.com/dushiyanqing/\n历史军事::https://www.92dus.com/lishijunshi/\n科幻网游::https://www.92dus.com/kehuanwangyou/\n恐怖悬疑::https://www.92dus.com/kongbuxuanyi/\n耽美同人::https://www.92dus.com/danmeitongren/\n其他小说::https://www.92dus.com/qitaxiaoshuo/\n排行榜::https://www.92dus.com/paihangbang/", "lastUpdateTime": 1603266488324, "loginUrl": "", "ruleBookInfo": {"intro": "class.intro.0@text"}, "ruleContent": {"content": "class.yd_text2@html##.*下一页.*|九天神皇(.|\\n)*|最新网址：www.iqishu.la", "nextContentUrl": "text.下一页@href"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.span.0@text", "bookList": "class.fengtui fengtui_top cf@tag.dl||class.fengtui@tag.dl", "bookUrl": "tag.a.0@href", "coverUrl": "tag.a.0@tag.img@src", "lastChapter": "tag.p@text", "name": "tag.a.1@text"}, "ruleToc": {"chapterList": "class.mulu!0@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.92dus.com/home/search,{\n  \"method\": \"POST\",\n  \"body\": \"action=search&q={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 92读书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.92dus.com",
+    "bookUrlPattern": "",
+    "customOrder": -31704,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全本小说::https://www.92dus.com/quanben/\n玄幻奇幻::https://www.92dus.com/xuanhuanqihuan/\n武侠修真::https://www.92dus.com/wuxiaxiuzhen\n都市言情::https://www.92dus.com/dushiyanqing/\n历史军事::https://www.92dus.com/lishijunshi/\n科幻网游::https://www.92dus.com/kehuanwangyou/\n恐怖悬疑::https://www.92dus.com/kongbuxuanyi/\n耽美同人::https://www.92dus.com/danmeitongren/\n其他小说::https://www.92dus.com/qitaxiaoshuo/\n排行榜::https://www.92dus.com/paihangbang/",
+    "lastUpdateTime": 1603266488324,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.intro.0@text"
+    },
+    "ruleContent": {
+      "content": "class.yd_text2@html##.*下一页.*|九天神皇(.|\\n)*|最新网址：www.iqishu.la",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.span.0@text",
+      "bookList": "class.fengtui fengtui_top cf@tag.dl||class.fengtui@tag.dl",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@tag.img@src",
+      "lastChapter": "tag.p@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.mulu!0@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.92dus.com/home/search,{\n  \"method\": \"POST\",\n  \"body\": \"action=search&q={{key}}\"\n}",
+    "weight": 0
+  }]

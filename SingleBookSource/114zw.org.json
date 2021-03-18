@@ -1,1 +1,36 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 114中文网②", "bookSourceType": 0, "bookSourceUrl": "https://www.114zw.org", "bookUrlPattern": "", "customOrder": -31884, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": "img@src", "intro": "id.intro@tag.p.0@text##各位书友要是.*", "lastChapter": "id.info@tag.p.3@a@text"}, "ruleContent": {"content": "@css:.showtxt@textNodes##\\(|https://www.*.html\\)|1秒记住114中文：www.*手机版阅读网址：m.*.org"}, "ruleExplore": {}, "ruleSearch": {"author": "class.s4@text", "bookList": "class.search-list@tag.li!0", "bookUrl": "a@href", "coverUrl": "tag.a.0@href##.*/(\\d+)(\\d{3})##http://www.114zw.org/image/$1/$1$2/$1$2s.jpg", "name": "tag.a@text"}, "ruleToc": {"chapterList": "class.listmain@dl@dd@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://so.biqusoso.com/s.php?ie=utf-8&siteid=114zw.org&q={{key}},{\n  \"charset\": \"utf-8\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 114中文网②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.114zw.org",
+    "bookUrlPattern": "",
+    "customOrder": -31884,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "img@src",
+      "intro": "id.intro@tag.p.0@text##各位书友要是.*",
+      "lastChapter": "id.info@tag.p.3@a@text"
+    },
+    "ruleContent": {
+      "content": "@css:.showtxt@textNodes##\\(|https://www.*.html\\)|1秒记住114中文：www.*手机版阅读网址：m.*.org"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.search-list@tag.li!0",
+      "bookUrl": "a@href",
+      "coverUrl": "tag.a.0@href##.*/(\\d+)(\\d{3})##http://www.114zw.org/image/$1/$1$2/$1$2s.jpg",
+      "name": "tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@dl@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://so.biqusoso.com/s.php?ie=utf-8&siteid=114zw.org&q={{key}},{\n  \"charset\": \"utf-8\"\n}",
+    "weight": 0
+  }]

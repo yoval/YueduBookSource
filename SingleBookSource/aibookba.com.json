@@ -1,1 +1,47 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "爱书吧aibookba.com", "bookSourceType": 0, "bookSourceUrl": "http://www.aibookba.com", "bookUrlPattern": "", "customOrder": 49, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻小说::/sort1/?page={{page}}\n修真小说::/sort2/?page={{page}}\n都市小说::/sort3/?page={{page}}\n历史小说::/sort4/?page={{page}}\n网游小说::/sort5/?page={{page}}\n科幻小说::/sort6/?page={{page}}\n女生小说::/sort7/?page={{page}}\n二次元::/sort8/?page={{page}}\n其他小说::/sort9/?page={{page}}\n完本小说::/finish/?page={{page}}", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "class.book-text@tag.span.0@text##著.*", "coverUrl": "id.fmimg@tag.img.0@src", "intro": "id.intro@tag.p@text", "lastChapter": "class.update-text@a@text##更新至", "name": "id.info@tag.h1.0@text"}, "ruleContent": {"content": "id.txt@textNodes"}, "ruleExplore": {"author": "class.author@text", "bookList": "class.all-book-list@li", "bookUrl": "tag.h4@tag.a@href", "coverUrl": "class.book-img@img@src", "intro": "class.intro@text", "name": "h4@text"}, "ruleSearch": {"author": "class.odd.1@text", "bookList": "class.grid@tag.tr!0", "bookUrl": "class.odd.0@tag.a.0@href", "coverUrl": "id.fmimg@tag.img.0@src", "lastChapter": "class.even.0@text", "name": "class.odd.0@text"}, "ruleToc": {"chapterList": "//h3[contains(text(), \"正文\")]/following-sibling::ul/li/a", "chapterName": "text", "chapterUrl": "href##$##,{\"webView\":true}"}, "searchUrl": "", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "爱书吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.aibookba.com",
+    "bookUrlPattern": "",
+    "customOrder": 49,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/sort1/?page={{page}}\n修真小说::/sort2/?page={{page}}\n都市小说::/sort3/?page={{page}}\n历史小说::/sort4/?page={{page}}\n网游小说::/sort5/?page={{page}}\n科幻小说::/sort6/?page={{page}}\n女生小说::/sort7/?page={{page}}\n二次元::/sort8/?page={{page}}\n其他小说::/sort9/?page={{page}}\n完本小说::/finish/?page={{page}}",
+    "lastUpdateTime": 1615880788589,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.book-text@tag.span.0@text##著.*",
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "intro": "id.intro@tag.p@text",
+      "lastChapter": "class.update-text@a@text##更新至",
+      "name": "id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.txt@textNodes"
+    },
+    "ruleExplore": {
+      "author": "class.author@text",
+      "bookList": "class.all-book-list@li",
+      "bookUrl": "tag.h4@tag.a@href",
+      "coverUrl": "class.book-img@img@src",
+      "intro": "class.intro@text",
+      "name": "h4@text"
+    },
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "lastChapter": "class.even.0@text",
+      "name": "class.odd.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "//h3[contains(text(), \"正文\")]/following-sibling::ul/li/a",
+      "chapterName": "text",
+      "chapterUrl": "href##$##,{\"webView\":true}"
+    },
+    "searchUrl": "",
+    "weight": 0
+  }]

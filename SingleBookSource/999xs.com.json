@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 22中文网", "bookSourceType": 0, "bookSourceUrl": "http://www.999xs.com", "bookUrlPattern": "", "customOrder": -31890, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"intro": "id.intro@tag.p.0@text", "lastChapter": "id.info@tag.p.3@a@text"}, "ruleContent": {"content": "id.content@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.result-game-item-info-tag.0@tag.span.1@textNodes", "bookList": "class.result-list@class.result-item", "bookUrl": "class.result-item-title@tag.a.0@href", "coverUrl": "class.result-game-item-pic@tag.img@src", "kind": "class.result-game-item-info-tag.1@tag.span.1@text", "lastChapter": "class.result-game-item-info-tag.3@tag.a@text", "name": "class.result-item-title@tag.a.0@text"}, "ruleToc": {"chapterList": "id.list@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.999xs.com/search.php?s=16810437655506969639&ie=gbk&keyword={{key}}&p={{page}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 22中文网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.999xs.com",
+    "bookUrlPattern": "",
+    "customOrder": -31890,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "id.intro@tag.p.0@text",
+      "lastChapter": "id.info@tag.p.3@a@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.result-game-item-info-tag.0@tag.span.1@textNodes",
+      "bookList": "class.result-list@class.result-item",
+      "bookUrl": "class.result-item-title@tag.a.0@href",
+      "coverUrl": "class.result-game-item-pic@tag.img@src",
+      "kind": "class.result-game-item-info-tag.1@tag.span.1@text",
+      "lastChapter": "class.result-game-item-info-tag.3@tag.a@text",
+      "name": "class.result-item-title@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.999xs.com/search.php?s=16810437655506969639&ie=gbk&keyword={{key}}&p={{page}}",
+    "weight": 0
+  }]

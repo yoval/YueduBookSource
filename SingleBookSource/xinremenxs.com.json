@@ -1,1 +1,47 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🍺 新热门小说", "bookSourceType": 0, "bookSourceUrl": "https://m.xinremenxs.com", "bookUrlPattern": "", "customOrder": -116962, "enabled": true, "enabledExplore": true, "exploreUrl": "都市::/leixing_1_{{page}}/\n现言::/leixing_2_{{page}}/\n古言::/leixing_3_{{page}}/\n青春::/leixing_4_{{page}}/\n玄幻::/leixing_5_{{page}}/\n武侠::/leixing_6_{{page}}/\n悬疑::/leixing_7_{{page}}/\n历史::/leixing_8_{{page}}/\n游戏::/leixing_9_{{page}}/\n科幻::/leixing_10_{{page}}/\n次元::/leixing_11_{{page}}/\n新书::/leixing_12_{{page}}/", "header": "", "lastUpdateTime": 1606805207594, "loginUrl": "", "ruleBookInfo": {"author": "class.author@tag.a@text", "coverUrl": "class.detail@tag.img@src", "intro": "id.intro@tag.p@text##Tags.*", "kind": "class.layui-btn-radius@text&&class.detail@tag.p.-1@text##最后更新.|\\s.*", "lastChapter": "class.new.0@tag.a@text", "name": "class.name@tag.strong@text", "tocUrl": "[property=\"og:novel:read_url\"]@content", "wordCount": "class.layui-bg-red@text"}, "ruleContent": {"content": "class.content@html##您可以.*最新章节！|喜欢.*速度最快。"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.a.2@text##小说.*|免费.*", "bookList": "class.list@tag.li", "bookUrl": "tag.a.1@href", "coverUrl": "tag.img@src", "intro": "tag.p.-2@text", "kind": "tag.span.0@text&&tag.span.1@text", "lastChapter": "tag.a.-1@text", "name": "tag.a.1@text"}, "ruleToc": {"chapterList": "class.read@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "nextTocUrl": "text.下一页@href"}, "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchtype=all&searchkey={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍺 新热门小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.xinremenxs.com",
+    "bookUrlPattern": "",
+    "customOrder": -116962,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "都市::/leixing_1_{{page}}/\n现言::/leixing_2_{{page}}/\n古言::/leixing_3_{{page}}/\n青春::/leixing_4_{{page}}/\n玄幻::/leixing_5_{{page}}/\n武侠::/leixing_6_{{page}}/\n悬疑::/leixing_7_{{page}}/\n历史::/leixing_8_{{page}}/\n游戏::/leixing_9_{{page}}/\n科幻::/leixing_10_{{page}}/\n次元::/leixing_11_{{page}}/\n新书::/leixing_12_{{page}}/",
+    "header": "",
+    "lastUpdateTime": 1606805207594,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.author@tag.a@text",
+      "coverUrl": "class.detail@tag.img@src",
+      "intro": "id.intro@tag.p@text##Tags.*",
+      "kind": "class.layui-btn-radius@text&&class.detail@tag.p.-1@text##最后更新.|\\s.*",
+      "lastChapter": "class.new.0@tag.a@text",
+      "name": "class.name@tag.strong@text",
+      "tocUrl": "[property=\"og:novel:read_url\"]@content",
+      "wordCount": "class.layui-bg-red@text"
+    },
+    "ruleContent": {
+      "content": "class.content@html##您可以.*最新章节！|喜欢.*速度最快。"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text##小说.*|免费.*",
+      "bookList": "class.list@tag.li",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img@src",
+      "intro": "tag.p.-2@text",
+      "kind": "tag.span.0@text&&tag.span.1@text",
+      "lastChapter": "tag.a.-1@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.read@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchtype=all&searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

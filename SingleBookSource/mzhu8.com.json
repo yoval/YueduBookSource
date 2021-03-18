@@ -1,1 +1,45 @@
-[{"bookSourceComment": "正文不显示需刷新，可能多次", "bookSourceGroup": "我的书源", "bookSourceName": "📚 名著阅读[无正文]", "bookSourceType": 0, "bookSourceUrl": "http://www.mzhu8.com", "customOrder": -116743, "enabled": true, "enabledExplore": true, "exploreUrl": "文学名著::http://www.mzhu8.com/mingzhu.php\n古代名著::http://www.mzhu8.com/mulu/21/{{page}}.html\n国外名著::http://www.mzhu8.com/mulu/6/{{page}}.html\n先秦文学::http://www.mzhu8.com/mulu/11/{{page}}.html\n楚辞汉赋::http://www.mzhu8.com/mulu/12/{{page}}.html\n魏晋文学::http://www.mzhu8.com/mulu/13/{{page}}.html\n唐诗宋词::http://www.mzhu8.com/mulu/14/{{page}}.html\n元朝文学::http://www.mzhu8.com/mulu/15/{{page}}.html\n明清小说::http://www.mzhu8.com/mulu/16/{{page}}.html\n现代文学::http://www.mzhu8.com/mulu/17/{{page}}.html\n励志成功::http://www.mzhu8.com/mulu/18/{{page}}.html\n人物传记::http://www.mzhu8.com/mulu/19/{{page}}.html\n长篇纪实::http://www.mzhu8.com/mulu/20/{{page}}.html\n企管营销::http://www.mzhu8.com/mulu/22/{{page}}.html\n华文作品::http://www.mzhu8.com/mulu/23/{{page}}.html\n外国小说::http://www.mzhu8.com/mulu/24/{{page}}.html\n史籍历史::http://www.mzhu8.com/mulu/25/{{page}}.html\n乡村小说::http://www.mzhu8.com/mulu/27/{{page}}.html\n玄幻魔法::http://www.mzhu8.com/mulu/1/{{page}}.html\n都市言情::http://www.mzhu8.com/mulu/2/{{page}}.html\n武侠修真::http://www.mzhu8.com/mulu/3/{{page}}.html\n历史军事::http://www.mzhu8.com/mulu/4/{{page}}.html\n推理历险::http://www.mzhu8.com/mulu/5/{{page}}.html\n其他类型::http://www.mzhu8.com/mulu/7/{{page}}.html", "lastUpdateTime": 1612446798208, "ruleBookInfo": {"author": "[name=\"author\"]@content", "coverUrl": "tag.img@src", "intro": "tag.p.0@html##.*简介.*", "kind": ".i_sort@text##类型：", "lastChapter": ".i_lz@textNodes##状态：", "name": "h1@text"}, "ruleContent": {"content": "id.nr@html##温馨提示：如遇到转跳,页面错误,请后退或重新刷新即可访问!|请牢记本站地址：www.mzhu8.com 本站内容永久免费阅读"}, "ruleExplore": {"author": "class.odd.1@text||tag.dt.0@tag.span@text||tag.h1@text##.*作者：|类别.*", "bookList": "class.grid@tag.tr!0||class.item||class.l_bar", "bookUrl": "class.odd.0@tag.a.0@href||tag.dt.0@tag.a@href", "coverUrl": "tag.img@src", "kind": "class.even.1@text", "lastChapter": "class.even.0@text", "name": "class.odd.0@text||tag.dt.0@tag.a@text"}, "ruleSearch": {"author": "h3@text##(.*?)\\((.*?)\\)免费在线阅读.*##$2###", "bookList": "tag.article", "bookUrl": "tag.a.0@href\n<js>java.ajax(result)</js>\n##window.location.replace\\(\"([^\"]+)\"\\);##$1###", "name": "h3@text##(.*?)(\\(.*?\\))免费在线阅读.*##$1###"}, "ruleToc": {"chapterList": "tag.dd@tag.a", "chapterName": "text", "chapterUrl": "href<js>\nvar a=result.match(/\\/(\\d+)\\/(\\d+)\\D*/)[1];\nvar b=result.match(/\\/(\\d+)\\/(\\d+)\\D*/)[2];\n'http://m.mzhu8.com/wapbook/'+a+'_'+b+'.html'\n</js>"}, "searchUrl": "https://m.baidu.com/from=1022560v/ssid=0/s?pn=({{page-1}})*10&word={{key}} site:mzhu8.com", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "名著阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.mzhu8.com",
+    "customOrder": -116743,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "文学名著::http://www.mzhu8.com/mingzhu.php\n古代名著::http://www.mzhu8.com/mulu/21/{{page}}.html\n国外名著::http://www.mzhu8.com/mulu/6/{{page}}.html\n先秦文学::http://www.mzhu8.com/mulu/11/{{page}}.html\n楚辞汉赋::http://www.mzhu8.com/mulu/12/{{page}}.html\n魏晋文学::http://www.mzhu8.com/mulu/13/{{page}}.html\n唐诗宋词::http://www.mzhu8.com/mulu/14/{{page}}.html\n元朝文学::http://www.mzhu8.com/mulu/15/{{page}}.html\n明清小说::http://www.mzhu8.com/mulu/16/{{page}}.html\n现代文学::http://www.mzhu8.com/mulu/17/{{page}}.html\n励志成功::http://www.mzhu8.com/mulu/18/{{page}}.html\n人物传记::http://www.mzhu8.com/mulu/19/{{page}}.html\n长篇纪实::http://www.mzhu8.com/mulu/20/{{page}}.html\n企管营销::http://www.mzhu8.com/mulu/22/{{page}}.html\n华文作品::http://www.mzhu8.com/mulu/23/{{page}}.html\n外国小说::http://www.mzhu8.com/mulu/24/{{page}}.html\n史籍历史::http://www.mzhu8.com/mulu/25/{{page}}.html\n乡村小说::http://www.mzhu8.com/mulu/27/{{page}}.html\n玄幻魔法::http://www.mzhu8.com/mulu/1/{{page}}.html\n都市言情::http://www.mzhu8.com/mulu/2/{{page}}.html\n武侠修真::http://www.mzhu8.com/mulu/3/{{page}}.html\n历史军事::http://www.mzhu8.com/mulu/4/{{page}}.html\n推理历险::http://www.mzhu8.com/mulu/5/{{page}}.html\n其他类型::http://www.mzhu8.com/mulu/7/{{page}}.html",
+    "lastUpdateTime": 1615880052099,
+    "ruleBookInfo": {
+      "author": "[name=\"author\"]@content",
+      "coverUrl": "tag.img@src",
+      "intro": "tag.p.0@html##.*简介.*",
+      "kind": ".i_sort@text##类型：",
+      "lastChapter": ".i_lz@textNodes##状态：",
+      "name": "h1@text"
+    },
+    "ruleContent": {
+      "content": "id.nr@html##温馨提示：如遇到转跳,页面错误,请后退或重新刷新即可访问!|请牢记本站地址：www.mzhu8.com 本站内容永久免费阅读"
+    },
+    "ruleExplore": {
+      "author": "class.odd.1@text||tag.dt.0@tag.span@text||tag.h1@text##.*作者：|类别.*",
+      "bookList": "class.grid@tag.tr!0||class.item||class.l_bar",
+      "bookUrl": "class.odd.0@tag.a.0@href||tag.dt.0@tag.a@href",
+      "coverUrl": "tag.img@src",
+      "kind": "class.even.1@text",
+      "lastChapter": "class.even.0@text",
+      "name": "class.odd.0@text||tag.dt.0@tag.a@text"
+    },
+    "ruleSearch": {
+      "author": "h3@text##(.*?)\\((.*?)\\)免费在线阅读.*##$2###",
+      "bookList": "tag.article",
+      "bookUrl": "tag.a.0@href\n<js>java.ajax(result)</js>\n##window.location.replace\\(\"([^\"]+)\"\\);##$1###",
+      "name": "h3@text##(.*?)(\\(.*?\\))免费在线阅读.*##$1###"
+    },
+    "ruleToc": {
+      "chapterList": "tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href<js>\nvar a=result.match(/\\/(\\d+)\\/(\\d+)\\D*/)[1];\nvar b=result.match(/\\/(\\d+)\\/(\\d+)\\D*/)[2];\n'http://m.mzhu8.com/wapbook/'+a+'_'+b+'.html'\n</js>"
+    },
+    "searchUrl": "https://m.baidu.com/from=1022560v/ssid=0/s?pn=({{page-1}})*10&word={{key}} site:mzhu8.com",
+    "weight": 0
+  }]

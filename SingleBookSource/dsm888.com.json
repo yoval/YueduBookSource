@@ -1,1 +1,36 @@
-[{"bookSourceComment": "error:搜索内容为空并且没有发现\n", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 读书迷", "bookSourceType": 0, "bookSourceUrl": "http://m.dsm888.com", "bookUrlPattern": "", "customOrder": -32286, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1602868436753, "loginUrl": "", "ruleBookInfo": {"author": "class.pt-novel@tag.a.1@text", "intro": "class.intro@text", "kind": "class.pt-novel@tag.a.2@text"}, "ruleContent": {"content": "id.BookText@textNodes"}, "ruleExplore": {}, "ruleSearch": {"bookList": "class.ptm-list-view-cell ptm-img ptm-col-xs-4", "bookUrl": "tag.a@href", "coverUrl": "tag.img@src", "name": "tag.a@text"}, "ruleToc": {"chapterList": "tag.ul.1@a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "text.下一页@href"}, "searchUrl": "http://m.dsm888.com:80/home/search,{\n  \"method\": \"POST\",\n  \"body\": \"action=search&q={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 读书迷",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.dsm888.com",
+    "bookUrlPattern": "",
+    "customOrder": -32286,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1602868436753,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.pt-novel@tag.a.1@text",
+      "intro": "class.intro@text",
+      "kind": "class.pt-novel@tag.a.2@text"
+    },
+    "ruleContent": {
+      "content": "id.BookText@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.ptm-list-view-cell ptm-img ptm-col-xs-4",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@src",
+      "name": "tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "tag.ul.1@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "http://m.dsm888.com:80/home/search,{\n  \"method\": \"POST\",\n  \"body\": \"action=search&q={{key}}\"\n}",
+    "weight": 0
+  }]

@@ -1,1 +1,34 @@
-[{"bookSourceComment": "error:org.mozilla.javascript.EcmaError: SyntaxError: Unexpected token: < (<Unknown source>#1) in <Unknown source> at line number 1\n", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 米读", "bookSourceType": 0, "bookSourceUrl": "http://api.midukanshu.com", "bookUrlPattern": "", "customOrder": -32011, "enabled": true, "enabledExplore": true, "exploreUrl": "完结榜::http://api.midukanshu.com/fiction/search/rank,{\"method\": \"POST\",\"body\": \"app=midu&channel=&device=865166023475380&isVip=0&page={{page-1}}&second_rank_id=r_1_2\"}\n热搜榜::http://api.midukanshu.com/fiction/search/rank,{\"method\": \"POST\",\"body\": \"app=midu&channel=&device=865166023475380&isVip=0&page={{page-1}}&second_rank_id=r_1_3\"}\n飙升榜::http://api.midukanshu.com/fiction/search/rank,{\"method\": \"POST\",\"body\": \"app=midu&channel=&device=865166023475380&isVip=0&page={{page-1}}&second_rank_id=r_1_4\"}\n好评榜::http://api.midukanshu.com/fiction/search/rank,{\"method\": \"POST\",\"body\": \"app=midu&channel=&device=865166023475380&isVip=0&page={{page-1}}&second_rank_id=r_1_5\"}\n新书榜::http://api.midukanshu.com/fiction/search/rank,{\"method\": \"POST\",\"body\": \"app=midu&channel=&device=865166023475380&isVip=0&page={{page-1}}&second_rank_id=r_1_6\"}\n收藏榜::http://api.midukanshu.com/fiction/search/rank,{\"method\": \"POST\",\"body\": \"app=midu&channel=&device=865166023475380&isVip=0&page={{page-1}}&second_rank_id=r_1_7\"}\n人气佳作::http://api.midukanshu.com/fiction/node/books,{\"method\": \"POST\",\"body\": \"app=midu&device=865166023475380&id=507&isVip=0&page={{page-1}}\"}", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {}, "ruleContent": {"content": "<js>java.ajax(JSON.parse(result).data.url)</js>"}, "ruleExplore": {}, "ruleSearch": {"author": "author", "bookList": "data.*", "bookUrl": "book_id@js:\"https://img.midukanshu.com/browser/pro/book/chapterlist/\" + result + \".txt\"", "coverUrl": "cover", "kind": "{$.category}||{$.word_count}||{$.score}分", "name": "title"}, "ruleToc": {"chapterList": "<js>var base=\"http://api.midukanshu.com/resource/book/index@type=2&bookId=\";JSON.parse(String(result)).map(ch=>({name:ch.title, url:base+ch.bookId+\"&chapterId=\" +ch.chapterId}))</js>", "chapterName": "name", "chapterUrl": "url"}, "searchUrl": "http://api.midukanshu.com/fiction/search/search,{\n  \"method\": \"POST\",\n  \"body\": \"device=865166023475380&app=midu&keyword={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:org.mozilla.javascript.EcmaError: SyntaxError: Unexpected token: < (<Unknown source>#1) in <Unknown source> at line number 1\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 米读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://api.midukanshu.com",
+    "bookUrlPattern": "",
+    "customOrder": -32011,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "完结榜::http://api.midukanshu.com/fiction/search/rank,{\"method\": \"POST\",\"body\": \"app=midu&channel=&device=865166023475380&isVip=0&page={{page-1}}&second_rank_id=r_1_2\"}\n热搜榜::http://api.midukanshu.com/fiction/search/rank,{\"method\": \"POST\",\"body\": \"app=midu&channel=&device=865166023475380&isVip=0&page={{page-1}}&second_rank_id=r_1_3\"}\n飙升榜::http://api.midukanshu.com/fiction/search/rank,{\"method\": \"POST\",\"body\": \"app=midu&channel=&device=865166023475380&isVip=0&page={{page-1}}&second_rank_id=r_1_4\"}\n好评榜::http://api.midukanshu.com/fiction/search/rank,{\"method\": \"POST\",\"body\": \"app=midu&channel=&device=865166023475380&isVip=0&page={{page-1}}&second_rank_id=r_1_5\"}\n新书榜::http://api.midukanshu.com/fiction/search/rank,{\"method\": \"POST\",\"body\": \"app=midu&channel=&device=865166023475380&isVip=0&page={{page-1}}&second_rank_id=r_1_6\"}\n收藏榜::http://api.midukanshu.com/fiction/search/rank,{\"method\": \"POST\",\"body\": \"app=midu&channel=&device=865166023475380&isVip=0&page={{page-1}}&second_rank_id=r_1_7\"}\n人气佳作::http://api.midukanshu.com/fiction/node/books,{\"method\": \"POST\",\"body\": \"app=midu&device=865166023475380&id=507&isVip=0&page={{page-1}}\"}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "<js>java.ajax(JSON.parse(result).data.url)</js>"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "author",
+      "bookList": "data.*",
+      "bookUrl": "book_id@js:\"https://img.midukanshu.com/browser/pro/book/chapterlist/\" + result + \".txt\"",
+      "coverUrl": "cover",
+      "kind": "{$.category}||{$.word_count}||{$.score}分",
+      "name": "title"
+    },
+    "ruleToc": {
+      "chapterList": "<js>var base=\"http://api.midukanshu.com/resource/book/index@type=2&bookId=\";JSON.parse(String(result)).map(ch=>({name:ch.title, url:base+ch.bookId+\"&chapterId=\" +ch.chapterId}))</js>",
+      "chapterName": "name",
+      "chapterUrl": "url"
+    },
+    "searchUrl": "http://api.midukanshu.com/fiction/search/search,{\n  \"method\": \"POST\",\n  \"body\": \"device=865166023475380&app=midu&keyword={{key}}\"\n}",
+    "weight": 0
+  }]

@@ -1,1 +1,36 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,刘备书源", "bookSourceName": "🚬 久久文学", "bookSourceType": 0, "bookSourceUrl": "https://www.99wenku.com", "customOrder": 24555, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1601906328807, "ruleBookInfo": {"author": "class.item red.0@text", "coverUrl": "tag.img@src", "intro": "tag.h3@text", "name": "tag.h1@text"}, "ruleContent": {"content": "id.htmlContent@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@text", "bookList": "class.grid@tag.tr!0", "bookUrl": "class.odd.0@tag.a@href", "kind": "class.even.2@text", "lastChapter": "class.even.0@tag.a@text", "name": "class.odd.0@tag.a@text"}, "ruleToc": {"chapterList": "tag.ul@tag.li@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.99wenku.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,刘备书源",
+    "bookSourceName": "🚬 久久文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.99wenku.com",
+    "customOrder": 24843,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1601906328807,
+    "ruleBookInfo": {
+      "author": "class.item red.0@text",
+      "coverUrl": "tag.img@src",
+      "intro": "tag.h3@text",
+      "name": "tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a@href",
+      "kind": "class.even.2@text",
+      "lastChapter": "class.even.0@tag.a@text",
+      "name": "class.odd.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "tag.ul@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.99wenku.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

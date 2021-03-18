@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🍒 言情花园", "bookSourceType": 0, "bookSourceUrl": "https://k.yqhy.org", "bookUrlPattern": "", "customOrder": -115999, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1612826971546, "loginUrl": "", "ruleBookInfo": {"coverUrl": "img@src", "intro": "class.intro.0@text", "kind": ".block_txt@tag.p.1@text##分类：", "lastChapter": ".block_txt@tag.a.-1@text", "tocUrl": "text.完整目录@href"}, "ruleContent": {"content": "id.nr1@html##--.*|.*章未完.*|.*试读结.*", "nextContentUrl": "text.下一章@href"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.a.1@text", "bookList": ".sone", "bookUrl": "tag.a.0@href", "name": "tag.a.0@text"}, "ruleToc": {"chapterList": ".cover@ul@li@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&type=articlename\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍒 言情花园",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://k.yqhy.org",
+    "bookUrlPattern": "",
+    "customOrder": -115999,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612826971546,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "img@src",
+      "intro": "class.intro.0@text",
+      "kind": ".block_txt@tag.p.1@text##分类：",
+      "lastChapter": ".block_txt@tag.a.-1@text",
+      "tocUrl": "text.完整目录@href"
+    },
+    "ruleContent": {
+      "content": "id.nr1@html##--.*|.*章未完.*|.*试读结.*",
+      "nextContentUrl": "text.下一章@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.1@text",
+      "bookList": ".sone",
+      "bookUrl": "tag.a.0@href",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": ".cover@ul@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&type=articlename\"\n}",
+    "weight": 0
+  }]

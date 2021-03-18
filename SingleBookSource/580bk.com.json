@@ -1,1 +1,47 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "锦绣文学", "bookSourceType": 0, "bookSourceUrl": "http://m.580bk.com", "customOrder": -38485, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻小说::/xuanhuanpage_{{page}}.html\n修真小说::/xiuzhenpage_{{page}}.html\n都市小说::/dushipage_{{page}}.html\n历史小说::/lishipage_{{page}}.html\n网游小说::/wangyoupage_{{page}}.html\n科幻小说::/kehuanpage_{{page}}.html\n女频小说::/nvpinpage_{{page}}.html\n人气榜::/paihangbang.html", "lastUpdateTime": 1615836770305, "ruleBookInfo": {"author": "[property=\"og:novel:author\"]@content", "intro": "[property=\"og:description\"]@content", "kind": "[property=\"og:novel:category\"]@content", "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content", "name": "[property=\"og:novel:book_name\"]@content"}, "ruleContent": {"content": "id.BookText@textNodes##天才一秒.*广告！|想和更多志同.*", "nextContentUrl": "text.下一页@href", "replaceRegex": "##\\s*-->>\\s*"}, "ruleExplore": {"author": "class.pt-author@a.0@text", "bookList": "class.pt-card-7@li||class.pt-card-4@li", "bookUrl": "tag.a@href", "coverUrl": "img@src", "intro": "class.pt-desc@text", "kind": "class.pt-author@a.1@text", "name": "class.pt-name@text"}, "ruleSearch": {"bookList": "class.ptm-card.1@class.imgarea", "bookUrl": "tag.a@href", "coverUrl": "img@src", "name": "tag.a.0@title"}, "ruleToc": {"chapterList": "id.chapterlist@li@a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": ""}, "searchUrl": "http://m.580bk.com/home/search,{\n\"charset\": \"\",\n\"method\": \"POST\",\n\"body\": \"action=search&q={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "锦绣文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.580bk.com",
+    "customOrder": -38485,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/xuanhuanpage_{{page}}.html\n修真小说::/xiuzhenpage_{{page}}.html\n都市小说::/dushipage_{{page}}.html\n历史小说::/lishipage_{{page}}.html\n网游小说::/wangyoupage_{{page}}.html\n科幻小说::/kehuanpage_{{page}}.html\n女频小说::/nvpinpage_{{page}}.html\n人气榜::/paihangbang.html",
+    "lastUpdateTime": 1615836770305,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+      "content": "id.BookText@textNodes##天才一秒.*广告！|想和更多志同.*",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": "##\\s*-->>\\s*"
+    },
+    "ruleExplore": {
+      "author": "class.pt-author@a.0@text",
+      "bookList": "class.pt-card-7@li||class.pt-card-4@li",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "img@src",
+      "intro": "class.pt-desc@text",
+      "kind": "class.pt-author@a.1@text",
+      "name": "class.pt-name@text"
+    },
+    "ruleSearch": {
+      "bookList": "class.ptm-card.1@class.imgarea",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "img@src",
+      "name": "tag.a.0@title"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterlist@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": ""
+    },
+    "searchUrl": "http://m.580bk.com/home/search,{\n\"charset\": \"\",\n\"method\": \"POST\",\n\"body\": \"action=search&q={{key}}\"\n}",
+    "weight": 0
+  }]

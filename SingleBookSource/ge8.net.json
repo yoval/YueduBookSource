@@ -1,1 +1,40 @@
-[{"bookSourceComment": "error:List is empty.\n", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 新快眼看书", "bookSourceType": 0, "bookSourceUrl": "https://ge8.net", "bookUrlPattern": "", "customOrder": -31827, "enabled": true, "enabledExplore": true, "exploreUrl": "全部小说::https://ge8.net/fenlei/{{page}}/\n全本小说::https://ge8.net/quanben/fenlei/{{page}}/\n玄幻魔法::https://ge8.net/fenlei/1/{{page}}/l\n武侠修真::https://ge8.net/fenlei/2/{{page}}/\n都市言情::https://ge8.net/fenlei/3/{{page}}/\n历史军事::https://ge8.net/fenlei/4/{{page}}/\n穿越架空::https://ge8.net/fenlei/5/{{page}}/\n游戏竞技::https://ge8.net/fenlei/6/{{page}}/\n科幻灵异::https://ge8.net/fenlei/7/{{page}}/\n同人动漫::https://ge8.net/fenlei/8/{{page}}/\n综合其他::https://ge8.net/fenlei/10/{{page}}/", "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.novel_info_main@img@src", "intro": "class.intro@p@text", "lastChapter": "class.flex to100@a@text"}, "ruleContent": {"content": "class.content@p@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.li_bottom@a@text||tag.p.0@textNodes", "bookList": "class.flex@li", "bookUrl": "a@href", "coverUrl": "img@data-original", "kind": "tag.span.0@text## / ##,", "lastChapter": "tag.p.2@text", "name": "h3@text||h2@text"}, "ruleToc": {"chapterList": "class.section chapter_list@li@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://ge8.net/search/,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=all\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 新快眼看书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://ge8.net",
+    "bookUrlPattern": "",
+    "customOrder": -31827,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部小说::https://ge8.net/fenlei/{{page}}/\n全本小说::https://ge8.net/quanben/fenlei/{{page}}/\n玄幻魔法::https://ge8.net/fenlei/1/{{page}}/l\n武侠修真::https://ge8.net/fenlei/2/{{page}}/\n都市言情::https://ge8.net/fenlei/3/{{page}}/\n历史军事::https://ge8.net/fenlei/4/{{page}}/\n穿越架空::https://ge8.net/fenlei/5/{{page}}/\n游戏竞技::https://ge8.net/fenlei/6/{{page}}/\n科幻灵异::https://ge8.net/fenlei/7/{{page}}/\n同人动漫::https://ge8.net/fenlei/8/{{page}}/\n综合其他::https://ge8.net/fenlei/10/{{page}}/",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.novel_info_main@img@src",
+      "intro": "class.intro@p@text",
+      "lastChapter": "class.flex to100@a@text"
+    },
+    "ruleContent": {
+      "content": "class.content@p@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.li_bottom@a@text||tag.p.0@textNodes",
+      "bookList": "class.flex@li",
+      "bookUrl": "a@href",
+      "coverUrl": "img@data-original",
+      "kind": "tag.span.0@text## / ##,",
+      "lastChapter": "tag.p.2@text",
+      "name": "h3@text||h2@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.section chapter_list@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://ge8.net/search/,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=all\"\n}",
+    "weight": 0
+  }]

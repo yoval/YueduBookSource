@@ -1,1 +1,33 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "📚 藏海花[仅发现]", "bookSourceType": 0, "bookSourceUrl": "http://www.zanghaihua.org", "bookUrlPattern": "", "customOrder": -24723, "enabled": true, "enabledExplore": true, "exploreUrl": "藏海花::/zhhshitishu/\n盗墓笔记::/daomubiji/\n勇者大冒险：黄泉手记::/huangquanshouji/\n世界::/shijie/", "lastUpdateTime": 1602912097539, "loginUrl": "", "ruleBookInfo": {}, "ruleContent": {"content": "class.bookcontent clearfix@textNodes||id.BookText@textNodes"}, "ruleExplore": {"author": "class.site clearfix.1@text##.*首页", "bookList": "tag.body", "name": "class.STYLE1@text"}, "ruleSearch": {"author": "class.site clearfix@tag.a.1@text", "bookUrl": "class.site clearfix@tag.a@href"}, "ruleToc": {"chapterList": "class.booklist clearfix@tag.a", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "📚 藏海花[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.zanghaihua.org",
+    "bookUrlPattern": "",
+    "customOrder": -24723,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "藏海花::/zhhshitishu/\n盗墓笔记::/daomubiji/\n勇者大冒险：黄泉手记::/huangquanshouji/\n世界::/shijie/",
+    "lastUpdateTime": 1602912097539,
+    "loginUrl": "",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.bookcontent clearfix@textNodes||id.BookText@textNodes"
+    },
+    "ruleExplore": {
+      "author": "class.site clearfix.1@text##.*首页",
+      "bookList": "tag.body",
+      "name": "class.STYLE1@text"
+    },
+    "ruleSearch": {
+      "author": "class.site clearfix@tag.a.1@text",
+      "bookUrl": "class.site clearfix@tag.a@href"
+    },
+    "ruleToc": {
+      "chapterList": "class.booklist clearfix@tag.a",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "weight": 0
+  }]

@@ -1,1 +1,35 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "👍 三江阁", "bookSourceType": 0, "bookSourceUrl": "http://www.sanjiangge.com", "customOrder": -115049, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1610045118077, "ruleBookInfo": {"author": "@css:meta[property=\"og:novel:author\"]@content", "coverUrl": "@css:#fmimg>img@src", "intro": "@css:#intro>p@text", "name": "@css:meta[property=\"og:novel:book_name\"]@content"}, "ruleContent": {"content": "id.content@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@text", "bookList": "class.grid@tr!0", "bookUrl": "@css:.odd>a@href", "lastChapter": "@css:.even>a@text", "name": "@css:.odd>a@text"}, "ruleToc": {"chapterList": "//dl/dd/a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.sanjiangge.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "👍 三江阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.sanjiangge.com",
+    "customOrder": -115049,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1610045118077,
+    "ruleBookInfo": {
+      "author": "@css:meta[property=\"og:novel:author\"]@content",
+      "coverUrl": "@css:#fmimg>img@src",
+      "intro": "@css:#intro>p@text",
+      "name": "@css:meta[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tr!0",
+      "bookUrl": "@css:.odd>a@href",
+      "lastChapter": "@css:.even>a@text",
+      "name": "@css:.odd>a@text"
+    },
+    "ruleToc": {
+      "chapterList": "//dl/dd/a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.sanjiangge.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

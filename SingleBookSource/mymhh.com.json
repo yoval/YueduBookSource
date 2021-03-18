@@ -1,1 +1,43 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "梦游漫画", "bookSourceType": 0, "bookSourceUrl": "https://www.mymhh.com", "bookUrlPattern": "", "customOrder": -3558, "enabled": true, "enabledExplore": true, "exploreUrl": "排行::https://www.mymhh.com/rank<,防重复>\n全部::https://www.mymhh.com/booklist?tag=%E5%85%A8%E9%83%A8&area=-1&end=-1\n连载::https://www.mymhh.com/booklist?tag=%E5%85%A8%E9%83%A8&area=-1&end=0\n完结::https://www.mymhh.com/booklist?tag=%E5%85%A8%E9%83%A8&area=-1&end=1\n剧情::https://www.mymhh.com/booklist?tag=%E5%89%A7%E6%83%85&page={{page}}\n恋爱::https://www.mymhh.com/booklist?tag=%E6%81%8B%E7%88%B1&page={{page}}\n校园::https://www.mymhh.com/booklist?tag=%E6%A0%A1%E5%9B%AD&page={{page}}\n动作::https://www.mymhh.com/booklist?tag=%E5%8A%A8%E4%BD%9C&page={{page}}\n冒险::https://www.mymhh.com/booklist?tag=%E5%86%92%E9%99%A9&page={{page}}\n恐怖::https://www.mymhh.com/booklist?tag=%E6%81%90%E6%80%96&page={{page}}\nBL::https://www.mymhh.com/booklist?tag=BL&page={{page}}\n搞笑::https://www.mymhh.com/booklist?tag=%E6%90%9E%E7%AC%91&page={{page}}\n古风::https://www.mymhh.com/booklist?tag=%E5%8F%A4%E9%A3%8E&page={{page}}\n其他::https://www.mymhh.com/booklist?tag=%E5%85%B6%E4%BB%96&page={{page}}", "header": "{\n  \"User-Agent\": \"Mobile\"\n}", "lastUpdateTime": 1603894374831, "loginUrl": "", "ruleBookInfo": {"author": "class.detail-main-info-author.0@text##作者：", "coverUrl": "class.detail-main-bg@data-original", "intro": "class.detail-desc@text", "kind": "class.detail-main-info-class@tag.a@text&&class.detail-list-title@tag.span.0@text&&class.detail-main-info-author.1@text##地区：", "lastChapter": "id.detail-list-select@tag.li.-1@text", "name": "class.detail-main-info-title@text"}, "ruleContent": {"content": "@js:\nvar options = {\n\"headers\": {\"Referer\": baseUrl}\n}\njava.getStringList(\"id.cp_img@img@data-original\",false).toArray().map\n(a=>'<img src=\"'+a+'\" >').join(\"\\n\")", "imageStyle": "FULL"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.span.0@text##作者：", "bookList": "class.book-list@tag.li||class.manga-list-2@tag.li||class.rank-list@tag.a", "bookUrl": "href&&tag.a@href", "coverUrl": "tag.img@data-original", "lastChapter": "class.manga-list-2-tip@text##已更新||tag.span.-1@text", "name": "tag.p.0@text"}, "ruleToc": {"chapterList": "tag.ul@tag.li", "chapterName": "text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.mymhh.com/search?keyword={{key}}&page={{page}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "梦游漫画",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.mymhh.com",
+    "bookUrlPattern": "",
+    "customOrder": -3558,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "排行::https://www.mymhh.com/rank<,防重复>\n全部::https://www.mymhh.com/booklist?tag=%E5%85%A8%E9%83%A8&area=-1&end=-1\n连载::https://www.mymhh.com/booklist?tag=%E5%85%A8%E9%83%A8&area=-1&end=0\n完结::https://www.mymhh.com/booklist?tag=%E5%85%A8%E9%83%A8&area=-1&end=1\n剧情::https://www.mymhh.com/booklist?tag=%E5%89%A7%E6%83%85&page={{page}}\n恋爱::https://www.mymhh.com/booklist?tag=%E6%81%8B%E7%88%B1&page={{page}}\n校园::https://www.mymhh.com/booklist?tag=%E6%A0%A1%E5%9B%AD&page={{page}}\n动作::https://www.mymhh.com/booklist?tag=%E5%8A%A8%E4%BD%9C&page={{page}}\n冒险::https://www.mymhh.com/booklist?tag=%E5%86%92%E9%99%A9&page={{page}}\n恐怖::https://www.mymhh.com/booklist?tag=%E6%81%90%E6%80%96&page={{page}}\nBL::https://www.mymhh.com/booklist?tag=BL&page={{page}}\n搞笑::https://www.mymhh.com/booklist?tag=%E6%90%9E%E7%AC%91&page={{page}}\n古风::https://www.mymhh.com/booklist?tag=%E5%8F%A4%E9%A3%8E&page={{page}}\n其他::https://www.mymhh.com/booklist?tag=%E5%85%B6%E4%BB%96&page={{page}}",
+    "header": "{\n  \"User-Agent\": \"Mobile\"\n}",
+    "lastUpdateTime": 1603894374831,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.detail-main-info-author.0@text##作者：",
+      "coverUrl": "class.detail-main-bg@data-original",
+      "intro": "class.detail-desc@text",
+      "kind": "class.detail-main-info-class@tag.a@text&&class.detail-list-title@tag.span.0@text&&class.detail-main-info-author.1@text##地区：",
+      "lastChapter": "id.detail-list-select@tag.li.-1@text",
+      "name": "class.detail-main-info-title@text"
+    },
+    "ruleContent": {
+      "content": "@js:\nvar options = {\n\"headers\": {\"Referer\": baseUrl}\n}\njava.getStringList(\"id.cp_img@img@data-original\",false).toArray().map\n(a=>'<img src=\"'+a+'\" >').join(\"\\n\")",
+      "imageStyle": "FULL"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.span.0@text##作者：",
+      "bookList": "class.book-list@tag.li||class.manga-list-2@tag.li||class.rank-list@tag.a",
+      "bookUrl": "href&&tag.a@href",
+      "coverUrl": "tag.img@data-original",
+      "lastChapter": "class.manga-list-2-tip@text##已更新||tag.span.-1@text",
+      "name": "tag.p.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "tag.ul@tag.li",
+      "chapterName": "text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.mymhh.com/search?keyword={{key}}&page={{page}}",
+    "weight": 0
+  }]

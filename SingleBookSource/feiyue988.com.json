@@ -1,1 +1,50 @@
-[{"bookSourceComment": "小破站，日常不推荐，操作时间间隔限制为30秒\n搜索失效可尝试把search44数字往上加，站长无聊爱换搜索页\n搜索结果如需包含最新章节，可删除最新章节规则里的#号，但模糊搜索有大量搜索结果时会卡", "bookSourceGroup": "我的书源", "bookSourceName": "飞跃九八", "bookSourceType": 0, "bookSourceUrl": "https://www.feiyue988.com", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": false, "header": "", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "", "canReName": "true", "coverUrl": "", "intro": "", "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content", "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content", "name": "", "tocUrl": "class.readbtn@tag.a.1@href", "wordCount": ""}, "ruleContent": {"content": "id.txtbook@tag.p@textNodes##{{book.name}}", "nextContentUrl": "text.下一页@href##$##,{\"webView\":true}", "webJs": ""}, "ruleExplore": {}, "ruleSearch": {"author": "tag.a.2@text", "bookList": "id.hotcontent@class.item", "bookUrl": "tag.a.1@href", "coverUrl": "tag.img@data-original", "intro": "tag.dd@text##小说{{book.name}}.*扣人心弦。", "kind": "", "lastChapter": "#tag.a.1@href\n<js>java.ajax('https://www.feiyue988.com'+result)</js>\n[property=\"og:novel:latest_chapter_name\"]@content", "name": "tag.a.1@text", "wordCount": ""}, "ruleToc": {"chapterList": "id.list@id.content_1@tag.a", "chapterName": "text", "chapterUrl": "href##$##,{\"webView\":true}", "nextTocUrl": "text.下一页@href"}, "searchUrl": "/search44.html?searchkey={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "小破站，日常不推荐，操作时间间隔限制为30秒\n搜索失效可尝试把search44数字往上加，站长无聊爱换搜索页\n搜索结果如需包含最新章节，可删除最新章节规则里的#号，但模糊搜索有大量搜索结果时会卡",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "飞跃九八",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.feiyue988.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "header": "",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "canReName": "true",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "",
+      "tocUrl": "class.readbtn@tag.a.1@href",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.txtbook@tag.p@textNodes##{{book.name}}",
+      "nextContentUrl": "text.下一页@href##$##,{\"webView\":true}",
+      "webJs": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "id.hotcontent@class.item",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img@data-original",
+      "intro": "tag.dd@text##小说{{book.name}}.*扣人心弦。",
+      "kind": "",
+      "lastChapter": "#tag.a.1@href\n<js>java.ajax('https://www.feiyue988.com'+result)</js>\n[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "tag.a.1@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "id.list@id.content_1@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href##$##,{\"webView\":true}",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/search44.html?searchkey={{key}}",
+    "weight": 0
+  }]

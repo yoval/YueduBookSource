@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "321免费", "bookSourceType": 0, "bookSourceUrl": "https://www.xs321.com", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻魔法::/list_1_{{page}}.html\n武侠修真::/list_2_{{page}}.html\n都市言情::/list_3_{{page}}.html\n历史军事::/list_4_{{page}}.html\n恐怖悬疑::/list_5_{{page}}.html\n游戏竞技::/list_6_{{page}}.html\n科幻未来::/list_7_{{page}}.html\n耽美同人::/list_8_{{page}}.html\n小说资讯::/news/{{page}}.html", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "class._author@tag.span.0@text", "name": "class.info_t@tag.h1.0@text", "tocUrl": "text.在线阅读@href"}, "ruleContent": {"content": "class.yd_text2@html##本站.*最新章节！|天才壹秒記住.*|【愛↑去△小↓說.*"}, "ruleExplore": {}, "ruleSearch": {"author": "class.author.0@text##作\\s*者：", "bookList": "class.list@tag.li", "bookUrl": "tag.a.1@href", "lastChapter": "class.status@tag.a.0@text", "name": "tag.a.1@text##《|》"}, "ruleToc": {"chapterList": "class.ml_main@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.xs321.com/modules/article/search.php?searchtype=articlename&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "321免费",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xs321.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/list_1_{{page}}.html\n武侠修真::/list_2_{{page}}.html\n都市言情::/list_3_{{page}}.html\n历史军事::/list_4_{{page}}.html\n恐怖悬疑::/list_5_{{page}}.html\n游戏竞技::/list_6_{{page}}.html\n科幻未来::/list_7_{{page}}.html\n耽美同人::/list_8_{{page}}.html\n小说资讯::/news/{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class._author@tag.span.0@text",
+      "name": "class.info_t@tag.h1.0@text",
+      "tocUrl": "text.在线阅读@href"
+    },
+    "ruleContent": {
+      "content": "class.yd_text2@html##本站.*最新章节！|天才壹秒記住.*|【愛↑去△小↓說.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@text##作\\s*者：",
+      "bookList": "class.list@tag.li",
+      "bookUrl": "tag.a.1@href",
+      "lastChapter": "class.status@tag.a.0@text",
+      "name": "tag.a.1@text##《|》"
+    },
+    "ruleToc": {
+      "chapterList": "class.ml_main@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.xs321.com/modules/article/search.php?searchtype=articlename&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

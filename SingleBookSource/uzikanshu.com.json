@@ -1,1 +1,45 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "👍 UZI看书网", "bookSourceType": 0, "bookSourceUrl": "http://www.uzikanshu.com", "bookUrlPattern": "", "customOrder": 15910, "enabled": true, "enabledExplore": true, "exploreUrl": "全部小说::/all/0_lastupdate_0_0_0_0_0_0_{{page}}.html\n玄幻奇幻::/all/1_lastupdate_0_0_0_0_0_0_{{page}}.html\n武侠仙侠::/all/2_lastupdate_0_0_0_0_0_0_{{page}}.html\n都市小说::/all/3_lastupdate_0_0_0_0_0_0_{{page}}.html\n历史小说::/all/4_lastupdate_0_0_0_0_0_0_{{page}}.html\n军事小说::/all/5_lastupdate_0_0_0_0_0_0_{{page}}.html\n科幻小说::/all/6_lastupdate_0_0_0_0_0_0_{{page}}.html\n恐怖悬疑::/all/7_lastupdate_0_0_0_0_0_0_{{page}}.html\n网游竞技::/all/8_lastupdate_0_0_0_0_0_0_{{page}}.html\n现代言情::/all/10_lastupdate_0_0_0_0_0_0_{{page}}.html\n古代言情::/all/11_lastupdate_0_0_0_0_0_0_{{page}}.html\n仙侠奇缘::/all/12_lastupdate_0_0_0_0_0_0_{{page}}.html\n校园青春::/all/13_lastupdate_0_0_0_0_0_0_{{page}}.html\n恐怖灵异::/all/14_lastupdate_0_0_0_0_0_0_{{page}}.html\n纯爱耽美::/all/15_lastupdate_0_0_0_0_0_0_{{page}}.html\n同人小说::/all/16_lastupdate_0_0_0_0_0_0_{{page}}.html\n二次元::/all/17_lastupdate_0_0_0_0_0_0_{{page}}.html\n其他类型::/all/9_lastupdate_0_0_0_0_0_0_{{page}}.html", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {}, "ruleContent": {"content": "class.articleCon@html", "nextContentUrl": "text.下一页@href"}, "ruleExplore": {"author": "class.bookPhrTop@class.writer@text", "bookList": "class.listRightBottom@tag.ul@tag.li", "bookUrl": "tag.a.0@href", "coverUrl": "tag.img@src", "intro": "class.bookDesc@text", "kind": "class.bookPhrTop@class.state@text", "lastChapter": "class.newChapter@tag.a@text", "name": "tag.h2@text"}, "ruleSearch": {"author": "tag.span.0@text", "bookList": "class.listRightBottom@tag.li||class.bandList@tag.li!-1:-2:-3:-4||class.listRight@tag.li", "bookUrl": "tag.a.0@href", "coverUrl": "tag.img@src", "intro": "class.bandDesc@text", "lastChapter": "tag.a.2@text", "name": "tag.h2@text"}, "ruleToc": {"chapterList": "-class.chapterCon@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.uzikanshu.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename,{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "👍 UZI看书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.uzikanshu.com",
+    "bookUrlPattern": "",
+    "customOrder": 15910,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部小说::/all/0_lastupdate_0_0_0_0_0_0_{{page}}.html\n玄幻奇幻::/all/1_lastupdate_0_0_0_0_0_0_{{page}}.html\n武侠仙侠::/all/2_lastupdate_0_0_0_0_0_0_{{page}}.html\n都市小说::/all/3_lastupdate_0_0_0_0_0_0_{{page}}.html\n历史小说::/all/4_lastupdate_0_0_0_0_0_0_{{page}}.html\n军事小说::/all/5_lastupdate_0_0_0_0_0_0_{{page}}.html\n科幻小说::/all/6_lastupdate_0_0_0_0_0_0_{{page}}.html\n恐怖悬疑::/all/7_lastupdate_0_0_0_0_0_0_{{page}}.html\n网游竞技::/all/8_lastupdate_0_0_0_0_0_0_{{page}}.html\n现代言情::/all/10_lastupdate_0_0_0_0_0_0_{{page}}.html\n古代言情::/all/11_lastupdate_0_0_0_0_0_0_{{page}}.html\n仙侠奇缘::/all/12_lastupdate_0_0_0_0_0_0_{{page}}.html\n校园青春::/all/13_lastupdate_0_0_0_0_0_0_{{page}}.html\n恐怖灵异::/all/14_lastupdate_0_0_0_0_0_0_{{page}}.html\n纯爱耽美::/all/15_lastupdate_0_0_0_0_0_0_{{page}}.html\n同人小说::/all/16_lastupdate_0_0_0_0_0_0_{{page}}.html\n二次元::/all/17_lastupdate_0_0_0_0_0_0_{{page}}.html\n其他类型::/all/9_lastupdate_0_0_0_0_0_0_{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.articleCon@html",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+      "author": "class.bookPhrTop@class.writer@text",
+      "bookList": "class.listRightBottom@tag.ul@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.bookDesc@text",
+      "kind": "class.bookPhrTop@class.state@text",
+      "lastChapter": "class.newChapter@tag.a@text",
+      "name": "tag.h2@text"
+    },
+    "ruleSearch": {
+      "author": "tag.span.0@text",
+      "bookList": "class.listRightBottom@tag.li||class.bandList@tag.li!-1:-2:-3:-4||class.listRight@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.bandDesc@text",
+      "lastChapter": "tag.a.2@text",
+      "name": "tag.h2@text"
+    },
+    "ruleToc": {
+      "chapterList": "-class.chapterCon@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.uzikanshu.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

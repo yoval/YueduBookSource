@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "📡 56书库[仅发现]", "bookSourceType": 0, "bookSourceUrl": "http://m.xsshuku.com", "customOrder": -33030, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻魔法::http://www.56shuku.org/leibie1_{{page}}.shtml\n武侠修真::http://www.56shuku.org/leibie2_{{page}}.shtml\n都市言情::http://www.56shuku.org/leibie3_{{page}}.shtml\n历史军事::http://www.56shuku.org/leibie4_{{page}}.shtml\n侦探推理::http://www.56shuku.org/leibie5_{{page}}.shtml\n游戏竞技::http://www.56shuku.org/leibie6_{{page}}.shtml\n科幻小说::http://www.56shuku.org/leibie7_{{page}}.shtml\n恐怖灵异::http://www.56shuku.org/leibie8_{{page}}.shtml\n散文诗词::http://www.56shuku.org/leibie9_{{page}}.shtml\n其他类型::http://www.56shuku.org/leibie10_{{page}}.shtml\n完本::http://www.56shuku.org/wanben1_{{page}}.shtml\n最近更新::http://www.56shuku.org/lastupdate/{{page}}.shtml\n最新新书::http://www.56shuku.org/postdate/{{page}}.shtml\n日点击榜::http://www.56shuku.org/dayvisit/{{page}}.shtml\n周点击榜::http://www.56shuku.org/weekvisit/{{page}}.shtml\n月点击榜::http://www.56shuku.org/monthvisit/{{page}}.shtml\n总点击榜::http://www.56shuku.org/allvisit/{{page}}.shtml\n日推荐榜::http://www.56shuku.org/dayvote/{{page}}.shtml\n周推荐榜::http://www.56shuku.org/weekvote/{{page}}.shtml\n月推荐榜::http://www.56shuku.org/monthvote/{{page}}.shtml\n总推荐榜::http://www.56shuku.org/allvote/{{page}}.shtml\n字数排行::http://www.56shuku.org/size/{{page}}.shtml\n总收藏榜::http://www.56shuku.org/goodnum/{{page}}.shtml\n本站推荐::http://www.56shuku.org/toptime/{{page}}.shtml", "lastUpdateTime": 1602727235332, "loginUrl": "", "ruleBookInfo": {"author": "class.infot@tag.span@text", "name": "class.infot@tag.h1@text"}, "ruleContent": {"content": "id.content@tag.p@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.title@tag.span@text||class.result-game-item-info-tag-item.0@text", "bookList": "class.result-item||id.alistbox", "bookUrl": "class.title@tag.a@href||class.result-game-item-title-link.0@href", "coverUrl": "tag.img.0@src", "kind": "class.result-game-item-info-tag.1@tag.span.1@text", "lastChapter": "class.sys@tag.a@text||class.result-game-item-info-tag.3@tag.a@text", "name": "class.title@tag.a@text||class.result-item-title.0@tag.a.0@text"}, "ruleToc": {"chapterList": "class.dccss", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://zhannei.baidu.com/cse/search?q={{key}}&p={{page-1}}&s=9078781418957569269&entry=1", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "📡 56书库[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.xsshuku.com",
+    "customOrder": -33030,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::http://www.56shuku.org/leibie1_{{page}}.shtml\n武侠修真::http://www.56shuku.org/leibie2_{{page}}.shtml\n都市言情::http://www.56shuku.org/leibie3_{{page}}.shtml\n历史军事::http://www.56shuku.org/leibie4_{{page}}.shtml\n侦探推理::http://www.56shuku.org/leibie5_{{page}}.shtml\n游戏竞技::http://www.56shuku.org/leibie6_{{page}}.shtml\n科幻小说::http://www.56shuku.org/leibie7_{{page}}.shtml\n恐怖灵异::http://www.56shuku.org/leibie8_{{page}}.shtml\n散文诗词::http://www.56shuku.org/leibie9_{{page}}.shtml\n其他类型::http://www.56shuku.org/leibie10_{{page}}.shtml\n完本::http://www.56shuku.org/wanben1_{{page}}.shtml\n最近更新::http://www.56shuku.org/lastupdate/{{page}}.shtml\n最新新书::http://www.56shuku.org/postdate/{{page}}.shtml\n日点击榜::http://www.56shuku.org/dayvisit/{{page}}.shtml\n周点击榜::http://www.56shuku.org/weekvisit/{{page}}.shtml\n月点击榜::http://www.56shuku.org/monthvisit/{{page}}.shtml\n总点击榜::http://www.56shuku.org/allvisit/{{page}}.shtml\n日推荐榜::http://www.56shuku.org/dayvote/{{page}}.shtml\n周推荐榜::http://www.56shuku.org/weekvote/{{page}}.shtml\n月推荐榜::http://www.56shuku.org/monthvote/{{page}}.shtml\n总推荐榜::http://www.56shuku.org/allvote/{{page}}.shtml\n字数排行::http://www.56shuku.org/size/{{page}}.shtml\n总收藏榜::http://www.56shuku.org/goodnum/{{page}}.shtml\n本站推荐::http://www.56shuku.org/toptime/{{page}}.shtml",
+    "lastUpdateTime": 1602727235332,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.infot@tag.span@text",
+      "name": "class.infot@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@tag.p@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.title@tag.span@text||class.result-game-item-info-tag-item.0@text",
+      "bookList": "class.result-item||id.alistbox",
+      "bookUrl": "class.title@tag.a@href||class.result-game-item-title-link.0@href",
+      "coverUrl": "tag.img.0@src",
+      "kind": "class.result-game-item-info-tag.1@tag.span.1@text",
+      "lastChapter": "class.sys@tag.a@text||class.result-game-item-info-tag.3@tag.a@text",
+      "name": "class.title@tag.a@text||class.result-item-title.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.dccss",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://zhannei.baidu.com/cse/search?q={{key}}&p={{page-1}}&s=9078781418957569269&entry=1",
+    "weight": 0
+  }]

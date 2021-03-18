@@ -1,1 +1,35 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "笔趣阁", "bookSourceType": 0, "bookSourceUrl": "https://www.1biquge.com", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": false, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"intro": "id.intro@text"}, "ruleContent": {"content": "id.content@html##一秒.*\\s+.*更新！"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@text", "bookList": "id.nr", "bookUrl": "tag.a.0@href", "coverUrl": "tag.a.0@href##/(\\d+)/(\\d+)/##/files/article/image/$1/$2/$2s.jpg", "lastChapter": "tag.a.1@text", "name": "tag.a.0@text"}, "ruleToc": {"chapterList": "id.list@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "笔趣阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.1biquge.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "id.intro@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html##一秒.*\\s+.*更新！"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "id.nr",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##/(\\d+)/(\\d+)/##/files/article/image/$1/$2/$2s.jpg",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

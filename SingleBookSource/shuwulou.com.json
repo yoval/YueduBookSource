@@ -1,1 +1,36 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "👍 书屋楼", "bookSourceType": 0, "bookSourceUrl": "https://www.shuwulou.com", "customOrder": -114835, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1612812068318, "ruleBookInfo": {"author": "//meta[@property=\"og:novel:author\"]/@content", "coverUrl": "//meta[@property=\"og:image\"]/@content", "intro": "//meta[@property=\"og:title\"]/@content", "name": "//meta[@property=\"og:novel:book_name\"]/@content"}, "ruleContent": {"content": "id.content@textNodes", "replaceRegex": "##书屋楼.*最快更新诡秘之主 ！"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@text", "bookList": "class.grid@tr!0", "bookUrl": "class.odd@tag.a@href", "lastChapter": "class.even.0@text", "name": "class.odd@tag.a@text"}, "ruleToc": {"chapterList": ":dd><a href=\"([^\"]*)\"[^>]*>([^<]*)", "chapterName": "$2", "chapterUrl": "$1"}, "searchUrl": "https://www.shuwulou.com/modules/article/search.php?searchtype=articlename&searchkey={{key}}&action=login&submit=,{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "👍 书屋楼",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.shuwulou.com",
+    "customOrder": -114835,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612812068318,
+    "ruleBookInfo": {
+      "author": "//meta[@property=\"og:novel:author\"]/@content",
+      "coverUrl": "//meta[@property=\"og:image\"]/@content",
+      "intro": "//meta[@property=\"og:title\"]/@content",
+      "name": "//meta[@property=\"og:novel:book_name\"]/@content"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes",
+      "replaceRegex": "##书屋楼.*最快更新诡秘之主 ！"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tr!0",
+      "bookUrl": "class.odd@tag.a@href",
+      "lastChapter": "class.even.0@text",
+      "name": "class.odd@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": ":dd><a href=\"([^\"]*)\"[^>]*>([^<]*)",
+      "chapterName": "$2",
+      "chapterUrl": "$1"
+    },
+    "searchUrl": "https://www.shuwulou.com/modules/article/search.php?searchtype=articlename&searchkey={{key}}&action=login&submit=,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

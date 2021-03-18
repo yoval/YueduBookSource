@@ -1,1 +1,60 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "📥 趣书", "bookSourceType": 0, "bookSourceUrl": "https://www.qubook.net", "bookUrlPattern": "", "customOrder": -115896, "enabled": true, "enabledExplore": true, "exploreUrl": "❀                                            男   频                                              ❀::/TXT/list1_{{page}}.html\n玄幻奇幻::/TXT/list4_{{page}}.html\n武侠仙侠::/TXT/list5_{{page}}.html\n都市重生::/TXT/list6_1{{page}}.html\n历史军事::/TXT/list7_1{{page}}.html\n恐怖推理::/TXT/list8_{{page}}.html\n科幻网游::/TXT/list9_{{page}}.html\n 二 次 元 ::/TXT/list25_{{page}}.html\n\n❀                                            女   频                                              ❀::/TXT/list2_{{page}}.html\n都市言情::/TXT/list10_{{page}}.html\n古代言情::/TXT/list11_{{page}}.html\n穿越重生::/TXT/list12_{{page}}.html\n玄幻仙侠::/TXT/list13_{{page}}.html\n青春同人::/TXT/list14_{{page}}.html\n网游科幻::/TXT/list15_{{page}}.html\n\n❀                                            耽   美                                              ❀::/TXT/list26_{{page}}.html\n现代耽美::/TXT/list27_{{page}}.html\n古代架空::/TXT/list28_{{page}}.html\n穿越重生::/TXT/list29_{{page}}.html\n玄幻科幻::/TXT/list30_{{page}}.html\n  BL同人 ::/TXT/list31_{{page}}.html\n  GL百合 ::/TXT/list32_{{page}}.html", "header": "", "lastUpdateTime": 1606808515830, "loginUrl": "", "ruleBookInfo": {"author": "author", "coverUrl": "cover", "init": "<js>\nvar J = org.jsoup.Jsoup.parse(result);\nvar o = selector => String(J.select(selector).text());\nvar book = {\n    name: o('h1').replace(/\\s.*/,''),\n    author: o('.ml1 ul li:eq(2)').replace(/.*：/,''),\n    kind: o('.ml1 ul li:eq(0)').replace(/.*：/,'').replace(/\\s-\\s/,','), \n    wordCount: o('.ml1 ul li:eq(1)').replace(/.*：/,''),\n    latest: o('.ml1 ul li:eq(4)'),      \n    intro: '<br>' + J.select('.center p').html(),\n    cover: J.select('.ml1 img').attr('src'),\n    url: J.select('.ml1 dl a:eq(0)').attr('href') +',{charset:\"gbk\"}',\n};\nbook;\n</js>", "intro": "intro", "kind": "kind", "lastChapter": "latest", "name": "name", "tocUrl": "url", "wordCount": "wordCount"}, "ruleContent": {"content": ".ddd@textNodes", "imageStyle": "", "replaceRegex": "##本书总字数.*"}, "ruleExplore": {"author": "h3@text##\\s.*", "bookList": ".ll1 ul li", "bookUrl": "h1 a@href", "coverUrl": "img@src", "intro": "p@textNodes##\\[|\\]", "kind": "", "lastChapter": "h3@text##.*时间:", "name": "h1 a@text##\\s.*", "wordCount": "h3@text##.*大小:|　时间:.*"}, "ruleSearch": {"author": "author", "bookList": ".sear li\n<js>\nresult.toArray().slice(0,3).map(o=>{\n    var url = baseUrl.match(/(.+\\/\\/.+?\\/)/)[1] + o.select('a:eq(1)').attr('href');\n    var J = org.jsoup.Jsoup.parse(java.ajax(url));\n    var o = selector =>String(J.select(selector).text());\n    return {\n        name: o('h1').replace(/\\s.*/,''),\n        author: o('.ml1 ul li:eq(2)').replace(/.*：/,''),\n        kind: o('.ml1 ul li:eq(0)').replace(/.*：/,'').replace(/\\s-\\s/,',') + ',' + o('.ml1 ul li:eq(3)').replace(/.*：/,''),\n        wordCount: o('.ml1 ul li:eq(1)').replace(/.*：/,''),\n        latest: o('.ml1 ul li:eq(4)'),\n        intro: o('.center p'),\n        cover: J.select('.ml1 img').attr('src'),\n        url: url,\n    }\n});\n</js>", "bookUrl": "url", "coverUrl": "cover", "intro": "intro", "kind": "kind", "lastChapter": "latest", "name": "name", "wordCount": "wordCount"}, "ruleToc": {"chapterList": "@js:list = [];\nif (baseUrl.match(/id/)) {\n    p = result.match(/=(\\d+)\">最后1页/)[1];\n    for (i = 0; i <= p; i++) {\n        list.push({\n            text: '第' + [i + 1] + '页',\n            href: baseUrl.replace(/,.*$/, '&yeshu=' + i + ',{charset:\"gbk\"}')\n        })\n    }\n} else list.push({\n    text: '空',\n    href: ''\n});\nlist", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "/search.asp,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"m=0&s=0&word={{key}}&sf=index\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "📥 趣书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.qubook.net",
+    "bookUrlPattern": "",
+    "customOrder": -115896,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "❀                                            男   频                                              ❀::/TXT/list1_{{page}}.html\n玄幻奇幻::/TXT/list4_{{page}}.html\n武侠仙侠::/TXT/list5_{{page}}.html\n都市重生::/TXT/list6_1{{page}}.html\n历史军事::/TXT/list7_1{{page}}.html\n恐怖推理::/TXT/list8_{{page}}.html\n科幻网游::/TXT/list9_{{page}}.html\n 二 次 元 ::/TXT/list25_{{page}}.html\n\n❀                                            女   频                                              ❀::/TXT/list2_{{page}}.html\n都市言情::/TXT/list10_{{page}}.html\n古代言情::/TXT/list11_{{page}}.html\n穿越重生::/TXT/list12_{{page}}.html\n玄幻仙侠::/TXT/list13_{{page}}.html\n青春同人::/TXT/list14_{{page}}.html\n网游科幻::/TXT/list15_{{page}}.html\n\n❀                                            耽   美                                              ❀::/TXT/list26_{{page}}.html\n现代耽美::/TXT/list27_{{page}}.html\n古代架空::/TXT/list28_{{page}}.html\n穿越重生::/TXT/list29_{{page}}.html\n玄幻科幻::/TXT/list30_{{page}}.html\n  BL同人 ::/TXT/list31_{{page}}.html\n  GL百合 ::/TXT/list32_{{page}}.html",
+    "header": "",
+    "lastUpdateTime": 1606808515830,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "author",
+      "coverUrl": "cover",
+      "init": "<js>\nvar J = org.jsoup.Jsoup.parse(result);\nvar o = selector => String(J.select(selector).text());\nvar book = {\n    name: o('h1').replace(/\\s.*/,''),\n    author: o('.ml1 ul li:eq(2)').replace(/.*：/,''),\n    kind: o('.ml1 ul li:eq(0)').replace(/.*：/,'').replace(/\\s-\\s/,','), \n    wordCount: o('.ml1 ul li:eq(1)').replace(/.*：/,''),\n    latest: o('.ml1 ul li:eq(4)'),      \n    intro: '<br>' + J.select('.center p').html(),\n    cover: J.select('.ml1 img').attr('src'),\n    url: J.select('.ml1 dl a:eq(0)').attr('href') +',{charset:\"gbk\"}',\n};\nbook;\n</js>",
+      "intro": "intro",
+      "kind": "kind",
+      "lastChapter": "latest",
+      "name": "name",
+      "tocUrl": "url",
+      "wordCount": "wordCount"
+    },
+    "ruleContent": {
+      "content": ".ddd@textNodes",
+      "imageStyle": "",
+      "replaceRegex": "##本书总字数.*"
+    },
+    "ruleExplore": {
+      "author": "h3@text##\\s.*",
+      "bookList": ".ll1 ul li",
+      "bookUrl": "h1 a@href",
+      "coverUrl": "img@src",
+      "intro": "p@textNodes##\\[|\\]",
+      "kind": "",
+      "lastChapter": "h3@text##.*时间:",
+      "name": "h1 a@text##\\s.*",
+      "wordCount": "h3@text##.*大小:|　时间:.*"
+    },
+    "ruleSearch": {
+      "author": "author",
+      "bookList": ".sear li\n<js>\nresult.toArray().slice(0,3).map(o=>{\n    var url = baseUrl.match(/(.+\\/\\/.+?\\/)/)[1] + o.select('a:eq(1)').attr('href');\n    var J = org.jsoup.Jsoup.parse(java.ajax(url));\n    var o = selector =>String(J.select(selector).text());\n    return {\n        name: o('h1').replace(/\\s.*/,''),\n        author: o('.ml1 ul li:eq(2)').replace(/.*：/,''),\n        kind: o('.ml1 ul li:eq(0)').replace(/.*：/,'').replace(/\\s-\\s/,',') + ',' + o('.ml1 ul li:eq(3)').replace(/.*：/,''),\n        wordCount: o('.ml1 ul li:eq(1)').replace(/.*：/,''),\n        latest: o('.ml1 ul li:eq(4)'),\n        intro: o('.center p'),\n        cover: J.select('.ml1 img').attr('src'),\n        url: url,\n    }\n});\n</js>",
+      "bookUrl": "url",
+      "coverUrl": "cover",
+      "intro": "intro",
+      "kind": "kind",
+      "lastChapter": "latest",
+      "name": "name",
+      "wordCount": "wordCount"
+    },
+    "ruleToc": {
+      "chapterList": "@js:list = [];\nif (baseUrl.match(/id/)) {\n    p = result.match(/=(\\d+)\">最后1页/)[1];\n    for (i = 0; i <= p; i++) {\n        list.push({\n            text: '第' + [i + 1] + '页',\n            href: baseUrl.replace(/,.*$/, '&yeshu=' + i + ',{charset:\"gbk\"}')\n        })\n    }\n} else list.push({\n    text: '空',\n    href: ''\n});\nlist",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search.asp,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"m=0&s=0&word={{key}}&sf=index\"\n}",
+    "weight": 0
+  }]

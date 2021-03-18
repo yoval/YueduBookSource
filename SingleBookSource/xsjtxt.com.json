@@ -1,1 +1,36 @@
-[{"bookSourceComment": "error:failed to connect to www.xsjtxt.com/115.238.239.133 (port 443) from /192.168.0.103 (port 47172) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n", "bookSourceGroup": "我的书源", "bookSourceName": "👍 TXT小说下载网", "bookSourceType": 0, "bookSourceUrl": "https://www.xsjtxt.com", "bookUrlPattern": "", "customOrder": 16049, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1603034483660, "loginUrl": "", "ruleBookInfo": {"tocUrl": "text.在线阅读@tag.a@href"}, "ruleContent": {"content": "id.content1@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.s@text##连载.*", "bookList": "class.list@tag.li", "bookUrl": "tag.a@href", "coverUrl": "tag.a@tag.img@src", "kind": "text.连载@text##.*连载.|更新.*", "lastChapter": "class.s@text##.*更新.", "name": "tag.a@text##\\《|\\》.*"}, "ruleToc": {"chapterList": "class.pc_list.1@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.xsjtxt.com/search.php?s=&searchkey={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:failed to connect to www.xsjtxt.com/115.238.239.133 (port 443) from /192.168.0.103 (port 47172) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "👍 TXT小说下载网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xsjtxt.com",
+    "bookUrlPattern": "",
+    "customOrder": 16049,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1603034483660,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "tocUrl": "text.在线阅读@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "id.content1@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s@text##连载.*",
+      "bookList": "class.list@tag.li",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.a@tag.img@src",
+      "kind": "text.连载@text##.*连载.|更新.*",
+      "lastChapter": "class.s@text##.*更新.",
+      "name": "tag.a@text##\\《|\\》.*"
+    },
+    "ruleToc": {
+      "chapterList": "class.pc_list.1@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.xsjtxt.com/search.php?s=&searchkey={{key}}",
+    "weight": 0
+  }]

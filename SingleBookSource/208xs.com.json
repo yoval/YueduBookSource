@@ -1,1 +1,34 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "顶点小说", "bookSourceType": 0, "bookSourceUrl": "https://www.208xs.com", "customOrder": -115725, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1615838084644, "ruleBookInfo": {"intro": "id.intro@tag.p.0@text"}, "ruleContent": {"content": "id.book_text@tag.p@text##天才.*网址.*"}, "ruleExplore": {}, "ruleSearch": {"author": "class.name.0@tag.span.1@text##作者：", "bookList": "class.nr@tag.li", "bookUrl": "class.name.0@tag.strong@tag.a.0@href", "coverUrl": "class.pic.0@tag.img.0@src", "kind": "class.name.0@tag.span.0@text##类别：", "lastChapter": "class.nrrk.0@tag.dt.0@tag.a.0@text##正文", "name": "class.name.0@tag.strong@tag.a.0@text"}, "ruleToc": {"chapterList": "class.article@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.208xs.com/searchbook.php?search_key={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "顶点小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.208xs.com",
+    "customOrder": -115725,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1615838084644,
+    "ruleBookInfo": {
+      "intro": "id.intro@tag.p.0@text"
+    },
+    "ruleContent": {
+      "content": "id.book_text@tag.p@text##天才.*网址.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.name.0@tag.span.1@text##作者：",
+      "bookList": "class.nr@tag.li",
+      "bookUrl": "class.name.0@tag.strong@tag.a.0@href",
+      "coverUrl": "class.pic.0@tag.img.0@src",
+      "kind": "class.name.0@tag.span.0@text##类别：",
+      "lastChapter": "class.nrrk.0@tag.dt.0@tag.a.0@text##正文",
+      "name": "class.name.0@tag.strong@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.article@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.208xs.com/searchbook.php?search_key={{key}}",
+    "weight": 0
+  }]

@@ -1,1 +1,41 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎨 海猫吧", "bookSourceType": 0, "bookSourceUrl": "http://www.haimaoba.com", "bookUrlPattern": "", "customOrder": -31257, "enabled": true, "enabledExplore": true, "exploreUrl": "分类一::http://www.haimaoba.com/list/0/{{page}}.html\n分类二::http://www.haimaoba.com/list/1/{{page}}.html", "lastUpdateTime": 1603271998570, "loginUrl": "", "ruleBookInfo": {"author": "class.att@tag.span.1@tag.b@text", "coverUrl": "class.pic@tag.img@src", "intro": "class.dtbarcont.0@text", "kind": "class.att@tag.span.!1@tag.b@text", "lastChapter": "class.text.0@tag.a@text", "name": "class.title@tag.h1@text"}, "ruleContent": {"content": ":_S001_HdZnNk/Dc8ZUFXCSNqlTDn2n24Z3VJYKDhiWMB5bkJE=\n"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.p.0@text##作者：", "bookList": "class.list_con_li@tag.li", "bookUrl": "tag.a.0@href", "coverUrl": "tag.img@src", "kind": "tag.p.1@text##类型：", "name": "tag.a.1@text"}, "ruleToc": {"chapterList": "-class.text", "chapterName": "tag.span.1@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.haimaoba.com/plus/comic/search.php?keyword={{key}},{\n  \"charset\": \"gb2312\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎨 海猫吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.haimaoba.com",
+    "bookUrlPattern": "",
+    "customOrder": -31257,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "分类一::http://www.haimaoba.com/list/0/{{page}}.html\n分类二::http://www.haimaoba.com/list/1/{{page}}.html",
+    "lastUpdateTime": 1603271998570,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.att@tag.span.1@tag.b@text",
+      "coverUrl": "class.pic@tag.img@src",
+      "intro": "class.dtbarcont.0@text",
+      "kind": "class.att@tag.span.!1@tag.b@text",
+      "lastChapter": "class.text.0@tag.a@text",
+      "name": "class.title@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": ":_S001_HdZnNk/Dc8ZUFXCSNqlTDn2n24Z3VJYKDhiWMB5bkJE=\n"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p.0@text##作者：",
+      "bookList": "class.list_con_li@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "kind": "tag.p.1@text##类型：",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "-class.text",
+      "chapterName": "tag.span.1@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.haimaoba.com/plus/comic/search.php?keyword={{key}},{\n  \"charset\": \"gb2312\"\n}",
+    "weight": 0
+  }]

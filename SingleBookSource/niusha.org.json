@@ -1,1 +1,39 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "牛鲨小说", "bookSourceType": 0, "bookSourceUrl": "http://www.niusha.org", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻魔法::http://www.niusha.org/list/1-{{page}}.html\n武侠修真::http://www.niusha.org/list/2-{{page}}.html\n都市言情::http://www.niusha.org/list/3-{{page}}.html\n历史军事::http://www.niusha.org/list/4-{{page}}.html\n侦探推理::http://www.niusha.org/list/5-{{page}}.html\n网游动漫::http://www.niusha.org/list/6-{{page}}.html\n科幻::http://www.niusha.org/list/7-{{page}}.html\n耽美::http://www.niusha.org/list/8-{{page}}.html\n穿越::http://www.niusha.org/list/9-{{page}}.html\n其他::http://www.niusha.org/list/10-{{page}}.html\n百合::http://www.niusha.org/list/11-{{page}}.html\n全部::http://www.niusha.org/list/0-{{page}}.html", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "class.article_info_td@tag.h2@text", "kind": "class.article_info_td@tag.a.0@text", "lastChapter": "class.article_info_td@tag.a.1@text", "name": "class.h_nav_items@tag.li.1@text", "tocUrl": "text.开始阅读@href##\\d+.html"}, "ruleContent": {"content": "id.nr1@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.p.0@tag.strong@text", "bookList": "class.common-bookele", "bookUrl": "tag.a.0@href", "kind": "class.lastupdate@text##栏目：", "name": "tag.a.0@text"}, "ruleToc": {"chapterList": "tag.ul@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.niusha.org/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "牛鲨小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.niusha.org",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::http://www.niusha.org/list/1-{{page}}.html\n武侠修真::http://www.niusha.org/list/2-{{page}}.html\n都市言情::http://www.niusha.org/list/3-{{page}}.html\n历史军事::http://www.niusha.org/list/4-{{page}}.html\n侦探推理::http://www.niusha.org/list/5-{{page}}.html\n网游动漫::http://www.niusha.org/list/6-{{page}}.html\n科幻::http://www.niusha.org/list/7-{{page}}.html\n耽美::http://www.niusha.org/list/8-{{page}}.html\n穿越::http://www.niusha.org/list/9-{{page}}.html\n其他::http://www.niusha.org/list/10-{{page}}.html\n百合::http://www.niusha.org/list/11-{{page}}.html\n全部::http://www.niusha.org/list/0-{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.article_info_td@tag.h2@text",
+      "kind": "class.article_info_td@tag.a.0@text",
+      "lastChapter": "class.article_info_td@tag.a.1@text",
+      "name": "class.h_nav_items@tag.li.1@text",
+      "tocUrl": "text.开始阅读@href##\\d+.html"
+    },
+    "ruleContent": {
+      "content": "id.nr1@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p.0@tag.strong@text",
+      "bookList": "class.common-bookele",
+      "bookUrl": "tag.a.0@href",
+      "kind": "class.lastupdate@text##栏目：",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "tag.ul@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.niusha.org/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}",
+    "weight": 0
+  }]

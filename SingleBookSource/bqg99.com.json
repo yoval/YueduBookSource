@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "🎉 笔趣阁⑦③", "bookSourceType": 0, "bookSourceUrl": "http://www.bqg99.com", "bookUrlPattern": "", "customOrder": -31945, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1603002446616, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.cover@tag.img@src", "intro": "class.intro@text##简介：", "lastChapter": "class.last@a@text"}, "ruleContent": {"content": "id.content@html##请记.*com"}, "ruleExplore": {}, "ruleSearch": {"author": "class.author@text##作者：", "bookList": "class.bookbox", "bookUrl": "tag.a.1@href", "coverUrl": "class.bookimg@tag.img@src", "kind": "class.cat@text##分类：", "lastChapter": "tag.a.2@text", "name": "tag.a.1@text"}, "ruleToc": {"chapterList": "class.listmain@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.bqg99.cc/s.php?q={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "🎉 笔趣阁⑦③",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.bqg99.com",
+    "bookUrlPattern": "",
+    "customOrder": -31945,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1603002446616,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.cover@tag.img@src",
+      "intro": "class.intro@text##简介：",
+      "lastChapter": "class.last@a@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html##请记.*com"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text##作者：",
+      "bookList": "class.bookbox",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "class.bookimg@tag.img@src",
+      "kind": "class.cat@text##分类：",
+      "lastChapter": "tag.a.2@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.bqg99.cc/s.php?q={{key}}",
+    "weight": 0
+  }]

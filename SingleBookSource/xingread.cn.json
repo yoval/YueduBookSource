@@ -1,1 +1,45 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 醒读", "bookSourceType": 0, "bookSourceUrl": "https://m.xingread.cn", "bookUrlPattern": "", "customOrder": -115132, "enabled": true, "enabledExplore": true, "exploreUrl": "男频::http://www.123456.com\n都市生活::https://m.xingread.cn/Bookajax/search.do?keyword=&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=20&sex_flag=nan&pagenum={{page}}&Pclassids=1&_=1570428809547\n玄幻小说::https://m.xingread.cn/Bookajax/search.do?keyword=&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=20&sex_flag=nan&pagenum={{page}}&Pclassids=3&_=1570428809547\n历史军事::https://m.xingread.cn/Bookajax/search.do?keyword=&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=20&sex_flag=nan&pagenum={{page}}&Pclassids=4&_=1570428809547\n科幻灵异::https://m.xingread.cn/Bookajax/search.do?keyword=&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=20&sex_flag=nan&pagenum={{page}}&Pclassids=5&_=1570428809547\n仙侠武侠::https://m.xingread.cn/Bookajax/search.do?keyword=&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=20&sex_flag=nan&pagenum={{page}}&Pclassids=6&_=1570428809547\n其他综合::https://m.xingread.cn/Bookajax/search.do?keyword=&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=20&sex_flag=nan&pagenum={{page}}&Pclassids=7&_=1570428809547\n都市生活::https://m.xingread.cn/Bookajax/search.do?keyword=&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=20&sex_flag=nan&pagenum={{page}}&Pclassids=2&_=1570428809547\n女频::http://www.123456.com\n总裁豪门::https://m.xingread.cn/Bookajax/search.do?keyword=&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=20&sex_flag=nv&pagenum={{page}}&classids=9&_=1570429296803\n总裁豪门::https://m.xingread.cn/Bookajax/search.do?keyword=&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=20&sex_flag=nv&pagenum={{page}}&classids=9&_=1570429296803\n穿越时空::https://m.xingread.cn/Bookajax/search.do?keyword=&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=20&sex_flag=nv&pagenum={{page}}&classids=8&_=1570429296803\n青春纯爱::https://m.xingread.cn/Bookajax/search.do?keyword=&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=20&sex_flag=nv&pagenum={{page}}&classids=11&_=1570429296803\n架空历史::https://m.xingread.cn/Bookajax/search.do?keyword=&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=20&sex_flag=nv&pagenum={{page}}&classids=12&_=1570429296803\n总裁豪门::https://m.xingread.cn/Bookajax/search.do?keyword=&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=20&sex_flag=nv&pagenum={{page}}&classids=9&_=1570429296803\n悬疑推理::https://m.xingread.cn/Bookajax/search.do?keyword=&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=20&sex_flag=nv&pagenum={{page}}&classids=7&_=1570429296803\n综合其他::https://m.xingread.cn/Bookajax/search.do?keyword=&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=20&sex_flag=nv&pagenum={{page}}&classids=10&_=1570429296803", "lastUpdateTime": 1606908311242, "ruleBookInfo": {}, "ruleContent": {"content": "class.rdtext@html", "replaceRegex": "##[<](.|\\n)*[>]"}, "ruleExplore": {"author": "authorname", "bookList": "$.bookinfo", "bookUrl": "https://m.xingread.cn/Bookajax/chapterlist.do?bid={$.bid}&sortby=ASC&pagenum=1&pagesize=99999", "coverUrl": "bigbookface", "intro": "intro", "kind": "tag", "lastChapter": "last_update_title", "name": "catename"}, "ruleSearch": {"author": "authorname", "bookList": "$.bookinfo", "bookUrl": "/Bookajax/chapterlist.do?bid={$.bid}&sortby=ASC&pagenum=0&pagesize=99999", "coverUrl": "bigbookface", "intro": "intro", "kind": "tag", "lastChapter": "last_update_title", "name": "catename"}, "ruleToc": {"chapterList": "$.list", "chapterName": "title", "chapterUrl": "/content/{$.bid}/{$.chapterid}.html"}, "searchUrl": "/Bookajax/search.do?keyword={{key}}&pagesize=20&pagenum={{page}}&sex_flag=nan", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 醒读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.xingread.cn",
+    "bookUrlPattern": "",
+    "customOrder": -115132,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "男频::http://www.123456.com\n都市生活::https://m.xingread.cn/Bookajax/search.do?keyword=&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=20&sex_flag=nan&pagenum={{page}}&Pclassids=1&_=1570428809547\n玄幻小说::https://m.xingread.cn/Bookajax/search.do?keyword=&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=20&sex_flag=nan&pagenum={{page}}&Pclassids=3&_=1570428809547\n历史军事::https://m.xingread.cn/Bookajax/search.do?keyword=&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=20&sex_flag=nan&pagenum={{page}}&Pclassids=4&_=1570428809547\n科幻灵异::https://m.xingread.cn/Bookajax/search.do?keyword=&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=20&sex_flag=nan&pagenum={{page}}&Pclassids=5&_=1570428809547\n仙侠武侠::https://m.xingread.cn/Bookajax/search.do?keyword=&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=20&sex_flag=nan&pagenum={{page}}&Pclassids=6&_=1570428809547\n其他综合::https://m.xingread.cn/Bookajax/search.do?keyword=&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=20&sex_flag=nan&pagenum={{page}}&Pclassids=7&_=1570428809547\n都市生活::https://m.xingread.cn/Bookajax/search.do?keyword=&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=20&sex_flag=nan&pagenum={{page}}&Pclassids=2&_=1570428809547\n女频::http://www.123456.com\n总裁豪门::https://m.xingread.cn/Bookajax/search.do?keyword=&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=20&sex_flag=nv&pagenum={{page}}&classids=9&_=1570429296803\n总裁豪门::https://m.xingread.cn/Bookajax/search.do?keyword=&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=20&sex_flag=nv&pagenum={{page}}&classids=9&_=1570429296803\n穿越时空::https://m.xingread.cn/Bookajax/search.do?keyword=&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=20&sex_flag=nv&pagenum={{page}}&classids=8&_=1570429296803\n青春纯爱::https://m.xingread.cn/Bookajax/search.do?keyword=&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=20&sex_flag=nv&pagenum={{page}}&classids=11&_=1570429296803\n架空历史::https://m.xingread.cn/Bookajax/search.do?keyword=&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=20&sex_flag=nv&pagenum={{page}}&classids=12&_=1570429296803\n总裁豪门::https://m.xingread.cn/Bookajax/search.do?keyword=&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=20&sex_flag=nv&pagenum={{page}}&classids=9&_=1570429296803\n悬疑推理::https://m.xingread.cn/Bookajax/search.do?keyword=&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=20&sex_flag=nv&pagenum={{page}}&classids=7&_=1570429296803\n综合其他::https://m.xingread.cn/Bookajax/search.do?keyword=&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=20&sex_flag=nv&pagenum={{page}}&classids=10&_=1570429296803",
+    "lastUpdateTime": 1606908311242,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.rdtext@html",
+      "replaceRegex": "##[<](.|\\n)*[>]"
+    },
+    "ruleExplore": {
+      "author": "authorname",
+      "bookList": "$.bookinfo",
+      "bookUrl": "https://m.xingread.cn/Bookajax/chapterlist.do?bid={$.bid}&sortby=ASC&pagenum=1&pagesize=99999",
+      "coverUrl": "bigbookface",
+      "intro": "intro",
+      "kind": "tag",
+      "lastChapter": "last_update_title",
+      "name": "catename"
+    },
+    "ruleSearch": {
+      "author": "authorname",
+      "bookList": "$.bookinfo",
+      "bookUrl": "/Bookajax/chapterlist.do?bid={$.bid}&sortby=ASC&pagenum=0&pagesize=99999",
+      "coverUrl": "bigbookface",
+      "intro": "intro",
+      "kind": "tag",
+      "lastChapter": "last_update_title",
+      "name": "catename"
+    },
+    "ruleToc": {
+      "chapterList": "$.list",
+      "chapterName": "title",
+      "chapterUrl": "/content/{$.bid}/{$.chapterid}.html"
+    },
+    "searchUrl": "/Bookajax/search.do?keyword={{key}}&pagesize=20&pagenum={{page}}&sex_flag=nan",
+    "weight": 0
+  }]

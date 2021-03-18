@@ -1,1 +1,33 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🔰 98K", "bookSourceType": 0, "bookSourceUrl": "http://m.98kwang.com", "bookUrlPattern": "", "customOrder": -114790, "enabled": true, "enabledExplore": true, "exploreUrl": "现代都市::/xiandaidushi/\n古代言情::/gudaiyanqing/\n耽美同人::/danmeitongren/\n穿越重生::/chuanyuezhongsheng/\n玄幻武侠::/xuanhuanwuxia/\n网游竞技::/wangyoujingji/\n恐怖灵异::/kongbulingyi/\n推理悬疑::/tuilixuanyi/\n历史军事::/lishijunshi/", "header": "", "lastUpdateTime": 1610038345576, "loginUrl": "", "ruleBookInfo": {}, "ruleContent": {"content": ".blcont@html"}, "ruleExplore": {}, "ruleSearch": {"author": "a@text##.*作者：", "bookList": ".p_newslist@li", "bookUrl": "a@href", "name": "a@text##\\s+作者：.*"}, "ruleToc": {"chapterList": ".pagelist@li!0:1@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "/plus/search.php?q={{key}},{\"charset\": \"gbk\"}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🔰 98K",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.98kwang.com",
+    "bookUrlPattern": "",
+    "customOrder": -114790,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "现代都市::/xiandaidushi/\n古代言情::/gudaiyanqing/\n耽美同人::/danmeitongren/\n穿越重生::/chuanyuezhongsheng/\n玄幻武侠::/xuanhuanwuxia/\n网游竞技::/wangyoujingji/\n恐怖灵异::/kongbulingyi/\n推理悬疑::/tuilixuanyi/\n历史军事::/lishijunshi/",
+    "header": "",
+    "lastUpdateTime": 1610038345576,
+    "loginUrl": "",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": ".blcont@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "a@text##.*作者：",
+      "bookList": ".p_newslist@li",
+      "bookUrl": "a@href",
+      "name": "a@text##\\s+作者：.*"
+    },
+    "ruleToc": {
+      "chapterList": ".pagelist@li!0:1@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/plus/search.php?q={{key}},{\"charset\": \"gbk\"}",
+    "weight": 0
+  }]

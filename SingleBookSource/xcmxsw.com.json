@@ -1,1 +1,38 @@
-[{"bookSourceComment": "error:List is empty.\n", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 草莓小说网", "bookSourceType": 0, "bookSourceUrl": "https://m.xcmxsw.com", "bookUrlPattern": "", "customOrder": -32405, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1601178586050, "loginUrl": "", "ruleBookInfo": {"author": "//h3[1]/a[1]/text()", "coverUrl": "//img[1]/@src", "intro": "//div[2]/p[1]/text()", "lastChapter": "//link[1]/text()"}, "ruleContent": {"content": "class.nr_nr@html", "nextContentUrl": "text.下壹页@href"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.a.2@text", "bookList": "class.fk@tag.li", "bookUrl": "tag.a.1@href", "name": "tag.a.1@text"}, "ruleToc": {"chapterList": "class.chapter_!0@tag.li@tag.a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "text.下一页@href"}, "searchUrl": "https://m.xcmxsw.com/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"type=articlename&s={{key}}&submit=\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 草莓小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.xcmxsw.com",
+    "bookUrlPattern": "",
+    "customOrder": -32405,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1601178586050,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "//h3[1]/a[1]/text()",
+      "coverUrl": "//img[1]/@src",
+      "intro": "//div[2]/p[1]/text()",
+      "lastChapter": "//link[1]/text()"
+    },
+    "ruleContent": {
+      "content": "class.nr_nr@html",
+      "nextContentUrl": "text.下壹页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.fk@tag.li",
+      "bookUrl": "tag.a.1@href",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter_!0@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://m.xcmxsw.com/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"type=articlename&s={{key}}&submit=\"\n}",
+    "weight": 0
+  }]

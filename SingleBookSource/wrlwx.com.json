@@ -1,1 +1,50 @@
-[{"bookSourceComment": "error:failed to connect to www.wrlwx.com/115.238.239.133 (port 80) from /192.168.0.103 (port 48346) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 4020电子书", "bookSourceType": 0, "bookSourceUrl": "http://www.wrlwx.com", "bookUrlPattern": "", "customOrder": -32369, "enabled": true, "enabledExplore": true, "exploreUrl": "武侠仙侠::/wuxia/index_{{page}}.html\n都市言情::/yanqing/index_{{page}}.html\n耽美小说::/danmei/index_{{page}}.html\n玄幻小说::/xuanhuan/index_{{page}}.html\n青春校园::/xiaoyuan/index_{{page}}.html\n网游竞技::/wangyou/index_{{page}}.html\n灵异推理::/kongbu/index_{{page}}.html\n纪实小说::/jishi/index_{{page}}.html\n军事历史::/lishi/index_{{page}}.html\n科幻小说::/kehuan/index_{{page}}.html\n管理哲学::/zhexue/index_{{page}}.html\n学习资料::/xuexi/index_{{page}}.html\n总排行榜::/paihangbang/index_{{page}}.html\n月排行榜::/mpaihangbang/index_{{page}}.html\n周排行榜::/wpaihangbang/index_{{page}}.html\n日排行榜::/dpaihangbang/index_{{page}}.html\n封推小说::/fengtui/index_{{page}}.html\n金牌推荐::/jinpaituijian/index_{{page}}.html\n网站推荐::/tuijian/index_{{page}}.html\n最新书籍::/new/index_{{page}}.html", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"intro": "##简介：([^<]+)<##$1###"}, "ruleContent": {"content": "id.content@html##请记住本书.*|最新网址.*|书快书快.*|书快电子书.*|-", "imageStyle": "0", "nextContentUrl": "text.下一章@href"}, "ruleExplore": {"author": "##作者：([^<]+)<##$1###", "bookList": "//div[5]/div[2]/div/ul/li", "bookUrl": "class.red@href", "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##http://www.wrlwx.com/headimgs/$2/$1/s$1.jpg###", "intro": "class.u@textNodes", "kind": "##更新：([^<]+)<##$1###", "lastChapter": "tag.a.1@text", "name": "tag.a.0@text##txt.*", "wordCount": "##大小：([^<]+)<##$1###"}, "ruleSearch": {"author": "tag.td.3@text", "bookList": "tag.tbody@tag.tr!0", "bookUrl": "tag.a.0@href", "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##http://www.wrlwx.com/headimgs/$2/$1/s$1.jpg###", "kind": "tag.td.4@text", "lastChapter": "tag.td.2@text", "name": "tag.td.1@text", "wordCount": ""}, "ruleToc": {"chapterList": "//div[5]/div/div[3]/div[2]/ul/li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "/so.html?q={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:failed to connect to www.wrlwx.com/115.238.239.133 (port 80) from /192.168.0.103 (port 48346) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 4020电子书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.wrlwx.com",
+    "bookUrlPattern": "",
+    "customOrder": -32369,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "武侠仙侠::/wuxia/index_{{page}}.html\n都市言情::/yanqing/index_{{page}}.html\n耽美小说::/danmei/index_{{page}}.html\n玄幻小说::/xuanhuan/index_{{page}}.html\n青春校园::/xiaoyuan/index_{{page}}.html\n网游竞技::/wangyou/index_{{page}}.html\n灵异推理::/kongbu/index_{{page}}.html\n纪实小说::/jishi/index_{{page}}.html\n军事历史::/lishi/index_{{page}}.html\n科幻小说::/kehuan/index_{{page}}.html\n管理哲学::/zhexue/index_{{page}}.html\n学习资料::/xuexi/index_{{page}}.html\n总排行榜::/paihangbang/index_{{page}}.html\n月排行榜::/mpaihangbang/index_{{page}}.html\n周排行榜::/wpaihangbang/index_{{page}}.html\n日排行榜::/dpaihangbang/index_{{page}}.html\n封推小说::/fengtui/index_{{page}}.html\n金牌推荐::/jinpaituijian/index_{{page}}.html\n网站推荐::/tuijian/index_{{page}}.html\n最新书籍::/new/index_{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "##简介：([^<]+)<##$1###"
+    },
+    "ruleContent": {
+      "content": "id.content@html##请记住本书.*|最新网址.*|书快书快.*|书快电子书.*|-",
+      "imageStyle": "0",
+      "nextContentUrl": "text.下一章@href"
+    },
+    "ruleExplore": {
+      "author": "##作者：([^<]+)<##$1###",
+      "bookList": "//div[5]/div[2]/div/ul/li",
+      "bookUrl": "class.red@href",
+      "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##http://www.wrlwx.com/headimgs/$2/$1/s$1.jpg###",
+      "intro": "class.u@textNodes",
+      "kind": "##更新：([^<]+)<##$1###",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text##txt.*",
+      "wordCount": "##大小：([^<]+)<##$1###"
+    },
+    "ruleSearch": {
+      "author": "tag.td.3@text",
+      "bookList": "tag.tbody@tag.tr!0",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##http://www.wrlwx.com/headimgs/$2/$1/s$1.jpg###",
+      "kind": "tag.td.4@text",
+      "lastChapter": "tag.td.2@text",
+      "name": "tag.td.1@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "//div[5]/div/div[3]/div[2]/ul/li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/so.html?q={{key}}",
+    "weight": 0
+  }]

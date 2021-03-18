@@ -1,1 +1,40 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "👍 txt365", "bookSourceType": 0, "bookSourceUrl": "http://www.txtshu365.net", "customOrder": -114960, "enabled": true, "enabledExplore": true, "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0\"\n}", "lastUpdateTime": 1612583173070, "ruleBookInfo": {"author": "id.info@tag.p.0@text##作者：", "coverUrl": "##:image\" content=\"([^\"]+)##$1###", "intro": "id.intro@p@text", "kind": "id.info@p!0:1@text##.*：", "lastChapter": "id.list@tag.a.0@text", "name": "h1@text"}, "ruleContent": {"content": "id.content@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.td.2@text", "bookList": "id.nr", "bookUrl": "a@href", "coverUrl": "a!0@href##(\\/\\d+)_(\\d+)\\/.*##/files/article/image$1/$2/$2s.jpg", "kind": "td!0:1:2@text", "lastChapter": "a!0@text", "name": "a!1@text"}, "ruleToc": {"chapterList": "//*[@id=\"list\"]//dt[2]/following-sibling::dd/a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "👍 txt365",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.txtshu365.net",
+    "customOrder": -114960,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0\"\n}",
+    "lastUpdateTime": 1612583173070,
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text##作者：",
+      "coverUrl": "##:image\" content=\"([^\"]+)##$1###",
+      "intro": "id.intro@p@text",
+      "kind": "id.info@p!0:1@text##.*：",
+      "lastChapter": "id.list@tag.a.0@text",
+      "name": "h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "id.nr",
+      "bookUrl": "a@href",
+      "coverUrl": "a!0@href##(\\/\\d+)_(\\d+)\\/.*##/files/article/image$1/$2/$2s.jpg",
+      "kind": "td!0:1:2@text",
+      "lastChapter": "a!0@text",
+      "name": "a!1@text"
+    },
+    "ruleToc": {
+      "chapterList": "//*[@id=\"list\"]//dt[2]/following-sibling::dd/a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

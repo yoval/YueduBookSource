@@ -1,1 +1,40 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "一千零一页", "bookSourceType": 0, "bookSourceUrl": "http://www.1001p.com", "bookUrlPattern": "", "customOrder": 95, "enabled": true, "enabledExplore": false, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "class.book_side_author panel@h3@a@text", "coverUrl": "class.book_side_author panel@img@src", "intro": "class.buc_view@textNodes", "name": "class.c2@h1@text", "tocUrl": "text.查看全部章节列表@href"}, "ruleContent": {"content": "id.inner@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.fenlei@tag.a.1@text", "bookList": "class.list_books_item", "bookUrl": "h4@a@href", "coverUrl": "img@src", "kind": "class.fenlei@tag.a.0@text", "lastChapter": "class.shuju@tag.a.4@text", "name": "h4@a@text"}, "ruleToc": {"chapterList": "class.dir_main_section@ol@li||class.tabs_item@tbody@tr", "chapterName": "a@text", "chapterUrl": "a@href"}, "searchUrl": "http://www.1001p.com/search?searchkey={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "一千零一页",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.1001p.com",
+    "bookUrlPattern": "",
+    "customOrder": 95,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.book_side_author panel@h3@a@text",
+      "coverUrl": "class.book_side_author panel@img@src",
+      "intro": "class.buc_view@textNodes",
+      "name": "class.c2@h1@text",
+      "tocUrl": "text.查看全部章节列表@href"
+    },
+    "ruleContent": {
+      "content": "id.inner@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.fenlei@tag.a.1@text",
+      "bookList": "class.list_books_item",
+      "bookUrl": "h4@a@href",
+      "coverUrl": "img@src",
+      "kind": "class.fenlei@tag.a.0@text",
+      "lastChapter": "class.shuju@tag.a.4@text",
+      "name": "h4@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.dir_main_section@ol@li||class.tabs_item@tbody@tr",
+      "chapterName": "a@text",
+      "chapterUrl": "a@href"
+    },
+    "searchUrl": "http://www.1001p.com/search?searchkey={{key}}",
+    "weight": 0
+  }]

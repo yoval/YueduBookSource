@@ -1,1 +1,34 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "红杏小说", "bookSourceType": 0, "bookSourceUrl": "http://free.ilemi.cn", "bookUrlPattern": "", "customOrder": 8, "enabled": true, "enabledExplore": false, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {}, "ruleContent": {"content": "$.data.content##（.*无弹窗广告.*）|.收藏.记录.*##"}, "ruleExplore": {}, "ruleSearch": {"author": "penName", "bookList": "$.data", "bookUrl": "http://free.ilemi.cn/v1/api/book/chapter/list?bookId={$.bookId}&offset=1&limit=10&sort=chapterId&isAsc=true&imei=869041047791656&idfa=869041047791656&packagename=com.quanben.hongxing&packageName=com.quanben.hongxing&model=MI%20MAX%203&version=1.0.2", "coverUrl": "bookCover", "intro": "bookIntro", "kind": "cateName", "name": "bookName@put:{book:bookId}"}, "ruleToc": {"chapterList": "$.data", "chapterName": "chapterName", "chapterUrl": "http://free.ilemi.cn/v1/api/book/chapter/content?bookId=@get:{book}&chapterId={$.chapterId}&imei=869041047791556&idfa=869041047791656&packagename=com.quanben.hongxing&packageName=com.quanben.hongxing&model=MI%20MAX%203&version=1.0.2"}, "searchUrl": "http://free.ilemi.cn/v1/api/booksearch/query?queryStr={{key}}&offset={{page}}&limit=20&imei=869041047791656&idfa=869041047791656&packagename=com.quanben.hongxing&packageName=com.quanben.hongxing&model=MI%20MAX%203&version=1.0.2", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "红杏小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://free.ilemi.cn",
+    "bookUrlPattern": "",
+    "customOrder": 8,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "$.data.content##（.*无弹窗广告.*）|.收藏.记录.*##"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "penName",
+      "bookList": "$.data",
+      "bookUrl": "http://free.ilemi.cn/v1/api/book/chapter/list?bookId={$.bookId}&offset=1&limit=10&sort=chapterId&isAsc=true&imei=869041047791656&idfa=869041047791656&packagename=com.quanben.hongxing&packageName=com.quanben.hongxing&model=MI%20MAX%203&version=1.0.2",
+      "coverUrl": "bookCover",
+      "intro": "bookIntro",
+      "kind": "cateName",
+      "name": "bookName@put:{book:bookId}"
+    },
+    "ruleToc": {
+      "chapterList": "$.data",
+      "chapterName": "chapterName",
+      "chapterUrl": "http://free.ilemi.cn/v1/api/book/chapter/content?bookId=@get:{book}&chapterId={$.chapterId}&imei=869041047791556&idfa=869041047791656&packagename=com.quanben.hongxing&packageName=com.quanben.hongxing&model=MI%20MAX%203&version=1.0.2"
+    },
+    "searchUrl": "http://free.ilemi.cn/v1/api/booksearch/query?queryStr={{key}}&offset={{page}}&limit=20&imei=869041047791656&idfa=869041047791656&packagename=com.quanben.hongxing&packageName=com.quanben.hongxing&model=MI%20MAX%203&version=1.0.2",
+    "weight": 0
+  }]

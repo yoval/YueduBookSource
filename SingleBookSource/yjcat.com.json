@@ -1,1 +1,41 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "👍 笔趣阁[仅发现]", "bookSourceType": 0, "bookSourceUrl": "http://m.yjcat.com", "bookUrlPattern": "", "customOrder": -114829, "enabled": true, "enabledExplore": true, "exploreUrl": "总排行榜::http://m.yjcat.com/ph/all_{{page}}.html\n全部小说::http://m.yjcat.com/xclass/0/{{page}}.html\n玄幻魔法::http://m.yjcat.com/xclass/1/{{page}}.html\n武侠修真::http://m.yjcat.com/xclass/2/{{page}}.html\n都市言情::http://m.yjcat.com/xclass/3/{{page}}.html\n历史军事::http://m.yjcat.com/xclass/4/{{page}}.html\n穿越架空::http://m.yjcat.com/xclass/5/{{page}}.html\n游戏动漫::http://m.yjcat.com/xclass/6/{{page}}.html\n科幻灵异::http://m.yjcat.com/xclass/7/{{page}}.html\n文学名著::http://m.yjcat.com/xclass/8/{{page}}.html\n其他综合::http://m.yjcat.com/xclass/9/{{page}}.html", "lastUpdateTime": 1612829852727, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.synopsisArea_detail@img@src", "intro": "class.review@text", "lastChapter": "class.directoryArea@tag.p.0@a@text", "tocUrl": "text.查看完整目录@href"}, "ruleContent": {"content": "id.chaptercontent@textNodes##.*本章未完，请点击.*|.*第.*/.*页.*", "nextContentUrl": "text.下一页@href"}, "ruleExplore": {}, "ruleSearch": {"author": "class.author.0@text##.*作者：", "bookList": "class.hot_sale", "bookUrl": "a@href", "coverUrl": "img@data-original||tag.a.0@href##.*/(\\d+)(\\d{3}).*##http://www.yjcat.com/files/article/image/$1/$1$2/$1$2s.jpg", "kind": "class.author.1@text##\\|.*", "lastChapter": "class.author.1@a@text", "name": "class.title@text##【|】.*|_.*"}, "ruleToc": {"chapterList": "id.chapterlist@p@a", "chapterName": "text##↓直达页面底部", "chapterUrl": "href"}, "searchUrl": "http://m.yjcat.com/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "👍 笔趣阁[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.yjcat.com",
+    "bookUrlPattern": "",
+    "customOrder": -114829,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "总排行榜::http://m.yjcat.com/ph/all_{{page}}.html\n全部小说::http://m.yjcat.com/xclass/0/{{page}}.html\n玄幻魔法::http://m.yjcat.com/xclass/1/{{page}}.html\n武侠修真::http://m.yjcat.com/xclass/2/{{page}}.html\n都市言情::http://m.yjcat.com/xclass/3/{{page}}.html\n历史军事::http://m.yjcat.com/xclass/4/{{page}}.html\n穿越架空::http://m.yjcat.com/xclass/5/{{page}}.html\n游戏动漫::http://m.yjcat.com/xclass/6/{{page}}.html\n科幻灵异::http://m.yjcat.com/xclass/7/{{page}}.html\n文学名著::http://m.yjcat.com/xclass/8/{{page}}.html\n其他综合::http://m.yjcat.com/xclass/9/{{page}}.html",
+    "lastUpdateTime": 1612829852727,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.synopsisArea_detail@img@src",
+      "intro": "class.review@text",
+      "lastChapter": "class.directoryArea@tag.p.0@a@text",
+      "tocUrl": "text.查看完整目录@href"
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@textNodes##.*本章未完，请点击.*|.*第.*/.*页.*",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@text##.*作者：",
+      "bookList": "class.hot_sale",
+      "bookUrl": "a@href",
+      "coverUrl": "img@data-original||tag.a.0@href##.*/(\\d+)(\\d{3}).*##http://www.yjcat.com/files/article/image/$1/$1$2/$1$2s.jpg",
+      "kind": "class.author.1@text##\\|.*",
+      "lastChapter": "class.author.1@a@text",
+      "name": "class.title@text##【|】.*|_.*"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterlist@p@a",
+      "chapterName": "text##↓直达页面底部",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://m.yjcat.com/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}",
+    "weight": 0
+  }]

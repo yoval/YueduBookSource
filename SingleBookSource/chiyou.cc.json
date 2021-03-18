@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "七猫小说网(此源作废)", "bookSourceType": 0, "bookSourceUrl": "http://m.chiyou.cc", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": false, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": "id.bookimg@img@src", "intro": "id.bookintro@textNodes", "lastChapter": "id.bookintro@a@text", "tocUrl": "class.b1@a@href"}, "ruleContent": {"content": "id.ajax_content@html"}, "ruleExplore": {}, "ruleSearch": {"bookList": "id.sitebox@dl", "bookUrl": "a@href", "coverUrl": "img@src", "kind": "class.book_other@tag.span.0@text&&class.book_other@tag.span.1@text", "lastChapter": "class.book_other@a@text", "name": "h3@a@text"}, "ruleToc": {"chapterList": "id.chapterList@ul@li@a", "chapterName": "text", "chapterUrl": "id##(\\d+)##http://www.chiyou.cc/chapter/$1/"}, "searchUrl": "http://m.chiyou.cc/search/,{\n  \"method\": \"POST\",\n  \"body\": \"kw={{key}}&searchtype=articlename\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "七猫小说网(此源作废)",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.chiyou.cc",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "id.bookimg@img@src",
+      "intro": "id.bookintro@textNodes",
+      "lastChapter": "id.bookintro@a@text",
+      "tocUrl": "class.b1@a@href"
+    },
+    "ruleContent": {
+      "content": "id.ajax_content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "id.sitebox@dl",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "kind": "class.book_other@tag.span.0@text&&class.book_other@tag.span.1@text",
+      "lastChapter": "class.book_other@a@text",
+      "name": "h3@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterList@ul@li@a",
+      "chapterName": "text",
+      "chapterUrl": "id##(\\d+)##http://www.chiyou.cc/chapter/$1/"
+    },
+    "searchUrl": "http://m.chiyou.cc/search/,{\n  \"method\": \"POST\",\n  \"body\": \"kw={{key}}&searchtype=articlename\"\n}",
+    "weight": 0
+  }]

@@ -1,1 +1,37 @@
-[{"bookSourceComment": "error:List is empty.\n", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 零点看书①", "bookSourceType": 0, "bookSourceUrl": "https://www.lingdiankanshu.co", "bookUrlPattern": "", "customOrder": -32000, "enabled": true, "enabledExplore": true, "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4094.1 Safari/537.36\"\n}", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": "id.fmimg@tag.img.0@src", "intro": "id.intro@text"}, "ruleContent": {"content": "id.content@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.s4@text", "bookList": "class.search-list@tag.li!0", "bookUrl": "class.s2@tag.a@href", "kind": "class.s1@text##\\[|\\]", "lastChapter": "class.s3@tag.a@text", "name": "class.s2@tag.a@text"}, "ruleToc": {"chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8:9:10:11", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://sou.xanbhx.com/search?siteid=lingdiankanshuco&t=920895234054625192&q={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 零点看书①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.lingdiankanshu.co",
+    "bookUrlPattern": "",
+    "customOrder": -32000,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.87 UBrowser/6.2.4094.1 Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "intro": "id.intro@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.search-list@tag.li!0",
+      "bookUrl": "class.s2@tag.a@href",
+      "kind": "class.s1@text##\\[|\\]",
+      "lastChapter": "class.s3@tag.a@text",
+      "name": "class.s2@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8:9:10:11",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://sou.xanbhx.com/search?siteid=lingdiankanshuco&t=920895234054625192&q={{key}}",
+    "weight": 0
+  }]

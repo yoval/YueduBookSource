@@ -1,1 +1,51 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🍑 腐文H", "bookSourceType": 0, "bookSourceUrl": "https://www.fuwenh.com", "customOrder": -116049, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻::/sort/1-{{page}}.html\n武侠::/sort/2-{{page}}.html\n言情::/sort/3-{{page}}.html\n穿越::/sort/4-{{page}}.html\n都市::/sort/5-{{page}}.html\n科幻::/sort/6-{{page}}.html\n网游::/sort/7-{{page}}.html\n恐怖::/sort/8-{{page}}.html\n耽美::/sort/9-{{page}}.html\n校园::/sort/10-{{page}}.html\n高辣::/sort/11-{{page}}.html\n腹黑::/sort/12-{{page}}.html\n种田::/sort/13-{{page}}.html\n高干::/sort/14-{{page}}.html\n百合::/sort/15-{{page}}.html\n其他::/sort/16-{{page}}.html", "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\"\n}", "lastUpdateTime": 1605020205241, "ruleBookInfo": {"author": "[property=\"og:novel:author\"]@content", "coverUrl": "", "intro": "class.gray@text##更多免费.*", "kind": "[property=\"og:novel:category\"]@content", "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content", "name": "[property=\"og:novel:book_name\"]@content"}, "ruleContent": {"content": "id.ccontent@html##.*作者.*|第.*章.*"}, "ruleExplore": {"author": "class.gray.0@text##作者.|\\s.*", "bookList": "class.ultwo@tag.li", "bookUrl": "tag.a.0@href", "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##http://img.fuwenh.com/image/$2/$1/$1s.jpg###", "intro": "class.gray.1@text", "kind": "class.aflag@text&&class.gray.0@text##.*类型.", "lastChapter": "tag.a.1@text", "name": "tag.a.0@text"}, "ruleSearch": {"author": "tag.td.2@text", "bookList": "class.grid@tag.tr!0", "bookUrl": "tag.a.0@href", "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##http://img.fuwenh.com/image/$2/$1/$1s.jpg###", "kind": "tag.td.@4@text&&tag.td.5@text", "lastChapter": "tag.td.1@text", "name": "tag.td.0@text", "wordCount": "tag.td.3@text"}, "ruleToc": {"chapterList": "tbody@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=articlename&searchkey={{key}}&t_btnsearch={{key}}&page={{page}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍑 腐文H",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.fuwenh.com",
+    "customOrder": -116049,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/sort/1-{{page}}.html\n武侠::/sort/2-{{page}}.html\n言情::/sort/3-{{page}}.html\n穿越::/sort/4-{{page}}.html\n都市::/sort/5-{{page}}.html\n科幻::/sort/6-{{page}}.html\n网游::/sort/7-{{page}}.html\n恐怖::/sort/8-{{page}}.html\n耽美::/sort/9-{{page}}.html\n校园::/sort/10-{{page}}.html\n高辣::/sort/11-{{page}}.html\n腹黑::/sort/12-{{page}}.html\n种田::/sort/13-{{page}}.html\n高干::/sort/14-{{page}}.html\n百合::/sort/15-{{page}}.html\n其他::/sort/16-{{page}}.html",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\"\n}",
+    "lastUpdateTime": 1605020205241,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "",
+      "intro": "class.gray@text##更多免费.*",
+      "kind": "[property=\"og:novel:category\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+      "content": "id.ccontent@html##.*作者.*|第.*章.*"
+    },
+    "ruleExplore": {
+      "author": "class.gray.0@text##作者.|\\s.*",
+      "bookList": "class.ultwo@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##http://img.fuwenh.com/image/$2/$1/$1s.jpg###",
+      "intro": "class.gray.1@text",
+      "kind": "class.aflag@text&&class.gray.0@text##.*类型.",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##http://img.fuwenh.com/image/$2/$1/$1s.jpg###",
+      "kind": "tag.td.@4@text&&tag.td.5@text",
+      "lastChapter": "tag.td.1@text",
+      "name": "tag.td.0@text",
+      "wordCount": "tag.td.3@text"
+    },
+    "ruleToc": {
+      "chapterList": "tbody@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=articlename&searchkey={{key}}&t_btnsearch={{key}}&page={{page}}\"\n}",
+    "weight": 0
+  }]

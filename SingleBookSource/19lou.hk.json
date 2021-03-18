@@ -1,1 +1,38 @@
-[{"bookSourceComment": "error:failed to connect to www.19lou.hk/47.240.169.60 (port 80) from /192.168.0.103 (port 39186) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n", "bookSourceGroup": "我的书源", "bookSourceName": "🔰 三三文学网", "bookSourceType": 0, "bookSourceUrl": "http://www.19lou.hk", "bookUrlPattern": "", "customOrder": 16333, "enabled": true, "enabledExplore": true, "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}", "lastUpdateTime": 1601982297039, "loginUrl": "", "ruleBookInfo": {"author": "id.info@tag.p.0@text##作\\s*者：", "coverUrl": "id.fmimg@tag.img@src", "intro": "id.intro@text", "name": "id.info@tag.h1.0@text"}, "ruleContent": {"content": "id.content@html", "nextContentUrl": "text.下一页@href"}, "ruleExplore": {}, "ruleSearch": {"bookList": "class.lll@tag.li", "bookUrl": "tag.a.0@href", "coverUrl": "img@src", "name": "tag.a.0@text"}, "ruleToc": {"chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8:9:10:11@tag.a", "chapterName": "text", "chapterUrl": "href##$##,{\"webView\":true}"}, "searchUrl": "http://www.19lou.hk/home/search,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"action=search&q={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:failed to connect to www.19lou.hk/47.240.169.60 (port 80) from /192.168.0.103 (port 39186) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🔰 三三文学网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.19lou.hk",
+    "bookUrlPattern": "",
+    "customOrder": 16333,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}",
+    "lastUpdateTime": 1601982297039,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text##作\\s*者：",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@text",
+      "name": "id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.lll@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@src",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8:9:10:11@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href##$##,{\"webView\":true}"
+    },
+    "searchUrl": "http://www.19lou.hk/home/search,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"action=search&q={{key}}\"\n}",
+    "weight": 0
+  }]

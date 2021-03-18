@@ -1,1 +1,53 @@
-[{"bookSourceComment": "①登录查看验证码\n\n②详情页修改简介，向简介前端插入验证码\n\n③验证码后换行，保存简介\n\n④点击右上角菜单中的“刷新”\n\n若未成功，请重复上面四个步骤，每个步骤都必不可少！", "bookSourceGroup": "我的书源", "bookSourceName": "挺好的", "bookSourceType": 0, "bookSourceUrl": "https://tinghaode8.cc", "customOrder": 5, "enabled": true, "enabledExplore": true, "exploreUrl": "耽美2015::https://tinghaode8.cc/sort/index.html?sort=9&time=y2015&type=likes&page={{page}},{\"webView\":true}\n耽美2016::https://tinghaode8.cc/sort/index.html?sort=9&time=y2016&type=likes&page={{page}},{\"webView\":true}\n耽美2017::https://tinghaode8.cc/sort/index.html?sort=9&time=y2017&type=likes&page={{page}},{\"webView\":true}\n耽美2018::https://tinghaode8.cc/sort/index.html?sort=9&time=y2018&type=likes&page={{page}},{\"webView\":true}\n耽美2019::https://tinghaode8.cc/sort/index.html?sort=9&time=y2019&type=likes&page={{page}},{\"webView\":true}\n耽美2020::https://tinghaode8.cc/sort/index.html?sort=9&time=y2020&type=likes&page={{page}},{\"webView\":true}\n耽美2021::https://tinghaode8.cc/sort/index.html?sort=9&time=thisyear&type=likes&page={{page}},{\"webView\":true}\n辣文2015::https://tinghaode8.cc/sort/index.html?sort=11&time=y2015&type=likes&page={{page}},{\"webView\":true}\n辣文2016::https://tinghaode8.cc/sort/index.html?sort=11&time=y2016&type=likes&page={{page}},{\"webView\":true}\n辣文2017::https://tinghaode8.cc/sort/index.html?sort=11&time=y2017&type=likes&page={{page}},{\"webView\":true}\n辣文2018::https://tinghaode8.cc/sort/index.html?sort=11&time=y2018&type=likes&page={{page}},{\"webView\":true}\n辣文2019::https://tinghaode8.cc/sort/index.html?sort=11&time=y2019&type=likes&page={{page}},{\"webView\":true}\n辣文2020::https://tinghaode8.cc/sort/index.html?sort=11&time=y2020&type=likes&page={{page}},{\"webView\":true}\n辣文2021::https://tinghaode8.cc/sort/index.html?sort=11&time=thisyear&type=likes&page={{page}},{\"webView\":true}\n言情2015::https://tinghaode8.cc/sort/index.html?sort=3&time=y2015&type=likes&page={{page}},{\"webView\":true}\n言情2016::https://tinghaode8.cc/sort/index.html?sort=3&time=y2016&type=likes&page={{page}},{\"webView\":true}\n言情2017::https://tinghaode8.cc/sort/index.html?sort=3&time=y2017&type=likes&page={{page}},{\"webView\":true}\n言情2018::https://tinghaode8.cc/sort/index.html?sort=3&time=y2018&type=likes&page={{page}},{\"webView\":true}\n言情2019::https://tinghaode8.cc/sort/index.html?sort=3&time=y2019&type=likes&page={{page}},{\"webView\":true}\n言情2020::https://tinghaode8.cc/sort/index.html?sort=3&time=y2020&type=likes&page={{page}},{\"webView\":true}\n言情2021::https://tinghaode8.cc/sort/index.html?sort=3&time=thisyear&type=likes&page={{page}},{\"webView\":true}\n百合2016::https://tinghaode8.cc/sort/index.html?sort=17&time=y2016&type=likes&page={{page}},{\"webView\":true}\n百合2017::https://tinghaode8.cc/sort/index.html?sort=17&time=y2017&type=likes&page={{page}},{\"webView\":true}\n百合2018::https://tinghaode8.cc/sort/index.html?sort=17&time=y2018&type=likes&page={{page}},{\"webView\":true}\n百合2019::https://tinghaode8.cc/sort/index.html?sort=17&time=y2019&type=likes&page={{page}},{\"webView\":true}\n百合2020::https://tinghaode8.cc/sort/index.html?sort=17&time=y2020&type=likes&page={{page}},{\"webView\":true}\n百合2021::https://tinghaode8.cc/sort/index.html?sort=17&time=thisyear&type=likes&page={{page}},{\"webView\":true}", "lastUpdateTime": 1614585052064, "loginUrl": "https://tinghaode8.cc/tool/getVerify/", "ruleBookInfo": {"canReName": "", "coverUrl": "", "init": "", "intro": "@js:'　　'+String(book.intro).replace(/[\\snbsp;]*(?:&nbsp;|\\s){2,}|\\s*([？！。]+[”」』\\]\\}\\)）｝】〗〕〉]?)\\s*/g,\"$1　　\").replace(/(?=　　)/g,\"\\n\")", "name": "", "tocUrl": "https://tinghaode8.cc/tool/getChapterList/,{\"method\":\"POST\",\"body\":\"verify={{String(book.customIntro).match(/\\S+/)[0]}}&aid={{String(baseUrl).match(/\\d\\d+/)[0]}}&sbt=%E6%8F%90%E4%BA%A4\"}"}, "ruleContent": {"content": "@js:if(/关闭浏览器的广告过滤功能/.test(src))result=java.ajax(baseUrl+',{\"webView\":true}');\norg.jsoup.Jsoup.parse(result).select('#nr1')", "imageStyle": ""}, "ruleExplore": {"author": "tag.p.1@text##/著", "bookList": "ul.bookList a", "bookUrl": "href", "coverUrl": "", "intro": "tag.p.2@text", "kind": "", "name": "tag.p.0@ownText", "wordCount": "span@text"}, "ruleSearch": {"author": "strong@text", "bookList": "class.common-bookele", "bookUrl": "tag.a.0@href", "coverUrl": "", "intro": "class.abstract@text", "kind": "class.lastupdate@text##栏目：", "lastChapter": "", "name": "class.articlename@text"}, "ruleToc": {"chapterList": "ul a@js:book.customIntro&&result.size()?result:['<a>登录查看验证码</a>']", "chapterName": "text", "chapterUrl": "href@js:result.replace(/javascript:goChapter\\((\\d+),(\\d+)\\);/,'/novel/$1/$2.html')+',{\"webView\":true}'", "isVip": ""}, "searchUrl": "https://tinghaode8.cc/search.html?key={{key}}&page={{page}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "①登录查看验证码\n\n②详情页修改简介，向简介前端插入验证码\n\n③验证码后换行，保存简介\n\n④点击右上角菜单中的“刷新”\n\n若未成功，请重复上面四个步骤，每个步骤都必不可少！",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "挺好的",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://tinghaode8.cc",
+    "customOrder": 5,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "耽美2015::https://tinghaode8.cc/sort/index.html?sort=9&time=y2015&type=likes&page={{page}},{\"webView\":true}\n耽美2016::https://tinghaode8.cc/sort/index.html?sort=9&time=y2016&type=likes&page={{page}},{\"webView\":true}\n耽美2017::https://tinghaode8.cc/sort/index.html?sort=9&time=y2017&type=likes&page={{page}},{\"webView\":true}\n耽美2018::https://tinghaode8.cc/sort/index.html?sort=9&time=y2018&type=likes&page={{page}},{\"webView\":true}\n耽美2019::https://tinghaode8.cc/sort/index.html?sort=9&time=y2019&type=likes&page={{page}},{\"webView\":true}\n耽美2020::https://tinghaode8.cc/sort/index.html?sort=9&time=y2020&type=likes&page={{page}},{\"webView\":true}\n耽美2021::https://tinghaode8.cc/sort/index.html?sort=9&time=thisyear&type=likes&page={{page}},{\"webView\":true}\n辣文2015::https://tinghaode8.cc/sort/index.html?sort=11&time=y2015&type=likes&page={{page}},{\"webView\":true}\n辣文2016::https://tinghaode8.cc/sort/index.html?sort=11&time=y2016&type=likes&page={{page}},{\"webView\":true}\n辣文2017::https://tinghaode8.cc/sort/index.html?sort=11&time=y2017&type=likes&page={{page}},{\"webView\":true}\n辣文2018::https://tinghaode8.cc/sort/index.html?sort=11&time=y2018&type=likes&page={{page}},{\"webView\":true}\n辣文2019::https://tinghaode8.cc/sort/index.html?sort=11&time=y2019&type=likes&page={{page}},{\"webView\":true}\n辣文2020::https://tinghaode8.cc/sort/index.html?sort=11&time=y2020&type=likes&page={{page}},{\"webView\":true}\n辣文2021::https://tinghaode8.cc/sort/index.html?sort=11&time=thisyear&type=likes&page={{page}},{\"webView\":true}\n言情2015::https://tinghaode8.cc/sort/index.html?sort=3&time=y2015&type=likes&page={{page}},{\"webView\":true}\n言情2016::https://tinghaode8.cc/sort/index.html?sort=3&time=y2016&type=likes&page={{page}},{\"webView\":true}\n言情2017::https://tinghaode8.cc/sort/index.html?sort=3&time=y2017&type=likes&page={{page}},{\"webView\":true}\n言情2018::https://tinghaode8.cc/sort/index.html?sort=3&time=y2018&type=likes&page={{page}},{\"webView\":true}\n言情2019::https://tinghaode8.cc/sort/index.html?sort=3&time=y2019&type=likes&page={{page}},{\"webView\":true}\n言情2020::https://tinghaode8.cc/sort/index.html?sort=3&time=y2020&type=likes&page={{page}},{\"webView\":true}\n言情2021::https://tinghaode8.cc/sort/index.html?sort=3&time=thisyear&type=likes&page={{page}},{\"webView\":true}\n百合2016::https://tinghaode8.cc/sort/index.html?sort=17&time=y2016&type=likes&page={{page}},{\"webView\":true}\n百合2017::https://tinghaode8.cc/sort/index.html?sort=17&time=y2017&type=likes&page={{page}},{\"webView\":true}\n百合2018::https://tinghaode8.cc/sort/index.html?sort=17&time=y2018&type=likes&page={{page}},{\"webView\":true}\n百合2019::https://tinghaode8.cc/sort/index.html?sort=17&time=y2019&type=likes&page={{page}},{\"webView\":true}\n百合2020::https://tinghaode8.cc/sort/index.html?sort=17&time=y2020&type=likes&page={{page}},{\"webView\":true}\n百合2021::https://tinghaode8.cc/sort/index.html?sort=17&time=thisyear&type=likes&page={{page}},{\"webView\":true}",
+    "lastUpdateTime": 1614585052064,
+    "loginUrl": "https://tinghaode8.cc/tool/getVerify/",
+    "ruleBookInfo": {
+      "canReName": "",
+      "coverUrl": "",
+      "init": "",
+      "intro": "@js:'　　'+String(book.intro).replace(/[\\snbsp;]*(?:&nbsp;|\\s){2,}|\\s*([？！。]+[”」』\\]\\}\\)）｝】〗〕〉]?)\\s*/g,\"$1　　\").replace(/(?=　　)/g,\"\\n\")",
+      "name": "",
+      "tocUrl": "https://tinghaode8.cc/tool/getChapterList/,{\"method\":\"POST\",\"body\":\"verify={{String(book.customIntro).match(/\\S+/)[0]}}&aid={{String(baseUrl).match(/\\d\\d+/)[0]}}&sbt=%E6%8F%90%E4%BA%A4\"}"
+    },
+    "ruleContent": {
+      "content": "@js:if(/关闭浏览器的广告过滤功能/.test(src))result=java.ajax(baseUrl+',{\"webView\":true}');\norg.jsoup.Jsoup.parse(result).select('#nr1')",
+      "imageStyle": ""
+    },
+    "ruleExplore": {
+      "author": "tag.p.1@text##/著",
+      "bookList": "ul.bookList a",
+      "bookUrl": "href",
+      "coverUrl": "",
+      "intro": "tag.p.2@text",
+      "kind": "",
+      "name": "tag.p.0@ownText",
+      "wordCount": "span@text"
+    },
+    "ruleSearch": {
+      "author": "strong@text",
+      "bookList": "class.common-bookele",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "",
+      "intro": "class.abstract@text",
+      "kind": "class.lastupdate@text##栏目：",
+      "lastChapter": "",
+      "name": "class.articlename@text"
+    },
+    "ruleToc": {
+      "chapterList": "ul a@js:book.customIntro&&result.size()?result:['<a>登录查看验证码</a>']",
+      "chapterName": "text",
+      "chapterUrl": "href@js:result.replace(/javascript:goChapter\\((\\d+),(\\d+)\\);/,'/novel/$1/$2.html')+',{\"webView\":true}'",
+      "isVip": ""
+    },
+    "searchUrl": "https://tinghaode8.cc/search.html?key={{key}}&page={{page}}",
+    "weight": 0
+  }]

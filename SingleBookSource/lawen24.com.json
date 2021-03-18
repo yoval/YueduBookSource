@@ -1,1 +1,39 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,刘备书源", "bookSourceName": "🚬 辣文小说", "bookSourceType": 0, "bookSourceUrl": "http://m.lawen24.com", "customOrder": 24409, "enabled": true, "enabledExplore": true, "exploreUrl": "最新更新::http://m.lawen24.com/top/13_0/{{page}}\n总排行榜::http://m.lawen24.com/top/3_0/{{page}}\n总推荐榜::http://m.lawen24.com/top/7_0/{{page}}\n总收藏榜::http://m.lawen24.com/top/11_0/{{page}}\n总字数榜::http://m.lawen24.com/top/12_0/{{page}}\n奇幻玄幻::http://m.lawen24.com/xuanhuan/{{page}}\n都市言情::http://m.lawen24.com/yanqing/{{page}}\n武侠仙侠::http://m.lawen24.com/wuxia/{{page}}\n穿越历史::http://m.lawen24.com/chuanyue/{{page}}\n科幻恐怖::http://m.lawen24.com/kehuan/{{page}}\n网游竞技::http://m.lawen24.com/wangyou/{{page}}\n耽美同人::http://m.lawen24.com/danmei/{{page}}\n青春校园::http://m.lawen24.com/qingchun/{{page}}\n生活经典::http://m.lawen24.com/jingdian/{{page}}\n网络综合::http://m.lawen24.com/wangluo/{{page}}\n辣文H文::http://m.lawen24.com/hwen/{{page}}", "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; Redmi Note 8 Pro Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.101 Mobile Safari/537.36\"\n}", "lastUpdateTime": 1606575175623, "ruleBookInfo": {"coverUrl": "class.ibook@img@src", "intro": "class.summ@text##.*简介：|.*《.*》|.*作者：", "lastChapter": "class.mulu@tag.li.-1@a@text"}, "ruleContent": {"content": "id.content@p@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.vlink@text", "bookList": "class.le", "bookUrl": "a@href", "coverUrl": "img@src", "intro": "details@text##.*简介：|.*《.*》|.*作者：", "kind": "class.info@text##.*大小:|人气.*", "lastChapter": "class.info@text##.*更新:", "name": "b@a@text"}, "ruleToc": {"chapterList": "class.mulu@li@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "http://m.lawen24.com/search/,{\n  \"headers\": \"{referer:\\\"http://m.lawen24.com/\\\"}\",\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,刘备书源",
+    "bookSourceName": "🚬 辣文小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.lawen24.com",
+    "customOrder": 24697,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最新更新::http://m.lawen24.com/top/13_0/{{page}}\n总排行榜::http://m.lawen24.com/top/3_0/{{page}}\n总推荐榜::http://m.lawen24.com/top/7_0/{{page}}\n总收藏榜::http://m.lawen24.com/top/11_0/{{page}}\n总字数榜::http://m.lawen24.com/top/12_0/{{page}}\n奇幻玄幻::http://m.lawen24.com/xuanhuan/{{page}}\n都市言情::http://m.lawen24.com/yanqing/{{page}}\n武侠仙侠::http://m.lawen24.com/wuxia/{{page}}\n穿越历史::http://m.lawen24.com/chuanyue/{{page}}\n科幻恐怖::http://m.lawen24.com/kehuan/{{page}}\n网游竞技::http://m.lawen24.com/wangyou/{{page}}\n耽美同人::http://m.lawen24.com/danmei/{{page}}\n青春校园::http://m.lawen24.com/qingchun/{{page}}\n生活经典::http://m.lawen24.com/jingdian/{{page}}\n网络综合::http://m.lawen24.com/wangluo/{{page}}\n辣文H文::http://m.lawen24.com/hwen/{{page}}",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; Redmi Note 8 Pro Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.101 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 1606575175623,
+    "ruleBookInfo": {
+      "coverUrl": "class.ibook@img@src",
+      "intro": "class.summ@text##.*简介：|.*《.*》|.*作者：",
+      "lastChapter": "class.mulu@tag.li.-1@a@text"
+    },
+    "ruleContent": {
+      "content": "id.content@p@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.vlink@text",
+      "bookList": "class.le",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "intro": "details@text##.*简介：|.*《.*》|.*作者：",
+      "kind": "class.info@text##.*大小:|人气.*",
+      "lastChapter": "class.info@text##.*更新:",
+      "name": "b@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.mulu@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://m.lawen24.com/search/,{\n  \"headers\": \"{referer:\\\"http://m.lawen24.com/\\\"}\",\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}",
+    "weight": 0
+  }]

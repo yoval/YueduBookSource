@@ -1,1 +1,37 @@
-[{"bookSourceComment": "error:failed to connect to www.uuxs.net/104.250.140.202 (port 80) from /192.168.0.103 (port 43450) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 UU小说(电脑)", "bookSourceType": 0, "bookSourceUrl": "http://www.uuxs.net", "bookUrlPattern": "", "customOrder": -31725, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1603036327047, "loginUrl": "", "ruleBookInfo": {"author": "class.btitle@tag.em.0@text##作者：", "intro": "class.intro@text##内容简介：", "name": "class.fl.0@tag.h1.0@text"}, "ruleContent": {"content": "id.BookText@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.item-pic.tag.p.0@tag.i.0@text", "bookList": "class.item-pic", "bookUrl": "tag.h3.0@tag.a@href", "coverUrl": "tag.a.0@tag.img@src", "lastChapter": "tag.p.1@tag.a@text", "name": "tag.h3.0@tag.a@text"}, "ruleToc": {"chapterList": "class.chapterlist@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.uuxs.net/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:failed to connect to www.uuxs.net/104.250.140.202 (port 80) from /192.168.0.103 (port 43450) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 UU小说(电脑)",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.uuxs.net",
+    "bookUrlPattern": "",
+    "customOrder": -31725,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1603036327047,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.btitle@tag.em.0@text##作者：",
+      "intro": "class.intro@text##内容简介：",
+      "name": "class.fl.0@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.BookText@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.item-pic.tag.p.0@tag.i.0@text",
+      "bookList": "class.item-pic",
+      "bookUrl": "tag.h3.0@tag.a@href",
+      "coverUrl": "tag.a.0@tag.img@src",
+      "lastChapter": "tag.p.1@tag.a@text",
+      "name": "tag.h3.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapterlist@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.uuxs.net/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

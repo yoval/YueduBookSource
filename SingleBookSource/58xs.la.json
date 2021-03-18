@@ -1,1 +1,42 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 58小说②", "bookSourceType": 0, "bookSourceUrl": "https://www.58xs.la", "customOrder": -115617, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1604163676888, "ruleBookInfo": {"author": "id.info@tag.h1@tag.small@tag.a@text", "coverUrl": "class.picbox@img@src", "init": "id.bookdetail", "intro": "id.intro@text", "kind": "class.nav-mbx@tag.a.2@text&&\nid.info@tag.p.0@tag.span.1@text", "lastChapter": "class.update@tag.a@text", "name": "id.info@tag.h1@text##/.*", "wordCount": ""}, "ruleContent": {"content": "id.content@html##58小说网.*最新章节！"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.td.2@text", "bookList": "class.grid@tag.tr", "bookUrl": "tag.td.0@tag.a@href", "coverUrl": "tag.td.0@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://www.58xs.la/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>", "kind": "tag.td.4@text&&\ntag.td.5@text", "lastChapter": "tag.td.1@tag.a@text", "name": "tag.td.0@tag.a@text", "wordCount": "tag.td.3@text"}, "ruleToc": {"chapterList": "class.zjbox@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.58xs.la/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 58小说②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.58xs.la",
+    "customOrder": -115617,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1604163676888,
+    "ruleBookInfo": {
+      "author": "id.info@tag.h1@tag.small@tag.a@text",
+      "coverUrl": "class.picbox@img@src",
+      "init": "id.bookdetail",
+      "intro": "id.intro@text",
+      "kind": "class.nav-mbx@tag.a.2@text&&\nid.info@tag.p.0@tag.span.1@text",
+      "lastChapter": "class.update@tag.a@text",
+      "name": "id.info@tag.h1@text##/.*",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.content@html##58小说网.*最新章节！"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "class.grid@tag.tr",
+      "bookUrl": "tag.td.0@tag.a@href",
+      "coverUrl": "tag.td.0@tag.a@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'http://www.58xs.la/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+      "kind": "tag.td.4@text&&\ntag.td.5@text",
+      "lastChapter": "tag.td.1@tag.a@text",
+      "name": "tag.td.0@tag.a@text",
+      "wordCount": "tag.td.3@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.zjbox@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.58xs.la/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

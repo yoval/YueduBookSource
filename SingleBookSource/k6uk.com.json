@@ -1,1 +1,43 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 看啦又看", "bookSourceType": 0, "bookSourceUrl": "http://m.k6uk.com", "bookUrlPattern": "", "customOrder": -115388, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1612768475428, "loginUrl": "", "ruleBookInfo": {"author": "##作者：(.+?)<##$1###", "coverUrl": "img@src", "intro": ".intro_info@html", "kind": "##分类：(.+?)<##$1###", "lastChapter": ".chapter@tag.li.0@text", "name": "h2@text", "tocUrl": ".block_img2@a@href"}, "ruleContent": {"content": "id.nr1@html", "replaceRegex": "##.www.k6u..com.|[(]看啦又看.*m.k6uk.com[)]"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.a.2@text", "bookList": "class.cover@p", "bookUrl": "tag.a.1@href", "coverUrl": "tag.a.1@href##/info-(\\d+)(\\d{3})/##http://www.k6uk.com/files/article/image/$1/$1$2/$1$2s.jpg", "kind": "tag.a.0@text##\\[|]", "name": "tag.a.1@text"}, "ruleToc": {"chapterList": ".chapter@li@a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "text.下一页.0@href"}, "searchUrl": "http://m.k6uk.com/modules/article/waps.php?searchtype=articlename&searchkey={{key}}&t_btnsearch=&page={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 看啦又看",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.k6uk.com",
+    "bookUrlPattern": "",
+    "customOrder": -115388,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612768475428,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "##作者：(.+?)<##$1###",
+      "coverUrl": "img@src",
+      "intro": ".intro_info@html",
+      "kind": "##分类：(.+?)<##$1###",
+      "lastChapter": ".chapter@tag.li.0@text",
+      "name": "h2@text",
+      "tocUrl": ".block_img2@a@href"
+    },
+    "ruleContent": {
+      "content": "id.nr1@html",
+      "replaceRegex": "##.www.k6u..com.|[(]看啦又看.*m.k6uk.com[)]"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.cover@p",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.a.1@href##/info-(\\d+)(\\d{3})/##http://www.k6uk.com/files/article/image/$1/$1$2/$1$2s.jpg",
+      "kind": "tag.a.0@text##\\[|]",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": ".chapter@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页.0@href"
+    },
+    "searchUrl": "http://m.k6uk.com/modules/article/waps.php?searchtype=articlename&searchkey={{key}}&t_btnsearch=&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

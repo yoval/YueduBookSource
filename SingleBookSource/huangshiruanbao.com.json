@@ -1,1 +1,54 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "歪歪小说", "bookSourceType": 0, "bookSourceUrl": "https://www.huangshiruanbao.com", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "奇幻玄幻/全部::/lists/id/18.html?page={{page}}\n奇幻玄幻/连载::/lists/id/18/serialize/0.html?page={{page}}\n奇幻玄幻/完本::/lists/id/18/serialize/1.html?page={{page}}\n武侠仙侠/全部::/lists/id/19.html?page={{page}}\n武侠仙侠/连载::/lists/id/19/serialize/0.html?page={{page}}\n武侠仙侠/完本::/lists/id/19/serialize/1.html?page={{page}}\n历史军事/全部::/lists/id/20.html?page={{page}}\n历史军事/连载::/lists/id/20/serialize/0.html?page={{page}}\n历史军事/完本::/lists/id/20/serialize/1.html?page={{page}}\n都市娱乐/全部::/lists/id/21.html?page={{page}}\n都市娱乐/连载::/lists/id/21/serialize/0.html?page={{page}}\n都市娱乐/完本::/lists/id/21/serialize/1.html?page={{page}}\n科幻末日/全部::/lists/id/22.html?page={{page}}\n科幻末日/连载::/lists/id/22/serialize/0.html?page={{page}}\n科幻末日/完本::/lists/id/22/serialize/1.html?page={{page}}\n悬疑灵异/全部::/lists/id/23.html?page={{page}}\n悬疑灵异/连载::/lists/id/23/serialize/0.html?page={{page}}\n悬疑灵异/完本::/lists/id/23/serialize/1.html?page={{page}}\n游戏竞技/全部::/lists/id/34.html?page={{page}}\n游戏竞技/连载::/lists/id/34/serialize/0.html?page={{page}}\n游戏竞技/完本::/lists/id/34/serialize/1.html?page={{page}}\n其他小说/全部::/lists/id/35.html?page={{page}}\n其他小说/连载::/lists/id/35/serialize/0.html?page={{page}}\n其他小说/完本::/lists/id/35/serialize/1.html?page={{page}}\n古装言情/全部::/lists/id/25.html?page={{page}}\n古装言情/连载::/lists/id/25/serialize/0.html?page={{page}}\n古装言情/完本::/lists/id/25/serialize/1.html?page={{page}}\n都市言情/全部::/lists/id/26.html?page={{page}}\n都市言情/连载::/lists/id/26/serialize/0.html?page={{page}}\n都市言情/完本::/lists/id/26/serialize/1.html?page={{page}}\n浪漫青春/全部::/lists/id/27.html?page={{page}}\n浪漫青春/连载::/lists/id/27/serialize/0.html?page={{page}}\n浪漫青春/完本::/lists/id/27/serialize/1.html?page={{page}}\n幻想言情/全部::/lists/id/28.html?page={{page}}\n幻想言情/连载::/lists/id/28/serialize/0.html?page={{page}}\n幻想言情/完本::/lists/id/28/serialize/1.html?page={{page}}\n科幻空间/全部::/lists/id/37.html?page={{page}}\n科幻空间/连载::/lists/id/37/serialize/0.html?page={{page}}\n科幻空间/完本::/lists/id/37/serialize/1.html?page={{page}}\n灵异悬疑/全部::/lists/id/38.html?page={{page}}\n灵异悬疑/连载::/lists/id/38/serialize/0.html?page={{page}}\n灵异悬疑/完本::/lists/id/38/serialize/1.html?page={{page}}\n同人衍生/全部::/lists/id/39.html?page={{page}}\n同人衍生/连载::/lists/id/39/serialize/0.html?page={{page}}\n同人衍生/完本::/lists/id/39/serialize/1.html?page={{page}}\n耽美百合/全部::/lists/id/40.html?page={{page}}\n耽美百合/连载::/lists/id/40/serialize/0.html?page={{page}}\n耽美百合/完本::/lists/id/40/serialize/1.html?page={{page}}", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "class.author fl@text", "coverUrl": "class.pic fl@tag.img@src", "intro": "class.brief_text@text", "kind": "class.tags clearfixer@tag.span@text", "lastChapter": "class.chaptername fl@tag.a@text", "name": "class.name fl@text", "tocUrl": "@js:if(result.match(/全部章节/)){\nresult=result.match(/href=\"([^\"]+)\">全部章节/)[1]\n}else{result=baseUrl}"}, "ruleContent": {"content": "@js:\nresult=result.replace(/天才一秒钟.*?小说网站[!！]/,\"\");\ndoc=org.jsoup.Jsoup.parse(result).select(\"#txt\");\ndoc.select(\"h1\").remove();\ndoc.html();", "nextContentUrl": "text.下一章@href"}, "ruleExplore": {"author": "tag.dd@tag.a.1@text", "bookList": "class.listboxw@tag.dl", "bookUrl": "tag.dt@tag.a.0@href", "coverUrl": "tag.dt@tag.img@data-original", "intro": "class.big-book-info@text", "kind": "tag.dd@tag.a.2@text", "lastChapter": "class.red@text##最近更新 ", "name": "tag.dd@tag.a.0@text"}, "ruleSearch": {"author": "tag.dd@tag.a.1@text", "bookList": "class.secd-rank-list", "bookUrl": "tag.dt@tag.a.0@href", "coverUrl": "tag.dt@tag.img@data-original", "intro": "class.big-book-info@text", "kind": "tag.dd@tag.a.2@text", "lastChapter": "class.red@text##最近更新 ", "name": "tag.dd@tag.a.0@text"}, "ruleToc": {"chapterList": "class.cate-list@li@a||class.panel-chapterlist@dd@a", "chapterName": "class.chapter_name@text||text", "chapterUrl": "href"}, "searchUrl": "https://www.huangshiruanbao.com/search.html?keyword={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "歪歪小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.huangshiruanbao.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "奇幻玄幻/全部::/lists/id/18.html?page={{page}}\n奇幻玄幻/连载::/lists/id/18/serialize/0.html?page={{page}}\n奇幻玄幻/完本::/lists/id/18/serialize/1.html?page={{page}}\n武侠仙侠/全部::/lists/id/19.html?page={{page}}\n武侠仙侠/连载::/lists/id/19/serialize/0.html?page={{page}}\n武侠仙侠/完本::/lists/id/19/serialize/1.html?page={{page}}\n历史军事/全部::/lists/id/20.html?page={{page}}\n历史军事/连载::/lists/id/20/serialize/0.html?page={{page}}\n历史军事/完本::/lists/id/20/serialize/1.html?page={{page}}\n都市娱乐/全部::/lists/id/21.html?page={{page}}\n都市娱乐/连载::/lists/id/21/serialize/0.html?page={{page}}\n都市娱乐/完本::/lists/id/21/serialize/1.html?page={{page}}\n科幻末日/全部::/lists/id/22.html?page={{page}}\n科幻末日/连载::/lists/id/22/serialize/0.html?page={{page}}\n科幻末日/完本::/lists/id/22/serialize/1.html?page={{page}}\n悬疑灵异/全部::/lists/id/23.html?page={{page}}\n悬疑灵异/连载::/lists/id/23/serialize/0.html?page={{page}}\n悬疑灵异/完本::/lists/id/23/serialize/1.html?page={{page}}\n游戏竞技/全部::/lists/id/34.html?page={{page}}\n游戏竞技/连载::/lists/id/34/serialize/0.html?page={{page}}\n游戏竞技/完本::/lists/id/34/serialize/1.html?page={{page}}\n其他小说/全部::/lists/id/35.html?page={{page}}\n其他小说/连载::/lists/id/35/serialize/0.html?page={{page}}\n其他小说/完本::/lists/id/35/serialize/1.html?page={{page}}\n古装言情/全部::/lists/id/25.html?page={{page}}\n古装言情/连载::/lists/id/25/serialize/0.html?page={{page}}\n古装言情/完本::/lists/id/25/serialize/1.html?page={{page}}\n都市言情/全部::/lists/id/26.html?page={{page}}\n都市言情/连载::/lists/id/26/serialize/0.html?page={{page}}\n都市言情/完本::/lists/id/26/serialize/1.html?page={{page}}\n浪漫青春/全部::/lists/id/27.html?page={{page}}\n浪漫青春/连载::/lists/id/27/serialize/0.html?page={{page}}\n浪漫青春/完本::/lists/id/27/serialize/1.html?page={{page}}\n幻想言情/全部::/lists/id/28.html?page={{page}}\n幻想言情/连载::/lists/id/28/serialize/0.html?page={{page}}\n幻想言情/完本::/lists/id/28/serialize/1.html?page={{page}}\n科幻空间/全部::/lists/id/37.html?page={{page}}\n科幻空间/连载::/lists/id/37/serialize/0.html?page={{page}}\n科幻空间/完本::/lists/id/37/serialize/1.html?page={{page}}\n灵异悬疑/全部::/lists/id/38.html?page={{page}}\n灵异悬疑/连载::/lists/id/38/serialize/0.html?page={{page}}\n灵异悬疑/完本::/lists/id/38/serialize/1.html?page={{page}}\n同人衍生/全部::/lists/id/39.html?page={{page}}\n同人衍生/连载::/lists/id/39/serialize/0.html?page={{page}}\n同人衍生/完本::/lists/id/39/serialize/1.html?page={{page}}\n耽美百合/全部::/lists/id/40.html?page={{page}}\n耽美百合/连载::/lists/id/40/serialize/0.html?page={{page}}\n耽美百合/完本::/lists/id/40/serialize/1.html?page={{page}}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.author fl@text",
+      "coverUrl": "class.pic fl@tag.img@src",
+      "intro": "class.brief_text@text",
+      "kind": "class.tags clearfixer@tag.span@text",
+      "lastChapter": "class.chaptername fl@tag.a@text",
+      "name": "class.name fl@text",
+      "tocUrl": "@js:if(result.match(/全部章节/)){\nresult=result.match(/href=\"([^\"]+)\">全部章节/)[1]\n}else{result=baseUrl}"
+    },
+    "ruleContent": {
+      "content": "@js:\nresult=result.replace(/天才一秒钟.*?小说网站[!！]/,\"\");\ndoc=org.jsoup.Jsoup.parse(result).select(\"#txt\");\ndoc.select(\"h1\").remove();\ndoc.html();",
+      "nextContentUrl": "text.下一章@href"
+    },
+    "ruleExplore": {
+      "author": "tag.dd@tag.a.1@text",
+      "bookList": "class.listboxw@tag.dl",
+      "bookUrl": "tag.dt@tag.a.0@href",
+      "coverUrl": "tag.dt@tag.img@data-original",
+      "intro": "class.big-book-info@text",
+      "kind": "tag.dd@tag.a.2@text",
+      "lastChapter": "class.red@text##最近更新 ",
+      "name": "tag.dd@tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "tag.dd@tag.a.1@text",
+      "bookList": "class.secd-rank-list",
+      "bookUrl": "tag.dt@tag.a.0@href",
+      "coverUrl": "tag.dt@tag.img@data-original",
+      "intro": "class.big-book-info@text",
+      "kind": "tag.dd@tag.a.2@text",
+      "lastChapter": "class.red@text##最近更新 ",
+      "name": "tag.dd@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.cate-list@li@a||class.panel-chapterlist@dd@a",
+      "chapterName": "class.chapter_name@text||text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.huangshiruanbao.com/search.html?keyword={{key}}",
+    "weight": 0
+  }]

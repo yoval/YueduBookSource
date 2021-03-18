@@ -1,1 +1,36 @@
-[{"bookSourceComment": "error:SSL handshake aborted: ssl=0x7f6760da08: I/O error during system call, Connection reset by peer\n", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 千千小说⑦", "bookSourceType": 0, "bookSourceUrl": "https://www.77xsw.la", "bookUrlPattern": "", "customOrder": -32027, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "//*[@property=\"og:novel:author\"]/@content", "coverUrl": "//*[@property=\"og:image\"]/@content", "name": "//*[@property=\"og:novel:book_name\"]/@content"}, "ruleContent": {"content": "id.htmlContent@html##一秒记住.*|\\?\\?|千千小说.*", "nextContentUrl": "text.下一页@href"}, "ruleExplore": {}, "ruleSearch": {"author": "class.text-muted fs-12@text##/.*", "bookList": "class.col-md-4 col-xs-4 book-coverlist", "bookUrl": "tag.a.0@href", "name": "class.caption@tag.a.0@title"}, "ruleToc": {"chapterList": "id.list-chapterAll@dl@dd@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.77xsw.la/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:SSL handshake aborted: ssl=0x7f6760da08: I/O error during system call, Connection reset by peer\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 千千小说⑦",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.77xsw.la",
+    "bookUrlPattern": "",
+    "customOrder": -32027,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "//*[@property=\"og:novel:author\"]/@content",
+      "coverUrl": "//*[@property=\"og:image\"]/@content",
+      "name": "//*[@property=\"og:novel:book_name\"]/@content"
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@html##一秒记住.*|\\?\\?|千千小说.*",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.text-muted fs-12@text##/.*",
+      "bookList": "class.col-md-4 col-xs-4 book-coverlist",
+      "bookUrl": "tag.a.0@href",
+      "name": "class.caption@tag.a.0@title"
+    },
+    "ruleToc": {
+      "chapterList": "id.list-chapterAll@dl@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.77xsw.la/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

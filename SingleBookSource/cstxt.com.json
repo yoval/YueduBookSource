@@ -1,1 +1,40 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🔰 重生小说", "bookSourceType": 0, "bookSourceUrl": "https://www.cstxt.com", "bookUrlPattern": "", "customOrder": 16133, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "id.info@tag.p.0@text##作    者：", "coverUrl": "id.fmimg@tag.img.0@src", "intro": "id.intro@tag.p.0@text", "name": "id.info@tag.h1@text"}, "ruleContent": {"content": "id.content@html##顶 点 小 说.*"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@tag.td.2@text", "bookList": "id.nr", "bookUrl": "class.odd.0@tag.a.0@href", "coverUrl": "", "kind": "class.even.2@tag.td.0@text&&class.odd.2@tag.td.0@text", "lastChapter": "ckass.even1@tag.a.0@text", "name": "class.odd.0@tag.a.0@text", "wordCount": "class.even.1@tag.td.0@text"}, "ruleToc": {"chapterList": "//*[@id=\"list\"]//dt[2]/following-sibling::dd/a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.cstxt.com/modules/article/search.php?searchkey={{key}}&ct=2097152&si=bijuge.com&sts=bijuge.com&page=1,{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🔰 重生小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.cstxt.com",
+    "bookUrlPattern": "",
+    "customOrder": 16133,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text##作    者：",
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "intro": "id.intro@tag.p.0@text",
+      "name": "id.info@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html##顶 点 小 说.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@tag.td.2@text",
+      "bookList": "id.nr",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "coverUrl": "",
+      "kind": "class.even.2@tag.td.0@text&&class.odd.2@tag.td.0@text",
+      "lastChapter": "ckass.even1@tag.a.0@text",
+      "name": "class.odd.0@tag.a.0@text",
+      "wordCount": "class.even.1@tag.td.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "//*[@id=\"list\"]//dt[2]/following-sibling::dd/a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.cstxt.com/modules/article/search.php?searchkey={{key}}&ct=2097152&si=bijuge.com&sts=bijuge.com&page=1,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

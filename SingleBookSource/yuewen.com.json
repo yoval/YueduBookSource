@@ -1,1 +1,43 @@
-[{"bookSourceComment": "error:搜索内容为空并且没有发现\n", "bookSourceGroup": "我的书源", "bookSourceName": "💵 月亮书城", "bookSourceType": 0, "bookSourceUrl": "https://mcp.yuewen.com", "customOrder": -33976, "enabled": true, "enabledExplore": true, "header": "{\n\"Accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\"\n}", "lastUpdateTime": 1602755284634, "loginUrl": "https://mcp.yuewen.com/moon/userCenter.html?event_id=op_D01", "ruleBookInfo": {"coverUrl": "$.data.cover", "intro": "$.data.Description", "kind": "$.data.TagArray[*].tagName&&$.data.BookStatusTxt", "lastChapter": "$.data.BookId<js>\nheader={\n\"Accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\"\n}\nheaders={\n\"headers\":JSON.stringify(header)\n}\njava.ajax('https://mcp.yuewen.com/mcp/Book/Chapterlist?appflag=moon&cbid='+result+','+JSON.stringify(headers))</js>\n$.data.chapterList[-1].chapters[-1].cName", "tocUrl": "https://mcp.yuewen.com/mcp/Book/Chapterlist?appflag=moon&cbid={{$.data.BookId}}", "wordCount": "$.data.showWordsCnt"}, "ruleContent": {"content": "$.data.chapter.content"}, "ruleExplore": {}, "ruleSearch": {"author": "$.Author", "bookList": "$.data.bookList", "bookUrl": "https://mcp.yuewen.com/mcp/Book/info?appflag=moon&cbid={{$.BookId}}", "coverUrl": "$.Cover@put:{id:$.BookId}", "intro": "$.Description", "kind": "$.subcategoryName", "name": "$.BookName"}, "ruleToc": {"chapterList": "$.data..chapters[*]", "chapterName": "$.cName", "chapterUrl": "https://mcp.yuewen.com/mcp/chapter/GetChapterInfo?appflag=moon&cbid=@get:{id}&ccid={{$.ccid}}", "isVip": "$.vipFlag", "updateTime": "更新时间：{{$.upTime}}  字数：{{$.words}}字"}, "searchUrl": "https://mcp.yuewen.com/mcp/Search/Index?appflag=moon&page=1&keywords={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "💵 月亮书城",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://mcp.yuewen.com",
+    "customOrder": -33976,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n\"Accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\"\n}",
+    "lastUpdateTime": 1602755284634,
+    "loginUrl": "https://mcp.yuewen.com/moon/userCenter.html?event_id=op_D01",
+    "ruleBookInfo": {
+      "coverUrl": "$.data.cover",
+      "intro": "$.data.Description",
+      "kind": "$.data.TagArray[*].tagName&&$.data.BookStatusTxt",
+      "lastChapter": "$.data.BookId<js>\nheader={\n\"Accept\": \"text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.9\"\n}\nheaders={\n\"headers\":JSON.stringify(header)\n}\njava.ajax('https://mcp.yuewen.com/mcp/Book/Chapterlist?appflag=moon&cbid='+result+','+JSON.stringify(headers))</js>\n$.data.chapterList[-1].chapters[-1].cName",
+      "tocUrl": "https://mcp.yuewen.com/mcp/Book/Chapterlist?appflag=moon&cbid={{$.data.BookId}}",
+      "wordCount": "$.data.showWordsCnt"
+    },
+    "ruleContent": {
+      "content": "$.data.chapter.content"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$.Author",
+      "bookList": "$.data.bookList",
+      "bookUrl": "https://mcp.yuewen.com/mcp/Book/info?appflag=moon&cbid={{$.BookId}}",
+      "coverUrl": "$.Cover@put:{id:$.BookId}",
+      "intro": "$.Description",
+      "kind": "$.subcategoryName",
+      "name": "$.BookName"
+    },
+    "ruleToc": {
+      "chapterList": "$.data..chapters[*]",
+      "chapterName": "$.cName",
+      "chapterUrl": "https://mcp.yuewen.com/mcp/chapter/GetChapterInfo?appflag=moon&cbid=@get:{id}&ccid={{$.ccid}}",
+      "isVip": "$.vipFlag",
+      "updateTime": "更新时间：{{$.upTime}}  字数：{{$.words}}字"
+    },
+    "searchUrl": "https://mcp.yuewen.com/mcp/Search/Index?appflag=moon&page=1&keywords={{key}}",
+    "weight": 0
+  }]

@@ -1,1 +1,54 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "👍 360小说m", "bookSourceType": 0, "bookSourceUrl": "https://m.360xs.com", "customOrder": -114814, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻小说::/sort/1/0/{{page}}.html&&奇幻小说::/sort/2/0/{{page}}.html&&武侠小说::/sort/3/0/{{page}}.html&&仙侠小说::/sort/4/0/{{page}}.html&&言情小说::/sort/5/0/{{page}}.html&&都市小说::/sort/6/0/{{page}}.html&&历史小说::/sort/7/0/{{page}}.html&&军事小说::/sort/8/0/{{page}}.html&&科幻小说::/sort/9/0/{{page}}.html&&灵异小说::/sort/10/0/{{page}}.html&&游戏小说::/sort/11/0/{{page}}.html&&竞技小说::/sort/12/0/{{page}}.html&&美文小说::/sort/13/0/{{page}}.html&&同人小说::/sort/14/0/{{page}}.html&&其他类别::/sort/15/0/{{page}}.html&&", "lastUpdateTime": 1612823955244, "ruleBookInfo": {"author": "[property=\"og:novel:author\"]@content", "coverUrl": "[property=\"og:image\"]@content", "intro": "[property=\"og:description\"]@content=", "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content", "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content", "name": "[property=\"og:novel:book_name\"]@content", "tocUrl": "@js:baseUrl+'0/1.html'"}, "ruleContent": {"content": "p@html", "nextContentUrl": "@js:var next = result.match(/___ABCD=\"([^\"]+)/)[1];\n'https://m.360xs.com'+next", "replaceRegex": "<js>result=result.match(/(([\\s\\S]{15})[\\s\\S]+?)\\2/)[1]</js>##最新全本：.*", "sourceRegex": ""}, "ruleExplore": {"author": "h2@tag.a.1@text", "bookList": ".lista", "bookUrl": "h2@tag.a.0@href", "coverUrl": "img@src", "intro": "tag.p.0@html", "name": "h2@tag.a.0@text"}, "ruleSearch": {"author": "$.authorname", "bookList": "$..books.*", "bookUrl": "https://m.360xs.com/book/{{$.bookid}}/", "coverUrl": "$.coverurl", "intro": "$.description", "kind": "$.raw_categoryname", "lastChapter": "$.lastchaptername", "name": "$.bookname", "wordCount": "$.wordscount"}, "ruleToc": {"chapterList": "#chapterlist a||.dc-cap a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "option@value"}, "searchUrl": "https://m.360xs.com/book/?ajaxMethod=getsearchbooks&page={{page}}&pagesize=10&isvip=-1&cid=-1&sort=0&flag=-1&searchkey={{key}}&site=-1&again=0&range=-1", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "👍 360小说m",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.360xs.com",
+    "customOrder": -114814,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/sort/1/0/{{page}}.html&&奇幻小说::/sort/2/0/{{page}}.html&&武侠小说::/sort/3/0/{{page}}.html&&仙侠小说::/sort/4/0/{{page}}.html&&言情小说::/sort/5/0/{{page}}.html&&都市小说::/sort/6/0/{{page}}.html&&历史小说::/sort/7/0/{{page}}.html&&军事小说::/sort/8/0/{{page}}.html&&科幻小说::/sort/9/0/{{page}}.html&&灵异小说::/sort/10/0/{{page}}.html&&游戏小说::/sort/11/0/{{page}}.html&&竞技小说::/sort/12/0/{{page}}.html&&美文小说::/sort/13/0/{{page}}.html&&同人小说::/sort/14/0/{{page}}.html&&其他类别::/sort/15/0/{{page}}.html&&",
+    "lastUpdateTime": 1612823955244,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content=",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "@js:baseUrl+'0/1.html'"
+    },
+    "ruleContent": {
+      "content": "p@html",
+      "nextContentUrl": "@js:var next = result.match(/___ABCD=\"([^\"]+)/)[1];\n'https://m.360xs.com'+next",
+      "replaceRegex": "<js>result=result.match(/(([\\s\\S]{15})[\\s\\S]+?)\\2/)[1]</js>##最新全本：.*",
+      "sourceRegex": ""
+    },
+    "ruleExplore": {
+      "author": "h2@tag.a.1@text",
+      "bookList": ".lista",
+      "bookUrl": "h2@tag.a.0@href",
+      "coverUrl": "img@src",
+      "intro": "tag.p.0@html",
+      "name": "h2@tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "$.authorname",
+      "bookList": "$..books.*",
+      "bookUrl": "https://m.360xs.com/book/{{$.bookid}}/",
+      "coverUrl": "$.coverurl",
+      "intro": "$.description",
+      "kind": "$.raw_categoryname",
+      "lastChapter": "$.lastchaptername",
+      "name": "$.bookname",
+      "wordCount": "$.wordscount"
+    },
+    "ruleToc": {
+      "chapterList": "#chapterlist a||.dc-cap a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "option@value"
+    },
+    "searchUrl": "https://m.360xs.com/book/?ajaxMethod=getsearchbooks&page={{page}}&pagesize=10&isvip=-1&cid=-1&sort=0&flag=-1&searchkey={{key}}&site=-1&again=0&range=-1",
+    "weight": 0
+  }]

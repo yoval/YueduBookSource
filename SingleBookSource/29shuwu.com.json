@@ -1,1 +1,40 @@
-[{"bookSourceComment": "搜索间隔30s", "bookSourceGroup": "我的书源", "bookSourceName": "二九书屋", "bookSourceType": 0, "bookSourceUrl": "https://www.29shuwu.com/", "customOrder": 0, "enabled": true, "enabledExplore": false, "lastUpdateTime": 1615553361133, "ruleBookInfo": {"author": "class.booktag@tag.a.0@text", "coverUrl": "class.row@img@src", "intro": "id.bookIntro@textNodes", "kind": "class.booktag@tag.a.1@text", "lastChapter": "##最新章节：<[^>]+>([^<]+)<[\\W\\w]+更新时间：([^<]+)<##$1•$2###", "name": "class.bookTitle@text", "wordCount": "##字数：([\\d]+)<##$1###"}, "ruleContent": {"content": "id.htmlContent@textNodes", "nextContentUrl": "text.下一页@href"}, "ruleExplore": {}, "ruleSearch": {"author": "##作者：([^<]+)</li>##$1###", "bookList": "class.mySearch@tag.ul!30", "bookUrl": "class.b@href", "coverUrl": "", "kind": "##大小：([^<]+)<[\\w\\W]+更新时间：([^<]+)</[\\w\\W]+状态：([^<]+)</##$1,$2,$3###", "name": "class.b@text"}, "ruleToc": {"chapterList": "id.list-chapterAll@dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "/modules/article/search.php?searchkey={{key}},{\n\"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "搜索间隔30s",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "二九书屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.29shuwu.com/",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 1615553361133,
+    "ruleBookInfo": {
+      "author": "class.booktag@tag.a.0@text",
+      "coverUrl": "class.row@img@src",
+      "intro": "id.bookIntro@textNodes",
+      "kind": "class.booktag@tag.a.1@text",
+      "lastChapter": "##最新章节：<[^>]+>([^<]+)<[\\W\\w]+更新时间：([^<]+)<##$1•$2###",
+      "name": "class.bookTitle@text",
+      "wordCount": "##字数：([\\d]+)<##$1###"
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@textNodes",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "##作者：([^<]+)</li>##$1###",
+      "bookList": "class.mySearch@tag.ul!30",
+      "bookUrl": "class.b@href",
+      "coverUrl": "",
+      "kind": "##大小：([^<]+)<[\\w\\W]+更新时间：([^<]+)</[\\w\\W]+状态：([^<]+)</##$1,$2,$3###",
+      "name": "class.b@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list-chapterAll@dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/modules/article/search.php?searchkey={{key}},{\n\"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

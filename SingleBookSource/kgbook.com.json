@@ -1,1 +1,49 @@
-[{"bookSourceComment": "数据库失效存档", "bookSourceGroup": "我的书源", "bookSourceName": "📥苦瓜书盘(失效)", "bookSourceType": 0, "bookSourceUrl": "https://kgbook.com", "bookUrlPattern": "", "customOrder": 0, "enabled": false, "enabledExplore": true, "exploreUrl": "现代文学::/xiandaiwenxue/<,index_{{page}}.html>\n职场小说::/zhichangxiaoshuo/<,index_{{page}}.html>\n网络小说::/wangluoxiaoshuo/<,index_{{page}}.html>\n\n历史地理::/lishidili/<,index_{{page}}.html>\n战争军事::/zhanzhengjunshi/<,index_{{page}}.html>\n人物传记::/renwuchuanji/<,index_{{page}}.html>\n\n武侠小说::/wuxiaxiaoshuo/<,index_{{page}}.html>\n推理惊悚::/tuilijingsong/<,index_{{page}}.html>\n科幻玄幻::/kehuanxuanhuan/<,index_{{page}}.html>\n\n人文社科::/renwensheke/<,index_{{page}}.html>\n管理书籍::/guanlishuji/<,index_{{page}}.html>\n金融投资::/jinrongtouzi/<,index_{{page}}.html>\n\n自然科学::/zirankexue/<,index_{{page}}.html>\n哲学宗教::/zhexuezongjiao/<,index_{{page}}.html>\n教育学习::/jiaoyuxuexi/<,index_{{page}}.html>\n\n古典文学::/gudianwenxue/<,index_{{page}}.html>\n诗歌散文::/shigesanwen/<,index_{{page}}.html>\n期刊杂志::/qikanzazhi/<,index_{{page}}.html>\n\n外国文学::/waiguowenxue/<,index_{{page}}.html>\n励志成功::/lizhichenggong/<,index_{{page}}.html>\n生活休闲::/shenghuoxiuxian/<,index_{{page}}.html>\n\n电脑网络::/diannaowangluo/<,index_{{page}}.html>\n保健养生::/baojianyangsheng/<,index_{{page}}.html>\n儿童文学::/ertongwenxue/<,index_{{page}}.html>\n\n言情小说::/yanqingxiaoshuo/<,index_{{page}}.html>", "lastUpdateTime": 1614662402991, "loginUrl": "", "ruleBookInfo": {"author": "id.news_details@tag.li.0@text", "canReName": "true", "coverUrl": "id.news_picture@tag.img@src", "intro": "id.introduction@tag.p@textNodes##^##<br>", "kind": "id.news_details@tag.li.2@text&&id.news_details@tag.li.3@text##语言|大小|："}, "ruleContent": {"content": ""}, "ruleExplore": {"author": "tag.em@text", "bookList": "class.channel-item", "bookUrl": "tag.a.0@href", "intro": "class.list-content@tag.p@textNodes##.*\\s\\|\\s摘要：", "kind": "tag.a.1@text", "lastChapter": "{{'点击地址栏下载📥'}}", "name": "tag.a.0@text"}, "ruleSearch": {"author": "tag.a.0@href\n<js>java.ajax (result)</js>\nid.news_details@tag.li.0@text", "bookList": "id.slist@tag.li", "bookUrl": "tag.a.0@href", "intro": "class.text@textNodes", "kind": "tag.a.1@text", "lastChapter": "{{'点击地址栏下载📥'}}", "name": "tag.a.0@text"}, "ruleToc": {"chapterList": "-class.button!-1@tag.a", "chapterName": "{{'点击地址栏下载📥'}}{{@@text}}", "chapterUrl": "href"}, "searchUrl": "/e/search/index.php,{\n\"method\": \"POST\",\n\"body\": \"keyboard={{key}}&show=title%2Cbooksay%2Cbookwriter&tbname=download&tempid=1&submit=%E6%90%9C%E7%B4%A2\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "数据库失效存档",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "📥苦瓜书盘(失效)",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://kgbook.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "现代文学::/xiandaiwenxue/<,index_{{page}}.html>\n职场小说::/zhichangxiaoshuo/<,index_{{page}}.html>\n网络小说::/wangluoxiaoshuo/<,index_{{page}}.html>\n\n历史地理::/lishidili/<,index_{{page}}.html>\n战争军事::/zhanzhengjunshi/<,index_{{page}}.html>\n人物传记::/renwuchuanji/<,index_{{page}}.html>\n\n武侠小说::/wuxiaxiaoshuo/<,index_{{page}}.html>\n推理惊悚::/tuilijingsong/<,index_{{page}}.html>\n科幻玄幻::/kehuanxuanhuan/<,index_{{page}}.html>\n\n人文社科::/renwensheke/<,index_{{page}}.html>\n管理书籍::/guanlishuji/<,index_{{page}}.html>\n金融投资::/jinrongtouzi/<,index_{{page}}.html>\n\n自然科学::/zirankexue/<,index_{{page}}.html>\n哲学宗教::/zhexuezongjiao/<,index_{{page}}.html>\n教育学习::/jiaoyuxuexi/<,index_{{page}}.html>\n\n古典文学::/gudianwenxue/<,index_{{page}}.html>\n诗歌散文::/shigesanwen/<,index_{{page}}.html>\n期刊杂志::/qikanzazhi/<,index_{{page}}.html>\n\n外国文学::/waiguowenxue/<,index_{{page}}.html>\n励志成功::/lizhichenggong/<,index_{{page}}.html>\n生活休闲::/shenghuoxiuxian/<,index_{{page}}.html>\n\n电脑网络::/diannaowangluo/<,index_{{page}}.html>\n保健养生::/baojianyangsheng/<,index_{{page}}.html>\n儿童文学::/ertongwenxue/<,index_{{page}}.html>\n\n言情小说::/yanqingxiaoshuo/<,index_{{page}}.html>",
+    "lastUpdateTime": 1614662402991,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.news_details@tag.li.0@text",
+      "canReName": "true",
+      "coverUrl": "id.news_picture@tag.img@src",
+      "intro": "id.introduction@tag.p@textNodes##^##<br>",
+      "kind": "id.news_details@tag.li.2@text&&id.news_details@tag.li.3@text##语言|大小|："
+    },
+    "ruleContent": {
+      "content": ""
+    },
+    "ruleExplore": {
+      "author": "tag.em@text",
+      "bookList": "class.channel-item",
+      "bookUrl": "tag.a.0@href",
+      "intro": "class.list-content@tag.p@textNodes##.*\\s\\|\\s摘要：",
+      "kind": "tag.a.1@text",
+      "lastChapter": "{{'点击地址栏下载📥'}}",
+      "name": "tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "tag.a.0@href\n<js>java.ajax (result)</js>\nid.news_details@tag.li.0@text",
+      "bookList": "id.slist@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "intro": "class.text@textNodes",
+      "kind": "tag.a.1@text",
+      "lastChapter": "{{'点击地址栏下载📥'}}",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "-class.button!-1@tag.a",
+      "chapterName": "{{'点击地址栏下载📥'}}{{@@text}}",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/e/search/index.php,{\n\"method\": \"POST\",\n\"body\": \"keyboard={{key}}&show=title%2Cbooksay%2Cbookwriter&tbname=download&tempid=1&submit=%E6%90%9C%E7%B4%A2\"\n}",
+    "weight": 0
+  }]

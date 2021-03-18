@@ -1,1 +1,40 @@
-[{"bookSourceComment": "error:failed to connect to www.soshu.vip/58.210.55.194 (port 888) from /192.168.0.103 (port 47232) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 搜书文学网™九天之狼", "bookSourceType": 0, "bookSourceUrl": "http://www.soshu.vip:888", "customOrder": -32381, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "ruleBookInfo": {"author": "class.articleInfoRight@tag.h1@tag.b@text##作者：", "coverUrl": "class.articleInfoPic@src", "intro": "id.wrap@text", "lastChapter": "class.articleInfoRight@tag.h1@tag.a@text", "name": "class.articleInfoRight@tag.h1@text##作者：.*", "tocUrl": "class.right@tag.a@href"}, "ruleContent": {"content": "id.content@html"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.li.1@tag.font.0@text", "bookList": "class.info", "bookUrl": "tag.a.0@href", "coverUrl": "tag.img@src", "intro": "tag.li.0@text##内容简介： ", "kind": "tag.li.1@tag.font.1@text", "lastChapter": "tag.b.1@text", "name": "tag.b@tag.font@text"}, "ruleToc": {"chapterList": "class.ccss@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "http://www.soshu.vip:888/modules/article/search.php?searchtype=articlename&searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:failed to connect to www.soshu.vip/58.210.55.194 (port 888) from /192.168.0.103 (port 47232) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 搜书文学网™九天之狼",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.soshu.vip:888",
+    "customOrder": -32381,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "class.articleInfoRight@tag.h1@tag.b@text##作者：",
+      "coverUrl": "class.articleInfoPic@src",
+      "intro": "id.wrap@text",
+      "lastChapter": "class.articleInfoRight@tag.h1@tag.a@text",
+      "name": "class.articleInfoRight@tag.h1@text##作者：.*",
+      "tocUrl": "class.right@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.li.1@tag.font.0@text",
+      "bookList": "class.info",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "intro": "tag.li.0@text##内容简介： ",
+      "kind": "tag.li.1@tag.font.1@text",
+      "lastChapter": "tag.b.1@text",
+      "name": "tag.b@tag.font@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.ccss@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.soshu.vip:888/modules/article/search.php?searchtype=articlename&searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

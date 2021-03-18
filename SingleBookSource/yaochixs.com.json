@@ -1,1 +1,35 @@
-[{"bookSourceComment": "error:List is empty.\n", "bookSourceGroup": "我的书源,刘备书源", "bookSourceName": "🚬 瑶池小说[仅发现]", "bookSourceType": 0, "bookSourceUrl": "http://www.yaochixs.com", "bookUrlPattern": "", "customOrder": 24571, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻魔法::/list/1_{{page}}.html\n武侠修真::/list/2_{{page}}.html\n都市言情::/list/3_{{page}}.html\n历史军事::/list/4_{{page}}.html\n穿越架空::/list/5_{{page}}.html\n游戏竞技::/list/6_{{page}}.html\n科幻灵异::/list/7_{{page}}.html\n总点击榜::/top/allvisit_{{page}}.html\n月点击榜::/top/monthvisit_{{page}}.html\n周点击榜::/top/weekvisit_{{page}}.html\n日点击榜::/top/dayvisit_{{page}}.html\n总推荐榜::/top/allvote_{{page}}.html\n月推荐榜::/top/monthvote_{{page}}.html\n周推荐榜::/top/weekvote_{{page}}.html\n最新小说::/top/postdate_{{page}}.html\n最近更新::/top/lastupdate_{{page}}.html\n总收藏榜::/top/godnum_{{page}}.html\n字数排行::/top/size_{{page}}.html", "lastUpdateTime": 1602984597222, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.wrapper@tag.img@src", "intro": "class.wrapper@tag.p.0@text##<.*?>"}, "ruleContent": {"content": "class.content@textNodes"}, "ruleExplore": {}, "ruleSearch": {"bookList": "class.clearfix.1@tag.li||class.nav clearfix@tag.span", "bookUrl": "tag.a.0@href", "lastChapter": "tag.a.2@text", "name": "tag.a.1@text"}, "ruleToc": {"chapterList": "class.nav clearfix@tag.span", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.yaochixs.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "我的书源,刘备书源",
+    "bookSourceName": "🚬 瑶池小说[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.yaochixs.com",
+    "bookUrlPattern": "",
+    "customOrder": 24859,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/list/1_{{page}}.html\n武侠修真::/list/2_{{page}}.html\n都市言情::/list/3_{{page}}.html\n历史军事::/list/4_{{page}}.html\n穿越架空::/list/5_{{page}}.html\n游戏竞技::/list/6_{{page}}.html\n科幻灵异::/list/7_{{page}}.html\n总点击榜::/top/allvisit_{{page}}.html\n月点击榜::/top/monthvisit_{{page}}.html\n周点击榜::/top/weekvisit_{{page}}.html\n日点击榜::/top/dayvisit_{{page}}.html\n总推荐榜::/top/allvote_{{page}}.html\n月推荐榜::/top/monthvote_{{page}}.html\n周推荐榜::/top/weekvote_{{page}}.html\n最新小说::/top/postdate_{{page}}.html\n最近更新::/top/lastupdate_{{page}}.html\n总收藏榜::/top/godnum_{{page}}.html\n字数排行::/top/size_{{page}}.html",
+    "lastUpdateTime": 1602984597222,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.wrapper@tag.img@src",
+      "intro": "class.wrapper@tag.p.0@text##<.*?>"
+    },
+    "ruleContent": {
+      "content": "class.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.clearfix.1@tag.li||class.nav clearfix@tag.span",
+      "bookUrl": "tag.a.0@href",
+      "lastChapter": "tag.a.2@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.nav clearfix@tag.span",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.yaochixs.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

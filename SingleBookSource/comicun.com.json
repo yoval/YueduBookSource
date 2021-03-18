@@ -1,1 +1,42 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎨 漫画联合国✈", "bookSourceType": 0, "bookSourceUrl": "https://www.comicun.com", "bookUrlPattern": "", "customOrder": -115824, "enabled": true, "enabledExplore": true, "exploreUrl": "最新更新::https://www.comicun.com/index-update?&page={{page}}\n連載漫畫::https://www.comicun.com/index-html-status-1?&page={{page}}\n完結漫畫::https://www.comicun.com/index-html-status-2?&page={{page}}\n全部::https://www.comicun.com/index-html?&page={{page}}\n萌系::https://www.comicun.com/index-html-typeid-1?&page={{page}}\n搞笑::https://www.comicun.com/index-html-typeid-2?&page={{page}}\n格鬥::https://www.comicun.com/index-html-typeid-3?&page={{page}}\n科幻::https://www.comicun.com/index-html-typeid-4?&page={{page}}\n劇情::https://www.comicun.com/index-html-typeid-5?&page={{page}}\n偵探::https://www.comicun.com/index-html-typeid-6?&page={{page}}\n競技::https://www.comicun.com/index-html-typeid-7?&page={{page}}\n魔法::https://www.comicun.com/index-html-typeid-8?&page={{page}}\n神鬼::https://www.comicun.com/index-html-typeid-9?&page={{page}}\n校園::https://www.comicun.com/index-html-typeid-10?&page={{page}}\n驚栗::https://www.comicun.com/index-html-typeid-11?&page={{page}}\n廚藝::https://www.comicun.com/index-html-typeid-12?&page={{page}}\n偽娘::https://www.comicun.com/index-html-typeid-13?&page={{page}}\n圖片::https://www.comicun.com/index-html-typeid-14?&page={{page}}\n冒險::https://www.comicun.com/index-html-typeid-15?&page={{page}}\n小說::https://www.comicun.com/index-html-typeid-16?&page={{page}}\n港漫::https://www.comicun.com/index-html-typeid-17?&page={{page}}\n耽美::https://www.comicun.com/index-html-typeid-18?&page={{page}}\n經典::https://www.comicun.com/index-html-typeid-19?&page={{page}}\n歐美::https://www.comicun.com/index-html-typeid-20?&page={{page}}\n日文::https://www.comicun.com/index-html-typeid-21?&page={{page}}\n親情::https://www.comicun.com/index-html-typeid-22?&page={{page}}\n修真::https://www.comicun.com/index-html-typeid-25?&page={{page}}\n韓漫::https://www.comicun.com/index-html-typeid-27?&page={{page}}\nnull", "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.0; MI 6 Build/OPR1.170623.027; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.116 Mobile Safari/537.36 T7/10.3 SearchCraft/2.6.3 (Baidu; P1 8.0.0)\"\n}", "lastUpdateTime": 1612115040731, "loginUrl": "", "ruleBookInfo": {"author": "class.info@tag.p.1@tag.a@text", "intro": "class.introduction@text", "kind": "class.info@tag.p.4@tag.a@text", "lastChapter": "class.title@tag.span@text##^\\D+\\s*(\\d+話)##$1", "name": "class.title@tag.h1@text"}, "ruleContent": {"content": "@js:\nvar html=result,\noptions={headers:{Referer:baseUrl}};\n\n(function getImgList(){     \nvar p = /total\\\"\\svalue=\\\"(\\d+)/;     \nvar p1 = /content=\\\"(https:\\/\\/img.comicun.com.*?)\\/(\\d+).(\\w+)\\\"/;\nvar mp = html.match(p1);\nvar jpg = html.match(p)[1];\nvar  jpf = mp[2];\nvar piclist = new Array(jpg); \nfor (var i = 0 ; i < jpg ; i++) {\npiclist[i] = mp[1]+\"/\"+(i+Number(jpf))+\".\"+mp[3];\n}\nreturn piclist; \r\n}()).map(uri=>\n'<img src=\"'+uri+'\">').join(\"\\n\")", "imageStyle": "FULL"}, "ruleExplore": {}, "ruleSearch": {"bookList": "id.dmList@tag.li", "bookUrl": "tag.a.0@href", "coverUrl": "tag.img@src", "kind": "tag.dd@tag.p.2@tag.a@text", "lastChapter": "tag.a.1@text##^\\D+\\s*(\\d+話)##$1", "name": "tag.a.2@text"}, "ruleToc": {"chapterList": "-id.play_1@tag.li", "chapterName": "tag.a@text##^\\D+\\s*(\\d+話)##$1", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.comicun.com/search-index?entry=1&ie=gbk&q={{key}}&page={{page}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎨 漫画联合国✈",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.comicun.com",
+    "bookUrlPattern": "",
+    "customOrder": -115824,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最新更新::https://www.comicun.com/index-update?&page={{page}}\n連載漫畫::https://www.comicun.com/index-html-status-1?&page={{page}}\n完結漫畫::https://www.comicun.com/index-html-status-2?&page={{page}}\n全部::https://www.comicun.com/index-html?&page={{page}}\n萌系::https://www.comicun.com/index-html-typeid-1?&page={{page}}\n搞笑::https://www.comicun.com/index-html-typeid-2?&page={{page}}\n格鬥::https://www.comicun.com/index-html-typeid-3?&page={{page}}\n科幻::https://www.comicun.com/index-html-typeid-4?&page={{page}}\n劇情::https://www.comicun.com/index-html-typeid-5?&page={{page}}\n偵探::https://www.comicun.com/index-html-typeid-6?&page={{page}}\n競技::https://www.comicun.com/index-html-typeid-7?&page={{page}}\n魔法::https://www.comicun.com/index-html-typeid-8?&page={{page}}\n神鬼::https://www.comicun.com/index-html-typeid-9?&page={{page}}\n校園::https://www.comicun.com/index-html-typeid-10?&page={{page}}\n驚栗::https://www.comicun.com/index-html-typeid-11?&page={{page}}\n廚藝::https://www.comicun.com/index-html-typeid-12?&page={{page}}\n偽娘::https://www.comicun.com/index-html-typeid-13?&page={{page}}\n圖片::https://www.comicun.com/index-html-typeid-14?&page={{page}}\n冒險::https://www.comicun.com/index-html-typeid-15?&page={{page}}\n小說::https://www.comicun.com/index-html-typeid-16?&page={{page}}\n港漫::https://www.comicun.com/index-html-typeid-17?&page={{page}}\n耽美::https://www.comicun.com/index-html-typeid-18?&page={{page}}\n經典::https://www.comicun.com/index-html-typeid-19?&page={{page}}\n歐美::https://www.comicun.com/index-html-typeid-20?&page={{page}}\n日文::https://www.comicun.com/index-html-typeid-21?&page={{page}}\n親情::https://www.comicun.com/index-html-typeid-22?&page={{page}}\n修真::https://www.comicun.com/index-html-typeid-25?&page={{page}}\n韓漫::https://www.comicun.com/index-html-typeid-27?&page={{page}}\nnull",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.0; MI 6 Build/OPR1.170623.027; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/48.0.2564.116 Mobile Safari/537.36 T7/10.3 SearchCraft/2.6.3 (Baidu; P1 8.0.0)\"\n}",
+    "lastUpdateTime": 1612115040731,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.info@tag.p.1@tag.a@text",
+      "intro": "class.introduction@text",
+      "kind": "class.info@tag.p.4@tag.a@text",
+      "lastChapter": "class.title@tag.span@text##^\\D+\\s*(\\d+話)##$1",
+      "name": "class.title@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "@js:\nvar html=result,\noptions={headers:{Referer:baseUrl}};\n\n(function getImgList(){     \nvar p = /total\\\"\\svalue=\\\"(\\d+)/;     \nvar p1 = /content=\\\"(https:\\/\\/img.comicun.com.*?)\\/(\\d+).(\\w+)\\\"/;\nvar mp = html.match(p1);\nvar jpg = html.match(p)[1];\nvar  jpf = mp[2];\nvar piclist = new Array(jpg); \nfor (var i = 0 ; i < jpg ; i++) {\npiclist[i] = mp[1]+\"/\"+(i+Number(jpf))+\".\"+mp[3];\n}\nreturn piclist; \r\n}()).map(uri=>\n'<img src=\"'+uri+'\">').join(\"\\n\")",
+      "imageStyle": "FULL"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "id.dmList@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "kind": "tag.dd@tag.p.2@tag.a@text",
+      "lastChapter": "tag.a.1@text##^\\D+\\s*(\\d+話)##$1",
+      "name": "tag.a.2@text"
+    },
+    "ruleToc": {
+      "chapterList": "-id.play_1@tag.li",
+      "chapterName": "tag.a@text##^\\D+\\s*(\\d+話)##$1",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.comicun.com/search-index?entry=1&ie=gbk&q={{key}}&page={{page}}",
+    "weight": 0
+  }]

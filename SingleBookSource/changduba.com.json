@@ -1,1 +1,41 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "👍 55读书", "bookSourceType": 0, "bookSourceUrl": "http://www.changduba.com", "bookUrlPattern": "", "customOrder": 16047, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1603034581260, "loginUrl": "", "ruleBookInfo": {"author": "class.author@text##作者：", "coverUrl": "class.imgbox@tag.img@data-src", "intro": "class.jianjie@tag.p.0@textNodes", "lastChapter": "class.status@tag.p.-1@tag.a@text", "name": "class.status@tag.h1@text", "tocUrl": "class.read@href"}, "ruleContent": {"content": "class.yd_text2@html", "replaceRegex": "##<.*>"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@text", "bookList": "class.grid@tag.tr!0", "bookUrl": "class.odd.0@tag.a@href", "coverUrl": "class.odd.0@tag.a@href@js:result.replace(/\\/(\\d+)\\//,'/files/article/image/$1/$2/$2s.jpg')", "lastChapter": "class.even.0@text##正文", "name": "class.odd.0@text"}, "ruleToc": {"chapterList": "class.mulu_list@tag.li@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "http://www.changduba.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename&submit=搜索", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "👍 55读书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.changduba.com",
+    "bookUrlPattern": "",
+    "customOrder": 16047,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1603034581260,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.author@text##作者：",
+      "coverUrl": "class.imgbox@tag.img@data-src",
+      "intro": "class.jianjie@tag.p.0@textNodes",
+      "lastChapter": "class.status@tag.p.-1@tag.a@text",
+      "name": "class.status@tag.h1@text",
+      "tocUrl": "class.read@href"
+    },
+    "ruleContent": {
+      "content": "class.yd_text2@html",
+      "replaceRegex": "##<.*>"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a@href",
+      "coverUrl": "class.odd.0@tag.a@href@js:result.replace(/\\/(\\d+)\\//,'/files/article/image/$1/$2/$2s.jpg')",
+      "lastChapter": "class.even.0@text##正文",
+      "name": "class.odd.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.mulu_list@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.changduba.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename&submit=搜索",
+    "weight": 0
+  }]

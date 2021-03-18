@@ -1,1 +1,41 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🍑 千千", "bookSourceType": 0, "bookSourceUrl": "http://m.newqqxs.com", "bookUrlPattern": "", "customOrder": -31178, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": "td@img@src", "intro": "class.intro@textNodes##各位书友要是.*|&&gt;/p&&lt;", "lastChapter": "tag.p@text.最新.+@a@text", "tocUrl": "text.章节目录@href"}, "ruleContent": {"content": "id.nr1@textNodes##一秒.*精彩小说。", "nextContentUrl": "text.下一页@href"}, "ruleExplore": {}, "ruleSearch": {"author": "class.author@text##作者：", "bookList": "class.waps_r@class.waps_one", "bookUrl": "class.waps_name@a@href", "coverUrl": "tag.a.0@href##/book_(\\d+)(\\d{3})/##http://www.newqqxs.com/files/article/image/$1/$1$2/$1$2s.jpg", "kind": "class.waps_full_0@text&&span@.waps_sort@text##\\(|\\)", "lastChapter": "class.genxin@a@text", "name": "class.waps_name@a@text"}, "ruleToc": {"chapterList": "class.lb_mulu@li@a", "chapterName": "text##返回.*简介", "chapterUrl": "href", "nextTocUrl": "text.下一页@href"}, "searchUrl": "http://m.newqqxs.com/modules/article/waps.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=articlename&searchkey={{key}}&t_btnsearch=\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍑 千千",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.newqqxs.com",
+    "bookUrlPattern": "",
+    "customOrder": -31178,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "td@img@src",
+      "intro": "class.intro@textNodes##各位书友要是.*|&&gt;/p&&lt;",
+      "lastChapter": "tag.p@text.最新.+@a@text",
+      "tocUrl": "text.章节目录@href"
+    },
+    "ruleContent": {
+      "content": "id.nr1@textNodes##一秒.*精彩小说。",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text##作者：",
+      "bookList": "class.waps_r@class.waps_one",
+      "bookUrl": "class.waps_name@a@href",
+      "coverUrl": "tag.a.0@href##/book_(\\d+)(\\d{3})/##http://www.newqqxs.com/files/article/image/$1/$1$2/$1$2s.jpg",
+      "kind": "class.waps_full_0@text&&span@.waps_sort@text##\\(|\\)",
+      "lastChapter": "class.genxin@a@text",
+      "name": "class.waps_name@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.lb_mulu@li@a",
+      "chapterName": "text##返回.*简介",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "http://m.newqqxs.com/modules/article/waps.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=articlename&searchkey={{key}}&t_btnsearch=\"\n}",
+    "weight": 0
+  }]

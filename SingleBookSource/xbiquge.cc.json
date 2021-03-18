@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "🎉 笔趣阁 xbiqugecc", "bookSourceType": 0, "bookSourceUrl": "https://www.xbiquge.cc-By Dark", "bookUrlPattern": "", "customOrder": -32118, "enabled": true, "enabledExplore": true, "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}", "lastUpdateTime": 1602776645805, "loginUrl": "", "ruleBookInfo": {"coverUrl": "id.fmimg@tag.img.0@src", "intro": "id.intro@textNodes"}, "ruleContent": {"content": "id.content@textNodes##笔趣阁.*最新章节！"}, "ruleExplore": {}, "ruleSearch": {"author": "class.s4@text||tag.p.0@tag.a@text", "bookList": "class.novelslistss@tag.li||id.info", "bookUrl": "class.s2@tag.a.0@href", "kind": "class.s1@text##\\[|\\]", "lastChapter": "class.s3@tag.a.0@text||tag.p.3@tag.a@text", "name": "class.s2@tag.a@text||tag.h1@text"}, "ruleToc": {"chapterList": "id.list@tag.dd", "chapterName": "tag.a.0@text", "chapterUrl": "tag.a.0@href"}, "searchUrl": "https://www.xbiquge.cc/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "🎉 笔趣阁 xbiqugecc",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xbiquge.cc-By Dark",
+    "bookUrlPattern": "",
+    "customOrder": -32118,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
+    "lastUpdateTime": 1602776645805,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "intro": "id.intro@textNodes"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##笔趣阁.*最新章节！"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text||tag.p.0@tag.a@text",
+      "bookList": "class.novelslistss@tag.li||id.info",
+      "bookUrl": "class.s2@tag.a.0@href",
+      "kind": "class.s1@text##\\[|\\]",
+      "lastChapter": "class.s3@tag.a.0@text||tag.p.3@tag.a@text",
+      "name": "class.s2@tag.a@text||tag.h1@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd",
+      "chapterName": "tag.a.0@text",
+      "chapterUrl": "tag.a.0@href"
+    },
+    "searchUrl": "https://www.xbiquge.cc/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

@@ -1,1 +1,44 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,正版小说", "bookSourceName": "飞卢小说", "bookSourceType": 0, "bookSourceUrl": "https://b.faloo.com", "bookUrlPattern": "https://b\\.faloo\\.com/f/\\d+.html", "customOrder": -117679, "enabled": true, "enabledExplore": true, "exploreUrl": "原创书库::https://b.faloo.com/y/0/0/0/0/0/9/{{page}}.html\n玄幻奇幻::https://b.faloo.com/y/1/0/0/0/0/9/{{page}}.html\n武侠仙侠::https://b.faloo.com/y/6/0/0/0/0/9/{{page}}.html\n同人小说::https://b.faloo.com/y/44/0/0/0/0/9/{{page}}.html\n都市言情::https://b.faloo.com/y/4/0/0/0/0/9/{{page}}.html\n军事历史::https://b.faloo.com/y/3/0/0/0/0/9/{{page}}.html\n科幻网游::https://b.faloo.com/y/2/0/0/0/0/9/{{page}}.html\n恐怖灵异::https://b.faloo.com/y/5/0/0/0/0/9/{{page}}.html\n青春校园::https://b.faloo.com/y/7/0/0/0/0/9/{{page}}.html\n女生小说::https://b.faloo.com/y/54/0/0/0/0/9/{{page}}.html\n短篇其他::https://b.faloo.com/y/9/0/0/0/0/9/{{page}}.html\n轻の小说::https://b.faloo.com/y/97/0/0/0/0/9/{{page}}.html", "lastUpdateTime": 1615837070840, "loginUrl": "https://u.faloo.com/regist/Login.aspx", "ruleBookInfo": {"author": "class.rentouOne@text", "coverUrl": "class.T-L-T-Img@tag.img.0@src", "intro": "class.T-L-T-C-Box1@text##^(?=【)|\\s+##<br/>", "kind": "clasd.T-R-T-B2-Box1@text", "lastChapter": "class.T-L-Th-Box1@text##.*?》", "name": "id.novelName@text"}, "ruleContent": {"content": "class.noveContent@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.TwoBox02_09@tag.a.0@text", "bookList": "class.TwoBox02_02", "bookUrl": "class.TwoBox02_03@tag.a.0@href", "coverUrl": "class.TYImg@tag.img.0@data-original", "intro": "class.TwoBox02_06@tag.a.0@text", "kind": "class.TwoBox02_05.1@tag.a.0@text", "lastChapter": "class.TwoBox02_05.2@tag.a.0@text", "name": "class.TwoBox02_08@tag.a.0@text", "wordCount": "class.TwoBox02_05@tag.span.4@text##字数："}, "ruleToc": {"chapterList": "class.DivTd@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://b.faloo.com/l/0/1.html?t=1&k={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,正版小说",
+    "bookSourceName": "飞卢小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://b.faloo.com",
+    "bookUrlPattern": "https://b\\.faloo\\.com/f/\\d+.html",
+    "customOrder": -117679,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "原创书库::https://b.faloo.com/y/0/0/0/0/0/9/{{page}}.html\n玄幻奇幻::https://b.faloo.com/y/1/0/0/0/0/9/{{page}}.html\n武侠仙侠::https://b.faloo.com/y/6/0/0/0/0/9/{{page}}.html\n同人小说::https://b.faloo.com/y/44/0/0/0/0/9/{{page}}.html\n都市言情::https://b.faloo.com/y/4/0/0/0/0/9/{{page}}.html\n军事历史::https://b.faloo.com/y/3/0/0/0/0/9/{{page}}.html\n科幻网游::https://b.faloo.com/y/2/0/0/0/0/9/{{page}}.html\n恐怖灵异::https://b.faloo.com/y/5/0/0/0/0/9/{{page}}.html\n青春校园::https://b.faloo.com/y/7/0/0/0/0/9/{{page}}.html\n女生小说::https://b.faloo.com/y/54/0/0/0/0/9/{{page}}.html\n短篇其他::https://b.faloo.com/y/9/0/0/0/0/9/{{page}}.html\n轻の小说::https://b.faloo.com/y/97/0/0/0/0/9/{{page}}.html",
+    "lastUpdateTime": 1615837070840,
+    "loginUrl": "https://u.faloo.com/regist/Login.aspx",
+    "ruleBookInfo": {
+      "author": "class.rentouOne@text",
+      "coverUrl": "class.T-L-T-Img@tag.img.0@src",
+      "intro": "class.T-L-T-C-Box1@text##^(?=【)|\\s+##<br/>",
+      "kind": "clasd.T-R-T-B2-Box1@text",
+      "lastChapter": "class.T-L-Th-Box1@text##.*?》",
+      "name": "id.novelName@text"
+    },
+    "ruleContent": {
+      "content": "class.noveContent@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.TwoBox02_09@tag.a.0@text",
+      "bookList": "class.TwoBox02_02",
+      "bookUrl": "class.TwoBox02_03@tag.a.0@href",
+      "coverUrl": "class.TYImg@tag.img.0@data-original",
+      "intro": "class.TwoBox02_06@tag.a.0@text",
+      "kind": "class.TwoBox02_05.1@tag.a.0@text",
+      "lastChapter": "class.TwoBox02_05.2@tag.a.0@text",
+      "name": "class.TwoBox02_08@tag.a.0@text",
+      "wordCount": "class.TwoBox02_05@tag.span.4@text##字数："
+    },
+    "ruleToc": {
+      "chapterList": "class.DivTd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://b.faloo.com/l/0/1.html?t=1&k={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

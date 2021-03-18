@@ -1,1 +1,49 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "笔趣阁(xs.la)", "bookSourceType": 0, "bookSourceUrl": "https://www.xs.la/", "customOrder": -859, "enabled": true, "enabledExplore": true, "exploreUrl": "奇幻玄幻::https://www.xs.la/newclass/1/{{page}}.html\n武侠仙侠::/newclass/2/{{page}}.html\n都市言情::/newclass/3/{{page}}.html\n历史军事::/newclass/4/{{page}}.html\n科幻灵异::/newclass/5/{{page}}.html\n网游竞技::/newclass/6/{{page}}.html\n女生频道::/newclass/7/{{page}}.html", "lastUpdateTime": 0, "ruleBookInfo": {"author": "class.fix@tag.p.0@text##作  者：", "coverUrl": "img@src", "init": "class.detail-box", "intro": "class.desc xs-hidden@text", "kind": "class.fix@tag.p.1@text##类  别：", "name": "class.top@tag.h1@text"}, "ruleContent": {"content": "class.content@html", "nextContentUrl": "text.下一页@href"}, "ruleExplore": {"author": "class.s4@text", "bookList": "class.txt-list txt-list-row5@tag.li", "bookUrl": "class.s2@tag.a@href", "kind": "class.s1@text##[    ]", "lastChapter": "class.s3@tag.a@text", "name": "class.s2@tag.a@text", "wordCount": "class.s5@text"}, "ruleSearch": {"author": "class.s4@text", "bookList": "class.container@tag.li", "bookUrl": "class.s2@tag.a@href", "kind": "class.s1@text##[    ]", "lastChapter": "class.s3@tag.a@text", "name": "class.s2@tag.a@text", "wordCount": "class.s5@text"}, "ruleToc": {"chapterList": "class.section-box@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.xs.la/ar.php?keyWord={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "笔趣阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xs.la/",
+    "customOrder": -859,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "奇幻玄幻::https://www.xs.la/newclass/1/{{page}}.html\n武侠仙侠::/newclass/2/{{page}}.html\n都市言情::/newclass/3/{{page}}.html\n历史军事::/newclass/4/{{page}}.html\n科幻灵异::/newclass/5/{{page}}.html\n网游竞技::/newclass/6/{{page}}.html\n女生频道::/newclass/7/{{page}}.html",
+    "lastUpdateTime": 1615880366655,
+    "ruleBookInfo": {
+      "author": "class.fix@tag.p.0@text##作  者：",
+      "coverUrl": "img@src",
+      "init": "class.detail-box",
+      "intro": "class.desc xs-hidden@text",
+      "kind": "class.fix@tag.p.1@text##类  别：",
+      "name": "class.top@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "class.content@html",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+      "author": "class.s4@text",
+      "bookList": "class.txt-list txt-list-row5@tag.li",
+      "bookUrl": "class.s2@tag.a@href",
+      "kind": "class.s1@text##[    ]",
+      "lastChapter": "class.s3@tag.a@text",
+      "name": "class.s2@tag.a@text",
+      "wordCount": "class.s5@text"
+    },
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.container@tag.li",
+      "bookUrl": "class.s2@tag.a@href",
+      "kind": "class.s1@text##[    ]",
+      "lastChapter": "class.s3@tag.a@text",
+      "name": "class.s2@tag.a@text",
+      "wordCount": "class.s5@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.section-box@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.xs.la/ar.php?keyWord={{key}}",
+    "weight": 0
+  }]

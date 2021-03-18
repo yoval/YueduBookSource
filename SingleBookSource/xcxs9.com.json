@@ -1,1 +1,46 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,刘备书源", "bookSourceName": "🚬 乡村小说①", "bookSourceType": 0, "bookSourceUrl": "http://m.xcxs9.com", "customOrder": 24494, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻魔法::/sort-1-{{page}}/\n都市言情::/sort-3-{{page}}/\n科幻小说::/sort-6-{{page}}/\n乡村小说::/sort-7-{{page}}/\n其他类型::/sort-8-{{page}}/\n完本小说::/full-{{page}}/", "lastUpdateTime": 1612456308373, "ruleBookInfo": {"author": "tag.p.2@text", "coverUrl": "class.block_img2@tag.img@src", "intro": "class.intro_info@text", "kind": "tag.p.1@text", "lastChapter": "tag.p.6@text##最新：", "name": "tag.h2@text", "tocUrl": "class.ablum_read@tag.span.1@tag.a@href", "wordCount": "tag.p.4@text##状态："}, "ruleContent": {"content": "id.nr1@textNodes", "imageStyle": "0", "nextContentUrl": "id.pb_next@text.下一页@href"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.a.2@text", "bookList": "class.cover@tag.p", "bookUrl": "tag.a.1@href", "coverUrl": "tag.a.1@href##.+\\D((\\d+)\\d{3})\\D##http://www.xcxs9.com/files/article/image/$2/$1/$1s.jpg###", "intro": "", "kind": "tag.a.0@text##\\[|\\]", "name": "tag.a.1@text", "wordCount": ""}, "ruleToc": {"chapterList": "class.chapter@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "nextTocUrl": "class.page.0@tag.a@href"}, "searchUrl": "/modules/article/waps.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=articlename&searchkey={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,刘备书源",
+    "bookSourceName": "🚬 乡村小说①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.xcxs9.com",
+    "customOrder": 24782,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/sort-1-{{page}}/\n都市言情::/sort-3-{{page}}/\n科幻小说::/sort-6-{{page}}/\n乡村小说::/sort-7-{{page}}/\n其他类型::/sort-8-{{page}}/\n完本小说::/full-{{page}}/",
+    "lastUpdateTime": 1612456308373,
+    "ruleBookInfo": {
+      "author": "tag.p.2@text",
+      "coverUrl": "class.block_img2@tag.img@src",
+      "intro": "class.intro_info@text",
+      "kind": "tag.p.1@text",
+      "lastChapter": "tag.p.6@text##最新：",
+      "name": "tag.h2@text",
+      "tocUrl": "class.ablum_read@tag.span.1@tag.a@href",
+      "wordCount": "tag.p.4@text##状态："
+    },
+    "ruleContent": {
+      "content": "id.nr1@textNodes",
+      "imageStyle": "0",
+      "nextContentUrl": "id.pb_next@text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.cover@tag.p",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.a.1@href##.+\\D((\\d+)\\d{3})\\D##http://www.xcxs9.com/files/article/image/$2/$1/$1s.jpg###",
+      "intro": "",
+      "kind": "tag.a.0@text##\\[|\\]",
+      "name": "tag.a.1@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "class.page.0@tag.a@href"
+    },
+    "searchUrl": "/modules/article/waps.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=articlename&searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

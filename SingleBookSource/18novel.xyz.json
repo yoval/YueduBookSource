@@ -1,1 +1,36 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,刘备书源", "bookSourceName": "🚬 18疯情", "bookSourceType": 0, "bookSourceUrl": "https://www.18novel.xyz", "bookUrlPattern": "", "customOrder": 24401, "enabled": true, "enabledExplore": true, "exploreUrl": "女优腥聞::https://www.18novel.xyz/category/av/<,page/{{page}}/>\n免费视频::https://www.18novel.xyz/category/freevideo/<,page/{{page}}/>\n情色文学::https://www.18novel.xyz/category/adult_novel/<,page/{{page}}/>\n人妻熟女::https://www.18novel.xyz/category/adult_novel/wife/<,page/{{page}}/>\n近亲乱伦::https://www.18novel.xyz/category/adult_novel/incest/<,page/{{page}}/>\n经典激情::https://www.18novel.xyz/category/adult_novel/passion/<,page/{{page}}/>\n学生校园::https://www.18novel.xyz/category/adult_novel/school/<,page/{{page}}/>\n强暴虐待::https://www.18novel.xyz/category/adult_novel/bdsm/<,page/{{page}}/>\n职业制服::https://www.18novel.xyz/category/adult_novel/uniform/<,page/{{page}}/>\n都市生活::https://www.18novel.xyz/category/adult_novel/sexincity/<,page/{{page}}/>\n色情H漫::https://www.18novel.xyz/category/h_manga/<,page/{{page}}/>\n网络美女::https://www.18novel.xyz/category/online-beauty/<,page/{{page}}/>\n女优写真::https://www.18novel.xyz/category/av-photo/<,page/{{page}}/>", "lastUpdateTime": 1612517669967, "loginUrl": "", "ruleBookInfo": {"author": "class.fa fa-user@text", "name": "class.article-title@text"}, "ruleContent": {"content": "class.article-content@html##.*gif.*"}, "ruleExplore": {}, "ruleSearch": {"bookList": "id.cardslist@children", "bookUrl": "h3@a@href", "coverUrl": "img@data-original", "kind": "class.metacat.0@text", "name": "h3@a@text##- 18疯情"}, "ruleToc": {"chapterList": "h1", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.18novel.xyz/search/{{key}}/page/{{page}}/", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,刘备书源",
+    "bookSourceName": "🚬 18疯情",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.18novel.xyz",
+    "bookUrlPattern": "",
+    "customOrder": 24689,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "女优腥聞::https://www.18novel.xyz/category/av/<,page/{{page}}/>\n免费视频::https://www.18novel.xyz/category/freevideo/<,page/{{page}}/>\n情色文学::https://www.18novel.xyz/category/adult_novel/<,page/{{page}}/>\n人妻熟女::https://www.18novel.xyz/category/adult_novel/wife/<,page/{{page}}/>\n近亲乱伦::https://www.18novel.xyz/category/adult_novel/incest/<,page/{{page}}/>\n经典激情::https://www.18novel.xyz/category/adult_novel/passion/<,page/{{page}}/>\n学生校园::https://www.18novel.xyz/category/adult_novel/school/<,page/{{page}}/>\n强暴虐待::https://www.18novel.xyz/category/adult_novel/bdsm/<,page/{{page}}/>\n职业制服::https://www.18novel.xyz/category/adult_novel/uniform/<,page/{{page}}/>\n都市生活::https://www.18novel.xyz/category/adult_novel/sexincity/<,page/{{page}}/>\n色情H漫::https://www.18novel.xyz/category/h_manga/<,page/{{page}}/>\n网络美女::https://www.18novel.xyz/category/online-beauty/<,page/{{page}}/>\n女优写真::https://www.18novel.xyz/category/av-photo/<,page/{{page}}/>",
+    "lastUpdateTime": 1612517669967,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.fa fa-user@text",
+      "name": "class.article-title@text"
+    },
+    "ruleContent": {
+      "content": "class.article-content@html##.*gif.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "id.cardslist@children",
+      "bookUrl": "h3@a@href",
+      "coverUrl": "img@data-original",
+      "kind": "class.metacat.0@text",
+      "name": "h3@a@text##- 18疯情"
+    },
+    "ruleToc": {
+      "chapterList": "h1",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.18novel.xyz/search/{{key}}/page/{{page}}/",
+    "weight": 0
+  }]

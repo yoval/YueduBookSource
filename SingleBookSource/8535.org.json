@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "阿甘小说网", "bookSourceType": 0, "bookSourceUrl": "https://m.8535.org", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": false, "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36\"\n}", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "class.dd_box.0@text##作者：", "coverUrl": "class.pic@img@src", "intro": "class.info_box_txt@text", "lastChapter": "classupdate@tag.a.2@text", "name": "class.name@text"}, "ruleContent": {"content": "id.article@textNodes"}, "ruleExplore": {}, "ruleSearch": {"bookList": "//*[@class=\"result\"][position()<3]", "bookUrl": "href", "name": "class.result-title@text##最新章节.*|第.*章.*"}, "ruleToc": {"chapterList": "class.mulu@tag.li!-1@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "http://zhannei.baidu.com/cse/search?s=12110286020204901509&q={{key}}&submit=,{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "阿甘小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.8535.org",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.dd_box.0@text##作者：",
+      "coverUrl": "class.pic@img@src",
+      "intro": "class.info_box_txt@text",
+      "lastChapter": "classupdate@tag.a.2@text",
+      "name": "class.name@text"
+    },
+    "ruleContent": {
+      "content": "id.article@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "//*[@class=\"result\"][position()<3]",
+      "bookUrl": "href",
+      "name": "class.result-title@text##最新章节.*|第.*章.*"
+    },
+    "ruleToc": {
+      "chapterList": "class.mulu@tag.li!-1@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://zhannei.baidu.com/cse/search?s=12110286020204901509&q={{key}}&submit=,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

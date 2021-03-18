@@ -1,1 +1,40 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "飘天文学网ptwxz.com", "bookSourceType": 0, "bookSourceUrl": "https://www.ptwxz.com", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻魔法::https://www.ptwxz.com/booksort1/0/{{page}}.html\n武侠修真::https://www.ptwxz.com/booksort2/0/{{page}}.html\n都市言情::https://www.ptwxz.com/booksort3/0/{{page}}.html\n历史军事::https://www.ptwxz.com/booksort4/0/{{page}}.html\n网游竞技::https://www.ptwxz.com/booksort5/0/{{page}}.html\n科幻小说::https://www.ptwxz.com/booksort6/0/{{page}}.html\n恐怖灵异::https://www.ptwxz.com/booksort7/0/{{page}}.html\n同人漫画::https://www.ptwxz.com/booksort8/0/{{page}}.html\n其他类型::https://www.ptwxz.com/booksort9/0/{{page}}.html\n全本小说::https://www.ptwxz.com/quanben/index.html?page={{page}}\n全部文章::https://www.ptwxz.com/booksort/0/{{page}}.html\n总排行榜::https://www.ptwxz.com/booktopallvisit/0/{{page}}.html\n总推荐榜::https://www.ptwxz.com/booktopallvote/0/{{page}}.html\n月排行榜::https://www.ptwxz.com/booktopmonthvisit/0/{{page}}.html\n月推荐榜::https://www.ptwxz.com/booktopmonthvote/0/{{page}}.html\n周排行榜::https://www.ptwxz.com/booktopweekvisit/0/{{page}}.html\n周推荐榜::https://www.ptwxz.com/booktopweekvote/0/{{page}}.html\n最新入库::https://www.ptwxz.com/booktoppostdate/0/{{page}}.html\n最近更新::https://www.ptwxz.com/booktoplastupdate/0/{{page}}.html\n原创更新::https://www.ptwxz.com/booktopauthorupdate/0/{{page}}.html\n转载更新::https://www.ptwxz.com/booktopmasterupdate/0/{{page}}.html\n总收藏榜::https://www.ptwxz.com/booktopgoodnum/0/{{page}}.html\n字数排行::https://www.ptwxz.com/booktopsize/0/{{page}}.html", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "tag.title.0@text##.*最新章节.|作品.*", "coverUrl": "tag.tbody.3@tag.td.1@tag.img@src", "intro": "tag.tbody.3@text##.*内容简介：", "tocUrl": "id.centerm@tag.a.0@href"}, "ruleContent": {"content": "tag.body@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.tbody.1@tag.td.3@text||class.odd.1@text||tag.span.0@text##作\\s*者：", "bookList": "tag.h1||class.grid@tag.tr!0||tag.ul@tag.li", "bookUrl": "class.odd.0@tag.a.0@href||class.name@href||class.name@tag.a@href", "coverUrl": "", "kind": "class.even.2@text", "lastChapter": "class.even.0@tag.a.0@text||tag.td.2@text", "name": "tag.h1.0@text||class.odd.0@tag.a.0@text||class.name@text"}, "ruleToc": {"chapterList": "class.centent@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.ptwxz.com/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&page={{page}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "飘天文学网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ptwxz.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::https://www.ptwxz.com/booksort1/0/{{page}}.html\n武侠修真::https://www.ptwxz.com/booksort2/0/{{page}}.html\n都市言情::https://www.ptwxz.com/booksort3/0/{{page}}.html\n历史军事::https://www.ptwxz.com/booksort4/0/{{page}}.html\n网游竞技::https://www.ptwxz.com/booksort5/0/{{page}}.html\n科幻小说::https://www.ptwxz.com/booksort6/0/{{page}}.html\n恐怖灵异::https://www.ptwxz.com/booksort7/0/{{page}}.html\n同人漫画::https://www.ptwxz.com/booksort8/0/{{page}}.html\n其他类型::https://www.ptwxz.com/booksort9/0/{{page}}.html\n全本小说::https://www.ptwxz.com/quanben/index.html?page={{page}}\n全部文章::https://www.ptwxz.com/booksort/0/{{page}}.html\n总排行榜::https://www.ptwxz.com/booktopallvisit/0/{{page}}.html\n总推荐榜::https://www.ptwxz.com/booktopallvote/0/{{page}}.html\n月排行榜::https://www.ptwxz.com/booktopmonthvisit/0/{{page}}.html\n月推荐榜::https://www.ptwxz.com/booktopmonthvote/0/{{page}}.html\n周排行榜::https://www.ptwxz.com/booktopweekvisit/0/{{page}}.html\n周推荐榜::https://www.ptwxz.com/booktopweekvote/0/{{page}}.html\n最新入库::https://www.ptwxz.com/booktoppostdate/0/{{page}}.html\n最近更新::https://www.ptwxz.com/booktoplastupdate/0/{{page}}.html\n原创更新::https://www.ptwxz.com/booktopauthorupdate/0/{{page}}.html\n转载更新::https://www.ptwxz.com/booktopmasterupdate/0/{{page}}.html\n总收藏榜::https://www.ptwxz.com/booktopgoodnum/0/{{page}}.html\n字数排行::https://www.ptwxz.com/booktopsize/0/{{page}}.html",
+    "lastUpdateTime": 1615880748777,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "tag.title.0@text##.*最新章节.|作品.*",
+      "coverUrl": "tag.tbody.3@tag.td.1@tag.img@src",
+      "intro": "tag.tbody.3@text##.*内容简介：",
+      "tocUrl": "id.centerm@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "tag.body@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.tbody.1@tag.td.3@text||class.odd.1@text||tag.span.0@text##作\\s*者：",
+      "bookList": "tag.h1||class.grid@tag.tr!0||tag.ul@tag.li",
+      "bookUrl": "class.odd.0@tag.a.0@href||class.name@href||class.name@tag.a@href",
+      "coverUrl": "",
+      "kind": "class.even.2@text",
+      "lastChapter": "class.even.0@tag.a.0@text||tag.td.2@text",
+      "name": "tag.h1.0@text||class.odd.0@tag.a.0@text||class.name@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.centent@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.ptwxz.com/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&page={{page}}\"\n}",
+    "weight": 0
+  }]

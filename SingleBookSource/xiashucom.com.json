@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 下书网", "bookSourceType": 0, "bookSourceUrl": "https://m.xiashucom.com", "customOrder": -32135, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1602987803830, "ruleBookInfo": {"author": "id.author@a@text", "coverUrl": "id.bookimg@src", "intro": "id.bookintro@text", "lastChapter": "class.new_t@a@text", "name": "class.bookright@h1@text", "tocUrl": "text.打开完整目录列表@href"}, "ruleContent": {"content": "id.pt-pop@html"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.td.2@text", "bookList": "class.booklists@tbody@tr", "bookUrl": "tag.a.1@href", "kind": "tag.a.0@text", "lastChapter": "tag.a.2@text", "name": "tag.a.1@text"}, "ruleToc": {"chapterList": "class.mulu@dl@dd@a", "chapterName": "text", "chapterUrl": "href##^##https://m.xiashucom.com"}, "searchUrl": "https://www.xiashucom.com/search/result.html?searchkey={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 下书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.xiashucom.com",
+    "customOrder": -32135,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1602987803830,
+    "ruleBookInfo": {
+      "author": "id.author@a@text",
+      "coverUrl": "id.bookimg@src",
+      "intro": "id.bookintro@text",
+      "lastChapter": "class.new_t@a@text",
+      "name": "class.bookright@h1@text",
+      "tocUrl": "text.打开完整目录列表@href"
+    },
+    "ruleContent": {
+      "content": "id.pt-pop@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "class.booklists@tbody@tr",
+      "bookUrl": "tag.a.1@href",
+      "kind": "tag.a.0@text",
+      "lastChapter": "tag.a.2@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.mulu@dl@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href##^##https://m.xiashucom.com"
+    },
+    "searchUrl": "https://www.xiashucom.com/search/result.html?searchkey={{key}}",
+    "weight": 0
+  }]

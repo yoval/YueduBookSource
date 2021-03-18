@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "笔趣阁biqugeii.com", "bookSourceType": 0, "bookSourceUrl": "https://www.biqugeii.com", "bookUrlPattern": "", "customOrder": 112, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻::https://m.biqugeii.com/sort/1_{{page}}/\n修真::https://m.biqugeii.com/sort/2_{{page}}/\n都市::https://m.biqugeii.com/sort/3_{{page}}/\n穿越::https://m.biqugeii.com/sort/4_{{page}}/\n网游::https://m.biqugeii.com/sort/5_{{page}}/\n科幻::https://m.biqugeii.com/sort/6_{{page}}/\n其他::https://m.biqugeii.com/sort/7_{{page}}/\n完本::https://m.biqugeii.com/full/{{page}}/", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": "id.fmimg@tag.img@src", "intro": "id.intro@text"}, "ruleContent": {"content": "id.content@textNodes", "nextContentUrl": "text.下一页@href"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@text", "bookList": "class.grid@tag.tr!0", "bookUrl": "class.odd.0@tag.a@href", "lastChapter": "class.even.0@tag.a@text", "name": "class.odd.0@tag.a@text"}, "ruleToc": {"chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.biqugeii.com/modules/article/search.php?type=articlename&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "笔趣阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.biqugeii.com",
+    "bookUrlPattern": "",
+    "customOrder": 112,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::https://m.biqugeii.com/sort/1_{{page}}/\n修真::https://m.biqugeii.com/sort/2_{{page}}/\n都市::https://m.biqugeii.com/sort/3_{{page}}/\n穿越::https://m.biqugeii.com/sort/4_{{page}}/\n网游::https://m.biqugeii.com/sort/5_{{page}}/\n科幻::https://m.biqugeii.com/sort/6_{{page}}/\n其他::https://m.biqugeii.com/sort/7_{{page}}/\n完本::https://m.biqugeii.com/full/{{page}}/",
+    "lastUpdateTime": 1615880830466,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a@href",
+      "lastChapter": "class.even.0@tag.a@text",
+      "name": "class.odd.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.biqugeii.com/modules/article/search.php?type=articlename&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

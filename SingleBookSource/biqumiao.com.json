@@ -1,1 +1,64 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "👍 笔趣喵", "bookSourceType": 0, "bookSourceUrl": "https://www.biqumiao.com", "bookUrlPattern": "", "customOrder": 16041, "enabled": true, "enabledExplore": true, "exploreUrl": "", "header": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3765.400 QQBrowser/10.6.4148.400", "lastUpdateTime": 1602760208397, "loginUrl": "", "ruleBookInfo": {"author": "", "coverUrl": "", "init": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "tocUrl": "", "wordCount": ""}, "ruleContent": {"content": "id.TextContent@html", "nextContentUrl": "", "sourceRegex": "", "webJs": ""}, "ruleExplore": {"author": "", "bookList": "", "bookUrl": "", "coverUrl": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "wordCount": ""}, "ruleSearch": {"author": "class.book_other.0@tag.span.0@text", "bookList": "id.sitembox@tag.dl", "bookUrl": "tag.a.0@href", "coverUrl": "tag.img@src", "intro": "class.book_des@text", "kind": "class.book_other.0@tag.span.2@text", "lastChapter": "class.book_other.0@tag.a@text", "name": "tag.h3@text", "wordCount": "class.book_other.0@tag.span.3@text<js>\"字数：\"+result;</js>"}, "ruleToc": {"chapterList": "id.chapterList@tag.a", "chapterName": "text", "chapterUrl": "href", "isVip": "", "nextTocUrl": "", "updateTime": ""}, "searchUrl": "/search.php,{\"method\": \"POST\",\"body\":\"searchkey={{key}}\",\"charset\": \"gbk\"}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "👍 笔趣喵",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.biqumiao.com",
+    "bookUrlPattern": "",
+    "customOrder": 16041,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3765.400 QQBrowser/10.6.4148.400",
+    "lastUpdateTime": 1602760208397,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "",
+      "init": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.TextContent@html",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.book_other.0@tag.span.0@text",
+      "bookList": "id.sitembox@tag.dl",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.book_des@text",
+      "kind": "class.book_other.0@tag.span.2@text",
+      "lastChapter": "class.book_other.0@tag.a@text",
+      "name": "tag.h3@text",
+      "wordCount": "class.book_other.0@tag.span.3@text<js>\"字数：\"+result;</js>"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterList@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "/search.php,{\"method\": \"POST\",\"body\":\"searchkey={{key}}\",\"charset\": \"gbk\"}",
+    "weight": 0
+  }]

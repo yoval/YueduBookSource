@@ -1,1 +1,43 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "🔰 13新笔趣阁", "bookSourceType": 0, "bookSourceUrl": "http://www.xinbqg.com", "bookUrlPattern": "", "customOrder": 16113, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻小说::http://www.xinbqg.com/xuanhuanxiaoshuo/1_{{page}}.html\n修真小说::http://www.xinbqg.com/xiuzhenxiaoshuo/1_{{page}}.html\n都市小说::http://www.xinbqg.com/dushixiaoshuo/1_{{page}}.html\n穿越小说::http://www.xinbqg.com/chuanyuexiaoshuo/1_{{page}}.html\n网游小说::http://www.xinbqg.com/wangyouxiaoshuo/1_{{page}}.html\n科幻小说::http://www.xinbqg.com/kehuanxiaoshuo/1_{{page}}.html\n完本小说::http://www.xinbqg.com/wanben/1_{{page}}/", "lastUpdateTime": 1602899130755, "loginUrl": "", "ruleBookInfo": {"author": "//div[@id=\"info\"]//p[1]", "coverUrl": "//div[@id=\"fmimg\"]//img/@src", "intro": "//div[@id=\"intro\"]//p[2]", "name": "//h1"}, "ruleContent": {"content": "//div[@id=\"content\"]"}, "ruleExplore": {"author": "//span[@class=\"s5\"]", "bookList": "//*[@class=\"l\"]//li", "bookUrl": "//span[@class=\"s2\"]//a//@href", "lastChapter": "//span[@class=\"s3\"]//a<js>String(result).replace(/<.*?>|\\n|\\|.*/g,'')</js>", "name": "//span[@class=\"s2\"]//a"}, "ruleSearch": {"bookList": "class.result f s0.1", "bookUrl": "//*[@cpos=\"title\"]//@href", "lastChapter": "class.c-abstract@text##.*最新章节:|导读: .*", "name": "class.result f s0@tag.a@text##最新章节.*"}, "ruleToc": {"chapterList": "//div[@id=\"list\"]//dd", "chapterName": "//a<js>String(result).replace(/<.*?>|\\n|\\|.*/g,'')</js>", "chapterUrl": "//@href"}, "searchUrl": "http://zhannei.baidu.com/cse/site/?cc=xinbqg.com&s=15030664914869491357&q={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "🔰 13新笔趣阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xinbqg.com",
+    "bookUrlPattern": "",
+    "customOrder": 16113,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::http://www.xinbqg.com/xuanhuanxiaoshuo/1_{{page}}.html\n修真小说::http://www.xinbqg.com/xiuzhenxiaoshuo/1_{{page}}.html\n都市小说::http://www.xinbqg.com/dushixiaoshuo/1_{{page}}.html\n穿越小说::http://www.xinbqg.com/chuanyuexiaoshuo/1_{{page}}.html\n网游小说::http://www.xinbqg.com/wangyouxiaoshuo/1_{{page}}.html\n科幻小说::http://www.xinbqg.com/kehuanxiaoshuo/1_{{page}}.html\n完本小说::http://www.xinbqg.com/wanben/1_{{page}}/",
+    "lastUpdateTime": 1602899130755,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "//div[@id=\"info\"]//p[1]",
+      "coverUrl": "//div[@id=\"fmimg\"]//img/@src",
+      "intro": "//div[@id=\"intro\"]//p[2]",
+      "name": "//h1"
+    },
+    "ruleContent": {
+      "content": "//div[@id=\"content\"]"
+    },
+    "ruleExplore": {
+      "author": "//span[@class=\"s5\"]",
+      "bookList": "//*[@class=\"l\"]//li",
+      "bookUrl": "//span[@class=\"s2\"]//a//@href",
+      "lastChapter": "//span[@class=\"s3\"]//a<js>String(result).replace(/<.*?>|\\n|\\|.*/g,'')</js>",
+      "name": "//span[@class=\"s2\"]//a"
+    },
+    "ruleSearch": {
+      "bookList": "class.result f s0.1",
+      "bookUrl": "//*[@cpos=\"title\"]//@href",
+      "lastChapter": "class.c-abstract@text##.*最新章节:|导读: .*",
+      "name": "class.result f s0@tag.a@text##最新章节.*"
+    },
+    "ruleToc": {
+      "chapterList": "//div[@id=\"list\"]//dd",
+      "chapterName": "//a<js>String(result).replace(/<.*?>|\\n|\\|.*/g,'')</js>",
+      "chapterUrl": "//@href"
+    },
+    "searchUrl": "http://zhannei.baidu.com/cse/site/?cc=xinbqg.com&s=15030664914869491357&q={{key}}",
+    "weight": 0
+  }]

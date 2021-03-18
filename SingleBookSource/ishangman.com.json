@@ -1,1 +1,44 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎨 i尚漫", "bookSourceType": 0, "bookSourceUrl": "http://search.ishangman.com", "bookUrlPattern": "", "customOrder": -115831, "enabled": true, "enabledExplore": true, "exploreUrl": "打斗::/index.php?s_0=0&s_1=0&s_1=1&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n探险::/index.php?s_0=0&s_1=2&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n科幻::/index.php?s_0=0&s_1=3&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n魔幻::/index.php?s_0=0&s_1=4&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n机甲::/index.php?s_0=0&s_1=5&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n体育::/index.php?s_0=0&s_1=6&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n推理::/index.php?s_0=0&s_1=7&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n搞笑::/index.php?s_0=0&s_1=8&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n校园::/index.php?s_0=0&s_1=9&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n恋爱::/index.php?s_0=0&s_1=10&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n生活::/index.php?s_0=0&s_1=11&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n历史::/index.php?s_0=0&s_1=12&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n战争::/index.php?s_0=0&s_1=13&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n恐怖::/index.php?s_0=0&s_1=14&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n古装::/index.php?s_0=0&s_1=15&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}", "lastUpdateTime": 1605066495541, "loginUrl": "", "ruleBookInfo": {"author": "class.covermsgwid.0@tag.a@text", "coverUrl": "class.cmic_coverimg@tag.img@src", "intro": "id.p01@text##\\[查看全部\\]", "kind": "class.covermsgwid.1@tag.a@text&&class.covermsgwid.2@tag.a@text&&class.covermsgwid.3@tag.a@text&&class.covermsgwid.4@tag.a@text", "lastChapter": "class.cmic_readcontentlist@tag.a.-1@text", "name": "class.cmic_covertext@tag.h1@text"}, "ruleContent": {"content": "class.r_reimg@li@img@html@js:result.replace(/src.*\\\"/g,\"\").replace(/lazy/g,\"src\").replace(/imgid=\\\"\\d+\\\"/g,\"\")", "imageStyle": "FULL"}, "ruleExplore": {}, "ruleSearch": {"author": "", "bookList": "class.ism_searchlist1@tag.li", "bookUrl": "tag.a.1@href", "coverUrl": "tag.img@src", "intro": "", "kind": "", "lastChapter": "", "name": "tag.a.1@text"}, "ruleToc": {"chapterList": "class.cmic_readcontentlist@tag.span", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "/index.php?keyword={{key}}&page={{page}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎨 i尚漫",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://search.ishangman.com",
+    "bookUrlPattern": "",
+    "customOrder": -115831,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "打斗::/index.php?s_0=0&s_1=0&s_1=1&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n探险::/index.php?s_0=0&s_1=2&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n科幻::/index.php?s_0=0&s_1=3&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n魔幻::/index.php?s_0=0&s_1=4&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n机甲::/index.php?s_0=0&s_1=5&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n体育::/index.php?s_0=0&s_1=6&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n推理::/index.php?s_0=0&s_1=7&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n搞笑::/index.php?s_0=0&s_1=8&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n校园::/index.php?s_0=0&s_1=9&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n恋爱::/index.php?s_0=0&s_1=10&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n生活::/index.php?s_0=0&s_1=11&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n历史::/index.php?s_0=0&s_1=12&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n战争::/index.php?s_0=0&s_1=13&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n恐怖::/index.php?s_0=0&s_1=14&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}\n古装::/index.php?s_0=0&s_1=15&s_2=0&s_7=2&s_8=2&s_3=0&s_4=0&s_5=0&page={{page}}",
+    "lastUpdateTime": 1605066495541,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.covermsgwid.0@tag.a@text",
+      "coverUrl": "class.cmic_coverimg@tag.img@src",
+      "intro": "id.p01@text##\\[查看全部\\]",
+      "kind": "class.covermsgwid.1@tag.a@text&&class.covermsgwid.2@tag.a@text&&class.covermsgwid.3@tag.a@text&&class.covermsgwid.4@tag.a@text",
+      "lastChapter": "class.cmic_readcontentlist@tag.a.-1@text",
+      "name": "class.cmic_covertext@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "class.r_reimg@li@img@html@js:result.replace(/src.*\\\"/g,\"\").replace(/lazy/g,\"src\").replace(/imgid=\\\"\\d+\\\"/g,\"\")",
+      "imageStyle": "FULL"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "",
+      "bookList": "class.ism_searchlist1@tag.li",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img@src",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.cmic_readcontentlist@tag.span",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/index.php?keyword={{key}}&page={{page}}",
+    "weight": 0
+  }]

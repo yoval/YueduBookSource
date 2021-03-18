@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🔰 爱尚小说②", "bookSourceType": 0, "bookSourceUrl": "https://www.23hh.la", "bookUrlPattern": "", "customOrder": -114707, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1605173992869, "loginUrl": "", "ruleBookInfo": {"author": "class.item red.0@text##作\\s*者：", "coverUrl": "class.book_info@class.pic@tag.img.0@src", "intro": "class.book_info@class.bookinfo_intro@textNodes", "name": "id.info@tag.h1.0@text"}, "ruleContent": {"content": "id.htmlContent@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.c_row@tag.span.3@text||id.info@tag.span.0@text", "bookList": "class.c_row", "bookUrl": "class.c_row@tag.span.0@tag.a.0@href", "coverUrl": "class.c_row@tag.a.0@tag.img.0@src||class.pic@tag.img.0@src", "lastChapter": "class.c_row@tag.span.13@tag.a.0@text||id.info@tag.a.4@text", "name": "class.c_row@tag.span.0@tag.a.0@text||id.info@tag.h1.0@text"}, "ruleToc": {"chapterList": "class.book_list@tag.li@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.23hh.la/modules/article/search.php?searchkey={{key}}&action=login,{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🔰 爱尚小说②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.23hh.la",
+    "bookUrlPattern": "",
+    "customOrder": -114707,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1605173992869,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.item red.0@text##作\\s*者：",
+      "coverUrl": "class.book_info@class.pic@tag.img.0@src",
+      "intro": "class.book_info@class.bookinfo_intro@textNodes",
+      "name": "id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.c_row@tag.span.3@text||id.info@tag.span.0@text",
+      "bookList": "class.c_row",
+      "bookUrl": "class.c_row@tag.span.0@tag.a.0@href",
+      "coverUrl": "class.c_row@tag.a.0@tag.img.0@src||class.pic@tag.img.0@src",
+      "lastChapter": "class.c_row@tag.span.13@tag.a.0@text||id.info@tag.a.4@text",
+      "name": "class.c_row@tag.span.0@tag.a.0@text||id.info@tag.h1.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.book_list@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.23hh.la/modules/article/search.php?searchkey={{key}}&action=login,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

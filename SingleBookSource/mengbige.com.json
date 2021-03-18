@@ -1,1 +1,36 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "👍 梦笔阁小说网™", "bookSourceType": 0, "bookSourceUrl": "http://www.mengbige.com", "customOrder": 16064, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1603034376661, "ruleBookInfo": {"coverUrl": "class.pic@tag.img.0@src", "intro": "class.introduce@class.jj@textNodes"}, "ruleContent": {"content": "class.articlecontent@textNodes", "replaceRegex": "##梦笔阁.*"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@text||class.catalog@tag.p.1@tag.span.1@tag.a.0@text", "bookList": "class.grid@tag.tr!0||class.main", "bookUrl": "class.odd.0@tag.a.0@href", "coverUrl": "class.catalog@class.pic@tag.img.0@src", "kind": "class.even.2@text||class.catalog@tag.p.1@tag.span.2@text##状态：", "lastChapter": "class.even.0@tag.a.0@text||class.ml_content@tag.ul.0@tag.li.0@tag.a.0@text", "name": "class.odd.0@tag.a.0@text||class.catalog@tag.h1.0@text"}, "ruleToc": {"chapterList": "class.ml_list@tag.ul@tag.li@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "http://www.mengbige.com/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&submit=点击搜索\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "👍 梦笔阁小说网™",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.mengbige.com",
+    "customOrder": 16064,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1603034376661,
+    "ruleBookInfo": {
+      "coverUrl": "class.pic@tag.img.0@src",
+      "intro": "class.introduce@class.jj@textNodes"
+    },
+    "ruleContent": {
+      "content": "class.articlecontent@textNodes",
+      "replaceRegex": "##梦笔阁.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text||class.catalog@tag.p.1@tag.span.1@tag.a.0@text",
+      "bookList": "class.grid@tag.tr!0||class.main",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "coverUrl": "class.catalog@class.pic@tag.img.0@src",
+      "kind": "class.even.2@text||class.catalog@tag.p.1@tag.span.2@text##状态：",
+      "lastChapter": "class.even.0@tag.a.0@text||class.ml_content@tag.ul.0@tag.li.0@tag.a.0@text",
+      "name": "class.odd.0@tag.a.0@text||class.catalog@tag.h1.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.ml_list@tag.ul@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.mengbige.com/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&submit=点击搜索\"\n}",
+    "weight": 0
+  }]

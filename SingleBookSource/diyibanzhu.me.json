@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "第一版主diyibanzhu.me", "bookSourceType": 0, "bookSourceUrl": "https://m.diyibanzhu.me", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": false, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.bd column-2@tag.img.0@src", "intro": "class.mod book-intro@text"}, "ruleContent": {"content": "class.page-content@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.info@text##.*作者：|\\s*字数.*", "bookList": "class.bd@tag.li", "bookUrl": "tag.a.0@href", "kind": "tag.span.0@text", "lastChapter": "class.update@tag.a@text", "name": "tag.a.0@text"}, "ruleToc": {"chapterList": "class.chapter-list.1@class.list@tag.li||class.chapter-list.0@class.list@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "nextTocUrl": "class.nextPage@href"}, "searchUrl": "https://m.diyibanzhu.me/wap.php?action=search,{\n  \"method\": \"POST\",\n  \"body\": \"objectType=2&wd={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,刘备书源",
+    "bookSourceName": "第一版主",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.diyibanzhu.me",
+    "bookUrlPattern": "",
+    "customOrder": 24648,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 1615880635722,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.bd column-2@tag.img.0@src",
+      "intro": "class.mod book-intro@text"
+    },
+    "ruleContent": {
+      "content": "class.page-content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.info@text##.*作者：|\\s*字数.*",
+      "bookList": "class.bd@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "kind": "tag.span.0@text",
+      "lastChapter": "class.update@tag.a@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter-list.1@class.list@tag.li||class.chapter-list.0@class.list@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "class.nextPage@href"
+    },
+    "searchUrl": "https://m.diyibanzhu.me/wap.php?action=search,{\n  \"method\": \"POST\",\n  \"body\": \"objectType=2&wd={{key}}\"\n}",
+    "weight": 0
+  }]

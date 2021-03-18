@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,刘备书源", "bookSourceName": "🚬 48文学网", "bookSourceType": 0, "bookSourceUrl": "https://www.48rx.net", "customOrder": 24458, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1605536454210, "ruleBookInfo": {"author": "id.info@tag.p.0@text##作者：", "coverUrl": "id.fmimg@tag.img.0@src", "intro": "id.intro@tag.p.0@text", "name": "id.info@tag.h1.0@text"}, "ruleContent": {"content": "id.content@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@text||id.info@tag.p.0@text", "bookList": "class.grid@tag.tr!0||class.box_con", "bookUrl": "class.odd.0@tag.a.0@href", "coverUrl": "id.fmimg@tag.img.0@src", "kind": "class.con_top@tag.a.7@text", "lastChapter": "class.even@tag.a.0@text||id.info@tag.p.2@text", "name": "class.odd.0@tag.a.0@text||id.info@tag.h1.0@text"}, "ruleToc": {"chapterList": "id.list@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a.0@href"}, "searchUrl": "https://www.48rx.net/modules/article/search.php?searchkey={{key}}&page=1,{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,刘备书源",
+    "bookSourceName": "🚬 48文学网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.48rx.net",
+    "customOrder": 24746,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1605536454210,
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text##作者：",
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "intro": "id.intro@tag.p.0@text",
+      "name": "id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text||id.info@tag.p.0@text",
+      "bookList": "class.grid@tag.tr!0||class.box_con",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "kind": "class.con_top@tag.a.7@text",
+      "lastChapter": "class.even@tag.a.0@text||id.info@tag.p.2@text",
+      "name": "class.odd.0@tag.a.0@text||id.info@tag.h1.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a.0@href"
+    },
+    "searchUrl": "https://www.48rx.net/modules/article/search.php?searchkey={{key}}&page=1,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

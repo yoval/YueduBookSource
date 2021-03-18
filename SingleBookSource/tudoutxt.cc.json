@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "土豆小说", "bookSourceType": 0, "bookSourceUrl": "http://m.tudoutxt.cc", "bookUrlPattern": "", "customOrder": 98, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=1&page={{page}}&order=hot\"}\n仙侠::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=2&page={{page}}&order=hot\"}\n都市::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=3&page={{page}}&order=hot\"}\n言情::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=4&page={{page}}&order=hot\"}\n武侠::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=5&page={{page}}&order=hot\"}\n灵异::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=6&page={{page}}&order=hot\"}\n悬疑::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=7&page={{page}}&order=hot\"}\n同人::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=8&page={{page}}&order=hot\"}\n奇幻::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=9&page={{page}}&order=hot\"}\n军事::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=10&page={{page}}&order=hot\"}\n历史::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=11&page={{page}}&order=hot\"}\n游戏::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=12&page={{page}}&order=hot\"}\n竞技::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=13&page={{page}}&order=hot\"}\n科幻::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=14&page={{page}}&order=hot\"}\n娱乐::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=15&page={{page}}&order=hot\"}\n商场::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=16&page={{page}}&order=hot\"}\n校园::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=17&page={{page}}&order=hot\"}\n青春::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=18&page={{page}}&order=hot\"}\n职场::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=19&page={{page}}&order=hot\"}\n其他::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=20&page={{page}}&order=hot\"}\n现言::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=21&page={{page}}&order=hot\"}\n穿越::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=22&page={{page}}&order=hot\"}\n耽美::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=26&page={{page}}&order=hot\"}\n古言::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=30&page={{page}}&order=hot\"}\n官场::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=31&page={{page}}&order=hot\"}", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"intro": "class.bookIntroduce@text", "tocUrl": "text.全部章节@href"}, "ruleContent": {"content": "class.xs-content@html"}, "ruleExplore": {"author": "class.item.0@text", "bookList": "tag.li", "bookUrl": "tag.a.0@href", "coverUrl": "tag.img@src", "kind": "class.item!0@text&&h3@span@text", "lastChapter": "class.chapter@text", "name": "h3@a@text"}, "ruleSearch": {}, "ruleToc": {"chapterList": "+@js:org.jsoup.Jsoup.parse(result).select('.xsList li a').toArray().sort((a,b)=>a.attr('data-id')-b.attr('data-id')).map(x=>({n:x.text(),u:x.attr('href')})).sort((a,b)=>a.u.match(/_(\\d+).html/)[1]-b.u.match(/_(\\d+).html/)[1])", "chapterName": "n", "chapterUrl": "u"}, "searchUrl": "http://m.tudoutxt.cc/search.php?keyword={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "土豆小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.tudoutxt.cc",
+    "bookUrlPattern": "",
+    "customOrder": 98,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=1&page={{page}}&order=hot\"}\n仙侠::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=2&page={{page}}&order=hot\"}\n都市::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=3&page={{page}}&order=hot\"}\n言情::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=4&page={{page}}&order=hot\"}\n武侠::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=5&page={{page}}&order=hot\"}\n灵异::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=6&page={{page}}&order=hot\"}\n悬疑::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=7&page={{page}}&order=hot\"}\n同人::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=8&page={{page}}&order=hot\"}\n奇幻::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=9&page={{page}}&order=hot\"}\n军事::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=10&page={{page}}&order=hot\"}\n历史::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=11&page={{page}}&order=hot\"}\n游戏::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=12&page={{page}}&order=hot\"}\n竞技::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=13&page={{page}}&order=hot\"}\n科幻::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=14&page={{page}}&order=hot\"}\n娱乐::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=15&page={{page}}&order=hot\"}\n商场::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=16&page={{page}}&order=hot\"}\n校园::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=17&page={{page}}&order=hot\"}\n青春::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=18&page={{page}}&order=hot\"}\n职场::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=19&page={{page}}&order=hot\"}\n其他::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=20&page={{page}}&order=hot\"}\n现言::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=21&page={{page}}&order=hot\"}\n穿越::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=22&page={{page}}&order=hot\"}\n耽美::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=26&page={{page}}&order=hot\"}\n古言::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=30&page={{page}}&order=hot\"}\n官场::/ajax.php,{\"method\": \"POST\",\"body\": \"do=category&tid=31&page={{page}}&order=hot\"}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.bookIntroduce@text",
+      "tocUrl": "text.全部章节@href"
+    },
+    "ruleContent": {
+      "content": "class.xs-content@html"
+    },
+    "ruleExplore": {
+      "author": "class.item.0@text",
+      "bookList": "tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "kind": "class.item!0@text&&h3@span@text",
+      "lastChapter": "class.chapter@text",
+      "name": "h3@a@text"
+    },
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "+@js:org.jsoup.Jsoup.parse(result).select('.xsList li a').toArray().sort((a,b)=>a.attr('data-id')-b.attr('data-id')).map(x=>({n:x.text(),u:x.attr('href')})).sort((a,b)=>a.u.match(/_(\\d+).html/)[1]-b.u.match(/_(\\d+).html/)[1])",
+      "chapterName": "n",
+      "chapterUrl": "u"
+    },
+    "searchUrl": "http://m.tudoutxt.cc/search.php?keyword={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

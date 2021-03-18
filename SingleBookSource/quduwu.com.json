@@ -1,1 +1,40 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🌸 趣读屋", "bookSourceType": 0, "bookSourceUrl": "https://www.quduwu.com", "bookUrlPattern": "", "customOrder": -32926, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1603351469421, "loginUrl": "", "ruleBookInfo": {"author": "id.info@tag.p.0@text", "coverUrl": "id.fmimg@tag.img.0@src", "intro": "id.intro@tag.p.0@text", "lastChapter": "id.info@tag.p!0:1:2:3@tag.a@text", "name": "id.info@tag.h1.0@text"}, "ruleContent": {"content": "id.content@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.author@text", "bookList": "class.bookbox", "bookUrl": "class.bookname@a@href", "coverUrl": "img@src", "kind": "class.cat@text##分类：", "lastChapter": "class.update@tag.a.0@text", "name": "class.bookname@text"}, "ruleToc": {"chapterList": "class.listmain@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a.0@href"}, "searchUrl": "https://www.quduwu.com/s.php?ie=gbk&q={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🌸 趣读屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.quduwu.com",
+    "bookUrlPattern": "",
+    "customOrder": -32926,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1603351469421,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text",
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "intro": "id.intro@tag.p.0@text",
+      "lastChapter": "id.info@tag.p!0:1:2:3@tag.a@text",
+      "name": "id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "class.bookbox",
+      "bookUrl": "class.bookname@a@href",
+      "coverUrl": "img@src",
+      "kind": "class.cat@text##分类：",
+      "lastChapter": "class.update@tag.a.0@text",
+      "name": "class.bookname@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a.0@href"
+    },
+    "searchUrl": "https://www.quduwu.com/s.php?ie=gbk&q={{key}}",
+    "weight": 0
+  }]

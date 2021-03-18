@@ -1,1 +1,39 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "👍 少年书屋", "bookSourceType": 0, "bookSourceUrl": "https://www.shaonianshuwu.org", "bookUrlPattern": "", "customOrder": -114820, "enabled": true, "enabledExplore": true, "exploreUrl": "最新入库::https://www.shaonianshuwu.org/top/postdate<,_{{page}}>.html\n总点击榜::https://www.shaonianshuwu.org/top/allvisit<,_{{page}}>.html\n总推荐榜::https://www.shaonianshuwu.org/top/vote<,_{{page}}>.html\n总收藏榜::https://www.shaonianshuwu.org/top/mark<,_{{page}}>.html\n总评分榜::https://www.shaonianshuwu.org/top/star_score<,_{{page}}>.html\n总评论榜::https://www.shaonianshuwu.org/top/comment<,_{{page}}>.html\n总下载榜::https://www.shaonianshuwu.org/top/down<,_{{page}}>.html\n全部小说::https://www.shaonianshuwu.org/sort.html?<,page={{page}}>\n玄幻小说::https://www.shaonianshuwu.org/sort.html?category=xuanhuan<,&page={{page}}>\n奇幻小说::https://www.shaonianshuwu.org/sort.html?category=qihuan<,&page={{page}}>\n武侠小说::https://www.shaonianshuwu.org/sort.html?category=wuxia<,&page={{page}}>\n仙侠小说::https://www.shaonianshuwu.org/sort.html?category=xianxia<,&page={{page}}>\n都市小说::https://www.shaonianshuwu.org/sort.html?category=dushi<,&page={{page}}>\n历史小说::https://www.shaonianshuwu.org/sort.html?category=lishi<,&page={{page}}>\n军事小说::https://www.shaonianshuwu.org/sort.html?category=junshi<,&page={{page}}>\n游戏小说::https://www.shaonianshuwu.org/sort.html?category=youxi<,&page={{page}}>\n竞技小说::https://www.shaonianshuwu.org/sort.html?category=jingji<,&page={{page}}>\n科幻小说::https://www.shaonianshuwu.org/sort.html?category=kehuan<,&page={{page}}>\n灵异小说::https://www.shaonianshuwu.org/sort.html?category=lingyi<,&page={{page}}>\n其他小说::https://www.shaonianshuwu.org/sort.html?category=qita<,&page={{page}}>", "lastUpdateTime": 1612827053065, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.bookcover fl@img@src", "intro": "class.intro@textNodes##.*欢迎光临观看小说:", "lastChapter": "class.capter_intro@tag.p.0@a@text", "tocUrl": "text.目录@href"}, "ruleContent": {"content": "class.size16 color5 pt-read-text@p@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.author.0@a@text", "bookList": "class.list_details clear@li||class.list_details@li", "bookUrl": "a@href", "coverUrl": "img@src", "lastChapter": "class.details@span@a@text##最新章节", "name": "h3@a@text##全文.*阅读|最新章节|小说.*阅读|免费阅读"}, "ruleToc": {"chapterList": "class.mulu_list clear@li@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.shaonianshuwu.org/search/result.html?searchtype=all&searchkey={{key}}&page={{page}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "👍 少年书屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.shaonianshuwu.org",
+    "bookUrlPattern": "",
+    "customOrder": -114820,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最新入库::https://www.shaonianshuwu.org/top/postdate<,_{{page}}>.html\n总点击榜::https://www.shaonianshuwu.org/top/allvisit<,_{{page}}>.html\n总推荐榜::https://www.shaonianshuwu.org/top/vote<,_{{page}}>.html\n总收藏榜::https://www.shaonianshuwu.org/top/mark<,_{{page}}>.html\n总评分榜::https://www.shaonianshuwu.org/top/star_score<,_{{page}}>.html\n总评论榜::https://www.shaonianshuwu.org/top/comment<,_{{page}}>.html\n总下载榜::https://www.shaonianshuwu.org/top/down<,_{{page}}>.html\n全部小说::https://www.shaonianshuwu.org/sort.html?<,page={{page}}>\n玄幻小说::https://www.shaonianshuwu.org/sort.html?category=xuanhuan<,&page={{page}}>\n奇幻小说::https://www.shaonianshuwu.org/sort.html?category=qihuan<,&page={{page}}>\n武侠小说::https://www.shaonianshuwu.org/sort.html?category=wuxia<,&page={{page}}>\n仙侠小说::https://www.shaonianshuwu.org/sort.html?category=xianxia<,&page={{page}}>\n都市小说::https://www.shaonianshuwu.org/sort.html?category=dushi<,&page={{page}}>\n历史小说::https://www.shaonianshuwu.org/sort.html?category=lishi<,&page={{page}}>\n军事小说::https://www.shaonianshuwu.org/sort.html?category=junshi<,&page={{page}}>\n游戏小说::https://www.shaonianshuwu.org/sort.html?category=youxi<,&page={{page}}>\n竞技小说::https://www.shaonianshuwu.org/sort.html?category=jingji<,&page={{page}}>\n科幻小说::https://www.shaonianshuwu.org/sort.html?category=kehuan<,&page={{page}}>\n灵异小说::https://www.shaonianshuwu.org/sort.html?category=lingyi<,&page={{page}}>\n其他小说::https://www.shaonianshuwu.org/sort.html?category=qita<,&page={{page}}>",
+    "lastUpdateTime": 1612827053065,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.bookcover fl@img@src",
+      "intro": "class.intro@textNodes##.*欢迎光临观看小说:",
+      "lastChapter": "class.capter_intro@tag.p.0@a@text",
+      "tocUrl": "text.目录@href"
+    },
+    "ruleContent": {
+      "content": "class.size16 color5 pt-read-text@p@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@a@text",
+      "bookList": "class.list_details clear@li||class.list_details@li",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "lastChapter": "class.details@span@a@text##最新章节",
+      "name": "h3@a@text##全文.*阅读|最新章节|小说.*阅读|免费阅读"
+    },
+    "ruleToc": {
+      "chapterList": "class.mulu_list clear@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.shaonianshuwu.org/search/result.html?searchtype=all&searchkey={{key}}&page={{page}}",
+    "weight": 0
+  }]

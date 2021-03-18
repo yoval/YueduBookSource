@@ -1,1 +1,38 @@
-[{"bookSourceComment": "error:timeout\n", "bookSourceGroup": "我的书源", "bookSourceName": "🔰 精彩小说", "bookSourceType": 0, "bookSourceUrl": "http://www.jingcaiyuedu8.com", "bookUrlPattern": "", "customOrder": 16117, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1602882657304, "loginUrl": "", "ruleBookInfo": {"author": "tag.p.0@a@text", "coverUrl": "class.col-md-2 col-xs-4@tag.img@data-original", "intro": "id.bookIntro@text", "name": "tag.h1@text##全文.*", "tocUrl": "text.目录@href"}, "ruleContent": {"content": "id.htmlContent@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.col-md-2 col-sm-2 col-xs-3 text-muted fs-12 text-overflow@text", "bookList": "class.list-group-item", "bookUrl": "tag.a@href", "lastChapter": "tag.a.1@text", "name": "tag.a.0@text"}, "ruleToc": {"chapterList": "tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.jingcaiyuedu8.com/book/search.html?q={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:timeout\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🔰 精彩小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.jingcaiyuedu8.com",
+    "bookUrlPattern": "",
+    "customOrder": 16117,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1602882657304,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "tag.p.0@a@text",
+      "coverUrl": "class.col-md-2 col-xs-4@tag.img@data-original",
+      "intro": "id.bookIntro@text",
+      "name": "tag.h1@text##全文.*",
+      "tocUrl": "text.目录@href"
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.col-md-2 col-sm-2 col-xs-3 text-muted fs-12 text-overflow@text",
+      "bookList": "class.list-group-item",
+      "bookUrl": "tag.a@href",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.jingcaiyuedu8.com/book/search.html?q={{key}}",
+    "weight": 0
+  }]

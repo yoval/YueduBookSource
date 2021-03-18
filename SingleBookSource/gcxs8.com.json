@@ -1,1 +1,53 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 官场小说", "bookSourceType": 0, "bookSourceUrl": "http://www.gcxs8.com", "bookUrlPattern": "", "customOrder": -115573, "enabled": true, "enabledExplore": true, "exploreUrl": "【连载】::/xs/0_0_1_0_{{page}}.html\n官场::/xs/1_0_1_0_{{page}}.html\n沉浮::/xs/2_0_1_0_{{page}}.html\n商战::/xs/3_0_1_0_{{page}}.html\n仕途::/xs/4_0_1_0_{{page}}.html\n风云::/xs/5_0_1_0_{{page}}.html\n古代::/xs/6_0_1_0_{{page}}.html\n言情::/xs/7_0_1_0_{{page}}.html\n乡村::/xs/8_0_1_0_{{page}}.html\n其他::/xs/9_0_1_0_{{page}}.html\n【完本】::/xs/0_0_2_0_{{page}}.html\n官场::/xs/1_0_2_0_{{page}}.html\n沉浮::/xs/2_0_2_0_{{page}}.html\n商战::/xs/3_0_2_0_{{page}}.html\n仕途::/xs/4_0_2_0_{{page}}.html\n风云::/xs/5_0_2_0_{{page}}.html\n古代::/xs/6_0_2_0_{{page}}.html\n言情::/xs/7_0_2_0_{{page}}.html\n乡村::/xs/8_0_2_0_{{page}}.html\n其他::/xs/9_0_2_0_{{page}}.html", "lastUpdateTime": 1608756905686, "loginUrl": "", "ruleBookInfo": {"author": "class.BookAuthor@tag.a.0@text", "coverUrl": "class.BookImg@src", "intro": "class.BookIntro@text##介绍.|各位书友要.*", "kind": "##别：([^<]+)<##$1###", "lastChapter": "class.BookInfo@tag.font@text##正文.", "name": "class.BookTitle@tag.h1@text##最新章节"}, "ruleContent": {"content": "id.content@textNodes", "imageStyle": "0", "replaceRegex": "##\\(.*www.*\\)"}, "ruleExplore": {"author": "tag.span.0@text##作者.", "bookList": "id.alistbox", "bookUrl": "tag.a.1@href", "coverUrl": "tag.img@src", "intro": "class.intro@text", "kind": "tag.li.0@text##最新更新.|\\s.*", "name": "tag.a.1@text"}, "ruleSearch": {"author": "tag.td.2@text", "bookList": "tbody@tag.tr!0", "bookUrl": "tag.td.0@tag.a@href", "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##http://www.gcxs8.com/files/article/image/$2/$1/$1s.jpg###", "kind": "tag.td.4@text&&tag.td.5@text", "lastChapter": "tag.td.1@text", "name": "tag.td.0@text", "wordCount": "tag.td.3@text"}, "ruleToc": {"chapterList": "class.ListRow@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"show=articlename&searchkey={{key}}&tbname=download&tempid=1&page={{page}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 官场小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.gcxs8.com",
+    "bookUrlPattern": "",
+    "customOrder": -115573,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "【连载】::/xs/0_0_1_0_{{page}}.html\n官场::/xs/1_0_1_0_{{page}}.html\n沉浮::/xs/2_0_1_0_{{page}}.html\n商战::/xs/3_0_1_0_{{page}}.html\n仕途::/xs/4_0_1_0_{{page}}.html\n风云::/xs/5_0_1_0_{{page}}.html\n古代::/xs/6_0_1_0_{{page}}.html\n言情::/xs/7_0_1_0_{{page}}.html\n乡村::/xs/8_0_1_0_{{page}}.html\n其他::/xs/9_0_1_0_{{page}}.html\n【完本】::/xs/0_0_2_0_{{page}}.html\n官场::/xs/1_0_2_0_{{page}}.html\n沉浮::/xs/2_0_2_0_{{page}}.html\n商战::/xs/3_0_2_0_{{page}}.html\n仕途::/xs/4_0_2_0_{{page}}.html\n风云::/xs/5_0_2_0_{{page}}.html\n古代::/xs/6_0_2_0_{{page}}.html\n言情::/xs/7_0_2_0_{{page}}.html\n乡村::/xs/8_0_2_0_{{page}}.html\n其他::/xs/9_0_2_0_{{page}}.html",
+    "lastUpdateTime": 1608756905686,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.BookAuthor@tag.a.0@text",
+      "coverUrl": "class.BookImg@src",
+      "intro": "class.BookIntro@text##介绍.|各位书友要.*",
+      "kind": "##别：([^<]+)<##$1###",
+      "lastChapter": "class.BookInfo@tag.font@text##正文.",
+      "name": "class.BookTitle@tag.h1@text##最新章节"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes",
+      "imageStyle": "0",
+      "replaceRegex": "##\\(.*www.*\\)"
+    },
+    "ruleExplore": {
+      "author": "tag.span.0@text##作者.",
+      "bookList": "id.alistbox",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.intro@text",
+      "kind": "tag.li.0@text##最新更新.|\\s.*",
+      "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "tbody@tag.tr!0",
+      "bookUrl": "tag.td.0@tag.a@href",
+      "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##http://www.gcxs8.com/files/article/image/$2/$1/$1s.jpg###",
+      "kind": "tag.td.4@text&&tag.td.5@text",
+      "lastChapter": "tag.td.1@text",
+      "name": "tag.td.0@text",
+      "wordCount": "tag.td.3@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.ListRow@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"show=articlename&searchkey={{key}}&tbname=download&tempid=1&page={{page}}\"\n}",
+    "weight": 0
+  }]

@@ -1,1 +1,43 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "鲜网文学", "bookSourceType": 0, "bookSourceUrl": "http://www.xianwangs.cc", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻::/xuanhuan/shuku.html\n仙侠::/xianxia/shuku.html\n都市::/dushi/shuku.html\n科幻::/kehuan/shuku.html\n经典::/tongren/shuku.html\n耽美::/danmei/shuku.html\n高辣::/gaolawen/shuku.html\n快穿::/kuaichuan/shuku.html\n完本::/over.html\n小说::/shuku.html", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.pic@tag.img@src", "intro": "class.words@tag.p@text"}, "ruleContent": {"content": "class.box_box@html"}, "ruleExplore": {"author": "class.author@tag.a@text", "bookList": "class.ul_m_list@tag.li", "bookUrl": "class.t@tag.a@href", "name": "class.t@tag.a@text"}, "ruleSearch": {"author": "class.state@tag.a.0@text", "bookList": "id.main@tag.li", "bookUrl": "tag.a.0@href", "coverUrl": "class.pic@tag.img@src", "kind": "class.state@tag.a.1@text", "lastChapter": "class.state@tag.p@text##作者.*?(?=字数)", "name": "tag.a.0@text"}, "ruleToc": {"chapterList": "class.list_box@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.xianwangs.cc/plus/search.php?fuck=subject&q={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "鲜网文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xianwangs.cc",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/xuanhuan/shuku.html\n仙侠::/xianxia/shuku.html\n都市::/dushi/shuku.html\n科幻::/kehuan/shuku.html\n经典::/tongren/shuku.html\n耽美::/danmei/shuku.html\n高辣::/gaolawen/shuku.html\n快穿::/kuaichuan/shuku.html\n完本::/over.html\n小说::/shuku.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.pic@tag.img@src",
+      "intro": "class.words@tag.p@text"
+    },
+    "ruleContent": {
+      "content": "class.box_box@html"
+    },
+    "ruleExplore": {
+      "author": "class.author@tag.a@text",
+      "bookList": "class.ul_m_list@tag.li",
+      "bookUrl": "class.t@tag.a@href",
+      "name": "class.t@tag.a@text"
+    },
+    "ruleSearch": {
+      "author": "class.state@tag.a.0@text",
+      "bookList": "id.main@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "class.pic@tag.img@src",
+      "kind": "class.state@tag.a.1@text",
+      "lastChapter": "class.state@tag.p@text##作者.*?(?=字数)",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list_box@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.xianwangs.cc/plus/search.php?fuck=subject&q={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

@@ -1,1 +1,36 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🔰 格格党③", "bookSourceType": 0, "bookSourceUrl": "https://www.ggdown.cc", "bookUrlPattern": "", "customOrder": -114781, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1604579821273, "loginUrl": "", "ruleBookInfo": {"intro": "class.book-intro@text"}, "ruleContent": {"content": "id.BookText@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.p.0@tag.i.0@text||tag.em@text", "bookList": "class.item-pic@tag.div||id.content", "bookUrl": "tag.h3@tag.a@href", "coverUrl": "tag.img@src", "kind": "tag.i.1@text", "lastChapter": "tag.p@tag.a@text", "name": "tag.h3.0@tag.a.0@text||tag.h1.0@text"}, "ruleToc": {"chapterList": "class.chapterlist@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.ggdown.cc/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🔰 格格党③",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ggdown.cc",
+    "bookUrlPattern": "",
+    "customOrder": -114781,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1604579821273,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.book-intro@text"
+    },
+    "ruleContent": {
+      "content": "id.BookText@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p.0@tag.i.0@text||tag.em@text",
+      "bookList": "class.item-pic@tag.div||id.content",
+      "bookUrl": "tag.h3@tag.a@href",
+      "coverUrl": "tag.img@src",
+      "kind": "tag.i.1@text",
+      "lastChapter": "tag.p@tag.a@text",
+      "name": "tag.h3.0@tag.a.0@text||tag.h1.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapterlist@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.ggdown.cc/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

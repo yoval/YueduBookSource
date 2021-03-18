@@ -1,1 +1,32 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🍄 海词™木稽", "bookSourceType": 0, "bookSourceUrl": "http://dict.cn", "bookUrlPattern": "", "customOrder": -30883, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1601890182644, "loginUrl": "", "ruleBookInfo": {"intro": "text"}, "ruleContent": {"content": "html"}, "ruleExplore": {}, "ruleSearch": {"author": "@css:.phonetic@text", "bookList": "body", "lastChapter": "@css:.dict-basic-ul@text", "name": "@js:decodeURI(baseUrl.split(\"/\").pop())"}, "ruleToc": {"chapterList": "body", "chapterName": "@js:\"详细\""}, "searchUrl": "http://dict.cn/{{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍄 海词™木稽",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://dict.cn",
+    "bookUrlPattern": "",
+    "customOrder": -30883,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1601890182644,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "text"
+    },
+    "ruleContent": {
+      "content": "html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "@css:.phonetic@text",
+      "bookList": "body",
+      "lastChapter": "@css:.dict-basic-ul@text",
+      "name": "@js:decodeURI(baseUrl.split(\"/\").pop())"
+    },
+    "ruleToc": {
+      "chapterList": "body",
+      "chapterName": "@js:\"详细\""
+    },
+    "searchUrl": "http://dict.cn/{{key}}",
+    "weight": 0
+  }]

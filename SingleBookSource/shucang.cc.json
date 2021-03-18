@@ -1,1 +1,49 @@
-[{"bookSourceComment": "修复目录地址获取不了", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 书仓网", "bookSourceType": 0, "bookSourceUrl": "https://m.shucang.cc", "customOrder": -115571, "enabled": true, "enabledExplore": true, "exploreUrl": "奇幻玄幻::https://m.shucang.cc/shucang/category_xuanhuan_<,{{page}}.>html\n武侠仙侠::/shucang/category_wuxia_<,{{page}}.>html\n都市生活::/shucang/category_dushi_<,{{page}}.>html\n历史军事::/shucang/category_lishi_<,{{page}}.>html\n游戏竞技::/shucang/category_youxi_<,{{page}}.>html\n科幻未来::/shucang/category_kehuan_<,{{page}}.>html\n恐怖悬疑::/shucang/category_xuanyi_<,{{page}}.>html\n其他类型::/shucang/category_qita_<,{{page}}.>html\n古代言情::/shucang/category_guyan_<,{{page}}.>html\n现代言情::/shucang/category_xianyan_<,{{page}}.>html\n幻想奇缘::/shucang/category_huanqing_<,{{page}}.>html\n青春校园::/shucang/category_qingchun_<,{{page}}.>html\n网络情缘::/shucang/category_wangluo_<,{{page}}.>html\n科幻灵异::/shucang/category_mmkehuan_<,{{page}}.>html\n总裁豪门::/shucang/category_zongcai_<,{{page}}.>html", "lastUpdateTime": 1604165670567, "ruleBookInfo": {"author": "class.author@tag.a@text", "coverUrl": "img@src", "init": "class.detail", "kind": "class.layui-btn layui-btn-xs layui-btn-radius@text", "lastChapter": "class.new@tag.a@text", "name": "class.name@text", "tocUrl": "@js:result=baseUrl+'_index.html'##\\/_##_", "wordCount": "tag.p.2@tag.span.1@text"}, "ruleContent": {"content": "class.content@html", "imageStyle": "0.0", "nextContentUrl": "text.下一页@href"}, "ruleExplore": {"name": ""}, "ruleSearch": {"author": "class.data.0@tag.a@text", "bookList": "tag.body@tag.ul@tag.li", "bookUrl": "class.bookname@tag.a@href", "coverUrl": "img@src", "intro": "class.intro@text", "kind": "class.data@tag.span.0@text", "lastChapter": "tag.p.3@tag.a@text", "name": "tag.p.0@tag.a@text", "wordCount": "class.data@tag.span.1@text"}, "ruleToc": {"chapterList": "class.read@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "nextTocUrl": "text.下一页@href"}, "searchUrl": "https://m.shucang.cc/search.html,{\"method\":\"POST\";\"body\":\"searchkey={{key}}\"}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,自制书源",
+    "bookSourceName": "书仓网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.shucang.cc",
+    "customOrder": -115571,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "奇幻玄幻::https://m.shucang.cc/shucang/category_xuanhuan_<,{{page}}.>html\n武侠仙侠::/shucang/category_wuxia_<,{{page}}.>html\n都市生活::/shucang/category_dushi_<,{{page}}.>html\n历史军事::/shucang/category_lishi_<,{{page}}.>html\n游戏竞技::/shucang/category_youxi_<,{{page}}.>html\n科幻未来::/shucang/category_kehuan_<,{{page}}.>html\n恐怖悬疑::/shucang/category_xuanyi_<,{{page}}.>html\n其他类型::/shucang/category_qita_<,{{page}}.>html\n古代言情::/shucang/category_guyan_<,{{page}}.>html\n现代言情::/shucang/category_xianyan_<,{{page}}.>html\n幻想奇缘::/shucang/category_huanqing_<,{{page}}.>html\n青春校园::/shucang/category_qingchun_<,{{page}}.>html\n网络情缘::/shucang/category_wangluo_<,{{page}}.>html\n科幻灵异::/shucang/category_mmkehuan_<,{{page}}.>html\n总裁豪门::/shucang/category_zongcai_<,{{page}}.>html",
+    "lastUpdateTime": 1615949590794,
+    "ruleBookInfo": {
+      "author": "class.author@tag.a@text",
+      "coverUrl": "img@src",
+      "init": "class.detail",
+      "kind": "class.layui-btn layui-btn-xs layui-btn-radius@text",
+      "lastChapter": "class.new@tag.a@text",
+      "name": "class.name@text",
+      "tocUrl": "@js:result=baseUrl+'_index.html'##\\/_##_",
+      "wordCount": "tag.p.2@tag.span.1@text"
+    },
+    "ruleContent": {
+      "content": "class.pshucang_content@html",
+      "imageStyle": "0.0",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+      "name": ""
+    },
+    "ruleSearch": {
+      "author": "class.data.0@tag.a@text",
+      "bookList": "tag.body@tag.ul@tag.li",
+      "bookUrl": "class.bookname@tag.a@href",
+      "coverUrl": "img@src",
+      "intro": "class.intro@text",
+      "kind": "class.data@tag.span.0@text",
+      "lastChapter": "tag.p.3@tag.a@text",
+      "name": "tag.p.0@tag.a@text",
+      "wordCount": "class.data@tag.span.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.read@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://m.shucang.cc/search.html,{\"method\":\"POST\";\"body\":\"searchkey={{key}}\"}",
+    "weight": 0
+  }]

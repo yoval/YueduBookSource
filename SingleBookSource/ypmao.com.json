@@ -1,1 +1,35 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "📚 一品猫™", "bookSourceType": 0, "bookSourceUrl": "http://www.ypmao.com", "customOrder": -24751, "enabled": true, "enabledExplore": true, "exploreUrl": "青春::http://www.ypmao.com/list/14_{{page-1}}.html\n恐怖::http://www.ypmao.com/list/11_{{page-1}}.html\n科幻::http://www.ypmao.com/list/12_{{page-1}}.html \n武侠::http://www.ypmao.com/list/4_{{page-1}}.html\n现代::http://www.ypmao.com/list/13_{{page-1}}.html", "lastUpdateTime": 1602911657882, "ruleBookInfo": {"intro": "class.hidden-xs.1@text"}, "ruleContent": {"content": "class.mip-box-body@html##章节列表 下一章|上一章"}, "ruleExplore": {}, "ruleSearch": {"author": "class.info@tag.a@text", "bookList": "class.mipui-xs-item-list", "bookUrl": "class.list-title@tag.a.0@href", "coverUrl": "tag.mip-img@src", "kind": "class.pull-right@text", "lastChapter": "class.description@tag.a@text", "name": "class.list-title@tag.a.0@text"}, "ruleToc": {"chapterList": "class.list-unstyled.1@tag.li", "chapterName": "text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.ypmao.com/e/search/index.php,{\n  \"method\": \"POST\",\n  \"body\": \"show=title&keyboard={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "📚 一品猫™",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.ypmao.com",
+    "customOrder": -24751,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "青春::http://www.ypmao.com/list/14_{{page-1}}.html\n恐怖::http://www.ypmao.com/list/11_{{page-1}}.html\n科幻::http://www.ypmao.com/list/12_{{page-1}}.html \n武侠::http://www.ypmao.com/list/4_{{page-1}}.html\n现代::http://www.ypmao.com/list/13_{{page-1}}.html",
+    "lastUpdateTime": 1602911657882,
+    "ruleBookInfo": {
+      "intro": "class.hidden-xs.1@text"
+    },
+    "ruleContent": {
+      "content": "class.mip-box-body@html##章节列表 下一章|上一章"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.info@tag.a@text",
+      "bookList": "class.mipui-xs-item-list",
+      "bookUrl": "class.list-title@tag.a.0@href",
+      "coverUrl": "tag.mip-img@src",
+      "kind": "class.pull-right@text",
+      "lastChapter": "class.description@tag.a@text",
+      "name": "class.list-title@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list-unstyled.1@tag.li",
+      "chapterName": "text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.ypmao.com/e/search/index.php,{\n  \"method\": \"POST\",\n  \"body\": \"show=title&keyboard={{key}}\"\n}",
+    "weight": 0
+  }]

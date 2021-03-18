@@ -1,1 +1,38 @@
-[{"bookSourceComment": "error:Unable to resolve host \"www.aszw6.com\": No address associated with hostname\n", "bookSourceGroup": "我的书源", "bookSourceName": "🔰 爱上中文", "bookSourceType": 0, "bookSourceUrl": "https://www.aszw6.com", "bookUrlPattern": "", "customOrder": 16250, "enabled": true, "enabledExplore": true, "exploreUrl": "魔法小说::/sort1/{{page}}.html\n武侠小说::/sort2/{{page}}.html\n言情小说::/sort3/{{page}}.html\n历史小说::/sort4/{{page}}.html\n侦探小说::/sort5/{{page}}.html\n动漫小说::/sort6/{{page}}.html\n科幻小说::/sort7/{{page}}.html\n其他小说::/sort8/{{page}}.html\n全本小说::/quanben/\n总排行榜::/topallvisit/{{page}}.html\n总推荐榜::/topallvote/{{page}}.html\n月排行榜::/topmonthvisit/{{page}}.html\n月推荐榜::/topmonthvote/{{page}}.html\n周排行榜::/topweekvisit/{{page}}.html\n周推荐榜::/topweekvote/{{page}}.html\n最新入库::/toppostdate/{{page}}.html\n最近更新::/toplastupdate/{{page}}.html\n原创更新::/topauthorupdate/{{page}}.html\n转载更新::/topmasterupdate/{{page}}.html\n总收藏榜::/topgoodnum/{{page}}.html\n字数排行::/topsize/{{page}}.html", "lastUpdateTime": 1601476317049, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.pic@tag.img@src", "intro": "class.js@text"}, "ruleContent": {"content": "id.contents@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@text||tag.td.2@text##类别.*", "bookList": "class.grid@tag.tr!0||id.content@tag.tr!0", "bookUrl": "class.odd.0@tag.a.0@href||tag.td.0@tag.a.0@href", "coverUrl": "tag.a.0@href##/book/(\\d+)/(\\d+)/##/files/article/image/$1/$2/$2s.jpg", "kind": "class.even.1@text||class.C.1@text", "lastChapter": "class.even.0@text||tag.td.1@tag.a.0@text", "name": "class.odd.0@text||tag.td.0@tag.a@text"}, "ruleToc": {"chapterList": "id.at@tag.td@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.aszw6.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:Unable to resolve host \"www.aszw6.com\": No address associated with hostname\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🔰 爱上中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.aszw6.com",
+    "bookUrlPattern": "",
+    "customOrder": 16250,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "魔法小说::/sort1/{{page}}.html\n武侠小说::/sort2/{{page}}.html\n言情小说::/sort3/{{page}}.html\n历史小说::/sort4/{{page}}.html\n侦探小说::/sort5/{{page}}.html\n动漫小说::/sort6/{{page}}.html\n科幻小说::/sort7/{{page}}.html\n其他小说::/sort8/{{page}}.html\n全本小说::/quanben/\n总排行榜::/topallvisit/{{page}}.html\n总推荐榜::/topallvote/{{page}}.html\n月排行榜::/topmonthvisit/{{page}}.html\n月推荐榜::/topmonthvote/{{page}}.html\n周排行榜::/topweekvisit/{{page}}.html\n周推荐榜::/topweekvote/{{page}}.html\n最新入库::/toppostdate/{{page}}.html\n最近更新::/toplastupdate/{{page}}.html\n原创更新::/topauthorupdate/{{page}}.html\n转载更新::/topmasterupdate/{{page}}.html\n总收藏榜::/topgoodnum/{{page}}.html\n字数排行::/topsize/{{page}}.html",
+    "lastUpdateTime": 1601476317049,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.pic@tag.img@src",
+      "intro": "class.js@text"
+    },
+    "ruleContent": {
+      "content": "id.contents@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text||tag.td.2@text##类别.*",
+      "bookList": "class.grid@tag.tr!0||id.content@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a.0@href||tag.td.0@tag.a.0@href",
+      "coverUrl": "tag.a.0@href##/book/(\\d+)/(\\d+)/##/files/article/image/$1/$2/$2s.jpg",
+      "kind": "class.even.1@text||class.C.1@text",
+      "lastChapter": "class.even.0@text||tag.td.1@tag.a.0@text",
+      "name": "class.odd.0@text||tag.td.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.at@tag.td@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.aszw6.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

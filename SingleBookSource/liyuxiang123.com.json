@@ -1,1 +1,45 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🍑 鲤鱼乡123[仅发现]", "bookSourceType": 0, "bookSourceUrl": "http://www.liyuxiang123.com", "customOrder": -116080, "enabled": true, "enabledExplore": true, "exploreUrl": "近代现代::http://www.liyuxiang123.com/sort1/{{page}}/\n古代架空::http://www.liyuxiang123.com/sort2/{{page}}/\n穿越重生::http://www.liyuxiang123.com/sort3/{{page}}/\n玄幻灵异::http://www.liyuxiang123.com/sort4/{{page}}/\n推理悬疑::http://www.liyuxiang123.com/sort5/{{page}}/\n网游竞技::http://www.liyuxiang123.com/sort6/{{page}}/\n BL 同人 ::http://www.liyuxiang123.com/sort7/{{page}}/\n GL百合 ::http://www.liyuxiang123.com/sort8/{{page}}/\nnull", "lastUpdateTime": 1612198715613, "ruleBookInfo": {"author": "class.infotitle@tag.a@text", "coverUrl": "class.img_in@tag.img@scr", "intro": "id.aboutbook@text", "kind": "id.srcbox@tag.a.1@text", "name": "class.infotitle@tag.h1@text"}, "ruleContent": {"content": "id.content@textNodes##鲤鱼乡.*"}, "ruleExplore": {"author": "class.title@tag.span@text", "bookList": "@css:#alistbox", "bookUrl": "class.title@tag.h2@tag.a@href", "coverUrl": "class.pic@tag.img@src", "intro": "class.intro@text", "name": "class.title@tag.h2@text##\\《|\\》"}, "ruleSearch": {"author": "tag.td.2@text", "bookList": "class.searchxx@tag.tr!0", "bookUrl": "tag.td.0@tag.a@href", "kind": "tag.td.5@text", "lastChapter": "tag.td.4@text", "name": "tag.td.0@tag.a@text"}, "ruleToc": {"chapterList": "id.box@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.liyuxiang123.com/modules/article/search.php?searchtype=articlename&searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍑 鲤鱼乡123[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.liyuxiang123.com",
+    "customOrder": -116080,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "近代现代::http://www.liyuxiang123.com/sort1/{{page}}/\n古代架空::http://www.liyuxiang123.com/sort2/{{page}}/\n穿越重生::http://www.liyuxiang123.com/sort3/{{page}}/\n玄幻灵异::http://www.liyuxiang123.com/sort4/{{page}}/\n推理悬疑::http://www.liyuxiang123.com/sort5/{{page}}/\n网游竞技::http://www.liyuxiang123.com/sort6/{{page}}/\n BL 同人 ::http://www.liyuxiang123.com/sort7/{{page}}/\n GL百合 ::http://www.liyuxiang123.com/sort8/{{page}}/\nnull",
+    "lastUpdateTime": 1612198715613,
+    "ruleBookInfo": {
+      "author": "class.infotitle@tag.a@text",
+      "coverUrl": "class.img_in@tag.img@scr",
+      "intro": "id.aboutbook@text",
+      "kind": "id.srcbox@tag.a.1@text",
+      "name": "class.infotitle@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##鲤鱼乡.*"
+    },
+    "ruleExplore": {
+      "author": "class.title@tag.span@text",
+      "bookList": "@css:#alistbox",
+      "bookUrl": "class.title@tag.h2@tag.a@href",
+      "coverUrl": "class.pic@tag.img@src",
+      "intro": "class.intro@text",
+      "name": "class.title@tag.h2@text##\\《|\\》"
+    },
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "class.searchxx@tag.tr!0",
+      "bookUrl": "tag.td.0@tag.a@href",
+      "kind": "tag.td.5@text",
+      "lastChapter": "tag.td.4@text",
+      "name": "tag.td.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.box@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.liyuxiang123.com/modules/article/search.php?searchtype=articlename&searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

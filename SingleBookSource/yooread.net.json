@@ -1,1 +1,65 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🍺 悠读", "bookSourceType": 0, "bookSourceUrl": "https://www.yooread.net#sort-con-wp a", "bookUrlPattern": "", "customOrder": -32872, "enabled": true, "enabledExplore": true, "exploreUrl": "武侠仙侠::/1/index<,_{{page}}>.html\n都市言情::/2/index<,_{{page}}>.html\n侦探推理::/3/index<,_{{page}}>.html\n科幻奇幻::/4/index<,_{{page}}>.html\n历史军事::/5/index<,_{{page}}>.html\n文学经典::/6/index<,_{{page}}>.html\n外国文学::/7/index<,_{{page}}>.html\n杂文随笔::/8/index<,_{{page}}>.html\n宗教哲学::/9/index<,_{{page}}>.html\n纪实传记::/10/index<,_{{page}}>.html\n职业官场::/11/index<,_{{page}}>.html\n经管金融::/12/index<,_{{page}}>.html\n人文杜科::/13/index<,_{{page}}>.html\n智慧成长::/14/index<,_{{page}}>.html\n轻の小说::/15/index<,_{{page}}>.html\n穿越架空::/16/index<,_{{page}}>.html\n青春校园::/17/index<,_{{page}}>.html\n惊悚悬疑::/18/index<,_{{page}}>.html\n东方玄幻::/19/index<,_{{page}}>.html\n游戏竞技::/20/index<,_{{page}}>.html\n人气新书::/22/index<,_{{page}}>.html", "header": "", "lastUpdateTime": 1603357511625, "loginUrl": "coolapk@芜恙", "ruleBookInfo": {"author": "author", "coverUrl": "cover", "init": "<js> \nvar J = org.jsoup.Jsoup.parse(result);\nvar o = selector => String(J.select(selector).text()) ;\nvar og = selector => String(J.select('[property=\"og:' + selector + '\"]').attr('content'));\nvar book = {\n\tname: og('novel:book_name').replace(/(全文|小说|免费阅读|最新章节).*|[(（].*[）)]/g, ''),\n\tauthor: og('novel:author'),\n\tkind: og('novel:category') + ',' + og('novel:status').replace(/中|已/, ''),\n  wordCount: o('.txt ul li:eq(2)').replace(/字数：|\\s+/g,''),\n\tlatest: og('novel:latest_chapter_name').replace(/^(正文|VIP章节|最新章节)?(\\s+|_)|[\\(（【].*[求更谢乐发推].*/g, ''),\n\tintro: '　　最近更新:' + og('novel:update_time').replace(/(T|\\s).*/, ' ').replace(/\\//g, '-') + '\\n' + o('.last p').replace(/.*(观看小说|简介)[:：]|各位书友.*/g, '').replace(/\\s+/g, '\\n'),\n\tcover: og('image'),\n\turl: og('novel:read_url'),\n};\nbook;\n</js>", "intro": "intro", "kind": "kind", "lastChapter": "latest", "name": "name", "tocUrl": "url", "wordCount": "wordCount"}, "ruleContent": {"content": "#TextContent@html", "imageStyle": "", "nextContentUrl": "text.下一页@href", "replaceRegex": "", "sourceRegex": "", "webJs": ""}, "ruleExplore": {"author": "p a@text", "bookList": ".book_list li", "bookUrl": "h2 a@href", "coverUrl": "img@_src", "intro": ".con@text", "kind": "h2 span@text", "lastChapter": "", "name": "h2 a@text", "wordCount": ""}, "ruleSearch": {"author": "author", "bookList": ".sort-con-wp a\n<js>\nresult.toArray().slice(0, 3).map(el => {\n\tvar url = String(el.select('a:eq(0)').attr('href')).replace(/^\\//, baseUrl.match(/(.+?\\/\\/[^\\/]+\\/)/)[1]);\n\tvar J = org.jsoup.Jsoup.parse(java.ajax(url));\n\tvar o = selector => String(J.select(selector).text());\n\tvar og = selector => String(J.select('[property=\"og:' + selector + '\"]').attr('content'));\n\treturn {\n\t\tname: og('novel:book_name').replace(/(全文|小说|免费阅读|最新章节).*|[(（].*[）)]/g, ''),\n\t\tauthor: og('novel:author'),\n\t\tkind: og('novel:category') + ',' + og('novel:status').replace(/中|已/, ''),\n     wordCount: o('.txt ul li:eq(2)').replace(/字数：|\\s+/g,''),\n\t\tlatest: og('novel:latest_chapter_name').replace(/^(正文|VIP章节|最新章节)?(\\s+|_)|[\\(（【].*[求更谢乐发推].*/g, '') + ' • ' + og('novel:update_time').replace(/(T|\\s).*/, ' ').replace(/\\//g, '-'),\n\t\tintro: og('description').replace(/.*(观看小说|简介)[:：]|各位书友.*/g, '').replace(/\\s+/g, ''),\n\t\tcover: og('image'),\n\t\turl: url,\n\t};\n}); \n</js>", "bookUrl": "url", "coverUrl": "cover", "intro": "intro", "kind": "kind", "lastChapter": "latest", "name": "name", "wordCount": "wordCount"}, "ruleToc": {"chapterList": "<js>\nr=java.get(\"InfoHTML\");\nr==java.get(\"\")?result:r\n</js>\n//*[@class=\"bookchapter\"]/following-sibling::*/tbody\n<js>\n//按卷分隔\nsub=String(result).slice(1,-1).split(/, *(?=<t)/);\n\n//捕获卷名\njm=String(result).match(/([^<>]+)(?=<\\/s)/g);\n\n//插入卷名，按卷分块\nfor(var i=jm[0]==\"正文\"?1:0;i<sub.length;i++)sub[i]=sub[i].replace(/e=\"/g,'e=\"'+\"🍈\"+jm[i]+\"🍈\").replace(/strong>([^<>]+)<\\/strong/,'td><li><a href=\"http://localhost/$1\" title=\"♦$1♦\"></a></li></td><td><li></li></td><td><li></li></td');\n\n//合并结果\nsub.join(\"\")\n</js>\n//td[1]//li%%//td[2]//li%%//td[3]//li", "chapterName": "a@text##^(正文|VIP章节|最新章节)?(\\s+|_)|[\\(（【].*[求更谢乐发推].*", "chapterUrl": "a@href", "nextTocUrl": "", "updateTime": ""}, "searchUrl": "/e/search/index.php,{\n \"method\": \"POST\",\n \"body\": \"show=title&tempid=1&keyboard={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍺 悠读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yooread.net#sort-con-wp a",
+    "bookUrlPattern": "",
+    "customOrder": -32872,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "武侠仙侠::/1/index<,_{{page}}>.html\n都市言情::/2/index<,_{{page}}>.html\n侦探推理::/3/index<,_{{page}}>.html\n科幻奇幻::/4/index<,_{{page}}>.html\n历史军事::/5/index<,_{{page}}>.html\n文学经典::/6/index<,_{{page}}>.html\n外国文学::/7/index<,_{{page}}>.html\n杂文随笔::/8/index<,_{{page}}>.html\n宗教哲学::/9/index<,_{{page}}>.html\n纪实传记::/10/index<,_{{page}}>.html\n职业官场::/11/index<,_{{page}}>.html\n经管金融::/12/index<,_{{page}}>.html\n人文杜科::/13/index<,_{{page}}>.html\n智慧成长::/14/index<,_{{page}}>.html\n轻の小说::/15/index<,_{{page}}>.html\n穿越架空::/16/index<,_{{page}}>.html\n青春校园::/17/index<,_{{page}}>.html\n惊悚悬疑::/18/index<,_{{page}}>.html\n东方玄幻::/19/index<,_{{page}}>.html\n游戏竞技::/20/index<,_{{page}}>.html\n人气新书::/22/index<,_{{page}}>.html",
+    "header": "",
+    "lastUpdateTime": 1603357511625,
+    "loginUrl": "coolapk@芜恙",
+    "ruleBookInfo": {
+      "author": "author",
+      "coverUrl": "cover",
+      "init": "<js> \nvar J = org.jsoup.Jsoup.parse(result);\nvar o = selector => String(J.select(selector).text()) ;\nvar og = selector => String(J.select('[property=\"og:' + selector + '\"]').attr('content'));\nvar book = {\n\tname: og('novel:book_name').replace(/(全文|小说|免费阅读|最新章节).*|[(（].*[）)]/g, ''),\n\tauthor: og('novel:author'),\n\tkind: og('novel:category') + ',' + og('novel:status').replace(/中|已/, ''),\n  wordCount: o('.txt ul li:eq(2)').replace(/字数：|\\s+/g,''),\n\tlatest: og('novel:latest_chapter_name').replace(/^(正文|VIP章节|最新章节)?(\\s+|_)|[\\(（【].*[求更谢乐发推].*/g, ''),\n\tintro: '　　最近更新:' + og('novel:update_time').replace(/(T|\\s).*/, ' ').replace(/\\//g, '-') + '\\n' + o('.last p').replace(/.*(观看小说|简介)[:：]|各位书友.*/g, '').replace(/\\s+/g, '\\n'),\n\tcover: og('image'),\n\turl: og('novel:read_url'),\n};\nbook;\n</js>",
+      "intro": "intro",
+      "kind": "kind",
+      "lastChapter": "latest",
+      "name": "name",
+      "tocUrl": "url",
+      "wordCount": "wordCount"
+    },
+    "ruleContent": {
+      "content": "#TextContent@html",
+      "imageStyle": "",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "p a@text",
+      "bookList": ".book_list li",
+      "bookUrl": "h2 a@href",
+      "coverUrl": "img@_src",
+      "intro": ".con@text",
+      "kind": "h2 span@text",
+      "lastChapter": "",
+      "name": "h2 a@text",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "author",
+      "bookList": ".sort-con-wp a\n<js>\nresult.toArray().slice(0, 3).map(el => {\n\tvar url = String(el.select('a:eq(0)').attr('href')).replace(/^\\//, baseUrl.match(/(.+?\\/\\/[^\\/]+\\/)/)[1]);\n\tvar J = org.jsoup.Jsoup.parse(java.ajax(url));\n\tvar o = selector => String(J.select(selector).text());\n\tvar og = selector => String(J.select('[property=\"og:' + selector + '\"]').attr('content'));\n\treturn {\n\t\tname: og('novel:book_name').replace(/(全文|小说|免费阅读|最新章节).*|[(（].*[）)]/g, ''),\n\t\tauthor: og('novel:author'),\n\t\tkind: og('novel:category') + ',' + og('novel:status').replace(/中|已/, ''),\n     wordCount: o('.txt ul li:eq(2)').replace(/字数：|\\s+/g,''),\n\t\tlatest: og('novel:latest_chapter_name').replace(/^(正文|VIP章节|最新章节)?(\\s+|_)|[\\(（【].*[求更谢乐发推].*/g, '') + ' • ' + og('novel:update_time').replace(/(T|\\s).*/, ' ').replace(/\\//g, '-'),\n\t\tintro: og('description').replace(/.*(观看小说|简介)[:：]|各位书友.*/g, '').replace(/\\s+/g, ''),\n\t\tcover: og('image'),\n\t\turl: url,\n\t};\n}); \n</js>",
+      "bookUrl": "url",
+      "coverUrl": "cover",
+      "intro": "intro",
+      "kind": "kind",
+      "lastChapter": "latest",
+      "name": "name",
+      "wordCount": "wordCount"
+    },
+    "ruleToc": {
+      "chapterList": "<js>\nr=java.get(\"InfoHTML\");\nr==java.get(\"\")?result:r\n</js>\n//*[@class=\"bookchapter\"]/following-sibling::*/tbody\n<js>\n//按卷分隔\nsub=String(result).slice(1,-1).split(/, *(?=<t)/);\n\n//捕获卷名\njm=String(result).match(/([^<>]+)(?=<\\/s)/g);\n\n//插入卷名，按卷分块\nfor(var i=jm[0]==\"正文\"?1:0;i<sub.length;i++)sub[i]=sub[i].replace(/e=\"/g,'e=\"'+\"🍈\"+jm[i]+\"🍈\").replace(/strong>([^<>]+)<\\/strong/,'td><li><a href=\"http://localhost/$1\" title=\"♦$1♦\"></a></li></td><td><li></li></td><td><li></li></td');\n\n//合并结果\nsub.join(\"\")\n</js>\n//td[1]//li%%//td[2]//li%%//td[3]//li",
+      "chapterName": "a@text##^(正文|VIP章节|最新章节)?(\\s+|_)|[\\(（【].*[求更谢乐发推].*",
+      "chapterUrl": "a@href",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "/e/search/index.php,{\n \"method\": \"POST\",\n \"body\": \"show=title&tempid=1&keyboard={{key}}\"\n}",
+    "weight": 0
+  }]

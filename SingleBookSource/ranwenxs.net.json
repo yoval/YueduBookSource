@@ -1,1 +1,44 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 燃文小说", "bookSourceType": 0, "bookSourceUrl": "https://www.ranwenxs.net", "bookUrlPattern": "", "customOrder": -31790, "enabled": true, "enabledExplore": true, "exploreUrl": "", "header": "", "lastUpdateTime": 1602753907794, "loginUrl": "", "ruleBookInfo": {"author": "id.info@tag.a.0@text", "coverUrl": "class.img_in@tag.img@src", "intro": "id.intro@text", "kind": "class.nav-mbx@tag.a.2@text", "lastChapter": "class.update@tag.a@text##正文 ", "name": "id.info@tag.h1@text##/ .*"}, "ruleContent": {"content": "id.content@html", "replaceRegex": "##燃文小说.*最新章节！"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.td.2@text", "bookList": "class.grid@tag.tr!0", "bookUrl": "tag.a.0@href", "kind": "tag.td.5@text", "lastChapter": "tag.a.1@text", "name": "tag.a.0@text", "wordCount": "tag.td.3@text"}, "ruleToc": {"chapterList": "class.zjlist@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "/modules/article/search.php?searchkey={{key}}&submit=,{\"charset\":\"gbk\"}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 燃文小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ranwenxs.net",
+    "bookUrlPattern": "",
+    "customOrder": -31790,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1602753907794,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.a.0@text",
+      "coverUrl": "class.img_in@tag.img@src",
+      "intro": "id.intro@text",
+      "kind": "class.nav-mbx@tag.a.2@text",
+      "lastChapter": "class.update@tag.a@text##正文 ",
+      "name": "id.info@tag.h1@text##/ .*"
+    },
+    "ruleContent": {
+      "content": "id.content@html",
+      "replaceRegex": "##燃文小说.*最新章节！"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "tag.a.0@href",
+      "kind": "tag.td.5@text",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text",
+      "wordCount": "tag.td.3@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.zjlist@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/modules/article/search.php?searchkey={{key}}&submit=,{\"charset\":\"gbk\"}",
+    "weight": 0
+  }]

@@ -1,1 +1,44 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "英雄小说网(精)", "bookSourceType": 0, "bookSourceUrl": "https://www.yxzmdf.com", "bookUrlPattern": "", "customOrder": 1, "enabled": true, "enabledExplore": true, "exploreUrl": "总点击榜::http://wap.yxzmdf.com/top/allvisit_{{page}}/\n总推荐榜::http://wap.yxzmdf.com/top/allvote_{{page}}/\n月点击榜::http://wap.yxzmdf.com/top/monthvisit_{{page}}/\n周点击榜::http://wap.yxzmdf.com/top/weekvisit_{{page}}/\n总收藏榜::http://wap.yxzmdf.com/top/goodnum_{{page}}/\n最近更新::http://wap.yxzmdf.com/top/lastupdate_{{page}}/", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "class.xiaoshuo.0@tag.h2@text##作者：", "coverUrl": "class.book_info.0@tag.img.0@src", "intro": "class.xiaoshuo.0@tag.p.0@text", "lastChapter": "class.xiaoshuo.0@tag.h5@tag.a.0@text", "name": "class.xiaoshuo.0@tag.h1@text"}, "ruleContent": {"content": "id.content@textNodes", "nextContentUrl": "text.第二页@href"}, "ruleExplore": {"author": "tag.a.2@text", "bookList": "class.cover.0@tag.p", "bookUrl": "tag.a.1@href##.*/book/(.*?)(...).shtml##https://www.yxzmdf.com/yxzmd/$1/$1$2/", "name": "tag.a.1@text"}, "ruleSearch": {"author": "class.odd.1@text||class.author@text##/.*", "bookList": "class.grid@tag.tr.!0", "bookUrl": "tag.a.1@href##.*/yxzmd/(.*?)/(.*?)/.*##https://www.yxzmdf.com/yxzmd/$1/$2/", "name": "class.odd@tag.a.0@text||class.title.0@text"}, "ruleToc": {"chapterList": "class.novel_list.0@dd@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.yxzmdf.com/modules/article/search.php?ie=gbk&searchkey={{key}}&ct=2097152,{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "英雄小说网(精)",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yxzmdf.com",
+    "bookUrlPattern": "",
+    "customOrder": 1,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "总点击榜::http://wap.yxzmdf.com/top/allvisit_{{page}}/\n总推荐榜::http://wap.yxzmdf.com/top/allvote_{{page}}/\n月点击榜::http://wap.yxzmdf.com/top/monthvisit_{{page}}/\n周点击榜::http://wap.yxzmdf.com/top/weekvisit_{{page}}/\n总收藏榜::http://wap.yxzmdf.com/top/goodnum_{{page}}/\n最近更新::http://wap.yxzmdf.com/top/lastupdate_{{page}}/",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.xiaoshuo.0@tag.h2@text##作者：",
+      "coverUrl": "class.book_info.0@tag.img.0@src",
+      "intro": "class.xiaoshuo.0@tag.p.0@text",
+      "lastChapter": "class.xiaoshuo.0@tag.h5@tag.a.0@text",
+      "name": "class.xiaoshuo.0@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes",
+      "nextContentUrl": "text.第二页@href"
+    },
+    "ruleExplore": {
+      "author": "tag.a.2@text",
+      "bookList": "class.cover.0@tag.p",
+      "bookUrl": "tag.a.1@href##.*/book/(.*?)(...).shtml##https://www.yxzmdf.com/yxzmd/$1/$1$2/",
+      "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+      "author": "class.odd.1@text||class.author@text##/.*",
+      "bookList": "class.grid@tag.tr.!0",
+      "bookUrl": "tag.a.1@href##.*/yxzmd/(.*?)/(.*?)/.*##https://www.yxzmdf.com/yxzmd/$1/$2/",
+      "name": "class.odd@tag.a.0@text||class.title.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.novel_list.0@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.yxzmdf.com/modules/article/search.php?ie=gbk&searchkey={{key}}&ct=2097152,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

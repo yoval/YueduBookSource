@@ -1,1 +1,44 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "阅书阁", "bookSourceType": 0, "bookSourceUrl": "https://www.yshuge.com", "customOrder": -901, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻小说::/xuanhuan/\n修真小说::/xiuzhen/\n都市言情::/dushi/\n穿越重生::/chuanyue/\n科幻未来::/kehuan/\n网游竞技::/wangyou/\n其他小说::/qita/", "lastUpdateTime": 0, "ruleBookInfo": {"intro": "id.intro@text", "tocUrl": ""}, "ruleContent": {"content": "id.content@textNodes##阅书阁 『|』，.*閱讀|优质免费.*』"}, "ruleExplore": {"author": "class.s5.0@text", "bookList": "class.s2", "bookUrl": "tag.a.0@href", "coverUrl": "class.s2@tag.a.0@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.yshuge.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>", "lastChapter": "tag.span.1@tag.a@text", "name": "tag.a.0@text"}, "ruleSearch": {"author": "class.odd.1@text", "bookList": "class.grid@tag.tr!0", "bookUrl": "class.odd.0@tag.a.0@href", "coverUrl": "class.odd.0@tag.a.0@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.yshuge.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>", "kind": "class.eveb.1@text", "lastChapter": "class.even.0@text##最新章节：", "name": "class.odd.0@tag.a.0@text", "wordCount": "class.even.1@text"}, "ruleToc": {"chapterList": "class.chapters@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=articlename\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "阅书阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yshuge.com",
+    "customOrder": -901,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻小说::/xuanhuan/\n修真小说::/xiuzhen/\n都市言情::/dushi/\n穿越重生::/chuanyue/\n科幻未来::/kehuan/\n网游竞技::/wangyou/\n其他小说::/qita/",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "intro": "id.intro@text",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##阅书阁 『|』，.*閱讀|优质免费.*』"
+    },
+    "ruleExplore": {
+      "author": "class.s5.0@text",
+      "bookList": "class.s2",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "class.s2@tag.a.0@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.yshuge.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+      "lastChapter": "tag.span.1@tag.a@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "coverUrl": "class.odd.0@tag.a.0@href<js>\nvar id = result.match(/(\\d+)\\/?$/)[1];\nvar iid = parseInt(id/1000);\n'https://www.yshuge.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n</js>",
+      "kind": "class.eveb.1@text",
+      "lastChapter": "class.even.0@text##最新章节：",
+      "name": "class.odd.0@tag.a.0@text",
+      "wordCount": "class.even.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapters@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=articlename\"\n}",
+    "weight": 0
+  }]

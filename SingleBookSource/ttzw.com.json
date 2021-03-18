@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🌸 天天中文", "bookSourceType": 0, "bookSourceUrl": "http://www.ttzw.com", "bookUrlPattern": "", "customOrder": -117014, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1606837487207, "loginUrl": "", "ruleBookInfo": {"coverUrl": ".imgbox@img@src", "intro": "//meta[@property=\"og:description\"]/@content"}, "ruleContent": {"content": "id.content@textNodes", "imageStyle": "0", "nextContentUrl": "text.下一页@href"}, "ruleExplore": {}, "ruleSearch": {"author": ".s4@text", "bookList": ".txt-list@li!0", "bookUrl": ".s2@a@href", "kind": ".s1@text##\\[|\\]", "lastChapter": ".s3@text", "name": ".s2@text"}, "ruleToc": {"chapterList": "class.section-box!0@li@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "http://www.ttzw.tv/ar.php?keyWord={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🌸 天天中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.ttzw.com",
+    "bookUrlPattern": "",
+    "customOrder": -117014,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1606837487207,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": ".imgbox@img@src",
+      "intro": "//meta[@property=\"og:description\"]/@content"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes",
+      "imageStyle": "0",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": ".s4@text",
+      "bookList": ".txt-list@li!0",
+      "bookUrl": ".s2@a@href",
+      "kind": ".s1@text##\\[|\\]",
+      "lastChapter": ".s3@text",
+      "name": ".s2@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.section-box!0@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.ttzw.tv/ar.php?keyWord={{key}}",
+    "weight": 0
+  }]

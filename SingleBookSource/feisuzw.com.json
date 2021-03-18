@@ -1,1 +1,40 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 飞速中文网", "bookSourceType": 0, "bookSourceUrl": "https://www.feisuzw.com", "bookUrlPattern": "", "customOrder": -31980, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "class.info@span@text##.*/", "coverUrl": "class.bookimg@img@src", "intro": "class.intro@textNodes", "kind": "class.info@tag.em.0@text##作品类别：", "lastChapter": "class.intro@p@a@text", "name": "class.info@a@text"}, "ruleContent": {"content": "id.content@p@html"}, "ruleExplore": {}, "ruleSearch": {"author": "id.CListTitle@textNodes##\\[|\\|.*", "bookList": "class.listbox@children", "bookUrl": "tag.a@href", "kind": "id.CListTitle@tag.a.1@text&&id.CListTitle@tag.a.2@text", "lastChapter": "id.CListTitle@tag.a.3@text", "name": "id.CListTitle@a@b@text"}, "ruleToc": {"chapterList": "class.chapterlist@tag.li@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.feisuzw.com/book/search.aspx?SearchKey={{key}}&SearchClass=1&SeaButton=,{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 飞速中文网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.feisuzw.com",
+    "bookUrlPattern": "",
+    "customOrder": -31980,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.info@span@text##.*/",
+      "coverUrl": "class.bookimg@img@src",
+      "intro": "class.intro@textNodes",
+      "kind": "class.info@tag.em.0@text##作品类别：",
+      "lastChapter": "class.intro@p@a@text",
+      "name": "class.info@a@text"
+    },
+    "ruleContent": {
+      "content": "id.content@p@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "id.CListTitle@textNodes##\\[|\\|.*",
+      "bookList": "class.listbox@children",
+      "bookUrl": "tag.a@href",
+      "kind": "id.CListTitle@tag.a.1@text&&id.CListTitle@tag.a.2@text",
+      "lastChapter": "id.CListTitle@tag.a.3@text",
+      "name": "id.CListTitle@a@b@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapterlist@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.feisuzw.com/book/search.aspx?SearchKey={{key}}&SearchClass=1&SeaButton=,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

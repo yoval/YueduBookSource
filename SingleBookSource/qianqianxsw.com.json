@@ -1,1 +1,33 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "👍 千千看书", "bookSourceType": 0, "bookSourceUrl": "https://www.qianqianxsw.com", "customOrder": -114864, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1612814163895, "ruleBookInfo": {"author": "class.info2@tag.h3.0@text", "name": "class.info2@tag.h1.0@text"}, "ruleContent": {"content": "class.panel-body content-body content-ext@textNodes", "nextContentUrl": "##var\\snex[^']*'(.*?)'##$1###", "replaceRegex": "##收藏网址下次继续看：\"qianqianxsw.net\"。|一秒记住域名.*|请记住本站域名:\"qianqianxsw.net\"|本章节内容由 qianqianxsw．com 手打更新"}, "ruleExplore": {}, "ruleSearch": {"bookList": "tag.p@children", "bookUrl": "tag.a.0@href", "name": "text"}, "ruleToc": {"chapterList": "class.list-group list-charts@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "👍 千千看书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.qianqianxsw.com",
+    "customOrder": -114864,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612814163895,
+    "ruleBookInfo": {
+      "author": "class.info2@tag.h3.0@text",
+      "name": "class.info2@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "class.panel-body content-body content-ext@textNodes",
+      "nextContentUrl": "##var\\snex[^']*'(.*?)'##$1###",
+      "replaceRegex": "##收藏网址下次继续看：\"qianqianxsw.net\"。|一秒记住域名.*|请记住本站域名:\"qianqianxsw.net\"|本章节内容由 qianqianxsw．com 手打更新"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "tag.p@children",
+      "bookUrl": "tag.a.0@href",
+      "name": "text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list-group list-charts@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

@@ -1,1 +1,33 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🍑 17模板网", "bookSourceType": 0, "bookSourceUrl": "http://www.yqksb.com", "bookUrlPattern": "", "customOrder": -31222, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {}, "ruleContent": {"content": "id.content@html", "imageStyle": "0"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@text", "bookList": "class.grid@tag.tr!0", "bookUrl": "class.odd.0@tag.a.0@href", "lastChapter": "class.even.0@tag.a.0@text", "name": "class.odd.0@tag.a.0@text"}, "ruleToc": {"chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "http://www.yqksb.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename,{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍑 17模板网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.yqksb.com",
+    "bookUrlPattern": "",
+    "customOrder": -31222,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "id.content@html",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "lastChapter": "class.even.0@tag.a.0@text",
+      "name": "class.odd.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.yqksb.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

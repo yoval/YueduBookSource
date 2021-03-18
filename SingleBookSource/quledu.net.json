@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 无错小说网②", "bookSourceType": 0, "bookSourceUrl": "https://m.quledu.net", "bookUrlPattern": "https://m.quledu.net/chapters-\\d+/", "customOrder": -115356, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1612768682264, "loginUrl": "", "ruleBookInfo": {"intro": "class.intro_info.0@text##小提示.*站点目录。", "tocUrl": "text.查看目录@href"}, "ruleContent": {"content": "id.nr1@textNodes##m.quledu.net|本章已完成", "nextContentUrl": "text.下一页@href"}, "ruleExplore": {}, "ruleSearch": {"author": "class.pt-info@a.0@text", "bookList": "tag.li", "bookUrl": "class.pt-name@a@href", "coverUrl": "img@src", "kind": "class.pt-info@a.1@text", "name": "class.pt-name@a@text"}, "ruleToc": {"chapterList": "class.chapter@li@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://m.quledu.net/search/result.html?search_field=novelname&searchkey={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 无错小说网②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.quledu.net",
+    "bookUrlPattern": "https://m.quledu.net/chapters-\\d+/",
+    "customOrder": -115356,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612768682264,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.intro_info.0@text##小提示.*站点目录。",
+      "tocUrl": "text.查看目录@href"
+    },
+    "ruleContent": {
+      "content": "id.nr1@textNodes##m.quledu.net|本章已完成",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.pt-info@a.0@text",
+      "bookList": "tag.li",
+      "bookUrl": "class.pt-name@a@href",
+      "coverUrl": "img@src",
+      "kind": "class.pt-info@a.1@text",
+      "name": "class.pt-name@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://m.quledu.net/search/result.html?search_field=novelname&searchkey={{key}}",
+    "weight": 0
+  }]

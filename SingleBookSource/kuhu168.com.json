@@ -1,1 +1,37 @@
-[{"bookSourceComment": "error:List is empty.\nerror:List is empty.\n", "bookSourceGroup": "我的书源", "bookSourceName": "酷虎小说网", "bookSourceType": 0, "bookSourceUrl": "http://www.kuhu168.com", "bookUrlPattern": "", "customOrder": 312, "enabled": false, "enabledExplore": true, "lastUpdateTime": 1614343370523, "loginUrl": "", "ruleBookInfo": {"author": "tag.h3.0@tag.a.0@text", "coverUrl": "class.info1@tag.img.0@src", "intro": "class.info2@div@text##.*不能下载）", "lastChapter": "class.panel-body text-center info3@tag.a@text", "name": "tag.h1@text"}, "ruleContent": {"content": "class.imagecontent@html||id.nr@html"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.a.1@text", "bookList": "class.bookcon@tag.tr!0", "bookUrl": "tag.a.0@href", "name": "tag.a.0@text"}, "ruleToc": {"chapterList": "class.list-charts.0@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.kuhu168.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:List is empty.\nerror:List is empty.\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "酷虎小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.kuhu168.com",
+    "bookUrlPattern": "",
+    "customOrder": 312,
+    "enabled": false,
+    "enabledExplore": true,
+    "lastUpdateTime": 1614343370523,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "tag.h3.0@tag.a.0@text",
+      "coverUrl": "class.info1@tag.img.0@src",
+      "intro": "class.info2@div@text##.*不能下载）",
+      "lastChapter": "class.panel-body text-center info3@tag.a@text",
+      "name": "tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "class.imagecontent@html||id.nr@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.1@text",
+      "bookList": "class.bookcon@tag.tr!0",
+      "bookUrl": "tag.a.0@href",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list-charts.0@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.kuhu168.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

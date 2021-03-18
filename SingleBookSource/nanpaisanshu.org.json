@@ -1,1 +1,35 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🍺 南派三叔", "bookSourceType": 0, "bookSourceUrl": "http://www.nanpaisanshu.org", "customOrder": -32900, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻魔法::https://www.nanpaisanshu.org/list/1/{{page}}.html\n武侠修真::https://www.nanpaisanshu.org/list/2/{{page}}.html\n都市言情::https://www.nanpaisanshu.org/list/3/{{page}}.html\n历史军事::https://www.nanpaisanshu.org/list/4/{{page}}.html\n侦探推理::https://www.nanpaisanshu.org/list/5/{{page}}.html\n网游动漫::https://www.nanpaisanshu.org/list/6/{{page}}.html\n科幻::https://www.nanpaisanshu.org/list/7/{{page}}.html\n恐怖灵异::https://www.nanpaisanshu.org/list/8/{{page}}.html\n诗歌散文::https://www.nanpaisanshu.org/list/9/{{page}}.html\n其他::https://www.nanpaisanshu.org/list/10/{{page}}.html\n完本::https://www.nanpaisanshu.org/wanben/{{page}}.html\n最新入库::https://www.nanpaisanshu.org/top/postdate/{{page}}.html", "lastUpdateTime": 1603357335936, "ruleBookInfo": {"coverUrl": "class.panel-heading@tag.img.0@src", "intro": "class.panel-body@text"}, "ruleContent": {"content": "id.content@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.a.2@text", "bookList": "class.table table-striped table-hover@tag.tr!0", "bookUrl": "tag.a@href", "coverUrl": "@js:\"https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=649331598,1889666875&fm=26&gp=0.jpg\"", "lastChapter": "tag.a.1@text", "name": "tag.a.0@text"}, "ruleToc": {"chapterList": "class.list-group@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.nanpaisanshu.org/search?key={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍺 南派三叔",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.nanpaisanshu.org",
+    "customOrder": -32900,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::https://www.nanpaisanshu.org/list/1/{{page}}.html\n武侠修真::https://www.nanpaisanshu.org/list/2/{{page}}.html\n都市言情::https://www.nanpaisanshu.org/list/3/{{page}}.html\n历史军事::https://www.nanpaisanshu.org/list/4/{{page}}.html\n侦探推理::https://www.nanpaisanshu.org/list/5/{{page}}.html\n网游动漫::https://www.nanpaisanshu.org/list/6/{{page}}.html\n科幻::https://www.nanpaisanshu.org/list/7/{{page}}.html\n恐怖灵异::https://www.nanpaisanshu.org/list/8/{{page}}.html\n诗歌散文::https://www.nanpaisanshu.org/list/9/{{page}}.html\n其他::https://www.nanpaisanshu.org/list/10/{{page}}.html\n完本::https://www.nanpaisanshu.org/wanben/{{page}}.html\n最新入库::https://www.nanpaisanshu.org/top/postdate/{{page}}.html",
+    "lastUpdateTime": 1603357335936,
+    "ruleBookInfo": {
+      "coverUrl": "class.panel-heading@tag.img.0@src",
+      "intro": "class.panel-body@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.table table-striped table-hover@tag.tr!0",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "@js:\"https://ss1.bdstatic.com/70cFvXSh_Q1YnxGkpoWK1HF6hhy/it/u=649331598,1889666875&fm=26&gp=0.jpg\"",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list-group@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.nanpaisanshu.org/search?key={{key}}",
+    "weight": 0
+  }]

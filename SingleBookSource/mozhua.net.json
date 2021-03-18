@@ -1,1 +1,35 @@
-[{"bookSourceComment": "error:List is empty.\n", "bookSourceGroup": "我的书源", "bookSourceName": "💵 青兰文学✈", "bookSourceType": 0, "bookSourceUrl": "https://gl.mozhua.net", "bookUrlPattern": "", "customOrder": -34044, "enabled": true, "enabledExplore": true, "exploreUrl": "——::aa\n原创书馆::https://gl.mozhua.net/class/1_29/page_{{page}}.html ::aa\n——::a\n一往情深::https://gl.mozhua.net/class/1_1/page_{{page}}.html\n青青校园::https://gl.mozhua.net/class/1_2/page_{{page}}.html\n悬疑探险::https://gl.mozhua.net/class/1_3/page_{{page}}.html\n青梅竹马::https://gl.mozhua.net/class/1_4/page_{{page}}.html\n穿越重生::https://gl.mozhua.net/class/1_5/page_{{page}}.html\n女扮男装::https://gl.mozhua.net/class/1_6/page_{{page}}.html\n谍特军战::https://gl.mozhua.net/class/1_7/page_{{page}}.html\n温馨治愈::https://gl.mozhua.net/class/1_8/page_{{page}}.html\n商海浮沉::https://gl.mozhua.net/class/1_9/page_{{page}}.html\n法政律警::https://gl.mozhua.net/class/1_10/page_{{page}}.html\n民国旧影::https://gl.mozhua.net/class/1_11/page_{{page}}.html\n异世架空::https://gl.mozhua.net/class/1_12/page_{{page}}.html\n浪漫都市::https://gl.mozhua.net/class/1_13/page_{{page}}.html\n世事百态::https://gl.mozhua.net/class/1_14/page_{{page}}.html\n演艺娱乐::https://gl.mozhua.net/class/1_15/page_{{page}}.html\n萧墙心计::https://gl.mozhua.net/class/1_16/page_{{page}}.html\n江湖风雨::https://gl.mozhua.net/class/1_18/page_{{page}}.html\n虐恋情深::https://gl.mozhua.net/class/1_19/page_{{page}}.html\n豪门黑帮::https://gl.mozhua.net/class/1_20/page_{{page}}.html\n破镜重圆::https://gl.mozhua.net/class/1_21/page_{{page}}.html\n禁忌不伦::https://gl.mozhua.net/class/1_22/page_{{page}}.html\n恩劈群爱::https://gl.mozhua.net/class/1_23/page_{{page}}.html\n欢喜冤家::https://gl.mozhua.net/class/1_24/page_{{page}}.html\n历史女尊::https://gl.mozhua.net/class/1_25/page_{{page}}.html\n欧风西幻::https://gl.mozhua.net/class/1_26/page_{{page}}.html\n纪实叙事::https://gl.mozhua.net/class/1_27/page_{{page}}.html\n古色古香::https://gl.mozhua.net/class/1_28/page_{{page}}.html\n——::a\n总榜::https://gl.mozhua.net/top_all.html::a\n——::a\n日榜::https://gl.mozhua.net/top_day.html\n周榜::https://gl.mozhua.net/top_week.html\n月榜::https://gl.mozhua.net/top_month.html\n评论::https://gl.mozhua.net/top_comment.html\n收藏::https://gl.mozhua.net/top_feed.html\n完结::https://gl.mozhua.net/top_over.html", "lastUpdateTime": 1603072816554, "loginUrl": "", "ruleBookInfo": {}, "ruleContent": {"content": "id.readcontent@tag.p@textNodes"}, "ruleExplore": {"author": "class.author@tag.a@text||tag.td.1@tag.a@text", "bookList": "class.book_class_li||class.list@tag.tbody!0@tag.tr", "bookUrl": "tag.a.0@href||class.li@tag.a.0@href", "coverUrl": "tag.a.0@tag.img@src", "intro": "class.intro@text##\\(更多\\)", "kind": "class.tags@tag.a@text||tag.td.2@tag.a@text", "lastChapter": "class.li@tag.a.1@text", "name": "class.book_info@tag.a.0@text||class.li@tag.a.0@text"}, "ruleSearch": {}, "ruleToc": {"chapterList": "class.chapterlist@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "💵 青兰文学✈",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://gl.mozhua.net",
+    "bookUrlPattern": "",
+    "customOrder": -34044,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "——::aa\n原创书馆::https://gl.mozhua.net/class/1_29/page_{{page}}.html ::aa\n——::a\n一往情深::https://gl.mozhua.net/class/1_1/page_{{page}}.html\n青青校园::https://gl.mozhua.net/class/1_2/page_{{page}}.html\n悬疑探险::https://gl.mozhua.net/class/1_3/page_{{page}}.html\n青梅竹马::https://gl.mozhua.net/class/1_4/page_{{page}}.html\n穿越重生::https://gl.mozhua.net/class/1_5/page_{{page}}.html\n女扮男装::https://gl.mozhua.net/class/1_6/page_{{page}}.html\n谍特军战::https://gl.mozhua.net/class/1_7/page_{{page}}.html\n温馨治愈::https://gl.mozhua.net/class/1_8/page_{{page}}.html\n商海浮沉::https://gl.mozhua.net/class/1_9/page_{{page}}.html\n法政律警::https://gl.mozhua.net/class/1_10/page_{{page}}.html\n民国旧影::https://gl.mozhua.net/class/1_11/page_{{page}}.html\n异世架空::https://gl.mozhua.net/class/1_12/page_{{page}}.html\n浪漫都市::https://gl.mozhua.net/class/1_13/page_{{page}}.html\n世事百态::https://gl.mozhua.net/class/1_14/page_{{page}}.html\n演艺娱乐::https://gl.mozhua.net/class/1_15/page_{{page}}.html\n萧墙心计::https://gl.mozhua.net/class/1_16/page_{{page}}.html\n江湖风雨::https://gl.mozhua.net/class/1_18/page_{{page}}.html\n虐恋情深::https://gl.mozhua.net/class/1_19/page_{{page}}.html\n豪门黑帮::https://gl.mozhua.net/class/1_20/page_{{page}}.html\n破镜重圆::https://gl.mozhua.net/class/1_21/page_{{page}}.html\n禁忌不伦::https://gl.mozhua.net/class/1_22/page_{{page}}.html\n恩劈群爱::https://gl.mozhua.net/class/1_23/page_{{page}}.html\n欢喜冤家::https://gl.mozhua.net/class/1_24/page_{{page}}.html\n历史女尊::https://gl.mozhua.net/class/1_25/page_{{page}}.html\n欧风西幻::https://gl.mozhua.net/class/1_26/page_{{page}}.html\n纪实叙事::https://gl.mozhua.net/class/1_27/page_{{page}}.html\n古色古香::https://gl.mozhua.net/class/1_28/page_{{page}}.html\n——::a\n总榜::https://gl.mozhua.net/top_all.html::a\n——::a\n日榜::https://gl.mozhua.net/top_day.html\n周榜::https://gl.mozhua.net/top_week.html\n月榜::https://gl.mozhua.net/top_month.html\n评论::https://gl.mozhua.net/top_comment.html\n收藏::https://gl.mozhua.net/top_feed.html\n完结::https://gl.mozhua.net/top_over.html",
+    "lastUpdateTime": 1603072816554,
+    "loginUrl": "",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "id.readcontent@tag.p@textNodes"
+    },
+    "ruleExplore": {
+      "author": "class.author@tag.a@text||tag.td.1@tag.a@text",
+      "bookList": "class.book_class_li||class.list@tag.tbody!0@tag.tr",
+      "bookUrl": "tag.a.0@href||class.li@tag.a.0@href",
+      "coverUrl": "tag.a.0@tag.img@src",
+      "intro": "class.intro@text##\\(更多\\)",
+      "kind": "class.tags@tag.a@text||tag.td.2@tag.a@text",
+      "lastChapter": "class.li@tag.a.1@text",
+      "name": "class.book_info@tag.a.0@text||class.li@tag.a.0@text"
+    },
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "class.chapterlist@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "weight": 0
+  }]

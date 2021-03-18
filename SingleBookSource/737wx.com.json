@@ -1,1 +1,39 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "73文学网", "bookSourceType": 0, "bookSourceUrl": "http://www.737wx.com", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": false, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "class.zhuyan@tag.li.1@text##作\\s*者：", "coverUrl": "tag.img.0@src", "lastChapter": "class.zhuyan@tag.li.5@tag.a.0@text", "name": "class.zhuyan@tag.li.0@text##书名：", "tocUrl": "class.newrap@tag.a.0@href"}, "ruleContent": {"content": "tag.p.0@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.0@text||class.zhuyan@tag.li.1@text##.*/", "bookList": "class.grid@tag.tr!0", "bookUrl": "class.odd.0@tag.a.0@href", "kind": "class.odd.0@text##(?<=]).*", "lastChapter": "class.even.0@tag.a.0@text", "name": "class.odd.0@tag.a.0@text"}, "ruleToc": {"chapterList": "id.list@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.737wx.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "73文学网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.737wx.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.zhuyan@tag.li.1@text##作\\s*者：",
+      "coverUrl": "tag.img.0@src",
+      "lastChapter": "class.zhuyan@tag.li.5@tag.a.0@text",
+      "name": "class.zhuyan@tag.li.0@text##书名：",
+      "tocUrl": "class.newrap@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "tag.p.0@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.0@text||class.zhuyan@tag.li.1@text##.*/",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "kind": "class.odd.0@text##(?<=]).*",
+      "lastChapter": "class.even.0@tag.a.0@text",
+      "name": "class.odd.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.737wx.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

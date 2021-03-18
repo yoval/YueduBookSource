@@ -1,1 +1,38 @@
-[{"bookSourceComment": "error:List is empty.\n", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 51小说", "bookSourceType": 0, "bookSourceUrl": "http://51xs.site", "customOrder": -31870, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻::/novel/category/Ng_{{page}}.html\n校园::/novel/category/Nw_{{page}}.html\n都市::/novel/category/OQ_{{page}}.html\n言情::/novel/category/MTI_{{page}}.html\n武侠::/novel/category/MTY_{{page}}.html\n历史::/novel/category/MTc_{{page}}.html\n官场::/novel/category/MTE_{{page}}.html\n耽美::/novel/category/MjM_{{page}}.html\n仙侠::/novel/category/MjI_{{page}}.html\n古典::/novel/category/MjE_{{page}}.html\n网游::/novel/category/MjA_{{page}}.html\n同人::/novel/category/MTk_{{page}}.html\n穿越::/novel/category/MTg_{{page}}.html\n乡土::/novel/category/MTU_{{page}}.html\n女尊::/novel/category/MTQ_{{page}}.html\n惊悚::/novel/category/MTM_{{page}}.html\n异能::/novel/category/MTA_{{page}}.html\n单篇::/novel/category/OA_{{page}}.html", "lastUpdateTime": 1602811944906, "ruleBookInfo": {"author": "class.table@tag.td.1@text##作者：", "intro": "class.intro@text", "kind": "class.table@tag.td.0@text##分类：", "lastChapter": "class.pull-left@tag.a@text", "name": "tag.h1@text", "wordCount": "class.table@tag.td.2@text##全文长度："}, "ruleContent": {"content": "class.content@html"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.td.2@text", "bookList": "tag.tbody@tag.tr", "bookUrl": "tag.a.0@href", "lastChapter": "tag.a.1@text", "name": "tag.a.0@text"}, "ruleToc": {"chapterList": "class.panel-booklist.0@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://51xs.site/novel/search.html?keywords={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 51小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://51xs.site",
+    "customOrder": -31870,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/novel/category/Ng_{{page}}.html\n校园::/novel/category/Nw_{{page}}.html\n都市::/novel/category/OQ_{{page}}.html\n言情::/novel/category/MTI_{{page}}.html\n武侠::/novel/category/MTY_{{page}}.html\n历史::/novel/category/MTc_{{page}}.html\n官场::/novel/category/MTE_{{page}}.html\n耽美::/novel/category/MjM_{{page}}.html\n仙侠::/novel/category/MjI_{{page}}.html\n古典::/novel/category/MjE_{{page}}.html\n网游::/novel/category/MjA_{{page}}.html\n同人::/novel/category/MTk_{{page}}.html\n穿越::/novel/category/MTg_{{page}}.html\n乡土::/novel/category/MTU_{{page}}.html\n女尊::/novel/category/MTQ_{{page}}.html\n惊悚::/novel/category/MTM_{{page}}.html\n异能::/novel/category/MTA_{{page}}.html\n单篇::/novel/category/OA_{{page}}.html",
+    "lastUpdateTime": 1602811944906,
+    "ruleBookInfo": {
+      "author": "class.table@tag.td.1@text##作者：",
+      "intro": "class.intro@text",
+      "kind": "class.table@tag.td.0@text##分类：",
+      "lastChapter": "class.pull-left@tag.a@text",
+      "name": "tag.h1@text",
+      "wordCount": "class.table@tag.td.2@text##全文长度："
+    },
+    "ruleContent": {
+      "content": "class.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "tag.tbody@tag.tr",
+      "bookUrl": "tag.a.0@href",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.panel-booklist.0@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://51xs.site/novel/search.html?keywords={{key}}",
+    "weight": 0
+  }]

@@ -1,1 +1,39 @@
-[{"bookSourceComment": "error:List is empty.\n", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 霸气书库", "bookSourceType": 0, "bookSourceUrl": "http://www.87txt.net", "customOrder": -32414, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "ruleBookInfo": {"author": "class.main981.3@tag.a.0@text", "coverUrl": "class.nf21@img@src", "intro": "class.nf2313@text", "name": "class.main981.3@h1@text", "tocUrl": "text.在线读@href"}, "ruleContent": {"content": "//div[@id=\"content\"]"}, "ruleExplore": {}, "ruleSearch": {"author": "$4", "bookList": ":class=\"ml211\"><a href=\"(.*?)\".*?src=\"(.*?)\"(?:[^=]*=){3}[^>]*>(.*?)<[^=]*=.*?>(.*?)<(?:[^：]*：){2}(?:[^>]*>){2}(.*?)<(?:[^>]*>){4}(.*?)<(?:[^d]*d){2}d>([^<]*)<", "bookUrl": "$1", "coverUrl": "$2", "intro": "$7", "kind": "$5", "lastChapter": "$6", "name": "$3"}, "ruleToc": {"chapterList": ":td><a href=\"([^\"]*)\".*?\"(.*?)\"", "chapterName": "$2", "chapterUrl": "$1"}, "searchUrl": "http://www.87txt.net/modules/article/search.php?searchkey={{key}}&t=1&page={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 霸气书库",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.87txt.net",
+    "customOrder": -32414,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "class.main981.3@tag.a.0@text",
+      "coverUrl": "class.nf21@img@src",
+      "intro": "class.nf2313@text",
+      "name": "class.main981.3@h1@text",
+      "tocUrl": "text.在线读@href"
+    },
+    "ruleContent": {
+      "content": "//div[@id=\"content\"]"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$4",
+      "bookList": ":class=\"ml211\"><a href=\"(.*?)\".*?src=\"(.*?)\"(?:[^=]*=){3}[^>]*>(.*?)<[^=]*=.*?>(.*?)<(?:[^：]*：){2}(?:[^>]*>){2}(.*?)<(?:[^>]*>){4}(.*?)<(?:[^d]*d){2}d>([^<]*)<",
+      "bookUrl": "$1",
+      "coverUrl": "$2",
+      "intro": "$7",
+      "kind": "$5",
+      "lastChapter": "$6",
+      "name": "$3"
+    },
+    "ruleToc": {
+      "chapterList": ":td><a href=\"([^\"]*)\".*?\"(.*?)\"",
+      "chapterName": "$2",
+      "chapterUrl": "$1"
+    },
+    "searchUrl": "http://www.87txt.net/modules/article/search.php?searchkey={{key}}&t=1&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

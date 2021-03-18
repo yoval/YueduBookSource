@@ -1,1 +1,40 @@
-[{"bookSourceComment": "error:搜索内容为空并且没有发现\n", "bookSourceGroup": "我的书源", "bookSourceName": "🔰 龙坛书网", "bookSourceType": 0, "bookSourceUrl": "https://www.longtanshuwang.com", "customOrder": 16258, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "ruleBookInfo": {"author": "id.info@tag.p.2@text##作    者：", "coverUrl": "id.fmimg@tag.img@src", "intro": "id.intro@text", "kind": "id.info@tag.p.0@text##分类：|小说", "lastChapter": "id.info@tag.p.4@tag.a@text", "name": "id.info@tag.h1@text"}, "ruleContent": {"content": "id.content@textNodes##\\（本章完\\）"}, "ruleExplore": {}, "ruleSearch": {"author": "class.author@text##作者：", "bookList": "class.bookbox", "bookUrl": "class.bookimg@tag.a@href", "coverUrl": "class.bookimg@tag.img@src", "intro": "tag.p@text", "kind": "class.cat@text##分类：|小说", "lastChapter": "class.update@tag.a@text", "name": "class.bookname@tag.a@text"}, "ruleToc": {"chapterList": "class.listmain@tag.dl@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.longtanshuwang.com/s.php?ie=gbk&q={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🔰 龙坛书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.longtanshuwang.com",
+    "customOrder": 16258,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.2@text##作    者：",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@text",
+      "kind": "id.info@tag.p.0@text##分类：|小说",
+      "lastChapter": "id.info@tag.p.4@tag.a@text",
+      "name": "id.info@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##\\（本章完\\）"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text##作者：",
+      "bookList": "class.bookbox",
+      "bookUrl": "class.bookimg@tag.a@href",
+      "coverUrl": "class.bookimg@tag.img@src",
+      "intro": "tag.p@text",
+      "kind": "class.cat@text##分类：|小说",
+      "lastChapter": "class.update@tag.a@text",
+      "name": "class.bookname@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.dl@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.longtanshuwang.com/s.php?ie=gbk&q={{key}}",
+    "weight": 0
+  }]

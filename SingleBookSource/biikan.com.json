@@ -1,1 +1,36 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "必看网", "bookSourceType": 0, "bookSourceUrl": "https://www.biikan.com", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "文学::https://www.biikan.com/wenxue/{{page}}.shtml\n心理::https://www.biikan.com/xinli/{{page}}.shtml\n人物::https://www.biikan.com/renwu/{{page}}.shtml\n哲学::https://www.biikan.com/zhexue/{{page}}.shtml\n历史::https://www.biikan.com/lishi/{{page}}.shtml\n小说::https://www.biikan.com/xiaoshuo/{{page}}.shtml\n科普::https://www.biikan.com/kepu/{{page}}.shtml\n经济::https://www.biikan.com/jingji/{{page}}.shtml\n地理::https://www.biikan.com/dili/{{page}}.shtml\n宗教::https://www.biikan.com/zhongjiao/{{page}}.shtml", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"intro": ".bookaboutWrap .tab_box@tag.div.-1@html##^\\s*##<br>"}, "ruleContent": {"content": "id.readContent@html"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.a.2@text", "bookList": ".bookList li:lt(3)", "bookUrl": "tag.a.1@href", "coverUrl": "img@src", "intro": "p@text@js:result.trim()", "name": "tag.a.1@text"}, "ruleToc": {"chapterList": ".bookNavList a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "/home/book/search/k/{{key}}/page", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "必看网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.biikan.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "文学::https://www.biikan.com/wenxue/{{page}}.shtml\n心理::https://www.biikan.com/xinli/{{page}}.shtml\n人物::https://www.biikan.com/renwu/{{page}}.shtml\n哲学::https://www.biikan.com/zhexue/{{page}}.shtml\n历史::https://www.biikan.com/lishi/{{page}}.shtml\n小说::https://www.biikan.com/xiaoshuo/{{page}}.shtml\n科普::https://www.biikan.com/kepu/{{page}}.shtml\n经济::https://www.biikan.com/jingji/{{page}}.shtml\n地理::https://www.biikan.com/dili/{{page}}.shtml\n宗教::https://www.biikan.com/zhongjiao/{{page}}.shtml",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": ".bookaboutWrap .tab_box@tag.div.-1@html##^\\s*##<br>"
+    },
+    "ruleContent": {
+      "content": "id.readContent@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": ".bookList li:lt(3)",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "img@src",
+      "intro": "p@text@js:result.trim()",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": ".bookNavList a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/home/book/search/k/{{key}}/page",
+    "weight": 0
+  }]

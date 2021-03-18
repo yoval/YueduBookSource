@@ -1,1 +1,38 @@
-[{"bookSourceComment": "error:failed to connect to www.xuanhuange.net/115.238.239.133 (port 80) from /192.168.0.103 (port 48934) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 玄幻阁", "bookSourceType": 0, "bookSourceUrl": "http://www.xuanhuange.net", "bookUrlPattern": "", "customOrder": -32271, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻::/sort1/{{page}}/\n武侠::/sort2/{{page}}/\n都市::/sort3/{{page}}/\n历史::/sort4/{{page}}/\n言情::/sort5/{{page}}/\n穿越::/sort6/{{page}}/\n科幻::/sort7/{{page}}/\n恐怖::/sort8/{{page}}/\n校园::/sort9/{{page}}/\n异界::/sort10/{{page}}/\n全本::/quanben/{{page}}/", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": "id.fmimg@tag.img@src", "intro": "id.bookintro@tag.p@text", "tocUrl": "id.newlist@tag.a@href"}, "ruleContent": {"content": "id.content@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.book_other@tag.span.0@text", "bookList": "id.sitebox@tag.dl", "bookUrl": "tag.a.1@href", "coverUrl": "tag.img@src", "lastChapter": "class.book_other@tag.a.0@text", "name": "tag.a.1@text"}, "ruleToc": {"chapterList": "id.chapterlist@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.xuanhuange.net/modules/article/search.php?s=7673184438602983814&s={{key}}&searchtype=articlename", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:failed to connect to www.xuanhuange.net/115.238.239.133 (port 80) from /192.168.0.103 (port 48934) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 玄幻阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xuanhuange.net",
+    "bookUrlPattern": "",
+    "customOrder": -32271,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/sort1/{{page}}/\n武侠::/sort2/{{page}}/\n都市::/sort3/{{page}}/\n历史::/sort4/{{page}}/\n言情::/sort5/{{page}}/\n穿越::/sort6/{{page}}/\n科幻::/sort7/{{page}}/\n恐怖::/sort8/{{page}}/\n校园::/sort9/{{page}}/\n异界::/sort10/{{page}}/\n全本::/quanben/{{page}}/",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.bookintro@tag.p@text",
+      "tocUrl": "id.newlist@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.book_other@tag.span.0@text",
+      "bookList": "id.sitebox@tag.dl",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img@src",
+      "lastChapter": "class.book_other@tag.a.0@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterlist@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.xuanhuange.net/modules/article/search.php?s=7673184438602983814&s={{key}}&searchtype=articlename",
+    "weight": 0
+  }]

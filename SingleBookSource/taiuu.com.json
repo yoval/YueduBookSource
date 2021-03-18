@@ -1,1 +1,40 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🔰 全本小说", "bookSourceType": 0, "bookSourceUrl": "https://www.taiuu.com", "customOrder": -114783, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1612532092696, "ruleBookInfo": {"author": "class.item_red@text", "coverUrl": "class.pic@tag.img@src", "intro": "class.bookinfo_intro@tag.p.0@text", "kind": "class.item@text", "lastChapter": "class.update@tag.a@text", "name": "class.pic@tag.h1@text"}, "ruleContent": {"content": "class.contentbox clear@html", "nextContentUrl": "class.chapter_Turnpage_1@tag.a.4@href", "replaceRegex": "##t2.*om.|http.*com\\|小说.*com|小说щww.taiuu.com|https...www.taiuu.com.|HTTPS...WWW.TAIUU.COM."}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@text", "bookList": "class.grid@tag.tr!0", "bookUrl": "class.odd.0@tag.a.0@href", "kind": "class.even.2@text", "lastChapter": "class.even.0@tag.a.0@text", "name": "class.odd.0@tag.a.0@text"}, "ruleToc": {"chapterList": "class.book_list@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.taiuu.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🔰 全本小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.taiuu.com",
+    "customOrder": -114783,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612532092696,
+    "ruleBookInfo": {
+      "author": "class.item_red@text",
+      "coverUrl": "class.pic@tag.img@src",
+      "intro": "class.bookinfo_intro@tag.p.0@text",
+      "kind": "class.item@text",
+      "lastChapter": "class.update@tag.a@text",
+      "name": "class.pic@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "class.contentbox clear@html",
+      "nextContentUrl": "class.chapter_Turnpage_1@tag.a.4@href",
+      "replaceRegex": "##t2.*om.|http.*com\\|小说.*com|小说щww.taiuu.com|https...www.taiuu.com.|HTTPS...WWW.TAIUU.COM."
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "kind": "class.even.2@text",
+      "lastChapter": "class.even.0@tag.a.0@text",
+      "name": "class.odd.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.book_list@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.taiuu.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

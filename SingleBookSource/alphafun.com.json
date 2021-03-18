@@ -1,1 +1,35 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "阿尔法文学网", "bookSourceType": 0, "bookSourceUrl": "https://www.alphafun.com", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": false, "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"name": "class.book-title@tag.h2.0@text"}, "ruleContent": {"content": "class.page-content@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.mini_lid_bottom5@text", "bookList": "class.mini_lid_bottom@tag.li", "bookUrl": "tag.a.0@href", "lastChapter": "class.mini_lid_bottom4@text", "name": "class.mini_lid_bottom3@text"}, "ruleToc": {"chapterList": "id.tianjia@tag.li", "chapterName": "class.book_p1@text", "chapterUrl": "tag.a@href"}, "searchUrl": "<js>\nvar key=\"searchKey\";\n\"https://www.alphafun.com/library/index.htm?querystring=\"+encodeURI(encodeURI(key));\n</js>", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "阿尔法文学网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.alphafun.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "name": "class.book-title@tag.h2.0@text"
+    },
+    "ruleContent": {
+      "content": "class.page-content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.mini_lid_bottom5@text",
+      "bookList": "class.mini_lid_bottom@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "lastChapter": "class.mini_lid_bottom4@text",
+      "name": "class.mini_lid_bottom3@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.tianjia@tag.li",
+      "chapterName": "class.book_p1@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "<js>\nvar key=\"searchKey\";\n\"https://www.alphafun.com/library/index.htm?querystring=\"+encodeURI(encodeURI(key));\n</js>",
+    "weight": 0
+  }]

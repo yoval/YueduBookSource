@@ -1,1 +1,42 @@
-[{"bookSourceComment": "正文不全", "bookSourceGroup": "我的书源,刘备书源", "bookSourceName": "🚬 海棠书屋", "bookSourceType": 0, "bookSourceUrl": "https://haitang123.net", "bookUrlPattern": "", "customOrder": 24442, "enabled": true, "enabledExplore": true, "exploreUrl": "全部::/category/0/{{page}}.html\n高辣::/category/1/{{page}}.html\n言情::/category/2/{{page}}.html\n玄幻::/category/4/{{page}}.html\n高干::/category/5/{{page}}.html\n腹黑::/category/6/{{page}}.html\n修真::/category/7/{{page}}.html\n种田::/category/8/{{page}}.html\n网游::/category/9/{{page}}.html\n耽美::/category/11/{{page}}.html\n历史::/category/12/{{page}}.html\n青春::/category/13/{{page}}.html\n都市::/category/14/{{page}}.html\n悬疑::/category/15/{{page}}.html\n穿越::/category/16/{{page}}.html\n武侠::/category/17/{{page}}.html\n经管::/category/18/{{page}}.html\n其他::/category/19/{{page}}.html\n科幻::/category/22/{{page}}.html\n百合::/category/24/{{page}}.html\n仙侠::/category/25/{{page}}.html\n灵异::/category/29/{{page}}.html\n竞技::/category/33/{{page}}.html\n军事::/category/36/{{page}}.html\n其它::/category/37/{{page}}.html\n私密::/category/39/{{page}}.html\n侦探::/category/40/{{page}}.html\n恐怖::/category/41/{{page}}.html\n耽美中文::/category/42/{{page}}.html\n总榜::/rank/all/0/{{page}}.html", "lastUpdateTime": 1607712171494, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.BGsectionOne-top-left@tag.img.0@src", "tocUrl": "class.BGsectionOne-bottom@tag.li.1@tag.a.0@href"}, "ruleContent": {"content": "class.RBGsectionThree-content@html", "replaceRegex": "##Loading...(.|\\n)*"}, "ruleExplore": {"author": "tag.p.1@tag.a.0@text", "bookList": "class.CGsectionTwo-right-content-unit", "bookUrl": "tag.p.0@tag.a.0@href", "intro": "tag.p.2@text", "name": "tag.p.0@tag.a.0@text"}, "ruleSearch": {"author": "tag.span.2@tag.a.0@text", "bookList": "class.SHsectionThree-middle.1@tag.p||class.SHsectionThree-middle.0@tag.p", "bookUrl": "tag.span.1@tag.a.0@href", "name": "tag.span.1@tag.a.0@text"}, "ruleToc": {"chapterList": "class.BCsectionTwo-top@tag.li@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://haitang123.net/search/{{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "正文不全",
+    "bookSourceGroup": "我的书源,刘备书源",
+    "bookSourceName": "🚬 海棠书屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://haitang123.net",
+    "bookUrlPattern": "",
+    "customOrder": 24730,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部::/category/0/{{page}}.html\n高辣::/category/1/{{page}}.html\n言情::/category/2/{{page}}.html\n玄幻::/category/4/{{page}}.html\n高干::/category/5/{{page}}.html\n腹黑::/category/6/{{page}}.html\n修真::/category/7/{{page}}.html\n种田::/category/8/{{page}}.html\n网游::/category/9/{{page}}.html\n耽美::/category/11/{{page}}.html\n历史::/category/12/{{page}}.html\n青春::/category/13/{{page}}.html\n都市::/category/14/{{page}}.html\n悬疑::/category/15/{{page}}.html\n穿越::/category/16/{{page}}.html\n武侠::/category/17/{{page}}.html\n经管::/category/18/{{page}}.html\n其他::/category/19/{{page}}.html\n科幻::/category/22/{{page}}.html\n百合::/category/24/{{page}}.html\n仙侠::/category/25/{{page}}.html\n灵异::/category/29/{{page}}.html\n竞技::/category/33/{{page}}.html\n军事::/category/36/{{page}}.html\n其它::/category/37/{{page}}.html\n私密::/category/39/{{page}}.html\n侦探::/category/40/{{page}}.html\n恐怖::/category/41/{{page}}.html\n耽美中文::/category/42/{{page}}.html\n总榜::/rank/all/0/{{page}}.html",
+    "lastUpdateTime": 1607712171494,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.BGsectionOne-top-left@tag.img.0@src",
+      "tocUrl": "class.BGsectionOne-bottom@tag.li.1@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "class.RBGsectionThree-content@html",
+      "replaceRegex": "##Loading...(.|\\n)*"
+    },
+    "ruleExplore": {
+      "author": "tag.p.1@tag.a.0@text",
+      "bookList": "class.CGsectionTwo-right-content-unit",
+      "bookUrl": "tag.p.0@tag.a.0@href",
+      "intro": "tag.p.2@text",
+      "name": "tag.p.0@tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "tag.span.2@tag.a.0@text",
+      "bookList": "class.SHsectionThree-middle.1@tag.p||class.SHsectionThree-middle.0@tag.p",
+      "bookUrl": "tag.span.1@tag.a.0@href",
+      "name": "tag.span.1@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.BCsectionTwo-top@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://haitang123.net/search/{{key}}",
+    "weight": 0
+  }]

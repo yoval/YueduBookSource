@@ -1,1 +1,57 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "💵 铁血读书", "bookSourceType": 0, "bookSourceUrl": "http://book.tiexue.net", "bookUrlPattern": "", "customOrder": -117436, "enabled": true, "enabledExplore": true, "exploreUrl": "军事::/bookstore_2_0_1_0_{{page}}_20_1_0.html\n历史::/bookstore_7_0_1_0_{{page}}_20_1_0.html\n悬疑::/bookstore_17_0_1_0_{{page}}_20_1_0.html\n玄幻::/bookstore_15_0_1_0_{{page}}_20_1_0.html\n其他::/bookstore_100_0_1_0_{{page}}_20_1_0.html", "header": "", "lastUpdateTime": 1605500282029, "loginUrl": "https://m.book.tiexue.net/Login.aspx", "ruleBookInfo": {"author": "class.xQing@tag.u.0@text", "coverUrl": "class.li_01@tag.img@src", "intro": "class.bookPrdt colorGray@text", "kind": "class.xQing@tag.u.1@text&&class.keyWords colorTh undLine@tag.a@text", "lastChapter": "tag.h3@tag.a.0@text", "name": "class.normaltitle@tag.span@text", "tocUrl": "@js:baseUrl.replace(/\\/?$/, '/list.html')", "wordCount": "class.orange.5@text"}, "ruleContent": {"content": "id.mouseRight@tag.p@text", "imageStyle": "0", "nextContentUrl": "text.下一章@href"}, "ruleExplore": {"author": "tag.a.2@text", "bookList": "class.tianZhi_list@tag.dl", "bookUrl": "tag.a.1@href", "coverUrl": "tag.img@src", "intro": "class.cel02_row3@tag.p@text##简介.", "kind": "tag.a.0@text&&class.cel02_row4@tag.a@text##\\[|\\]", "name": "tag.a.1@text"}, "ruleSearch": {"author": "tag.a.2@text", "bookList": "class.tianZhi_list@tag.dl", "bookUrl": "tag.a.1@href", "coverUrl": "tag.img@src", "intro": "class.cel02_row3@tag.p@text##简介.", "kind": "class.keyWords@tag.a@text", "lastChapter": "", "name": "tag.a.1@text"}, "ruleToc": {"chapterList": "class.list01@tag.li@tag.p", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "isVip": "tag.span@text"}, "searchUrl": "/SearchResults.aspx?pageindex={{page}}&keywords={{key}},{\n  \"charset\": \"gb2312\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "铁血读书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://book.tiexue.net",
+    "bookUrlPattern": "",
+    "customOrder": -117436,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "军事::/bookstore_2_0_1_0_{{page}}_20_1_0.html\n历史::/bookstore_7_0_1_0_{{page}}_20_1_0.html\n悬疑::/bookstore_17_0_1_0_{{page}}_20_1_0.html\n玄幻::/bookstore_15_0_1_0_{{page}}_20_1_0.html\n其他::/bookstore_100_0_1_0_{{page}}_20_1_0.html",
+    "header": "",
+    "lastUpdateTime": 1615879486078,
+    "loginUrl": "https://m.book.tiexue.net/Login.aspx",
+    "ruleBookInfo": {
+      "author": "class.xQing@tag.u.0@text",
+      "coverUrl": "class.li_01@tag.img@src",
+      "intro": "class.bookPrdt colorGray@text",
+      "kind": "class.xQing@tag.u.1@text&&class.keyWords colorTh undLine@tag.a@text",
+      "lastChapter": "tag.h3@tag.a.0@text",
+      "name": "class.normaltitle@tag.span@text",
+      "tocUrl": "@js:baseUrl.replace(/\\/?$/, '/list.html')",
+      "wordCount": "class.orange.5@text"
+    },
+    "ruleContent": {
+      "content": "id.mouseRight@tag.p@text",
+      "imageStyle": "0",
+      "nextContentUrl": "text.下一章@href"
+    },
+    "ruleExplore": {
+      "author": "tag.a.2@text",
+      "bookList": "class.tianZhi_list@tag.dl",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.cel02_row3@tag.p@text##简介.",
+      "kind": "tag.a.0@text&&class.cel02_row4@tag.a@text##\\[|\\]",
+      "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.tianZhi_list@tag.dl",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.cel02_row3@tag.p@text##简介.",
+      "kind": "class.keyWords@tag.a@text",
+      "lastChapter": "",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list01@tag.li@tag.p",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "isVip": "tag.span@text"
+    },
+    "searchUrl": "/SearchResults.aspx?pageindex={{page}}&keywords={{key}},{\n  \"charset\": \"gb2312\"\n}",
+    "weight": 0
+  }]

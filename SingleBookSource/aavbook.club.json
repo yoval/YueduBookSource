@@ -1,1 +1,39 @@
-[{"bookSourceComment": "error:failed to connect to www.aavbook.club/108.160.165.55 (port 443) from /192.168.0.103 (port 49642) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n", "bookSourceGroup": "我的书源", "bookSourceName": "疯情书库", "bookSourceType": 0, "bookSourceUrl": "https://www.aavbook.club", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "全部作品::https://www.aavbook.club/category.php?p={{page}}\n玄幻::https://www.aavbook.club/category.php?t=xuanhuan&p={{page}}\n古典::https://www.aavbook.club/category.php?p=2&t=gudian\n惊悚::https://www.aavbook.club/category.php?t=jingsong&p={{page}}\n网游::https://www.aavbook.club/category.php?p={{page}}&t=wangyou\n乡土::https://www.aavbook.club/category.php?p={{page}}&t=xiangtu\n历史::https://www.aavbook.club/category.php?p=1&t=lishi\n耽美::https://www.aavbook.club/category.php?p=1&t=danmei\n女尊::https://www.aavbook.club/category.php?p={{page}}&t=nvzun\n穿越::https://www.aavbook.club/category.php?p=1&t=nvzun\n同人::https://www.aavbook.club/category.php?p={{page}}&t=tongren\n校园::https://www.aavbook.club/category.php?p={{page}}&t=xiaoyuan\n言情::https://www.aavbook.club/category.php?p={{page}}&t=yanqing\n官场::https://www.aavbook.club/category.phphttps://www.aavbook.club/category.php?p=1&t=yineng?p={{page}}&t=guanchang\n异能::https://www.aavbook.club/category.php?p={{page}}&t=yineng\n都市::https://www.aavbook.club/category.php?p={{page}}&t=dushi\n武侠::https://www.aavbook.club/category.php?p={{page}}&t=wuxia\n仙侠::https://www.aavbook.club/category.php?p={{page}}&t=xianxia\n单篇::https://www.aavbook.club/category.php?p={{page}}&t=danpian", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "cclass.author@text", "coverUrl": "class.book_info_top_l@tag.img@src", "intro": "class.jianjieneirong@text", "name": "class.book_name@tag.a@text", "tocUrl": "class.xiaoshuomulu@tag.a.0@href"}, "ruleContent": {"content": "class.chapter_con@tag.p@text"}, "ruleExplore": {}, "ruleSearch": {"author": "class.zuozhe@text||class.author@text", "bookList": "class.sousuojieguo@tag.li||tag.tbody@tag.tr", "bookUrl": "tag.a@href||class.shuming@tag.a@href", "kind": "class.fenlei@text##\\[|\\]", "name": "class.biaoti.0@text||class.shuming@tag.a@text"}, "ruleToc": {"chapterList": "class.section_list@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.aavbook.club/search.php?searchword={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:failed to connect to www.aavbook.club/108.160.165.55 (port 443) from /192.168.0.103 (port 49642) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "疯情书库",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.aavbook.club",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部作品::https://www.aavbook.club/category.php?p={{page}}\n玄幻::https://www.aavbook.club/category.php?t=xuanhuan&p={{page}}\n古典::https://www.aavbook.club/category.php?p=2&t=gudian\n惊悚::https://www.aavbook.club/category.php?t=jingsong&p={{page}}\n网游::https://www.aavbook.club/category.php?p={{page}}&t=wangyou\n乡土::https://www.aavbook.club/category.php?p={{page}}&t=xiangtu\n历史::https://www.aavbook.club/category.php?p=1&t=lishi\n耽美::https://www.aavbook.club/category.php?p=1&t=danmei\n女尊::https://www.aavbook.club/category.php?p={{page}}&t=nvzun\n穿越::https://www.aavbook.club/category.php?p=1&t=nvzun\n同人::https://www.aavbook.club/category.php?p={{page}}&t=tongren\n校园::https://www.aavbook.club/category.php?p={{page}}&t=xiaoyuan\n言情::https://www.aavbook.club/category.php?p={{page}}&t=yanqing\n官场::https://www.aavbook.club/category.phphttps://www.aavbook.club/category.php?p=1&t=yineng?p={{page}}&t=guanchang\n异能::https://www.aavbook.club/category.php?p={{page}}&t=yineng\n都市::https://www.aavbook.club/category.php?p={{page}}&t=dushi\n武侠::https://www.aavbook.club/category.php?p={{page}}&t=wuxia\n仙侠::https://www.aavbook.club/category.php?p={{page}}&t=xianxia\n单篇::https://www.aavbook.club/category.php?p={{page}}&t=danpian",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "cclass.author@text",
+      "coverUrl": "class.book_info_top_l@tag.img@src",
+      "intro": "class.jianjieneirong@text",
+      "name": "class.book_name@tag.a@text",
+      "tocUrl": "class.xiaoshuomulu@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "class.chapter_con@tag.p@text"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.zuozhe@text||class.author@text",
+      "bookList": "class.sousuojieguo@tag.li||tag.tbody@tag.tr",
+      "bookUrl": "tag.a@href||class.shuming@tag.a@href",
+      "kind": "class.fenlei@text##\\[|\\]",
+      "name": "class.biaoti.0@text||class.shuming@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.section_list@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.aavbook.club/search.php?searchword={{key}}",
+    "weight": 0
+  }]

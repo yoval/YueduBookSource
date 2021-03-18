@@ -1,1 +1,44 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 综艺文学", "bookSourceType": 0, "bookSourceUrl": "https://m.zongyixsw.com", "customOrder": -115675, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻奇幻::https://m.zongyixsw.com/fl/xuanhuan/{{page}}.html&&武侠仙侠::/fl/wuxia/{{page}}.html&&都市生活::/fl/dushi/{{page}}.html&&历史军事::/fl/lishi/{{page}}.html&&游戏竞技::/fl/youxi/{{page}}.html&&科幻未来::/fl/kehuan/{{page}}.html&&恐怖悬疑::/fl/xuanyi/{{page}}.html&&男生其他::/fl/qita/{{page}}.html&&古代言情::/fl/guyan/{{page}}.html&&现代言情::/fl/xianyan/{{page}}.html&&幻想奇缘::/fl/huanqing/{{page}}.html&&总裁豪门::/fl/zongcai/{{page}}.html&&青春校园::/fl/qingchun/{{page}}.html&&网络情缘::/fl/wangluo/{{page}}.html&&科幻灵异::/fl/mmkehuan/{{page}}.html&&女生其他::/fl/mmqita/{{page}}.html&&完本小说::/wb/all/{{page}}.html&&", "lastUpdateTime": 1612823856856, "ruleBookInfo": {"author": "[name=\"author\"]@content", "coverUrl": "img@src", "intro": ".intro@text", "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content", "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content", "name": "[property=\"og:title\"]@content", "tocUrl": "@js:baseUrl+'index.html'"}, "ruleContent": {"content": ".content@html##限时特权，7天免广告阅读特权卡，所有新注册用户均可免费领取！！|本章未完，请点击下一页继续阅读，后面更精彩！|百度畅读模式有重大bug，无法正确获取小说征文内容，请您关闭畅读模式即可正常阅读。|关闭方法，点击屏蔽中央右下角点击“关闭畅读”按钮。", "nextContentUrl": "text.下一页@href", "replaceRegex": "@js:result.replace(/(免广告推荐领取本站免广告特权周卡，可无限次重复领用哦|\\^\\.\\^)/g,'').replace(/<!--(.|\\n)*?-->/g,'').replace(/(攫欝|厺厽|巘戅).*\\.\\s*?[comnetorgalCOMNETORGAL]+\\s*?(攫欝|厺厽|巘戅)[。]*/g,'').replace(/喜欢.*?请大家收藏.*?更新速度最快[。]*/g,'')"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.a.2@text", "bookList": "ul.list li", "bookUrl": "tag.a.1@href", "coverUrl": "img@src", "intro": ".intro@text", "kind": "span@text", "name": "tag.a.1@text"}, "ruleToc": {"chapterList": "ul.read li a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "text.下一页@href"}, "searchUrl": "https://m.zongyixsw.com/search.html?searchkey={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 综艺文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.zongyixsw.com",
+    "customOrder": -115675,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::https://m.zongyixsw.com/fl/xuanhuan/{{page}}.html&&武侠仙侠::/fl/wuxia/{{page}}.html&&都市生活::/fl/dushi/{{page}}.html&&历史军事::/fl/lishi/{{page}}.html&&游戏竞技::/fl/youxi/{{page}}.html&&科幻未来::/fl/kehuan/{{page}}.html&&恐怖悬疑::/fl/xuanyi/{{page}}.html&&男生其他::/fl/qita/{{page}}.html&&古代言情::/fl/guyan/{{page}}.html&&现代言情::/fl/xianyan/{{page}}.html&&幻想奇缘::/fl/huanqing/{{page}}.html&&总裁豪门::/fl/zongcai/{{page}}.html&&青春校园::/fl/qingchun/{{page}}.html&&网络情缘::/fl/wangluo/{{page}}.html&&科幻灵异::/fl/mmkehuan/{{page}}.html&&女生其他::/fl/mmqita/{{page}}.html&&完本小说::/wb/all/{{page}}.html&&",
+    "lastUpdateTime": 1612823856856,
+    "ruleBookInfo": {
+      "author": "[name=\"author\"]@content",
+      "coverUrl": "img@src",
+      "intro": ".intro@text",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:title\"]@content",
+      "tocUrl": "@js:baseUrl+'index.html'"
+    },
+    "ruleContent": {
+      "content": ".content@html##限时特权，7天免广告阅读特权卡，所有新注册用户均可免费领取！！|本章未完，请点击下一页继续阅读，后面更精彩！|百度畅读模式有重大bug，无法正确获取小说征文内容，请您关闭畅读模式即可正常阅读。|关闭方法，点击屏蔽中央右下角点击“关闭畅读”按钮。",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": "@js:result.replace(/(免广告推荐领取本站免广告特权周卡，可无限次重复领用哦|\\^\\.\\^)/g,'').replace(/<!--(.|\\n)*?-->/g,'').replace(/(攫欝|厺厽|巘戅).*\\.\\s*?[comnetorgalCOMNETORGAL]+\\s*?(攫欝|厺厽|巘戅)[。]*/g,'').replace(/喜欢.*?请大家收藏.*?更新速度最快[。]*/g,'')"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "ul.list li",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "img@src",
+      "intro": ".intro@text",
+      "kind": "span@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "ul.read li a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://m.zongyixsw.com/search.html?searchkey={{key}}",
+    "weight": 0
+  }]

@@ -1,1 +1,42 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "👍 乐文小说cc", "bookSourceType": 0, "bookSourceUrl": "http://m.lewenxs.cc", "customOrder": -115036, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻::http://m.lewenxs.cc/wapsort/1_{{page}}.html&&武侠::http://m.lewenxs.cc/wapsort/2_{{page}}.html&&都市::http://m.lewenxs.cc/wapsort/3_{{page}}.html&&历史::http://m.lewenxs.cc/wapsort/4_{{page}}.html&&侦探::http://m.lewenxs.cc/wapsort/5_{{page}}.html&&网游::http://m.lewenxs.cc/wapsort/6_{{page}}.html&&科幻::http://m.lewenxs.cc/wapsort/7_{{page}}.html&&恐怖::http://m.lewenxs.cc/wapsort/8_{{page}}.html&&穿越::http://m.lewenxs.cc/wapsort/9_{{page}}.html&&其他::http://m.lewenxs.cc/wapsort/10_{{page}}.html&&", "lastUpdateTime": 1607719976302, "ruleBookInfo": {"author": ".info@tag.p.1@text##作者：", "coverUrl": "@js:var id = baseUrl.match(/(\\d+)\\/$/)[1];\nvar iid = parseInt(id/1000);\n'http://www.lewenxs.cc/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n", "intro": ".intro@text", "kind": ".info@tag.p.2@text##类别：", "lastChapter": ".info@tag.p.5@text##最新：", "name": ".info@tag.p.0@text", "tocUrl": "@js:baseUrl.replace('book_','chapters_')", "wordCount": ".info@tag.p.3@text##状态："}, "ruleContent": {"content": "#nr1@html", "nextContentUrl": "#pb_next@href"}, "ruleExplore": {}, "ruleSearch": {"author": ".subinfo@textNodes", "bookList": ".waps_one", "bookUrl": "tag.a.0@href", "coverUrl": "tag.a.0@href@js:var id = result.match(/(\\d+)\\/$/)[1];\nvar iid = parseInt(id/1000);\n'http://www.lewenxs.cc/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n", "intro": ".intro@text", "name": "tag.a.0@text"}, "ruleToc": {"chapterList": ".last9 li a", "chapterName": "text##返回.*?简介", "chapterUrl": "href"}, "searchUrl": "http://m.lewenxs.cc/modules/article/waps.php?searchtype=articlename&searchkey={{key}}&t_btnsearch=,{\"charset\": \"gbk\"}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "👍 乐文小说cc",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.lewenxs.cc",
+    "customOrder": -115036,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::http://m.lewenxs.cc/wapsort/1_{{page}}.html&&武侠::http://m.lewenxs.cc/wapsort/2_{{page}}.html&&都市::http://m.lewenxs.cc/wapsort/3_{{page}}.html&&历史::http://m.lewenxs.cc/wapsort/4_{{page}}.html&&侦探::http://m.lewenxs.cc/wapsort/5_{{page}}.html&&网游::http://m.lewenxs.cc/wapsort/6_{{page}}.html&&科幻::http://m.lewenxs.cc/wapsort/7_{{page}}.html&&恐怖::http://m.lewenxs.cc/wapsort/8_{{page}}.html&&穿越::http://m.lewenxs.cc/wapsort/9_{{page}}.html&&其他::http://m.lewenxs.cc/wapsort/10_{{page}}.html&&",
+    "lastUpdateTime": 1607719976302,
+    "ruleBookInfo": {
+      "author": ".info@tag.p.1@text##作者：",
+      "coverUrl": "@js:var id = baseUrl.match(/(\\d+)\\/$/)[1];\nvar iid = parseInt(id/1000);\n'http://www.lewenxs.cc/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n",
+      "intro": ".intro@text",
+      "kind": ".info@tag.p.2@text##类别：",
+      "lastChapter": ".info@tag.p.5@text##最新：",
+      "name": ".info@tag.p.0@text",
+      "tocUrl": "@js:baseUrl.replace('book_','chapters_')",
+      "wordCount": ".info@tag.p.3@text##状态："
+    },
+    "ruleContent": {
+      "content": "#nr1@html",
+      "nextContentUrl": "#pb_next@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": ".subinfo@textNodes",
+      "bookList": ".waps_one",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href@js:var id = result.match(/(\\d+)\\/$/)[1];\nvar iid = parseInt(id/1000);\n'http://www.lewenxs.cc/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n",
+      "intro": ".intro@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": ".last9 li a",
+      "chapterName": "text##返回.*?简介",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://m.lewenxs.cc/modules/article/waps.php?searchtype=articlename&searchkey={{key}}&t_btnsearch=,{\"charset\": \"gbk\"}",
+    "weight": 0
+  }]

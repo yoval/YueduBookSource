@@ -1,1 +1,60 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎼 5SING[不能听]", "bookSourceType": 1, "bookSourceUrl": "http://5sing.kugou.com", "bookUrlPattern": "", "customOrder": -31403, "enabled": true, "enabledExplore": true, "exploreUrl": "热门歌单::/gd/gdList?&type=0&page={{page}}\n最新歌单::/gd/gdList?&type=1&page={{page}}\n流行::/gd/gdList?&tagName=%E6%B5%81%E8%A1%8C&type=1&page={{page}}\n爵士::/gd/gdList?&tagName=%E7%88%B5%E5%A3%AB&page={{page}}\n小清新::/gd/gdList?&tagName=%E5%B0%8F%E6%B8%85%E6%96%B0&page={{page}}\n轻音乐::/gd/gdList?&tagName=%E8%BD%BB%E9%9F%B3%E4%B9%90&page={{page}}\n中国风::/gd/gdList?&tagName=%E4%B8%AD%E5%9B%BD%E9%A3%8E&page={{page}}\n摇滚::/gd/gdList?&tagName=%E6%91%87%E6%BB%9A&page={{page}}\n古风::/gd/gdList?&tagName=%E5%8F%A4%E9%A3%8E&page={{page}}\nDJ::http://5sing.kugou.com/gd/gdList?&tagName=DJ&page={{page}}\n武侠::/gd/gdList?&tagName=%E6%AD%A6%E4%BE%A0&page={{page}}\n最新 ⇨::/yc/list?t=-1&l=&s=&p={{page}}\n原创::/yc/list?t=1&s=&p={{page}}\n⇦ 推荐::/yc/list?t=1&s=&p={{page}}\n华语::/yc/list?t=1&s=&l=华语&p={{page}}\n欧美::/yc/list?t=1&s=&l=欧美&p={{page}}\n日语::/yc/list?t=1&s=&l=日语&p={{page}}\n韩语::/yc/list?t=1&s=&l=韩语&p={{page}}\n俄语::/yc/list?t=1&s=&l=俄语&p={{page}}\n法语::/yc/list?t=1&s=&l=法语&p={{page}}\n德语::/yc/list?t=1&s=&l=德语&p={{page}}\n粤语::/yc/list?t=1&s=&l=粤语&p={{page}}\n闽南语::/yc/list?t=1&s=&l=闽南语&p={{page}}\n方言::/yc/list?t=1&s=&l=方言&p={{page}}\n西班牙语::/yc/list?t=1&s=&l=西班牙语&p={{page}}\n其它语::/yc/list?t=1&s=&l=其它&p={{page}}\n候选::/yc/list?t=2&l=&s=&p={{page}}\n传播榜::/yc/spread/more_1.shtml\n分享榜::/yc/share/more_1.shtml\n\n最新 ⇨::/fc/list?t=-1&l=&s=&p={{page}}\n翻唱::/fc/list?t=1&s=&p={{page}}\n⇦ 推荐::/fc/list?t=1&s=&p={{page}}\n华语::/fc/list?t=1&s=&l=华语&p={{page}}\n欧美::/fc/list?t=1&s=&l=欧美&p={{page}}\n日语::/fc/list?t=1&s=&l=日语&p={{page}}\n韩语::/fc/list?t=1&s=&l=韩语&p={{page}}\n俄语::/fc/list?t=1&s=&l=俄语&p={{page}}\n法语::/fc/list?t=1&s=&l=法语&p={{page}}\n德语::/fc/list?t=1&s=&l=德语&p={{page}}\n粤语::/fc/list?t=1&s=&l=粤语&p={{page}}\n闽南语::/fc/list?t=1&s=&l=闽南语&p={{page}}\n方言::/fc/list?t=1&s=&l=方言&p={{page}}\n西班牙语::/fc/list?t=1&s=&l=西班牙语&p={{page}}\n其它语::/fc/list?t=1&s=&l=其它&p={{page}}\n候选::/fc/list?t=2&l=&s=&p={{page}}\n传播榜::/fc/spread/more_1.shtml\n分享榜::/fc/share/more_1.shtml", "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}", "lastUpdateTime": 1602989794766, "loginUrl": "", "ruleBookInfo": {"author": "", "coverUrl": "class.user_tx@tag.img@src", "init": "", "intro": "class.lrc_info_clip@html", "kind": "", "lastChapter": "class.c_wap s_cont@tag.span@text||class.view_info_row@text##,创建.*", "name": "", "tocUrl": "", "wordCount": "class.c_wap tag_box@tag.label@text"}, "ruleContent": {"content": "<js>\nvar arr = baseUrl.split('/');\nvar songtype = arr[3];\nvar songid = arr[4].split('.')[0];\nvar data = java.ajax(\"http://service.5sing.kugou.com/song/getSongUrl?version=6.6.70&songid=\" + songid + \"&songtype=\" + songtype);\ndata = JSON.parse(data).data\ndata.squrl || data.hqurl || data.lqurl;\n</js>", "nextContentUrl": ""}, "ruleExplore": {"author": "class.author@tag.a.1@text||class.m_z@tag.a@text##音乐人：", "bookList": "class.lists@tag.dl||class.album||tag.tr", "bookUrl": "class.l_info@tag.a@href||tag.a@href", "coverUrl": "class.imgbox@tag.img@src||tag.img@src", "intro": "class.info@text", "kind": "class.lcount@text", "lastChapter": "class.l_time@text", "name": "class.l_info@tag.a.0@text||class.jx_name@text", "wordCount": "class.l_rq@text"}, "ruleSearch": {"author": "@JSon:$.singer", "bookList": "@JSon:$.list", "bookUrl": "@JSon:$.songurl", "coverUrl": "@js://随机妹子图\n\"https://uploadbeta.com/api/pictures/random/?key=%E6%8E%A8%E5%A5%B3%E9%83%8E\"", "intro": "optComposer&&songWriter##,##🆙词曲:", "kind": "style&&typeName##,##➡️  ", "lastChapter": "createTime", "name": "@JSon:$.songName<js>result</js>@@tag.em@text", "wordCount": "popularityCnt&&originSinger##,##🎵原唱::"}, "ruleToc": {"chapterList": "class.dj_detail_lists@tag.li||class.v_list_info@tag.li", "chapterName": "class.s_title@tag.a.0@text||tag.a@text", "chapterUrl": "class.s_title@tag.a.0@href||tag.a@href", "nextTocUrl": ""}, "searchUrl": "http://search.5sing.kugou.com/home/json?keyword={{key}}&sort=1&page={{page}}&filter=0&type=0", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎼 5SING[不能听]",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://5sing.kugou.com",
+    "bookUrlPattern": "",
+    "customOrder": -31403,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "热门歌单::/gd/gdList?&type=0&page={{page}}\n最新歌单::/gd/gdList?&type=1&page={{page}}\n流行::/gd/gdList?&tagName=%E6%B5%81%E8%A1%8C&type=1&page={{page}}\n爵士::/gd/gdList?&tagName=%E7%88%B5%E5%A3%AB&page={{page}}\n小清新::/gd/gdList?&tagName=%E5%B0%8F%E6%B8%85%E6%96%B0&page={{page}}\n轻音乐::/gd/gdList?&tagName=%E8%BD%BB%E9%9F%B3%E4%B9%90&page={{page}}\n中国风::/gd/gdList?&tagName=%E4%B8%AD%E5%9B%BD%E9%A3%8E&page={{page}}\n摇滚::/gd/gdList?&tagName=%E6%91%87%E6%BB%9A&page={{page}}\n古风::/gd/gdList?&tagName=%E5%8F%A4%E9%A3%8E&page={{page}}\nDJ::http://5sing.kugou.com/gd/gdList?&tagName=DJ&page={{page}}\n武侠::/gd/gdList?&tagName=%E6%AD%A6%E4%BE%A0&page={{page}}\n最新 ⇨::/yc/list?t=-1&l=&s=&p={{page}}\n原创::/yc/list?t=1&s=&p={{page}}\n⇦ 推荐::/yc/list?t=1&s=&p={{page}}\n华语::/yc/list?t=1&s=&l=华语&p={{page}}\n欧美::/yc/list?t=1&s=&l=欧美&p={{page}}\n日语::/yc/list?t=1&s=&l=日语&p={{page}}\n韩语::/yc/list?t=1&s=&l=韩语&p={{page}}\n俄语::/yc/list?t=1&s=&l=俄语&p={{page}}\n法语::/yc/list?t=1&s=&l=法语&p={{page}}\n德语::/yc/list?t=1&s=&l=德语&p={{page}}\n粤语::/yc/list?t=1&s=&l=粤语&p={{page}}\n闽南语::/yc/list?t=1&s=&l=闽南语&p={{page}}\n方言::/yc/list?t=1&s=&l=方言&p={{page}}\n西班牙语::/yc/list?t=1&s=&l=西班牙语&p={{page}}\n其它语::/yc/list?t=1&s=&l=其它&p={{page}}\n候选::/yc/list?t=2&l=&s=&p={{page}}\n传播榜::/yc/spread/more_1.shtml\n分享榜::/yc/share/more_1.shtml\n\n最新 ⇨::/fc/list?t=-1&l=&s=&p={{page}}\n翻唱::/fc/list?t=1&s=&p={{page}}\n⇦ 推荐::/fc/list?t=1&s=&p={{page}}\n华语::/fc/list?t=1&s=&l=华语&p={{page}}\n欧美::/fc/list?t=1&s=&l=欧美&p={{page}}\n日语::/fc/list?t=1&s=&l=日语&p={{page}}\n韩语::/fc/list?t=1&s=&l=韩语&p={{page}}\n俄语::/fc/list?t=1&s=&l=俄语&p={{page}}\n法语::/fc/list?t=1&s=&l=法语&p={{page}}\n德语::/fc/list?t=1&s=&l=德语&p={{page}}\n粤语::/fc/list?t=1&s=&l=粤语&p={{page}}\n闽南语::/fc/list?t=1&s=&l=闽南语&p={{page}}\n方言::/fc/list?t=1&s=&l=方言&p={{page}}\n西班牙语::/fc/list?t=1&s=&l=西班牙语&p={{page}}\n其它语::/fc/list?t=1&s=&l=其它&p={{page}}\n候选::/fc/list?t=2&l=&s=&p={{page}}\n传播榜::/fc/spread/more_1.shtml\n分享榜::/fc/share/more_1.shtml",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
+    "lastUpdateTime": 1602989794766,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "class.user_tx@tag.img@src",
+      "init": "",
+      "intro": "class.lrc_info_clip@html",
+      "kind": "",
+      "lastChapter": "class.c_wap s_cont@tag.span@text||class.view_info_row@text##,创建.*",
+      "name": "",
+      "tocUrl": "",
+      "wordCount": "class.c_wap tag_box@tag.label@text"
+    },
+    "ruleContent": {
+      "content": "<js>\nvar arr = baseUrl.split('/');\nvar songtype = arr[3];\nvar songid = arr[4].split('.')[0];\nvar data = java.ajax(\"http://service.5sing.kugou.com/song/getSongUrl?version=6.6.70&songid=\" + songid + \"&songtype=\" + songtype);\ndata = JSON.parse(data).data\ndata.squrl || data.hqurl || data.lqurl;\n</js>",
+      "nextContentUrl": ""
+    },
+    "ruleExplore": {
+      "author": "class.author@tag.a.1@text||class.m_z@tag.a@text##音乐人：",
+      "bookList": "class.lists@tag.dl||class.album||tag.tr",
+      "bookUrl": "class.l_info@tag.a@href||tag.a@href",
+      "coverUrl": "class.imgbox@tag.img@src||tag.img@src",
+      "intro": "class.info@text",
+      "kind": "class.lcount@text",
+      "lastChapter": "class.l_time@text",
+      "name": "class.l_info@tag.a.0@text||class.jx_name@text",
+      "wordCount": "class.l_rq@text"
+    },
+    "ruleSearch": {
+      "author": "@JSon:$.singer",
+      "bookList": "@JSon:$.list",
+      "bookUrl": "@JSon:$.songurl",
+      "coverUrl": "@js://随机妹子图\n\"https://uploadbeta.com/api/pictures/random/?key=%E6%8E%A8%E5%A5%B3%E9%83%8E\"",
+      "intro": "optComposer&&songWriter##,##🆙词曲:",
+      "kind": "style&&typeName##,##➡️  ",
+      "lastChapter": "createTime",
+      "name": "@JSon:$.songName<js>result</js>@@tag.em@text",
+      "wordCount": "popularityCnt&&originSinger##,##🎵原唱::"
+    },
+    "ruleToc": {
+      "chapterList": "class.dj_detail_lists@tag.li||class.v_list_info@tag.li",
+      "chapterName": "class.s_title@tag.a.0@text||tag.a@text",
+      "chapterUrl": "class.s_title@tag.a.0@href||tag.a@href",
+      "nextTocUrl": ""
+    },
+    "searchUrl": "http://search.5sing.kugou.com/home/json?keyword={{key}}&sort=1&page={{page}}&filter=0&type=0",
+    "weight": 0
+  }]

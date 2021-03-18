@@ -1,1 +1,35 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 二月天网", "bookSourceType": 0, "bookSourceUrl": "https://www.2yt.info", "bookUrlPattern": "", "customOrder": -32538, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1601173676238, "loginUrl": "", "ruleBookInfo": {"coverUrl": "[property=\"og:image\"]@content", "intro": "[property=\"og:description\"]@content"}, "ruleContent": {"content": "id.content@html##天才一秒记住.*|章节错误.*"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.a.1@text", "bookList": "class.novelslist2@li!0", "bookUrl": "tag.a.0@href", "lastChapter": "tag.a.2@text", "name": "tag.span.1@text"}, "ruleToc": {"chapterList": "id.list@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.2yt.info/index.php?s=/web/index/search,{\n  \"method\": \"POST\",\n  \"body\": \"name={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 二月天网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.2yt.info",
+    "bookUrlPattern": "",
+    "customOrder": -32538,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1601173676238,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content"
+    },
+    "ruleContent": {
+      "content": "id.content@html##天才一秒记住.*|章节错误.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.1@text",
+      "bookList": "class.novelslist2@li!0",
+      "bookUrl": "tag.a.0@href",
+      "lastChapter": "tag.a.2@text",
+      "name": "tag.span.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.2yt.info/index.php?s=/web/index/search,{\n  \"method\": \"POST\",\n  \"body\": \"name={{key}}\"\n}",
+    "weight": 0
+  }]

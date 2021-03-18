@@ -1,1 +1,41 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "追梦", "bookSourceType": 0, "bookSourceUrl": "https://danmei.in", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "穿越::https://danmei.in/e/tags/?tagid=413/https://danmei.in/book/modern/index_{{page}}.html\n重生::https://danmei.in/e/tags/?tagid=3950/index_{{page}}.html\n强强::https://danmei.in/e/tags/?tagid=1638/index_{{page}}.html\n甜文::https://danmei.in/e/tags/?tagid=4192/index_{{page}}.html\n生子::https://danmei.in/e/tags/?tagid=2718/index_{{page}}.html\n包子::https://danmei.in/e/tags/?tagid=4107/index_{{page}}.html\n都市::https://danmei.in/e/tags/?tagid=4216/index_{{page}}.html\n修真::https://danmei.in/e/tags/?tagid=4187/index_{{page}}.html\n种田::https://danmei.in/e/tags/?tagid=4181/index_{{page}}.html\n娱乐圈::https://danmei.in/e/tags/?tagid=4158/index_{{page}}.html\n系统::https://danmei.in/e/tags/?tagid=4102/index_{{page}}.html\n年下::https://danmei.in/e/tags/?tagid=1660/index_{{page}}.html\n灵异::https://danmei.in/e/tags/?tagid=4193/index_{{page}}.html\n同人::https://danmei.in/e/tags/?tagid=25/index_{{page}}.html\n男人::https://danmei.in/e/tags/?tagid=306/index_{{page}}.html\n豪门::https://danmei.in/e/tags/?tagid=4248/index_{{page}}.html\nHE::https://danmei.in/e/tags/?tagid=2449/index_{{page}}.html\n宫廷::https://danmei.in/e/tags/?tagid=4005/index_{{page}}.html\n空间::https://danmei.in/e/tags/?tagid=4273/index_{{page}}.html\n末世::https://danmei.in/e/tags/?tagid=4199/index_{{page}}.html\n1V1::https://danmei.in/e/tags/?tagid=4554/index_{{page}}.html\n网游::https://danmei.in/e/tags/?tagid=370/index_{{page}}.html\n自由自在::https://danmei.in/e/tags/?tagid=2442/index_{{page}}.html\n架空::https://danmei.in/e/tags/?tagid=3975/index_{{page}}.html\n励志::https://danmei.in/e/tags/?tagid=4285/index_{{page}}.html\n异能::https://danmei.in/e/tags/?tagid=4250/index_{{page}}.html\n异世::https://danmei.in/e/tags/?tagid=4124/index_{{page}}.html\n时空::https://danmei.in/e/tags/?tagid=412/index_{{page}}.html\n快穿::https://danmei.in/e/tags/?tagid=4318/index_{{page}}.html\n哥哥::https://danmei.in/e/tags/?tagid=427/index_{{page}}.html\n少年::https://danmei.in/e/tags/?tagid=91/index_{{page}}.html\n机甲::https://danmei.in/e/tags/?tagid=4272/index_{{page}}.html\n游戏::https://danmei.in/e/tags/?tagid=385/index_{{page}}.html\n网配::https://danmei.in/e/tags/?tagid=4369/index_{{page}}.html\n长生千叶::https://danmei.in/e/tags/?tagid=6883/index_{{page}}.html\n莫晨欢::https://danmei.in/e/tags/?tagid=4105/index_{{page}}.html\n叶忆落::https://danmei.in/e/tags/?tagid=6617/index_{{page}}.html\n虐恋::https://danmei.in/e/tags/?tagid=4471/index_{{page}}.html\n幸福::https://danmei.in/e/tags/?tagid=129/index_{{page}}.html\n颜若优雅::https://danmei.in/e/tags/?tagid=5082/index_{{page}}.html\nnull", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {}, "ruleContent": {"content": "class.detail-body@html"}, "ruleExplore": {"author": "class.article-title.0@text##.*――", "bookList": "class.article@children", "bookUrl": "tag.a.0@href", "intro": "class.article-abstract.0@text", "kind": "class.article-list.0@text", "name": "class.article-title.0@text##――[^（]+"}, "ruleSearch": {"author": "class.article-title.0@text##.*――", "bookList": "class.article@children", "bookUrl": "tag.a.0@href", "intro": "class.article-abstract.0@text", "kind": "class.article-list.0@text", "name": "class.article-title.0@text##――[^（]+"}, "ruleToc": {"chapterList": "class.pagination", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "/e/search/index.php,{\n  \"method\": \"POST\",\n  \"body\": \"show=title,writer,newstext&keyboard={{key}}&page={{page}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "追梦",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://danmei.in",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "穿越::https://danmei.in/e/tags/?tagid=413/https://danmei.in/book/modern/index_{{page}}.html\n重生::https://danmei.in/e/tags/?tagid=3950/index_{{page}}.html\n强强::https://danmei.in/e/tags/?tagid=1638/index_{{page}}.html\n甜文::https://danmei.in/e/tags/?tagid=4192/index_{{page}}.html\n生子::https://danmei.in/e/tags/?tagid=2718/index_{{page}}.html\n包子::https://danmei.in/e/tags/?tagid=4107/index_{{page}}.html\n都市::https://danmei.in/e/tags/?tagid=4216/index_{{page}}.html\n修真::https://danmei.in/e/tags/?tagid=4187/index_{{page}}.html\n种田::https://danmei.in/e/tags/?tagid=4181/index_{{page}}.html\n娱乐圈::https://danmei.in/e/tags/?tagid=4158/index_{{page}}.html\n系统::https://danmei.in/e/tags/?tagid=4102/index_{{page}}.html\n年下::https://danmei.in/e/tags/?tagid=1660/index_{{page}}.html\n灵异::https://danmei.in/e/tags/?tagid=4193/index_{{page}}.html\n同人::https://danmei.in/e/tags/?tagid=25/index_{{page}}.html\n男人::https://danmei.in/e/tags/?tagid=306/index_{{page}}.html\n豪门::https://danmei.in/e/tags/?tagid=4248/index_{{page}}.html\nHE::https://danmei.in/e/tags/?tagid=2449/index_{{page}}.html\n宫廷::https://danmei.in/e/tags/?tagid=4005/index_{{page}}.html\n空间::https://danmei.in/e/tags/?tagid=4273/index_{{page}}.html\n末世::https://danmei.in/e/tags/?tagid=4199/index_{{page}}.html\n1V1::https://danmei.in/e/tags/?tagid=4554/index_{{page}}.html\n网游::https://danmei.in/e/tags/?tagid=370/index_{{page}}.html\n自由自在::https://danmei.in/e/tags/?tagid=2442/index_{{page}}.html\n架空::https://danmei.in/e/tags/?tagid=3975/index_{{page}}.html\n励志::https://danmei.in/e/tags/?tagid=4285/index_{{page}}.html\n异能::https://danmei.in/e/tags/?tagid=4250/index_{{page}}.html\n异世::https://danmei.in/e/tags/?tagid=4124/index_{{page}}.html\n时空::https://danmei.in/e/tags/?tagid=412/index_{{page}}.html\n快穿::https://danmei.in/e/tags/?tagid=4318/index_{{page}}.html\n哥哥::https://danmei.in/e/tags/?tagid=427/index_{{page}}.html\n少年::https://danmei.in/e/tags/?tagid=91/index_{{page}}.html\n机甲::https://danmei.in/e/tags/?tagid=4272/index_{{page}}.html\n游戏::https://danmei.in/e/tags/?tagid=385/index_{{page}}.html\n网配::https://danmei.in/e/tags/?tagid=4369/index_{{page}}.html\n长生千叶::https://danmei.in/e/tags/?tagid=6883/index_{{page}}.html\n莫晨欢::https://danmei.in/e/tags/?tagid=4105/index_{{page}}.html\n叶忆落::https://danmei.in/e/tags/?tagid=6617/index_{{page}}.html\n虐恋::https://danmei.in/e/tags/?tagid=4471/index_{{page}}.html\n幸福::https://danmei.in/e/tags/?tagid=129/index_{{page}}.html\n颜若优雅::https://danmei.in/e/tags/?tagid=5082/index_{{page}}.html\nnull",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.detail-body@html"
+    },
+    "ruleExplore": {
+      "author": "class.article-title.0@text##.*――",
+      "bookList": "class.article@children",
+      "bookUrl": "tag.a.0@href",
+      "intro": "class.article-abstract.0@text",
+      "kind": "class.article-list.0@text",
+      "name": "class.article-title.0@text##――[^（]+"
+    },
+    "ruleSearch": {
+      "author": "class.article-title.0@text##.*――",
+      "bookList": "class.article@children",
+      "bookUrl": "tag.a.0@href",
+      "intro": "class.article-abstract.0@text",
+      "kind": "class.article-list.0@text",
+      "name": "class.article-title.0@text##――[^（]+"
+    },
+    "ruleToc": {
+      "chapterList": "class.pagination",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/e/search/index.php,{\n  \"method\": \"POST\",\n  \"body\": \"show=title,writer,newstext&keyboard={{key}}&page={{page}}\"\n}",
+    "weight": 0
+  }]

@@ -1,1 +1,64 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🍺 搜狗阅读", "bookSourceType": 0, "bookSourceUrl": "https://book.sogou.com", "bookUrlPattern": "", "customOrder": -116850, "enabled": true, "enabledExplore": true, "exploreUrl": "", "header": "", "lastUpdateTime": 1605238087312, "loginUrl": "", "ruleBookInfo": {"author": "", "coverUrl": "", "init": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "tocUrl": "", "wordCount": ""}, "ruleContent": {"content": "detail.content", "nextContentUrl": "", "sourceRegex": "", "webJs": ""}, "ruleExplore": {"author": "", "bookList": "", "bookUrl": "", "coverUrl": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "wordCount": ""}, "ruleSearch": {"author": "author", "bookList": ".search-list-note + .list-book-col1 li\n@js:\nresult.toArray().slice(0, 5).map(o =>{\n    var oText = selector =>String(o.select(selector).text().trim()).replace(/.+：/, '');\n    return {\n        name: oText('.book-title'),\n        author: o.select('.book-info-sub').eq(0).text(),\n        tags: oText('.book-info-sub:gt(0)').replace(/\\s+/g,',').replace(/已|中/, ''),\n        latest: oText('.book-chapter').replace(/[\\(（].*[求更谢乐发推].*[）\\)]/,''),\n        intro: oText('.book-summary'),\n        cover: o.select('.book-cover img').attr('src') || 'http://suo.im/6mlA9F',\n        catalogUrl: o.select('.book-title').attr('href')\n    }\n}).filter(v =>v.name);", "bookUrl": "catalogUrl", "coverUrl": "cover", "intro": "intro", "kind": "tags", "lastChapter": "latest", "name": "name", "wordCount": ""}, "ruleToc": {"chapterList": ".index-list a", "chapterName": "text##[\\(（].*[求更谢乐发推].*[）\\)]", "chapterUrl": "href@js:result.replace(/\\/dd\\//, '/dd/ajax/')", "isVip": "", "nextTocUrl": "", "updateTime": ""}, "searchUrl": "/dd/search?keyword={{key}}&page={{page-1}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍺 搜狗阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://book.sogou.com",
+    "bookUrlPattern": "",
+    "customOrder": -116850,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1605238087312,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "",
+      "init": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "detail.content",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "author",
+      "bookList": ".search-list-note + .list-book-col1 li\n@js:\nresult.toArray().slice(0, 5).map(o =>{\n    var oText = selector =>String(o.select(selector).text().trim()).replace(/.+：/, '');\n    return {\n        name: oText('.book-title'),\n        author: o.select('.book-info-sub').eq(0).text(),\n        tags: oText('.book-info-sub:gt(0)').replace(/\\s+/g,',').replace(/已|中/, ''),\n        latest: oText('.book-chapter').replace(/[\\(（].*[求更谢乐发推].*[）\\)]/,''),\n        intro: oText('.book-summary'),\n        cover: o.select('.book-cover img').attr('src') || 'http://suo.im/6mlA9F',\n        catalogUrl: o.select('.book-title').attr('href')\n    }\n}).filter(v =>v.name);",
+      "bookUrl": "catalogUrl",
+      "coverUrl": "cover",
+      "intro": "intro",
+      "kind": "tags",
+      "lastChapter": "latest",
+      "name": "name",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": ".index-list a",
+      "chapterName": "text##[\\(（].*[求更谢乐发推].*[）\\)]",
+      "chapterUrl": "href@js:result.replace(/\\/dd\\//, '/dd/ajax/')",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "/dd/search?keyword={{key}}&page={{page-1}}",
+    "weight": 0
+  }]

@@ -1,1 +1,54 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 5G小说[仅发现]", "bookSourceType": 0, "bookSourceUrl": "https://m.5gxs.com", "bookUrlPattern": "", "customOrder": -115263, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻武侠::https://m.5gxs.com/class/class_1_{{page}}.html\n历史军事::https://m.5gxs.com/class/class_2_{{page}}.html\n悬疑灵异::https://m.5gxs.com/class/class_3_{{page}}.html\n游戏动漫::https://m.5gxs.com/class/class_4_{{page}}.html\n言情爽文::https://m.5gxs.com/class/class_5_{{page}}.html\n其他新书::https://m.5gxs.com/class/class_6_{{page}}.html", "lastUpdateTime": 1612771833444, "loginUrl": "", "ruleBookInfo": {"author": "", "coverUrl": ".bookintro img@src", "intro": ".bookintro@text@js:result.trim().replace(/[\\s\\t]+/g, '\\n')", "kind": ".blue@text", "lastChapter": ".bookchapter@text", "name": "", "wordCount": "class.red.1@text"}, "ruleContent": {"content": ".readcotent@html", "replaceRegex": "##网址.*感谢访问.*"}, "ruleExplore": {"author": "##作者：([^<]+)<##$1###", "bookList": ".bookbox", "bookUrl": ".bookname a@href", "coverUrl": ".bookname a@href@js:\nvar id = result.match(/(\\d+)\\/index/)[1];\n'http://image.5gxs.com/'+parseInt(id/1000)+'/'+id+'/'+id+'s.jpg';", "intro": ".update@text##简介：", "kind": "", "lastChapter": ".cat a@text", "name": ".bookname a@text", "wordCount": "##字数：([^<]+)<##$1###"}, "ruleSearch": {"author": ".author@text##作者：", "bookList": ".bookbox", "bookUrl": ".bookname a@href", "coverUrl": ".bookname a@href@js:\nvar id = result.match(/(\\d+)\\/index/)[1];\n'http://image.5gxs.com/'+parseInt(id/1000)+'/'+id+'/'+id+'s.jpg';", "intro": ".update@textNodes@js:result.trim()", "lastChapter": ".cat a@text", "name": ".bookname a@text"}, "ruleToc": {"chapterList": "id.list-chapterAll@a", "chapterName": "text", "chapterUrl": "href##\\s+"}, "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=articlename&searchkey={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 5G小说[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.5gxs.com",
+    "bookUrlPattern": "",
+    "customOrder": -115263,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻武侠::https://m.5gxs.com/class/class_1_{{page}}.html\n历史军事::https://m.5gxs.com/class/class_2_{{page}}.html\n悬疑灵异::https://m.5gxs.com/class/class_3_{{page}}.html\n游戏动漫::https://m.5gxs.com/class/class_4_{{page}}.html\n言情爽文::https://m.5gxs.com/class/class_5_{{page}}.html\n其他新书::https://m.5gxs.com/class/class_6_{{page}}.html",
+    "lastUpdateTime": 1612771833444,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": ".bookintro img@src",
+      "intro": ".bookintro@text@js:result.trim().replace(/[\\s\\t]+/g, '\\n')",
+      "kind": ".blue@text",
+      "lastChapter": ".bookchapter@text",
+      "name": "",
+      "wordCount": "class.red.1@text"
+    },
+    "ruleContent": {
+      "content": ".readcotent@html",
+      "replaceRegex": "##网址.*感谢访问.*"
+    },
+    "ruleExplore": {
+      "author": "##作者：([^<]+)<##$1###",
+      "bookList": ".bookbox",
+      "bookUrl": ".bookname a@href",
+      "coverUrl": ".bookname a@href@js:\nvar id = result.match(/(\\d+)\\/index/)[1];\n'http://image.5gxs.com/'+parseInt(id/1000)+'/'+id+'/'+id+'s.jpg';",
+      "intro": ".update@text##简介：",
+      "kind": "",
+      "lastChapter": ".cat a@text",
+      "name": ".bookname a@text",
+      "wordCount": "##字数：([^<]+)<##$1###"
+    },
+    "ruleSearch": {
+      "author": ".author@text##作者：",
+      "bookList": ".bookbox",
+      "bookUrl": ".bookname a@href",
+      "coverUrl": ".bookname a@href@js:\nvar id = result.match(/(\\d+)\\/index/)[1];\n'http://image.5gxs.com/'+parseInt(id/1000)+'/'+id+'/'+id+'s.jpg';",
+      "intro": ".update@textNodes@js:result.trim()",
+      "lastChapter": ".cat a@text",
+      "name": ".bookname a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list-chapterAll@a",
+      "chapterName": "text",
+      "chapterUrl": "href##\\s+"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=articlename&searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

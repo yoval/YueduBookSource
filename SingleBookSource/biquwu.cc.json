@@ -1,1 +1,35 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "🎉 笔趣阁 biquwu", "bookSourceType": 0, "bookSourceUrl": "https://www.biquwu.cc-By Dark", "customOrder": -115152, "enabled": true, "enabledExplore": true, "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}", "lastUpdateTime": 1612782871932, "ruleBookInfo": {"intro": "id.intro@tag.p@textNodes"}, "ruleContent": {"content": "id.content@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.author@text##作者：", "bookList": "class.bookbox", "bookUrl": "class.bookname@tag.a@href", "coverUrl": "class.bookimg@tag.img.0@src", "kind": "class.cat@text##分类：", "lastChapter": "class.update@tag.a@text", "name": "class.bookname@tag.a@text"}, "ruleToc": {"chapterList": "class.listmain@tag.dd@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.biquwu.cc/s.php?ie=gbk&q={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "🎉 笔趣阁 biquwu",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.biquwu.cc-By Dark",
+    "customOrder": -115152,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
+    "lastUpdateTime": 1612782871932,
+    "ruleBookInfo": {
+      "intro": "id.intro@tag.p@textNodes"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text##作者：",
+      "bookList": "class.bookbox",
+      "bookUrl": "class.bookname@tag.a@href",
+      "coverUrl": "class.bookimg@tag.img.0@src",
+      "kind": "class.cat@text##分类：",
+      "lastChapter": "class.update@tag.a@text",
+      "name": "class.bookname@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.biquwu.cc/s.php?ie=gbk&q={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

@@ -1,1 +1,64 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,刘备书源", "bookSourceName": "🚬 97阅读", "bookSourceType": 0, "bookSourceUrl": "http://www.97yd.com", "bookUrlPattern": "", "customOrder": 24435, "enabled": true, "enabledExplore": true, "exploreUrl": "", "header": "", "lastUpdateTime": 1605535448194, "loginUrl": "", "ruleBookInfo": {"author": "id.author@tag.a@text", "coverUrl": "id.bookimg@src", "init": "", "intro": "id.bookintro@text", "kind": "class.count@tag.li.0@tag.span@text", "lastChapter": "class.keywords@tag.a@text", "name": "class.booktitle@tag.h1@text", "tocUrl": "class.newrap@tag.a@href", "wordCount": "class.count@tag.li.2@tag.span@text"}, "ruleContent": {"content": "id.content@all", "nextContentUrl": "", "sourceRegex": "", "webJs": ""}, "ruleExplore": {"author": "", "bookList": "", "bookUrl": "", "coverUrl": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "wordCount": ""}, "ruleSearch": {"author": "", "bookList": "id.sitembox@dl", "bookUrl": "tag.dt@tag.a@href", "coverUrl": "tag.dt@tag.a@src", "intro": "class.book_des@text", "kind": "class.book_other.0@text", "lastChapter": "class.book_other.1@tag.a@text", "name": "tag.h3@tag.a@text", "wordCount": "class.book_other.0@tag.span.1@text"}, "ruleToc": {"chapterList": "id.readerlists@tag.ul.1@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "isVip": "", "nextTocUrl": "", "updateTime": ""}, "searchUrl": "/e/search/?keyboard={{key}}&classid=0&searchget=1&show=title,author", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,刘备书源",
+    "bookSourceName": "🚬 97阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.97yd.com",
+    "bookUrlPattern": "",
+    "customOrder": 24723,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1605535448194,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.author@tag.a@text",
+      "coverUrl": "id.bookimg@src",
+      "init": "",
+      "intro": "id.bookintro@text",
+      "kind": "class.count@tag.li.0@tag.span@text",
+      "lastChapter": "class.keywords@tag.a@text",
+      "name": "class.booktitle@tag.h1@text",
+      "tocUrl": "class.newrap@tag.a@href",
+      "wordCount": "class.count@tag.li.2@tag.span@text"
+    },
+    "ruleContent": {
+      "content": "id.content@all",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "",
+      "bookList": "id.sitembox@dl",
+      "bookUrl": "tag.dt@tag.a@href",
+      "coverUrl": "tag.dt@tag.a@src",
+      "intro": "class.book_des@text",
+      "kind": "class.book_other.0@text",
+      "lastChapter": "class.book_other.1@tag.a@text",
+      "name": "tag.h3@tag.a@text",
+      "wordCount": "class.book_other.0@tag.span.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.readerlists@tag.ul.1@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "/e/search/?keyboard={{key}}&classid=0&searchget=1&show=title,author",
+    "weight": 0
+  }]

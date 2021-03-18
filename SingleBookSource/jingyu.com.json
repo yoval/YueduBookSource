@@ -1,1 +1,56 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "💵 鲸鱼阅读", "bookSourceType": 0, "bookSourceUrl": "http://www.jingyu.com", "bookUrlPattern": "", "customOrder": -117379, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻::/search/stack?category=11&pn={{page}}\n奇幻::/search/stack?category=12&pn={{page}}\n武侠::/search/stack?category=13&pn={{page}}\n仙侠::/search/stack?category=14&pn={{page}}\n都市::/search/stack?category=15&pn={{page}}\n军事::/search/stack?category=16&pn={{page}}\n历史::/search/stack?category=17&pn={{page}}\n游戏::/search/stack?category=18&pn={{page}}\n体育::/search/stack?category=19&pn={{page}}\n科幻::/search/stack?category=20&pn={{page}}\n灵异::/search/stack?category=21&pn={{page}}\n次元::/search/stack?category=22&pn={{page}}\n古代言情::/search/stack?category=31&pn={{page}}\n现代言情::/search/stack?category=32&pn={{page}}\n同人耽美::/search/stack?category=33&pn={{page}}\n仙侠武侠::/search/stack?category=34&pn={{page}}\n玄幻魔幻::/search/stack?category=35&pn={{page}}\n青春校园::/search/stack?category=36&pn={{page}}\n悬疑灵异::/search/stack?category=37&pn={{page}}\n科幻游戏::/search/stack?category=38&pn={{page}}\n短篇言情::/search/stack?category=39&pn={{page}}", "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36\"\n}", "lastUpdateTime": 1605064629200, "loginUrl": "http://www.jingyu.com/", "ruleBookInfo": {"author": "[property=\"og:novel:author\"]@content", "coverUrl": "[property=\"og:image\"]@content", "intro": "[property=\"og:description\"]@content", "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content", "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content", "name": "[property=\"og:novel:book_name\"]@content", "tocUrl": "class.button-list@tag.a.2@href##/novel/catelog\\?nid=(.*)##http://www.jingyu.com/chaplist/$1.html", "wordCount": "class.state.1@tag.i.0@text"}, "ruleContent": {"content": "class.js-chapterContent@html", "imageStyle": "0"}, "ruleExplore": {"author": "tag.a.2@text", "bookList": "class.search-list@tag.li", "bookUrl": "tag.a.1@href", "coverUrl": "tag.img@src", "intro": "class.intr@text##简介.", "kind": "tag.a.3@text", "name": "tag.a.1@text"}, "ruleSearch": {"author": "tag.a.2@text", "bookList": "class.novel", "bookUrl": "tag.a.1@href", "coverUrl": "tag.img@src", "intro": "class.desc@text##简介.", "kind": "tag.a.3@text&&class.tag@text&&class.modtime@text##\\s有更新", "name": "tag.a.1@text", "wordCount": "class.overview@tag.div.2@text##字数\\s"}, "ruleToc": {"chapterList": "class.chapter-list@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href##/chapter/(.*).html##http://m.jingyu.com/novel/read?cid=$1", "isVip": "class.vip@text"}, "searchUrl": "/search/?kw={{key}}&pn={{page}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "鲸鱼阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.jingyu.com",
+    "bookUrlPattern": "",
+    "customOrder": -117379,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/search/stack?category=11&pn={{page}}\n奇幻::/search/stack?category=12&pn={{page}}\n武侠::/search/stack?category=13&pn={{page}}\n仙侠::/search/stack?category=14&pn={{page}}\n都市::/search/stack?category=15&pn={{page}}\n军事::/search/stack?category=16&pn={{page}}\n历史::/search/stack?category=17&pn={{page}}\n游戏::/search/stack?category=18&pn={{page}}\n体育::/search/stack?category=19&pn={{page}}\n科幻::/search/stack?category=20&pn={{page}}\n灵异::/search/stack?category=21&pn={{page}}\n次元::/search/stack?category=22&pn={{page}}\n古代言情::/search/stack?category=31&pn={{page}}\n现代言情::/search/stack?category=32&pn={{page}}\n同人耽美::/search/stack?category=33&pn={{page}}\n仙侠武侠::/search/stack?category=34&pn={{page}}\n玄幻魔幻::/search/stack?category=35&pn={{page}}\n青春校园::/search/stack?category=36&pn={{page}}\n悬疑灵异::/search/stack?category=37&pn={{page}}\n科幻游戏::/search/stack?category=38&pn={{page}}\n短篇言情::/search/stack?category=39&pn={{page}}",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/45.0.2454.101 Safari/537.36\"\n}",
+    "lastUpdateTime": 1615879605997,
+    "loginUrl": "http://www.jingyu.com/",
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "class.button-list@tag.a.2@href##/novel/catelog\\?nid=(.*)##http://www.jingyu.com/chaplist/$1.html",
+      "wordCount": "class.state.1@tag.i.0@text"
+    },
+    "ruleContent": {
+      "content": "class.js-chapterContent@html",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "author": "tag.a.2@text",
+      "bookList": "class.search-list@tag.li",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.intr@text##简介.",
+      "kind": "tag.a.3@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.novel",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.desc@text##简介.",
+      "kind": "tag.a.3@text&&class.tag@text&&class.modtime@text##\\s有更新",
+      "name": "tag.a.1@text",
+      "wordCount": "class.overview@tag.div.2@text##字数\\s"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter-list@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href##/chapter/(.*).html##http://m.jingyu.com/novel/read?cid=$1",
+      "isVip": "class.vip@text"
+    },
+    "searchUrl": "/search/?kw={{key}}&pn={{page}}",
+    "weight": 0
+  }]

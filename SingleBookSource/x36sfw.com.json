@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 36书房网", "bookSourceType": 0, "bookSourceUrl": "https://www.x36sfw.com", "bookUrlPattern": "", "customOrder": -31895, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": "id.sidebar@id.fmimg@tag.img.0@src", "intro": "id.maininfo@id.intro@textNodes", "lastChapter": "id.info@tag.p.3@a@text"}, "ruleContent": {"content": "id.content@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.s4@text", "bookList": "class.novelslist2@tag.li!0", "bookUrl": "class.s2@tag.a.0@href", "coverUrl": "class.s2@tag.a.0@href##.+\\D((\\d+)\\d{3})\\..+##/files/article/image/$2/$1/$1s.jpg", "lastChapter": "class.s3@tag.a.0@text", "name": "class.s2@tag.a.0@text"}, "ruleToc": {"chapterList": "id.list@dl@dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.x36sfw.com/index.php?s=/web/index/search,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"name={{key}}&submit=搜索\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 36书房网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.x36sfw.com",
+    "bookUrlPattern": "",
+    "customOrder": -31895,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "id.sidebar@id.fmimg@tag.img.0@src",
+      "intro": "id.maininfo@id.intro@textNodes",
+      "lastChapter": "id.info@tag.p.3@a@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.novelslist2@tag.li!0",
+      "bookUrl": "class.s2@tag.a.0@href",
+      "coverUrl": "class.s2@tag.a.0@href##.+\\D((\\d+)\\d{3})\\..+##/files/article/image/$2/$1/$1s.jpg",
+      "lastChapter": "class.s3@tag.a.0@text",
+      "name": "class.s2@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@dl@dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.x36sfw.com/index.php?s=/web/index/search,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"name={{key}}&submit=搜索\"\n}",
+    "weight": 0
+  }]

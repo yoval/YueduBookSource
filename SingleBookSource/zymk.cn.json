@@ -1,1 +1,35 @@
-[{"bookSourceComment": "error:正文内容为空\n", "bookSourceGroup": "我的书源", "bookSourceName": "🎨 知音漫客", "bookSourceType": 0, "bookSourceUrl": "https://m.zymk.cn", "bookUrlPattern": "", "customOrder": -31357, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1602994644365, "ruleBookInfo": {"author": "class.author@text", "intro": "class.comic-detail@tag.p.0@text", "kind": "class.tags-box@text"}, "ruleContent": {"content": "function getImgList() {     \r\nvar str = html.match(/end_var:(\\d+),.*middle:\\\"(.*?)\\$\\$(.*?)\\\"/);\r\nvar pn = parseInt(str[1]);          \r\nvar piclist = new Array([pn]);        \r\nfor (var i = 0; i < pn; i++) {   \r\npiclist[i] = \"http://mhpic.zymkcdn.com/comic/\"+str[2]+(i+1).toString()+str[3];        \r\n}       \r\nreturn piclist;    \r\n}"}, "ruleExplore": {}, "ruleSearch": {"bookList": "class.comic-sort@tag.li", "bookUrl": "tag.a.0@href", "coverUrl": "tag.img@data-src", "lastChapter": "tag.span.0@text", "name": "tag.h3@text"}, "ruleToc": {"chapterList": "-class.chapterlist@tag.li", "chapterName": "tag.span@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://m.zymk.cn/sort/all.html?key={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:正文内容为空\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎨 知音漫客",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.zymk.cn",
+    "bookUrlPattern": "",
+    "customOrder": -31357,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1602994644365,
+    "ruleBookInfo": {
+      "author": "class.author@text",
+      "intro": "class.comic-detail@tag.p.0@text",
+      "kind": "class.tags-box@text"
+    },
+    "ruleContent": {
+      "content": "function getImgList() {     \r\nvar str = html.match(/end_var:(\\d+),.*middle:\\\"(.*?)\\$\\$(.*?)\\\"/);\r\nvar pn = parseInt(str[1]);          \r\nvar piclist = new Array([pn]);        \r\nfor (var i = 0; i < pn; i++) {   \r\npiclist[i] = \"http://mhpic.zymkcdn.com/comic/\"+str[2]+(i+1).toString()+str[3];        \r\n}       \r\nreturn piclist;    \r\n}"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.comic-sort@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@data-src",
+      "lastChapter": "tag.span.0@text",
+      "name": "tag.h3@text"
+    },
+    "ruleToc": {
+      "chapterList": "-class.chapterlist@tag.li",
+      "chapterName": "tag.span@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://m.zymk.cn/sort/all.html?key={{key}}",
+    "weight": 0
+  }]

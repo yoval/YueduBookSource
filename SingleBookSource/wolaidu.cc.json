@@ -1,1 +1,42 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "中文书城", "bookSourceType": 0, "bookSourceUrl": "https://m.wolaidu.cc/", "customOrder": 0, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "ruleBookInfo": {"author": "##作者：([^<]+)<##$1###", "coverUrl": "class.ui_bookinfo_cover@img@src", "intro": "class.jianjie_intro@text", "kind": "class.ui_bookinfo_tag@li@text", "lastChapter": "class.zw_flex.1@span@text", "name": "class.ui_head_bookname@text", "tocUrl": "class.ui_bookinfo_catalog zw_box@a@href", "wordCount": ""}, "ruleContent": {"content": "id.uiContent@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.ui_authorname@text", "bookList": "id.uiUL@li", "bookUrl": "tag.a.0@href", "coverUrl": "img@src", "intro": "", "kind": "{{@@class.lb_score@text}}分", "name": "class.bookname@text"}, "ruleToc": {"chapterList": "class.ul_catalog@li@a", "chapterName": "class.title@text", "chapterUrl": "href##$##,{\"webView\":true}", "isVip": ""}, "searchUrl": "https://m.wolaidu.cc/searchbook.aspx?key={{key}}&type=1", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "中文书城",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.wolaidu.cc/",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "##作者：([^<]+)<##$1###",
+      "coverUrl": "class.ui_bookinfo_cover@img@src",
+      "intro": "class.jianjie_intro@text",
+      "kind": "class.ui_bookinfo_tag@li@text",
+      "lastChapter": "class.zw_flex.1@span@text",
+      "name": "class.ui_head_bookname@text",
+      "tocUrl": "class.ui_bookinfo_catalog zw_box@a@href",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.uiContent@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.ui_authorname@text",
+      "bookList": "id.uiUL@li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@src",
+      "intro": "",
+      "kind": "{{@@class.lb_score@text}}分",
+      "name": "class.bookname@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.ul_catalog@li@a",
+      "chapterName": "class.title@text",
+      "chapterUrl": "href##$##,{\"webView\":true}",
+      "isVip": ""
+    },
+    "searchUrl": "https://m.wolaidu.cc/searchbook.aspx?key={{key}}&type=1",
+    "weight": 0
+  }]

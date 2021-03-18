@@ -1,1 +1,65 @@
-[{"bookSourceComment": "error:org.mozilla.javascript.EcmaError: TypeError: Cannot read property \"1\" from null (<Unknown source>#1) in <Unknown source> at line number 1\n", "bookSourceGroup": "我的书源", "bookSourceName": "🌸 30书院", "bookSourceType": 0, "bookSourceUrl": "https://www.30sy.com", "bookUrlPattern": "", "customOrder": -32930, "enabled": true, "enabledExplore": true, "exploreUrl": "入库::/top/postdate/{{page}}.html\n最新::/top/lastupdate/{{page}}.html\n点击::/top/allvisit/{{page}}.html\n收藏::/top/marknum/{{page}}.html\n推荐::/top/votenum/{{page}}.html\n下载::/top/downnum/{{page}}.html\n玄幻::/sort/xuanhuan/{{page}}.html\n奇幻::/sort/qihuan/{{page}}.html\n武侠::/sort/wuxia/{{page}}.html\n仙侠::/sort/xianxia/{{page}}.html\n都市::/sort/dushi/{{page}}.html\n历史::/sort/lishi/{{page}}.html\n军事::/sort/junshi/{{page}}.html  \n游戏::/sort/youxi/{{page}}.html\n竞技::/sort/jingji/{{page}}.html\n科幻::/sort/kehuan/{{page}}.html\n灵异::/sort/lingyi/{{page}}.html\n同人::/sort/tongren/{{page}}.html\n女生::/sort/nvsheng/{{page}}.html\n其他::/sort/qita/{{page}}.html", "header": "", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "class.novelinfo-l@tag.a.0@text", "coverUrl": "", "init": "", "intro": "class.novelintro@text##各位书友要是觉得(.*|\\n)", "kind": "class.novelinfo-l@tag.a.1@text", "lastChapter": "class.novelinfo-l@tag.a.2@text", "name": "h1@text", "tocUrl": "", "wordCount": ""}, "ruleContent": {"content": "<js>\nvar sid= result.match(/siteid:'(.*)'/)[1];\nvar url = result.match(/url:'(.*)'/)[1];\nvar option = JSON.stringify({\"method\":\"POST\",\"body\":\"siteid=\"+sid+\"&url=\"+url})\norg.jsoup.Jsoup.parse(java.ajax('https://www.30sy.com/novelsearch/chapter/transcode.html,'+ option))\n</js>\nclass.success@textNodes##手机版网址.*|.*第.*章(.*！|\\n)|.*\\(\\)\\;", "imageStyle": "0", "nextContentUrl": "", "sourceRegex": "", "webJs": ""}, "ruleExplore": {"author": "", "bookList": "", "bookUrl": "", "coverUrl": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "wordCount": ""}, "ruleSearch": {"author": "class.info@tag.span.1@a@text", "bookList": ".librarylist li", "bookUrl": "class.pt-ll-l@a@href", "coverUrl": "class.pt-ll-l@img@src", "intro": "class.intro@text", "kind": "class.info@tag.span.2@a@text", "lastChapter": "class.last@text##最新章节：|(正文)?(\\s+|_)|[\\(（【].*[求更谢乐发推].*[】）\\)]", "name": "class.info@tag.span.0@a@text", "wordCount": ""}, "ruleToc": {"chapterList": "class.dirlist@li@a", "chapterName": "text##(正文)?(\\s+|_)|[\\(（【].*[求更谢乐发推].*[】）\\)]", "chapterUrl": "href", "isVip": "", "nextTocUrl": "", "updateTime": ""}, "searchUrl": "/search.html?searchtype=novelname&searchkey={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:org.mozilla.javascript.EcmaError: TypeError: Cannot read property \"1\" from null (<Unknown source>#1) in <Unknown source> at line number 1\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🌸 30书院",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.30sy.com",
+    "bookUrlPattern": "",
+    "customOrder": -32930,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "入库::/top/postdate/{{page}}.html\n最新::/top/lastupdate/{{page}}.html\n点击::/top/allvisit/{{page}}.html\n收藏::/top/marknum/{{page}}.html\n推荐::/top/votenum/{{page}}.html\n下载::/top/downnum/{{page}}.html\n玄幻::/sort/xuanhuan/{{page}}.html\n奇幻::/sort/qihuan/{{page}}.html\n武侠::/sort/wuxia/{{page}}.html\n仙侠::/sort/xianxia/{{page}}.html\n都市::/sort/dushi/{{page}}.html\n历史::/sort/lishi/{{page}}.html\n军事::/sort/junshi/{{page}}.html  \n游戏::/sort/youxi/{{page}}.html\n竞技::/sort/jingji/{{page}}.html\n科幻::/sort/kehuan/{{page}}.html\n灵异::/sort/lingyi/{{page}}.html\n同人::/sort/tongren/{{page}}.html\n女生::/sort/nvsheng/{{page}}.html\n其他::/sort/qita/{{page}}.html",
+    "header": "",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.novelinfo-l@tag.a.0@text",
+      "coverUrl": "",
+      "init": "",
+      "intro": "class.novelintro@text##各位书友要是觉得(.*|\\n)",
+      "kind": "class.novelinfo-l@tag.a.1@text",
+      "lastChapter": "class.novelinfo-l@tag.a.2@text",
+      "name": "h1@text",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "<js>\nvar sid= result.match(/siteid:'(.*)'/)[1];\nvar url = result.match(/url:'(.*)'/)[1];\nvar option = JSON.stringify({\"method\":\"POST\",\"body\":\"siteid=\"+sid+\"&url=\"+url})\norg.jsoup.Jsoup.parse(java.ajax('https://www.30sy.com/novelsearch/chapter/transcode.html,'+ option))\n</js>\nclass.success@textNodes##手机版网址.*|.*第.*章(.*！|\\n)|.*\\(\\)\\;",
+      "imageStyle": "0",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.info@tag.span.1@a@text",
+      "bookList": ".librarylist li",
+      "bookUrl": "class.pt-ll-l@a@href",
+      "coverUrl": "class.pt-ll-l@img@src",
+      "intro": "class.intro@text",
+      "kind": "class.info@tag.span.2@a@text",
+      "lastChapter": "class.last@text##最新章节：|(正文)?(\\s+|_)|[\\(（【].*[求更谢乐发推].*[】）\\)]",
+      "name": "class.info@tag.span.0@a@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.dirlist@li@a",
+      "chapterName": "text##(正文)?(\\s+|_)|[\\(（【].*[求更谢乐发推].*[】）\\)]",
+      "chapterUrl": "href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "/search.html?searchtype=novelname&searchkey={{key}}",
+    "weight": 0
+  }]

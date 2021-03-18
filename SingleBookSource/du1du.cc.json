@@ -1,1 +1,33 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🍺 读一读 du1du", "bookSourceType": 0, "bookSourceUrl": "http://www.du1du.cc", "customOrder": -116992, "enabled": true, "enabledExplore": true, "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}", "lastUpdateTime": 1612808384772, "ruleBookInfo": {"intro": "class.desc@textNodes##简介："}, "ruleContent": {"content": "id.content@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.cc4@tag.a.0@text", "bookList": "class.list_content", "bookUrl": "class.cc2@tag.a.0@href", "lastChapter": "class.cc3@tag.a.0@text", "name": "class.cc2@tag.a.0@text"}, "ruleToc": {"chapterList": "class.chapter", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.du1du.cc/s_{{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍺 读一读 du1du",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.du1du.cc",
+    "customOrder": -116992,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
+    "lastUpdateTime": 1612808384772,
+    "ruleBookInfo": {
+      "intro": "class.desc@textNodes##简介："
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.cc4@tag.a.0@text",
+      "bookList": "class.list_content",
+      "bookUrl": "class.cc2@tag.a.0@href",
+      "lastChapter": "class.cc3@tag.a.0@text",
+      "name": "class.cc2@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.du1du.cc/s_{{key}}",
+    "weight": 0
+  }]

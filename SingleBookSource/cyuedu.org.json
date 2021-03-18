@@ -1,1 +1,39 @@
-[{"bookSourceComment": "error:Expected URL scheme 'http' or 'https' but was 'javascript'\n", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 明月中文", "bookSourceType": 0, "bookSourceUrl": "http://m.cyuedu.org", "bookUrlPattern": "", "customOrder": -32212, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻魔法::/class/1_{{page}}.html\n武侠修真::/class/2_{{page}}.html\n都市言情::/class/3_{{page}}.html\n历史军事::/class/4_{{page}}.html\n侦探推理::/class/5_{{page}}.html\n网游动漫::/class/6_{{page}}.html\n科幻玄幻::/class/7_{{page}}.html\n恐怖灵异::/class/8_{{page}}.html\n女生小说::/class/9_{{page}}.html\n其他类型::/class/10_{{page}}.html\n最新入库::/top/postdate_{{page}}.html\n完本小说::/quanben/{{page}}\n周点击榜::/top/weekvisit_{{page}}.html\n月点击榜::/top/monthvisit_{{page}}.html\n总收藏榜::/top/goodnum_{{page}}.html", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "class.main@h1@text||class.mohe-author@text||class.mohe-author@text##.*作者：", "coverUrl": "class.mohe-imgs@img@src||class.mohe-imgs@img@src", "intro": "class.mohe-text@html||id.mohetext@html##简介(\\(点击展开.隐藏\\))?：", "kind": "class.mohe-summary@tag.p.1@text||class.mohe-summary@tag.p.1@span@a@text##类型：", "name": "class.main@h1@text||h1@text##作者：.+"}, "ruleContent": {"content": "tag.div.5@html##如果您中途有事离开，请按CTRL\\+D键保存当前页面至收藏夹，以便以后接着观看！"}, "ruleExplore": {}, "ruleSearch": {"author": "class.c-gap-right.0@text||span@text##作者：", "bookList": "class.c-result result!4:5||class.line", "bookUrl": "class.c-result result c-clk-recommend@data-log||class.c-result result@data-log||a@href##.+'mu':'|'\\}", "lastChapter": "class.c-slink c-slink-auto c-gap-top-small c-gap-bottom-small c-blocka@text##最新章节：", "name": "class.c-title-text@text||a@text##最新章节,.+"}, "ruleToc": {"chapterList": "tag.ul.0@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://m.cyuedu.org/modules/article/searchm.php?searchtype=articlename&searchkey={{key}}&submit=,{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:Expected URL scheme 'http' or 'https' but was 'javascript'\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 明月中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.cyuedu.org",
+    "bookUrlPattern": "",
+    "customOrder": -32212,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/class/1_{{page}}.html\n武侠修真::/class/2_{{page}}.html\n都市言情::/class/3_{{page}}.html\n历史军事::/class/4_{{page}}.html\n侦探推理::/class/5_{{page}}.html\n网游动漫::/class/6_{{page}}.html\n科幻玄幻::/class/7_{{page}}.html\n恐怖灵异::/class/8_{{page}}.html\n女生小说::/class/9_{{page}}.html\n其他类型::/class/10_{{page}}.html\n最新入库::/top/postdate_{{page}}.html\n完本小说::/quanben/{{page}}\n周点击榜::/top/weekvisit_{{page}}.html\n月点击榜::/top/monthvisit_{{page}}.html\n总收藏榜::/top/goodnum_{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.main@h1@text||class.mohe-author@text||class.mohe-author@text##.*作者：",
+      "coverUrl": "class.mohe-imgs@img@src||class.mohe-imgs@img@src",
+      "intro": "class.mohe-text@html||id.mohetext@html##简介(\\(点击展开.隐藏\\))?：",
+      "kind": "class.mohe-summary@tag.p.1@text||class.mohe-summary@tag.p.1@span@a@text##类型：",
+      "name": "class.main@h1@text||h1@text##作者：.+"
+    },
+    "ruleContent": {
+      "content": "tag.div.5@html##如果您中途有事离开，请按CTRL\\+D键保存当前页面至收藏夹，以便以后接着观看！"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.c-gap-right.0@text||span@text##作者：",
+      "bookList": "class.c-result result!4:5||class.line",
+      "bookUrl": "class.c-result result c-clk-recommend@data-log||class.c-result result@data-log||a@href##.+'mu':'|'\\}",
+      "lastChapter": "class.c-slink c-slink-auto c-gap-top-small c-gap-bottom-small c-blocka@text##最新章节：",
+      "name": "class.c-title-text@text||a@text##最新章节,.+"
+    },
+    "ruleToc": {
+      "chapterList": "tag.ul.0@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://m.cyuedu.org/modules/article/searchm.php?searchtype=articlename&searchkey={{key}}&submit=,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

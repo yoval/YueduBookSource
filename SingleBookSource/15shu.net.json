@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "👍 千千小说网15shu.net", "bookSourceType": 0, "bookSourceUrl": "https://www.15shu.net", "bookUrlPattern": "", "customOrder": 15926, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "class.msg@tag.em.0@text##作者：", "coverUrl": "class.lf@tag.img.0@src", "intro": "class.intro@text", "name": "class.rt@tag.h1.0@text", "tocUrl": "text.在线阅读@href"}, "ruleContent": {"content": "class.yd_text2@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@text", "bookList": "class.grid@tag.tr!0", "bookUrl": "class.odd.0@tag.a.0@href", "lastChapter": "class.even.0@tag.a.0@text", "name": "class.odd.0@tag.a.0@text"}, "ruleToc": {"chapterList": "class.mulu@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.15shu.net/modules/article/search.php?searchtype=articlename&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "👍 千千小说网15shu.net",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.15shu.net",
+    "bookUrlPattern": "",
+    "customOrder": 15926,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.msg@tag.em.0@text##作者：",
+      "coverUrl": "class.lf@tag.img.0@src",
+      "intro": "class.intro@text",
+      "name": "class.rt@tag.h1.0@text",
+      "tocUrl": "text.在线阅读@href"
+    },
+    "ruleContent": {
+      "content": "class.yd_text2@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "lastChapter": "class.even.0@tag.a.0@text",
+      "name": "class.odd.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.mulu@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.15shu.net/modules/article/search.php?searchtype=articlename&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

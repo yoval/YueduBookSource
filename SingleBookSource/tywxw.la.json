@@ -1,1 +1,39 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🔰 天翼文学", "bookSourceType": 0, "bookSourceUrl": "https://m.tywxw.la", "bookUrlPattern": "", "customOrder": 16327, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "id.bookTitle@text##.*作者：", "coverUrl": "id.bigImg@img@src", "intro": "id.contentA@text", "name": "id.bookTitle@h1@text", "tocUrl": "text.开始阅读@href"}, "ruleContent": {"content": "id.content@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.td.2@text", "bookList": "table@tag.tr!0", "bookUrl": "tag.a.0@href", "kind": "tag.td.5@text", "lastChapter": "tag.a.1@text", "name": "tag.a.0@text"}, "ruleToc": {"chapterList": "class.ccss@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.tywxw.la/modules/article/search.php?searchkey={{key}}&page=1,{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🔰 天翼文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.tywxw.la",
+    "bookUrlPattern": "",
+    "customOrder": 16327,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.bookTitle@text##.*作者：",
+      "coverUrl": "id.bigImg@img@src",
+      "intro": "id.contentA@text",
+      "name": "id.bookTitle@h1@text",
+      "tocUrl": "text.开始阅读@href"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "table@tag.tr!0",
+      "bookUrl": "tag.a.0@href",
+      "kind": "tag.td.5@text",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.ccss@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.tywxw.la/modules/article/search.php?searchkey={{key}}&page=1,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

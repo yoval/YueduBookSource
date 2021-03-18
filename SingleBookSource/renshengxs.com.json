@@ -1,1 +1,45 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 人生小说", "bookSourceType": 0, "bookSourceUrl": "http://m.renshengxs.com", "customOrder": -115570, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1604053725257, "ruleBookInfo": {"author": "[property=\"og:novel:author\"]@content", "coverUrl": "[property=\"og:image\"]@content", "intro": "[property=\"og:description\"]@content", "kind": "[property=\"og:novel:category\"]@content", "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content", "name": "[property=\"og:title\"]@content", "tocUrl": "@js:result=baseUrl##xs(\\d+).html##$1\\/", "wordCount": "[property=\"og:novel:status\"]@content"}, "ruleContent": {"content": "class.content@html##喜欢.*收藏.*最快。|[酷爱电子书,58读书,笔趣阁].*www.*[com,cn,co,cc,net,org,xyz,la]", "nextContentUrl": ""}, "ruleExplore": {}, "ruleSearch": {"author": "class.data.0@tag.a.0@text", "bookList": "class.list@li", "bookUrl": "tag.a@href", "coverUrl": "tag.img@src", "intro": "class.intro@text", "kind": "class.data@tag.span@text", "lastChapter": "class.data.1@tag.a@text", "name": "class.bookname@tag.a@text", "wordCount": ""}, "ruleToc": {"chapterList": "class.read@li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "nextTocUrl": "option@value"}, "searchUrl": "/search.html,{\n\"charset\": \"\",\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 人生小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.renshengxs.com",
+    "customOrder": -115570,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1604053725257,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:title\"]@content",
+      "tocUrl": "@js:result=baseUrl##xs(\\d+).html##$1\\/",
+      "wordCount": "[property=\"og:novel:status\"]@content"
+    },
+    "ruleContent": {
+      "content": "class.content@html##喜欢.*收藏.*最快。|[酷爱电子书,58读书,笔趣阁].*www.*[com,cn,co,cc,net,org,xyz,la]",
+      "nextContentUrl": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.data.0@tag.a.0@text",
+      "bookList": "class.list@li",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.intro@text",
+      "kind": "class.data@tag.span@text",
+      "lastChapter": "class.data.1@tag.a@text",
+      "name": "class.bookname@tag.a@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.read@li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "option@value"
+    },
+    "searchUrl": "/search.html,{\n\"charset\": \"\",\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

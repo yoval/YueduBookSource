@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🔰 千千小说④", "bookSourceType": 0, "bookSourceUrl": "https://www.xqqxs.com", "bookUrlPattern": "", "customOrder": 16207, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.pic@tag.img@src", "intro": "class.intro@text", "name": "class.f21h.0@tag.h1@text##作者.*", "tocUrl": "class.btopt@tag.a@href"}, "ruleContent": {"content": "id.booktext@html##请记住本书.*|\\://cd.*"}, "ruleExplore": {}, "ruleSearch": {"author": "class.c_value.0@text", "bookList": "class.c_row||class.ui_bg6", "bookUrl": "class.c_subject@tag.a@href", "coverUrl": "class.f1@tag.img@src", "lastChapter": "class.c_value.5@text", "name": "class.c_subject@tag.a@text"}, "ruleToc": {"chapterList": "id.list@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.xqqxs.com/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=all&searchkey={{key}}&action=search\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🔰 千千小说④",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xqqxs.com",
+    "bookUrlPattern": "",
+    "customOrder": 16207,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.pic@tag.img@src",
+      "intro": "class.intro@text",
+      "name": "class.f21h.0@tag.h1@text##作者.*",
+      "tocUrl": "class.btopt@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "id.booktext@html##请记住本书.*|\\://cd.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.c_value.0@text",
+      "bookList": "class.c_row||class.ui_bg6",
+      "bookUrl": "class.c_subject@tag.a@href",
+      "coverUrl": "class.f1@tag.img@src",
+      "lastChapter": "class.c_value.5@text",
+      "name": "class.c_subject@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.xqqxs.com/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=all&searchkey={{key}}&action=search\"\n}",
+    "weight": 0
+  }]

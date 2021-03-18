@@ -1,1 +1,49 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🍑 爱男孩帅哥", "bookSourceType": 0, "bookSourceUrl": "http://www.aiboy.cc", "customOrder": -116088, "enabled": true, "enabledExplore": true, "exploreUrl": "精选同志::/list-15-{{page}}.html\n短篇同志::/list-16-{{page}}.html\n军警同志::/list-17-{{page}}.html\n男男搞基::/list-42-{{page}}.html\n耽美纯爱::/list-18-{{page}}.html\n同志故事::/list-21-{{page}}.html\n基友话题::/list-20-{{page}}.html\n防艾专栏::/list-40-{{page}}.html\n同影评论::/list-25-{{page}}.html", "lastUpdateTime": 1612444726869, "loginUrl": "", "ruleBookInfo": {"author": "class.gray1@text##.*作者：|阅读.*", "coverUrl": "class.newscontent@tag.img.0@src", "init": "", "kind": "", "name": "class.f26@tag.h1@text##.*\\：|.*\\《|》", "tocUrl": ""}, "ruleContent": {"content": "class.newscontent@tag.p@html", "nextContentUrl": "text.下一页@href"}, "ruleExplore": {"bookList": "class.columncontent@tag.div.0", "bookUrl": "class.f20@tag.a.0@href", "coverUrl": "class.imgarea@tag.img.0@src", "intro": "class.f14@text", "kind": "class.gray1@text&&class.gray1@tag.a@text##同志|小说|发布时间：|点击.*", "name": "class.f20@tag.a.0@text##.*\\：|.*\\《|》"}, "ruleSearch": {"bookList": "class.wrap@tag.li", "bookUrl": "class.wrap@tag.a.1@href", "coverUrl": "tag.img.0@src", "intro": "tag.p.0@text", "kind": "class.adds@text##发布时间：", "name": "class.wrap@tag.a.1@text##.*\\：|.*\\《|》"}, "ruleToc": {"chapterList": "class.f14 tc@tag.a||class.f26 mb10@tag.h1", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "text.下一页@href"}, "searchUrl": "http://www.aiboy.cc/index.php?m=search&c=index&a=init&typeid=1&siteid=1&q={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍑 爱男孩帅哥",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.aiboy.cc",
+    "customOrder": -116088,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "精选同志::/list-15-{{page}}.html\n短篇同志::/list-16-{{page}}.html\n军警同志::/list-17-{{page}}.html\n男男搞基::/list-42-{{page}}.html\n耽美纯爱::/list-18-{{page}}.html\n同志故事::/list-21-{{page}}.html\n基友话题::/list-20-{{page}}.html\n防艾专栏::/list-40-{{page}}.html\n同影评论::/list-25-{{page}}.html",
+    "lastUpdateTime": 1612444726869,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.gray1@text##.*作者：|阅读.*",
+      "coverUrl": "class.newscontent@tag.img.0@src",
+      "init": "",
+      "kind": "",
+      "name": "class.f26@tag.h1@text##.*\\：|.*\\《|》",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "class.newscontent@tag.p@html",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+      "bookList": "class.columncontent@tag.div.0",
+      "bookUrl": "class.f20@tag.a.0@href",
+      "coverUrl": "class.imgarea@tag.img.0@src",
+      "intro": "class.f14@text",
+      "kind": "class.gray1@text&&class.gray1@tag.a@text##同志|小说|发布时间：|点击.*",
+      "name": "class.f20@tag.a.0@text##.*\\：|.*\\《|》"
+    },
+    "ruleSearch": {
+      "bookList": "class.wrap@tag.li",
+      "bookUrl": "class.wrap@tag.a.1@href",
+      "coverUrl": "tag.img.0@src",
+      "intro": "tag.p.0@text",
+      "kind": "class.adds@text##发布时间：",
+      "name": "class.wrap@tag.a.1@text##.*\\：|.*\\《|》"
+    },
+    "ruleToc": {
+      "chapterList": "class.f14 tc@tag.a||class.f26 mb10@tag.h1",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "http://www.aiboy.cc/index.php?m=search&c=index&a=init&typeid=1&siteid=1&q={{key}}",
+    "weight": 0
+  }]

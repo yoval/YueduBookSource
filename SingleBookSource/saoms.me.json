@@ -1,1 +1,31 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "骚秘书", "bookSourceType": 0, "bookSourceUrl": "http://saoms.me", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "古典武侠::http://saoms.me/index.php/category/gudian/page/{{page}}/\n人妻乱伦::http://saoms.me/index.php/category/renqi/page/{{page}}/\n校园春色::http://saoms.me/index.php/category/xiaoyuan/page/{{page}}/\n欲望都市::http://saoms.me/index.php/category/dushi/page/{{page}}/", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {}, "ruleContent": {"content": "class.single_content_mode_3@p@textNodes"}, "ruleExplore": {}, "ruleSearch": {"bookList": "class.archive_list@li", "bookUrl": "a@href", "lastChapter": "time@text", "name": "h1@a@text"}, "ruleToc": {"chapterList": "h1", "chapterName": "text"}, "searchUrl": "-", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "骚秘书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://saoms.me",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "古典武侠::http://saoms.me/index.php/category/gudian/page/{{page}}/\n人妻乱伦::http://saoms.me/index.php/category/renqi/page/{{page}}/\n校园春色::http://saoms.me/index.php/category/xiaoyuan/page/{{page}}/\n欲望都市::http://saoms.me/index.php/category/dushi/page/{{page}}/",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.single_content_mode_3@p@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.archive_list@li",
+      "bookUrl": "a@href",
+      "lastChapter": "time@text",
+      "name": "h1@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "h1",
+      "chapterName": "text"
+    },
+    "searchUrl": "-",
+    "weight": 0
+  }]

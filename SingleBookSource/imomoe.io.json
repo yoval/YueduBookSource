@@ -1,1 +1,32 @@
-[{"bookSourceComment": "error:搜索内容为空并且没有发现\n", "bookSourceGroup": "我的书源", "bookSourceName": "🍄 樱花动漫[视频]", "bookSourceType": 0, "bookSourceUrl": "http://m.imomoe.io", "customOrder": -30882, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1603283616152, "ruleBookInfo": {"intro": "class.txtDesc autoHeight@textNodes"}, "ruleContent": {"content": ""}, "ruleExplore": {}, "ruleSearch": {"author": "class.am-gallery-desc@text", "bookList": "class.am-gallery-item", "bookUrl": "tag.a@href", "coverUrl": "tag.img@data-original", "name": "class.am-gallery-title@text"}, "ruleToc": {"chapterList": "class.mvlist.0@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://m.imomoe.io/search.asp?searchword={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍄 樱花动漫[视频]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.imomoe.io",
+    "customOrder": -30882,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1603283616152,
+    "ruleBookInfo": {
+      "intro": "class.txtDesc autoHeight@textNodes"
+    },
+    "ruleContent": {
+      "content": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.am-gallery-desc@text",
+      "bookList": "class.am-gallery-item",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@data-original",
+      "name": "class.am-gallery-title@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.mvlist.0@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://m.imomoe.io/search.asp?searchword={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

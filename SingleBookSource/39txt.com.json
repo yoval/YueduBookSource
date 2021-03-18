@@ -1,1 +1,37 @@
-[{"bookSourceComment": "error:failed to connect to www.39txt.com/115.238.239.133 (port 80) from /192.168.0.103 (port 46916) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "👍 笔趣阁", "bookSourceType": 0, "bookSourceUrl": "http://www.39txt.com", "customOrder": 16043, "enabled": true, "enabledExplore": true, "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3704.400 QQBrowser/10.4.3587.400\"\n}", "lastUpdateTime": 1603034809673, "ruleBookInfo": {"author": "class.info@tag.h3@tag.a@text", "coverUrl": "class.img@tag.img@src", "intro": "id.intro@html", "name": "class.info@tag.h1@text"}, "ruleContent": {"content": "id.book_text@html", "replaceRegex": "##一秒记住.*免费阅读！"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.td.2@text", "bookList": "class.grid@tag.tr!0", "bookUrl": "tag.td.0@tag.a@href", "lastChapter": "tag.td.1@text", "name": "tag.td.0@tag.a@text"}, "ruleToc": {"chapterList": "id.chapterlist@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "/modules/article/search.php?q={{key}}&page={{page}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:failed to connect to www.39txt.com/115.238.239.133 (port 80) from /192.168.0.103 (port 46916) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "👍 笔趣阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.39txt.com",
+    "customOrder": 16043,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3704.400 QQBrowser/10.4.3587.400\"\n}",
+    "lastUpdateTime": 1603034809673,
+    "ruleBookInfo": {
+      "author": "class.info@tag.h3@tag.a@text",
+      "coverUrl": "class.img@tag.img@src",
+      "intro": "id.intro@html",
+      "name": "class.info@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.book_text@html",
+      "replaceRegex": "##一秒记住.*免费阅读！"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "tag.td.0@tag.a@href",
+      "lastChapter": "tag.td.1@text",
+      "name": "tag.td.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterlist@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/modules/article/search.php?q={{key}}&page={{page}}",
+    "weight": 0
+  }]

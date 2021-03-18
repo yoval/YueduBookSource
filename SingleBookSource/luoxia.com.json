@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "📚 落霞小说", "bookSourceType": 0, "bookSourceUrl": "http://www.luoxia.com", "bookUrlPattern": "", "customOrder": -116695, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1604569546695, "loginUrl": "", "ruleBookInfo": {"intro": ".describe-html@html@js:'<br>'+result.replace(/.+章节列表.+/, '').trim()"}, "ruleContent": {"content": "id.nr1@p@text##搜索关注.*更方便！|\\-落-霞-小-说.*"}, "ruleExplore": {}, "ruleSearch": {"author": "author", "bookList": ".cat-search-item a@js:var O=[\"h.i().j(0,3).k(l(a){d b=4(a.e('m')).5(/^\\\\//,n.o(/(.+\\\\/\\\\/.+?\\\\/)/)[1]);d J=q.r.u.v(w.x(b));y{z:J.2('.6-7 A').8(),B:4(J.2('.6-7 p:9(作者：)').8()).5(/.+：/,'').c(),C:4(J.2('.6-f f').e('D'))||'E://F.G/H',I:[4(J.2('.6-7 p:9(类型：)').8()).5(/.+：/,'').c(),4(J.2('.6-7 p:9(状态：)').8()).5(/.+：|已|中/g,'').c()],K:4(J.2('.6-7 p:9(最新章节：)').2('a').8()).c()+'（'+4(J.2('.6-7 p:9(最近更新：)').8()).5(/日|.+：/g,'').5(/年|月/g,'-').c()+'）',L:4(J.2('.7-M').8()).5(/.+章节列表.+/,'').5(/[\\\\s\\\\t]+/g,''),N:b}});\",\"|\",\"split\",\"||select||String|replace|book|describe|text|contains|||trim|var|attr|img||result|toArray|slice|map|function|href|baseUrl|match||org|jsoup|||Jsoup|parse|java|ajax|return|name|h1|author|cover|src|http|uee|me|bNkEy|tags||last|intro|html|url\",\"\",\"fromCharCode\",\"replace\",\"\\\\w+\",\"\\\\b\",\"g\"];eval(function(e,r,t,f,n,a){if(n=function(e){return(e<50?O[4]:n(parseInt(e/50)))+(35<(e%=50)?String[O[5]](e+29):e.toString(36))},!O[4][O[6]](/^/,String)){for(;t--;)a[n(t)]=f[t]||n(t);f=[function(e){return a[e]}],n=function(){return O[7]},t=1}for(;t--;)f[t]&&(e=e[O[6]](new RegExp(O[8]+n(t)+O[8],O[9]),f[t]));return e}(O[0],0,50,O[3][O[2]](O[1]),0,{}));", "bookUrl": "url", "coverUrl": "cover", "intro": "intro@js:result.trim()", "kind": "", "lastChapter": "last", "name": "name"}, "ruleToc": {"chapterList": ".book-list a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "/?s={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "📚 落霞小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.luoxia.com",
+    "bookUrlPattern": "",
+    "customOrder": -116695,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1604569546695,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": ".describe-html@html@js:'<br>'+result.replace(/.+章节列表.+/, '').trim()"
+    },
+    "ruleContent": {
+      "content": "id.nr1@p@text##搜索关注.*更方便！|\\-落-霞-小-说.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "author",
+      "bookList": ".cat-search-item a@js:var O=[\"h.i().j(0,3).k(l(a){d b=4(a.e('m')).5(/^\\\\//,n.o(/(.+\\\\/\\\\/.+?\\\\/)/)[1]);d J=q.r.u.v(w.x(b));y{z:J.2('.6-7 A').8(),B:4(J.2('.6-7 p:9(作者：)').8()).5(/.+：/,'').c(),C:4(J.2('.6-f f').e('D'))||'E://F.G/H',I:[4(J.2('.6-7 p:9(类型：)').8()).5(/.+：/,'').c(),4(J.2('.6-7 p:9(状态：)').8()).5(/.+：|已|中/g,'').c()],K:4(J.2('.6-7 p:9(最新章节：)').2('a').8()).c()+'（'+4(J.2('.6-7 p:9(最近更新：)').8()).5(/日|.+：/g,'').5(/年|月/g,'-').c()+'）',L:4(J.2('.7-M').8()).5(/.+章节列表.+/,'').5(/[\\\\s\\\\t]+/g,''),N:b}});\",\"|\",\"split\",\"||select||String|replace|book|describe|text|contains|||trim|var|attr|img||result|toArray|slice|map|function|href|baseUrl|match||org|jsoup|||Jsoup|parse|java|ajax|return|name|h1|author|cover|src|http|uee|me|bNkEy|tags||last|intro|html|url\",\"\",\"fromCharCode\",\"replace\",\"\\\\w+\",\"\\\\b\",\"g\"];eval(function(e,r,t,f,n,a){if(n=function(e){return(e<50?O[4]:n(parseInt(e/50)))+(35<(e%=50)?String[O[5]](e+29):e.toString(36))},!O[4][O[6]](/^/,String)){for(;t--;)a[n(t)]=f[t]||n(t);f=[function(e){return a[e]}],n=function(){return O[7]},t=1}for(;t--;)f[t]&&(e=e[O[6]](new RegExp(O[8]+n(t)+O[8],O[9]),f[t]));return e}(O[0],0,50,O[3][O[2]](O[1]),0,{}));",
+      "bookUrl": "url",
+      "coverUrl": "cover",
+      "intro": "intro@js:result.trim()",
+      "kind": "",
+      "lastChapter": "last",
+      "name": "name"
+    },
+    "ruleToc": {
+      "chapterList": ".book-list a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/?s={{key}}",
+    "weight": 0
+  }]

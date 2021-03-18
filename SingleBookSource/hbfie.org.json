@@ -1,1 +1,44 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "顶点小说", "bookSourceType": 0, "bookSourceUrl": "https://www.hbfie.org", "bookUrlPattern": "http://www\\.hbfie\\.org/\\d+.*", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻::/xuanhuan/1_{{page}}.html\n修真::/xiuzhen/2_{{page}}.html\n都市::/dushi/3_{{page}}.html\n历史::/lishi/4_{{page}}.html\n网游::/wangyou/5_{{page}}.html\n科幻::/kehuan/6_{{page}}.html", "lastUpdateTime": 1615837864199, "loginUrl": "", "ruleBookInfo": {"author": "id.info@tag.p.0@text<js>result=result.replace(/作\\s*者：/,'')</js>", "coverUrl": "id.fmimg@tag.img@src", "intro": "id.intro@tag.p@textNodes", "lastChapter": "tag.dl@tag.dd.-1@tag.a@text", "name": "tag.h1@text"}, "ruleContent": {"content": "id.content@textNodes"}, "ruleExplore": {"author": "class.s5@text", "bookList": "class.r@tag.li", "bookUrl": "class.s2@tag.a@href", "name": "class.s2@tag.a@text"}, "ruleSearch": {"author": "class.odd.1@text", "bookList": "tag.table.0@tag.tr!0", "bookUrl": "class.odd.0@tag.a@href", "lastChapter": "class.even.0@tag.a@text", "name": "class.odd.0@tag.a@text"}, "ruleToc": {"chapterList": "tag.dl@tag.dd!0:1:2:3:4:5:6:7:8", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.hbfie.org/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "顶点小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.hbfie.org",
+    "bookUrlPattern": "http://www\\.hbfie\\.org/\\d+.*",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/xuanhuan/1_{{page}}.html\n修真::/xiuzhen/2_{{page}}.html\n都市::/dushi/3_{{page}}.html\n历史::/lishi/4_{{page}}.html\n网游::/wangyou/5_{{page}}.html\n科幻::/kehuan/6_{{page}}.html",
+    "lastUpdateTime": 1615837864199,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text<js>result=result.replace(/作\\s*者：/,'')</js>",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@tag.p@textNodes",
+      "lastChapter": "tag.dl@tag.dd.-1@tag.a@text",
+      "name": "tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {
+      "author": "class.s5@text",
+      "bookList": "class.r@tag.li",
+      "bookUrl": "class.s2@tag.a@href",
+      "name": "class.s2@tag.a@text"
+    },
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "tag.table.0@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a@href",
+      "lastChapter": "class.even.0@tag.a@text",
+      "name": "class.odd.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "tag.dl@tag.dd!0:1:2:3:4:5:6:7:8",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.hbfie.org/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

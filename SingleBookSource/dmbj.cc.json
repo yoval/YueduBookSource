@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 盗墓", "bookSourceType": 0, "bookSourceUrl": "http://www.dmbj.cc", "customOrder": -115541, "enabled": true, "enabledExplore": true, "exploreUrl": "盗墓番外::http://www.dmbj.cc/fanwai/&&盗墓续集::http://www.dmbj.cc/xuji/&&盗墓小说::http://www.dmbj.cc/daomu/&&南派三叔::http://www.dmbj.cc/nanpaisanshu/", "lastUpdateTime": 1606908507852, "ruleBookInfo": {}, "ruleContent": {"content": ".m-post@html"}, "ruleExplore": {"author": "span@text", "bookList": "@css:li.pop-book", "bookUrl": "tag.a.1@href", "coverUrl": "img@_src", "name": "tag.a.1@text"}, "ruleSearch": {"author": "em@text##\\s.*", "bookList": "@css:div.post-query", "bookUrl": "a@href", "intro": "p@textNodes", "name": "a@text"}, "ruleToc": {"chapterList": "@css:div.xsbox ul li a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "http://www.dmbj.cc:80/e/search/index.php,{\n\"charset\": \"\",\n\"method\": \"POST\",\n\"body\": \"tbname=bookname&show=title,\nwriter&tempid=1&keyboard={{key}}\",\n\"headers\": {\"User-Agent\": \"\"}\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 盗墓",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.dmbj.cc",
+    "customOrder": -115541,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "盗墓番外::http://www.dmbj.cc/fanwai/&&盗墓续集::http://www.dmbj.cc/xuji/&&盗墓小说::http://www.dmbj.cc/daomu/&&南派三叔::http://www.dmbj.cc/nanpaisanshu/",
+    "lastUpdateTime": 1606908507852,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": ".m-post@html"
+    },
+    "ruleExplore": {
+      "author": "span@text",
+      "bookList": "@css:li.pop-book",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "img@_src",
+      "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+      "author": "em@text##\\s.*",
+      "bookList": "@css:div.post-query",
+      "bookUrl": "a@href",
+      "intro": "p@textNodes",
+      "name": "a@text"
+    },
+    "ruleToc": {
+      "chapterList": "@css:div.xsbox ul li a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.dmbj.cc:80/e/search/index.php,{\n\"charset\": \"\",\n\"method\": \"POST\",\n\"body\": \"tbname=bookname&show=title,\nwriter&tempid=1&keyboard={{key}}\",\n\"headers\": {\"User-Agent\": \"\"}\n}",
+    "weight": 0
+  }]

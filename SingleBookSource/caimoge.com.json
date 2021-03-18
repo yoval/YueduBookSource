@@ -1,1 +1,42 @@
-[{"bookSourceComment": "error:搜索内容为空并且没有发现\n", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 采墨阁", "bookSourceType": 0, "bookSourceUrl": "https://www.caimoge.com/search.html", "bookUrlPattern": "", "customOrder": -32609, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1602852334040, "loginUrl": "https://www.caimoge.com/login.html", "ruleBookInfo": {"author": "//*[@property=\"og:novel:author\"]/@content", "coverUrl": "//*[@property=\"og:image\"]/@content", "intro": "//*[@property=\"og:description\"]/@content", "kind": "//*[@property=\"og:novel:category\"]/@content", "lastChapter": "//*[@id=\"newlist\"]//li[1]/a/text()", "name": "//*[@property=\"og:novel:book_name\"]/@content", "tocUrl": "//a[@id=\"pdu\"]/@href"}, "ruleContent": {"content": "//*[@id=\"content\"]/p"}, "ruleExplore": {}, "ruleSearch": {"author": "//dd[2]/span[1]/text()", "bookList": "//*[@id=\"sitembox\"]/dl", "bookUrl": "//h3/a/@href", "coverUrl": "//img/@src", "kind": "//dd[2]/span[3]/text()", "lastChapter": "//dd[4]/a/text()", "name": "//h3/a/text()"}, "ruleToc": {"chapterList": "//*[@id=\"readerlists\"]//li/a", "chapterName": "//text()", "chapterUrl": "//@href"}, "searchUrl": "https://www.caimoge.com/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 采墨阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.caimoge.com/search.html",
+    "bookUrlPattern": "",
+    "customOrder": -32609,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1602852334040,
+    "loginUrl": "https://www.caimoge.com/login.html",
+    "ruleBookInfo": {
+      "author": "//*[@property=\"og:novel:author\"]/@content",
+      "coverUrl": "//*[@property=\"og:image\"]/@content",
+      "intro": "//*[@property=\"og:description\"]/@content",
+      "kind": "//*[@property=\"og:novel:category\"]/@content",
+      "lastChapter": "//*[@id=\"newlist\"]//li[1]/a/text()",
+      "name": "//*[@property=\"og:novel:book_name\"]/@content",
+      "tocUrl": "//a[@id=\"pdu\"]/@href"
+    },
+    "ruleContent": {
+      "content": "//*[@id=\"content\"]/p"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "//dd[2]/span[1]/text()",
+      "bookList": "//*[@id=\"sitembox\"]/dl",
+      "bookUrl": "//h3/a/@href",
+      "coverUrl": "//img/@src",
+      "kind": "//dd[2]/span[3]/text()",
+      "lastChapter": "//dd[4]/a/text()",
+      "name": "//h3/a/text()"
+    },
+    "ruleToc": {
+      "chapterList": "//*[@id=\"readerlists\"]//li/a",
+      "chapterName": "//text()",
+      "chapterUrl": "//@href"
+    },
+    "searchUrl": "https://www.caimoge.com/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

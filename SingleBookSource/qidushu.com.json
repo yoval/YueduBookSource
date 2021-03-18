@@ -1,1 +1,41 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "起读书", "bookSourceType": 0, "bookSourceUrl": "https://www.qidushu.com", "customOrder": 0, "enabled": true, "enabledExplore": false, "lastUpdateTime": 1612724144403, "ruleBookInfo": {"author": "[property$=author]@content", "coverUrl": "[property$=image]@content", "intro": "&nbsp;最近更新：👉{{@@id.info@text.更新时间@text}}👈\n{{@css:[property$=description]@content}}\n##更新时间：", "kind": "[property$=category]@content", "lastChapter": "[property$=latest_chapter_name]@content", "name": "[property$=book_name]@content", "tocUrl": "[property$=read_url]@content"}, "ruleContent": {"content": "id.content@p@html", "replaceRegex": "##手机阅读地址.*|<!--.*?-->|chapter\\d+|第.*?章.*"}, "ruleExplore": {}, "ruleSearch": {"author": "class.title@tag.span.0@text", "bookList": "id.alistbox@js:\nresult.toArray().slice(0, 5)", "bookUrl": "class.title@tag.a.0@href", "coverUrl": "class.pic@tag.img@src", "intro": "class.intro@text", "lastChapter": "class.title@tag.a.0@href\n<js>java.ajax(\"https://www.qidushu.com\"+result)</js>\n[property$=latest_chapter_name]@content&&id.info@text.更新时间@text\n##\n更新时间：##▪", "name": "class.title@tag.a.0@text"}, "ruleToc": {"chapterList": "id.list@tag.dd@tag.a", "chapterName": "text##第.*?章\\s?(第.*?章)(.*$)##$1 $2", "chapterUrl": "href"}, "searchUrl": "https://www.qidushu.com/search.html,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"s=articlename&searchkey={{key}}&Submit=\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "起读书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.qidushu.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 1612724144403,
+    "ruleBookInfo": {
+      "author": "[property$=author]@content",
+      "coverUrl": "[property$=image]@content",
+      "intro": "&nbsp;最近更新：👉{{@@id.info@text.更新时间@text}}👈\n{{@css:[property$=description]@content}}\n##更新时间：",
+      "kind": "[property$=category]@content",
+      "lastChapter": "[property$=latest_chapter_name]@content",
+      "name": "[property$=book_name]@content",
+      "tocUrl": "[property$=read_url]@content"
+    },
+    "ruleContent": {
+      "content": "id.content@p@html",
+      "replaceRegex": "##手机阅读地址.*|<!--.*?-->|chapter\\d+|第.*?章.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.title@tag.span.0@text",
+      "bookList": "id.alistbox@js:\nresult.toArray().slice(0, 5)",
+      "bookUrl": "class.title@tag.a.0@href",
+      "coverUrl": "class.pic@tag.img@src",
+      "intro": "class.intro@text",
+      "lastChapter": "class.title@tag.a.0@href\n<js>java.ajax(\"https://www.qidushu.com\"+result)</js>\n[property$=latest_chapter_name]@content&&id.info@text.更新时间@text\n##\n更新时间：##▪",
+      "name": "class.title@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd@tag.a",
+      "chapterName": "text##第.*?章\\s?(第.*?章)(.*$)##$1 $2",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.qidushu.com/search.html,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"s=articlename&searchkey={{key}}&Submit=\"\n}",
+    "weight": 0
+  }]

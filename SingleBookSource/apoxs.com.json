@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🔰 阿婆小说", "bookSourceType": 0, "bookSourceUrl": "http://m.apoxs.com", "customOrder": 16156, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻::http://m.apoxs.com/apoclass.asp?id=1\n架空::http://m.apoxs.com/apoclass.asp?id=14\n仙侠::http://m.apoxs.com/apoclass.asp?id=3\n总裁::http://m.apoxs.com/apoclass.asp?id=25\n竞技::http://m.apoxs.com/apoclass.asp?id=10\n言情::http://m.apoxs.com/apoclass.asp?id=5\n穿越::http://m.apoxs.com/apoclass.asp?id=11\n网游::http://m.apoxs.com/apoclass.asp?id=9\n官场::http://m.apoxs.com/apoclass.asp?id=13\n乡村::http://m.apoxs.com/apoclass.asp?id=21\n名著::http://m.apoxs.com/apoclass.asp?id=20\n都市::http://m.apoxs.com/apoclass.asp?id=4\n灵异::http://m.apoxs.com/apoclass.asp?id=17\n热门::http://m.apoxs.com/apoclass.asp?id=24\n短篇::http://m.apoxs.com/apoclass.asp?id=22\n耽美::http://m.apoxs.com/apoclass.asp?id=15\n武侠::http://m.apoxs.com/apoclass.asp?id=2\n科幻::http://m.apoxs.com/apoclass.asp?id=16\n重生::http://m.apoxs.com/apoclass.asp?id=12\n军事::http://m.apoxs.com/apoclass.asp?id=8", "lastUpdateTime": 0, "ruleBookInfo": {"author": "class.jie@tag.span.5@tag.a@text", "coverUrl": "class.pic@tag.img@src", "intro": "class.novelinfo@textNodes", "name": "class.selected@tag.a@text"}, "ruleContent": {"content": "class.novelinfvie@textNodes##第[0-9]章.*"}, "ruleExplore": {}, "ruleSearch": {"author": "class.main@tag.span.1@text##作者:|时间:.+|更新:.+", "bookList": "class.booklist_a@tag.ul@tag.li||class.list_a", "bookUrl": "class.main@tag.a@href", "coverUrl": "class.img@tag.a@tag.img@src", "kind": "class.main@tag.span.0@text", "name": "class.main@tag.a@text"}, "ruleToc": {"chapterList": "class.sso_a@tag.ul@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://m.apoxs.com/search.asp?word={{key}}&page={{page}},{\n  \"charset\": \"gb2312\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🔰 阿婆小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.apoxs.com",
+    "customOrder": 16156,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::http://m.apoxs.com/apoclass.asp?id=1\n架空::http://m.apoxs.com/apoclass.asp?id=14\n仙侠::http://m.apoxs.com/apoclass.asp?id=3\n总裁::http://m.apoxs.com/apoclass.asp?id=25\n竞技::http://m.apoxs.com/apoclass.asp?id=10\n言情::http://m.apoxs.com/apoclass.asp?id=5\n穿越::http://m.apoxs.com/apoclass.asp?id=11\n网游::http://m.apoxs.com/apoclass.asp?id=9\n官场::http://m.apoxs.com/apoclass.asp?id=13\n乡村::http://m.apoxs.com/apoclass.asp?id=21\n名著::http://m.apoxs.com/apoclass.asp?id=20\n都市::http://m.apoxs.com/apoclass.asp?id=4\n灵异::http://m.apoxs.com/apoclass.asp?id=17\n热门::http://m.apoxs.com/apoclass.asp?id=24\n短篇::http://m.apoxs.com/apoclass.asp?id=22\n耽美::http://m.apoxs.com/apoclass.asp?id=15\n武侠::http://m.apoxs.com/apoclass.asp?id=2\n科幻::http://m.apoxs.com/apoclass.asp?id=16\n重生::http://m.apoxs.com/apoclass.asp?id=12\n军事::http://m.apoxs.com/apoclass.asp?id=8",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "class.jie@tag.span.5@tag.a@text",
+      "coverUrl": "class.pic@tag.img@src",
+      "intro": "class.novelinfo@textNodes",
+      "name": "class.selected@tag.a@text"
+    },
+    "ruleContent": {
+      "content": "class.novelinfvie@textNodes##第[0-9]章.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.main@tag.span.1@text##作者:|时间:.+|更新:.+",
+      "bookList": "class.booklist_a@tag.ul@tag.li||class.list_a",
+      "bookUrl": "class.main@tag.a@href",
+      "coverUrl": "class.img@tag.a@tag.img@src",
+      "kind": "class.main@tag.span.0@text",
+      "name": "class.main@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.sso_a@tag.ul@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://m.apoxs.com/search.asp?word={{key}}&page={{page}},{\n  \"charset\": \"gb2312\"\n}",
+    "weight": 0
+  }]

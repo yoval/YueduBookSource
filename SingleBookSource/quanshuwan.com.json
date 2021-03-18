@@ -1,1 +1,36 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "全本书屋", "bookSourceType": 0, "bookSourceUrl": "https://www.quanshuwan.com", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": false, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "class.ti@tag.p.0@text", "name": "class.ti@tag.h1.0@text"}, "ruleContent": {"content": "id.content@html"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.p.0@text", "bookList": "class.storelistbt5 picul@tag.li", "bookUrl": "tag.td.0@tag.a.0@href", "coverUrl": "tag.img.0@src", "intro": "tag.p.1@text", "name": "tag.td.0@tag.a.0@text"}, "ruleToc": {"chapterList": "id.readlist@tag.li@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.quanshuwan.com/so/default.aspx?type=1&key={{key}}&Submit=", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "全本书屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.quanshuwan.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.ti@tag.p.0@text",
+      "name": "class.ti@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p.0@text",
+      "bookList": "class.storelistbt5 picul@tag.li",
+      "bookUrl": "tag.td.0@tag.a.0@href",
+      "coverUrl": "tag.img.0@src",
+      "intro": "tag.p.1@text",
+      "name": "tag.td.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.readlist@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.quanshuwan.com/so/default.aspx?type=1&key={{key}}&Submit=",
+    "weight": 0
+  }]

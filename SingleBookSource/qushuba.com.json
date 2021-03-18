@@ -1,1 +1,38 @@
-[{"bookSourceComment": "error:搜索内容为空并且没有发现\n", "bookSourceGroup": "我的书源", "bookSourceName": "🔰 趣书吧", "bookSourceType": 0, "bookSourceUrl": "http://www.qushuba.com", "bookUrlPattern": "", "customOrder": 16211, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "id.info@tag.p.0@text##.*者：", "coverUrl": "id.fmimg@img@src", "intro": "id.intro@text", "name": "id.info@h1@text"}, "ruleContent": {"content": "id.content@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.s4@text", "bookList": "class.novelslist2@tag.li!0", "bookUrl": "tag.a.0@href", "kind": "class.s1@text##\\[|\\]|小说", "lastChapter": "class.s3@a@text", "name": "class.s2@text"}, "ruleToc": {"chapterList": "id.list@dd@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "http://www.qushuba.com/modules/article/search.php?searchtype=keywords&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🔰 趣书吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.qushuba.com",
+    "bookUrlPattern": "",
+    "customOrder": 16211,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text##.*者：",
+      "coverUrl": "id.fmimg@img@src",
+      "intro": "id.intro@text",
+      "name": "id.info@h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.novelslist2@tag.li!0",
+      "bookUrl": "tag.a.0@href",
+      "kind": "class.s1@text##\\[|\\]|小说",
+      "lastChapter": "class.s3@a@text",
+      "name": "class.s2@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.qushuba.com/modules/article/search.php?searchtype=keywords&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

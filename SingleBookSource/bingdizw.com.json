@@ -1,1 +1,47 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🍺 冰地中文", "bookSourceType": 0, "bookSourceUrl": "https://www.bingdizw.com", "bookUrlPattern": "", "customOrder": -116767, "enabled": true, "enabledExplore": true, "header": "", "lastUpdateTime": 1604206145608, "loginUrl": "", "ruleBookInfo": {"author": "##:author\"[^\"]+\"([^\"]*)##$1###", "coverUrl": "##og:image\"[^\"]+\"([^\"]*)##$1###", "intro": "id.intro@tag.p.0@textNodes", "kind": "##:category\"[^\"]+\"([^\"]*)##$1###", "lastChapter": "##_chapter_name\"[^\"]+\"([^\"]*)##$1###", "name": "##:book_name\"[^\"]+\"([^\"]*)##$1###", "tocUrl": "##novel:read_url\"[^\"]+\"([^\"]*)##$1###", "wordCount": ""}, "ruleContent": {"content": "@css:#content>p:not(:last-child)@html", "imageStyle": "0"}, "ruleExplore": {}, "ruleSearch": {"author": "@css:.book_other:eq(2)>span:eq(0)@text", "bookList": "@css:#sitembox>dl", "bookUrl": "@css:dt>a@href", "coverUrl": "@css:img@src", "intro": "@css:.book_des@textNodes", "kind": "@css:.book_other:eq(2)>span:eq(2)@text", "lastChapter": "##最新章节：[^>]*>([^<]*)<(?:[^>]*){2}> 更新时间：[^>]*>([^<]*)##$1 · $2###", "name": "@css:h3>a@text", "wordCount": "@css:.book_other:eq(2)>span:eq(3)@text"}, "ruleToc": {"chapterList": "@css:#list dd a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍺 冰地中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.bingdizw.com",
+    "bookUrlPattern": "",
+    "customOrder": -116767,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "",
+    "lastUpdateTime": 1604206145608,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "##:author\"[^\"]+\"([^\"]*)##$1###",
+      "coverUrl": "##og:image\"[^\"]+\"([^\"]*)##$1###",
+      "intro": "id.intro@tag.p.0@textNodes",
+      "kind": "##:category\"[^\"]+\"([^\"]*)##$1###",
+      "lastChapter": "##_chapter_name\"[^\"]+\"([^\"]*)##$1###",
+      "name": "##:book_name\"[^\"]+\"([^\"]*)##$1###",
+      "tocUrl": "##novel:read_url\"[^\"]+\"([^\"]*)##$1###",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "@css:#content>p:not(:last-child)@html",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "@css:.book_other:eq(2)>span:eq(0)@text",
+      "bookList": "@css:#sitembox>dl",
+      "bookUrl": "@css:dt>a@href",
+      "coverUrl": "@css:img@src",
+      "intro": "@css:.book_des@textNodes",
+      "kind": "@css:.book_other:eq(2)>span:eq(2)@text",
+      "lastChapter": "##最新章节：[^>]*>([^<]*)<(?:[^>]*){2}> 更新时间：[^>]*>([^<]*)##$1 · $2###",
+      "name": "@css:h3>a@text",
+      "wordCount": "@css:.book_other:eq(2)>span:eq(3)@text"
+    },
+    "ruleToc": {
+      "chapterList": "@css:#list dd a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

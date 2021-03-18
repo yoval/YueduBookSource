@@ -1,1 +1,43 @@
-[{"bookSourceComment": "coolapk@芜恙;wordCount;intro", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 新思路", "bookSourceType": 0, "bookSourceUrl": "https://www.xunsilu.cc#searchcon ul", "bookUrlPattern": "https://www.xunsilu.cc/\\d+/", "customOrder": -115332, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1606891381167, "ruleBookInfo": {"author": "//p[@class=\"author\"]/span[2]/text()", "coverUrl": "//*[@class=\"fengmian\"]/img/@src", "intro": "//*[@class=\"intro\"]##.*小说简介：|", "kind": "//p[@class=\"author\"]/span[1]/text()##.*：", "lastChapter": "//*[@class=\"lastchapter\"]/a/text()&&//p[@class=\"author\"]/span[3]/text()##(.+)\\n.*\\d+-(\\d+-\\d+).*##$1▪$2", "name": "//h1/text()"}, "ruleContent": {"content": "id.content@textNodes##.*(xunsilu.*|最新章节.)|浏.览.器.搜索|如遇断更.*@js:result+'本章未完'", "nextContentUrl": "@js:if (result.match(/1\\/(\\d+)页/)) {\n    page = result.match(/1\\/(\\d+)页/)[1];\n    list = [];\n    for (i = 2; i <= page; i++) {\n        list.push(baseUrl.replace(/.html/g, '_' + i + '.html'))\n    }\n    list\n}", "replaceRegex": "##\\s*(【提示】.*本章未完|如果.*一半.*内容。)\\s*|.提示..如果.*|手机访问.*m"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.li.8@text", "bookList": "class.searchcon@tag.ul", "bookUrl": "tag.li.6@tag.a@href", "coverUrl": "tag.li.6@tag.a@href##.*/((\\d+)\\d{3})/##https://tu.tyue.me/image/$1/$1/$1s.jpg", "kind": "tag.li.9@text", "lastChapter": "tag.li.6@tag.a@href<js>java.ajax(result.replace(/^\\//, baseUrl.match(/(.+?\\/\\/[^\\/]+\\/)/)[1]))</js>class.lastchapter@tag.a@text&&class.author@tag.span.2@text##(.+)\\n.*\\d+-(\\d+-\\d+).*##$1▪$2", "name": "tag.li.6@tag.a@text", "wordCount": ""}, "ruleToc": {"chapterList": "-//*[@class=\"chapter9\"]/li/a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&type=articlename\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "coolapk@芜恙;wordCount;intro",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 新思路",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xunsilu.cc#searchcon ul",
+    "bookUrlPattern": "https://www.xunsilu.cc/\\d+/",
+    "customOrder": -115332,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1606891381167,
+    "ruleBookInfo": {
+      "author": "//p[@class=\"author\"]/span[2]/text()",
+      "coverUrl": "//*[@class=\"fengmian\"]/img/@src",
+      "intro": "//*[@class=\"intro\"]##.*小说简介：|",
+      "kind": "//p[@class=\"author\"]/span[1]/text()##.*：",
+      "lastChapter": "//*[@class=\"lastchapter\"]/a/text()&&//p[@class=\"author\"]/span[3]/text()##(.+)\\n.*\\d+-(\\d+-\\d+).*##$1▪$2",
+      "name": "//h1/text()"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##.*(xunsilu.*|最新章节.)|浏.览.器.搜索|如遇断更.*@js:result+'本章未完'",
+      "nextContentUrl": "@js:if (result.match(/1\\/(\\d+)页/)) {\n    page = result.match(/1\\/(\\d+)页/)[1];\n    list = [];\n    for (i = 2; i <= page; i++) {\n        list.push(baseUrl.replace(/.html/g, '_' + i + '.html'))\n    }\n    list\n}",
+      "replaceRegex": "##\\s*(【提示】.*本章未完|如果.*一半.*内容。)\\s*|.提示..如果.*|手机访问.*m"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.li.8@text",
+      "bookList": "class.searchcon@tag.ul",
+      "bookUrl": "tag.li.6@tag.a@href",
+      "coverUrl": "tag.li.6@tag.a@href##.*/((\\d+)\\d{3})/##https://tu.tyue.me/image/$1/$1/$1s.jpg",
+      "kind": "tag.li.9@text",
+      "lastChapter": "tag.li.6@tag.a@href<js>java.ajax(result.replace(/^\\//, baseUrl.match(/(.+?\\/\\/[^\\/]+\\/)/)[1]))</js>class.lastchapter@tag.a@text&&class.author@tag.span.2@text##(.+)\\n.*\\d+-(\\d+-\\d+).*##$1▪$2",
+      "name": "tag.li.6@tag.a@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "-//*[@class=\"chapter9\"]/li/a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&type=articlename\"\n}",
+    "weight": 0
+  }]

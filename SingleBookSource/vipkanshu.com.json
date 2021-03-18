@@ -1,1 +1,51 @@
-[{"bookSourceComment": "手机电脑通用", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "笔趣阁vip", "bookSourceType": 0, "bookSourceUrl": "www.vipkanshu.com", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻::https://www.vipkanshu.com/class/1-{{page}}.html&&修真::https://www.vipkanshu.com/class/2-{{page}}.html&&都市::https://www.vipkanshu.com/class/3-{{page}}.html&&历史::https://www.vipkanshu.com/class/4-{{page}}.html&&网游::https://www.vipkanshu.com/class/5-{{page}}.html&&科幻::https://www.vipkanshu.com/class/6-{{page}}.html&&其他::https://www.vipkanshu.com/class/7-{{page}}.html&&完本::https://m.vipkanshu.com/wanben/0_{{page}}.html", "header": "", "lastUpdateTime": 1603274819953, "ruleBookInfo": {"author": "[property=\"og:novel:author\"]@content", "coverUrl": "[property=\"og:image\"]@content", "intro": ".intro_info@html||.intro@html", "kind": "[property=\"og:novel:category\"]@content", "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content", "tocUrl": "@js:if(baseUrl.match(/m\\.vipkanshu/)){baseUrl+'all.html'}", "wordCount": "[property=\"og:novel:status\"]@content"}, "ruleContent": {"content": "id.chaptercontent@html||id.content@html##一秒记住.*|.*?\\[\\d+\\/\\d+页\\].*", "nextContentUrl": "#pb_next@href||.next@href", "replaceRegex": ""}, "ruleExplore": {"author": ".s4@text||.s3@text", "bookList": "@css:div.l ul li||ul.lis li", "bookUrl": "tag.a.0@href", "coverUrl": "tag.a.0@href<js>result.replace('/shu/','/novel/').replace(/\\/$/,'.jpg')</js>", "kind": ".s1@text", "name": "tag.a.0@text"}, "ruleSearch": {"author": "h3@text##.*?\\((.*?)\\).*?-.*##$1###", "bookList": "tag.article@js:\nlist=result.toArray();\nlist1=[];\nfor(i in list){\nif(list[i].select('h3').text().indexOf(java.get('key'))>-1){\nlist1.push(list[i])\n}\n}\nlist1.map(x=>x)", "bookUrl": "tag.a.0@href\n<js>java.ajax(result)</js>\n##window.location.replace\\(\"([^\"]+)\"\\);##$1###<js>result.replace('m.','www.')</js>", "coverUrl": "tag.a.0@href\n<js>java.ajax(result)</js>\n##window.location.replace\\(\"([^\"]+)\"\\);##$1###<js>result.replace('/shu/','/novel/').replace(/\\/$/,'.jpg')</js>", "name": "h3@text##(.*?)\\((.*?)\\).*?-.*##$1###"}, "ruleToc": {"chapterList": "@css:dl dd a||.listmain dd a", "chapterName": "text", "chapterUrl": "href", "isVip": "", "nextTocUrl": "text.下一页@href"}, "searchUrl": "https://m.baidu.com/s?pn={{page*10-10}}&word={{key}} site:vipkanshu.com@js:java.put('key',key);result\n", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "手机电脑通用",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "笔趣阁vip",
+    "bookSourceType": 0,
+    "bookSourceUrl": "www.vipkanshu.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::https://www.vipkanshu.com/class/1-{{page}}.html&&修真::https://www.vipkanshu.com/class/2-{{page}}.html&&都市::https://www.vipkanshu.com/class/3-{{page}}.html&&历史::https://www.vipkanshu.com/class/4-{{page}}.html&&网游::https://www.vipkanshu.com/class/5-{{page}}.html&&科幻::https://www.vipkanshu.com/class/6-{{page}}.html&&其他::https://www.vipkanshu.com/class/7-{{page}}.html&&完本::https://m.vipkanshu.com/wanben/0_{{page}}.html",
+    "header": "",
+    "lastUpdateTime": 1603274819953,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": ".intro_info@html||.intro@html",
+      "kind": "[property=\"og:novel:category\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "tocUrl": "@js:if(baseUrl.match(/m\\.vipkanshu/)){baseUrl+'all.html'}",
+      "wordCount": "[property=\"og:novel:status\"]@content"
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@html||id.content@html##一秒记住.*|.*?\\[\\d+\\/\\d+页\\].*",
+      "nextContentUrl": "#pb_next@href||.next@href",
+      "replaceRegex": ""
+    },
+    "ruleExplore": {
+      "author": ".s4@text||.s3@text",
+      "bookList": "@css:div.l ul li||ul.lis li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href<js>result.replace('/shu/','/novel/').replace(/\\/$/,'.jpg')</js>",
+      "kind": ".s1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "h3@text##.*?\\((.*?)\\).*?-.*##$1###",
+      "bookList": "tag.article@js:\nlist=result.toArray();\nlist1=[];\nfor(i in list){\nif(list[i].select('h3').text().indexOf(java.get('key'))>-1){\nlist1.push(list[i])\n}\n}\nlist1.map(x=>x)",
+      "bookUrl": "tag.a.0@href\n<js>java.ajax(result)</js>\n##window.location.replace\\(\"([^\"]+)\"\\);##$1###<js>result.replace('m.','www.')</js>",
+      "coverUrl": "tag.a.0@href\n<js>java.ajax(result)</js>\n##window.location.replace\\(\"([^\"]+)\"\\);##$1###<js>result.replace('/shu/','/novel/').replace(/\\/$/,'.jpg')</js>",
+      "name": "h3@text##(.*?)\\((.*?)\\).*?-.*##$1###"
+    },
+    "ruleToc": {
+      "chapterList": "@css:dl dd a||.listmain dd a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "isVip": "",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://m.baidu.com/s?pn={{page*10-10}}&word={{key}} site:vipkanshu.com@js:java.put('key',key);result\n",
+    "weight": 0
+  }]

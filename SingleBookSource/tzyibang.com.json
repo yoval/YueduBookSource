@@ -1,1 +1,47 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "👍 泰州小说网", "bookSourceType": 0, "bookSourceUrl": "http://www.tzyibang.com", "bookUrlPattern": "https?://www.tzyibang.com/book/.+", "customOrder": -114819, "enabled": true, "enabledExplore": true, "header": "", "lastUpdateTime": 1612826091526, "ruleBookInfo": {"author": "[property$=author]@content", "coverUrl": "[property$=image]@content", "intro": "&nbsp;最近更新：👉{{@css:[property$=update_time]@content}}👈\n{{@css:div.intro@html}}", "kind": "[property$=category]@content&&[property$=status]@content", "lastChapter": "[property$=lastest_chapter_name]@content", "name": "[property$=book_name]@content", "tocUrl": "[property$=read_url]@content", "wordCount": "class.novel_info_title@tag.span.1@text"}, "ruleContent": {"content": "id.article@p@html", "imageStyle": "full", "nextContentUrl": "id.next_url@href||text.下一页@href"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.p.0@ownText", "bookList": "li.searchresult", "bookUrl": "tag.a.0@href", "coverUrl": "img@data-original", "intro": "class.searchresult_p@text||tag.p.1@text", "kind": "tag.a.0@span@text", "lastChapter": "tag.p.-1@a@text&&span.s_gray@text##\n.*字##▪", "name": "h3@text", "wordCount": "span.s_gray@text##(?<=字).*$"}, "ruleToc": {"chapterList": "ul#ul_all_chapters a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "/search/,{\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}&searchtype=all\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "👍 泰州小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.tzyibang.com",
+    "bookUrlPattern": "https?://www.tzyibang.com/book/.+",
+    "customOrder": -114819,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "",
+    "lastUpdateTime": 1612826091526,
+    "ruleBookInfo": {
+      "author": "[property$=author]@content",
+      "coverUrl": "[property$=image]@content",
+      "intro": "&nbsp;最近更新：👉{{@css:[property$=update_time]@content}}👈\n{{@css:div.intro@html}}",
+      "kind": "[property$=category]@content&&[property$=status]@content",
+      "lastChapter": "[property$=lastest_chapter_name]@content",
+      "name": "[property$=book_name]@content",
+      "tocUrl": "[property$=read_url]@content",
+      "wordCount": "class.novel_info_title@tag.span.1@text"
+    },
+    "ruleContent": {
+      "content": "id.article@p@html",
+      "imageStyle": "full",
+      "nextContentUrl": "id.next_url@href||text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p.0@ownText",
+      "bookList": "li.searchresult",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@data-original",
+      "intro": "class.searchresult_p@text||tag.p.1@text",
+      "kind": "tag.a.0@span@text",
+      "lastChapter": "tag.p.-1@a@text&&span.s_gray@text##\n.*字##▪",
+      "name": "h3@text",
+      "wordCount": "span.s_gray@text##(?<=字).*$"
+    },
+    "ruleToc": {
+      "chapterList": "ul#ul_all_chapters a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search/,{\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}&searchtype=all\"\n}",
+    "weight": 0
+  }]

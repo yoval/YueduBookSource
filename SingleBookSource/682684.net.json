@@ -1,1 +1,37 @@
-[{"bookSourceComment": "error:搜索内容为空并且没有发现\n", "bookSourceGroup": "我的书源,刘备书源", "bookSourceName": "🚬 新小说阅读网", "bookSourceType": 0, "bookSourceUrl": "http://www.682684.net/", "bookUrlPattern": "", "customOrder": 24610, "enabled": true, "enabledExplore": true, "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; Redmi K20 Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.92 Mobile Safari/537.36\"\n}", "lastUpdateTime": 1602985207086, "loginUrl": "", "ruleBookInfo": {"coverUrl": "tag.img@src", "intro": "id.intro@text"}, "ruleContent": {"content": "id.content@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@text||id.info@tag.p.0@text", "bookList": "class.grid@tag.tr!0||id.maininfo", "bookUrl": "class.odd.0@tag.a@href", "kind": "class.even.2@text", "lastChapter": "class.even.0@tag.a@text##\\【.*\\】", "name": "class.odd.0@tag.a@text||tag.h1@text"}, "ruleToc": {"chapterList": "id.list@tag.dd@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "http://www.682684.net/modules/article/search.php,{\n  \"charset\": \"gbk \",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=articlename&page={{page}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": "我的书源,刘备书源",
+    "bookSourceName": "🚬 新小说阅读网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.682684.net/",
+    "bookUrlPattern": "",
+    "customOrder": 24898,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; Redmi K20 Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.92 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 1602985207086,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "tag.img@src",
+      "intro": "id.intro@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text||id.info@tag.p.0@text",
+      "bookList": "class.grid@tag.tr!0||id.maininfo",
+      "bookUrl": "class.odd.0@tag.a@href",
+      "kind": "class.even.2@text",
+      "lastChapter": "class.even.0@tag.a@text##\\【.*\\】",
+      "name": "class.odd.0@tag.a@text||tag.h1@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.682684.net/modules/article/search.php,{\n  \"charset\": \"gbk \",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=articlename&page={{page}}\"\n}",
+    "weight": 0
+  }]

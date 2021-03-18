@@ -1,1 +1,42 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "👍 九库全书", "bookSourceType": 0, "bookSourceUrl": "http://www.youkand.com", "bookUrlPattern": "", "customOrder": -114830, "enabled": true, "enabledExplore": true, "exploreUrl": "最近更新::http://www.youkand.com/top/lastupdate/{{page}}.html\n最新入库::http://www.youkand.com/top/postdate/{{page}}.html\n编辑推荐::http://www.youkand.com/top/toptime/{{page}}.html\n总点击榜::http://www.youkand.com/top/allvisit/{{page}}.html\n总推荐榜::http://www.youkand.com/top/allvote/{{page}}.html\n总鲜花榜::http://www.youkand.com/top/allflower/{{page}}.html\n总收藏榜::http://www.youkand.com/top/goodnum/{{page}}.html\n总字数榜::http://www.youkand.com/top/words/{{page}}.html\n全本小说::http://www.youkand.com/quanben/{{page}}.html\n玄幻奇幻::http://www.youkand.com/sort/1/{{page}}.html\n武侠仙侠::http://www.youkand.com/sort/2/{{page}}.html\n都市言情::http://www.youkand.com/sort/3/{{page}}.html\n历史军事::http://www.youkand.com/sort/4/{{page}}.html\n穿越架空::http://www.youkand.com/sort/5/{{page}}.html\n游戏竞技::http://www.youkand.com/sort/6/{{page}}.html\n科幻灵异::http://www.youkand.com/sort/7/{{page}}.html\n动漫同人::http://www.youkand.com/sort/8/{{page}}.html\n现代科学::http://www.youkand.com/sort/9/{{page}}.html\n古典文学::http://www.youkand.com/sort/10/{{page}}.html\n名著传记::http://www.youkand.com/sort/11/{{page}}.html", "lastUpdateTime": 1612830002302, "loginUrl": "", "ruleBookInfo": {"author": "class.divbox cf@tag.span.1@a@text", "coverUrl": "class.bookintro@img@src", "intro": "class.bookintro@text||class.tabvalue.0@div@textNodes", "lastChapter": "class.bookchapter@text||class.divbox@h3@a@text##章节目录", "name": "class.divbox cf@tag.span.0@text", "tocUrl": "text.点击阅读@href"}, "ruleContent": {"content": "class.readcontent@p@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.author.0@text", "bookList": "class.bookbox", "bookUrl": "a@href", "coverUrl": "a@href<js>'/files/article/image'+String(result).replace(/.*?(\\d*?)(\\d{1,3})\\//,'/$1/$1$2/$1$2s.jpg').replace('//','/0/')</js>", "lastChapter": "class.cat@a@text", "name": "class.bookname@a@text"}, "ruleToc": {"chapterList": "id.list-chapterAll@dd@a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "class.next@href"}, "searchUrl": "http://www.youkand.com/modules/article/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&submit=\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "👍 九库全书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.youkand.com",
+    "bookUrlPattern": "",
+    "customOrder": -114830,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最近更新::http://www.youkand.com/top/lastupdate/{{page}}.html\n最新入库::http://www.youkand.com/top/postdate/{{page}}.html\n编辑推荐::http://www.youkand.com/top/toptime/{{page}}.html\n总点击榜::http://www.youkand.com/top/allvisit/{{page}}.html\n总推荐榜::http://www.youkand.com/top/allvote/{{page}}.html\n总鲜花榜::http://www.youkand.com/top/allflower/{{page}}.html\n总收藏榜::http://www.youkand.com/top/goodnum/{{page}}.html\n总字数榜::http://www.youkand.com/top/words/{{page}}.html\n全本小说::http://www.youkand.com/quanben/{{page}}.html\n玄幻奇幻::http://www.youkand.com/sort/1/{{page}}.html\n武侠仙侠::http://www.youkand.com/sort/2/{{page}}.html\n都市言情::http://www.youkand.com/sort/3/{{page}}.html\n历史军事::http://www.youkand.com/sort/4/{{page}}.html\n穿越架空::http://www.youkand.com/sort/5/{{page}}.html\n游戏竞技::http://www.youkand.com/sort/6/{{page}}.html\n科幻灵异::http://www.youkand.com/sort/7/{{page}}.html\n动漫同人::http://www.youkand.com/sort/8/{{page}}.html\n现代科学::http://www.youkand.com/sort/9/{{page}}.html\n古典文学::http://www.youkand.com/sort/10/{{page}}.html\n名著传记::http://www.youkand.com/sort/11/{{page}}.html",
+    "lastUpdateTime": 1612830002302,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.divbox cf@tag.span.1@a@text",
+      "coverUrl": "class.bookintro@img@src",
+      "intro": "class.bookintro@text||class.tabvalue.0@div@textNodes",
+      "lastChapter": "class.bookchapter@text||class.divbox@h3@a@text##章节目录",
+      "name": "class.divbox cf@tag.span.0@text",
+      "tocUrl": "text.点击阅读@href"
+    },
+    "ruleContent": {
+      "content": "class.readcontent@p@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@text",
+      "bookList": "class.bookbox",
+      "bookUrl": "a@href",
+      "coverUrl": "a@href<js>'/files/article/image'+String(result).replace(/.*?(\\d*?)(\\d{1,3})\\//,'/$1/$1$2/$1$2s.jpg').replace('//','/0/')</js>",
+      "lastChapter": "class.cat@a@text",
+      "name": "class.bookname@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list-chapterAll@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "class.next@href"
+    },
+    "searchUrl": "http://www.youkand.com/modules/article/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&submit=\"\n}",
+    "weight": 0
+  }]

@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "📻 恋听网", "bookSourceType": 1, "bookSourceUrl": "https://m.ting55.com-3.0", "bookUrlPattern": "", "customOrder": -115772, "enabled": true, "enabledExplore": true, "exploreUrl": "<js>\nvar a=[\"玄幻\",\"武侠\",\"都市\",\"言情\",\"穿越\",\"科幻\",\"推理\",\"恐怖\",\"惊悚\",\"历史\",\"经典\",\"相声\",\"讲坛\",\"评书\"];\n'推荐::https://m.ting55.com/tuijian&&'+\na.map(w=>w+'::https://m.ting55.com/category/'+(a.indexOf(w)+1)).join('&&')\n</js>", "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9; ONEPLUS A5000 Build/PKQ1.180716.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36\"\n}", "lastUpdateTime": 1611725443169, "loginUrl": "https://m.ting55.com/user/login", "ruleBookInfo": {"intro": "class.intro@tag.p@text"}, "ruleContent": {"content": "[name=\"_c\"]@content@js:\nvar body=baseUrl.replace(/.+\\/(\\d+)-(\\d+)/,\"bookId=$1&&isPay=1&&page=$2\");\nvar url=\"https://m.ting55.com/glink,\";\nvar headers={\n         \"User-Agent\":\"Mozilla/5.0 (Linux; Android 9; ONEPLUS A5000 Build/PKQ1.180716.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36\",\n         Referer:baseUrl,\n         xt:result\n       }\nvar options={\n          method:\"post\",\n          headers:JSON.stringify(headers),\n          body:body\n}\nJSON.parse(java.ajax(url+JSON.stringify(options))).ourl"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.p.0@text&&tag.p.1@text##作者.(.*?),播音.(.*)##$1 | $2###", "bookList": ".slist a,.clist a", "bookUrl": "tag.a@href", "coverUrl": "tag.img@src", "kind": "tag.p.2@text##.*?：|中", "lastChapter": "", "name": "tag.h3@text"}, "ruleToc": {"chapterList": "class.plist@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://m.ting55.com/search/{{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "📻 恋听网",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://m.ting55.com-3.0",
+    "bookUrlPattern": "",
+    "customOrder": -115772,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "<js>\nvar a=[\"玄幻\",\"武侠\",\"都市\",\"言情\",\"穿越\",\"科幻\",\"推理\",\"恐怖\",\"惊悚\",\"历史\",\"经典\",\"相声\",\"讲坛\",\"评书\"];\n'推荐::https://m.ting55.com/tuijian&&'+\na.map(w=>w+'::https://m.ting55.com/category/'+(a.indexOf(w)+1)).join('&&')\n</js>",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9; ONEPLUS A5000 Build/PKQ1.180716.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 1611725443169,
+    "loginUrl": "https://m.ting55.com/user/login",
+    "ruleBookInfo": {
+      "intro": "class.intro@tag.p@text"
+    },
+    "ruleContent": {
+      "content": "[name=\"_c\"]@content@js:\nvar body=baseUrl.replace(/.+\\/(\\d+)-(\\d+)/,\"bookId=$1&&isPay=1&&page=$2\");\nvar url=\"https://m.ting55.com/glink,\";\nvar headers={\n         \"User-Agent\":\"Mozilla/5.0 (Linux; Android 9; ONEPLUS A5000 Build/PKQ1.180716.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/71.0.3578.99 Mobile Safari/537.36\",\n         Referer:baseUrl,\n         xt:result\n       }\nvar options={\n          method:\"post\",\n          headers:JSON.stringify(headers),\n          body:body\n}\nJSON.parse(java.ajax(url+JSON.stringify(options))).ourl"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p.0@text&&tag.p.1@text##作者.(.*?),播音.(.*)##$1 | $2###",
+      "bookList": ".slist a,.clist a",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@src",
+      "kind": "tag.p.2@text##.*?：|中",
+      "lastChapter": "",
+      "name": "tag.h3@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.plist@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://m.ting55.com/search/{{key}}",
+    "weight": 0
+  }]

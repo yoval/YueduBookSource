@@ -1,1 +1,31 @@
-[{"bookSourceComment": "error:Unable to resolve host \"8kshe.com\": No address associated with hostname\n", "bookSourceGroup": "我的书源,刘备书源", "bookSourceName": "🚬 扒开射", "bookSourceType": 0, "bookSourceUrl": "https://8kshe.com", "customOrder": 24596, "enabled": true, "enabledExplore": true, "exploreUrl": "人妻熟女::/wife/list_{{page}}.html\n家庭乱伦::/fam/list_{{page}}.html\n强暴虐待::/bdsm/list_{{page}}.html\n学生校园::/school/list_{{page}}.html\n经典激情::/passion/list_{{page}}.html\n职业制服::/rolecloth/list_{{page}}.html", "lastUpdateTime": 1602931474088, "ruleBookInfo": {}, "ruleContent": {"content": "class.art-content@tag.p@text"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.span.0@text##作者.", "bookList": "class.articleCon@tag.li", "bookUrl": "tag.a.1@href", "intro": "tag.p.-1@text", "kind": "tag.a.2@text&&tag.span.2@text##日期.", "name": "tag.a.1@text"}, "ruleToc": {"chapterList": "class.main-tit2@tag.a", "chapterName": "text"}, "searchUrl": "/plus/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&searchtype=titlekeyword&PageNo={{page}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:Unable to resolve host \"8kshe.com\": No address associated with hostname\n",
+    "bookSourceGroup": "我的书源,刘备书源",
+    "bookSourceName": "🚬 扒开射",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://8kshe.com",
+    "customOrder": 24884,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "人妻熟女::/wife/list_{{page}}.html\n家庭乱伦::/fam/list_{{page}}.html\n强暴虐待::/bdsm/list_{{page}}.html\n学生校园::/school/list_{{page}}.html\n经典激情::/passion/list_{{page}}.html\n职业制服::/rolecloth/list_{{page}}.html",
+    "lastUpdateTime": 1602931474088,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.art-content@tag.p@text"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.span.0@text##作者.",
+      "bookList": "class.articleCon@tag.li",
+      "bookUrl": "tag.a.1@href",
+      "intro": "tag.p.-1@text",
+      "kind": "tag.a.2@text&&tag.span.2@text##日期.",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.main-tit2@tag.a",
+      "chapterName": "text"
+    },
+    "searchUrl": "/plus/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&searchtype=titlekeyword&PageNo={{page}}\"\n}",
+    "weight": 0
+  }]

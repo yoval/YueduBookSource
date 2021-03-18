@@ -1,1 +1,47 @@
-[{"bookSourceComment": "error:failed to connect to yuemomo.com/47.52.95.170 (port 443) from /192.168.0.103 (port 44418) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n", "bookSourceGroup": "我的书源", "bookSourceName": "🍑 御宅屋[仅发现]", "bookSourceType": 0, "bookSourceUrl": "https://yuemomo.com", "bookUrlPattern": "//要验证码，用不了", "customOrder": -31256, "enabled": true, "enabledExplore": true, "exploreUrl": "美攻::/tag/mg/p_{{page}}.html\n快穿::/tag/kc/p_{{page}}.html\n肉文::/tag/rw/p_{{page}}.html\n年下::/tag/nx/p_{{page}}.html\n年上::/tag/ns/p_{{page}}.html\n生子::/tag/sz/p_{{page}}.html\n人兽::/tag/rs/p_{{page}}.html\n强强::/tag/qq/p_{{page}}.html\n穿越::/tag/cy/p_{{page}}.html\n双性::/tag/sx/p_{{page}}.html\n强受::/tag/qs/p_{{page}}.html\nABO::/tag/abo/p_{{page}}.html\n重生::/tag/cs/p_{{page}}.html\nHP::/tag/hp/p_{{page}}.html\n虐文::/tag/nw/p_{{page}}.html\n温馨::/tag/wx/p_{{page}}.html\nHP::/tag/hp/p_{{page}}.html\n父子::/tag/fz/p_{{page}}.html\n兄弟::/tag/xd/p_{{page}}.html\n萌文::/tag/mw/p_{{page}}.html\nBE::/tag/be/p_{{page}}.html\n末世::/tag/ms/p_{{page}}.html\n人鱼::/tag/ry/p_{{page}}.html\n师生::/tag/ss/p_{{page}}.html\n网游::/tag/wy/p_{{page}}.html\n娱乐::/tag/ylq/p_{{page}}.html\n高干::/tag/gg/p_{{page}}.html\n金手::/tag/jsz/p_{{page}}.html\n反攻::/tag/fg/p_{{page}}.html\n诱受::/tag/ys/p_{{page}}.html\n调教::/tag/sm/p_{{page}}.html\n种田::/tag/zt/p_{{page}}.html", "lastUpdateTime": 1603261952184, "loginUrl": "https://yuemomo.com/member/login/https://yuemomo.com/", "ruleBookInfo": {"author": "", "intro": "[name=\"description\"]@content", "name": "", "tocUrl": ""}, "ruleContent": {"content": "id.nr1@html"}, "ruleExplore": {"author": "tag.span.0@text", "bookList": "id.list_ul@li", "bookUrl": "tag.a.1@href", "kind": "tag.a.0@text", "name": "tag.a.1@text", "wordCount": ""}, "ruleSearch": {"author": "tag.p.0@tag.strong@text", "bookList": "class.common-bookele", "bookUrl": "tag.a.1@href", "intro": "class.abstract@text", "kind": "##栏目：([^<]+)<##$1###", "name": "class.articlename@a@text"}, "ruleToc": {"chapterList": "ul@li@a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "class.btn@tag.a@href"}, "searchUrl": "/search.html?key={{key}}&page={{page}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:failed to connect to yuemomo.com/47.52.95.170 (port 443) from /192.168.0.103 (port 44418) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍑 御宅屋[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://yuemomo.com",
+    "bookUrlPattern": "//要验证码，用不了",
+    "customOrder": -31256,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "美攻::/tag/mg/p_{{page}}.html\n快穿::/tag/kc/p_{{page}}.html\n肉文::/tag/rw/p_{{page}}.html\n年下::/tag/nx/p_{{page}}.html\n年上::/tag/ns/p_{{page}}.html\n生子::/tag/sz/p_{{page}}.html\n人兽::/tag/rs/p_{{page}}.html\n强强::/tag/qq/p_{{page}}.html\n穿越::/tag/cy/p_{{page}}.html\n双性::/tag/sx/p_{{page}}.html\n强受::/tag/qs/p_{{page}}.html\nABO::/tag/abo/p_{{page}}.html\n重生::/tag/cs/p_{{page}}.html\nHP::/tag/hp/p_{{page}}.html\n虐文::/tag/nw/p_{{page}}.html\n温馨::/tag/wx/p_{{page}}.html\nHP::/tag/hp/p_{{page}}.html\n父子::/tag/fz/p_{{page}}.html\n兄弟::/tag/xd/p_{{page}}.html\n萌文::/tag/mw/p_{{page}}.html\nBE::/tag/be/p_{{page}}.html\n末世::/tag/ms/p_{{page}}.html\n人鱼::/tag/ry/p_{{page}}.html\n师生::/tag/ss/p_{{page}}.html\n网游::/tag/wy/p_{{page}}.html\n娱乐::/tag/ylq/p_{{page}}.html\n高干::/tag/gg/p_{{page}}.html\n金手::/tag/jsz/p_{{page}}.html\n反攻::/tag/fg/p_{{page}}.html\n诱受::/tag/ys/p_{{page}}.html\n调教::/tag/sm/p_{{page}}.html\n种田::/tag/zt/p_{{page}}.html",
+    "lastUpdateTime": 1603261952184,
+    "loginUrl": "https://yuemomo.com/member/login/https://yuemomo.com/",
+    "ruleBookInfo": {
+      "author": "",
+      "intro": "[name=\"description\"]@content",
+      "name": "",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "id.nr1@html"
+    },
+    "ruleExplore": {
+      "author": "tag.span.0@text",
+      "bookList": "id.list_ul@li",
+      "bookUrl": "tag.a.1@href",
+      "kind": "tag.a.0@text",
+      "name": "tag.a.1@text",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "tag.p.0@tag.strong@text",
+      "bookList": "class.common-bookele",
+      "bookUrl": "tag.a.1@href",
+      "intro": "class.abstract@text",
+      "kind": "##栏目：([^<]+)<##$1###",
+      "name": "class.articlename@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "ul@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "class.btn@tag.a@href"
+    },
+    "searchUrl": "/search.html?key={{key}}&page={{page}}",
+    "weight": 0
+  }]

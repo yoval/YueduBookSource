@@ -1,1 +1,41 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 书客吧", "bookSourceType": 0, "bookSourceUrl": "https://www.shukeba.com", "bookUrlPattern": "https?://[a-z]*.shukeba.com/book/\\d+.html", "customOrder": -31842, "enabled": true, "enabledExplore": true, "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}", "lastUpdateTime": 1603008075685, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.cover@img@src", "intro": "class.info-text@textNodes##.*购买正版图书。|如果您对小说.*", "name": "h1@text", "tocUrl": "id.read@href"}, "ruleContent": {"content": "class.chapter-content@html", "replaceRegex": "##下载本书(.|\\n)*"}, "ruleExplore": {}, "ruleSearch": {"author": "class.nowrap.1@tag.a@text##/", "bookList": "class.col-4 search_book p-2", "bookUrl": "h2@a@href", "coverUrl": "class.imgload@data-src", "kind": "tag.p.2@text", "lastChapter": "tag.p.1@text##最新章节：", "name": "h2@a@textNodes##《|》"}, "ruleToc": {"chapterList": "class.row mx-0!0@tag.dd@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.auzw.com/search.php?q={{key}},{\n  \"charset\": \"utf-8\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 书客吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.shukeba.com",
+    "bookUrlPattern": "https?://[a-z]*.shukeba.com/book/\\d+.html",
+    "customOrder": -31842,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}",
+    "lastUpdateTime": 1603008075685,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.cover@img@src",
+      "intro": "class.info-text@textNodes##.*购买正版图书。|如果您对小说.*",
+      "name": "h1@text",
+      "tocUrl": "id.read@href"
+    },
+    "ruleContent": {
+      "content": "class.chapter-content@html",
+      "replaceRegex": "##下载本书(.|\\n)*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.nowrap.1@tag.a@text##/",
+      "bookList": "class.col-4 search_book p-2",
+      "bookUrl": "h2@a@href",
+      "coverUrl": "class.imgload@data-src",
+      "kind": "tag.p.2@text",
+      "lastChapter": "tag.p.1@text##最新章节：",
+      "name": "h2@a@textNodes##《|》"
+    },
+    "ruleToc": {
+      "chapterList": "class.row mx-0!0@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.auzw.com/search.php?q={{key}},{\n  \"charset\": \"utf-8\"\n}",
+    "weight": 0
+  }]

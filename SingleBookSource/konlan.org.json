@@ -1,1 +1,35 @@
-[{"bookSourceComment": "error:failed to connect to www.konlan.org/199.59.149.136 (port 443) from /192.168.0.103 (port 42886) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n", "bookSourceGroup": "我的书源", "bookSourceName": "🍑 空蓝小说网", "bookSourceType": 0, "bookSourceUrl": "https://www.konlan.org", "customOrder": -31245, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1601701010126, "ruleBookInfo": {"author": "class.btitle@tag.i.0@text##作者：", "coverUrl": "class.pic@tag.img.0@src", "intro": "class.js@textNodes##各位.*", "name": "class.btitle@tag.h1.0@text"}, "ruleContent": {"content": "id.contents@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@text", "bookList": "class.grid@tag.tr!0", "bookUrl": "class.odd.0@tag.a@href", "lastChapter": "class.even.0@tag.a@text", "name": "class.odd.0@tag.a@text"}, "ruleToc": {"chapterList": "class.L@tag.td", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.konlan.org/modules/article/search.php?searchtype=all&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:failed to connect to www.konlan.org/199.59.149.136 (port 443) from /192.168.0.103 (port 42886) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍑 空蓝小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.konlan.org",
+    "customOrder": -31245,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1601701010126,
+    "ruleBookInfo": {
+      "author": "class.btitle@tag.i.0@text##作者：",
+      "coverUrl": "class.pic@tag.img.0@src",
+      "intro": "class.js@textNodes##各位.*",
+      "name": "class.btitle@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.contents@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a@href",
+      "lastChapter": "class.even.0@tag.a@text",
+      "name": "class.odd.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.L@tag.td",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.konlan.org/modules/article/search.php?searchtype=all&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

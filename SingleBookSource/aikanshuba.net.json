@@ -1,1 +1,36 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 新爱看书吧", "bookSourceType": 0, "bookSourceUrl": "https://www.aikanshuba.net", "bookUrlPattern": "", "customOrder": -32061, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.pic.0@tag.img@src", "intro": "class.jj@text"}, "ruleContent": {"content": "class.articlecontent@html##一秒记住.*|&&amp;.*|本书由.*|版权所有|侵权必究|·"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@text", "bookList": "tag.tbody@tag.tr!0", "bookUrl": "class.odd.0@tag.a@href", "kind": "class.even.2@text", "lastChapter": "class.even.0@tag.a@text", "name": "class.odd.0@tag.a@text"}, "ruleToc": {"chapterList": "class.ml_list@tag.li", "chapterName": "text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.aikanshuba.net/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 新爱看书吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.aikanshuba.net",
+    "bookUrlPattern": "",
+    "customOrder": -32061,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.pic.0@tag.img@src",
+      "intro": "class.jj@text"
+    },
+    "ruleContent": {
+      "content": "class.articlecontent@html##一秒记住.*|&&amp;.*|本书由.*|版权所有|侵权必究|·"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "tag.tbody@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a@href",
+      "kind": "class.even.2@text",
+      "lastChapter": "class.even.0@tag.a@text",
+      "name": "class.odd.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.ml_list@tag.li",
+      "chapterName": "text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.aikanshuba.net/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

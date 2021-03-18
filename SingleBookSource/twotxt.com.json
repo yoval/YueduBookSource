@@ -1,1 +1,43 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "耐看吧", "bookSourceType": 0, "bookSourceUrl": "http://m.twotxt.com", "customOrder": -35962, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻奇幻::/xuanhuan/{{page}}.html\n武侠仙侠::/wuxia/{{page}}.html\n都市生活::/dushi/{{page}}.html\n历史军事::/lishi/{{page}}.html\n游戏竞技::/youxi/{{page}}.html\n科幻未来::/kehuan/{{page}}.html\n恐怖悬疑::/xuanyi/{{page}}.html\n二の次元::/erciyuan/{{page}}.html\n经典网文::/jingdian/{{page}}.html\n古代言情::/guyan/{{page}}.html\n现代言情::/xianyan/{{page}}.html\n幻想奇缘::/huanqing/{{page}}.html\n青春校园::/qingchun/{{page}}.html\n网络情缘::/wangluo/{{page}}.html\n科幻空间::/mmkehuan/{{page}}.html\n鬼怪灵异::/lingyi/{{page}}.html\n  N次元  ::/Nciyuan/{{page}}.html\n言情美文::/yanqing/{{page}}.html", "lastUpdateTime": 1606379888558, "loginUrl": "", "ruleBookInfo": {"author": "class.author@text", "coverUrl": "class.detail@tag.img@src", "kind": "tag.a.4@text&&tag.span.0@text", "lastChapter": "class.new@tag.a@text", "name": "class.name@text", "tocUrl": "class.read@tag.li"}, "ruleContent": {"content": "class.content@html##喜欢.*速度最快。"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.li.0@class.layui-bg-cyan@text", "bookList": "class.list@tag.li", "bookUrl": "tag.li.0@class.bookname@tag.a@href", "coverUrl": "tag.li.0@tag.img@src", "intro": "tag.li.0@class.intro@text", "kind": "tag.span.0@text", "lastChapter": "tag.li.0@class.data.1@tag.a@text", "name": "tag.li.0@class.bookname@text"}, "ruleToc": {"chapterList": "class.read@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "nextTocUrl": "class.pagelist@tag.a.1@href||class.pagelist@tag.a.0@href"}, "searchUrl": "http://m.twotxt.com/search.html?searchkey={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "耐看吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.twotxt.com",
+    "customOrder": -35962,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/xuanhuan/{{page}}.html\n武侠仙侠::/wuxia/{{page}}.html\n都市生活::/dushi/{{page}}.html\n历史军事::/lishi/{{page}}.html\n游戏竞技::/youxi/{{page}}.html\n科幻未来::/kehuan/{{page}}.html\n恐怖悬疑::/xuanyi/{{page}}.html\n二の次元::/erciyuan/{{page}}.html\n经典网文::/jingdian/{{page}}.html\n古代言情::/guyan/{{page}}.html\n现代言情::/xianyan/{{page}}.html\n幻想奇缘::/huanqing/{{page}}.html\n青春校园::/qingchun/{{page}}.html\n网络情缘::/wangluo/{{page}}.html\n科幻空间::/mmkehuan/{{page}}.html\n鬼怪灵异::/lingyi/{{page}}.html\n  N次元  ::/Nciyuan/{{page}}.html\n言情美文::/yanqing/{{page}}.html",
+    "lastUpdateTime": 1606379888558,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.author@text",
+      "coverUrl": "class.detail@tag.img@src",
+      "kind": "tag.a.4@text&&tag.span.0@text",
+      "lastChapter": "class.new@tag.a@text",
+      "name": "class.name@text",
+      "tocUrl": "class.read@tag.li"
+    },
+    "ruleContent": {
+      "content": "class.content@html##喜欢.*速度最快。"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.li.0@class.layui-bg-cyan@text",
+      "bookList": "class.list@tag.li",
+      "bookUrl": "tag.li.0@class.bookname@tag.a@href",
+      "coverUrl": "tag.li.0@tag.img@src",
+      "intro": "tag.li.0@class.intro@text",
+      "kind": "tag.span.0@text",
+      "lastChapter": "tag.li.0@class.data.1@tag.a@text",
+      "name": "tag.li.0@class.bookname@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.read@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "class.pagelist@tag.a.1@href||class.pagelist@tag.a.0@href"
+    },
+    "searchUrl": "http://m.twotxt.com/search.html?searchkey={{key}}",
+    "weight": 0
+  }]

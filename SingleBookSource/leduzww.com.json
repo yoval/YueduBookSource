@@ -1,1 +1,41 @@
-[{"bookSourceComment": "xpath;coolapk@芜恙;intro", "bookSourceGroup": "我的书源", "bookSourceName": "书楼", "bookSourceType": 0, "bookSourceUrl": "http://www.leduzww.com", "bookUrlPattern": "http://www.leduzww.com/read/.+", "customOrder": 17, "enabled": true, "enabledExplore": false, "lastUpdateTime": 1600746404849, "ruleBookInfo": {"author": "//p[@class=\"author\"]/span[2]/text()", "coverUrl": "//*[@class=\"fengmian\"]/img/@src", "intro": "//*[@class=\"intro\"]##.*小说简介：|各位书友.*", "kind": "//p[@class=\"author\"]/span[1]/text()##.*：", "lastChapter": "class.chapters@tag.li.-1@tag.a@text&&class.author@tag.span.2@text##^(\\d+、)(.+)\\n.*\\d+-(\\d+-\\d+).*##$2▪$3", "name": "//h1/text()"}, "ruleContent": {"content": "//*[@id=\"content\"]"}, "ruleExplore": {}, "ruleSearch": {"author": "//li[9]/text()", "bookList": "//*[@class=\"searchcon\"]/ul", "bookUrl": "//li[7]/a/@href", "coverUrl": "//li[7]/a/@href##.*/(\\d+)/(\\d+)/##/files/article/image/$1/$2/$2s.jpg", "kind": "//li[12]/text()", "lastChapter": "//li[8]/a/text()&&//li[11]/text()@js:var t = String(java.timeFormat(result.replace(/.*\\n/,''))).replace(/\\//g,'-').match(/-(\\d+-\\d+)/)[1];\nvar n = result.replace(/\\d+、|\\n.*/,'');\nn+ '▪' +t;", "name": "//li[7]/a/text()", "wordCount": "//li[10]/text()"}, "ruleToc": {"chapterList": "//*[@class=\"chapters\"]/li/a", "chapterName": "text##^(\\d+、)", "chapterUrl": "href"}, "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "xpath;coolapk@芜恙;intro",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "书楼",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.leduzww.com",
+    "bookUrlPattern": "http://www.leduzww.com/read/.+",
+    "customOrder": 17,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 1600746404849,
+    "ruleBookInfo": {
+      "author": "//p[@class=\"author\"]/span[2]/text()",
+      "coverUrl": "//*[@class=\"fengmian\"]/img/@src",
+      "intro": "//*[@class=\"intro\"]##.*小说简介：|各位书友.*",
+      "kind": "//p[@class=\"author\"]/span[1]/text()##.*：",
+      "lastChapter": "class.chapters@tag.li.-1@tag.a@text&&class.author@tag.span.2@text##^(\\d+、)(.+)\\n.*\\d+-(\\d+-\\d+).*##$2▪$3",
+      "name": "//h1/text()"
+    },
+    "ruleContent": {
+      "content": "//*[@id=\"content\"]"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "//li[9]/text()",
+      "bookList": "//*[@class=\"searchcon\"]/ul",
+      "bookUrl": "//li[7]/a/@href",
+      "coverUrl": "//li[7]/a/@href##.*/(\\d+)/(\\d+)/##/files/article/image/$1/$2/$2s.jpg",
+      "kind": "//li[12]/text()",
+      "lastChapter": "//li[8]/a/text()&&//li[11]/text()@js:var t = String(java.timeFormat(result.replace(/.*\\n/,''))).replace(/\\//g,'-').match(/-(\\d+-\\d+)/)[1];\nvar n = result.replace(/\\d+、|\\n.*/,'');\nn+ '▪' +t;",
+      "name": "//li[7]/a/text()",
+      "wordCount": "//li[10]/text()"
+    },
+    "ruleToc": {
+      "chapterList": "//*[@class=\"chapters\"]/li/a",
+      "chapterName": "text##^(\\d+、)",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

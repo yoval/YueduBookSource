@@ -1,1 +1,65 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 27KK小说", "bookSourceType": 0, "bookSourceUrl": "https://m.27kk.net", "bookUrlPattern": "", "customOrder": -115647, "enabled": true, "enabledExplore": true, "exploreUrl": "", "header": "", "lastUpdateTime": 1605095897429, "loginUrl": "", "ruleBookInfo": {"author": "", "coverUrl": "@css:#info>div.main>div.detail>img@src", "init": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "tocUrl": "@css:li.now>a@href", "wordCount": ""}, "ruleContent": {"content": "@css:div.content@html", "nextContentUrl": "", "replaceRegex": "##喜欢.*请大家收藏(.|\\n)*", "sourceRegex": "", "webJs": ""}, "ruleExplore": {"author": "", "bookList": "", "bookUrl": "", "coverUrl": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "wordCount": ""}, "ruleSearch": {"author": "@css: p.data>a.layui-bg-cyan@text", "bookList": "@css: ul.list>li", "bookUrl": "@css:>a@href", "coverUrl": "@css: a>img@src", "intro": "@css: p.intro@text", "kind": "@css: p.data>span@text", "lastChapter": "@css: p:nth-child(5)>a@text", "name": "@css: p.bookname>a@text", "wordCount": ""}, "ruleToc": {"chapterList": "@css: ul.read>li>a", "chapterName": "text", "chapterUrl": "href", "isVip": "", "nextTocUrl": "@css:span.pagenum+a@href", "updateTime": ""}, "searchUrl": "/search.html,{\n\"method\":\"POST\",\n\"body\":\"searchkey={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 27KK小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.27kk.net",
+    "bookUrlPattern": "",
+    "customOrder": -115647,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1605095897429,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "@css:#info>div.main>div.detail>img@src",
+      "init": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": "@css:li.now>a@href",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "@css:div.content@html",
+      "nextContentUrl": "",
+      "replaceRegex": "##喜欢.*请大家收藏(.|\\n)*",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "@css: p.data>a.layui-bg-cyan@text",
+      "bookList": "@css: ul.list>li",
+      "bookUrl": "@css:>a@href",
+      "coverUrl": "@css: a>img@src",
+      "intro": "@css: p.intro@text",
+      "kind": "@css: p.data>span@text",
+      "lastChapter": "@css: p:nth-child(5)>a@text",
+      "name": "@css: p.bookname>a@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "@css: ul.read>li>a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "isVip": "",
+      "nextTocUrl": "@css:span.pagenum+a@href",
+      "updateTime": ""
+    },
+    "searchUrl": "/search.html,{\n\"method\":\"POST\",\n\"body\":\"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

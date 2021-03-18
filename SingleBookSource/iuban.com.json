@@ -1,1 +1,42 @@
-[{"bookSourceComment": "error:搜索内容为空并且没有发现\n", "bookSourceGroup": "我的书源", "bookSourceName": "💵 有伴小说", "bookSourceType": 0, "bookSourceUrl": "http://www.iuban.com", "bookUrlPattern": "", "customOrder": -33967, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1601631493198, "loginUrl": "", "ruleBookInfo": {"author": "class.zht@tag.span.0@text", "coverUrl": "class.dcon-left left@tag.img@src", "intro": "class.jianj.0@text", "kind": "class.jianj jianj2 jianj3 clearfix@tag.span.0@text&&class.jianj jianj2 jianj3 clearfix@tag.span.1@text&&class.jianj jianj2 jianj3 clearfix@tag.span.2@text&&class.jianj jianj2 jianj3 clearfix@tag.span.4@text&&class.jianj jianj2 jianj3 clearfix@tag.span.5@text&&class.jianj jianj2 jianj3 clearfix@tag.span.11@text##小说类别：|连载状态：|作品性质：|授权状态：|首发状态：|出版状态：", "lastChapter": "tag.h4@text##.*最新更新章节：", "name": "tag.p.0@text", "tocUrl": "class.dcon-left left@tag.a.1@href", "wordCount": "class.jianj jianj2 jianj3 clearfix@tag.span.6@text##总字数："}, "ruleContent": {"content": "class.redcontent@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.auth@text", "bookList": "class.mains2 mains3 clearfix@li!0", "bookUrl": "tag.a.1@href", "kind": "tag.a.0@text", "lastChapter": "tag.a.2@text", "name": "tag.a.1@text"}, "ruleToc": {"chapterList": "tag.td", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.iuban.com/so/slist.html?custom_list=all&searchkey={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "💵 有伴小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.iuban.com",
+    "bookUrlPattern": "",
+    "customOrder": -33967,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1601631493198,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.zht@tag.span.0@text",
+      "coverUrl": "class.dcon-left left@tag.img@src",
+      "intro": "class.jianj.0@text",
+      "kind": "class.jianj jianj2 jianj3 clearfix@tag.span.0@text&&class.jianj jianj2 jianj3 clearfix@tag.span.1@text&&class.jianj jianj2 jianj3 clearfix@tag.span.2@text&&class.jianj jianj2 jianj3 clearfix@tag.span.4@text&&class.jianj jianj2 jianj3 clearfix@tag.span.5@text&&class.jianj jianj2 jianj3 clearfix@tag.span.11@text##小说类别：|连载状态：|作品性质：|授权状态：|首发状态：|出版状态：",
+      "lastChapter": "tag.h4@text##.*最新更新章节：",
+      "name": "tag.p.0@text",
+      "tocUrl": "class.dcon-left left@tag.a.1@href",
+      "wordCount": "class.jianj jianj2 jianj3 clearfix@tag.span.6@text##总字数："
+    },
+    "ruleContent": {
+      "content": "class.redcontent@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.auth@text",
+      "bookList": "class.mains2 mains3 clearfix@li!0",
+      "bookUrl": "tag.a.1@href",
+      "kind": "tag.a.0@text",
+      "lastChapter": "tag.a.2@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "tag.td",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.iuban.com/so/slist.html?custom_list=all&searchkey={{key}}",
+    "weight": 0
+  }]

@@ -1,1 +1,34 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 墨坛库", "bookSourceType": 0, "bookSourceUrl": "https://www.motanku.com", "customOrder": -32185, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "ruleBookInfo": {"coverUrl": "id.fmimg@tag.img.0@src", "intro": "id.intro@text"}, "ruleContent": {"content": "id.content@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.s4@text", "bookList": "class.novelslist2@tag.li!0", "bookUrl": "class.s2@tag.a@href", "kind": "class.s1@text##\\[|\\]", "lastChapter": "class.s3@tag.a@text", "name": "class.s2@tag.a@text"}, "ruleToc": {"chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8:9:10:11", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.motanku.com/searchbook.php?keyword={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 墨坛库",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.motanku.com",
+    "customOrder": -32185,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "intro": "id.intro@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.novelslist2@tag.li!0",
+      "bookUrl": "class.s2@tag.a@href",
+      "kind": "class.s1@text##\\[|\\]",
+      "lastChapter": "class.s3@tag.a@text",
+      "name": "class.s2@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8:9:10:11",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.motanku.com/searchbook.php?keyword={{key}}",
+    "weight": 0
+  }]

@@ -1,1 +1,40 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,刘备书源", "bookSourceName": "🍑 耽美小说吧", "bookSourceType": 0, "bookSourceUrl": "http://m.dmbook7.com", "bookUrlPattern": "", "customOrder": 24370, "enabled": true, "enabledExplore": true, "exploreUrl": "最近更新::http://m.dmbook7.com/top/lastupdate_{{page}}/\n新书入库::http://m.dmbook7.com/top/postdate_{{page}}/\n最新全本::http://m.dmbook7.com/full/{{page}}/\n总点击榜::http://m.dmbook7.com/top/allvisit_{{page}}/\n总推荐榜::http://m.dmbook7.com/top/allvote_{{page}}/\n总收藏榜::http://m.dmbook7.com/top/marknum_{{page}}/\n总字数榜::http://m.dmbook7.com/top/fontsize_{{page}}/\n总评分榜::http://m.dmbook7.com/top/star_{{page}}/\n总打赏榜::http://m.dmbook7.com/top/reward_{{page}}/\n评分人数::http://m.dmbook7.com/top/starnum_{{page}}/\n打赏人数::http://m.dmbook7.com/top/rewardnum_{{page}}/\n重生耽美::http://m.dmbook7.com/fenlei1_{{page}}/\n穿越耽美::http://m.dmbook7.com/fenlei2_{{page}}/\n古代耽美::http://m.dmbook7.com/fenlei3_{{page}}/\n耽美宠文::http://m.dmbook7.com/fenlei4_{{page}}/\n耽美同人::http://m.dmbook7.com/fenlei5_{{page}}/\n经典耽美::http://m.dmbook7.com/fenlei6_{{page}}/\n虐心耽美::http://m.dmbook7.com/fenlei7_{{page}}/\n校园耽美::http://m.dmbook7.com/fenlei8_{{page}}/\n强强耽美::http://m.dmbook7.com/fenlei9_{{page}}/\n完结耽美::http://m.dmbook7.com/fenlei10_{{page}}/", "lastUpdateTime": 1612444129514, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.pic@img@src", "intro": "class.intro@p@text", "lastChapter": "class.infotype@tag.p.3@text", "tocUrl": "text.章节目录@href##http://m.dmbook7.com##http://www.dmbook7.com"}, "ruleContent": {"content": "class.article-con@html", "nextContentUrl": "text.下一章@href"}, "ruleExplore": {}, "ruleSearch": {"author": "class.author@text||class.p3@text", "bookList": "class.searchresult@p||class.article||class.ranking_general@children||class.fullbox@children", "bookUrl": "a@href", "coverUrl": "img@src||tag.a.0@href##/book/(\\d+)(\\d{3})/##http://www.dmbook7.com/files/article/image/$1/$1$2/$1$2s.jpg", "kind": "class.p1@##\\[|]", "name": "h6@a@text||tag.a.0@text"}, "ruleToc": {"chapterList": "class.clearfix chapter-list@li@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "http://m.dmbook7.com/book.php?action=search&searchtype=novelname&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,刘备书源",
+    "bookSourceName": "🍑 耽美小说吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.dmbook7.com",
+    "bookUrlPattern": "",
+    "customOrder": 24658,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最近更新::http://m.dmbook7.com/top/lastupdate_{{page}}/\n新书入库::http://m.dmbook7.com/top/postdate_{{page}}/\n最新全本::http://m.dmbook7.com/full/{{page}}/\n总点击榜::http://m.dmbook7.com/top/allvisit_{{page}}/\n总推荐榜::http://m.dmbook7.com/top/allvote_{{page}}/\n总收藏榜::http://m.dmbook7.com/top/marknum_{{page}}/\n总字数榜::http://m.dmbook7.com/top/fontsize_{{page}}/\n总评分榜::http://m.dmbook7.com/top/star_{{page}}/\n总打赏榜::http://m.dmbook7.com/top/reward_{{page}}/\n评分人数::http://m.dmbook7.com/top/starnum_{{page}}/\n打赏人数::http://m.dmbook7.com/top/rewardnum_{{page}}/\n重生耽美::http://m.dmbook7.com/fenlei1_{{page}}/\n穿越耽美::http://m.dmbook7.com/fenlei2_{{page}}/\n古代耽美::http://m.dmbook7.com/fenlei3_{{page}}/\n耽美宠文::http://m.dmbook7.com/fenlei4_{{page}}/\n耽美同人::http://m.dmbook7.com/fenlei5_{{page}}/\n经典耽美::http://m.dmbook7.com/fenlei6_{{page}}/\n虐心耽美::http://m.dmbook7.com/fenlei7_{{page}}/\n校园耽美::http://m.dmbook7.com/fenlei8_{{page}}/\n强强耽美::http://m.dmbook7.com/fenlei9_{{page}}/\n完结耽美::http://m.dmbook7.com/fenlei10_{{page}}/",
+    "lastUpdateTime": 1612444129514,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.pic@img@src",
+      "intro": "class.intro@p@text",
+      "lastChapter": "class.infotype@tag.p.3@text",
+      "tocUrl": "text.章节目录@href##http://m.dmbook7.com##http://www.dmbook7.com"
+    },
+    "ruleContent": {
+      "content": "class.article-con@html",
+      "nextContentUrl": "text.下一章@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text||class.p3@text",
+      "bookList": "class.searchresult@p||class.article||class.ranking_general@children||class.fullbox@children",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src||tag.a.0@href##/book/(\\d+)(\\d{3})/##http://www.dmbook7.com/files/article/image/$1/$1$2/$1$2s.jpg",
+      "kind": "class.p1@##\\[|]",
+      "name": "h6@a@text||tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.clearfix chapter-list@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://m.dmbook7.com/book.php?action=search&searchtype=novelname&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

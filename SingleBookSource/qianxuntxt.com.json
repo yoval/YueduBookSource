@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "千寻小说", "bookSourceType": 0, "bookSourceUrl": "https://www.qianxuntxt.com", "bookUrlPattern": "", "customOrder": 286, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻::/sort1_{{page}}/\n仙侠::/sort2_{{page}}/\n都市::/sort3_{{page}}/\n言情::/sort4_{{page}}/\n穿越::/sort5_{{page}}/\n网游::/sort6_{{page}}/\n历史::/sort7_{{page}}/\n科幻::/sort8_{{page}}/\n恐怖::/sort9_{{page}}/\n其他::/sort10_{{page}}/", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"intro": "@js:java.get('Intro')"}, "ruleContent": {"content": "@js:var O=[\"h(i.j.2);1 0=2.4(k);1 5=8=>9(0.b('a:l('+8+')').m('n')).c(/^\\\\//,'o://p.d.q/');1 6=0=>9(0.b('.r').3()).c(/.*(d|手机阅读|本章未完).*/g,'');s(t.u('?v')){0=2.4(e.f(5('上一章')))}1 3=6(0);1 7='';w((7=5('下一页'))){0=2.4(e.f(7));3+='<x>'+6(0)}3;\",\"|\",\"split\",\"J|var|Jsoup|html|parse|getNextUrl|getContent|nextUrl|btnText|String||select|replace|qianxuntxt|java|ajax||importClass|org|jsoup|result|contains|attr|href|https|www|com|contentbox|if|baseUrl|includes|hide|while|br\",\"replace\",\"\",\"\\\\w+\",\"\\\\b\",\"g\"];eval(function(t,e,n,r,c,x){if(c=function(t){return t.toString(34)},!O[5][O[4]](/^/,String)){for(;n--;)x[c(n)]=r[n]||c(n);r=[function(t){return x[t]}],c=function(){return O[6]},n=1}for(;n--;)r[n]&&(t=t[O[4]](new RegExp(O[7]+c(n)+O[7],O[8]),r[n]));return t}(O[0],0,34,O[3][O[2]](O[1]),0,{}));"}, "ruleExplore": {}, "ruleSearch": {"author": "author", "bookList": "@js:var O=[\"d.h('.i j').k().l(0,3).m(4=>{5 t=s=>4.2(s).e();5 8='o://p.q.r'+4.2('.9 a').b('f');5 J=u.v.w.x(d.y(8));5 6=c(J.2('.z').e()).7(/.*简介：(.+)\\\\s+\\\\S+：《.+/,'$1').A();B{C:t('.9 a'),D:t('.E a'),F:[c(t('.G a')).7('',''),c(t('.H')).I('完')?'完结':'连载'],K:J.2('.L M').b('N'),6:6.7(/[\\\\s\\\\t]+/g,''),O:'<P>'+6.7(/[\\\\s\\\\t]+/g,'\\\\n'),Q:t('.R a')+'（'+t('.T')+'）',8:4.2('.9 a').b('f')}});\",\"|\",\"split\",\"||select||el|var|intro|replace|url|s1||attr|String|java|text|href||getElements|toplist|li|toArray|slice|map||https|www|qianxuntxt|com|||org|jsoup|Jsoup|parse|ajax|bookinfo_intro|trim|return|name|author|s3|tags|s5|s4|includes||cover|pic|img|src|Intro|br|last|s2||s6\",\"\",\"fromCharCode\",\"replace\",\"\\\\w+\",\"\\\\b\",\"g\"];eval(function(t,r,c,e,n,a){if(n=function(t){return(t<56?O[4]:n(parseInt(t/56)))+(35<(t%=56)?String[O[5]](t+29):t.toString(36))},!O[4][O[6]](/^/,String)){for(;c--;)a[n(c)]=e[c]||n(c);e=[function(t){return a[t]}],n=function(){return O[7]},c=1}for(;c--;)e[c]&&(t=t[O[6]](new RegExp(O[8]+n(c)+O[8],O[9]),e[c]));return t}(O[0],0,56,O[3][O[2]](O[1]),0,{}));", "bookUrl": "url", "coverUrl": "cover", "intro": "intro@put:{Intro:$.Intro}@js:result.trim()", "kind": "tags", "lastChapter": "last", "name": "name"}, "ruleToc": {"chapterList": "@js:var O=[\"4 o={};4 3=[];4 5=9;d.e('.f').g(0).h('a').i().j(6=>{4 2=k(6.l('2'));8(!2){3.b({7:6.7(),2:2});5=c}m 8(!o[2]){8(5){3[3.n-1].2=2+'?p';5=9}3.b({7:6.7(),2:2});o[2]=c}});3;\",\"|\",\"split\",\"||href|list|var|isMissing|el|text|if|false||push|true|java|getElement|book_list|eq|select|toArray|forEach|String|attr|else|length||hide\",\"replace\",\"\",\"\\\\w+\",\"\\\\b\",\"g\"];eval(function(e,t,r,c,n,i){if(n=function(e){return e.toString(26)},!O[5][O[4]](/^/,String)){for(;r--;)i[n(r)]=c[r]||n(r);c=[function(e){return i[e]}],n=function(){return O[6]},r=1}for(;r--;)c[r]&&(e=e[O[4]](new RegExp(O[7]+n(r)+O[7],O[8]),c[r]));return e}(O[0],0,26,O[3][O[2]](O[1]),0,{}));", "chapterName": "$.text", "chapterUrl": "$.href"}, "searchUrl": "/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "千寻小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.qianxuntxt.com",
+    "bookUrlPattern": "",
+    "customOrder": 286,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/sort1_{{page}}/\n仙侠::/sort2_{{page}}/\n都市::/sort3_{{page}}/\n言情::/sort4_{{page}}/\n穿越::/sort5_{{page}}/\n网游::/sort6_{{page}}/\n历史::/sort7_{{page}}/\n科幻::/sort8_{{page}}/\n恐怖::/sort9_{{page}}/\n其他::/sort10_{{page}}/",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "@js:java.get('Intro')"
+    },
+    "ruleContent": {
+      "content": "@js:var O=[\"h(i.j.2);1 0=2.4(k);1 5=8=>9(0.b('a:l('+8+')').m('n')).c(/^\\\\//,'o://p.d.q/');1 6=0=>9(0.b('.r').3()).c(/.*(d|手机阅读|本章未完).*/g,'');s(t.u('?v')){0=2.4(e.f(5('上一章')))}1 3=6(0);1 7='';w((7=5('下一页'))){0=2.4(e.f(7));3+='<x>'+6(0)}3;\",\"|\",\"split\",\"J|var|Jsoup|html|parse|getNextUrl|getContent|nextUrl|btnText|String||select|replace|qianxuntxt|java|ajax||importClass|org|jsoup|result|contains|attr|href|https|www|com|contentbox|if|baseUrl|includes|hide|while|br\",\"replace\",\"\",\"\\\\w+\",\"\\\\b\",\"g\"];eval(function(t,e,n,r,c,x){if(c=function(t){return t.toString(34)},!O[5][O[4]](/^/,String)){for(;n--;)x[c(n)]=r[n]||c(n);r=[function(t){return x[t]}],c=function(){return O[6]},n=1}for(;n--;)r[n]&&(t=t[O[4]](new RegExp(O[7]+c(n)+O[7],O[8]),r[n]));return t}(O[0],0,34,O[3][O[2]](O[1]),0,{}));"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "author",
+      "bookList": "@js:var O=[\"d.h('.i j').k().l(0,3).m(4=>{5 t=s=>4.2(s).e();5 8='o://p.q.r'+4.2('.9 a').b('f');5 J=u.v.w.x(d.y(8));5 6=c(J.2('.z').e()).7(/.*简介：(.+)\\\\s+\\\\S+：《.+/,'$1').A();B{C:t('.9 a'),D:t('.E a'),F:[c(t('.G a')).7('',''),c(t('.H')).I('完')?'完结':'连载'],K:J.2('.L M').b('N'),6:6.7(/[\\\\s\\\\t]+/g,''),O:'<P>'+6.7(/[\\\\s\\\\t]+/g,'\\\\n'),Q:t('.R a')+'（'+t('.T')+'）',8:4.2('.9 a').b('f')}});\",\"|\",\"split\",\"||select||el|var|intro|replace|url|s1||attr|String|java|text|href||getElements|toplist|li|toArray|slice|map||https|www|qianxuntxt|com|||org|jsoup|Jsoup|parse|ajax|bookinfo_intro|trim|return|name|author|s3|tags|s5|s4|includes||cover|pic|img|src|Intro|br|last|s2||s6\",\"\",\"fromCharCode\",\"replace\",\"\\\\w+\",\"\\\\b\",\"g\"];eval(function(t,r,c,e,n,a){if(n=function(t){return(t<56?O[4]:n(parseInt(t/56)))+(35<(t%=56)?String[O[5]](t+29):t.toString(36))},!O[4][O[6]](/^/,String)){for(;c--;)a[n(c)]=e[c]||n(c);e=[function(t){return a[t]}],n=function(){return O[7]},c=1}for(;c--;)e[c]&&(t=t[O[6]](new RegExp(O[8]+n(c)+O[8],O[9]),e[c]));return t}(O[0],0,56,O[3][O[2]](O[1]),0,{}));",
+      "bookUrl": "url",
+      "coverUrl": "cover",
+      "intro": "intro@put:{Intro:$.Intro}@js:result.trim()",
+      "kind": "tags",
+      "lastChapter": "last",
+      "name": "name"
+    },
+    "ruleToc": {
+      "chapterList": "@js:var O=[\"4 o={};4 3=[];4 5=9;d.e('.f').g(0).h('a').i().j(6=>{4 2=k(6.l('2'));8(!2){3.b({7:6.7(),2:2});5=c}m 8(!o[2]){8(5){3[3.n-1].2=2+'?p';5=9}3.b({7:6.7(),2:2});o[2]=c}});3;\",\"|\",\"split\",\"||href|list|var|isMissing|el|text|if|false||push|true|java|getElement|book_list|eq|select|toArray|forEach|String|attr|else|length||hide\",\"replace\",\"\",\"\\\\w+\",\"\\\\b\",\"g\"];eval(function(e,t,r,c,n,i){if(n=function(e){return e.toString(26)},!O[5][O[4]](/^/,String)){for(;r--;)i[n(r)]=c[r]||n(r);c=[function(e){return i[e]}],n=function(){return O[6]},r=1}for(;r--;)c[r]&&(e=e[O[4]](new RegExp(O[7]+n(r)+O[7],O[8]),c[r]));return e}(O[0],0,26,O[3][O[2]](O[1]),0,{}));",
+      "chapterName": "$.text",
+      "chapterUrl": "$.href"
+    },
+    "searchUrl": "/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}\"\n}",
+    "weight": 0
+  }]

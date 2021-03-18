@@ -1,1 +1,40 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "快搜小说网", "bookSourceType": 0, "bookSourceUrl": "http://www.le77.com/", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "", "header": "", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "id.info@tag.p.0@text", "coverUrl": "id.fmimg@tag.img@src", "intro": "id.intro@text", "lastChapter": "id.info@tag.p.3@tag.a@text", "name": "class.booktitle cf@text"}, "ruleContent": {"content": "id.content@html##本章未完，点击下一页继续阅读", "nextContentUrl": "class.bottem2@tag.a.2@href"}, "ruleExplore": {}, "ruleSearch": {"bookList": "class.lll@tag.ul@tag.li", "bookUrl": "class.item-cover@tag.a@href", "coverUrl": "class.item-cover@a@img@src", "name": "@text"}, "ruleToc": {"chapterList": "id.list@tag.dl@tag.dd@tag.a", "chapterName": "@text", "chapterUrl": "@href"}, "searchUrl": "http://www.le77.com/home/search,{\"method\":\"POST\";\"body\":\"q={{key}}&action=search\"}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "快搜小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.le77.com/",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@text",
+      "lastChapter": "id.info@tag.p.3@tag.a@text",
+      "name": "class.booktitle cf@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html##本章未完，点击下一页继续阅读",
+      "nextContentUrl": "class.bottem2@tag.a.2@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.lll@tag.ul@tag.li",
+      "bookUrl": "class.item-cover@tag.a@href",
+      "coverUrl": "class.item-cover@a@img@src",
+      "name": "@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dl@tag.dd@tag.a",
+      "chapterName": "@text",
+      "chapterUrl": "@href"
+    },
+    "searchUrl": "http://www.le77.com/home/search,{\"method\":\"POST\";\"body\":\"q={{key}}&action=search\"}",
+    "weight": 0
+  }]

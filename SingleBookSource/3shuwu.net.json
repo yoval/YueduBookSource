@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "三点书屋", "bookSourceType": 0, "bookSourceUrl": "http://www.3shuwu.net", "bookUrlPattern": "", "customOrder": 0, "enabled": false, "enabledExplore": false, "exploreUrl": "玄幻魔法::http://www.3shuwu.net/wapsort/1_{{page}}.html\n武侠修真::http://www.3shuwu.net/wapsort/2_{{page}}.html\n都市言情::http://www.3shuwu.net/wapsort/3_{{page}}.html\n历史军事::http://www.3shuwu.net/wapsort/4_{{page}}.html\n侦探推理::http://www.3shuwu.net/wapsort/5_{{page}}.html\n网游动漫::http://www.3shuwu.net/wapsort/6_{{page}}.html\n科幻::http://www.3shuwu.net/wapsort/7_{{page}}.html\n耽美::http://www.3shuwu.net/wapsort/8_{{page}}.html\n穿越::http://www.3shuwu.net/wapsort/9_{{page}}.html\n其他::http://www.3shuwu.net/wapsort/10_{{page}}.html\n百合::http://www.3shuwu.net/wapsort/11_{{page}}.html", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"intro": "pre@text##.*简介", "lastChapter": "class.article_info_td.0@tag.a.0@text", "tocUrl": "//a[@style=\"color:red;\"]/@href"}, "ruleContent": {"content": "id.nr1@html##\\&&lt;|&&gt;|/"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.p.0@strong@text", "bookList": "class.common-bookele", "bookUrl": "tag.a.0@href", "kind": "class.lastupdate@text##栏目：", "name": "tag.a.0@text"}, "ruleToc": {"chapterList": "li@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "http://www.3shuwu.net/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "三点书屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.3shuwu.net",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": false,
+    "enabledExplore": false,
+    "exploreUrl": "玄幻魔法::http://www.3shuwu.net/wapsort/1_{{page}}.html\n武侠修真::http://www.3shuwu.net/wapsort/2_{{page}}.html\n都市言情::http://www.3shuwu.net/wapsort/3_{{page}}.html\n历史军事::http://www.3shuwu.net/wapsort/4_{{page}}.html\n侦探推理::http://www.3shuwu.net/wapsort/5_{{page}}.html\n网游动漫::http://www.3shuwu.net/wapsort/6_{{page}}.html\n科幻::http://www.3shuwu.net/wapsort/7_{{page}}.html\n耽美::http://www.3shuwu.net/wapsort/8_{{page}}.html\n穿越::http://www.3shuwu.net/wapsort/9_{{page}}.html\n其他::http://www.3shuwu.net/wapsort/10_{{page}}.html\n百合::http://www.3shuwu.net/wapsort/11_{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "pre@text##.*简介",
+      "lastChapter": "class.article_info_td.0@tag.a.0@text",
+      "tocUrl": "//a[@style=\"color:red;\"]/@href"
+    },
+    "ruleContent": {
+      "content": "id.nr1@html##\\&&lt;|&&gt;|/"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p.0@strong@text",
+      "bookList": "class.common-bookele",
+      "bookUrl": "tag.a.0@href",
+      "kind": "class.lastupdate@text##栏目：",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.3shuwu.net/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}",
+    "weight": 0
+  }]

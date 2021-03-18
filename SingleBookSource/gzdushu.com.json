@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "💵 公主书城", "bookSourceType": 0, "bookSourceUrl": "https://m.gzdushu.com", "customOrder": -117324, "enabled": true, "enabledExplore": true, "exploreUrl": "最近更新::https://m.gzdushu.com/modules/article/articlefilter.php?order=lastupdate&page={{page}}\n入库时间::https://m.gzdushu.com/modules/article/articlefilter.php?order=postdate&page={{page}}\n编辑推荐::https://m.gzdushu.com/modules/article/articlefilter.php?order=toptime&page={{page}}\n总点击榜::https://m.gzdushu.com/modules/article/articlefilter.php?order=allvisit&page={{page}}\n总推荐榜::https://m.gzdushu.com/modules/article/articlefilter.php?order=allvote&page={{page}}\n总鲜花榜::https://m.gzdushu.com/modules/article/articlefilter.php?order=allflower&page={{page}}\n总月票榜::https://m.gzdushu.com/modules/article/articlefilter.php?order=allvipvote&page={{page}}\n总字数榜::https://m.gzdushu.com/modules/article/articlefilter.php?order=words&page={{page}}\n总收藏数::https://m.gzdushu.com/modules/article/articlefilter.php?order=goodnum&page={{page}}\n玄幻魔法::https://m.gzdushu.com/modules/article/articlefilter.php?order=lastupdate&page={{page}}&sortid=1\n武侠修真::https://m.gzdushu.com/modules/article/articlefilter.php?order=lastupdate&page={{page}}&sortid=2\n都市言情::https://m.gzdushu.com/modules/article/articlefilter.php?order=lastupdate&page={{page}}&sortid=3\n穿越架空::https://m.gzdushu.com/modules/article/articlefilter.php?order=lastupdate&page={{page}}&sortid=5\n游戏竞技::https://m.gzdushu.com/modules/article/articlefilter.php?order=lastupdate&page={{page}}&sortid=6\n科幻灵异::https://m.gzdushu.com/modules/article/articlefilter.php?order=lastupdate&page={{page}}&sortid=7\n同人动漫::https://m.gzdushu.com/modules/article/articlefilter.php?order=lastupdate&page={{page}}&sortid=8\n社会文学::https://m.gzdushu.com/modules/article/articlefilter.php?order=lastupdate&page={{page}}&sortid=9\n综合其他::https://m.gzdushu.com/modules/article/articlefilter.php?order=lastupdate&page={{page}}&sortid=10", "lastUpdateTime": 1612826875578, "loginUrl": "https://m.gzdushu.com/login.php", "ruleBookInfo": {"coverUrl": "class.cover_l@src", "intro": "id.introa@textNodes", "lastChapter": "class.c_row nw@a@text", "tocUrl": "class.more@href"}, "ruleContent": {"content": "id.acontent@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.gray@text||class.gray fss@text##\\|.*|/", "bookList": "class.grid@tr||class.c_row cf", "bookUrl": "a@href", "coverUrl": "a@href<js>'/files/article/image'+String(result).replace(/.*?(\\d*?)(\\d{1,3})/,'/$1/$1$2/$1$2s.jpg').replace('//','/0/')</js>", "kind": "tag.td.0@text&&tag.td.3@text", "name": "h4@text||class.db nw@textNodes##【.*】"}, "ruleToc": {"chapterList": "class.index@dd@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://m.gzdushu.com/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=all\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "公主书城",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.gzdushu.com",
+    "customOrder": -117324,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最近更新::https://m.gzdushu.com/modules/article/articlefilter.php?order=lastupdate&page={{page}}\n入库时间::https://m.gzdushu.com/modules/article/articlefilter.php?order=postdate&page={{page}}\n编辑推荐::https://m.gzdushu.com/modules/article/articlefilter.php?order=toptime&page={{page}}\n总点击榜::https://m.gzdushu.com/modules/article/articlefilter.php?order=allvisit&page={{page}}\n总推荐榜::https://m.gzdushu.com/modules/article/articlefilter.php?order=allvote&page={{page}}\n总鲜花榜::https://m.gzdushu.com/modules/article/articlefilter.php?order=allflower&page={{page}}\n总月票榜::https://m.gzdushu.com/modules/article/articlefilter.php?order=allvipvote&page={{page}}\n总字数榜::https://m.gzdushu.com/modules/article/articlefilter.php?order=words&page={{page}}\n总收藏数::https://m.gzdushu.com/modules/article/articlefilter.php?order=goodnum&page={{page}}\n玄幻魔法::https://m.gzdushu.com/modules/article/articlefilter.php?order=lastupdate&page={{page}}&sortid=1\n武侠修真::https://m.gzdushu.com/modules/article/articlefilter.php?order=lastupdate&page={{page}}&sortid=2\n都市言情::https://m.gzdushu.com/modules/article/articlefilter.php?order=lastupdate&page={{page}}&sortid=3\n穿越架空::https://m.gzdushu.com/modules/article/articlefilter.php?order=lastupdate&page={{page}}&sortid=5\n游戏竞技::https://m.gzdushu.com/modules/article/articlefilter.php?order=lastupdate&page={{page}}&sortid=6\n科幻灵异::https://m.gzdushu.com/modules/article/articlefilter.php?order=lastupdate&page={{page}}&sortid=7\n同人动漫::https://m.gzdushu.com/modules/article/articlefilter.php?order=lastupdate&page={{page}}&sortid=8\n社会文学::https://m.gzdushu.com/modules/article/articlefilter.php?order=lastupdate&page={{page}}&sortid=9\n综合其他::https://m.gzdushu.com/modules/article/articlefilter.php?order=lastupdate&page={{page}}&sortid=10",
+    "lastUpdateTime": 1615879713785,
+    "loginUrl": "https://m.gzdushu.com/login.php",
+    "ruleBookInfo": {
+      "coverUrl": "class.cover_l@src",
+      "intro": "id.introa@textNodes",
+      "lastChapter": "class.c_row nw@a@text",
+      "tocUrl": "class.more@href"
+    },
+    "ruleContent": {
+      "content": "id.acontent@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.gray@text||class.gray fss@text##\\|.*|/",
+      "bookList": "class.grid@tr||class.c_row cf",
+      "bookUrl": "a@href",
+      "coverUrl": "a@href<js>'/files/article/image'+String(result).replace(/.*?(\\d*?)(\\d{1,3})/,'/$1/$1$2/$1$2s.jpg').replace('//','/0/')</js>",
+      "kind": "tag.td.0@text&&tag.td.3@text",
+      "name": "h4@text||class.db nw@textNodes##【.*】"
+    },
+    "ruleToc": {
+      "chapterList": "class.index@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://m.gzdushu.com/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=all\"\n}",
+    "weight": 0
+  }]

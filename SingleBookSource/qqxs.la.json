@@ -1,1 +1,46 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 千千小说", "bookSourceType": 0, "bookSourceUrl": "https://m.qqxs.la", "bookUrlPattern": "", "customOrder": -115710, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1612818952754, "loginUrl": "", "ruleBookInfo": {"author": "", "coverUrl": "", "intro": "", "kind": "[property$=category]@content&&[property$=status]@content", "lastChapter": "[property$=chapter_name]@content", "name": "", "tocUrl": ""}, "ruleContent": {"content": "@js:org.jsoup.Jsoup.parse(String(result).replace(/[\\snbsp;]*(&nbsp;|\\s){2,}/g,\"　　\")).select(\"#htmlContent\").html()", "nextContentUrl": "", "replaceRegex": "@js:result.replace(/(^|\\n)[^　\\n]*\\s+/g,\"\\n\")"}, "ruleExplore": {}, "ruleSearch": {"author": "class.mr15@text##作者.", "bookList": "class.list-item", "bookUrl": "class.article@tag.a.0@href##m##www", "coverUrl": "img@src", "intro": "a span@text", "kind": "class.article@text##^[^\\[\\]()（）［］]+$|[^\\[\\]()（）［］]*[\\[(（［]|[\\])）］][^\\[\\]()（）［］]*", "name": "class.article@tag.a.0@text", "wordCount": "class.count@text"}, "ruleToc": {"chapterList": "class.chapterlist!0@tag.a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": ""}, "searchUrl": "https://m.qqxs.la/modules/article/search.php?searchtype=articlename&searchkey={{key}}&t_btnsearch=,{\"charset\": \"gbk\"}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 千千小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.qqxs.la",
+    "bookUrlPattern": "",
+    "customOrder": -115710,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612818952754,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "[property$=category]@content&&[property$=status]@content",
+      "lastChapter": "[property$=chapter_name]@content",
+      "name": "",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "@js:org.jsoup.Jsoup.parse(String(result).replace(/[\\snbsp;]*(&nbsp;|\\s){2,}/g,\"　　\")).select(\"#htmlContent\").html()",
+      "nextContentUrl": "",
+      "replaceRegex": "@js:result.replace(/(^|\\n)[^　\\n]*\\s+/g,\"\\n\")"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.mr15@text##作者.",
+      "bookList": "class.list-item",
+      "bookUrl": "class.article@tag.a.0@href##m##www",
+      "coverUrl": "img@src",
+      "intro": "a span@text",
+      "kind": "class.article@text##^[^\\[\\]()（）［］]+$|[^\\[\\]()（）［］]*[\\[(（［]|[\\])）］][^\\[\\]()（）［］]*",
+      "name": "class.article@tag.a.0@text",
+      "wordCount": "class.count@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapterlist!0@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": ""
+    },
+    "searchUrl": "https://m.qqxs.la/modules/article/search.php?searchtype=articlename&searchkey={{key}}&t_btnsearch=,{\"charset\": \"gbk\"}",
+    "weight": 0
+  }]

@@ -1,1 +1,44 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🔰 1vip小说", "bookSourceType": 0, "bookSourceUrl": "http://m.1vip.org", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": true, "header": "", "lastUpdateTime": 1603360327372, "loginUrl": "", "ruleBookInfo": {"author": "", "coverUrl": ".synopsisArea_detail@tag.img@src", "intro": "class.review@text", "name": "", "tocUrl": "text.查看完整目录@href"}, "ruleContent": {"content": "id.chaptercontent@textNodes", "imageStyle": "0", "nextContentUrl": "id.pt_next@href", "replaceRegex": "##（本章未完，请翻页）"}, "ruleExplore": {}, "ruleSearch": {"author": "class.author.0@text##.*作者：", "bookList": "class.hot_sale", "bookUrl": "tag.a.0@href", "kind": "class.author@text## \\|.*", "lastChapter": "class.author.1@text##.*更新：", "name": "class.title@text"}, "ruleToc": {"chapterList": "id.chapterlist@tag.p!0", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "nextTocUrl": "text.下一页@href"}, "searchUrl": "http://m.1vip.org/s.php,{\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}&t=1\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🔰 1vip小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.1vip.org",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "",
+    "lastUpdateTime": 1603360327372,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": ".synopsisArea_detail@tag.img@src",
+      "intro": "class.review@text",
+      "name": "",
+      "tocUrl": "text.查看完整目录@href"
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@textNodes",
+      "imageStyle": "0",
+      "nextContentUrl": "id.pt_next@href",
+      "replaceRegex": "##（本章未完，请翻页）"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@text##.*作者：",
+      "bookList": "class.hot_sale",
+      "bookUrl": "tag.a.0@href",
+      "kind": "class.author@text## \\|.*",
+      "lastChapter": "class.author.1@text##.*更新：",
+      "name": "class.title@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterlist@tag.p!0",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "http://m.1vip.org/s.php,{\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}&t=1\"\n}",
+    "weight": 0
+  }]

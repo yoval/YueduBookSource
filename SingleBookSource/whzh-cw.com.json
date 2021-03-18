@@ -1,1 +1,39 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "🎉 笔趣阁[仅发现]", "bookSourceType": 0, "bookSourceUrl": "https://www.whzh-cw.com", "customOrder": -115128, "enabled": true, "enabledExplore": true, "exploreUrl": "总排行榜::/allvisit/?page={{page}}\n月排行榜::/monthvisit/?page={{page}}\n周排行榜::/weekvisit/?page={{page}}\n日排行榜::/dayvisit/?page={{page}}\n玄幻奇幻::/liebiao1/\n仙侠修真::/liebiao2/\n都市现实::/liebiao3/\n历史军事::/liebiao4/\n游戏竞技::/liebiao5/\n科幻灵异::/liebiao6/\n女生言情::/liebiao7/\nN次元::/liebiao8/\n其他类型::/liebiao9/\n完本小说::/finish/?page={{page}}", "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}", "lastUpdateTime": 1606915025542, "ruleBookInfo": {"author": "class.book-text@tag.span.0@text##著.*", "coverUrl": "class.book-img.0@tag.img.0@src", "intro": "class.intro@text", "name": "class.book-text@tag.h1@text"}, "ruleContent": {"content": "id.txt@html", "replaceRegex": "##.如果章节错误，点此举报."}, "ruleExplore": {"author": "", "bookList": "class.rank-view-list@tag.li||class.update-table@tag.tr||class.sort-view-list@tag.li", "bookUrl": "class.book-mid-info@tag.a.0@href||class.name@tag.a@href||class.book-info@tag.h4@tag.a@href", "coverUrl": "class.book-img@tag.img@src", "intro": "class.intro@text", "lastChapter": "class.update@tag.a.0@text||class.section@tag.a@text", "name": "class.book-mid-info@tag.h4@tag.a@text||class.name@tag.a@text||class.book-info@tag.h4@tag.a@text"}, "ruleSearch": {}, "ruleToc": {"chapterList": "class.book-chapter-list@tag.li@tag.a", "chapterName": "text", "chapterUrl": "href##$##,{\"webView\":true}"}, "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "🎉 笔趣阁[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.whzh-cw.com",
+    "customOrder": -115128,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "总排行榜::/allvisit/?page={{page}}\n月排行榜::/monthvisit/?page={{page}}\n周排行榜::/weekvisit/?page={{page}}\n日排行榜::/dayvisit/?page={{page}}\n玄幻奇幻::/liebiao1/\n仙侠修真::/liebiao2/\n都市现实::/liebiao3/\n历史军事::/liebiao4/\n游戏竞技::/liebiao5/\n科幻灵异::/liebiao6/\n女生言情::/liebiao7/\nN次元::/liebiao8/\n其他类型::/liebiao9/\n完本小说::/finish/?page={{page}}",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}",
+    "lastUpdateTime": 1606915025542,
+    "ruleBookInfo": {
+      "author": "class.book-text@tag.span.0@text##著.*",
+      "coverUrl": "class.book-img.0@tag.img.0@src",
+      "intro": "class.intro@text",
+      "name": "class.book-text@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.txt@html",
+      "replaceRegex": "##.如果章节错误，点此举报."
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "class.rank-view-list@tag.li||class.update-table@tag.tr||class.sort-view-list@tag.li",
+      "bookUrl": "class.book-mid-info@tag.a.0@href||class.name@tag.a@href||class.book-info@tag.h4@tag.a@href",
+      "coverUrl": "class.book-img@tag.img@src",
+      "intro": "class.intro@text",
+      "lastChapter": "class.update@tag.a.0@text||class.section@tag.a@text",
+      "name": "class.book-mid-info@tag.h4@tag.a@text||class.name@tag.a@text||class.book-info@tag.h4@tag.a@text"
+    },
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "class.book-chapter-list@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href##$##,{\"webView\":true}"
+    },
+    "weight": 0
+  }]

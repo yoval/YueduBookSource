@@ -1,1 +1,58 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🍒 醉爱小说", "bookSourceType": 0, "bookSourceUrl": "https://m.zuiaixs.com", "bookUrlPattern": "", "customOrder": -115997, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻::/sort/1\n奇幻::/sort/2\n武侠::/sort/3\n都市::/sort/4\n历史::/sort/5\n军事::/sort/6\n悬疑::/sort/7\n游戏::/sort/8\n科幻::/sort/9\n体育::/sort/10\n官场::/sort/11\n古言::/sort/12\n现言::/sort/13\n幻言::/sort/14\n仙侠::/sort/15\n青春::/sort/16\n穿越::/sort/17\n女生::/sort/18\nN次元::/sort/19", "header": "", "lastUpdateTime": 1612824710462, "loginUrl": "", "ruleBookInfo": {"author": "class.detail@tag.p.1@text", "coverUrl": "[property=\"og:image\"]@content", "intro": "id.intro@tag.p.0@html", "kind": "class.line@tag.a.1@text", "lastChapter": "class.chapter@tag.a@text", "name": "class.booktitle@text", "tocUrl": "class.action@tag.a.0@href", "wordCount": "class.line@tag.span.1@text"}, "ruleContent": {"content": "class.content@tag.p@text"}, "ruleExplore": {"author": "class.author@text##\\d\\d-\\d\\d-\\d\\d \\d\\d:\\d\\d", "bookList": "class.list@tag.li", "bookUrl": "tag.a.0@href", "coverUrl": "tag.img@src", "intro": "class.intro@text", "kind": "class.data@tag.span@text", "lastChapter": "", "name": "tag.p.0@text", "wordCount": ""}, "ruleSearch": {"author": "class.author@text##玄幻|奇幻|武侠|都市|历史|军事|悬疑|游戏|科幻|体育|官场|古言|现言|幻言|仙侠|青春|穿越|女生|N次元", "bookList": "class.list@tag.li", "bookUrl": "tag.a.0@href", "coverUrl": "tag.img@src", "intro": "class.intro@text", "kind": "class.data@tag.span@text", "lastChapter": "", "name": "tag.p.0@text", "wordCount": ""}, "ruleToc": {"chapterList": "class.read@tag.a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "text.下一页@href"}, "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍒 醉爱小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.zuiaixs.com",
+    "bookUrlPattern": "",
+    "customOrder": -115997,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/sort/1\n奇幻::/sort/2\n武侠::/sort/3\n都市::/sort/4\n历史::/sort/5\n军事::/sort/6\n悬疑::/sort/7\n游戏::/sort/8\n科幻::/sort/9\n体育::/sort/10\n官场::/sort/11\n古言::/sort/12\n现言::/sort/13\n幻言::/sort/14\n仙侠::/sort/15\n青春::/sort/16\n穿越::/sort/17\n女生::/sort/18\nN次元::/sort/19",
+    "header": "",
+    "lastUpdateTime": 1612824710462,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.detail@tag.p.1@text",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "id.intro@tag.p.0@html",
+      "kind": "class.line@tag.a.1@text",
+      "lastChapter": "class.chapter@tag.a@text",
+      "name": "class.booktitle@text",
+      "tocUrl": "class.action@tag.a.0@href",
+      "wordCount": "class.line@tag.span.1@text"
+    },
+    "ruleContent": {
+      "content": "class.content@tag.p@text"
+    },
+    "ruleExplore": {
+      "author": "class.author@text##\\d\\d-\\d\\d-\\d\\d \\d\\d:\\d\\d",
+      "bookList": "class.list@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.intro@text",
+      "kind": "class.data@tag.span@text",
+      "lastChapter": "",
+      "name": "tag.p.0@text",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.author@text##玄幻|奇幻|武侠|都市|历史|军事|悬疑|游戏|科幻|体育|官场|古言|现言|幻言|仙侠|青春|穿越|女生|N次元",
+      "bookList": "class.list@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.intro@text",
+      "kind": "class.data@tag.span@text",
+      "lastChapter": "",
+      "name": "tag.p.0@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.read@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

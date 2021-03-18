@@ -1,1 +1,40 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "🎉 笔趣阁⑧", "bookSourceType": 0, "bookSourceUrl": "https://www.biquge.lol", "customOrder": -115593, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1604163606076, "ruleBookInfo": {"author": "class.fix@tag.p.0@text##作者：", "coverUrl": "class.imgbox@tag.img@src", "intro": "class.m-desc@text", "kind": "class.fix@tag.p.1@text&&\nclass.fix@tag.p.2@text&&\nclass.fix@tag.p.4@text##类 别：|状 态：|最后更新：", "lastChapter": "class.section-box.0@tag.li.0@a@text", "name": "class.top@tag.h1@text", "tocUrl": ""}, "ruleContent": {"content": "id.content@textNodes", "nextContentUrl": "text.下一页@href"}, "ruleExplore": {}, "ruleSearch": {"author": "class.s4@text", "bookList": "class.layout layout2 layout-co18@tag.li", "bookUrl": "tag.a.0@href", "kind": "class.s1@text&&\nclass.s5@text##\\[|\\]", "lastChapter": "class.s3@a@text", "name": "class.s2@a@text"}, "ruleToc": {"chapterList": "class.section-box.1@li", "chapterName": "tag.a.0@text", "chapterUrl": "tag.a.0@href"}, "searchUrl": "https://www.biquge.lol/ar.php,{\r\n  \"method\": \"POST\",\r\n  \"body\": \"keyWord={{key}}\"\r\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "🎉 笔趣阁⑧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.biquge.lol",
+    "customOrder": -115593,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1604163606076,
+    "ruleBookInfo": {
+      "author": "class.fix@tag.p.0@text##作者：",
+      "coverUrl": "class.imgbox@tag.img@src",
+      "intro": "class.m-desc@text",
+      "kind": "class.fix@tag.p.1@text&&\nclass.fix@tag.p.2@text&&\nclass.fix@tag.p.4@text##类 别：|状 态：|最后更新：",
+      "lastChapter": "class.section-box.0@tag.li.0@a@text",
+      "name": "class.top@tag.h1@text",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.layout layout2 layout-co18@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "kind": "class.s1@text&&\nclass.s5@text##\\[|\\]",
+      "lastChapter": "class.s3@a@text",
+      "name": "class.s2@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.section-box.1@li",
+      "chapterName": "tag.a.0@text",
+      "chapterUrl": "tag.a.0@href"
+    },
+    "searchUrl": "https://www.biquge.lol/ar.php,{\r\n  \"method\": \"POST\",\r\n  \"body\": \"keyWord={{key}}\"\r\n}",
+    "weight": 0
+  }]

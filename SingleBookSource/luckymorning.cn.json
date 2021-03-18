@@ -1,1 +1,35 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "逗逼联盟", "bookSourceType": 0, "bookSourceUrl": "http://novel.luckymorning.cn", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": false, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {}, "ruleContent": {"content": "class.content content-wrap@class.reader-content@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.td.1@tag.p.2@text", "bookList": "tag.tbody.0@tag.tr", "bookUrl": "tag.td.1@tag.a.0@href", "coverUrl": "tag.td.0@tag.a@tag.img@src", "intro": "tag.td.1@tag.p.1@text", "kind": "tag.td.1@tag.p.3@text##类型：", "lastChapter": "tag.td.1@tag.p.5@text##最新章节：", "name": "tag.td.1@tag.p.0@text"}, "ruleToc": {"chapterList": "class.layui-row catalogs@tag.a", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://novel.luckymorning.cn/search,{\n  \"method\": \"POST\",\n  \"body\": \"name={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "逗逼联盟",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://novel.luckymorning.cn",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.content content-wrap@class.reader-content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.td.1@tag.p.2@text",
+      "bookList": "tag.tbody.0@tag.tr",
+      "bookUrl": "tag.td.1@tag.a.0@href",
+      "coverUrl": "tag.td.0@tag.a@tag.img@src",
+      "intro": "tag.td.1@tag.p.1@text",
+      "kind": "tag.td.1@tag.p.3@text##类型：",
+      "lastChapter": "tag.td.1@tag.p.5@text##最新章节：",
+      "name": "tag.td.1@tag.p.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.layui-row catalogs@tag.a",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://novel.luckymorning.cn/search,{\n  \"method\": \"POST\",\n  \"body\": \"name={{key}}\"\n}",
+    "weight": 0
+  }]

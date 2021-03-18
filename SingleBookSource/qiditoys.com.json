@@ -1,1 +1,42 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 启迪小说", "bookSourceType": 0, "bookSourceUrl": "http://m.qiditoys.com", "bookUrlPattern": "", "customOrder": -32024, "enabled": true, "enabledExplore": true, "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaN8-00/012.002; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.0 Mobile Safari/533.4 3gpp-gba\"\n}", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "class.pt-info.0@tag.a@text", "coverUrl": "class.baseinfo@tag.img@src", "intro": "class.intro@html", "lastChapter": "class.ptm-list-view.0@tag.li.0@a@text", "name": "class.pt-name.0@tag.a@text", "tocUrl": "class.ptm-card-footer@tag.a@href"}, "ruleContent": {"content": "class.chaptercontent@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.pt-info@tag.a.0@text", "bookList": "class.pt-card pt-card-2@li", "bookUrl": "a@href", "coverUrl": "img@src", "kind": "class.pt-info@tag.a.1@text", "name": "class.pt-name@a@text"}, "ruleToc": {"chapterList": "class.ptm-list-view-cell", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "nextTocUrl": "text.下一页@href"}, "searchUrl": "http://m.qiditoys.com/search.html?searchkey={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 启迪小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.qiditoys.com",
+    "bookUrlPattern": "",
+    "customOrder": -32024,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Symbian/3; Series60/5.2 NokiaN8-00/012.002; Profile/MIDP-2.1 Configuration/CLDC-1.1 ) AppleWebKit/533.4 (KHTML, like Gecko) NokiaBrowser/7.3.0 Mobile Safari/533.4 3gpp-gba\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.pt-info.0@tag.a@text",
+      "coverUrl": "class.baseinfo@tag.img@src",
+      "intro": "class.intro@html",
+      "lastChapter": "class.ptm-list-view.0@tag.li.0@a@text",
+      "name": "class.pt-name.0@tag.a@text",
+      "tocUrl": "class.ptm-card-footer@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "class.chaptercontent@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.pt-info@tag.a.0@text",
+      "bookList": "class.pt-card pt-card-2@li",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "kind": "class.pt-info@tag.a.1@text",
+      "name": "class.pt-name@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.ptm-list-view-cell",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "http://m.qiditoys.com/search.html?searchkey={{key}}",
+    "weight": 0
+  }]

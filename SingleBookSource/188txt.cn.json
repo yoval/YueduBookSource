@@ -1,1 +1,41 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 188小说", "bookSourceType": 0, "bookSourceUrl": "http://188txt.cn", "bookUrlPattern": "", "customOrder": -115460, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1612586857692, "loginUrl": "", "ruleBookInfo": {"author": "class.author fl@text", "coverUrl": "class.pic fl@img@src", "intro": "class.summary@text", "kind": "class.tags clearfixer@tag.a.1@text", "lastChapter": "class.chaptername fl@a@text", "name": "class.name fl@text"}, "ruleContent": {"content": "class.read-content j_readContent@html||class.read-section jsChapterWrapper@html##温馨提示：.*|还在用浏览器看.*|&&gt;&&gt;APP&&lt;&&lt;|天才壹.*|一秒记住.*"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.a.2@text", "bookList": "class.rankdatacont search@children", "bookUrl": "tag.a.0@href", "coverUrl": "img@data-original", "kind": "tag.a.3@text", "lastChapter": "tag.a.4@text##最近更新", "name": "tag.a.1@text"}, "ruleToc": {"chapterList": "class.cate-list@li@a", "chapterName": "class.chapter_name@text", "chapterUrl": "href"}, "searchUrl": "http://188txt.cn/search.html?keyword={{key}},{\n  \"charset\": \"utf-8\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 188小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://188txt.cn",
+    "bookUrlPattern": "",
+    "customOrder": -115460,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612586857692,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.author fl@text",
+      "coverUrl": "class.pic fl@img@src",
+      "intro": "class.summary@text",
+      "kind": "class.tags clearfixer@tag.a.1@text",
+      "lastChapter": "class.chaptername fl@a@text",
+      "name": "class.name fl@text"
+    },
+    "ruleContent": {
+      "content": "class.read-content j_readContent@html||class.read-section jsChapterWrapper@html##温馨提示：.*|还在用浏览器看.*|&&gt;&&gt;APP&&lt;&&lt;|天才壹.*|一秒记住.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.rankdatacont search@children",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@data-original",
+      "kind": "tag.a.3@text",
+      "lastChapter": "tag.a.4@text##最近更新",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.cate-list@li@a",
+      "chapterName": "class.chapter_name@text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://188txt.cn/search.html?keyword={{key}},{\n  \"charset\": \"utf-8\"\n}",
+    "weight": 0
+  }]

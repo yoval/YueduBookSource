@@ -1,1 +1,60 @@
-[{"bookSourceComment": "xpath;coolapk@芜恙\n说明:搜索地址数字在1-7之间变化，与星期同步。", "bookSourceGroup": "我的书源", "bookSourceName": "获奇", "bookSourceType": 0, "bookSourceUrl": "https://m.huoq.com#content dl", "bookUrlPattern": "https://m.huoq.com/books/\\d+.html", "customOrder": 26, "enabled": false, "enabledExplore": false, "exploreUrl": "", "lastUpdateTime": 1603430082346, "loginUrl": "", "ruleBookInfo": {"author": "//*[@property=\"og:novel:author\"]/@content", "coverUrl": "//*[@property=\"og:image\"]/@content", "intro": "//*[@class=\"bookintro\"]/p[1]##(^|[。！？]+[”」）】]?)##$1<br>", "kind": "//*[@property=\"og:novel:category\"]/@content&&\n//*[@property=\"og:novel:status\"]/@content##中|已", "lastChapter": "//*[@property=\"og:novel:latest_chapter_name\"]/@conten\n&&\n//*[@property=\"og:novel:update_time\"]/@content\n<js>\nvar n = result.replace(/\\n.*/, '');\nvar t = result.match(/-(\\d+-\\d+)/)[1];\nn + '▪' + t\n</js>", "name": "//*[@property=\"og:novel:book_name\"]/@content", "tocUrl": "@js:baseUrl.replace('m.','www.')", "wordCount": ""}, "ruleContent": {"content": "<js>\nvar doc = result.match(/str_decode\\(\\\"(\\S+?)\\\"/)[1];\njava.base64Decode(doc)\n</js>", "nextContentUrl": "//*[@id=\"linkNext\"]/@href", "webJs": ""}, "ruleExplore": {"author": "", "bookList": "", "bookUrl": "", "coverUrl": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "wordCount": ""}, "ruleSearch": {"author": "//dd[2]/a/text()", "bookList": "//*[@class=\"content\"]/dl[position()<4]", "bookUrl": "//dt/a/@href", "coverUrl": "//a/img/@data-original", "intro": "//dd[1]/text()", "kind": "//dd[2]/span[1]/text()", "lastChapter": "//dt/a/@href\n<js>\njava.ajax(result.replace(/^\\//, baseUrl.match(/(.+?\\/\\/[^\\/]+\\/)/)[1]))\n</js>\n//*[@property=\"og:novel:latest_chapter_name\"]/@content&&\n//*[@property=\"og:novel:update_time\"]/@content\n<js>\nvar n = result.replace(/\\n.*/g, '');\nvar t = result.match(/-(\\d+-\\d+)/)[1];\nn + '▪' + t\n</js>", "name": "//dt/a/@title", "wordCount": "//dd[2]/span[2]/text()"}, "ruleToc": {"chapterList": "//*[@id=\"list-chapterAll\"]/dl/dd/a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "", "updateTime": ""}, "searchUrl": "/search5?searchkey={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "xpath;coolapk@芜恙\n说明:搜索地址数字在1-7之间变化，与星期同步。",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "获奇",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.huoq.com#content dl",
+    "bookUrlPattern": "https://m.huoq.com/books/\\d+.html",
+    "customOrder": 26,
+    "enabled": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 1603430082346,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "//*[@property=\"og:novel:author\"]/@content",
+      "coverUrl": "//*[@property=\"og:image\"]/@content",
+      "intro": "//*[@class=\"bookintro\"]/p[1]##(^|[。！？]+[”」）】]?)##$1<br>",
+      "kind": "//*[@property=\"og:novel:category\"]/@content&&\n//*[@property=\"og:novel:status\"]/@content##中|已",
+      "lastChapter": "//*[@property=\"og:novel:latest_chapter_name\"]/@conten\n&&\n//*[@property=\"og:novel:update_time\"]/@content\n<js>\nvar n = result.replace(/\\n.*/, '');\nvar t = result.match(/-(\\d+-\\d+)/)[1];\nn + '▪' + t\n</js>",
+      "name": "//*[@property=\"og:novel:book_name\"]/@content",
+      "tocUrl": "@js:baseUrl.replace('m.','www.')",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "<js>\nvar doc = result.match(/str_decode\\(\\\"(\\S+?)\\\"/)[1];\njava.base64Decode(doc)\n</js>",
+      "nextContentUrl": "//*[@id=\"linkNext\"]/@href",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "//dd[2]/a/text()",
+      "bookList": "//*[@class=\"content\"]/dl[position()<4]",
+      "bookUrl": "//dt/a/@href",
+      "coverUrl": "//a/img/@data-original",
+      "intro": "//dd[1]/text()",
+      "kind": "//dd[2]/span[1]/text()",
+      "lastChapter": "//dt/a/@href\n<js>\njava.ajax(result.replace(/^\\//, baseUrl.match(/(.+?\\/\\/[^\\/]+\\/)/)[1]))\n</js>\n//*[@property=\"og:novel:latest_chapter_name\"]/@content&&\n//*[@property=\"og:novel:update_time\"]/@content\n<js>\nvar n = result.replace(/\\n.*/g, '');\nvar t = result.match(/-(\\d+-\\d+)/)[1];\nn + '▪' + t\n</js>",
+      "name": "//dt/a/@title",
+      "wordCount": "//dd[2]/span[2]/text()"
+    },
+    "ruleToc": {
+      "chapterList": "//*[@id=\"list-chapterAll\"]/dl/dd/a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "/search5?searchkey={{key}}",
+    "weight": 0
+  }]

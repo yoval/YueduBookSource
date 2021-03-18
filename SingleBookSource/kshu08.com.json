@@ -1,1 +1,38 @@
-[{"bookSourceComment": "error:List is empty.\n", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 17模板网②", "bookSourceType": 0, "bookSourceUrl": "https://m.kshu08.com", "bookUrlPattern": "", "customOrder": -31886, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": "id.list@tag.dd.0@a@href##/(\\d+)_(\\d+)/(\\d+).html##https://www.kshu08.com/files/article/image/$1/$2/$2s.jpg", "intro": "id.intro@p@text", "lastChapter": "id.list@tag.dd.0@a@text"}, "ruleContent": {"content": "id.content@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.p.1@text##.*作者：", "bookList": "class.recommend mybook@children", "bookUrl": "tag.a.0@href##^##https://www.kshu08.com", "coverUrl": "tag.a.0@href##/(\\d+)_(\\d+)/##https://www.kshu08.com/files/article/image/$1/$2/$2s.jpg", "kind": "tag.p.1@text## \\| 作者.*", "lastChapter": "tag.p.2@text##.*更新：|：", "name": "tag.p.0@text"}, "ruleToc": {"chapterList": "id.list@dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://m.kshu08.com/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&t=1\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 17模板网②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.kshu08.com",
+    "bookUrlPattern": "",
+    "customOrder": -31886,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "id.list@tag.dd.0@a@href##/(\\d+)_(\\d+)/(\\d+).html##https://www.kshu08.com/files/article/image/$1/$2/$2s.jpg",
+      "intro": "id.intro@p@text",
+      "lastChapter": "id.list@tag.dd.0@a@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p.1@text##.*作者：",
+      "bookList": "class.recommend mybook@children",
+      "bookUrl": "tag.a.0@href##^##https://www.kshu08.com",
+      "coverUrl": "tag.a.0@href##/(\\d+)_(\\d+)/##https://www.kshu08.com/files/article/image/$1/$2/$2s.jpg",
+      "kind": "tag.p.1@text## \\| 作者.*",
+      "lastChapter": "tag.p.2@text##.*更新：|：",
+      "name": "tag.p.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://m.kshu08.com/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&t=1\"\n}",
+    "weight": 0
+  }]

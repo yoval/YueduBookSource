@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "🎉 笔趣阁⑥", "bookSourceType": 0, "bookSourceUrl": "http://www.biqujia.com", "bookUrlPattern": "", "customOrder": -32372, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": "img@src", "intro": "id.intro@text", "lastChapter": "id.info@tag.p.3@a@text"}, "ruleContent": {"content": "id.content@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.result-game-item-info-tag.0@tag.span.1@text", "bookList": "class.result-item result-game-item", "bookUrl": "h3@a@href", "coverUrl": "class.result-game-item-pic@img@src", "kind": "class.result-game-item-info-tag.1@tag.span.1@text", "lastChapter": "class.result-game-item-info-tag.3@tag.a@text", "name": "h3@a@span@text"}, "ruleToc": {"chapterList": "id.list@dd@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "http://www.biqujia.com/search.php?q={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "🎉 笔趣阁⑥",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.biqujia.com",
+    "bookUrlPattern": "",
+    "customOrder": -32372,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "img@src",
+      "intro": "id.intro@text",
+      "lastChapter": "id.info@tag.p.3@a@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.result-game-item-info-tag.0@tag.span.1@text",
+      "bookList": "class.result-item result-game-item",
+      "bookUrl": "h3@a@href",
+      "coverUrl": "class.result-game-item-pic@img@src",
+      "kind": "class.result-game-item-info-tag.1@tag.span.1@text",
+      "lastChapter": "class.result-game-item-info-tag.3@tag.a@text",
+      "name": "h3@a@span@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.biqujia.com/search.php?q={{key}}",
+    "weight": 0
+  }]

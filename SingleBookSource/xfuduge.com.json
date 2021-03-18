@@ -1,1 +1,42 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "腐读阁", "bookSourceType": 0, "bookSourceUrl": "http://www.xfuduge.com", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "奇幻·玄幻::http://www.xfuduge.com/category/?11-{{page}}.html\n武侠·仙侠::http://www.xfuduge.com/category/?22-{{page}}.html\n都市·青春::http://www.xfuduge.com/category/?33-{{page}}.html\n历史·穿越::http://www.xfuduge.com/category/?44-{{page}}.html\n游戏·竞技::http://www.xfuduge.com/category/?55-{{page}}.html\n耽美::http://www.xfuduge.com/category/?37791-{{page}}.html\nnull", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {}, "ruleContent": {"content": ".box_box@textNodes"}, "ruleExplore": {"author": ".author@text", "bookList": ".ul_m_list@li", "bookUrl": ".t@a@href##page##chapter", "kind": ".c@text&&.words@text&&.abover@text##\\[|\\]", "lastChapter": ".n@text", "name": ".t@text"}, "ruleSearch": {"author": ".state@tag.a.0@text", "bookList": "@js:\nimportClass(org.jsoup.Jsoup);\nvar url=baseUrl.replace(/=/,'');\nJsoup.connect(url).get().select('.SoList li')", "bookUrl": "tag.h2@tag.a.1@href@js:\nresult.replace(/page/,'chapter').replace(/=/,'')", "coverUrl": "img@src", "intro": ".jianjie@textNodes", "kind": "tag.h2@tag.a.0@text", "name": "tag.h2@tag.a.1@text"}, "ruleToc": {"chapterList": "id.booklistBox@li@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "http://www.xfuduge.com/so/?{{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "腐读阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xfuduge.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "奇幻·玄幻::http://www.xfuduge.com/category/?11-{{page}}.html\n武侠·仙侠::http://www.xfuduge.com/category/?22-{{page}}.html\n都市·青春::http://www.xfuduge.com/category/?33-{{page}}.html\n历史·穿越::http://www.xfuduge.com/category/?44-{{page}}.html\n游戏·竞技::http://www.xfuduge.com/category/?55-{{page}}.html\n耽美::http://www.xfuduge.com/category/?37791-{{page}}.html\nnull",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": ".box_box@textNodes"
+    },
+    "ruleExplore": {
+      "author": ".author@text",
+      "bookList": ".ul_m_list@li",
+      "bookUrl": ".t@a@href##page##chapter",
+      "kind": ".c@text&&.words@text&&.abover@text##\\[|\\]",
+      "lastChapter": ".n@text",
+      "name": ".t@text"
+    },
+    "ruleSearch": {
+      "author": ".state@tag.a.0@text",
+      "bookList": "@js:\nimportClass(org.jsoup.Jsoup);\nvar url=baseUrl.replace(/=/,'');\nJsoup.connect(url).get().select('.SoList li')",
+      "bookUrl": "tag.h2@tag.a.1@href@js:\nresult.replace(/page/,'chapter').replace(/=/,'')",
+      "coverUrl": "img@src",
+      "intro": ".jianjie@textNodes",
+      "kind": "tag.h2@tag.a.0@text",
+      "name": "tag.h2@tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.booklistBox@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.xfuduge.com/so/?{{key}}",
+    "weight": 0
+  }]

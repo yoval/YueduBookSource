@@ -1,1 +1,36 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "👍 六月中文网", "bookSourceType": 0, "bookSourceUrl": "http://www.6yzw.com", "bookUrlPattern": "", "customOrder": 15863, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.fm@tag.mip-img@src", "intro": "class.intro@text", "name": "class.article@tag.li.0@tag.h1@text"}, "ruleContent": {"content": "id.content@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.author@text", "bookList": "class.bookbox", "bookUrl": "class.bookname@tag.a.0@href", "coverUrl": "class.bookimg@tag.img@src", "name": "class.bookname@tag.a.0@text"}, "ruleToc": {"chapterList": "class.listmain@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.6yzw.com/s.php?ie=gbk&q={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "👍 六月中文网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.6yzw.com",
+    "bookUrlPattern": "",
+    "customOrder": 15863,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.fm@tag.mip-img@src",
+      "intro": "class.intro@text",
+      "name": "class.article@tag.li.0@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "class.bookbox",
+      "bookUrl": "class.bookname@tag.a.0@href",
+      "coverUrl": "class.bookimg@tag.img@src",
+      "name": "class.bookname@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.6yzw.com/s.php?ie=gbk&q={{key}}",
+    "weight": 0
+  }]

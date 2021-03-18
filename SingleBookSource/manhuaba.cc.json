@@ -1,1 +1,43 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎨 漫画吧", "bookSourceType": 0, "bookSourceUrl": "http://www.manhuaba.cc", "bookUrlPattern": "", "customOrder": -115834, "enabled": true, "enabledExplore": true, "exploreUrl": "日韩漫画::/rihan/{{page}}.html\n内地漫画::/neidi/{{page}}.html\n港台漫画::/gangntai/{{page}}.html\n完结::/wanjie/{{page}}.html\n连载中::/lianzai/{{page}}.html", "header": "{\n\"User-Agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36\"\n}", "lastUpdateTime": 1611562332023, "ruleBookInfo": {"author": "class.cy_xinxi.0@tag.a@text", "coverUrl": "class.cy_info_cover@img@src", "intro": "id.comic-description@text", "kind": "class.cy_xinxi@tag.span!0@text##", "lastChapter": "class.cy_zhangjie_top@tag.a@text", "name": "tag.h1@text"}, "ruleContent": {"content": "@js:\nvar html=result,\noptions={headers:{Referer:baseUrl}};\n\n(function getImgList() {\r\n    eval(html.match(/(var qTcms_Cur=[\\S\\s]+var qTcms_S_show_1=.*?;)/)[1]);\r\n    var list = java.base64Decode(qTcms_S_m_murl_e).split(\"\\\\$qingtiandy\\\\$\");\r\n    var piclist = new Array();\r\n    for (var i = 0; i < list.length; i++) {\n        var v = list[i];\r\n        var s = v;\r\n        if (v.substring(0, 1) == \"/\") {\r\n            s = qTcms_m_weburl + s;\r\n        } else {\r\n            if (qTcms_Pic_m_if != \"2\") {\r\n                v = v.replaceAll(\"\\\\?\", \"a1a1\");\r\n                v = v.replaceAll(\"&\", \"b1b1\");\r\n                v = v.replaceAll(\"%\", \"c1c1\");\r\n                var m_httpurl = \"\";\r\n                if (typeof(qTcms_S_m_mhttpurl) != \"undefined\") m_httpurl = java.base64Decode(qTcms_S_m_mhttpurl);\r\n        }\n}\r\n        piclist[i] =s;\r\n    }\r\n    return piclist;\r\n}()).map(uri=>\n'<img src=\"'+uri+'\">').join(\"\\n\")", "imageStyle": "FULL"}, "ruleExplore": {}, "ruleSearch": {"bookList": "class.cy_list_mh@tag.ul", "bookUrl": "tag.a.0@href", "coverUrl": "tag.img@src", "intro": "class.info@text", "kind": "class.biaoqian@tag.a@text", "lastChapter": "class.updata@tag.span@text", "name": "class.title@tag.a@text"}, "ruleToc": {"chapterList": "-id.play_0@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.manhuaba.cc/statics/search.aspx?key={{key}}&button=搜索&page={page}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎨 漫画吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.manhuaba.cc",
+    "bookUrlPattern": "",
+    "customOrder": -115834,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "日韩漫画::/rihan/{{page}}.html\n内地漫画::/neidi/{{page}}.html\n港台漫画::/gangntai/{{page}}.html\n完结::/wanjie/{{page}}.html\n连载中::/lianzai/{{page}}.html",
+    "header": "{\n\"User-Agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36\"\n}",
+    "lastUpdateTime": 1611562332023,
+    "ruleBookInfo": {
+      "author": "class.cy_xinxi.0@tag.a@text",
+      "coverUrl": "class.cy_info_cover@img@src",
+      "intro": "id.comic-description@text",
+      "kind": "class.cy_xinxi@tag.span!0@text##",
+      "lastChapter": "class.cy_zhangjie_top@tag.a@text",
+      "name": "tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "@js:\nvar html=result,\noptions={headers:{Referer:baseUrl}};\n\n(function getImgList() {\r\n    eval(html.match(/(var qTcms_Cur=[\\S\\s]+var qTcms_S_show_1=.*?;)/)[1]);\r\n    var list = java.base64Decode(qTcms_S_m_murl_e).split(\"\\\\$qingtiandy\\\\$\");\r\n    var piclist = new Array();\r\n    for (var i = 0; i < list.length; i++) {\n        var v = list[i];\r\n        var s = v;\r\n        if (v.substring(0, 1) == \"/\") {\r\n            s = qTcms_m_weburl + s;\r\n        } else {\r\n            if (qTcms_Pic_m_if != \"2\") {\r\n                v = v.replaceAll(\"\\\\?\", \"a1a1\");\r\n                v = v.replaceAll(\"&\", \"b1b1\");\r\n                v = v.replaceAll(\"%\", \"c1c1\");\r\n                var m_httpurl = \"\";\r\n                if (typeof(qTcms_S_m_mhttpurl) != \"undefined\") m_httpurl = java.base64Decode(qTcms_S_m_mhttpurl);\r\n        }\n}\r\n        piclist[i] =s;\r\n    }\r\n    return piclist;\r\n}()).map(uri=>\n'<img src=\"'+uri+'\">').join(\"\\n\")",
+      "imageStyle": "FULL"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.cy_list_mh@tag.ul",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.info@text",
+      "kind": "class.biaoqian@tag.a@text",
+      "lastChapter": "class.updata@tag.span@text",
+      "name": "class.title@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "-id.play_0@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.manhuaba.cc/statics/search.aspx?key={{key}}&button=搜索&page={page}",
+    "weight": 0
+  }]

@@ -1,1 +1,42 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 泡书吧②", "bookSourceType": 0, "bookSourceUrl": "http://m.xpaoshuba.cc", "bookUrlPattern": "", "customOrder": -115372, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1612771033896, "loginUrl": "", "ruleBookInfo": {"author": "class.lb_fm@text##.+作者：|\\s*类别：.*", "coverUrl": "class.lb_fm@img@src", "intro": "class.lb_jj@tag.div.3@text", "lastChapter": "class.lb_fm@a@text", "name": "class.t@text", "tocUrl": "class.lb_jj@text.查看全部章节@href"}, "ruleContent": {"content": "id.nr1@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.author@text##作者：", "bookList": "class.waps_one", "bookUrl": "tag.a.0@href", "coverUrl": "tag.a.0@href##/wapbook/(\\d+)(\\d{3}).html##http://www.xpaoshuba.cc/files/article/image/$1/$1$2/$1$2s.jpg", "kind": "class.waps_sort@text##\\(|\\)", "lastChapter": "tag.a.1@text", "name": "class.waps_name@a@text"}, "ruleToc": {"chapterList": "class.chapter@li@a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "class.page.0@text.下一页@href"}, "searchUrl": "http://m.xpaoshuba.cc/article/waps.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=articlename&searchkey={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 泡书吧②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.xpaoshuba.cc",
+    "bookUrlPattern": "",
+    "customOrder": -115372,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612771033896,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.lb_fm@text##.+作者：|\\s*类别：.*",
+      "coverUrl": "class.lb_fm@img@src",
+      "intro": "class.lb_jj@tag.div.3@text",
+      "lastChapter": "class.lb_fm@a@text",
+      "name": "class.t@text",
+      "tocUrl": "class.lb_jj@text.查看全部章节@href"
+    },
+    "ruleContent": {
+      "content": "id.nr1@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text##作者：",
+      "bookList": "class.waps_one",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##/wapbook/(\\d+)(\\d{3}).html##http://www.xpaoshuba.cc/files/article/image/$1/$1$2/$1$2s.jpg",
+      "kind": "class.waps_sort@text##\\(|\\)",
+      "lastChapter": "tag.a.1@text",
+      "name": "class.waps_name@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "class.page.0@text.下一页@href"
+    },
+    "searchUrl": "http://m.xpaoshuba.cc/article/waps.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=articlename&searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

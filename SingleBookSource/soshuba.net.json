@@ -1,1 +1,42 @@
-[{"bookSourceComment": "by YueDu-yu", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 搜书吧", "bookSourceType": 0, "bookSourceUrl": "https://www.soshuba.net", "customOrder": -115086, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1606908447698, "ruleBookInfo": {"author": "id.info@tag.p.0@tag.a@text", "coverUrl": "id.fmimg@tag.img@src", "intro": "id.intro@tag.p.0@text", "kind": "", "lastChapter": "id.info@tag.p.3@text", "name": "tag.h1@text", "tocUrl": ""}, "ruleContent": {"content": "id.content@html##喜欢.*请大家收藏.*"}, "ruleExplore": {}, "ruleSearch": {"author": "class.book_other.0@tag.span.0@text", "bookList": "id.sitembox@tag.dl", "bookUrl": "tag.h3@tag.a@href", "coverUrl": "tag.img@src", "intro": "class.book_des@text", "kind": "class.book_other.0@tag.span.1@text", "lastChapter": "class.book_other.1@tag.a@text", "name": "tag.h3@text", "wordCount": "class.book_other.0@tag.span.1@2"}, "ruleToc": {"chapterList": "@css: #list dt~dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "/search.html?searchkey={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "by YueDu-yu",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 搜书吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.soshuba.net",
+    "customOrder": -115086,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1606908447698,
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@tag.a@text",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@tag.p.0@text",
+      "kind": "",
+      "lastChapter": "id.info@tag.p.3@text",
+      "name": "tag.h1@text",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "id.content@html##喜欢.*请大家收藏.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.book_other.0@tag.span.0@text",
+      "bookList": "id.sitembox@tag.dl",
+      "bookUrl": "tag.h3@tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.book_des@text",
+      "kind": "class.book_other.0@tag.span.1@text",
+      "lastChapter": "class.book_other.1@tag.a@text",
+      "name": "tag.h3@text",
+      "wordCount": "class.book_other.0@tag.span.1@2"
+    },
+    "ruleToc": {
+      "chapterList": "@css: #list dt~dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search.html?searchkey={{key}}",
+    "weight": 0
+  }]

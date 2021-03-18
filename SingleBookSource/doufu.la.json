@@ -1,1 +1,47 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "💵 豆腐阅读", "bookSourceType": 0, "bookSourceUrl": "http://api.doufu.la", "customOrder": -117505, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1607509150883, "loginUrl": "http://api.doufu.la/member/user_login", "ruleBookInfo": {"author": "$.data.topic.author", "coverUrl": "$.images[0].path", "kind": "$.tags[0].name&&$.tags[2].name&&$.tags[1].name&&$.tags[3].name", "name": "$.data.topic.title", "tocUrl": "http://api.doufu.la/index.php/novel/chapter_list?novel_id={$.data.topic.id}"}, "ruleContent": {"content": "$.data.detail.des"}, "ruleExplore": {"author": "$.author", "bookList": "$.data[*]", "bookUrl": "http://api.doufu.la/topic/novel?topic_id={$.id}", "coverUrl": "$.images[0].path", "intro": "$.des", "kind": "$.tags[0].name&&$.tags[2].name&&$.tags[1].name&&$.tags[3].name", "name": "$.title"}, "ruleSearch": {"author": "$.author", "bookList": "$.data[*]", "bookUrl": "http://api.doufu.la/topic/novel?topic_id={$.id}", "coverUrl": "$.images[0].path", "intro": "$.des", "kind": "$.tags[0].name&&$.tags[2].name&&$.tags[1].name&&$.tags[3].name", "name": "$.title"}, "ruleToc": {"chapterList": "$.data.list", "chapterName": "$.title", "chapterUrl": "http://api.doufu.la/index.php/post/view/{$.id}?with_ids=1&type=read"}, "searchUrl": "http://api.doufu.la/search/content?keyword={{key}}&start=0&rows=20&types=18&order=&is_finished=&vip=", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "💵 豆腐阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://api.doufu.la",
+    "customOrder": -117505,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1607509150883,
+    "loginUrl": "http://api.doufu.la/member/user_login",
+    "ruleBookInfo": {
+      "author": "$.data.topic.author",
+      "coverUrl": "$.images[0].path",
+      "kind": "$.tags[0].name&&$.tags[2].name&&$.tags[1].name&&$.tags[3].name",
+      "name": "$.data.topic.title",
+      "tocUrl": "http://api.doufu.la/index.php/novel/chapter_list?novel_id={$.data.topic.id}"
+    },
+    "ruleContent": {
+      "content": "$.data.detail.des"
+    },
+    "ruleExplore": {
+      "author": "$.author",
+      "bookList": "$.data[*]",
+      "bookUrl": "http://api.doufu.la/topic/novel?topic_id={$.id}",
+      "coverUrl": "$.images[0].path",
+      "intro": "$.des",
+      "kind": "$.tags[0].name&&$.tags[2].name&&$.tags[1].name&&$.tags[3].name",
+      "name": "$.title"
+    },
+    "ruleSearch": {
+      "author": "$.author",
+      "bookList": "$.data[*]",
+      "bookUrl": "http://api.doufu.la/topic/novel?topic_id={$.id}",
+      "coverUrl": "$.images[0].path",
+      "intro": "$.des",
+      "kind": "$.tags[0].name&&$.tags[2].name&&$.tags[1].name&&$.tags[3].name",
+      "name": "$.title"
+    },
+    "ruleToc": {
+      "chapterList": "$.data.list",
+      "chapterName": "$.title",
+      "chapterUrl": "http://api.doufu.la/index.php/post/view/{$.id}?with_ids=1&type=read"
+    },
+    "searchUrl": "http://api.doufu.la/search/content?keyword={{key}}&start=0&rows=20&types=18&order=&is_finished=&vip=",
+    "weight": 0
+  }]

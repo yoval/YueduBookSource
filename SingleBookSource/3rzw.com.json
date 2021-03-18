@@ -1,1 +1,35 @@
-[{"bookSourceComment": "error:Unable to resolve host \"www.3rzw.com\": No address associated with hostname\n", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 3Z小说网", "bookSourceType": 0, "bookSourceUrl": "http://www.3rzw.com", "customOrder": -32125, "enabled": true, "enabledExplore": true, "exploreUrl": "都市言情::http://www.3rzw.com/3_{{page}}/\n玄幻魔法::http://www.3rzw.com/1_{{page}}/\n武侠修真::http://www.3rzw.com/2_{{page}}/\n耽美同人::http://www.3rzw.com/5_{{page}}/\n历史军事::http://www.3rzw.com/7_{{page}}/\n最新更新::http://www.3rzw.com/lastupdate_{{page}}/\n最新更新::http://www.3rzw.com/postdate_{{page}}/\n最近更新::http://www.3rzw.com/lastupdate_{{page}}/\n最新新书::http://www.3rzw.com/postdate_{{page}}/\n日点击榜::http://www.3rzw.com/dayvisit_{{page}}/\n周点击榜::http://www.3rzw.com/weekvisit_{{page}}/\n月点击榜::http://www.3rzw.com/monthvisit_{{page}}/\n总点击榜::http://www.3rzw.com/allvote_{{page}}/\n日榜::http://www.3rzw.com/dayvote_{{page}}/\n周榜::http://www.3rzw.com/weekvote_{{page}}/\n月榜::http://www.3rzw.com/monthvote_{{page}}/\n总榜::http://www.3rzw.com/allvote_{{page}}/\n字数排行::http://www.3rzw.com/size_{{page}}/\n总收藏榜::http://www.3rzw.com/goodnum_{{page}}/", "lastUpdateTime": 1602769703356, "ruleBookInfo": {"intro": "class.nr@textNodes", "tocUrl": "@css:a:contains(开始阅读)@href"}, "ruleContent": {"content": "id.content@tag.p.0@textNodes##\\(网.*|tar.*\\)"}, "ruleExplore": {}, "ruleSearch": {"author": "class.title@tag.span.0@text", "bookList": "//div[@id='alistbox']", "bookUrl": "text.开始阅读@href", "coverUrl": "tag.img@src", "lastChapter": "class.sys@tag.a.0@text", "name": "class.title@tag.h2@tag.a@text"}, "ruleToc": {"chapterList": "id.defaulthtml4@class.dccss", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.3rzw.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:Unable to resolve host \"www.3rzw.com\": No address associated with hostname\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 3Z小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.3rzw.com",
+    "customOrder": -32125,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "都市言情::http://www.3rzw.com/3_{{page}}/\n玄幻魔法::http://www.3rzw.com/1_{{page}}/\n武侠修真::http://www.3rzw.com/2_{{page}}/\n耽美同人::http://www.3rzw.com/5_{{page}}/\n历史军事::http://www.3rzw.com/7_{{page}}/\n最新更新::http://www.3rzw.com/lastupdate_{{page}}/\n最新更新::http://www.3rzw.com/postdate_{{page}}/\n最近更新::http://www.3rzw.com/lastupdate_{{page}}/\n最新新书::http://www.3rzw.com/postdate_{{page}}/\n日点击榜::http://www.3rzw.com/dayvisit_{{page}}/\n周点击榜::http://www.3rzw.com/weekvisit_{{page}}/\n月点击榜::http://www.3rzw.com/monthvisit_{{page}}/\n总点击榜::http://www.3rzw.com/allvote_{{page}}/\n日榜::http://www.3rzw.com/dayvote_{{page}}/\n周榜::http://www.3rzw.com/weekvote_{{page}}/\n月榜::http://www.3rzw.com/monthvote_{{page}}/\n总榜::http://www.3rzw.com/allvote_{{page}}/\n字数排行::http://www.3rzw.com/size_{{page}}/\n总收藏榜::http://www.3rzw.com/goodnum_{{page}}/",
+    "lastUpdateTime": 1602769703356,
+    "ruleBookInfo": {
+      "intro": "class.nr@textNodes",
+      "tocUrl": "@css:a:contains(开始阅读)@href"
+    },
+    "ruleContent": {
+      "content": "id.content@tag.p.0@textNodes##\\(网.*|tar.*\\)"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.title@tag.span.0@text",
+      "bookList": "//div[@id='alistbox']",
+      "bookUrl": "text.开始阅读@href",
+      "coverUrl": "tag.img@src",
+      "lastChapter": "class.sys@tag.a.0@text",
+      "name": "class.title@tag.h2@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.defaulthtml4@class.dccss",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.3rzw.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

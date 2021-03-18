@@ -1,1 +1,37 @@
-[{"bookSourceComment": "error:搜索内容为空并且没有发现\n", "bookSourceGroup": "我的书源", "bookSourceName": "💵 有乐中文[手机]", "bookSourceType": 0, "bookSourceUrl": "http://m.iyoule.com", "bookUrlPattern": "", "customOrder": -33971, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1602662325555, "loginUrl": "http://m.iyoule.com/yonghu/denglu.html", "ruleBookInfo": {"intro": "@js:java.get('Intro')"}, "ruleContent": {"content": "id.readtext@p@text@js:result || ' 付费章节，换源阅读！'"}, "ruleExplore": {}, "ruleSearch": {"author": "author", "bookList": "@js:;eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\\\b'+e(c)+'\\\\b','g'),k[c]);return p}('2 q=k(l.m(/n=([^&=]+)/)[1]);2 c=d p(\\'(\\'+q.4(/\\\\s/g,\\'\\').r(\\'\\').u(e(a,w,i,b){f(i<b.x-1){a.y(b[i]+b[i+1])}8 a},[]).z(\\'|\\')+\\')\\');e 9(a){8!c.A(a.4(/\\\\s/g,\\'\\'))}B.C(D).E.F(0,3).G(o=>{2 5=o.H;2 6=o.6;f(9(5)&&9(6))8{};2 7=o.7;8{5:5,6:6,I:[o.J,o.K,o.L==1?\\'完结\\':\\'连载\\'],M:(o.N||o.O)+\\'（\\'+d P(Q(o.R||o.S)*U).V().4(/T.+/,\\'\\')+\\'）\\',W:o.X||\\'h://Y.Z/10\\',7:7.4(/[\\\\s\\\\t]+/g,\\'\\'),11:\\'<j>\\'+7.4(/[\\\\s\\\\t]+/g,\\'<j>\\'),12:\\'h://13.14.15/16/\\'+o.17+\\'/\\'}}).18(v=>v.5);',62,71,'||var||replace|name|author|intro|return|isInvalid|||regex|new|function|if||http||br|decodeURIComponent|baseUrl|match|keyword||RegExp||split|||reduce||_|length|push|join|test|JSON|parse|result|books|slice|map|catename|tags|charnum|classname|lzinfo|last|last_vipupdatechptitle|last_updatechptitle|Date|Number|last_vipupdatetime|last_updatetime||1000|toISOString|cover|img_uri|uee|me|bNkEy|Intro|url|www|iyoule|com|book|bid|filter'.split('|'),0,{}));", "bookUrl": "url", "coverUrl": "cover", "intro": "intro@put:{Intro:$.Intro}@js:result.trim()", "kind": "tags", "lastChapter": "last", "name": "name"}, "ruleToc": {"chapterList": ".menu li:not(.juanline)@js:var O=[\"8.9().b(1=>{3 0=c(1.2('a').0()).d();e(!0)4{};3 5=1.2('f').g('h');4{0:(5?'🔒':'')+0,6:1.2('a').i('6')}}).j(7=>7.0);\",\"|\",\"split\",\"text|li|select|var|return|isVip|href|v|result|toArray||map|String|trim|if|span|hasClass|lock|attr|filter\",\"replace\",\"\",\"\\\\w+\",\"\\\\b\",\"g\"];eval(function(r,t,n,e,i,b){if(i=function(r){return r.toString(20)},!O[5][O[4]](/^/,String)){for(;n--;)b[i(n)]=e[n]||i(n);e=[function(r){return b[r]}],i=function(){return O[6]},n=1}for(;n--;)e[n]&&(r=r[O[4]](new RegExp(O[7]+i(n)+O[7],O[8]),e[n]));return r}(O[0],0,20,O[3][O[2]](O[1]),0,{}));", "chapterName": "$.text", "chapterUrl": "$.href"}, "searchUrl": "/fenlei/0.html?act=loaddata&pclassids=0&classids=0&keyword={{key}}&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=3&like_flag=&pagenum=1", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "💵 有乐中文[手机]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.iyoule.com",
+    "bookUrlPattern": "",
+    "customOrder": -33971,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1602662325555,
+    "loginUrl": "http://m.iyoule.com/yonghu/denglu.html",
+    "ruleBookInfo": {
+      "intro": "@js:java.get('Intro')"
+    },
+    "ruleContent": {
+      "content": "id.readtext@p@text@js:result || ' 付费章节，换源阅读！'"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "author",
+      "bookList": "@js:;eval(function(p,a,c,k,e,r){e=function(c){return(c<a?'':e(parseInt(c/a)))+((c=c%a)>35?String.fromCharCode(c+29):c.toString(36))};if(!''.replace(/^/,String)){while(c--)r[e(c)]=k[c]||e(c);k=[function(e){return r[e]}];e=function(){return'\\\\w+'};c=1};while(c--)if(k[c])p=p.replace(new RegExp('\\\\b'+e(c)+'\\\\b','g'),k[c]);return p}('2 q=k(l.m(/n=([^&=]+)/)[1]);2 c=d p(\\'(\\'+q.4(/\\\\s/g,\\'\\').r(\\'\\').u(e(a,w,i,b){f(i<b.x-1){a.y(b[i]+b[i+1])}8 a},[]).z(\\'|\\')+\\')\\');e 9(a){8!c.A(a.4(/\\\\s/g,\\'\\'))}B.C(D).E.F(0,3).G(o=>{2 5=o.H;2 6=o.6;f(9(5)&&9(6))8{};2 7=o.7;8{5:5,6:6,I:[o.J,o.K,o.L==1?\\'完结\\':\\'连载\\'],M:(o.N||o.O)+\\'（\\'+d P(Q(o.R||o.S)*U).V().4(/T.+/,\\'\\')+\\'）\\',W:o.X||\\'h://Y.Z/10\\',7:7.4(/[\\\\s\\\\t]+/g,\\'\\'),11:\\'<j>\\'+7.4(/[\\\\s\\\\t]+/g,\\'<j>\\'),12:\\'h://13.14.15/16/\\'+o.17+\\'/\\'}}).18(v=>v.5);',62,71,'||var||replace|name|author|intro|return|isInvalid|||regex|new|function|if||http||br|decodeURIComponent|baseUrl|match|keyword||RegExp||split|||reduce||_|length|push|join|test|JSON|parse|result|books|slice|map|catename|tags|charnum|classname|lzinfo|last|last_vipupdatechptitle|last_updatechptitle|Date|Number|last_vipupdatetime|last_updatetime||1000|toISOString|cover|img_uri|uee|me|bNkEy|Intro|url|www|iyoule|com|book|bid|filter'.split('|'),0,{}));",
+      "bookUrl": "url",
+      "coverUrl": "cover",
+      "intro": "intro@put:{Intro:$.Intro}@js:result.trim()",
+      "kind": "tags",
+      "lastChapter": "last",
+      "name": "name"
+    },
+    "ruleToc": {
+      "chapterList": ".menu li:not(.juanline)@js:var O=[\"8.9().b(1=>{3 0=c(1.2('a').0()).d();e(!0)4{};3 5=1.2('f').g('h');4{0:(5?'🔒':'')+0,6:1.2('a').i('6')}}).j(7=>7.0);\",\"|\",\"split\",\"text|li|select|var|return|isVip|href|v|result|toArray||map|String|trim|if|span|hasClass|lock|attr|filter\",\"replace\",\"\",\"\\\\w+\",\"\\\\b\",\"g\"];eval(function(r,t,n,e,i,b){if(i=function(r){return r.toString(20)},!O[5][O[4]](/^/,String)){for(;n--;)b[i(n)]=e[n]||i(n);e=[function(r){return b[r]}],i=function(){return O[6]},n=1}for(;n--;)e[n]&&(r=r[O[4]](new RegExp(O[7]+i(n)+O[7],O[8]),e[n]));return r}(O[0],0,20,O[3][O[2]](O[1]),0,{}));",
+      "chapterName": "$.text",
+      "chapterUrl": "$.href"
+    },
+    "searchUrl": "/fenlei/0.html?act=loaddata&pclassids=0&classids=0&keyword={{key}}&keywordtype=1&free=0&finish=0&charnum=0&updatetime=0&order=1&copyright=1&pagesize=3&like_flag=&pagenum=1",
+    "weight": 0
+  }]

@@ -1,1 +1,48 @@
-[{"bookSourceComment": "error:List is empty.\n", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 手打书吧", "bookSourceType": 0, "bookSourceUrl": "https://m.shoudashu.com/", "bookUrlPattern": "", "customOrder": -31881, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻魔法::/sort/1_{{page}}/\n仙侠修真::/sort/2_{{page}}/\n都市言情::/sort/3_{{page}}/\n历史军事::/sort/4_{{page}}/\n网游小说::/sort/5_{{page}}/\n科幻小说::/sort/6_{{page}}/\n灵异小说::/sort/7_{{page}}/\n耽美小说::/sort/8_{{page}}/\n", "header": "Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Mobile Safari/537.36 Edg/86.0.622.38", "lastUpdateTime": 1603021536840, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.tu@img@src", "intro": "class.p2@text", "kind": "class.tab1@tag.p@text", "lastChapter": "class.p3@tag.a@text"}, "ruleContent": {"content": "id.novelcontent@textNodes", "nextContentUrl": "class.page_chapter@tag.ul@tag.li.3@tag.a@href"}, "ruleExplore": {"author": "class.p4@tag.a@text", "bookList": "class.tt", "bookUrl": "class.p1@tag.a@href", "coverUrl": "class.left@tag.a@img@src", "intro": "class.p5@text", "name": "class.p1@tag.a@text"}, "ruleSearch": {"author": "class.search_list@tag.a.2@text", "bookList": "class.search_box@tag.p", "bookUrl": "tag.a.0@href", "kind": "class.search_list@tag.a.1@text", "name": "class.search_list@tag.a.0@text"}, "ruleToc": {"chapterList": "class.info_chapters@tag.ul.1@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "nextTocUrl": "class.right@tag.a@href"}, "searchUrl": "https://m.shoudashu.com/s.php,{\n\"method\": \"post\",\n\"body\": \"s={{key}}&type=articlename\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 手打书吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.shoudashu.com/",
+    "bookUrlPattern": "",
+    "customOrder": -31881,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/sort/1_{{page}}/\n仙侠修真::/sort/2_{{page}}/\n都市言情::/sort/3_{{page}}/\n历史军事::/sort/4_{{page}}/\n网游小说::/sort/5_{{page}}/\n科幻小说::/sort/6_{{page}}/\n灵异小说::/sort/7_{{page}}/\n耽美小说::/sort/8_{{page}}/\n",
+    "header": "Mozilla/5.0 (Linux; Android 8.0.0; Pixel 2 XL Build/OPD1.170816.004) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/86.0.4240.75 Mobile Safari/537.36 Edg/86.0.622.38",
+    "lastUpdateTime": 1603021536840,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.tu@img@src",
+      "intro": "class.p2@text",
+      "kind": "class.tab1@tag.p@text",
+      "lastChapter": "class.p3@tag.a@text"
+    },
+    "ruleContent": {
+      "content": "id.novelcontent@textNodes",
+      "nextContentUrl": "class.page_chapter@tag.ul@tag.li.3@tag.a@href"
+    },
+    "ruleExplore": {
+      "author": "class.p4@tag.a@text",
+      "bookList": "class.tt",
+      "bookUrl": "class.p1@tag.a@href",
+      "coverUrl": "class.left@tag.a@img@src",
+      "intro": "class.p5@text",
+      "name": "class.p1@tag.a@text"
+    },
+    "ruleSearch": {
+      "author": "class.search_list@tag.a.2@text",
+      "bookList": "class.search_box@tag.p",
+      "bookUrl": "tag.a.0@href",
+      "kind": "class.search_list@tag.a.1@text",
+      "name": "class.search_list@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.info_chapters@tag.ul.1@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "class.right@tag.a@href"
+    },
+    "searchUrl": "https://m.shoudashu.com/s.php,{\n\"method\": \"post\",\n\"body\": \"s={{key}}&type=articlename\"\n}",
+    "weight": 0
+  }]

@@ -1,1 +1,64 @@
-[{"bookSourceComment": "error:org.mozilla.javascript.EcmaError: TypeError: Cannot call method \"replace\" of undefined (<Unknown source>#1) in <Unknown source> at line number 1\n", "bookSourceGroup": "我的书源", "bookSourceName": "💵 速更中文", "bookSourceType": 0, "bookSourceUrl": "https://api.foreader.com.cn", "bookUrlPattern": "", "customOrder": -33952, "enabled": true, "enabledExplore": true, "exploreUrl": "", "header": "", "lastUpdateTime": 1603292531215, "loginUrl": "https://m.foreader.com.cn/#/login", "ruleBookInfo": {"author": "", "coverUrl": "", "init": "", "intro": "book.description##^\\s*##<br>", "kind": "", "lastChapter": "", "name": "", "tocUrl": "/books/{{$.book.bid}}/chapters", "wordCount": ""}, "ruleContent": {"content": "@js:(result && !baseUrl.includes('tickets')) ? result : '这是付费章节哦！\\n'", "nextContentUrl": "", "sourceRegex": "", "webJs": ""}, "ruleExplore": {"author": "", "bookList": "", "bookUrl": "", "coverUrl": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "wordCount": ""}, "ruleSearch": {"author": "$.authors[0]", "bookList": "*", "bookUrl": "/books/{$.bid}/detail", "coverUrl": "poster", "intro": "description@put:{intro:$.description,bid:$.bid}@js:result.trim()", "kind": "$.categories[0]", "lastChapter": "https://api.foreader.com.cn/books/{$.bid}/detail@js:\nJSON.parse(java.ajax(result)).latestChapterTip.replace(/.+\\//, '').trim()##[\\(（].*[求更谢乐发推].*[）\\)]", "name": "$.title##.*：|_.*_.*", "wordCount": "{$.wordCount}字"}, "ruleToc": {"chapterList": "*", "chapterName": "$.title##[\\(（].*[求更谢乐发推].*[）\\)]", "chapterUrl": "$.url", "isVip": "!$.free", "nextTocUrl": "", "updateTime": ""}, "searchUrl": "/books/search/{{key}}?offset={{page}}&limit=10", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:org.mozilla.javascript.EcmaError: TypeError: Cannot call method \"replace\" of undefined (<Unknown source>#1) in <Unknown source> at line number 1\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "💵 速更中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://api.foreader.com.cn",
+    "bookUrlPattern": "",
+    "customOrder": -33952,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1603292531215,
+    "loginUrl": "https://m.foreader.com.cn/#/login",
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "",
+      "init": "",
+      "intro": "book.description##^\\s*##<br>",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": "/books/{{$.book.bid}}/chapters",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "@js:(result && !baseUrl.includes('tickets')) ? result : '这是付费章节哦！\\n'",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "$.authors[0]",
+      "bookList": "*",
+      "bookUrl": "/books/{$.bid}/detail",
+      "coverUrl": "poster",
+      "intro": "description@put:{intro:$.description,bid:$.bid}@js:result.trim()",
+      "kind": "$.categories[0]",
+      "lastChapter": "https://api.foreader.com.cn/books/{$.bid}/detail@js:\nJSON.parse(java.ajax(result)).latestChapterTip.replace(/.+\\//, '').trim()##[\\(（].*[求更谢乐发推].*[）\\)]",
+      "name": "$.title##.*：|_.*_.*",
+      "wordCount": "{$.wordCount}字"
+    },
+    "ruleToc": {
+      "chapterList": "*",
+      "chapterName": "$.title##[\\(（].*[求更谢乐发推].*[）\\)]",
+      "chapterUrl": "$.url",
+      "isVip": "!$.free",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "/books/search/{{key}}?offset={{page}}&limit=10",
+    "weight": 0
+  }]

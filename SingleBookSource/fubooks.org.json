@@ -1,1 +1,43 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🍑 腐书网", "bookSourceType": 0, "bookSourceUrl": "http://m.fubooks.org", "customOrder": -116095, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1612409458933, "ruleBookInfo": {"author": "class.author@tag.a.0@text", "coverUrl": "[property=\"og:image\"]@content", "intro": "[name=\"description\"]@content", "kind": "class.author@tag.a.1@text", "lastChapter": "class@new@tag.text", "name": "class.name@text", "tocUrl": "class.now@tag.a@href", "wordCount": "class.detail@tag.span.1@text"}, "ruleContent": {"content": "class.content@tag.p!-1@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.data.0@tag.a.0@text", "bookList": "class.list@tag.li", "bookUrl": "tag.a@href", "coverUrl": "tag.img@src", "intro": "class.intro@text", "kind": "class.data@tag.span@text", "lastChapter": "class.data.1@tag.a@text", "name": "tag.a.1@text"}, "ruleToc": {"chapterList": "class.read@tag.li@tag.a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "class.pagelist@tag.option@value"}, "searchUrl": "http://m.fubooks.org/search.html,{\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍑 腐书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.fubooks.org",
+    "customOrder": -116095,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612409458933,
+    "ruleBookInfo": {
+      "author": "class.author@tag.a.0@text",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[name=\"description\"]@content",
+      "kind": "class.author@tag.a.1@text",
+      "lastChapter": "class@new@tag.text",
+      "name": "class.name@text",
+      "tocUrl": "class.now@tag.a@href",
+      "wordCount": "class.detail@tag.span.1@text"
+    },
+    "ruleContent": {
+      "content": "class.content@tag.p!-1@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.data.0@tag.a.0@text",
+      "bookList": "class.list@tag.li",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.intro@text",
+      "kind": "class.data@tag.span@text",
+      "lastChapter": "class.data.1@tag.a@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.read@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "class.pagelist@tag.option@value"
+    },
+    "searchUrl": "http://m.fubooks.org/search.html,{\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

@@ -1,1 +1,65 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🔰 七猫读书", "bookSourceType": 0, "bookSourceUrl": "https://www.ygbqtl.com", "bookUrlPattern": "", "customOrder": -114773, "enabled": true, "enabledExplore": true, "exploreUrl": "奇幻::/yg/18.html?page={{page}}\n武侠::/yg/19.html?page={{page}}\n历史::/yg/20.html?page={{page}}\n都市::/yg/21.html?page={{page}}\n科幻::/yg/22.html?page={{page}}\n悬疑::/yg/23.html?page={{page}}\n游戏::/yg/34.html?page={{page}}\n其他::/yg/35.html?page={{page}}", "header": "", "lastUpdateTime": 1605103648406, "loginUrl": "", "ruleBookInfo": {"author": "[property=\"og:novel:author\"]@content", "coverUrl": "class.info1@tag.img@src", "init": "", "intro": "[property=\"og:description\"]@content##\\/(.|\\n)*", "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content", "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content", "name": "[property=\"og:novel:book_name\"]@content", "tocUrl": "", "wordCount": "[property=\"og:novel:update_time\"]@content"}, "ruleContent": {"content": "class.txt@html##天才一秒钟.*", "imageStyle": "0", "nextContentUrl": "text.下一章@href", "sourceRegex": "", "webJs": ""}, "ruleExplore": {"author": "class.book_author@tag.a@text", "bookList": "class.panel-body@class.col-lg-6 col-sm-6  col-md-6 col-sm-index", "bookUrl": "class.media-heading book-title@tag.a@href", "coverUrl": "tag.img@src", "intro": "class.book-intro-index@text##\\[点击阅读\\]", "kind": "", "lastChapter": "", "name": "class.media-heading book-title@tag.a@text", "wordCount": ""}, "ruleSearch": {"author": "tag.a.1@text", "bookList": "class.bookcon@tag.tr!0", "bookUrl": "tag.a.0@href", "coverUrl": "", "intro": "", "kind": "tag.p.3@text", "lastChapter": "", "name": "tag.a.0@text", "wordCount": "tag.p.2@text"}, "ruleToc": {"chapterList": "class.list-group list-charts.0@tag.li@tag.a", "chapterName": "text", "chapterUrl": "href", "isVip": "", "nextTocUrl": "", "updateTime": ""}, "searchUrl": "/search.html?searchkey={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🔰 七猫读书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ygbqtl.com",
+    "bookUrlPattern": "",
+    "customOrder": -114773,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "奇幻::/yg/18.html?page={{page}}\n武侠::/yg/19.html?page={{page}}\n历史::/yg/20.html?page={{page}}\n都市::/yg/21.html?page={{page}}\n科幻::/yg/22.html?page={{page}}\n悬疑::/yg/23.html?page={{page}}\n游戏::/yg/34.html?page={{page}}\n其他::/yg/35.html?page={{page}}",
+    "header": "",
+    "lastUpdateTime": 1605103648406,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "class.info1@tag.img@src",
+      "init": "",
+      "intro": "[property=\"og:description\"]@content##\\/(.|\\n)*",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "",
+      "wordCount": "[property=\"og:novel:update_time\"]@content"
+    },
+    "ruleContent": {
+      "content": "class.txt@html##天才一秒钟.*",
+      "imageStyle": "0",
+      "nextContentUrl": "text.下一章@href",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "class.book_author@tag.a@text",
+      "bookList": "class.panel-body@class.col-lg-6 col-sm-6  col-md-6 col-sm-index",
+      "bookUrl": "class.media-heading book-title@tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.book-intro-index@text##\\[点击阅读\\]",
+      "kind": "",
+      "lastChapter": "",
+      "name": "class.media-heading book-title@tag.a@text",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "tag.a.1@text",
+      "bookList": "class.bookcon@tag.tr!0",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "tag.p.3@text",
+      "lastChapter": "",
+      "name": "tag.a.0@text",
+      "wordCount": "tag.p.2@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list-group list-charts.0@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "/search.html?searchkey={{key}}",
+    "weight": 0
+  }]

@@ -1,1 +1,36 @@
-[{"bookSourceComment": "error:搜索内容为空并且没有发现\n", "bookSourceGroup": "我的书源", "bookSourceName": "🍺 新笔下文学", "bookSourceType": 0, "bookSourceUrl": "https://www.xbxwx.net-By Dark", "customOrder": -32866, "enabled": true, "enabledExplore": true, "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}", "lastUpdateTime": 1603357564795, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.xsyd_right2-2@tag.img.0@src", "intro": "class.xsyd_right2-7@textNodes", "tocUrl": "class.xsyd_right2-9@tag.a.0@href"}, "ruleContent": {"content": "class.xsyd_xx_right2-4@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.search_right2-2.1@text||class.xsyd_right2-3@tag.a.0@text", "bookList": "class.search_right2@tag.tr!0||class.xsyd_right", "bookUrl": "class.search_right2-2.0@tag.a@href", "lastChapter": "class.search_right2-3@tag.a@text||class.xsyd_right2-10-2@tag.a.0@text", "name": "class.search_right2-2.0@tag.a@text||class.xsyd_right2-1-1@tag.a.0@text##最新章节"}, "ruleToc": {"chapterList": "class.xsyd_ml_2@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.xbxwx.net/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍺 新笔下文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xbxwx.net-By Dark",
+    "customOrder": -32866,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
+    "lastUpdateTime": 1603357564795,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.xsyd_right2-2@tag.img.0@src",
+      "intro": "class.xsyd_right2-7@textNodes",
+      "tocUrl": "class.xsyd_right2-9@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "class.xsyd_xx_right2-4@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.search_right2-2.1@text||class.xsyd_right2-3@tag.a.0@text",
+      "bookList": "class.search_right2@tag.tr!0||class.xsyd_right",
+      "bookUrl": "class.search_right2-2.0@tag.a@href",
+      "lastChapter": "class.search_right2-3@tag.a@text||class.xsyd_right2-10-2@tag.a.0@text",
+      "name": "class.search_right2-2.0@tag.a@text||class.xsyd_right2-1-1@tag.a.0@text##最新章节"
+    },
+    "ruleToc": {
+      "chapterList": "class.xsyd_ml_2@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.xbxwx.net/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

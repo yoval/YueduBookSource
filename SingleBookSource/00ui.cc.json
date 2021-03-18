@@ -1,1 +1,40 @@
-[{"bookSourceComment": "error:Connection reset\n", "bookSourceGroup": "我的书源", "bookSourceName": "🍒 00有爱", "bookSourceType": 0, "bookSourceUrl": "http://www.00ui.cc", "bookUrlPattern": "", "customOrder": -116650, "enabled": true, "enabledExplore": true, "exploreUrl": "", "lastUpdateTime": 1604983642600, "loginUrl": "", "ruleBookInfo": {"author": "//meta[@property=\"og:novel:author\"]/@content", "coverUrl": "//meta[@property=\"og:image\"]/@content", "intro": "//meta[@property=\"og:description\"]/@content", "lastChapter": "//*[@property=\"og:novel:latest_chapter_name\"]/@content", "name": "//meta[@property=\"og:novel:book_name\"]/@content", "tocUrl": "text.打开完整目录列表@href"}, "ruleContent": {"content": "id.content@html##一秒记住.*"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@text", "bookList": "class.grid searall@tag.tr!0", "bookUrl": "class.odd.0@tag.a.0@href", "lastChapter": "class.even.0@tag.a.0@text", "name": "class.odd.0@tag.a.0@text"}, "ruleToc": {"chapterList": "id.readerlist@tag.li@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "http://www.00ui.cc/modules/article/search.php?searchtype=articlename&searchkey={{key}}&action=login&submit= ,{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:Connection reset\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍒 00有爱",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.00ui.cc",
+    "bookUrlPattern": "",
+    "customOrder": -116650,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "lastUpdateTime": 1604983642600,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "//meta[@property=\"og:novel:author\"]/@content",
+      "coverUrl": "//meta[@property=\"og:image\"]/@content",
+      "intro": "//meta[@property=\"og:description\"]/@content",
+      "lastChapter": "//*[@property=\"og:novel:latest_chapter_name\"]/@content",
+      "name": "//meta[@property=\"og:novel:book_name\"]/@content",
+      "tocUrl": "text.打开完整目录列表@href"
+    },
+    "ruleContent": {
+      "content": "id.content@html##一秒记住.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid searall@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "lastChapter": "class.even.0@tag.a.0@text",
+      "name": "class.odd.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.readerlist@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.00ui.cc/modules/article/search.php?searchtype=articlename&searchkey={{key}}&action=login&submit= ,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

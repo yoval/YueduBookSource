@@ -1,1 +1,41 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,刘备书源", "bookSourceName": "🚬 七情小说", "bookSourceType": 0, "bookSourceUrl": "http://www.7qing7.com", "customOrder": 24578, "enabled": true, "enabledExplore": true, "exploreUrl": "本日热读::http://www.7qing7.com/rank/day-1.html\n本周热读::http://www.7qing7.com/rank/week-1.html\n本月热读::http://www.7qing7.com/rank/month-1.html\n总阅读排行::http://www.7qing7.com/rank/total-1.html\nnull", "lastUpdateTime": 0, "ruleBookInfo": {"author": "class.p2.0@text##.*作者：|\\s+最新.*", "coverUrl": "class.p_list10@tag.img@src", "intro": "class.text1@text", "name": "class.a1@tag.h1@text", "tocUrl": "text.查看目录@href"}, "ruleContent": {"content": "id.chaptercontent@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.pl_s2@text##\\s+最新.*", "bookList": "tag.ul!0@li", "bookUrl": "class.pl_s1@tag.a@href", "coverUrl": "tag.img@src", "intro": "class.pl_s4@text", "kind": "class.pl_s1@text##].*|\\[", "lastChapter": "class.pl_s2@text##.*：", "name": "class.pl_s1@text##.*]"}, "ruleToc": {"chapterList": "class.t_list6@tag.ul@li@a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "##<a href=\"([^\"]*)\">\\s+&gt;\\s+</a>##$1###"}, "searchUrl": "http://www.7qing7.com/search.html?k={{key}},{\n  \"charset\": \"utf-8\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,刘备书源",
+    "bookSourceName": "🚬 七情小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.7qing7.com",
+    "customOrder": 24866,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "本日热读::http://www.7qing7.com/rank/day-1.html\n本周热读::http://www.7qing7.com/rank/week-1.html\n本月热读::http://www.7qing7.com/rank/month-1.html\n总阅读排行::http://www.7qing7.com/rank/total-1.html\nnull",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "class.p2.0@text##.*作者：|\\s+最新.*",
+      "coverUrl": "class.p_list10@tag.img@src",
+      "intro": "class.text1@text",
+      "name": "class.a1@tag.h1@text",
+      "tocUrl": "text.查看目录@href"
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.pl_s2@text##\\s+最新.*",
+      "bookList": "tag.ul!0@li",
+      "bookUrl": "class.pl_s1@tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.pl_s4@text",
+      "kind": "class.pl_s1@text##].*|\\[",
+      "lastChapter": "class.pl_s2@text##.*：",
+      "name": "class.pl_s1@text##.*]"
+    },
+    "ruleToc": {
+      "chapterList": "class.t_list6@tag.ul@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "##<a href=\"([^\"]*)\">\\s+&gt;\\s+</a>##$1###"
+    },
+    "searchUrl": "http://www.7qing7.com/search.html?k={{key}},{\n  \"charset\": \"utf-8\"\n}",
+    "weight": 0
+  }]

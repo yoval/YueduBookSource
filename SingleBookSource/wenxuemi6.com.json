@@ -1,1 +1,64 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 文学迷", "bookSourceType": 0, "bookSourceUrl": "https://www.wenxuemi6.com", "bookUrlPattern": "", "customOrder": -31853, "enabled": true, "enabledExplore": true, "exploreUrl": "", "header": "", "lastUpdateTime": 1603002142375, "loginUrl": "", "ruleBookInfo": {"author": "id.info@p.0@text##作者：", "coverUrl": "id.fmimg@img@src", "init": "", "intro": "id.intro@text", "kind": "class.con_top@a.1@text", "lastChapter": "id.info@a.-1@text", "name": "id.info@h1@text", "tocUrl": "", "wordCount": "id.info@p.2@text##最后更新："}, "ruleContent": {"content": "id.content@html", "nextContentUrl": "", "sourceRegex": "", "webJs": ""}, "ruleExplore": {"author": "", "bookList": "", "bookUrl": "", "coverUrl": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "wordCount": ""}, "ruleSearch": {"author": "class.result-game-item-info-tag.0@tag.span.1@text", "bookList": "class.result-item result-game-item", "bookUrl": "class.result-item-title result-game-item-title@tag.a@href", "coverUrl": "class.result-game-item-pic@img@src", "intro": "class.result-game-item-desc@text", "kind": "class.result-game-item-info-tag.1@tag.span.1@text", "lastChapter": "class.result-game-item-info-tag.3@tag.a@text", "name": "class.result-item-title result-game-item-title@tag.a@text", "wordCount": "class.result-game-item-info-tag-title.4@text"}, "ruleToc": {"chapterList": "id.list@dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "isVip": "", "nextTocUrl": "", "updateTime": ""}, "searchUrl": "https://www.wenxuemi6.com/search.php?q={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 文学迷",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.wenxuemi6.com",
+    "bookUrlPattern": "",
+    "customOrder": -31853,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1603002142375,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@p.0@text##作者：",
+      "coverUrl": "id.fmimg@img@src",
+      "init": "",
+      "intro": "id.intro@text",
+      "kind": "class.con_top@a.1@text",
+      "lastChapter": "id.info@a.-1@text",
+      "name": "id.info@h1@text",
+      "tocUrl": "",
+      "wordCount": "id.info@p.2@text##最后更新："
+    },
+    "ruleContent": {
+      "content": "id.content@html",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.result-game-item-info-tag.0@tag.span.1@text",
+      "bookList": "class.result-item result-game-item",
+      "bookUrl": "class.result-item-title result-game-item-title@tag.a@href",
+      "coverUrl": "class.result-game-item-pic@img@src",
+      "intro": "class.result-game-item-desc@text",
+      "kind": "class.result-game-item-info-tag.1@tag.span.1@text",
+      "lastChapter": "class.result-game-item-info-tag.3@tag.a@text",
+      "name": "class.result-item-title result-game-item-title@tag.a@text",
+      "wordCount": "class.result-game-item-info-tag-title.4@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "https://www.wenxuemi6.com/search.php?q={{key}}",
+    "weight": 0
+  }]

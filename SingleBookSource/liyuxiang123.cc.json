@@ -1,1 +1,50 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "鲤鱼乡", "bookSourceType": 0, "bookSourceUrl": "http://www.liyuxiang123.cc", "bookUrlPattern": "", "customOrder": 10036, "enabled": false, "enabledExplore": true, "exploreUrl": "近代现代::/sort1/{{page}}/\n古代架空::/sort2/{{page}}/\n穿越重生::/sort3/{{page}}/\n玄幻灵异::/sort4/{{page}}/\n推理悬疑::/sort5/{{page}}/\n网游竞技::/sort6/{{page}}/\nbl同人::/sort7/{{page}}/\ngl百合::/sort8/{{page}}/\n全本::/modules/article/articlelist.php?fullflag=1&page={{page}}", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": ".infotitle@text##.+作者.|最后.+", "coverUrl": ".img_in@img@src", "intro": "id.aboutbook@text", "kind": "id.srcbox@a!0:2@text", "lastChapter": ".zjbox@tag.a.-1@text", "name": "h1@text"}, "ruleContent": {"content": "id.content@html##鲤鱼乡123最新地址|http.*?123.com"}, "ruleExplore": {"author": "span@text##作者：", "bookList": "id.alistbox", "bookUrl": "tag.a.0@href", "coverUrl": "img@src", "intro": ".intro@text##^.+[0-9]\\s*上传", "kind": "##字数：([^<]*)<\\/li>##$1字###", "name": "h2@text##《|》"}, "ruleSearch": {"author": "tag.td.2@text", "bookList": ".grid@tr!0", "bookUrl": "a!1@href", "coverUrl": "a!1@href##.*read\\/(\\d*)(\\d{3})\\/##/files/article/image/$1/$1$2/$1$2s.jpg", "kind": "td!0:1:2@text", "lastChapter": "a!0@text", "name": "a!1@text"}, "ruleToc": {"chapterList": "+.zjbox@dd@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "/modules/article/search.php?searchtype=articlename&searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "鲤鱼乡",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.liyuxiang123.cc",
+    "bookUrlPattern": "",
+    "customOrder": 10036,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "近代现代::/sort1/{{page}}/\n古代架空::/sort2/{{page}}/\n穿越重生::/sort3/{{page}}/\n玄幻灵异::/sort4/{{page}}/\n推理悬疑::/sort5/{{page}}/\n网游竞技::/sort6/{{page}}/\nbl同人::/sort7/{{page}}/\ngl百合::/sort8/{{page}}/\n全本::/modules/article/articlelist.php?fullflag=1&page={{page}}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": ".infotitle@text##.+作者.|最后.+",
+      "coverUrl": ".img_in@img@src",
+      "intro": "id.aboutbook@text",
+      "kind": "id.srcbox@a!0:2@text",
+      "lastChapter": ".zjbox@tag.a.-1@text",
+      "name": "h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html##鲤鱼乡123最新地址|http.*?123.com"
+    },
+    "ruleExplore": {
+      "author": "span@text##作者：",
+      "bookList": "id.alistbox",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@src",
+      "intro": ".intro@text##^.+[0-9]\\s*上传",
+      "kind": "##字数：([^<]*)<\\/li>##$1字###",
+      "name": "h2@text##《|》"
+    },
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": ".grid@tr!0",
+      "bookUrl": "a!1@href",
+      "coverUrl": "a!1@href##.*read\\/(\\d*)(\\d{3})\\/##/files/article/image/$1/$1$2/$1$2s.jpg",
+      "kind": "td!0:1:2@text",
+      "lastChapter": "a!0@text",
+      "name": "a!1@text"
+    },
+    "ruleToc": {
+      "chapterList": "+.zjbox@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php?searchtype=articlename&searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 一起看[防盗字体]", "bookSourceType": 0, "bookSourceUrl": "https://www.zmtcsy.com", "customOrder": -115495, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1612782396290, "ruleBookInfo": {"author": ".info2@h3@a@text", "coverUrl": ".info1@img@src", "intro": ".info2@tag.div.-1@text", "name": ".info2@h1@text"}, "ruleContent": {"content": "@js:\nresult=result.replace(/天才一秒钟.*?小说网站[!！]/,\"\");\ndoc=org.jsoup.Jsoup.parse(result).select(\"#txt\");\ndoc.select(\"h1\").remove();\ndoc.html()+'---->下一页';", "nextContentUrl": "text.下一章@href", "replaceRegex": "##\\s*---->下一页\\s*|.*这本小说的最新章节您已经读完了[\\s\\S]+|(追更务必下载本站小说|下载APP阅读优势：)[\\s\\S]+"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.a.1@text", "bookList": "tbody@tr!0", "bookUrl": "tag.a.0@href", "lastChapter": "tag.p.-2@text", "name": "tag.a.0@text"}, "ruleToc": {"chapterList": "class.list-charts.0@li@a||class.panel-chapterlist@dd@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.zmtcsy.com/search.html?keyword={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 一起看[防盗字体]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.zmtcsy.com",
+    "customOrder": -115495,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612782396290,
+    "ruleBookInfo": {
+      "author": ".info2@h3@a@text",
+      "coverUrl": ".info1@img@src",
+      "intro": ".info2@tag.div.-1@text",
+      "name": ".info2@h1@text"
+    },
+    "ruleContent": {
+      "content": "@js:\nresult=result.replace(/天才一秒钟.*?小说网站[!！]/,\"\");\ndoc=org.jsoup.Jsoup.parse(result).select(\"#txt\");\ndoc.select(\"h1\").remove();\ndoc.html()+'---->下一页';",
+      "nextContentUrl": "text.下一章@href",
+      "replaceRegex": "##\\s*---->下一页\\s*|.*这本小说的最新章节您已经读完了[\\s\\S]+|(追更务必下载本站小说|下载APP阅读优势：)[\\s\\S]+"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.1@text",
+      "bookList": "tbody@tr!0",
+      "bookUrl": "tag.a.0@href",
+      "lastChapter": "tag.p.-2@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list-charts.0@li@a||class.panel-chapterlist@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.zmtcsy.com/search.html?keyword={{key}}",
+    "weight": 0
+  }]

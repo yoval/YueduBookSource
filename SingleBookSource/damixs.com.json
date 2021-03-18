@@ -1,1 +1,48 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 大米小说", "bookSourceType": 0, "bookSourceUrl": "https://www.damixs.com", "customOrder": -115693, "enabled": true, "enabledExplore": true, "exploreUrl": "书库全部::/shuku?page={{page}}\n玄幻奇幻::/xuanhuan?page={{page}}\n武侠仙侠::/xianxia?page={{page}}\n都市言情::/dushi?page={{page}}\n历史军事::/lishi?page={{page}}\n游戏竞技::/wangyou?page={{page}}\n科幻灵异::/kehuan?page={{page}}\n其他类型::/qita?page={{page}}\n完本小说::/quanben?page={{page}}", "lastUpdateTime": 1612819168902, "ruleBookInfo": {"author": "class.booktag@tag.a.0@text", "coverUrl": "class.img-thumbnail@tag.img.0@src", "intro": "id.bookIntro@tag.p.0@text##.*简介：", "kind": "class.booktag@tag.a.1@text&&class.booktag@tag.span.2@text&&class.booktag@tag.span.0@text##字数：", "lastChapter": "class.text-danger@tag.a.0@text", "name": "class.bookTitle@tag.h1@text"}, "ruleContent": {"content": "id.htmlContent@p@html##▧.*▧"}, "ruleExplore": {"author": "class.text-muted.1@text", "bookList": "class.mytable@tag.tr!0", "bookUrl": "tag.a.0@href", "kind": "class.hidden-xs.1@text&&class.text-nowrap@text", "lastChapter": "class.text-muted.0@tag.a.0@text", "name": "tag.a.0@text"}, "ruleSearch": {"author": "class.booktag@tag.a.0@text", "bookList": "class.panel-body@tag.div!0:1", "bookUrl": "tag.a@href", "coverUrl": "class.thumbnail@tag.img.0@src", "intro": "id.bookIntro@tag.p.0@text##.*简介：", "kind": "class.visible-xs@tag.p.0@text##更新时间：", "lastChapter": "class.text-danger@tag.a.0@text", "name": "class.bookTitle@tag.h4@text"}, "ruleToc": {"chapterList": "class.panel-chapterlist!0@tag.dd@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "/search?keyword={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 大米小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.damixs.com",
+    "customOrder": -115693,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "书库全部::/shuku?page={{page}}\n玄幻奇幻::/xuanhuan?page={{page}}\n武侠仙侠::/xianxia?page={{page}}\n都市言情::/dushi?page={{page}}\n历史军事::/lishi?page={{page}}\n游戏竞技::/wangyou?page={{page}}\n科幻灵异::/kehuan?page={{page}}\n其他类型::/qita?page={{page}}\n完本小说::/quanben?page={{page}}",
+    "lastUpdateTime": 1612819168902,
+    "ruleBookInfo": {
+      "author": "class.booktag@tag.a.0@text",
+      "coverUrl": "class.img-thumbnail@tag.img.0@src",
+      "intro": "id.bookIntro@tag.p.0@text##.*简介：",
+      "kind": "class.booktag@tag.a.1@text&&class.booktag@tag.span.2@text&&class.booktag@tag.span.0@text##字数：",
+      "lastChapter": "class.text-danger@tag.a.0@text",
+      "name": "class.bookTitle@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@p@html##▧.*▧"
+    },
+    "ruleExplore": {
+      "author": "class.text-muted.1@text",
+      "bookList": "class.mytable@tag.tr!0",
+      "bookUrl": "tag.a.0@href",
+      "kind": "class.hidden-xs.1@text&&class.text-nowrap@text",
+      "lastChapter": "class.text-muted.0@tag.a.0@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "class.booktag@tag.a.0@text",
+      "bookList": "class.panel-body@tag.div!0:1",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "class.thumbnail@tag.img.0@src",
+      "intro": "id.bookIntro@tag.p.0@text##.*简介：",
+      "kind": "class.visible-xs@tag.p.0@text##更新时间：",
+      "lastChapter": "class.text-danger@tag.a.0@text",
+      "name": "class.bookTitle@tag.h4@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.panel-chapterlist!0@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search?keyword={{key}}",
+    "weight": 0
+  }]

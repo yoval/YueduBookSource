@@ -1,1 +1,39 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 闪舞文学", "bookSourceType": 0, "bookSourceUrl": "https://www.shanwuwx.com", "customOrder": -115118, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1612773343928, "ruleBookInfo": {"author": "id.info@tag.a.0@text", "coverUrl": "id.fmimg@img@src", "intro": "id.intro@p!1@text", "lastChapter": "id.info@tag.a.4@text", "name": "h1@text"}, "ruleContent": {"content": "id.content@p!-1@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.span.0@text", "bookList": "id.sitembox@dl", "bookUrl": "a@href", "coverUrl": "img@src", "intro": ".book_des@text", "kind": "span!0:1@text##\\s.*", "lastChapter": ".book_other@a@text", "name": "h3@text"}, "ruleToc": {"chapterList": "//*[@id=\"list\"]//dt[2]/following-sibling::dd/a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchtype=all&searchkey={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 闪舞文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.shanwuwx.com",
+    "customOrder": -115118,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612773343928,
+    "ruleBookInfo": {
+      "author": "id.info@tag.a.0@text",
+      "coverUrl": "id.fmimg@img@src",
+      "intro": "id.intro@p!1@text",
+      "lastChapter": "id.info@tag.a.4@text",
+      "name": "h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@p!-1@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.span.0@text",
+      "bookList": "id.sitembox@dl",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "intro": ".book_des@text",
+      "kind": "span!0:1@text##\\s.*",
+      "lastChapter": ".book_other@a@text",
+      "name": "h3@text"
+    },
+    "ruleToc": {
+      "chapterList": "//*[@id=\"list\"]//dt[2]/following-sibling::dd/a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchtype=all&searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

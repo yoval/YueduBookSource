@@ -1,1 +1,46 @@
-[{"bookSourceComment": "阅读后面的章节需要登录\n章节无标题，通过下一页重新合并排序", "bookSourceGroup": "我的书源,刘备书源", "bookSourceName": "🚬 易读", "bookSourceType": 0, "bookSourceUrl": "https://yidubk.com", "bookUrlPattern": "", "customOrder": 24394, "enabled": true, "enabledExplore": true, "exploreUrl": "书库::/artlist_{{page}}.html\n排行::/weeksort_{{page}}.html\n完本::/artc_0_{{page}}.html\n推荐::/goodbook_{{page}}.html\n\n杂谈::/artc_1_{{page}}.html\n同行::/artc_9_{{page}}.html\n舞文::/artc_2_{{page}}.html\n情感::/artc_4_{{page}}.html\n\n历史::/artc_8_{{page}}.html\n商道::/artc_6_{{page}}.html\n军事::/artc_7_{{page}}.html\n鬼话::/artc_3_{{page}}.html\n\n奇幻::/artc_5_{{page}}.html", "header": "", "lastUpdateTime": 1612491033172, "loginUrl": "https://yidubk.com/login.html", "ruleBookInfo": {"author": "", "canReName": "true", "kind": "class.TA@text##\\s|.*分类\\:", "name": ""}, "ruleContent": {"content": "class.ART@html", "nextContentUrl": "text.下一页@href||text.下一节@href", "replaceRegex": "##日期：.*"}, "ruleExplore": {"author": "class.b_auth@text", "bookList": "class.b_row", "bookUrl": "class.b_read@tag.a@href", "kind": "class.b_artc@text&&class.b_staus@text", "name": "class.b_title Good@text||class.b_title@text##《|》"}, "ruleSearch": {"author": "tag.td.1@text", "bookList": "tag.table.2@tag.tr", "bookUrl": "tag.a.0@href", "name": "tag.a.0@text##《|》"}, "ruleToc": {"chapterList": "tag.table.3@tag.tbody@tag.tr@tag.td@tag.a.0", "chapterName": "@js:'　'", "chapterUrl": "href"}, "searchUrl": "/search.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"key={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "阅读后面的章节需要登录\n章节无标题，通过下一页重新合并排序",
+    "bookSourceGroup": "我的书源,刘备书源",
+    "bookSourceName": "🚬 易读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://yidubk.com",
+    "bookUrlPattern": "",
+    "customOrder": 24682,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "书库::/artlist_{{page}}.html\n排行::/weeksort_{{page}}.html\n完本::/artc_0_{{page}}.html\n推荐::/goodbook_{{page}}.html\n\n杂谈::/artc_1_{{page}}.html\n同行::/artc_9_{{page}}.html\n舞文::/artc_2_{{page}}.html\n情感::/artc_4_{{page}}.html\n\n历史::/artc_8_{{page}}.html\n商道::/artc_6_{{page}}.html\n军事::/artc_7_{{page}}.html\n鬼话::/artc_3_{{page}}.html\n\n奇幻::/artc_5_{{page}}.html",
+    "header": "",
+    "lastUpdateTime": 1612491033172,
+    "loginUrl": "https://yidubk.com/login.html",
+    "ruleBookInfo": {
+      "author": "",
+      "canReName": "true",
+      "kind": "class.TA@text##\\s|.*分类\\:",
+      "name": ""
+    },
+    "ruleContent": {
+      "content": "class.ART@html",
+      "nextContentUrl": "text.下一页@href||text.下一节@href",
+      "replaceRegex": "##日期：.*"
+    },
+    "ruleExplore": {
+      "author": "class.b_auth@text",
+      "bookList": "class.b_row",
+      "bookUrl": "class.b_read@tag.a@href",
+      "kind": "class.b_artc@text&&class.b_staus@text",
+      "name": "class.b_title Good@text||class.b_title@text##《|》"
+    },
+    "ruleSearch": {
+      "author": "tag.td.1@text",
+      "bookList": "tag.table.2@tag.tr",
+      "bookUrl": "tag.a.0@href",
+      "name": "tag.a.0@text##《|》"
+    },
+    "ruleToc": {
+      "chapterList": "tag.table.3@tag.tbody@tag.tr@tag.td@tag.a.0",
+      "chapterName": "@js:'　'",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"key={{key}}\"\n}",
+    "weight": 0
+  }]

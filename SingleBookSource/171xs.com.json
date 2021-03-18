@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "171小说网手机版", "bookSourceType": 0, "bookSourceUrl": "http://m.171xs.com", "bookUrlPattern": "", "customOrder": 1, "enabled": true, "enabledExplore": false, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "class.con.0@tag.span.0@text##作者：", "intro": "class.des@text", "lastChapter": "class.con.1@tag.dl@tag.dd.0@a@text", "name": "class.round.0@tag.h3@a@text"}, "ruleContent": {"content": "class.con@p@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.con@tag.span.0@text##作者：", "bookList": "id.searchinfo@class.round", "bookUrl": "tag.h3@a@href", "intro": "class.des@text", "kind": "class.con@tag.span.1@text", "name": "tag.h3@a@text"}, "ruleToc": {"chapterList": "id.g@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://m.171xs.com/s/?wd={{key}}&p=searckPage,{\n  \"charset\": \"utf8\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "171小说网手机版",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.171xs.com",
+    "bookUrlPattern": "",
+    "customOrder": 1,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.con.0@tag.span.0@text##作者：",
+      "intro": "class.des@text",
+      "lastChapter": "class.con.1@tag.dl@tag.dd.0@a@text",
+      "name": "class.round.0@tag.h3@a@text"
+    },
+    "ruleContent": {
+      "content": "class.con@p@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.con@tag.span.0@text##作者：",
+      "bookList": "id.searchinfo@class.round",
+      "bookUrl": "tag.h3@a@href",
+      "intro": "class.des@text",
+      "kind": "class.con@tag.span.1@text",
+      "name": "tag.h3@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.g@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://m.171xs.com/s/?wd={{key}}&p=searckPage,{\n  \"charset\": \"utf8\"\n}",
+    "weight": 0
+  }]

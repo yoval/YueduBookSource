@@ -1,1 +1,53 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🍑 美文网[仅发现]", "bookSourceType": 0, "bookSourceUrl": "http://www.365mww.com", "customOrder": -31119, "enabled": true, "enabledExplore": true, "exploreUrl": "现代耽美::/book/xddm/<,index_{{page}}.html>\n古代架空::/book/gdjk/<,index_{{page}}.html>\n穿越重生::/book/cycs/<,index_{{page}}.html>\n玄幻仙侠::/book/xhxx/<,index_{{page}}.html>\n灵异推理::/book/lytl/<,index_{{page}}.html>\n科幻网游::/book/khwy/<,index_{{page}}.html>\n海外耽美::/book/hwdm/<,index_{{page}}.html>\nＢＬ同人::/book/bl/<,index_{{page}}.html>\nＧＬ百合::/book/gl/<,index_{{page}}.html>", "lastUpdateTime": 1602937037150, "ruleBookInfo": {"author": "", "coverUrl": "class.titlepic@tag.img.0@src", "init": "", "intro": "id.xxinfo@textNodes##\\*本文系(.|\\n)* ", "kind": "class.cont@tag.a.1@text&&class.state@text&&class.cont@tag.li.4@text##发布时间.", "name": "", "wordCount": "##小说大小：([^<]+)<##$1###"}, "ruleContent": {"content": "id.view_content_txt@tag.p@text", "imageStyle": "0"}, "ruleExplore": {"author": "class.c1@tag.a.0@text", "bookList": "class.ll@tag.li", "bookUrl": "tag.a.0@href", "coverUrl": "tag.img@src", "intro": "tag.p@textNodes", "kind": "##更新：([^<]+)<##$1###", "name": "h1@tag.a.0@text##\\《|\\》.*", "wordCount": "##大小：([^<]+)<##$1###"}, "ruleSearch": {"author": "tag.p@text##.*作者.|大小.*", "bookList": "class.lls@tag.li", "bookUrl": "h1@tag.a@href", "coverUrl": "tag.img@src", "intro": "tag.p@textNodes", "kind": "tag.a.2@text&&tag.p@text##.*更新.", "lastChapter": "", "name": "h1@tag.a@text", "wordCount": "tag.p@text##.*大小.|类别.*"}, "ruleToc": {"chapterList": "class.pl2@tag.li@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "/e/search/index.php,{\n  \"charset\": \"gb2312\",\n  \"method\": \"POST\",\n  \"body\": \"keyboard={{key}}&show=title&classid=0\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍑 美文网[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.365mww.com",
+    "customOrder": -31119,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "现代耽美::/book/xddm/<,index_{{page}}.html>\n古代架空::/book/gdjk/<,index_{{page}}.html>\n穿越重生::/book/cycs/<,index_{{page}}.html>\n玄幻仙侠::/book/xhxx/<,index_{{page}}.html>\n灵异推理::/book/lytl/<,index_{{page}}.html>\n科幻网游::/book/khwy/<,index_{{page}}.html>\n海外耽美::/book/hwdm/<,index_{{page}}.html>\nＢＬ同人::/book/bl/<,index_{{page}}.html>\nＧＬ百合::/book/gl/<,index_{{page}}.html>",
+    "lastUpdateTime": 1602937037150,
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "class.titlepic@tag.img.0@src",
+      "init": "",
+      "intro": "id.xxinfo@textNodes##\\*本文系(.|\\n)* ",
+      "kind": "class.cont@tag.a.1@text&&class.state@text&&class.cont@tag.li.4@text##发布时间.",
+      "name": "",
+      "wordCount": "##小说大小：([^<]+)<##$1###"
+    },
+    "ruleContent": {
+      "content": "id.view_content_txt@tag.p@text",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "author": "class.c1@tag.a.0@text",
+      "bookList": "class.ll@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "intro": "tag.p@textNodes",
+      "kind": "##更新：([^<]+)<##$1###",
+      "name": "h1@tag.a.0@text##\\《|\\》.*",
+      "wordCount": "##大小：([^<]+)<##$1###"
+    },
+    "ruleSearch": {
+      "author": "tag.p@text##.*作者.|大小.*",
+      "bookList": "class.lls@tag.li",
+      "bookUrl": "h1@tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "tag.p@textNodes",
+      "kind": "tag.a.2@text&&tag.p@text##.*更新.",
+      "lastChapter": "",
+      "name": "h1@tag.a@text",
+      "wordCount": "tag.p@text##.*大小.|类别.*"
+    },
+    "ruleToc": {
+      "chapterList": "class.pl2@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/e/search/index.php,{\n  \"charset\": \"gb2312\",\n  \"method\": \"POST\",\n  \"body\": \"keyboard={{key}}&show=title&classid=0\"\n}",
+    "weight": 0
+  }]

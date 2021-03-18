@@ -1,1 +1,42 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 去读书", "bookSourceType": 0, "bookSourceUrl": "http://m.qudushu.com", "customOrder": -115482, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻魔法::http://m.qudushu.com/sort/1/{{page}}.html&&武侠修真::http://m.qudushu.com/sort/2/{{page}}.html&&都市言情::http://m.qudushu.com/sort/3/{{page}}.html&&历史军事::http://m.qudushu.com/sort/4/{{page}}.html&&侦探推理::http://m.qudushu.com/sort/5/{{page}}.html&&网游动漫::http://m.qudushu.com/sort/6/{{page}}.html&&科幻小说::http://m.qudushu.com/sort/7/{{page}}.html&&恐怖灵异::http://m.qudushu.com/sort/8/{{page}}.html&&言情小说::http://m.qudushu.com/sort/9/{{page}}.html&&其他类型::http://m.qudushu.com/sort/10/{{page}}.html&&经        部::http://m.qudushu.com/sort/11/{{page}}.html&&史        书::http://m.qudushu.com/sort/12/{{page}}.html&&集        部::http://m.qudushu.com/sort/14/{{page}}.html&&子        部::http://m.qudushu.com/sort/13/{{page}}.html&&四库之外::http://m.qudushu.com/sort/15/{{page}}.html&&古典书籍::http://m.qudushu.com/sort/16/{{page}}.html&&诗        歌::http://m.qudushu.com/sort/17/{{page}}.html&&宋         词::http://m.qudushu.com/sort/18/{{page}}.html", "lastUpdateTime": 1612606527663, "ruleBookInfo": {}, "ruleContent": {"content": ".novelcontent@html##（本章未完，请点击下一页继续阅读）|(下|上)一章|返回目录|加入书签|(第|)[两一二三四五六七八九十百千万(楔子)\\d]+.*?\\(第\\d+/\\d+页\\)", "nextContentUrl": "text.下一章@href"}, "ruleExplore": {"author": ".author@text", "bookList": "@css:div.article", "bookUrl": "tag.a.1@href@js:result.replace('book','html')\n+'asc-1/'", "coverUrl": "img@src", "intro": ".simple@textNodes", "name": "h6@text"}, "ruleSearch": {"author": "tag.a.1@text", "bookList": "@css:p.sone", "bookUrl": "tag.a.0@href", "coverUrl": "tag.a.0@href@js:var id = result.match(/html\\/(\\d+)\\//)[1];\nxid=Math.floor(id/1000);\n'http://www.qudushu.com/files/article/image/'+xid+'/'+id+'/'+id+'s.jpg'", "intro": "", "name": "tag.a.0@text"}, "ruleToc": {"chapterList": "class.list_xm.1@ul@li@a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "@js:var regex = /value=\"(\\/html\\/\\d+\\/asc-\\d+\\/)\" /g;\nvar match;\nvar list = [];\nwhile ((match = regex.exec(result)) != null) {\nlist.push(match[1])};\nlist", "updateTime": ""}, "searchUrl": "http://m.qudushu.com/modules/article/search.php?q={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 去读书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.qudushu.com",
+    "customOrder": -115482,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::http://m.qudushu.com/sort/1/{{page}}.html&&武侠修真::http://m.qudushu.com/sort/2/{{page}}.html&&都市言情::http://m.qudushu.com/sort/3/{{page}}.html&&历史军事::http://m.qudushu.com/sort/4/{{page}}.html&&侦探推理::http://m.qudushu.com/sort/5/{{page}}.html&&网游动漫::http://m.qudushu.com/sort/6/{{page}}.html&&科幻小说::http://m.qudushu.com/sort/7/{{page}}.html&&恐怖灵异::http://m.qudushu.com/sort/8/{{page}}.html&&言情小说::http://m.qudushu.com/sort/9/{{page}}.html&&其他类型::http://m.qudushu.com/sort/10/{{page}}.html&&经        部::http://m.qudushu.com/sort/11/{{page}}.html&&史        书::http://m.qudushu.com/sort/12/{{page}}.html&&集        部::http://m.qudushu.com/sort/14/{{page}}.html&&子        部::http://m.qudushu.com/sort/13/{{page}}.html&&四库之外::http://m.qudushu.com/sort/15/{{page}}.html&&古典书籍::http://m.qudushu.com/sort/16/{{page}}.html&&诗        歌::http://m.qudushu.com/sort/17/{{page}}.html&&宋         词::http://m.qudushu.com/sort/18/{{page}}.html",
+    "lastUpdateTime": 1612606527663,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": ".novelcontent@html##（本章未完，请点击下一页继续阅读）|(下|上)一章|返回目录|加入书签|(第|)[两一二三四五六七八九十百千万(楔子)\\d]+.*?\\(第\\d+/\\d+页\\)",
+      "nextContentUrl": "text.下一章@href"
+    },
+    "ruleExplore": {
+      "author": ".author@text",
+      "bookList": "@css:div.article",
+      "bookUrl": "tag.a.1@href@js:result.replace('book','html')\n+'asc-1/'",
+      "coverUrl": "img@src",
+      "intro": ".simple@textNodes",
+      "name": "h6@text"
+    },
+    "ruleSearch": {
+      "author": "tag.a.1@text",
+      "bookList": "@css:p.sone",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href@js:var id = result.match(/html\\/(\\d+)\\//)[1];\nxid=Math.floor(id/1000);\n'http://www.qudushu.com/files/article/image/'+xid+'/'+id+'/'+id+'s.jpg'",
+      "intro": "",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list_xm.1@ul@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "@js:var regex = /value=\"(\\/html\\/\\d+\\/asc-\\d+\\/)\" /g;\nvar match;\nvar list = [];\nwhile ((match = regex.exec(result)) != null) {\nlist.push(match[1])};\nlist",
+      "updateTime": ""
+    },
+    "searchUrl": "http://m.qudushu.com/modules/article/search.php?q={{key}}",
+    "weight": 0
+  }]

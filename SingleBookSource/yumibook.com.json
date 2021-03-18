@@ -1,1 +1,36 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🔰 玉米小说网", "bookSourceType": 0, "bookSourceUrl": "https://m.yumibook.com", "customOrder": -114597, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1605183406656, "ruleBookInfo": {"tocUrl": "text.目录.0@href"}, "ruleContent": {"content": "class.row row-book-column-4 row-book-content@textNodes##狂♂人.*r|\\(|狂∫.*Kr|\\]|手机端阅读.*更好资源。。。。|♂", "nextContentUrl": "text.下一页.0@href"}, "ruleExplore": {}, "ruleSearch": {"author": "class.pull-left novel-author@text", "bookList": "class.row row-book-single", "bookUrl": "class.novel-title@tag.a@href", "coverUrl": "class.col-xs-3@tag.a@tag.img@src", "intro": "class.novel-desc@tag.a@text", "kind": "class.pull-right novel-tag@tag.a.1@text", "name": "class.novel-title@tag.a@text"}, "ruleToc": {"chapterList": "class.list-group-item list-group-item-ext", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "text.下一页@href"}, "searchUrl": "https://m.yumibook.com/book/search.html?q={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🔰 玉米小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.yumibook.com",
+    "customOrder": -114597,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1605183406656,
+    "ruleBookInfo": {
+      "tocUrl": "text.目录.0@href"
+    },
+    "ruleContent": {
+      "content": "class.row row-book-column-4 row-book-content@textNodes##狂♂人.*r|\\(|狂∫.*Kr|\\]|手机端阅读.*更好资源。。。。|♂",
+      "nextContentUrl": "text.下一页.0@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.pull-left novel-author@text",
+      "bookList": "class.row row-book-single",
+      "bookUrl": "class.novel-title@tag.a@href",
+      "coverUrl": "class.col-xs-3@tag.a@tag.img@src",
+      "intro": "class.novel-desc@tag.a@text",
+      "kind": "class.pull-right novel-tag@tag.a.1@text",
+      "name": "class.novel-title@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list-group-item list-group-item-ext",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://m.yumibook.com/book/search.html?q={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

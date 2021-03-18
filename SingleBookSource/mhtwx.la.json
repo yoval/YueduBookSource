@@ -1,1 +1,52 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🍅棉花糖", "bookSourceType": 0, "bookSourceUrl": "http://www.mhtwx.la", "customOrder": 10778, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻魔法::/mulu/1-{{page}}.html\n武侠修真::/mulu/2-{{page}}.html\n都市言情::/mulu/3-{{page}}.html\n历史军事::/mulu/4-{{page}}.html\n侦探推理::/mulu/5-{{page}}.html\n网游动漫::/mulu/6-{{page}}.html\n科幻小说::/mulu/7-{{page}}.html\n恐怖灵异::/mulu/8-{{page}}.html\n同人小说::/mulu/9-{{page}}.html\n穿越小说::/mulu/10-{{page}}.html", "lastUpdateTime": 1606326944723, "ruleBookInfo": {"author": "[name=\"og:novel:author\"]@content", "coverUrl": "[property=\"og:image\"]@content", "intro": "id.intro@textNodes", "kind": "[name=\"og:novel:category\"]@content&&[name=\"og:novel:status\"]@content&&[name=\"og:novel:update_time\"]@content", "lastChapter": "[name=\"og:novel:latest_chapter_name\"]@content", "name": "[name=\"og:novel:book_name\"]@content", "tocUrl": "", "wordCount": ""}, "ruleContent": {"content": "class.content@html##最新网址.*|下载本书最(.|\\n)* ", "imageStyle": "0"}, "ruleExplore": {"author": "tag.a.2@text", "bookList": "class.alistbox", "bookUrl": "h2@tag.a@href", "coverUrl": "tag.img@src", "intro": "class.intro@textNodes", "lastChapter": "tag.a.3@text", "name": "tag.a.1@text##\\《|\\》"}, "ruleSearch": {"author": "class.even.1@text", "bookList": "class.grid@tag.tr!0", "bookUrl": "tag.a.0@href", "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##http://www.mhtwx.la/book/image/$2/$1/$1s.jpg###", "kind": "class.odd.1@text", "lastChapter": "class.odd.0@text", "name": "class.even.0@text", "wordCount": ""}, "ruleToc": {"chapterList": "tag.dd@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "/search.php?searchkey={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍅棉花糖",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.mhtwx.la",
+    "customOrder": 10778,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/mulu/1-{{page}}.html\n武侠修真::/mulu/2-{{page}}.html\n都市言情::/mulu/3-{{page}}.html\n历史军事::/mulu/4-{{page}}.html\n侦探推理::/mulu/5-{{page}}.html\n网游动漫::/mulu/6-{{page}}.html\n科幻小说::/mulu/7-{{page}}.html\n恐怖灵异::/mulu/8-{{page}}.html\n同人小说::/mulu/9-{{page}}.html\n穿越小说::/mulu/10-{{page}}.html",
+    "lastUpdateTime": 1606326944723,
+    "ruleBookInfo": {
+      "author": "[name=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "id.intro@textNodes",
+      "kind": "[name=\"og:novel:category\"]@content&&[name=\"og:novel:status\"]@content&&[name=\"og:novel:update_time\"]@content",
+      "lastChapter": "[name=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[name=\"og:novel:book_name\"]@content",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "class.content@html##最新网址.*|下载本书最(.|\\n)* ",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "author": "tag.a.2@text",
+      "bookList": "class.alistbox",
+      "bookUrl": "h2@tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.intro@textNodes",
+      "lastChapter": "tag.a.3@text",
+      "name": "tag.a.1@text##\\《|\\》"
+    },
+    "ruleSearch": {
+      "author": "class.even.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##http://www.mhtwx.la/book/image/$2/$1/$1s.jpg###",
+      "kind": "class.odd.1@text",
+      "lastChapter": "class.odd.0@text",
+      "name": "class.even.0@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search.php?searchkey={{key}}",
+    "weight": 0
+  }]

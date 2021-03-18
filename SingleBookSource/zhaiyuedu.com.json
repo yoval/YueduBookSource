@@ -1,1 +1,35 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🛠️ 宅阅读™[无正文]", "bookSourceType": 0, "bookSourceUrl": "https://m.zhaiyuedu.com", "customOrder": 11736, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1605531142160, "ruleBookInfo": {"author": "class.f13 book-info-main@tag.p.0@text", "coverUrl": "class.book-info-cover@tag.img@src", "intro": "class.intro-content_@text", "name": "class.f13 book-info-main@tag.h1@text"}, "ruleContent": {"content": "class. f16@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.gray@tag.span@text", "bookList": "class.list-item@tag.li", "bookUrl": "class.item-text@tag.a@href", "lastChapter": "class.item-text@tag.p.1@text", "name": "class.item-text@tag.p.0@text"}, "ruleToc": {"chapterList": "class.row book-list chapter-list@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://m.zhaiyuedu.com/search/?type=&key={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🛠️ 宅阅读™[无正文]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.zhaiyuedu.com",
+    "customOrder": 11736,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1605531142160,
+    "ruleBookInfo": {
+      "author": "class.f13 book-info-main@tag.p.0@text",
+      "coverUrl": "class.book-info-cover@tag.img@src",
+      "intro": "class.intro-content_@text",
+      "name": "class.f13 book-info-main@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "class. f16@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.gray@tag.span@text",
+      "bookList": "class.list-item@tag.li",
+      "bookUrl": "class.item-text@tag.a@href",
+      "lastChapter": "class.item-text@tag.p.1@text",
+      "name": "class.item-text@tag.p.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.row book-list chapter-list@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://m.zhaiyuedu.com/search/?type=&key={{key}}",
+    "weight": 0
+  }]

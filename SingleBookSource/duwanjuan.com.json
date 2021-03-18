@@ -1,1 +1,54 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🔰 读万卷 duwanjuan.com", "bookSourceType": 0, "bookSourceUrl": "http://www.duwanjuan.com", "customOrder": -114749, "enabled": true, "enabledExplore": true, "exploreUrl": "【全部连载】::/book/sort0/0/{{page}}.html\n玄幻魔法::/book/sort1/0/{{page}}.html\n武侠修真::/book/sort2/0/{{page}}.html\n都市言情::/book/sort3/0/{{page}}.html\n历史军事::/book/sort4/0/{{page}}.html\n侦探推理::/book/sort5/0/{{page}}.html\n网游动漫::/book/sort6/0/{{page}}.html\n科幻小说::/book/sort7/0/{{page}}.html\n恐怖灵异::/book/sort8/0/{{page}}.html\n言情小说::/book/sort9/0/{{page}}.html\n其他类型::/book/sort10/0/{{page}}.html\n史书::/book/sort12/0/{{page}}.html\n集部::/book/sort14/0/{{page}}.html\n【全部完本】::/fullsort/0/{{page}}.html\n玄幻魔法::/fullsort/1/{{page}}.html\n武侠修真::/fullsort/2/{{page}}.html\n都市言情::/fullsort/3/{{page}}.html\n历史军事::/fullsort/4/{{page}}.html\n侦探推理::/fullsort/5/{{page}}.html\n网游动漫::/fullsort/6/{{page}}.html\n科幻小说::/fullsort/7/{{page}}.html\n恐怖灵异::/fullsort/8/{{page}}.html\n言情小说::/fullsort/9/{{page}}.html\n其他类型::/fullsort/10/{{page}}.html", "lastUpdateTime": 1606879172336, "ruleBookInfo": {"author": "[property=\"og:novel:author\"]@content", "coverUrl": "[property=\"og:image\"]@content", "intro": "class.tabvalue.0@text", "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&class.tabvalue@tag.td.2@text##最后更新.|\\s.*", "lastChapter": "class.divbox.1@tag.a.0@text", "name": "[property=\"og:novel:book_name\"]@content", "tocUrl": "[property=\"og:novel:read_url\"]@content"}, "ruleContent": {"content": "@js:\ndoc=org.jsoup.Jsoup.parse(result.replace(/\\(*读万卷 www.duwanjuan.com\\)*\\s*/g,''));\ndoc.select(\"h1\").remove();\ndoc.select(\".tishi\").remove();\ndoc.select(\"tbody\").remove();\nresult=doc.select(\"#acontent\").html();\nif(String(result).match(/content_sign/)){\nresult='由于版权问题不能显示'\n}else{result=result}", "nextContentUrl": ""}, "ruleExplore": {"author": "tag.span.1@text", "bookList": "class.c_row", "bookUrl": "tag.a.0@href", "coverUrl": "tag.img@src", "intro": "class.c_description@text", "kind": "tag.span.5@text&&tag.span.7@text", "lastChapter": "tag.a.3@text", "name": "tag.a.2@text", "wordCount": "tag.span.3@text@js:parseInt(result/10000) + '万字'"}, "ruleSearch": {"author": "class.c_value.0@text", "bookList": "class.c_row", "bookUrl": "tag.a.0@href", "coverUrl": "tag.img@src", "intro": "", "kind": "class.c_value.1@text&&class.c_value.3@text&&class.c_value.5@text", "lastChapter": "class.c_value.4@text", "name": "class.c_subject@text", "wordCount": ""}, "ruleToc": {"chapterList": "class.chapters@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "/modules/article/search.php?q={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "读万卷",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.duwanjuan.com",
+    "customOrder": -114749,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "【全部连载】::/book/sort0/0/{{page}}.html\n玄幻魔法::/book/sort1/0/{{page}}.html\n武侠修真::/book/sort2/0/{{page}}.html\n都市言情::/book/sort3/0/{{page}}.html\n历史军事::/book/sort4/0/{{page}}.html\n侦探推理::/book/sort5/0/{{page}}.html\n网游动漫::/book/sort6/0/{{page}}.html\n科幻小说::/book/sort7/0/{{page}}.html\n恐怖灵异::/book/sort8/0/{{page}}.html\n言情小说::/book/sort9/0/{{page}}.html\n其他类型::/book/sort10/0/{{page}}.html\n史书::/book/sort12/0/{{page}}.html\n集部::/book/sort14/0/{{page}}.html\n【全部完本】::/fullsort/0/{{page}}.html\n玄幻魔法::/fullsort/1/{{page}}.html\n武侠修真::/fullsort/2/{{page}}.html\n都市言情::/fullsort/3/{{page}}.html\n历史军事::/fullsort/4/{{page}}.html\n侦探推理::/fullsort/5/{{page}}.html\n网游动漫::/fullsort/6/{{page}}.html\n科幻小说::/fullsort/7/{{page}}.html\n恐怖灵异::/fullsort/8/{{page}}.html\n言情小说::/fullsort/9/{{page}}.html\n其他类型::/fullsort/10/{{page}}.html",
+    "lastUpdateTime": 1615880167508,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "class.tabvalue.0@text",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&class.tabvalue@tag.td.2@text##最后更新.|\\s.*",
+      "lastChapter": "class.divbox.1@tag.a.0@text",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "[property=\"og:novel:read_url\"]@content"
+    },
+    "ruleContent": {
+      "content": "@js:\ndoc=org.jsoup.Jsoup.parse(result.replace(/\\(*读万卷 www.duwanjuan.com\\)*\\s*/g,''));\ndoc.select(\"h1\").remove();\ndoc.select(\".tishi\").remove();\ndoc.select(\"tbody\").remove();\nresult=doc.select(\"#acontent\").html();\nif(String(result).match(/content_sign/)){\nresult='由于版权问题不能显示'\n}else{result=result}",
+      "nextContentUrl": ""
+    },
+    "ruleExplore": {
+      "author": "tag.span.1@text",
+      "bookList": "class.c_row",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.c_description@text",
+      "kind": "tag.span.5@text&&tag.span.7@text",
+      "lastChapter": "tag.a.3@text",
+      "name": "tag.a.2@text",
+      "wordCount": "tag.span.3@text@js:parseInt(result/10000) + '万字'"
+    },
+    "ruleSearch": {
+      "author": "class.c_value.0@text",
+      "bookList": "class.c_row",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "intro": "",
+      "kind": "class.c_value.1@text&&class.c_value.3@text&&class.c_value.5@text",
+      "lastChapter": "class.c_value.4@text",
+      "name": "class.c_subject@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.chapters@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/modules/article/search.php?q={{key}}",
+    "weight": 0
+  }]

@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "最新小说网", "bookSourceType": 0, "bookSourceUrl": "https://m.8pxs.com", "customOrder": 0, "enabled": false, "enabledExplore": true, "exploreUrl": "最新更新::https://m.8pxs.com/sort-update/{{page}}/\n最新入库::https://m.8pxs.com/sort-new/{{page}}/\n最新全本::https://m.8pxs.com/over/{{page}}/\n总点击榜::https://m.8pxs.com/sort-allvisit/{{page}}/\n总收藏榜::https://m.8pxs.com/sort-mark/{{page}}/\n总推荐榜::https://m.8pxs.com/sort-recommend/{{page}}/\n玄幻魔法::https://m.8pxs.com/category-1/{{page}}/\n武侠修真::https://m.8pxs.com/category-2/{{page}}/\n都市言情::https://m.8pxs.com/category-3/{{page}}/\n历史军事::https://m.8pxs.com/category-4/{{page}}/\n侦探推理::https://m.8pxs.com/category-5/{{page}}/\n网游动漫::https://m.8pxs.com/category-6/{{page}}/\n科幻小说::https://m.8pxs.com/category-7/{{page}}/\n恐怖灵异::https://m.8pxs.com/category-8/{{page}}/\n同人小说::https://m.8pxs.com/category-9/{{page}}/\n穿越小说::https://m.8pxs.com/category-10/{{page}}/\n其他小说::https://m.8pxs.com/category-11/{{page}}/", "lastUpdateTime": 0, "ruleBookInfo": {"coverUrl": "class.block_img2@img@src", "intro": "class.intro_info@tag.p.0@textNodes", "lastChapter": "class.block_txt2@tag.p.6@a@text", "tocUrl": "text.章节目录@href"}, "ruleContent": {"content": "class.content@html##.*雪日阅读.*|本章未完.*", "nextContentUrl": "text.下一章@href"}, "ruleExplore": {}, "ruleSearch": {"author": "class.author@text", "bookList": "class.bookbox", "bookUrl": "a@href", "coverUrl": "img@src", "lastChapter": "class.update@a@text", "name": "class.bookname@a@text##.*全文.*"}, "ruleToc": {"chapterList": "-class.chapter@li@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://m.8pxs.com/search.html?q={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "最新小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.8pxs.com",
+    "customOrder": 0,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "最新更新::https://m.8pxs.com/sort-update/{{page}}/\n最新入库::https://m.8pxs.com/sort-new/{{page}}/\n最新全本::https://m.8pxs.com/over/{{page}}/\n总点击榜::https://m.8pxs.com/sort-allvisit/{{page}}/\n总收藏榜::https://m.8pxs.com/sort-mark/{{page}}/\n总推荐榜::https://m.8pxs.com/sort-recommend/{{page}}/\n玄幻魔法::https://m.8pxs.com/category-1/{{page}}/\n武侠修真::https://m.8pxs.com/category-2/{{page}}/\n都市言情::https://m.8pxs.com/category-3/{{page}}/\n历史军事::https://m.8pxs.com/category-4/{{page}}/\n侦探推理::https://m.8pxs.com/category-5/{{page}}/\n网游动漫::https://m.8pxs.com/category-6/{{page}}/\n科幻小说::https://m.8pxs.com/category-7/{{page}}/\n恐怖灵异::https://m.8pxs.com/category-8/{{page}}/\n同人小说::https://m.8pxs.com/category-9/{{page}}/\n穿越小说::https://m.8pxs.com/category-10/{{page}}/\n其他小说::https://m.8pxs.com/category-11/{{page}}/",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "coverUrl": "class.block_img2@img@src",
+      "intro": "class.intro_info@tag.p.0@textNodes",
+      "lastChapter": "class.block_txt2@tag.p.6@a@text",
+      "tocUrl": "text.章节目录@href"
+    },
+    "ruleContent": {
+      "content": "class.content@html##.*雪日阅读.*|本章未完.*",
+      "nextContentUrl": "text.下一章@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "class.bookbox",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "lastChapter": "class.update@a@text",
+      "name": "class.bookname@a@text##.*全文.*"
+    },
+    "ruleToc": {
+      "chapterList": "-class.chapter@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://m.8pxs.com/search.html?q={{key}}",
+    "weight": 0
+  }]

@@ -1,1 +1,58 @@
-[{"bookSourceComment": "酷安", "bookSourceGroup": "我的书源", "bookSourceName": "书林文学", "bookSourceType": 0, "bookSourceUrl": "http://m.shu111.com", "bookUrlPattern": "", "customOrder": 0, "enabled": false, "enabledExplore": false, "exploreUrl": "", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "", "canReName": "true", "coverUrl": "", "intro": "[property=\"og:description\"]@content", "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*", "lastChapter": "", "name": "", "tocUrl": "[property=\"og:url\"]@content", "wordCount": ""}, "ruleContent": {"content": "class.rdtext@tag.p@textNodes", "imageStyle": "", "nextContentUrl": "", "replaceRegex": "##\\s*{{book.durChapterTitle}}\\s*", "webJs": ""}, "ruleExplore": {"author": "", "bookList": "", "bookUrl": "", "coverUrl": "", "intro": "", "kind": "", "name": ""}, "ruleSearch": {"author": "#\ntag.a.0@href<js>java.ajax('http://m.shu111.com'+result)</js>[property=\"og:novel:author\"]@content", "bookList": "@css:#result li", "bookUrl": "tag.a.0@href", "coverUrl": "tag.img@src##.*\\/0s\\..*||.*nocover.*", "intro": "tag.p.0@textNodes", "kind": "tag.span!1@text##\\s.*", "lastChapter": "tag.a.-1@text", "name": "tag.h1@text"}, "ruleToc": {"chapterList": "@css:#lists li a", "chapterName": "tag.span.0@text", "chapterUrl": "href"}, "searchUrl": "/user/search.html?searchstr={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "酷安",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "书林文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.shu111.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "canReName": "true",
+      "coverUrl": "",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content##\\s.*",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": "[property=\"og:url\"]@content",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "class.rdtext@tag.p@textNodes",
+      "imageStyle": "",
+      "nextContentUrl": "",
+      "replaceRegex": "##\\s*{{book.durChapterTitle}}\\s*",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "name": ""
+    },
+    "ruleSearch": {
+      "author": "#\ntag.a.0@href<js>java.ajax('http://m.shu111.com'+result)</js>[property=\"og:novel:author\"]@content",
+      "bookList": "@css:#result li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src##.*\\/0s\\..*||.*nocover.*",
+      "intro": "tag.p.0@textNodes",
+      "kind": "tag.span!1@text##\\s.*",
+      "lastChapter": "tag.a.-1@text",
+      "name": "tag.h1@text"
+    },
+    "ruleToc": {
+      "chapterList": "@css:#lists li a",
+      "chapterName": "tag.span.0@text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/user/search.html?searchstr={{key}}",
+    "weight": 0
+  }]

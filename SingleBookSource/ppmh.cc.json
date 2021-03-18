@@ -1,1 +1,43 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "皮皮漫画", "bookSourceType": 0, "bookSourceUrl": "https://www.ppmh.cc", "bookUrlPattern": "", "customOrder": -3568, "enabled": true, "enabledExplore": true, "exploreUrl": "全部::https://www.ppmh.cc/booklist/?page={{page}}\n校园::/booklist?page={{page}}&tag=校园\n搞笑::/booklist?page={{page}}&tag=搞笑\n后宫::/booklist?page={{page}}&tag=后宫\n生活::/booklist?page={{page}}&tag=生活\n恋爱::/booklist?page={{page}}&tag=恋爱\n霸总::/booklist?page={{page}}&tag=霸总\n玄幻::/booklist?page={{page}}&tag=玄幻\n热血::/booklist?page={{page}}&tag=热血\n科幻::/booklist?page={{page}}&tag=科幻\n竞技::/booklist?page={{page}}&tag=竞技\n灵异::/booklist?page={{page}}&tag=灵异\n冒险::/booklist?page={{page}}&tag=冒险\n古风::/booklist?page={{page}}&tag=古风\n同人::/booklist?page={{page}}&tag=同人\n真人::/booklist?page={{page}}&tag=真人\n悬疑::/booklist?page={{page}}&tag=悬疑\n架空::/booklist?page={{page}}&tag=架空\n穿越::/booklist?page={{page}}&tag=穿越\n动作::/booklist?page={{page}}&tag=动作\n耽美::/booklist?page={{page}}&tag=耽美\n战争::/booklist?page={{page}}&tag=战争\n恐怖::/booklist?page={{page}}&tag=恐怖\n励志::/booklist?page={{page}}&tag=励志\n修真::/booklist?page={{page}}&tag=修真\n百合::/booklist?page={{page}}&tag=百合\n官商::/booklist?page={{page}}&tag=官商\n重生::/booklist?page={{page}}&tag=重生\n女主::/booklist?page={{page}}&tag=女主", "header": "{\n  \"User-Agent\": \"Mobile\"\n}", "lastUpdateTime": 1604910919056, "loginUrl": "", "ruleBookInfo": {"author": "class.detail-main-info-author.1@a@text", "coverUrl": "class.detail-main-bg@data-original", "intro": "class.detail-desc@text", "kind": "class.detail-main-info-class@tag.a@text", "lastChapter": "id.detail-list-select@tag.li.-1@text", "name": "class.detail-main-info-title@text"}, "ruleContent": {"content": "id.cp_img@img!-1@html", "imageStyle": "FULL"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.span.0@text##作者：", "bookList": "class.book-list@tag.li||class.manga-list-2@tag.li||class.rank-list@tag.a", "bookUrl": "href&&tag.a@href", "coverUrl": "tag.img@data-original", "lastChapter": "class.manga-list-2-tip@text##已更新||tag.span.-1@text", "name": "tag.p.0@text"}, "ruleToc": {"chapterList": "tag.ul@tag.li", "chapterName": "text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.ppmh.cc/search?keyword={{key}}&page={{page}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "皮皮漫画",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ppmh.cc",
+    "bookUrlPattern": "",
+    "customOrder": -3568,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部::https://www.ppmh.cc/booklist/?page={{page}}\n校园::/booklist?page={{page}}&tag=校园\n搞笑::/booklist?page={{page}}&tag=搞笑\n后宫::/booklist?page={{page}}&tag=后宫\n生活::/booklist?page={{page}}&tag=生活\n恋爱::/booklist?page={{page}}&tag=恋爱\n霸总::/booklist?page={{page}}&tag=霸总\n玄幻::/booklist?page={{page}}&tag=玄幻\n热血::/booklist?page={{page}}&tag=热血\n科幻::/booklist?page={{page}}&tag=科幻\n竞技::/booklist?page={{page}}&tag=竞技\n灵异::/booklist?page={{page}}&tag=灵异\n冒险::/booklist?page={{page}}&tag=冒险\n古风::/booklist?page={{page}}&tag=古风\n同人::/booklist?page={{page}}&tag=同人\n真人::/booklist?page={{page}}&tag=真人\n悬疑::/booklist?page={{page}}&tag=悬疑\n架空::/booklist?page={{page}}&tag=架空\n穿越::/booklist?page={{page}}&tag=穿越\n动作::/booklist?page={{page}}&tag=动作\n耽美::/booklist?page={{page}}&tag=耽美\n战争::/booklist?page={{page}}&tag=战争\n恐怖::/booklist?page={{page}}&tag=恐怖\n励志::/booklist?page={{page}}&tag=励志\n修真::/booklist?page={{page}}&tag=修真\n百合::/booklist?page={{page}}&tag=百合\n官商::/booklist?page={{page}}&tag=官商\n重生::/booklist?page={{page}}&tag=重生\n女主::/booklist?page={{page}}&tag=女主",
+    "header": "{\n  \"User-Agent\": \"Mobile\"\n}",
+    "lastUpdateTime": 1604910919056,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.detail-main-info-author.1@a@text",
+      "coverUrl": "class.detail-main-bg@data-original",
+      "intro": "class.detail-desc@text",
+      "kind": "class.detail-main-info-class@tag.a@text",
+      "lastChapter": "id.detail-list-select@tag.li.-1@text",
+      "name": "class.detail-main-info-title@text"
+    },
+    "ruleContent": {
+      "content": "id.cp_img@img!-1@html",
+      "imageStyle": "FULL"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.span.0@text##作者：",
+      "bookList": "class.book-list@tag.li||class.manga-list-2@tag.li||class.rank-list@tag.a",
+      "bookUrl": "href&&tag.a@href",
+      "coverUrl": "tag.img@data-original",
+      "lastChapter": "class.manga-list-2-tip@text##已更新||tag.span.-1@text",
+      "name": "tag.p.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "tag.ul@tag.li",
+      "chapterName": "text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.ppmh.cc/search?keyword={{key}}&page={{page}}",
+    "weight": 0
+  }]

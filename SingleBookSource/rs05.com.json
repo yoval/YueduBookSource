@@ -1,1 +1,42 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🌸麦田小说", "bookSourceType": 0, "bookSourceUrl": "http://book.rs05.com", "bookUrlPattern": ".+book\\/detail.+", "customOrder": 0, "enabled": false, "enabledExplore": true, "exploreUrl": "<js>\nwww=baseUrl;\nrule=\".rec-list,{\"method\": \"POST\",\"body\": \"a\\\";\"}\npn=\"{{(page-1)*10}}\n\";\nhtml=java.ajax(www);\njava.setContent(html);\njava.getElements(rule).toArray().map(a=>a.text()+\"::\"+a.attr(\"href\")+pn).join(\"\")\n</js>", "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0\"\n}", "lastUpdateTime": 0, "ruleBookInfo": {"author": "##作者：([^<]+)##$1###", "coverUrl": "img@data-original", "intro": "id.intro@text##.*?最新章节列：小说《.*\\/著,.*全文阅读(.*写的.*类小说\\.{1,10})?", "kind": ".con_top@a!0:2@text&&id.info@p!0@text##.*：|\\s.*", "lastChapter": "##最新章节：([^<]+)##$1###", "name": "##<h1>([^<]+)##$1###"}, "ruleContent": {"content": ".read-content@html##(?<=<p>)txt下载地址：[\\s\\S]+$|最新全本：、、、、、、、、、、|最快更新，无弹窗阅读请。|纯文字在线阅读本站域名手机同步阅读请访问|提供无弹窗全文字在线.*如果您觉得网不错就多多分享本站!谢谢各位读者的支持!|\\(\\)|レ.siluke.♠思♥路♣客レ\n<js>result.replace(/cháo/g,\"潮\").replace(/cāo/g,\"操\").replace(/yín/g,\"淫\").replace(/yīn/g,\"阴\").replace(/shè/g,\"射\").replace(/sè/g,\"色\").replace(/xìng/g,\"性\").replace(/sāo/g,\"骚\").replace(/jǐng/g,\"警\").replace(/jīng/g,\"精\").replace(/chūn/g,\"春\").replace(/rǔ/g,\"乳\").replace(/rì/g,\"日\").replace(/zìyóu/g,\"自由\").replace(/【jiān】/g,\"奸\").replace(/yù/g,\"欲\").replace(/【裸】/g,\"裸\").replace(/zhèngfǔ/g,\"政府\").replace(/nǎi/g,\"奶\").replace(/【(.)】(?=[裸潮])/g,\"$1\")</js>"}, "ruleExplore": {}, "ruleSearch": {"author": "h4@text", "bookList": "@css:div.book_list>div", "bookUrl": "a@href", "coverUrl": "img@data-original", "intro": ".intro@text##.*?最新章节列：小说《.*\\/著,.*全文阅读(.*写的.*类小说\\.{1,10})?", "kind": "span!1@text", "name": "h3@text"}, "ruleToc": {"chapterList": "+.book-part-list!0@li@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "book/s/{{key}}/", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🌸麦田小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://book.rs05.com",
+    "bookUrlPattern": ".+book\\/detail.+",
+    "customOrder": 0,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "<js>\nwww=baseUrl;\nrule=\".rec-list,{\"method\": \"POST\",\"body\": \"a\\\";\"}\npn=\"{{(page-1)*10}}\n\";\nhtml=java.ajax(www);\njava.setContent(html);\njava.getElements(rule).toArray().map(a=>a.text()+\"::\"+a.attr(\"href\")+pn).join(\"\")\n</js>",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0\"\n}",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "##作者：([^<]+)##$1###",
+      "coverUrl": "img@data-original",
+      "intro": "id.intro@text##.*?最新章节列：小说《.*\\/著,.*全文阅读(.*写的.*类小说\\.{1,10})?",
+      "kind": ".con_top@a!0:2@text&&id.info@p!0@text##.*：|\\s.*",
+      "lastChapter": "##最新章节：([^<]+)##$1###",
+      "name": "##<h1>([^<]+)##$1###"
+    },
+    "ruleContent": {
+      "content": ".read-content@html##(?<=<p>)txt下载地址：[\\s\\S]+$|最新全本：、、、、、、、、、、|最快更新，无弹窗阅读请。|纯文字在线阅读本站域名手机同步阅读请访问|提供无弹窗全文字在线.*如果您觉得网不错就多多分享本站!谢谢各位读者的支持!|\\(\\)|レ.siluke.♠思♥路♣客レ\n<js>result.replace(/cháo/g,\"潮\").replace(/cāo/g,\"操\").replace(/yín/g,\"淫\").replace(/yīn/g,\"阴\").replace(/shè/g,\"射\").replace(/sè/g,\"色\").replace(/xìng/g,\"性\").replace(/sāo/g,\"骚\").replace(/jǐng/g,\"警\").replace(/jīng/g,\"精\").replace(/chūn/g,\"春\").replace(/rǔ/g,\"乳\").replace(/rì/g,\"日\").replace(/zìyóu/g,\"自由\").replace(/【jiān】/g,\"奸\").replace(/yù/g,\"欲\").replace(/【裸】/g,\"裸\").replace(/zhèngfǔ/g,\"政府\").replace(/nǎi/g,\"奶\").replace(/【(.)】(?=[裸潮])/g,\"$1\")</js>"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "h4@text",
+      "bookList": "@css:div.book_list>div",
+      "bookUrl": "a@href",
+      "coverUrl": "img@data-original",
+      "intro": ".intro@text##.*?最新章节列：小说《.*\\/著,.*全文阅读(.*写的.*类小说\\.{1,10})?",
+      "kind": "span!1@text",
+      "name": "h3@text"
+    },
+    "ruleToc": {
+      "chapterList": "+.book-part-list!0@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "book/s/{{key}}/",
+    "weight": 0
+  }]

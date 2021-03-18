@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "随笔小说", "bookSourceType": 0, "bookSourceUrl": "https://www.sbbs.net", "customOrder": 1, "enabled": true, "enabledExplore": false, "lastUpdateTime": 0, "ruleBookInfo": {"coverUrl": "class.info_L@img@data-src", "intro": "id.book_desc@text", "tocUrl": "text.目录@href"}, "ruleContent": {"content": "class.read-content j_readContent@html"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.p.0@tag.a.0@text", "bookList": "class.result@li", "bookUrl": "tag.a.0@href", "coverUrl": "img@data-src", "intro": "class.int@text", "kind": "tag.p.0@tag.a.1@text", "lastChapter": "tag.p.2@tag.a.0@text", "name": "h3@text"}, "ruleToc": {"chapterList": "class.fL_con@li@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.sbbs.net/search.html?keyword={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "随笔小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.sbbs.net",
+    "customOrder": 1,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "coverUrl": "class.info_L@img@data-src",
+      "intro": "id.book_desc@text",
+      "tocUrl": "text.目录@href"
+    },
+    "ruleContent": {
+      "content": "class.read-content j_readContent@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p.0@tag.a.0@text",
+      "bookList": "class.result@li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@data-src",
+      "intro": "class.int@text",
+      "kind": "tag.p.0@tag.a.1@text",
+      "lastChapter": "tag.p.2@tag.a.0@text",
+      "name": "h3@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.fL_con@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.sbbs.net/search.html?keyword={{key}}",
+    "weight": 0
+  }]

@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "👍 绿色小说网", "bookSourceType": 0, "bookSourceUrl": "https://www.lvsetxt.com", "bookUrlPattern": "", "customOrder": 16016, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1602875319952, "loginUrl": "", "ruleBookInfo": {"author": "id.info@tag.p.0@text", "coverUrl": "img@src", "intro": "class.intro@textNodes##.*无弹窗.*", "lastChapter": "class.last.1@a@text", "name": "id.info@tag.h1.0@text"}, "ruleContent": {"content": "id.content@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.s4@text", "bookList": "class.search-list@li", "bookUrl": "a@href##.*/book/goto/id/(\\d+)##https://www.lvsetxt.com/ebook/$1.html", "coverUrl": "tag.a.0@href##.*/(\\d+)(\\d{3})##https://www.lvsetxt.com/files/article/image/$1/$1$2/$1$2s.jpg", "name": "class.s2@tag.a.0@text"}, "ruleToc": {"chapterList": "class.listmain@dl@dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://so.biqusoso.com/s.php?ie=gbk&siteid=lvsetxt.com&s=2758772450457967865&q={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "👍 绿色小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.lvsetxt.com",
+    "bookUrlPattern": "",
+    "customOrder": 16016,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1602875319952,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text",
+      "coverUrl": "img@src",
+      "intro": "class.intro@textNodes##.*无弹窗.*",
+      "lastChapter": "class.last.1@a@text",
+      "name": "id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.search-list@li",
+      "bookUrl": "a@href##.*/book/goto/id/(\\d+)##https://www.lvsetxt.com/ebook/$1.html",
+      "coverUrl": "tag.a.0@href##.*/(\\d+)(\\d{3})##https://www.lvsetxt.com/files/article/image/$1/$1$2/$1$2s.jpg",
+      "name": "class.s2@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@dl@dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://so.biqusoso.com/s.php?ie=gbk&siteid=lvsetxt.com&s=2758772450457967865&q={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

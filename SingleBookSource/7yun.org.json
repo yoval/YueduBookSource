@@ -1,1 +1,40 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 未来小说", "bookSourceType": 0, "bookSourceUrl": "https://wap.7yun.org", "bookUrlPattern": "", "customOrder": -115072, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1605501184856, "loginUrl": "", "ruleBookInfo": {"author": "class.info@tag.a.0@text", "coverUrl": "class.lazy@src", "intro": "class.intro clearfix.0@text", "name": "h2@text", "tocUrl": "text.章节列表@href"}, "ruleContent": {"content": "@js:java.getElements('dd!-1').toArray().sort((a,b)=>a.attr('data-id')-b.attr('data-id')).map(x=>x.html()).join('')", "nextContentUrl": "text.下一页@href", "replaceRegex": "##.本章未完，请点击下一页继续阅读.|.*第./.页."}, "ruleExplore": {}, "ruleSearch": {"author": "##</span>[^<]+\\(([^<]+)\\)</a>##$1###", "bookList": "class.bd@li", "bookUrl": "tag.a.0@href", "kind": "span@text##\\[|\\]", "name": "##</span>([^<]+)\\([^<]+\\)</a>##$1###"}, "ruleToc": {"chapterList": "+@js:org.jsoup.Jsoup.parse(result.replace(/\\.html/g,\"\")).select('.list li a').toArray().sort((a,b)=>a.attr('href')-b.attr('href')).map(x=>({n:x.text(),u:x.attr('href')+\".html\"}))", "chapterName": "n", "chapterUrl": "u"}, "searchUrl": "https://wap.7yun.org/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 未来小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://wap.7yun.org",
+    "bookUrlPattern": "",
+    "customOrder": -115072,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1605501184856,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.info@tag.a.0@text",
+      "coverUrl": "class.lazy@src",
+      "intro": "class.intro clearfix.0@text",
+      "name": "h2@text",
+      "tocUrl": "text.章节列表@href"
+    },
+    "ruleContent": {
+      "content": "@js:java.getElements('dd!-1').toArray().sort((a,b)=>a.attr('data-id')-b.attr('data-id')).map(x=>x.html()).join('')",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": "##.本章未完，请点击下一页继续阅读.|.*第./.页."
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "##</span>[^<]+\\(([^<]+)\\)</a>##$1###",
+      "bookList": "class.bd@li",
+      "bookUrl": "tag.a.0@href",
+      "kind": "span@text##\\[|\\]",
+      "name": "##</span>([^<]+)\\([^<]+\\)</a>##$1###"
+    },
+    "ruleToc": {
+      "chapterList": "+@js:org.jsoup.Jsoup.parse(result.replace(/\\.html/g,\"\")).select('.list li a').toArray().sort((a,b)=>a.attr('href')-b.attr('href')).map(x=>({n:x.text(),u:x.attr('href')+\".html\"}))",
+      "chapterName": "n",
+      "chapterUrl": "u"
+    },
+    "searchUrl": "https://wap.7yun.org/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}\"\n}",
+    "weight": 0
+  }]

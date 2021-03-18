@@ -1,1 +1,43 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "酷书网", "bookSourceType": 0, "bookSourceUrl": "http://m.xtxtrar.com", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "耽美同人::/sort-1-{{page}}/&&都市言情::/sort-2-{{page}}/&&玄幻奇幻::/sort-3-{{page}}/&&穿越重生::/sort-4-{{page}}/&&恐怖推理::/sort-5-{{page}}/&&网游科幻::/sort-6-{{page}}/&&武侠仙侠::/sort-7-{{page}}/&&", "lastUpdateTime": 1605591906671, "ruleBookInfo": {"author": "tag.p.2@a@text", "coverUrl": "img@src", "intro": ".intro_info@text", "kind": "tag.p.3@a@text", "lastChapter": "tag.p.6@text", "name": "h2@text", "tocUrl": "@js:baseUrl.replace('info-','wapbook-')", "wordCount": "tag.p.4@text##状态："}, "ruleContent": {"content": "#nr1@html##.*?xtxtrar.com.*", "nextContentUrl": ".next@href"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.a.2@text", "bookList": ".line", "bookUrl": "tag.a.1@href", "coverUrl": "tag.a.1@href@js:var id = result.match(/(\\d+)\\/$/)[1];\nvar iid = parseInt(id/1000);\n'http://www.xtxtrar.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n", "kind": "tag.a.0@text", "name": "tag.a.1@text"}, "ruleToc": {"chapterList": ".chapter a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "@js:var n = result.match(/第\\d+\\/(\\d+)页/)[1];\nvar list = [];\nfor(var i = 2; i <= n; i++){list.push(baseUrl.replace(/\\/$/,'_')+i+'/')};\nlist"}, "searchUrl": "http://m.xtxtrar.com/modules/article/waps.php?searchtype=articlename&searchkey={{key}}&submit=,{\n\"charset\": \"gbk\"}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "酷书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.xtxtrar.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "耽美同人::/sort-1-{{page}}/&&都市言情::/sort-2-{{page}}/&&玄幻奇幻::/sort-3-{{page}}/&&穿越重生::/sort-4-{{page}}/&&恐怖推理::/sort-5-{{page}}/&&网游科幻::/sort-6-{{page}}/&&武侠仙侠::/sort-7-{{page}}/&&",
+    "lastUpdateTime": 1605591906671,
+    "ruleBookInfo": {
+      "author": "tag.p.2@a@text",
+      "coverUrl": "img@src",
+      "intro": ".intro_info@text",
+      "kind": "tag.p.3@a@text",
+      "lastChapter": "tag.p.6@text",
+      "name": "h2@text",
+      "tocUrl": "@js:baseUrl.replace('info-','wapbook-')",
+      "wordCount": "tag.p.4@text##状态："
+    },
+    "ruleContent": {
+      "content": "#nr1@html##.*?xtxtrar.com.*",
+      "nextContentUrl": ".next@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": ".line",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.a.1@href@js:var id = result.match(/(\\d+)\\/$/)[1];\nvar iid = parseInt(id/1000);\n'http://www.xtxtrar.com/files/article/image/'+iid+'/'+id+'/'+id+'s.jpg';\n",
+      "kind": "tag.a.0@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": ".chapter a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "@js:var n = result.match(/第\\d+\\/(\\d+)页/)[1];\nvar list = [];\nfor(var i = 2; i <= n; i++){list.push(baseUrl.replace(/\\/$/,'_')+i+'/')};\nlist"
+    },
+    "searchUrl": "http://m.xtxtrar.com/modules/article/waps.php?searchtype=articlename&searchkey={{key}}&submit=,{\n\"charset\": \"gbk\"}",
+    "weight": 0
+  }]

@@ -1,1 +1,33 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "言情书坊", "bookSourceType": 0, "bookSourceUrl": "http://m.520yanqingwang.com", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": false, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {}, "ruleContent": {"content": "class.blcont@div@html", "nextContentUrl": "text.下一页@href"}, "ruleExplore": {}, "ruleSearch": {"author": "a@text##.*作者：", "bookList": "class.p_newslist@li", "bookUrl": "a@href", "lastChapter": "tag.font.1@text", "name": "a@text##作者.*"}, "ruleToc": {"chapterList": "h3", "chapterName": "text##作者.*", "chapterUrl": "href"}, "searchUrl": "http://m.520yanqingwang.com/search.php?keyword={{key}}&searchtype=titlekeyword&channeltype=0&orderby=&kwtype=0&pagesize=10&typeid=0&PageNo={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "言情书坊",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.520yanqingwang.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.blcont@div@html",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "a@text##.*作者：",
+      "bookList": "class.p_newslist@li",
+      "bookUrl": "a@href",
+      "lastChapter": "tag.font.1@text",
+      "name": "a@text##作者.*"
+    },
+    "ruleToc": {
+      "chapterList": "h3",
+      "chapterName": "text##作者.*",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://m.520yanqingwang.com/search.php?keyword={{key}}&searchtype=titlekeyword&channeltype=0&orderby=&kwtype=0&pagesize=10&typeid=0&PageNo={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

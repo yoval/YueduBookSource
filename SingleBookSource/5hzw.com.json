@@ -1,1 +1,33 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 五湖中文网™莫", "bookSourceType": 0, "bookSourceUrl": "http://www.5hzw.com", "customOrder": -32484, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "ruleBookInfo": {"coverUrl": "tag.img@src", "intro": "id.intro@tag.p@text"}, "ruleContent": {"content": "id.content@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@text||tag.p.0@text", "bookList": "class.grid@tag.tr!0||id.maininfo", "bookUrl": "class.odd.0@tag.a@href", "lastChapter": "class.even.0@text", "name": "class.odd.0@text||tag.h1.0@text"}, "ruleToc": {"chapterList": "id.list@tag.dd![0-8]", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.5hzw.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 五湖中文网™莫",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.5hzw.com",
+    "customOrder": -32484,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "coverUrl": "tag.img@src",
+      "intro": "id.intro@tag.p@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text||tag.p.0@text",
+      "bookList": "class.grid@tag.tr!0||id.maininfo",
+      "bookUrl": "class.odd.0@tag.a@href",
+      "lastChapter": "class.even.0@text",
+      "name": "class.odd.0@text||tag.h1.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd![0-8]",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.5hzw.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

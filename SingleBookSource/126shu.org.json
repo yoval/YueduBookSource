@@ -1,1 +1,41 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 奇书网⑧", "bookSourceType": 0, "bookSourceUrl": "http://m.126shu.org", "bookUrlPattern": "", "customOrder": -32023, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "class.detail@tag.p.0@tag.a.0@text", "coverUrl": "tag.img@src", "intro": "class.intro@textNodes", "kind": "class.detail@tag.p.1@text##类别：", "lastChapter": "class.read@tag.ul@tag.li@tag.a.0@text", "name": "class.caption@tag.p.0@text", "tocUrl": "text.阅读目录.0@href"}, "ruleContent": {"content": "id.content@textNodes##www.126shu.com"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.span.0@text", "bookList": "class.lists@tag.li", "bookUrl": "tag.a.0@href", "coverUrl": "tag.a.0@href##.*/(\\d+)(\\d{3}).html##http://www.126shu.org/img/$1/$1$2/$1$2s.jpg", "name": "tag.a.0@text##\\(.*\\)"}, "ruleToc": {"chapterList": "id.readlist@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "nextTocUrl": "text.下一页.0@href"}, "searchUrl": "http://m.126shu.org/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 奇书网⑧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.126shu.org",
+    "bookUrlPattern": "",
+    "customOrder": -32023,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.detail@tag.p.0@tag.a.0@text",
+      "coverUrl": "tag.img@src",
+      "intro": "class.intro@textNodes",
+      "kind": "class.detail@tag.p.1@text##类别：",
+      "lastChapter": "class.read@tag.ul@tag.li@tag.a.0@text",
+      "name": "class.caption@tag.p.0@text",
+      "tocUrl": "text.阅读目录.0@href"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##www.126shu.com"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.span.0@text",
+      "bookList": "class.lists@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##.*/(\\d+)(\\d{3}).html##http://www.126shu.org/img/$1/$1$2/$1$2s.jpg",
+      "name": "tag.a.0@text##\\(.*\\)"
+    },
+    "ruleToc": {
+      "chapterList": "id.readlist@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "text.下一页.0@href"
+    },
+    "searchUrl": "http://m.126shu.org/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

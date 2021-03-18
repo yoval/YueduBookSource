@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "万卷书", "bookSourceType": 0, "bookSourceUrl": "http://www.wjshu.com", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": false, "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"intro": "class.intro.0@text", "tocUrl": "class.more@href"}, "ruleContent": {"content": "id.content@tag.p@text"}, "ruleExplore": {}, "ruleSearch": {"author": "class.author.0@text", "bookList": "class.bookbox", "bookUrl": "tag.a@href", "coverUrl": "tag.img@src", "lastChapter": "class.cat@tag.a.0@text", "name": "class.bookname.0@text"}, "ruleToc": {"chapterList": "class.read@tag.dl.1@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.wjshu.com/search.html?searchkey={{key}}&searchtype=novelname&submit=", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "万卷书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.wjshu.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.intro.0@text",
+      "tocUrl": "class.more@href"
+    },
+    "ruleContent": {
+      "content": "id.content@tag.p@text"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@text",
+      "bookList": "class.bookbox",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@src",
+      "lastChapter": "class.cat@tag.a.0@text",
+      "name": "class.bookname.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.read@tag.dl.1@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.wjshu.com/search.html?searchkey={{key}}&searchtype=novelname&submit=",
+    "weight": 0
+  }]

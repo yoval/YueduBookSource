@@ -1,1 +1,55 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "360小说网tushu360", "bookSourceType": 0, "bookSourceUrl": "http://www.tushu360.com", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "全部小说::/sort/all_0_0_lastupdate_{{page}}.html\n玄幻魔法::/sort/xhmf_0_0_lastupdate_{{page}}.html\n武侠修真::/sort/wxxz_0_0_lastupdate_{{page}}.html\n都市言情::/sort/dsyq_0_0_lastupdate_{{page}}.html\n奇幻频道::/sort/qhpd_0_0_lastupdate_{{page}}.html\n历史穿越::/sort/lscy_0_0_lastupdate_{{page}}.html\n军事科幻::/sort/jskh_0_0_lastupdate_{{page}}.html\n游戏竞技::/sort/yxjj_0_0_lastupdate_{{page}}.html\n恐怖悬疑::/sort/kbxy_0_0_lastupdate_{{page}}.html\n女生频道::/sort/nvzq_0_0_lastupdate_{{page}}.html\n综合类型::/sort/zhlx_0_0_lastupdate_{{page}}.html\n                       排行榜单                         ::\n总点击榜::/sort/all_0_0_allvisit_1.html\n月点击榜::/sort/all_0_0_monthvisit_1.html\n周点击榜::/sort/all_0_0_weekvisit_1.html\n日点击榜::/sort/all_0_0_dayvisit_1.html\n总推荐榜::/sort/all_0_0_votenum_1.html\n总收藏榜::/sort/all_0_0_marknum_1.html\n最近更新::/sort/all_0_0_lastupdate_1.html\n新书入库::/sort/all_0_0_postdate_1.html", "lastUpdateTime": 1615182801639, "ruleBookInfo": {"author": "tag.p@tag.a.0@text", "coverUrl": "class.bookimg@tag.img@src", "init": "class.box@class.detail", "intro": "class.mod@class.intro@text", "kind": "", "lastChapter": "class.more@class.layui-badge-rim layui-icon i_history@text", "name": "tag.h1@text", "tocUrl": "class.action@tag.a.2@href", "wordCount": ""}, "ruleContent": {"content": "id.content@text"}, "ruleExplore": {"author": "class.author@text", "bookList": "class.library@li", "bookUrl": "tag.a.0@href||tag.a.1@href", "coverUrl": "class.bookimg@img@src", "intro": "class.intro@text", "kind": "class.layui-badge layui-bg-blue@text", "lastChapter": "class.chapter@text", "name": "class.bookname@text", "wordCount": "tag.p.0@tag.a.1@text"}, "ruleSearch": {"author": "class.author@text", "bookList": "class.library@li", "bookUrl": "tag.a.0@href||tag.a.1@href", "coverUrl": "class.bookimg@img@src", "intro": "class.intro@text", "kind": "class.layui-badge layui-bg-blue@text", "lastChapter": "class.chapter@text", "name": "class.bookname@text", "wordCount": "tag.p.0@tag.a.1@text"}, "ruleToc": {"chapterList": "class.box@class.read@tag.dl.1@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.tushu360.com/so/search.html?searchkey={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "360小说网tushu360",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.tushu360.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部小说::/sort/all_0_0_lastupdate_{{page}}.html\n玄幻魔法::/sort/xhmf_0_0_lastupdate_{{page}}.html\n武侠修真::/sort/wxxz_0_0_lastupdate_{{page}}.html\n都市言情::/sort/dsyq_0_0_lastupdate_{{page}}.html\n奇幻频道::/sort/qhpd_0_0_lastupdate_{{page}}.html\n历史穿越::/sort/lscy_0_0_lastupdate_{{page}}.html\n军事科幻::/sort/jskh_0_0_lastupdate_{{page}}.html\n游戏竞技::/sort/yxjj_0_0_lastupdate_{{page}}.html\n恐怖悬疑::/sort/kbxy_0_0_lastupdate_{{page}}.html\n女生频道::/sort/nvzq_0_0_lastupdate_{{page}}.html\n综合类型::/sort/zhlx_0_0_lastupdate_{{page}}.html\n                       排行榜单                         ::\n总点击榜::/sort/all_0_0_allvisit_1.html\n月点击榜::/sort/all_0_0_monthvisit_1.html\n周点击榜::/sort/all_0_0_weekvisit_1.html\n日点击榜::/sort/all_0_0_dayvisit_1.html\n总推荐榜::/sort/all_0_0_votenum_1.html\n总收藏榜::/sort/all_0_0_marknum_1.html\n最近更新::/sort/all_0_0_lastupdate_1.html\n新书入库::/sort/all_0_0_postdate_1.html",
+    "lastUpdateTime": 1615182801639,
+    "ruleBookInfo": {
+      "author": "tag.p@tag.a.0@text",
+      "coverUrl": "class.bookimg@tag.img@src",
+      "init": "class.box@class.detail",
+      "intro": "class.mod@class.intro@text",
+      "kind": "",
+      "lastChapter": "class.more@class.layui-badge-rim layui-icon i_history@text",
+      "name": "tag.h1@text",
+      "tocUrl": "class.action@tag.a.2@href",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.content@text"
+    },
+    "ruleExplore": {
+      "author": "class.author@text",
+      "bookList": "class.library@li",
+      "bookUrl": "tag.a.0@href||tag.a.1@href",
+      "coverUrl": "class.bookimg@img@src",
+      "intro": "class.intro@text",
+      "kind": "class.layui-badge layui-bg-blue@text",
+      "lastChapter": "class.chapter@text",
+      "name": "class.bookname@text",
+      "wordCount": "tag.p.0@tag.a.1@text"
+    },
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "class.library@li",
+      "bookUrl": "tag.a.0@href||tag.a.1@href",
+      "coverUrl": "class.bookimg@img@src",
+      "intro": "class.intro@text",
+      "kind": "class.layui-badge layui-bg-blue@text",
+      "lastChapter": "class.chapter@text",
+      "name": "class.bookname@text",
+      "wordCount": "tag.p.0@tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.box@class.read@tag.dl.1@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.tushu360.com/so/search.html?searchkey={{key}}",
+    "weight": 0
+  }]

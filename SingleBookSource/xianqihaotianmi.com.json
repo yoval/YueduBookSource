@@ -1,1 +1,64 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🍒 言情小说阁", "bookSourceType": 0, "bookSourceUrl": "http://www.xianqihaotianmi.com", "bookUrlPattern": "", "customOrder": -31094, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻::/list/1-{{page}}.html\n仙侠::/list/2-{{page}}.html\n言情::/list/3-{{page}}.html\n历史::/list/4-{{page}}.html\n网游::/list/5-{{page}}.html\n科幻::/list/6-{{page}}.html\n恐怖::/list/7-{{page}}.html\n其他::/list/8-{{page}}.html", "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52\"}", "lastUpdateTime": 1602743323995, "loginUrl": "", "ruleBookInfo": {"author": "//div[@class=\"info2\"]/h3/text()##作者：", "coverUrl": "//div[@class=\"info1\"]/img/@src", "init": "", "intro": "//div[@class=\"info2\"]/div/p/text()", "kind": "//div[contains(@class,\"info3\")]/p[1]/text()##小说类别：| / 写作状态：", "lastChapter": "//div[contains(@class,\"info3\")]/p[3]/a/text()", "name": "//div[@class=\"info2\"]/h1/text()", "tocUrl": "", "wordCount": ""}, "ruleContent": {"content": "//div[contains(@class,\"content-body\")]", "nextContentUrl": "", "sourceRegex": "", "webJs": ""}, "ruleExplore": {"author": "//div[2]/div[1]/a/text()", "bookList": "//div[@id=\"content\"]/div[1]/div[1]//div[contains(@class,\"panel-body\")]/div/div", "bookUrl": "//div[2]/h4/a/@href", "coverUrl": "//div[1]/a/img/@src", "intro": "//div[2]/p/text()", "kind": "", "lastChapter": "", "name": "//div[2]/h4/a/text()", "wordCount": ""}, "ruleSearch": {"author": "//td[3]/p/a/text()", "bookList": "//table[@id=\"bookcon\"]/tbody/tr[position()>1]", "bookUrl": "//td[2]/p/a/@href", "coverUrl": "//td[2]/p/a/@href##.*(\\d)(\\d+)\\..*##/files/article/image/$1/$1$2/$1$2s.jpg", "intro": "", "kind": "//td[4]/p/text()", "lastChapter": "", "name": "//td[2]/p/a/text()", "wordCount": ""}, "ruleToc": {"chapterList": "//div[@class=\"container\"]/div[2]//div[@class=\"panel-body\"]/ul/li", "chapterName": "//a/text()", "chapterUrl": "//a/@href", "isVip": "", "nextTocUrl": "", "updateTime": ""}, "searchUrl": "/modules/article/search.php,{\n  \"method\":\"POST\",\n  \"body\":\"searchkey={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍒 言情小说阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xianqihaotianmi.com",
+    "bookUrlPattern": "",
+    "customOrder": -31094,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/list/1-{{page}}.html\n仙侠::/list/2-{{page}}.html\n言情::/list/3-{{page}}.html\n历史::/list/4-{{page}}.html\n网游::/list/5-{{page}}.html\n科幻::/list/6-{{page}}.html\n恐怖::/list/7-{{page}}.html\n其他::/list/8-{{page}}.html",
+    "header": "{\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.105 Safari/537.36 Edg/84.0.522.52\"}",
+    "lastUpdateTime": 1602743323995,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "//div[@class=\"info2\"]/h3/text()##作者：",
+      "coverUrl": "//div[@class=\"info1\"]/img/@src",
+      "init": "",
+      "intro": "//div[@class=\"info2\"]/div/p/text()",
+      "kind": "//div[contains(@class,\"info3\")]/p[1]/text()##小说类别：| / 写作状态：",
+      "lastChapter": "//div[contains(@class,\"info3\")]/p[3]/a/text()",
+      "name": "//div[@class=\"info2\"]/h1/text()",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "//div[contains(@class,\"content-body\")]",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "//div[2]/div[1]/a/text()",
+      "bookList": "//div[@id=\"content\"]/div[1]/div[1]//div[contains(@class,\"panel-body\")]/div/div",
+      "bookUrl": "//div[2]/h4/a/@href",
+      "coverUrl": "//div[1]/a/img/@src",
+      "intro": "//div[2]/p/text()",
+      "kind": "",
+      "lastChapter": "",
+      "name": "//div[2]/h4/a/text()",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "//td[3]/p/a/text()",
+      "bookList": "//table[@id=\"bookcon\"]/tbody/tr[position()>1]",
+      "bookUrl": "//td[2]/p/a/@href",
+      "coverUrl": "//td[2]/p/a/@href##.*(\\d)(\\d+)\\..*##/files/article/image/$1/$1$2/$1$2s.jpg",
+      "intro": "",
+      "kind": "//td[4]/p/text()",
+      "lastChapter": "",
+      "name": "//td[2]/p/a/text()",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "//div[@class=\"container\"]/div[2]//div[@class=\"panel-body\"]/ul/li",
+      "chapterName": "//a/text()",
+      "chapterUrl": "//a/@href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"method\":\"POST\",\n  \"body\":\"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

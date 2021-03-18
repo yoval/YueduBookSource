@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "段友小说", "bookSourceType": 0, "bookSourceUrl": "https://xs98k.com", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "随机发现::/search.html?keyword=&page={{page}}\n点击日榜::/other/rank_hits/order/hits_day.html\n点击周榜::/other/rank_hits/order/hits_week.html\n点击月榜::/other/rank_hits/order/hits_month.html\n点击总榜::/other/rank_hits/order/hits.html\n新书榜::/other/rank_hits/newbook/1.html\n完结榜::/other/rank_hits/over/1.html", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"intro": ".brief_text@html##^##<br>"}, "ruleContent": {"content": ".read-content@html"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.a.-4@text", "bookList": ".secd-rank-list", "bookUrl": "tag.a.0@href", "coverUrl": "img@data-original", "intro": ".big-book-info@text@js:result=result.trim()", "kind": "tag.p.0@text##.*? \\| (.*?) \\| 已?(.+?)中?[\\s]*(\\d[^\\|]+).*##$1,$2,$3", "lastChapter": "tag.a.-2@text##最近更新", "name": "tag.a.1@textNodes"}, "ruleToc": {"chapterList": ".cate-list a", "chapterName": ".chapter_name@text", "chapterUrl": "href"}, "searchUrl": "/search.html?keyword={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "段友小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://xs98k.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "随机发现::/search.html?keyword=&page={{page}}\n点击日榜::/other/rank_hits/order/hits_day.html\n点击周榜::/other/rank_hits/order/hits_week.html\n点击月榜::/other/rank_hits/order/hits_month.html\n点击总榜::/other/rank_hits/order/hits.html\n新书榜::/other/rank_hits/newbook/1.html\n完结榜::/other/rank_hits/over/1.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": ".brief_text@html##^##<br>"
+    },
+    "ruleContent": {
+      "content": ".read-content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.-4@text",
+      "bookList": ".secd-rank-list",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@data-original",
+      "intro": ".big-book-info@text@js:result=result.trim()",
+      "kind": "tag.p.0@text##.*? \\| (.*?) \\| 已?(.+?)中?[\\s]*(\\d[^\\|]+).*##$1,$2,$3",
+      "lastChapter": "tag.a.-2@text##最近更新",
+      "name": "tag.a.1@textNodes"
+    },
+    "ruleToc": {
+      "chapterList": ".cate-list a",
+      "chapterName": ".chapter_name@text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search.html?keyword={{key}}",
+    "weight": 0
+  }]

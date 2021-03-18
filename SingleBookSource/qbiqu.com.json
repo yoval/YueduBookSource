@@ -1,1 +1,36 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "👍 笔趣阁", "bookSourceType": 0, "bookSourceUrl": "http://www.qbiqu.com", "bookUrlPattern": "", "customOrder": -114845, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1612807499164, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.block_img2@tag.img@src", "intro": "class.intro_info@text", "lastChapter": "class.block_txt2@tag.p.6@text"}, "ruleContent": {"content": "id.content@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@text", "bookList": "class.grid@tag.tr!0", "bookUrl": "class.odd.0@tag.a.0@href", "lastChapter": "class.even.0@tag.a.0@text", "name": "class.odd.0@tag.a.0@text"}, "ruleToc": {"chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.qbiqu.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "👍 笔趣阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.qbiqu.com",
+    "bookUrlPattern": "",
+    "customOrder": -114845,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612807499164,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.block_img2@tag.img@src",
+      "intro": "class.intro_info@text",
+      "lastChapter": "class.block_txt2@tag.p.6@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "lastChapter": "class.even.0@tag.a.0@text",
+      "name": "class.odd.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.qbiqu.com/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

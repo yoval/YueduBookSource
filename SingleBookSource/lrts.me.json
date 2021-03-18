@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "📻 懒人网", "bookSourceType": 1, "bookSourceUrl": "http://www.lrts.me", "bookUrlPattern": "", "customOrder": -115794, "enabled": true, "enabledExplore": true, "exploreUrl": "推荐::/book/daybook/{{page}}/20\n儿童::/book/category/6/recommend/{{page}}/20\n人文::/book/category/80/recommend/{{page}}/20\n财经::/book/category/3085/recommend/{{page}}/20\n新书::/book/newbook/{{page}}/20\n文学::/book/category/78/recommend/{{page}}/20\n外语::/book/category/7/recommend/{{page}}/20\n健康::/book/category/3086/recommend/{{page}}/20\n小说::/book/category/1/recommend/{{page}}/20\n生活::/book/category/1019/recommend/{{page}}/20\n成功::/book/category/79/recommend/{{page}}/20\n历史::/book/category/9049/recommend/{{page}}/20\n曲艺戏曲::/book/category/4/recommend/{{page}}/20\n相声评书::/book/category/3/recommend/{{page}}/20\n精  品  课::/book/category/26/recommend/{{page}}/20\n热门周榜::/rank/hot/week\n热门月榜::/rank/hot/month\n热门总榜::/rank/hot/all\n好评周榜::/rank/comment/week\n好评月榜::/rank/comment/month\n好评总榜::/rank/comment/all\n搜索周榜::/rank/search/week\n搜索月榜::/rank/search/month\n搜索总榜::/rank/search/all\n下载总榜::/rank/down/all\n男生总榜::/rank/male/all/{{page}}/20\n女生总榜::/rank/female/all/{{page}}/20", "lastUpdateTime": 1612802512690, "loginUrl": "", "ruleBookInfo": {"intro": "class.d-desc@tag.p@text", "tocUrl": "@js:'http://www.lrts.me/ajax/book/'+baseUrl.match(/\\d+/)[0]+'/0/9999'"}, "ruleContent": {"content": "$.data"}, "ruleExplore": {}, "ruleSearch": {"author": "class.author@text", "bookList": "class.book-item", "bookUrl": "tag.a.0@href", "coverUrl": "tag.img@src", "intro": "class.book-item-desc@text@js:result.trim()", "lastChapter": "class.g-user@text##^##主播：", "name": "class.book-item-name@text"}, "ruleToc": {"chapterList": "$.data.data", "chapterName": "@JSon:$.resName\n<js>unescape(String(result).replace(/&#x/g,'%u').replace(/;/g,''))</js>", "chapterUrl": "http://www.lrts.me/ajax/path/4/{$.fatherResId}/{$.resId}"}, "searchUrl": "/search/book/{{page}}/{{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "📻 懒人网",
+    "bookSourceType": 1,
+    "bookSourceUrl": "http://www.lrts.me",
+    "bookUrlPattern": "",
+    "customOrder": -115794,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "推荐::/book/daybook/{{page}}/20\n儿童::/book/category/6/recommend/{{page}}/20\n人文::/book/category/80/recommend/{{page}}/20\n财经::/book/category/3085/recommend/{{page}}/20\n新书::/book/newbook/{{page}}/20\n文学::/book/category/78/recommend/{{page}}/20\n外语::/book/category/7/recommend/{{page}}/20\n健康::/book/category/3086/recommend/{{page}}/20\n小说::/book/category/1/recommend/{{page}}/20\n生活::/book/category/1019/recommend/{{page}}/20\n成功::/book/category/79/recommend/{{page}}/20\n历史::/book/category/9049/recommend/{{page}}/20\n曲艺戏曲::/book/category/4/recommend/{{page}}/20\n相声评书::/book/category/3/recommend/{{page}}/20\n精  品  课::/book/category/26/recommend/{{page}}/20\n热门周榜::/rank/hot/week\n热门月榜::/rank/hot/month\n热门总榜::/rank/hot/all\n好评周榜::/rank/comment/week\n好评月榜::/rank/comment/month\n好评总榜::/rank/comment/all\n搜索周榜::/rank/search/week\n搜索月榜::/rank/search/month\n搜索总榜::/rank/search/all\n下载总榜::/rank/down/all\n男生总榜::/rank/male/all/{{page}}/20\n女生总榜::/rank/female/all/{{page}}/20",
+    "lastUpdateTime": 1612802512690,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.d-desc@tag.p@text",
+      "tocUrl": "@js:'http://www.lrts.me/ajax/book/'+baseUrl.match(/\\d+/)[0]+'/0/9999'"
+    },
+    "ruleContent": {
+      "content": "$.data"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "class.book-item",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.book-item-desc@text@js:result.trim()",
+      "lastChapter": "class.g-user@text##^##主播：",
+      "name": "class.book-item-name@text"
+    },
+    "ruleToc": {
+      "chapterList": "$.data.data",
+      "chapterName": "@JSon:$.resName\n<js>unescape(String(result).replace(/&#x/g,'%u').replace(/;/g,''))</js>",
+      "chapterUrl": "http://www.lrts.me/ajax/path/4/{$.fatherResId}/{$.resId}"
+    },
+    "searchUrl": "/search/book/{{page}}/{{key}}",
+    "weight": 0
+  }]

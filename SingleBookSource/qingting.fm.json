@@ -1,1 +1,36 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "蜻蜓FM", "bookSourceType": 1, "bookSourceUrl": "https://www.qingting.fm", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": false, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"tocUrl": "https://i.qingting.fm:443/wapi/channels/@get{$.id}/programs/{$.id}/pagesize/10"}, "ruleContent": {"content": "$.m4a"}, "ruleExplore": {}, "ruleSearch": {"author": "$.keyword", "bookList": "$.data.data.docs", "bookUrl": "https://www.qingting.fm/channels/{$.id}/programs/{$.id}", "coverUrl": "$.cover", "kind": "$.category_name&&$.playcount", "lastChapter": "description", "name": "$.title"}, "ruleToc": {"chapterList": "$.data", "chapterName": "$.name", "chapterUrl": "https://od.qingting.fm:443/{$.file_path}"}, "searchUrl": "https://i.qingting.fm/wapi/search?k={{key}}&groups=real_remix&type=newcms&page=1&pagesize=15&exclude=people_podcaster,program_live,program_temp", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "蜻蜓FM",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://www.qingting.fm",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "tocUrl": "https://i.qingting.fm:443/wapi/channels/@get{$.id}/programs/{$.id}/pagesize/10"
+    },
+    "ruleContent": {
+      "content": "$.m4a"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$.keyword",
+      "bookList": "$.data.data.docs",
+      "bookUrl": "https://www.qingting.fm/channels/{$.id}/programs/{$.id}",
+      "coverUrl": "$.cover",
+      "kind": "$.category_name&&$.playcount",
+      "lastChapter": "description",
+      "name": "$.title"
+    },
+    "ruleToc": {
+      "chapterList": "$.data",
+      "chapterName": "$.name",
+      "chapterUrl": "https://od.qingting.fm:443/{$.file_path}"
+    },
+    "searchUrl": "https://i.qingting.fm/wapi/search?k={{key}}&groups=real_remix&type=newcms&page=1&pagesize=15&exclude=people_podcaster,program_live,program_temp",
+    "weight": 0
+  }]

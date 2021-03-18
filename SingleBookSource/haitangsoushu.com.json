@@ -1,1 +1,35 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,刘备书源", "bookSourceName": "🚬 海棠搜书", "bookSourceType": 0, "bookSourceUrl": "https://www.haitangsoushu.com", "customOrder": 24387, "enabled": true, "enabledExplore": true, "exploreUrl": "H文::/s/H/{{page}}/\n耽美::/s/耽美/{{page}}/", "lastUpdateTime": 1610258087401, "ruleBookInfo": {"intro": "id.intro@text", "tocUrl": "class.site.0@tag.a.1@href##.*u=\n<js>\nstr = String(result);\nresult = str.replace(/%3A/g, ':')\n.replace(/%2F/g, '/')\n</js>"}, "ruleContent": {"content": "id.C0NTENT@html"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.a.1@text", "bookList": "class.SHsectionThree-middle@tag.p", "bookUrl": "tag.a.0@href", "kind": "tag.a.2@text", "name": "tag.a.0@text##《|》"}, "ruleToc": {"chapterList": "class.BCsectionTwo-top@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href<js>result + \",{\\\"webView\\\": true}\"</js>", "nextTocUrl": "text.下一页@href"}, "searchUrl": "https://www.haitangsoushu.com/s/{{key}}/{{page}}/", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,刘备书源",
+    "bookSourceName": "🚬 海棠搜书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.haitangsoushu.com",
+    "customOrder": 24675,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "H文::/s/H/{{page}}/\n耽美::/s/耽美/{{page}}/",
+    "lastUpdateTime": 1610258087401,
+    "ruleBookInfo": {
+      "intro": "id.intro@text",
+      "tocUrl": "class.site.0@tag.a.1@href##.*u=\n<js>\nstr = String(result);\nresult = str.replace(/%3A/g, ':')\n.replace(/%2F/g, '/')\n</js>"
+    },
+    "ruleContent": {
+      "content": "id.C0NTENT@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.1@text",
+      "bookList": "class.SHsectionThree-middle@tag.p",
+      "bookUrl": "tag.a.0@href",
+      "kind": "tag.a.2@text",
+      "name": "tag.a.0@text##《|》"
+    },
+    "ruleToc": {
+      "chapterList": "class.BCsectionTwo-top@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href<js>result + \",{\\\"webView\\\": true}\"</js>",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://www.haitangsoushu.com/s/{{key}}/{{page}}/",
+    "weight": 0
+  }]

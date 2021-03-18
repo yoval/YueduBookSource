@@ -1,1 +1,64 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 来也小说", "bookSourceType": 0, "bookSourceUrl": "https://www.xs880.com", "bookUrlPattern": "", "customOrder": -115148, "enabled": true, "enabledExplore": true, "exploreUrl": "", "header": "", "lastUpdateTime": 1606910306258, "loginUrl": "", "ruleBookInfo": {"author": "", "coverUrl": "", "init": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "tocUrl": "", "wordCount": ""}, "ruleContent": {"content": "id.dx@html##\\|來也.*COM|手机阅读.*", "nextContentUrl": "", "sourceRegex": "", "webJs": ""}, "ruleExplore": {"author": "", "bookList": "", "bookUrl": "", "coverUrl": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "wordCount": ""}, "ruleSearch": {"author": "author", "bookList": ".booklist li\n<js>\nresult.toArray().slice(0,2).map(o=>{\n    var detail = String(o.select('h3 a').attr('href')).replace(/^\\//, baseUrl.match(/(.+?\\/\\/[^\\/]+\\/)/)[1]);\n    var J = org.jsoup.Jsoup.parse(java.ajax(detail));\n    var oText = selector =>o.select(selector).text().trim();   \n    var jText = selector =>String(J.select(selector).text().trim()); \n    return {\n       name:  oText('h3 a'),\n       author:jText('.info dd:eq(1)'),\n       tags:  jText('.info dd:eq(3)'),\n       num: jText('.info dd:eq(5)'),\n       latest:jText('.tlist li:eq(0)'),\n       intro: jText('#abstract-text p').replace(/.+：/, ''),\n       cover: o.select('img').attr('src'),\n       catalogUrl: J.select('.ft a').attr('href')\n    }\n});\n</js>", "bookUrl": "catalogUrl", "coverUrl": "cover", "intro": "intro", "kind": "tags", "lastChapter": "latest", "name": "name", "wordCount": "num"}, "ruleToc": {"chapterList": "class.mlist clearfix@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "isVip": "", "nextTocUrl": "", "updateTime": ""}, "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\":\"POST\",\n  \"body\":\"searchtype=all&searchkey={{key}}&page={{page}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 来也小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xs880.com",
+    "bookUrlPattern": "",
+    "customOrder": -115148,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1606910306258,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "",
+      "init": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.dx@html##\\|來也.*COM|手机阅读.*",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "author",
+      "bookList": ".booklist li\n<js>\nresult.toArray().slice(0,2).map(o=>{\n    var detail = String(o.select('h3 a').attr('href')).replace(/^\\//, baseUrl.match(/(.+?\\/\\/[^\\/]+\\/)/)[1]);\n    var J = org.jsoup.Jsoup.parse(java.ajax(detail));\n    var oText = selector =>o.select(selector).text().trim();   \n    var jText = selector =>String(J.select(selector).text().trim()); \n    return {\n       name:  oText('h3 a'),\n       author:jText('.info dd:eq(1)'),\n       tags:  jText('.info dd:eq(3)'),\n       num: jText('.info dd:eq(5)'),\n       latest:jText('.tlist li:eq(0)'),\n       intro: jText('#abstract-text p').replace(/.+：/, ''),\n       cover: o.select('img').attr('src'),\n       catalogUrl: J.select('.ft a').attr('href')\n    }\n});\n</js>",
+      "bookUrl": "catalogUrl",
+      "coverUrl": "cover",
+      "intro": "intro",
+      "kind": "tags",
+      "lastChapter": "latest",
+      "name": "name",
+      "wordCount": "num"
+    },
+    "ruleToc": {
+      "chapterList": "class.mlist clearfix@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk\",\n  \"method\":\"POST\",\n  \"body\":\"searchtype=all&searchkey={{key}}&page={{page}}\"\n}",
+    "weight": 0
+  }]

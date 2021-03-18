@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "期刊大全 🔰", "bookSourceType": 0, "bookSourceUrl": "http://zju.dps.qikan.com", "bookUrlPattern": "", "customOrder": 19, "enabled": true, "enabledExplore": true, "exploreUrl": "<js>ss='apptoken=ebtsKZwpbrhBPacH9FYH%2FQk79YBYHvtRqUYG1NsLbk%2Bs68eU7vDkbE2LB5Pi4CaF0Xr64w9yGHk%3D&ticket=dP_C4xHhlRj8IyKqtWFMiE4fPw4CX36OGCUJ0gpP4yNQTGnHjyfP8tfIEkQiJp9EIcmdV6uO60ndxqI4HwW1u0lxVm96h5cs5AdAuRifToDNVedmW8jtufotlsMAgEQ6urzCdm7GUfmxrnJsSNsUJ-Dmih_45jw_ynk-p5-pilXKJz6iCwk3Dp6Cggb4vR4r';\nfunction m(a)<list=JSON.parse(java.ajax('http://zju.dps.qikan.com/api/magazine/ByCategory?'+ss+'&categorycode='+a+'&pagesize=100&pageindex=1')).Data.map(x=>x.Name+'::/api/magazine/Issues?'+ss+'&id='+x.ID+'\n').join('');return list>\nm('08')+m('09')+m('0a')+m('0b')+m('0c')+m('0d')+m('0e')+m('0f')+m('0g')+m('0h')\n//08文学文摘,09商业财经,0a职场理财,0b时政军事,0c生活休闲,0d科学百科,0e健康养生,0f娱乐时尚,0g旅游美食,0h家庭亲子</js>", "header": "{\n  \"User-Agent\": \"Native/XiaomiRedmi Note 4/Android/9 UReader/51,6.0.5(DSP)\"\n}", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"intro": "Data.Intro##null", "tocUrl": "@js:'/api/magazine/article/catalog?@get:{ss}&magazineguid=@get:{id}&year=@get:{year}&issue=@get:{issue}'"}, "ruleContent": {"content": "{$..Content}<br>{$..ImgUrl}<br>({$..Author})##<([a-z]+) style[^<]+</\\1>|\\(\\)"}, "ruleExplore": {}, "ruleSearch": {"author": "Name", "bookList": "Data", "bookUrl": "@js:'/api/magazine/Info?@get:{ss}&id=@get:{id}'", "coverUrl": "CoverImages[0]", "lastChapter": "@js:java.put('ss','apptoken=ebtsKZwpbrhBPacH9FYH%2FQk79YBYHvtRqUYG1NsLbk%2Bs68eU7vDkbE2LB5Pi4CaF0Xr64w9yGHk%3D&ticket=dP_C4xHhlRj8IyKqtWFMiE4fPw4CX36OGCUJ0gpP4yNQTGnHjyfP8tfIEkQiJp9EIcmdV6uO60ndxqI4HwW1u0lxVm96h5cs5AdAuRifToDNVedmW8jtufotlsMAgEQ6urzCdm7GUfmxrnJsSNsUJ-Dmih_45jw_ynk-p5-pilXKJz6iCwk3Dp6Cggb4vR4r')@put:{year:$.Year,issue:$.Issue,id:$.ID};''", "name": "{$.Year}年{$.Issue}期"}, "ruleToc": {"chapterList": ":ArticleID\":\"([^\"]+)\",\"Title\":\"([^\"]+)", "chapterName": "$2", "chapterUrl": "/api/magazine/article/GetFullDetail?@get:{ss}&articleid=$1"}, "searchUrl": "/api/magazine/search?apptoken=ebtsKZwpbrhBPacH9FYH%2FQk79YBYHvtRqUYG1NsLbk%2Bs68eU7vDkbE2LB5Pi4CaF0Xr64w9yGHk%3D&ticket=dP_C4xHhlRj8IyKqtWFMiE4fPw4CX36OGCUJ0gpP4yNQTGnHjyfP8tfIEkQiJp9EIcmdV6uO60ndxqI4HwW1u0lxVm96h5cs5AdAuRifToDNVedmW8jtufotlsMAgEQ6urzCdm7GUfmxrnJsSNsUJ-Dmih_45jw_ynk-p5-pilXKJz6iCwk3Dp6Cggb4vR4r&keyword=<{{key}}>&pagesize=100&pageindex=1", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "期刊大全 🔰",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://zju.dps.qikan.com",
+    "bookUrlPattern": "",
+    "customOrder": 19,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "<js>ss='apptoken=ebtsKZwpbrhBPacH9FYH%2FQk79YBYHvtRqUYG1NsLbk%2Bs68eU7vDkbE2LB5Pi4CaF0Xr64w9yGHk%3D&ticket=dP_C4xHhlRj8IyKqtWFMiE4fPw4CX36OGCUJ0gpP4yNQTGnHjyfP8tfIEkQiJp9EIcmdV6uO60ndxqI4HwW1u0lxVm96h5cs5AdAuRifToDNVedmW8jtufotlsMAgEQ6urzCdm7GUfmxrnJsSNsUJ-Dmih_45jw_ynk-p5-pilXKJz6iCwk3Dp6Cggb4vR4r';\nfunction m(a)<list=JSON.parse(java.ajax('http://zju.dps.qikan.com/api/magazine/ByCategory?'+ss+'&categorycode='+a+'&pagesize=100&pageindex=1')).Data.map(x=>x.Name+'::/api/magazine/Issues?'+ss+'&id='+x.ID+'\n').join('');return list>\nm('08')+m('09')+m('0a')+m('0b')+m('0c')+m('0d')+m('0e')+m('0f')+m('0g')+m('0h')\n//08文学文摘,09商业财经,0a职场理财,0b时政军事,0c生活休闲,0d科学百科,0e健康养生,0f娱乐时尚,0g旅游美食,0h家庭亲子</js>",
+    "header": "{\n  \"User-Agent\": \"Native/XiaomiRedmi Note 4/Android/9 UReader/51,6.0.5(DSP)\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "Data.Intro##null",
+      "tocUrl": "@js:'/api/magazine/article/catalog?@get:{ss}&magazineguid=@get:{id}&year=@get:{year}&issue=@get:{issue}'"
+    },
+    "ruleContent": {
+      "content": "{$..Content}<br>{$..ImgUrl}<br>({$..Author})##<([a-z]+) style[^<]+</\\1>|\\(\\)"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "Name",
+      "bookList": "Data",
+      "bookUrl": "@js:'/api/magazine/Info?@get:{ss}&id=@get:{id}'",
+      "coverUrl": "CoverImages[0]",
+      "lastChapter": "@js:java.put('ss','apptoken=ebtsKZwpbrhBPacH9FYH%2FQk79YBYHvtRqUYG1NsLbk%2Bs68eU7vDkbE2LB5Pi4CaF0Xr64w9yGHk%3D&ticket=dP_C4xHhlRj8IyKqtWFMiE4fPw4CX36OGCUJ0gpP4yNQTGnHjyfP8tfIEkQiJp9EIcmdV6uO60ndxqI4HwW1u0lxVm96h5cs5AdAuRifToDNVedmW8jtufotlsMAgEQ6urzCdm7GUfmxrnJsSNsUJ-Dmih_45jw_ynk-p5-pilXKJz6iCwk3Dp6Cggb4vR4r')@put:{year:$.Year,issue:$.Issue,id:$.ID};''",
+      "name": "{$.Year}年{$.Issue}期"
+    },
+    "ruleToc": {
+      "chapterList": ":ArticleID\":\"([^\"]+)\",\"Title\":\"([^\"]+)",
+      "chapterName": "$2",
+      "chapterUrl": "/api/magazine/article/GetFullDetail?@get:{ss}&articleid=$1"
+    },
+    "searchUrl": "/api/magazine/search?apptoken=ebtsKZwpbrhBPacH9FYH%2FQk79YBYHvtRqUYG1NsLbk%2Bs68eU7vDkbE2LB5Pi4CaF0Xr64w9yGHk%3D&ticket=dP_C4xHhlRj8IyKqtWFMiE4fPw4CX36OGCUJ0gpP4yNQTGnHjyfP8tfIEkQiJp9EIcmdV6uO60ndxqI4HwW1u0lxVm96h5cs5AdAuRifToDNVedmW8jtufotlsMAgEQ6urzCdm7GUfmxrnJsSNsUJ-Dmih_45jw_ynk-p5-pilXKJz6iCwk3Dp6Cggb4vR4r&keyword=<{{key}}>&pagesize=100&pageindex=1",
+    "weight": 0
+  }]

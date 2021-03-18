@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "📥 书荒部落", "bookSourceType": 0, "bookSourceUrl": "http://noveless.com", "bookUrlPattern": "", "customOrder": -32665, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻·奇幻::http://noveless.com/alltext/fantasy/page/{{page}}\n科幻·灵异::http://noveless.com/alltext/sci-fi/page/{{page}}\n网游·竞技::http://noveless.com/alltext/game/page/{{page}}\n都市·娱乐::http://noveless.com/alltext/city/page/{{page}}\n历史·军事::http://noveless.com/alltext/history/page/{{page}}\n重生·穿越::http://noveless.com/alltext/reborn/page/{{page}}\n言情小说::http://noveless.com/alltext/%e8%a8%80%e6%83%85%e5%b0%8f%e8%af%b4/page/{{page}}/\n精校全本::http://noveless.com/alltext/page/{{page}}", "lastUpdateTime": 1603037591473, "loginUrl": "", "ruleBookInfo": {"author": "class.wp-block-code.0@text##作者：", "lastChapter": "class.xydown_down_link@p@html<js>java.put(\"a\",result);result=null;</js>", "tocUrl": "text.点击下载@href"}, "ruleContent": {"content": "@js:String(\"点击章节链接下载\"+baseUrl+\"\\n\"+java.get(\"a\")).replace(/下载地址：/,\"\").replace(/点击下载/,\"\").replace(/\\s/g,\"\\n\")"}, "ruleExplore": {}, "ruleSearch": {"bookList": "class.excerpt excerpt-one", "bookUrl": "h2@a@href", "coverUrl": "img@data-original", "intro": "class.note@text", "name": "h2@a@text"}, "ruleToc": {"chapterList": "class.list@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "http://noveless.com/?s={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "📥 书荒部落",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://noveless.com",
+    "bookUrlPattern": "",
+    "customOrder": -32665,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻·奇幻::http://noveless.com/alltext/fantasy/page/{{page}}\n科幻·灵异::http://noveless.com/alltext/sci-fi/page/{{page}}\n网游·竞技::http://noveless.com/alltext/game/page/{{page}}\n都市·娱乐::http://noveless.com/alltext/city/page/{{page}}\n历史·军事::http://noveless.com/alltext/history/page/{{page}}\n重生·穿越::http://noveless.com/alltext/reborn/page/{{page}}\n言情小说::http://noveless.com/alltext/%e8%a8%80%e6%83%85%e5%b0%8f%e8%af%b4/page/{{page}}/\n精校全本::http://noveless.com/alltext/page/{{page}}",
+    "lastUpdateTime": 1603037591473,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.wp-block-code.0@text##作者：",
+      "lastChapter": "class.xydown_down_link@p@html<js>java.put(\"a\",result);result=null;</js>",
+      "tocUrl": "text.点击下载@href"
+    },
+    "ruleContent": {
+      "content": "@js:String(\"点击章节链接下载\"+baseUrl+\"\\n\"+java.get(\"a\")).replace(/下载地址：/,\"\").replace(/点击下载/,\"\").replace(/\\s/g,\"\\n\")"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.excerpt excerpt-one",
+      "bookUrl": "h2@a@href",
+      "coverUrl": "img@data-original",
+      "intro": "class.note@text",
+      "name": "h2@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://noveless.com/?s={{key}}",
+    "weight": 0
+  }]

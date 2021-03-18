@@ -1,1 +1,50 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,刘备书源", "bookSourceName": "🚬 小说坊[仅发现]", "bookSourceType": 0, "bookSourceUrl": "http://www.50xsf.net", "bookUrlPattern": "", "customOrder": 24600, "enabled": true, "enabledExplore": true, "exploreUrl": "高辣::/sort/1-{{page}}.html\n腹黑::/sort/2-{{page}}.html\n言情::/sort/3-{{page}}.html\n乡村::/sort/4-{{page}}.html\n种田::/sort/5-{{page}}.html\n短篇::/sort/6-{{page}}.html\n其他::/sort/7-{{page}}.html", "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; Redmi K20 Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.92 Mobile Safari/537.36\"\n}", "lastUpdateTime": 1602936886151, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.divbox@tag.img@src", "intro": "class.gray@text", "lastChapter": "class.divbox@tag.a.1@text##章节目录"}, "ruleContent": {"content": "id.ccontent@html##.*百度搜索.*", "imageStyle": "0"}, "ruleExplore": {"author": "class.gray.0@text##类型.*", "bookList": "class.ultwo@tag.li", "bookUrl": "class.aname@tag.a@href", "coverUrl": "", "intro": "class.gray.1@text##提示.*", "kind": "class.gray.0@text##.*类型.|小说", "name": "class.aname@tag.a@text", "wordCount": "class.aflag@tag.span@text"}, "ruleSearch": {"author": "class.odd.1@text", "bookList": "class.grid@tag.tr!0", "bookUrl": "class.odd.0@tag.a@href", "kind": "class.even.2@text&&class.odd.2@text", "lastChapter": "class.even.0@tag.a@text##\\【.*\\】", "name": "class.odd.0@tag.a@text", "wordCount": "class.even.1@text"}, "ruleToc": {"chapterList": "tr@tag.td@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk \",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=articlename&page={{page}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,刘备书源",
+    "bookSourceName": "🚬 小说坊[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.50xsf.net",
+    "bookUrlPattern": "",
+    "customOrder": 24888,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "高辣::/sort/1-{{page}}.html\n腹黑::/sort/2-{{page}}.html\n言情::/sort/3-{{page}}.html\n乡村::/sort/4-{{page}}.html\n种田::/sort/5-{{page}}.html\n短篇::/sort/6-{{page}}.html\n其他::/sort/7-{{page}}.html",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; Redmi K20 Pro Build/QKQ1.190825.002; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/77.0.3865.92 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 1602936886151,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.divbox@tag.img@src",
+      "intro": "class.gray@text",
+      "lastChapter": "class.divbox@tag.a.1@text##章节目录"
+    },
+    "ruleContent": {
+      "content": "id.ccontent@html##.*百度搜索.*",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "author": "class.gray.0@text##类型.*",
+      "bookList": "class.ultwo@tag.li",
+      "bookUrl": "class.aname@tag.a@href",
+      "coverUrl": "",
+      "intro": "class.gray.1@text##提示.*",
+      "kind": "class.gray.0@text##.*类型.|小说",
+      "name": "class.aname@tag.a@text",
+      "wordCount": "class.aflag@tag.span@text"
+    },
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a@href",
+      "kind": "class.even.2@text&&class.odd.2@text",
+      "lastChapter": "class.even.0@tag.a@text##\\【.*\\】",
+      "name": "class.odd.0@tag.a@text",
+      "wordCount": "class.even.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "tr@tag.td@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"gbk \",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=articlename&page={{page}}\"\n}",
+    "weight": 0
+  }]

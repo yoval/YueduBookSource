@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 色小说[仅发现]", "bookSourceType": 0, "bookSourceUrl": "https://www.sssxsw.com", "bookUrlPattern": "", "customOrder": -115556, "enabled": true, "enabledExplore": true, "exploreUrl": "都市::https://www.sssxsw.com/dushi/index_{{page}}.html\n玄幻::https://www.sssxsw.com/xuanhuan/index_{{page}}.html\n仙侠::https://www.sssxsw.com/xianxia/index_{{page}}.html\n历史::https://www.sssxsw.com/lishi/index_{{page}}.html\n科幻::https://www.sssxsw.com/kehuan/index_{{page}}.html\n悬疑::https://www.sssxsw.com/xuanyi/index_{{page}}.html\n其他::https://www.sssxsw.com/qita/index_{{page}}.html\n全本::https://www.sssxsw.com/quanben/index_{{page}}.html", "lastUpdateTime": 1606913505221, "loginUrl": "", "ruleBookInfo": {"intro": "id.des@html"}, "ruleContent": {"content": "id.content@tag.p@html", "replaceRegex": "##天才本站地址s"}, "ruleExplore": {}, "ruleSearch": {"author": "class.author@text||tag.dt@tag.span.1@text", "bookList": "class.bookbox||class.wrap@class.item", "bookUrl": "tag.i@tag.a@href||tag.dt@tag.a@href", "coverUrl": "tag.img@src", "lastChapter": "class.update@tag.a@text||tag.li.0@tag.a@text", "name": "tag.i@tag.a@text||tag.dt@tag.a@text"}, "ruleToc": {"chapterList": "id.list@tag.li@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.sssxsw.com/search.php?q={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 色小说[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.sssxsw.com",
+    "bookUrlPattern": "",
+    "customOrder": -115556,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "都市::https://www.sssxsw.com/dushi/index_{{page}}.html\n玄幻::https://www.sssxsw.com/xuanhuan/index_{{page}}.html\n仙侠::https://www.sssxsw.com/xianxia/index_{{page}}.html\n历史::https://www.sssxsw.com/lishi/index_{{page}}.html\n科幻::https://www.sssxsw.com/kehuan/index_{{page}}.html\n悬疑::https://www.sssxsw.com/xuanyi/index_{{page}}.html\n其他::https://www.sssxsw.com/qita/index_{{page}}.html\n全本::https://www.sssxsw.com/quanben/index_{{page}}.html",
+    "lastUpdateTime": 1606913505221,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "id.des@html"
+    },
+    "ruleContent": {
+      "content": "id.content@tag.p@html",
+      "replaceRegex": "##天才本站地址s"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text||tag.dt@tag.span.1@text",
+      "bookList": "class.bookbox||class.wrap@class.item",
+      "bookUrl": "tag.i@tag.a@href||tag.dt@tag.a@href",
+      "coverUrl": "tag.img@src",
+      "lastChapter": "class.update@tag.a@text||tag.li.0@tag.a@text",
+      "name": "tag.i@tag.a@text||tag.dt@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.sssxsw.com/search.php?q={{key}}",
+    "weight": 0
+  }]

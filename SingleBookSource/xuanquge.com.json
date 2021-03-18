@@ -1,1 +1,39 @@
-[{"bookSourceComment": "error:failed to connect to m.ixuanquge.com/115.238.239.133 (port 80) from /192.168.0.103 (port 49858) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 炫书网③", "bookSourceType": 0, "bookSourceUrl": "https://m.xuanquge.com", "bookUrlPattern": "", "customOrder": -32066, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"intro": ".intro@p@html", "tocUrl": ".button@a@href"}, "ruleContent": {"content": "id.content@html##声明：本.*|分节阅读.*|.*用户上传.*|本书由.*|炫书网.*|（本章未完.*", "nextContentUrl": "text.下一页.0@href"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.a.1@text", "bookList": ".waps_one", "bookUrl": "tag.a.0@href", "coverUrl": "tag.a.0@href@js:result.replace(/.+\\/((\\d+)\\d{3}).html/,'https://img.xuanquge.com/Cover/$2/$1.jpg')", "kind": ".waps_full_1@text&&tag.a.2@text", "lastChapter": "tag.a.0@href<js>java.ajax(result)</js>.chapter@tag.li.0@a@text", "name": "tag.a.0@text"}, "ruleToc": {"chapterList": "id.readlist@li@a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": ".next@href"}, "searchUrl": "http://m.ixuanquge.com/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:failed to connect to m.ixuanquge.com/115.238.239.133 (port 80) from /192.168.0.103 (port 49858) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 炫书网③",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.xuanquge.com",
+    "bookUrlPattern": "",
+    "customOrder": -32066,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": ".intro@p@html",
+      "tocUrl": ".button@a@href"
+    },
+    "ruleContent": {
+      "content": "id.content@html##声明：本.*|分节阅读.*|.*用户上传.*|本书由.*|炫书网.*|（本章未完.*",
+      "nextContentUrl": "text.下一页.0@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.1@text",
+      "bookList": ".waps_one",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href@js:result.replace(/.+\\/((\\d+)\\d{3}).html/,'https://img.xuanquge.com/Cover/$2/$1.jpg')",
+      "kind": ".waps_full_1@text&&tag.a.2@text",
+      "lastChapter": "tag.a.0@href<js>java.ajax(result)</js>.chapter@tag.li.0@a@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.readlist@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": ".next@href"
+    },
+    "searchUrl": "http://m.ixuanquge.com/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

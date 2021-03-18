@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "人人阅读", "bookSourceType": 0, "bookSourceUrl": "https://m.rrtxt.com", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻::https://m.rrtxt.com/sort/xuanhuan.html\n奇幻::https://m.rrtxt.com/sort/qihuan.html\n武侠::https://m.rrtxt.com/sort/wuxia.html\n仙侠::https://m.rrtxt.com/sort/xianxia.html\n都市::https://m.rrtxt.com/sort/dushi.html\n历史::https://m.rrtxt.com/sort/lishi.html\n军事::https://m.rrtxt.com/sort/junshi.html\n游戏::https://m.rrtxt.com/sort/youxi.html\n竞技::https://m.rrtxt.com/sort/jingji.html\n科幻::https://m.rrtxt.com/sort/kehuan.html\n灵异::https://m.rrtxt.com/sort/lingyi.html\n其他::https://m.rrtxt.com/sort/qita.html\n总裁::https://m.rrtxt.com/sort/zongcai.html\n穿越::https://m.rrtxt.com/sort/chongsheng.html\n古典::https://m.rrtxt.com/sort/gudian.html\n宫斗::https://m.rrtxt.com/sort/gongdou.html\n现言::https://m.rrtxt.com/sort/dushi.html\n仙侠::https://m.rrtxt.com/sort/xianxiaxuanhuan.html\n青春::https://m.rrtxt.com/sort/qingchun.html\n游戏::https://m.rrtxt.com/sort/game.html\n灵异::https://m.rrtxt.com/sort/kehuanlingyi.html\n耽美::https://m.rrtxt.com/sort/danmei.html\n女尊::https://m.rrtxt.com/sort/nvzun.html\n其他::https://m.rrtxt.com/sort/other.html\n百度热搜榜::https://m.rrtxt.com/top/baidu.html\n追书热度榜::https://m.rrtxt.com/top/zhuishu.html\n书旗热搜榜::https://m.rrtxt.com/top/shuqi.html\n掌阅热销榜::https://m.rrtxt.com/top/zhangyue.html\n起点月票榜::https://m.rrtxt.com/top/qidian.html\n17K鲜花榜::https://m.rrtxt.com/top/17k.html", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"tocUrl": "text.章节目录@href"}, "ruleContent": {"content": "id.pt-pop@p@html##本章未完.*阅读！|第.*共.*页", "nextContentUrl": "text.下一页@href"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.p.1@text##.*?：", "bookList": ".book_list@li", "bookUrl": "a@href", "coverUrl": "img@data-original", "intro": ".intro@text", "kind": "tag.span.0@text", "name": ".book_title@text"}, "ruleToc": {"chapterList": " .cataloglist@li@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://m.rrtxt.com/search/result.html?searchkey={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "人人阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.rrtxt.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::https://m.rrtxt.com/sort/xuanhuan.html\n奇幻::https://m.rrtxt.com/sort/qihuan.html\n武侠::https://m.rrtxt.com/sort/wuxia.html\n仙侠::https://m.rrtxt.com/sort/xianxia.html\n都市::https://m.rrtxt.com/sort/dushi.html\n历史::https://m.rrtxt.com/sort/lishi.html\n军事::https://m.rrtxt.com/sort/junshi.html\n游戏::https://m.rrtxt.com/sort/youxi.html\n竞技::https://m.rrtxt.com/sort/jingji.html\n科幻::https://m.rrtxt.com/sort/kehuan.html\n灵异::https://m.rrtxt.com/sort/lingyi.html\n其他::https://m.rrtxt.com/sort/qita.html\n总裁::https://m.rrtxt.com/sort/zongcai.html\n穿越::https://m.rrtxt.com/sort/chongsheng.html\n古典::https://m.rrtxt.com/sort/gudian.html\n宫斗::https://m.rrtxt.com/sort/gongdou.html\n现言::https://m.rrtxt.com/sort/dushi.html\n仙侠::https://m.rrtxt.com/sort/xianxiaxuanhuan.html\n青春::https://m.rrtxt.com/sort/qingchun.html\n游戏::https://m.rrtxt.com/sort/game.html\n灵异::https://m.rrtxt.com/sort/kehuanlingyi.html\n耽美::https://m.rrtxt.com/sort/danmei.html\n女尊::https://m.rrtxt.com/sort/nvzun.html\n其他::https://m.rrtxt.com/sort/other.html\n百度热搜榜::https://m.rrtxt.com/top/baidu.html\n追书热度榜::https://m.rrtxt.com/top/zhuishu.html\n书旗热搜榜::https://m.rrtxt.com/top/shuqi.html\n掌阅热销榜::https://m.rrtxt.com/top/zhangyue.html\n起点月票榜::https://m.rrtxt.com/top/qidian.html\n17K鲜花榜::https://m.rrtxt.com/top/17k.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "tocUrl": "text.章节目录@href"
+    },
+    "ruleContent": {
+      "content": "id.pt-pop@p@html##本章未完.*阅读！|第.*共.*页",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p.1@text##.*?：",
+      "bookList": ".book_list@li",
+      "bookUrl": "a@href",
+      "coverUrl": "img@data-original",
+      "intro": ".intro@text",
+      "kind": "tag.span.0@text",
+      "name": ".book_title@text"
+    },
+    "ruleToc": {
+      "chapterList": " .cataloglist@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://m.rrtxt.com/search/result.html?searchkey={{key}}",
+    "weight": 0
+  }]

@@ -1,1 +1,41 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎈 wenku8(登录可搜)", "bookSourceType": 0, "bookSourceUrl": "https://www.wenku8.net", "bookUrlPattern": "", "customOrder": -30877, "enabled": true, "enabledExplore": true, "exploreUrl": "真厉害2019::/zt/sugoi/2019.php\n真厉害2018::/zt/sugoi/2018.php\n真厉害2017::/zt/sugoi/2017.php\n真厉害2016::/zt/sugoi/2016.php\n真厉害2015::/zt/sugoi/2015.php\n真厉害2014::/zt/sugoi/2014.php\n真厉害2013::/zt/sugoi/2013.php\n真厉害2012::/zt/sugoi/2012.php\n真厉害2011::/zt/sugoi/2011.php\n真厉害2010::/zt/sugoi/2010.php\n真厉害2009::/zt/sugoi/2009.php\n真厉害2008::/zt/sugoi/2008.php\n真厉害2007::/zt/sugoi/2007.php\n真厉害2006::/zt/sugoi/2006.php\n真厉害2005::/zt/sugoi/2005.php\n[登录可见]热门1::/modules/article/toplist.php?sort=allvisit\n热门2::/modules/article/toplist.php?sort=allvisit&page=2\n热门3::/modules/article/toplist.php?sort=allvisit&page=3\n热门4::/modules/article/toplist.php?sort=allvisit&page=4\n热门5::/modules/article/toplist.php?sort=allvisit&page=5", "lastUpdateTime": 1603040233310, "loginUrl": "http://www.wenku8.net/login.php", "ruleBookInfo": {"author": "@css:td[width=\"20%\"]:nth-child(2)@text@js:result.split('：').pop()", "coverUrl": "@css:td[width=\"20%\"]>img@src", "intro": "//span[@style=\"font-size:14px;\"][last()]@text", "lastChapter": "tag.span.4@text", "name": "@css:td[width=\"90%\"] > b@text", "tocUrl": "tag.fieldset.0@tag.a.0@href"}, "ruleContent": {"content": "id.content@textNodes##.+最全日本轻小说.+|(.+版\\s转自\\s.+)|^(扫图&&录入|扫\\s?图|录\\s?入|修\\s?图|图\\s?源|翻\\s?译|润\\s?色|设\\s?计|校\\s?对|编\\s?辑|协\\s?力)：.+"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.p.0@text##作者:|/分类.+", "bookList": "@css:table.grid td>div,th a:nth-child(2n+1)", "bookUrl": "@css:b>a,a[href^=http]@href", "coverUrl": "tag.img@src", "kind": "tag.p.0@text##(.+分类:)|/状态.+", "name": "@css:b>a,a[href^=http]@text"}, "ruleToc": {"chapterList": "class.ccss", "chapterName": "tag.a@text", "chapterUrl": "//a[not(contains(text(), \"插图\"))][not(contains(text(), \"插画\"))][not(contains(text(), \"彩图\"))][not(contains(text(), \"彩页\"))][not(contains(text(), \"转载信息\"))]/@href"}, "searchUrl": "/modules/article/search.php?searchtype=articlename&searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎈 wenku8(登录可搜)",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.wenku8.net",
+    "bookUrlPattern": "",
+    "customOrder": -30877,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "真厉害2019::/zt/sugoi/2019.php\n真厉害2018::/zt/sugoi/2018.php\n真厉害2017::/zt/sugoi/2017.php\n真厉害2016::/zt/sugoi/2016.php\n真厉害2015::/zt/sugoi/2015.php\n真厉害2014::/zt/sugoi/2014.php\n真厉害2013::/zt/sugoi/2013.php\n真厉害2012::/zt/sugoi/2012.php\n真厉害2011::/zt/sugoi/2011.php\n真厉害2010::/zt/sugoi/2010.php\n真厉害2009::/zt/sugoi/2009.php\n真厉害2008::/zt/sugoi/2008.php\n真厉害2007::/zt/sugoi/2007.php\n真厉害2006::/zt/sugoi/2006.php\n真厉害2005::/zt/sugoi/2005.php\n[登录可见]热门1::/modules/article/toplist.php?sort=allvisit\n热门2::/modules/article/toplist.php?sort=allvisit&page=2\n热门3::/modules/article/toplist.php?sort=allvisit&page=3\n热门4::/modules/article/toplist.php?sort=allvisit&page=4\n热门5::/modules/article/toplist.php?sort=allvisit&page=5",
+    "lastUpdateTime": 1603040233310,
+    "loginUrl": "http://www.wenku8.net/login.php",
+    "ruleBookInfo": {
+      "author": "@css:td[width=\"20%\"]:nth-child(2)@text@js:result.split('：').pop()",
+      "coverUrl": "@css:td[width=\"20%\"]>img@src",
+      "intro": "//span[@style=\"font-size:14px;\"][last()]@text",
+      "lastChapter": "tag.span.4@text",
+      "name": "@css:td[width=\"90%\"] > b@text",
+      "tocUrl": "tag.fieldset.0@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##.+最全日本轻小说.+|(.+版\\s转自\\s.+)|^(扫图&&录入|扫\\s?图|录\\s?入|修\\s?图|图\\s?源|翻\\s?译|润\\s?色|设\\s?计|校\\s?对|编\\s?辑|协\\s?力)：.+"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p.0@text##作者:|/分类.+",
+      "bookList": "@css:table.grid td>div,th a:nth-child(2n+1)",
+      "bookUrl": "@css:b>a,a[href^=http]@href",
+      "coverUrl": "tag.img@src",
+      "kind": "tag.p.0@text##(.+分类:)|/状态.+",
+      "name": "@css:b>a,a[href^=http]@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.ccss",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "//a[not(contains(text(), \"插图\"))][not(contains(text(), \"插画\"))][not(contains(text(), \"彩图\"))][not(contains(text(), \"彩页\"))][not(contains(text(), \"转载信息\"))]/@href"
+    },
+    "searchUrl": "/modules/article/search.php?searchtype=articlename&searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

@@ -1,1 +1,49 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "📡 高辣肉文", "bookSourceType": 0, "bookSourceUrl": "http://www.chataowanjia.com", "bookUrlPattern": "", "customOrder": -117080, "enabled": true, "enabledExplore": true, "exploreUrl": "点击日榜::/other/tpl/rank_hits/order/hits_day.html?page={{page}}\n点击周榜::/other/tpl/rank_hits/order/hits_week.html?page={{page}}\n点击月榜::/other/tpl/rank_hits/order/hits_month.html?page={{page}}\n点击总榜::/other/tpl/rank_hits/order/hits.html?page={{page}}\n新书榜::/other/tpl/rank_hits/newbook/1.html?page={{page}}\n完结榜::/other/tpl/rank_hits/over/1.html?page={{page}}\n奇幻玄幻·连载::/lists/serialize/0/order/hits%2Bdesc/id/18.html?page={{page}}\n武侠仙侠·连载::/lists/serialize/0/order/hits%2Bdesc/id/19.html?page={{page}}\n历史军事·连载::/lists/serialize/0/order/hits%2Bdesc/id/20.html?page={{page}}\n都市娱乐·连载::/lists/serialize/0/order/hits%2Bdesc/id/21.html?page={{page}}\n科幻末日·连载::/lists/serialize/0/order/hits%2Bdesc/id/22.html?page={{page}}\n悬疑灵异·连载::/lists/serialize/0/order/hits%2Bdesc/id/23.html?page={{page}}\n游戏竞技·连载::/lists/serialize/0/order/hits%2Bdesc/id/34.html?page={{page}}\n其他·连载::/lists/serialize/0/order/hits%2Bdesc/id/35.html?page={{page}}\n古装言情·连载::/lists/serialize/0/order/hits%2Bdesc/id/25.html?page={{page}}\n都市言情·连载::/lists/serialize/0/order/hits%2Bdesc/id/26.html?page={{page}}\n浪漫青春·连载::/lists/serialize/0/order/hits%2Bdesc/id/27.html?page={{page}}\n幻想言情·连载::/lists/serialize/0/order/hits%2Bdesc/id/28.html?page={{page}}\n科幻空间·连载::/lists/serialize/0/order/hits%2Bdesc/id/37.html?page={{page}}\n灵异悬疑·连载::/lists/serialize/0/order/hits%2Bdesc/id/38.html?page={{page}}\n同人衍生·连载::/lists/serialize/0/order/hits%2Bdesc/id/39.html?page={{page}}\n耽美百合·连载::/lists/serialize/0/order/hits%2Bdesc/id/40.html?page={{page}}\n奇幻玄幻·完本::/lists/order/hits%2Bdesc/serialize/1/id/18.html?page={{page}}\n武侠仙侠·完本::/lists/order/hits%2Bdesc/serialize/1/id/19.html?page={{page}}\n历史军事·完本::/lists/order/hits%2Bdesc/serialize/1/id/20.html?page={{page}}\n都市娱乐·完本::/lists/order/hits%2Bdesc/serialize/1/id/21.html?page={{page}}\n科幻末日·完本::/lists/order/hits%2Bdesc/serialize/1/id/22.html?page={{page}}\n悬疑灵异·完本::/lists/order/hits%2Bdesc/serialize/1/id/23.html?page={{page}}\n游戏竞技·完本::/lists/order/hits%2Bdesc/serialize/1/id/34.html?page={{page}}\n其他·完本::/lists/order/hits%2Bdesc/serialize/1/id/35.html?page={{page}}\n古装言情·完本::/lists/order/hits%2Bdesc/serialize/1/id/25.html?page={{page}}\n都市言情·完本::/lists/order/hits%2Bdesc/serialize/1/id/26.html?page={{page}}\n浪漫青春·完本::/lists/order/hits%2Bdesc/serialize/1/id/27.html?page={{page}}\n幻想言情·完本::/lists/order/hits%2Bdesc/serialize/1/id/28.html?page={{page}}\n科幻空间·完本::/lists/order/hits%2Bdesc/serialize/1/id/37.html?page={{page}}\n灵异悬疑·完本::/lists/order/hits%2Bdesc/serialize/1/id/38.html?page={{page}}\n同人衍生·完本::/lists/order/hits%2Bdesc/serialize/1/id/39.html?page={{page}}\n耽美百合·完本::/lists/order/hits%2Bdesc/serialize/1/id/40.html?page={{page}}", "lastUpdateTime": 1612586024047, "loginUrl": "", "ruleBookInfo": {"author": "class.col-md-10@tag.h1.0@tag.a.1@text", "coverUrl": "tag.img.0@src||class.col-md-2@tag.img.0@src", "intro": "class.col-md-10@id.bookIntro@text||class.col-md-10@tag.p.1@text", "lastChapter": "class.col-md-10@tag.p.2@tag.a.0@text", "name": "class.col-md-10@tag.h1.0@tag.a.0@text", "tocUrl": "text.章节目录@href"}, "ruleContent": {"content": "id.txt@html##天才一秒钟.*更新最快的小说网站!|.*第.*章.*\\(.*\\)", "nextContentUrl": "id.pt_next@href"}, "ruleExplore": {"author": "tag.small.0@text##/ 著", "bookList": "class.book-coverlist", "bookUrl": "tag.a.0@href", "coverUrl": "tag.img.0@src", "intro": "tag.p.0@text", "name": "tag.a.1@text"}, "ruleSearch": {"author": "tag.td.3@text", "bookList": "class.table@tag.tbody.0@tag.tr", "bookUrl": "tag.a.0@href", "kind": "tag.td.0@text", "lastChapter": "tag.a.1@text", "name": "tag.td.1@tag.a.0@text"}, "ruleToc": {"chapterList": "class.panel-chapterlist.0@tag.dd||class.col-md-3", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.chataowanjia.com/search.html?keyword={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "高辣肉文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.chataowanjia.com",
+    "bookUrlPattern": "",
+    "customOrder": -117080,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "点击日榜::/other/tpl/rank_hits/order/hits_day.html?page={{page}}\n点击周榜::/other/tpl/rank_hits/order/hits_week.html?page={{page}}\n点击月榜::/other/tpl/rank_hits/order/hits_month.html?page={{page}}\n点击总榜::/other/tpl/rank_hits/order/hits.html?page={{page}}\n新书榜::/other/tpl/rank_hits/newbook/1.html?page={{page}}\n完结榜::/other/tpl/rank_hits/over/1.html?page={{page}}\n奇幻玄幻·连载::/lists/serialize/0/order/hits%2Bdesc/id/18.html?page={{page}}\n武侠仙侠·连载::/lists/serialize/0/order/hits%2Bdesc/id/19.html?page={{page}}\n历史军事·连载::/lists/serialize/0/order/hits%2Bdesc/id/20.html?page={{page}}\n都市娱乐·连载::/lists/serialize/0/order/hits%2Bdesc/id/21.html?page={{page}}\n科幻末日·连载::/lists/serialize/0/order/hits%2Bdesc/id/22.html?page={{page}}\n悬疑灵异·连载::/lists/serialize/0/order/hits%2Bdesc/id/23.html?page={{page}}\n游戏竞技·连载::/lists/serialize/0/order/hits%2Bdesc/id/34.html?page={{page}}\n其他·连载::/lists/serialize/0/order/hits%2Bdesc/id/35.html?page={{page}}\n古装言情·连载::/lists/serialize/0/order/hits%2Bdesc/id/25.html?page={{page}}\n都市言情·连载::/lists/serialize/0/order/hits%2Bdesc/id/26.html?page={{page}}\n浪漫青春·连载::/lists/serialize/0/order/hits%2Bdesc/id/27.html?page={{page}}\n幻想言情·连载::/lists/serialize/0/order/hits%2Bdesc/id/28.html?page={{page}}\n科幻空间·连载::/lists/serialize/0/order/hits%2Bdesc/id/37.html?page={{page}}\n灵异悬疑·连载::/lists/serialize/0/order/hits%2Bdesc/id/38.html?page={{page}}\n同人衍生·连载::/lists/serialize/0/order/hits%2Bdesc/id/39.html?page={{page}}\n耽美百合·连载::/lists/serialize/0/order/hits%2Bdesc/id/40.html?page={{page}}\n奇幻玄幻·完本::/lists/order/hits%2Bdesc/serialize/1/id/18.html?page={{page}}\n武侠仙侠·完本::/lists/order/hits%2Bdesc/serialize/1/id/19.html?page={{page}}\n历史军事·完本::/lists/order/hits%2Bdesc/serialize/1/id/20.html?page={{page}}\n都市娱乐·完本::/lists/order/hits%2Bdesc/serialize/1/id/21.html?page={{page}}\n科幻末日·完本::/lists/order/hits%2Bdesc/serialize/1/id/22.html?page={{page}}\n悬疑灵异·完本::/lists/order/hits%2Bdesc/serialize/1/id/23.html?page={{page}}\n游戏竞技·完本::/lists/order/hits%2Bdesc/serialize/1/id/34.html?page={{page}}\n其他·完本::/lists/order/hits%2Bdesc/serialize/1/id/35.html?page={{page}}\n古装言情·完本::/lists/order/hits%2Bdesc/serialize/1/id/25.html?page={{page}}\n都市言情·完本::/lists/order/hits%2Bdesc/serialize/1/id/26.html?page={{page}}\n浪漫青春·完本::/lists/order/hits%2Bdesc/serialize/1/id/27.html?page={{page}}\n幻想言情·完本::/lists/order/hits%2Bdesc/serialize/1/id/28.html?page={{page}}\n科幻空间·完本::/lists/order/hits%2Bdesc/serialize/1/id/37.html?page={{page}}\n灵异悬疑·完本::/lists/order/hits%2Bdesc/serialize/1/id/38.html?page={{page}}\n同人衍生·完本::/lists/order/hits%2Bdesc/serialize/1/id/39.html?page={{page}}\n耽美百合·完本::/lists/order/hits%2Bdesc/serialize/1/id/40.html?page={{page}}",
+    "lastUpdateTime": 1615879839991,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.col-md-10@tag.h1.0@tag.a.1@text",
+      "coverUrl": "tag.img.0@src||class.col-md-2@tag.img.0@src",
+      "intro": "class.col-md-10@id.bookIntro@text||class.col-md-10@tag.p.1@text",
+      "lastChapter": "class.col-md-10@tag.p.2@tag.a.0@text",
+      "name": "class.col-md-10@tag.h1.0@tag.a.0@text",
+      "tocUrl": "text.章节目录@href"
+    },
+    "ruleContent": {
+      "content": "id.txt@html##天才一秒钟.*更新最快的小说网站!|.*第.*章.*\\(.*\\)",
+      "nextContentUrl": "id.pt_next@href"
+    },
+    "ruleExplore": {
+      "author": "tag.small.0@text##/ 著",
+      "bookList": "class.book-coverlist",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img.0@src",
+      "intro": "tag.p.0@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleSearch": {
+      "author": "tag.td.3@text",
+      "bookList": "class.table@tag.tbody.0@tag.tr",
+      "bookUrl": "tag.a.0@href",
+      "kind": "tag.td.0@text",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.td.1@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.panel-chapterlist.0@tag.dd||class.col-md-3",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.chataowanjia.com/search.html?keyword={{key}}",
+    "weight": 0
+  }]

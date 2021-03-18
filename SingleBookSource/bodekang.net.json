@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "🎉 笔趣阁bodekang.net", "bookSourceType": 0, "bookSourceUrl": "https://www.bodekang.net", "bookUrlPattern": "", "customOrder": -115070, "enabled": true, "enabledExplore": true, "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}", "lastUpdateTime": 1605531428959, "loginUrl": "", "ruleBookInfo": {"intro": "id.intro@text"}, "ruleContent": {"content": "id.content@textNodes", "nextContentUrl": "text.下一页@href", "replaceRegex": "##加V公众号.|领域书坊，看更多小说！！！"}, "ruleExplore": {}, "ruleSearch": {"author": "class.s4@tag.a@text", "bookList": "class.novelslist2@tag.li!0", "bookUrl": "tag.a.0@href", "coverUrl": "tag.a.0@href##/(\\d+)_(\\d+)/##/files/article/image/$1/$2/$2s.jpg", "name": "tag.a.0@text"}, "ruleToc": {"chapterList": "id.list@tag.a!0:1:2:3:4:5:6:7:8:9:10:11", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.bodekang.net/index.php?s=/index/search,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"name={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "🎉 笔趣阁bodekang.net",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.bodekang.net",
+    "bookUrlPattern": "",
+    "customOrder": -115070,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}",
+    "lastUpdateTime": 1605531428959,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "id.intro@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": "##加V公众号.|领域书坊，看更多小说！！！"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@tag.a@text",
+      "bookList": "class.novelslist2@tag.li!0",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##/(\\d+)_(\\d+)/##/files/article/image/$1/$2/$2s.jpg",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.a!0:1:2:3:4:5:6:7:8:9:10:11",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.bodekang.net/index.php?s=/index/search,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"name={{key}}\"\n}",
+    "weight": 0
+  }]

@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "顶点小说", "bookSourceType": 0, "bookSourceUrl": "http://www.x23us.us", "bookUrlPattern": "https://www.x23us.com/book/\\d+", "customOrder": -32318, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1615838162878, "loginUrl": "", "ruleBookInfo": {"author": "class.fl@tag.td.1@text", "coverUrl": "id.fmimg@tag.img.0@src", "intro": "id.intro@text", "name": "id.content@tag.h1.0@text##\\s*全文阅读"}, "ruleContent": {"content": "id.content@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@text", "bookList": "class.grid@tag.tr!0", "bookUrl": "class.odd.0@tag.a.0@href", "lastChapter": "class.even@tag.a.0@text", "name": "class.odd.0@tag.a.0@text"}, "ruleToc": {"chapterList": "id.list@tag.dd@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "http://www.x23us.us/modules/article/search.php?q={{key}},{\n  \"charset\": \"utf-8\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "顶点小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.x23us.us",
+    "bookUrlPattern": "https://www.x23us.com/book/\\d+",
+    "customOrder": -32318,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1615838162878,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.fl@tag.td.1@text",
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "intro": "id.intro@text",
+      "name": "id.content@tag.h1.0@text##\\s*全文阅读"
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "lastChapter": "class.even@tag.a.0@text",
+      "name": "class.odd.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.x23us.us/modules/article/search.php?q={{key}},{\n  \"charset\": \"utf-8\"\n}",
+    "weight": 0
+  }]

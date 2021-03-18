@@ -1,1 +1,48 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 书海阁", "bookSourceType": 0, "bookSourceUrl": "https://m.xinshuhaige.net", "customOrder": -115059, "enabled": true, "enabledExplore": true, "exploreUrl": "奇幻玄幻::/xuanhuan/<,{{page}}.html>\n武侠仙侠::/wuxia/<,{{page}}.html>\n都市生活::/dushi/<,{{page}}.html>\n历史军事::/lishi/<,{{page}}.html>\n游戏竞技::/youxi/<,{{page}}.html>\n科幻未来::/kehuan/<,{{page}}.html>\n轻の小说::/erciyuan/{{page}}.html\n古代言情::/guyan/<,{{page}}.html>\n现代言情::/yanqing/<,{{page}}.html>\n青春校园::/qingchun/<,{{page}}.html>\n科幻未来::/kehuan/<,{{page}}.html>\n悬疑灵异::/xuanyi/<,{{page}}.html>\n新书发布::/xinshu/<,{{page}}.html>", "lastUpdateTime": 1612771009575, "ruleBookInfo": {"author": "class.author@tag.a@text", "coverUrl": "img@src", "init": "class.detail", "intro": "", "kind": "tag.p.2@tag.a@text", "lastChapter": "class.new@tag.a@text&&class.detail@tag.p.4@text##最后更新：", "name": "class.name@text", "wordCount": "tag.p.2@tag.span.1@text"}, "ruleContent": {"content": "class.content@html##.*书海阁小说网.*", "imageStyle": "0"}, "ruleExplore": {"name": ""}, "ruleSearch": {"author": "class.data.0@tag.a@text", "bookList": "class.list@tag.li", "bookUrl": "class.bookname@tag.a@href", "coverUrl": "img@src", "intro": "class.intro@text##(^|[。！？]+[”」）】]?)##$1<br>", "kind": "class.data@tag.span.0@text", "lastChapter": "tag.p.3@tag.a@text", "name": "class.bookname@tag.a@text", "wordCount": "tag.p.1@tag.span.1@text"}, "ruleToc": {"chapterList": "class.read@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "nextTocUrl": "text.下一页@href"}, "searchUrl": "/search.html,{\"method\":\"POST\";\"body\":\"searchkey={{key}}\"}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 书海阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.xinshuhaige.net",
+    "customOrder": -115059,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "奇幻玄幻::/xuanhuan/<,{{page}}.html>\n武侠仙侠::/wuxia/<,{{page}}.html>\n都市生活::/dushi/<,{{page}}.html>\n历史军事::/lishi/<,{{page}}.html>\n游戏竞技::/youxi/<,{{page}}.html>\n科幻未来::/kehuan/<,{{page}}.html>\n轻の小说::/erciyuan/{{page}}.html\n古代言情::/guyan/<,{{page}}.html>\n现代言情::/yanqing/<,{{page}}.html>\n青春校园::/qingchun/<,{{page}}.html>\n科幻未来::/kehuan/<,{{page}}.html>\n悬疑灵异::/xuanyi/<,{{page}}.html>\n新书发布::/xinshu/<,{{page}}.html>",
+    "lastUpdateTime": 1612771009575,
+    "ruleBookInfo": {
+      "author": "class.author@tag.a@text",
+      "coverUrl": "img@src",
+      "init": "class.detail",
+      "intro": "",
+      "kind": "tag.p.2@tag.a@text",
+      "lastChapter": "class.new@tag.a@text&&class.detail@tag.p.4@text##最后更新：",
+      "name": "class.name@text",
+      "wordCount": "tag.p.2@tag.span.1@text"
+    },
+    "ruleContent": {
+      "content": "class.content@html##.*书海阁小说网.*",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "name": ""
+    },
+    "ruleSearch": {
+      "author": "class.data.0@tag.a@text",
+      "bookList": "class.list@tag.li",
+      "bookUrl": "class.bookname@tag.a@href",
+      "coverUrl": "img@src",
+      "intro": "class.intro@text##(^|[。！？]+[”」）】]?)##$1<br>",
+      "kind": "class.data@tag.span.0@text",
+      "lastChapter": "tag.p.3@tag.a@text",
+      "name": "class.bookname@tag.a@text",
+      "wordCount": "tag.p.1@tag.span.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.read@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/search.html,{\"method\":\"POST\";\"body\":\"searchkey={{key}}\"}",
+    "weight": 0
+  }]

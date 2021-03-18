@@ -1,1 +1,52 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 悠久小说网", "bookSourceType": 0, "bookSourceUrl": "https://www.ujxs.net", "customOrder": -115624, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻奇幻::/xuanhuan/<,{{page}}/>\n武侠修真::/wuxia/<,{{page}}/>\n都市青春::/dushi/<,{{page}}/>\n历史军事::/lishi/<,{{page}}/>\n游戏动漫::/youxi/<,{{page}}/>\n科幻灵异::/kehuan/<,{{page}}/>\n女生言情::/yanqing/<,{{page}}/>", "lastUpdateTime": 1604164017482, "ruleBookInfo": {"author": "class.bookright@class.d_title@tag.h1@tag.em@tag.a@text", "coverUrl": "class.bookleft@img@src", "init": "id.bookinfo", "intro": "class.bookintro@text", "kind": "id.count@tag.span@text&&\nclass.new@tag.span.1@text", "lastChapter": "class.new@tag.span.0@tag.a@text", "name": "class.bookright@class.d_title@tag.h1@text##作者.*", "tocUrl": "class.motion@tag.a@href"}, "ruleContent": {"content": "class.read-content@html##【悠久小説網.*无弹窗免费阅读！|佰度搜索.*电子书免费下载！", "imageStyle": "0"}, "ruleExplore": {"author": "tag.dd.1@tag.span.0@tag.a@text", "bookList": "id.sitembox@tag.dl", "bookUrl": "tag.dd.0@tag.h3@tag.a@href", "coverUrl": "tag.dt@img@src", "intro": "tag.dd.2@text", "kind": "tag.dd.1@tag.span.1@text&&\ntag.dd.3@tag.span@text", "lastChapter": "tag.dd.3@tag.a@text", "name": "tag.dd.0@tag.h3@tag.a@text"}, "ruleSearch": {"author": "tag.li.3@tag.a@text", "bookList": "class.shulist@tag.ul", "bookUrl": "tag.li.2@tag.a@href", "coverUrl": "tag.li.2@tag.a@href@js:\r\nvar id = result.match(/\\/(\\d+)\\.?/)[1];\r\n'/files/article/image/'+parseInt(id/1000)+'/'+id+'/'+id+'s.jpg';", "kind": "tag.li.4@text&&\ntag.li.5@text", "lastChapter": "tag.li.2@tag.span@text", "name": "tag.li.2@tag.a.0@text"}, "ruleToc": {"chapterList": "id.readerlist@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.ujxs.net/searchbooks.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 悠久小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ujxs.net",
+    "customOrder": -115624,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/xuanhuan/<,{{page}}/>\n武侠修真::/wuxia/<,{{page}}/>\n都市青春::/dushi/<,{{page}}/>\n历史军事::/lishi/<,{{page}}/>\n游戏动漫::/youxi/<,{{page}}/>\n科幻灵异::/kehuan/<,{{page}}/>\n女生言情::/yanqing/<,{{page}}/>",
+    "lastUpdateTime": 1604164017482,
+    "ruleBookInfo": {
+      "author": "class.bookright@class.d_title@tag.h1@tag.em@tag.a@text",
+      "coverUrl": "class.bookleft@img@src",
+      "init": "id.bookinfo",
+      "intro": "class.bookintro@text",
+      "kind": "id.count@tag.span@text&&\nclass.new@tag.span.1@text",
+      "lastChapter": "class.new@tag.span.0@tag.a@text",
+      "name": "class.bookright@class.d_title@tag.h1@text##作者.*",
+      "tocUrl": "class.motion@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "class.read-content@html##【悠久小説網.*无弹窗免费阅读！|佰度搜索.*电子书免费下载！",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "author": "tag.dd.1@tag.span.0@tag.a@text",
+      "bookList": "id.sitembox@tag.dl",
+      "bookUrl": "tag.dd.0@tag.h3@tag.a@href",
+      "coverUrl": "tag.dt@img@src",
+      "intro": "tag.dd.2@text",
+      "kind": "tag.dd.1@tag.span.1@text&&\ntag.dd.3@tag.span@text",
+      "lastChapter": "tag.dd.3@tag.a@text",
+      "name": "tag.dd.0@tag.h3@tag.a@text"
+    },
+    "ruleSearch": {
+      "author": "tag.li.3@tag.a@text",
+      "bookList": "class.shulist@tag.ul",
+      "bookUrl": "tag.li.2@tag.a@href",
+      "coverUrl": "tag.li.2@tag.a@href@js:\r\nvar id = result.match(/\\/(\\d+)\\.?/)[1];\r\n'/files/article/image/'+parseInt(id/1000)+'/'+id+'/'+id+'s.jpg';",
+      "kind": "tag.li.4@text&&\ntag.li.5@text",
+      "lastChapter": "tag.li.2@tag.span@text",
+      "name": "tag.li.2@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.readerlist@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.ujxs.net/searchbooks.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

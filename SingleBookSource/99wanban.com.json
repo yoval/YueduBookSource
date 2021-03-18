@@ -1,1 +1,59 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🍀99小说网", "bookSourceType": 0, "bookSourceUrl": "https://m.99wanban.com", "bookUrlPattern": "", "customOrder": 0, "enabled": false, "enabledExplore": true, "exploreUrl": "玄幻魔法::/sort/1/{{page}}.html\n武侠修真::/sort/2/{{page}}.html\n都市爱恋::/sort/3/{{page}}.html\n历史军事::/sort/4/{{page}}.html\n穿越架空::/sort/5/{{page}}.html\n游戏竞技::/sort/6/{{page}}.html\n科幻灵异::/sort/7/{{page}}.html\n同人动漫::/sort/8/{{page}}.html\n综合其他::/sort/9/{{page}}.html\n女生言情::/sort/10/{{page}}.html\n                                                                        ::\n总点击榜:: https://m.99wanban.com/top/allvisit/{{page}}.html\n月点击榜:: https://m.99wanban.com/top/monthvisit/{{page}}.html\n日点击榜:: https://m.99wanban.com/top/dayvisit/{{page}}.html\n总推荐榜:: https://m.99wanban.com/top/allvote/{{page}}.html\n月推荐榜:: https://m.99wanban.com/top/monthvote/{{page}}.html\n日推荐榜:: https://m.99wanban.com/top/dayvote/{{page}}.html\n总收藏榜:: https://m.99wanban.com/top/goodnum/{{page}}.html\n总字数榜:: https://m.99wanban.com/top/words/{{page}}.html\n编辑推荐:: https://m.99wanban.com/top/toptime/{{page}}.html\n新书推荐:: https://m.99wanban.com/top/newhot/{{page}}.html\n最新入库:: https://m.99wanban.com/top/postdate/{{page}}.html\n最近更新:: https://m.99wanban.com/top/lastupdate/{{page}}.html", "header": "", "lastUpdateTime": 1606128110717, "loginUrl": "", "ruleBookInfo": {"author": "class.red.0@text", "coverUrl": "tag.img@src", "intro": "class.bookintro@text", "kind": "span.red@text&&class.blue.1@text", "lastChapter": "class.bookchapter@text##（m.99wanban.com首发）", "name": "class.booktitle@text", "tocUrl": "", "wordCount": ""}, "ruleContent": {"content": "<js>\nfunction AES(input){\n       rv = java.base64Decode(input);\n       return rv;\n    }\nif(result.match(/function AES\\(input\\)\\{/)){\nhtml=result.match(/['\"](.*?)['\"]\\s+function AES\\(input\\)\\{/)[1];\nresult=AES(html)\n}else{\nresult=java.getString(\"//a[@href='javascript:;']/../following-sibling::div[1]@html\",false)\n}\n</js>\n##此内容m.htzyk.com首发|.*本章未完，点击.*|.*本章节首发.*|.*保存唯一域名.*|.*浏览器阅读模式.*|百度搜索.*", "imageStyle": "full", "replaceRegex": "", "webJs": ""}, "ruleExplore": {"author": "", "bookList": "", "bookUrl": "", "intro": "", "kind": "", "lastChapter": "", "name": ""}, "ruleSearch": {"author": "class.author.0@text", "bookList": "class.bookbox", "bookUrl": "class.bookname@a@href", "coverUrl": "tag.a.0@href##/index/(\\d+)(\\d{3})/##/files/article/image/$1/$1$2/$1$2s.jpg", "intro": "class.update@text##简介：", "kind": "class.author.2@text", "lastChapter": "class.cat@tag.a.0@text##（m.99wanban.com首发）", "name": "class.bookname@tag.a@text", "wordCount": ""}, "ruleToc": {"chapterList": "dl@div@dd", "chapterName": "tag.a@text##（m.99wanban.com首发）", "chapterUrl": "tag.a@href", "nextTocUrl": "class.next@href"}, "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&page={{page}}&searchtype=all\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍀99小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.99wanban.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/sort/1/{{page}}.html\n武侠修真::/sort/2/{{page}}.html\n都市爱恋::/sort/3/{{page}}.html\n历史军事::/sort/4/{{page}}.html\n穿越架空::/sort/5/{{page}}.html\n游戏竞技::/sort/6/{{page}}.html\n科幻灵异::/sort/7/{{page}}.html\n同人动漫::/sort/8/{{page}}.html\n综合其他::/sort/9/{{page}}.html\n女生言情::/sort/10/{{page}}.html\n                                                                        ::\n总点击榜:: https://m.99wanban.com/top/allvisit/{{page}}.html\n月点击榜:: https://m.99wanban.com/top/monthvisit/{{page}}.html\n日点击榜:: https://m.99wanban.com/top/dayvisit/{{page}}.html\n总推荐榜:: https://m.99wanban.com/top/allvote/{{page}}.html\n月推荐榜:: https://m.99wanban.com/top/monthvote/{{page}}.html\n日推荐榜:: https://m.99wanban.com/top/dayvote/{{page}}.html\n总收藏榜:: https://m.99wanban.com/top/goodnum/{{page}}.html\n总字数榜:: https://m.99wanban.com/top/words/{{page}}.html\n编辑推荐:: https://m.99wanban.com/top/toptime/{{page}}.html\n新书推荐:: https://m.99wanban.com/top/newhot/{{page}}.html\n最新入库:: https://m.99wanban.com/top/postdate/{{page}}.html\n最近更新:: https://m.99wanban.com/top/lastupdate/{{page}}.html",
+    "header": "",
+    "lastUpdateTime": 1606128110717,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.red.0@text",
+      "coverUrl": "tag.img@src",
+      "intro": "class.bookintro@text",
+      "kind": "span.red@text&&class.blue.1@text",
+      "lastChapter": "class.bookchapter@text##（m.99wanban.com首发）",
+      "name": "class.booktitle@text",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "<js>\nfunction AES(input){\n       rv = java.base64Decode(input);\n       return rv;\n    }\nif(result.match(/function AES\\(input\\)\\{/)){\nhtml=result.match(/['\"](.*?)['\"]\\s+function AES\\(input\\)\\{/)[1];\nresult=AES(html)\n}else{\nresult=java.getString(\"//a[@href='javascript:;']/../following-sibling::div[1]@html\",false)\n}\n</js>\n##此内容m.htzyk.com首发|.*本章未完，点击.*|.*本章节首发.*|.*保存唯一域名.*|.*浏览器阅读模式.*|百度搜索.*",
+      "imageStyle": "full",
+      "replaceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": ""
+    },
+    "ruleSearch": {
+      "author": "class.author.0@text",
+      "bookList": "class.bookbox",
+      "bookUrl": "class.bookname@a@href",
+      "coverUrl": "tag.a.0@href##/index/(\\d+)(\\d{3})/##/files/article/image/$1/$1$2/$1$2s.jpg",
+      "intro": "class.update@text##简介：",
+      "kind": "class.author.2@text",
+      "lastChapter": "class.cat@tag.a.0@text##（m.99wanban.com首发）",
+      "name": "class.bookname@tag.a@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "dl@div@dd",
+      "chapterName": "tag.a@text##（m.99wanban.com首发）",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "class.next@href"
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&page={{page}}&searchtype=all\"\n}",
+    "weight": 0
+  }]

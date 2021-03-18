@@ -1,1 +1,56 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎈 我的轻小说", "bookSourceType": 0, "bookSourceUrl": "https://novel.crazyideal.com", "bookUrlPattern": "", "customOrder": -115917, "enabled": true, "enabledExplore": true, "exploreUrl": "电击::/xs/1/{{page}}/\n富士::/xs/2/{{page}}/\n角川::/xs/3/{{page}}/\n MF ::/xs/4/{{page}}/\nFami::/xs/5/{{page}}/\n GA ::/xs/6/{{page}}/\n HJ ::/xs/7/{{page}}/\n一迅::/xs/8/{{page}}/\n集英::/xs/9/{{page}}/\n小学::/xs/10/{{page}}/\n讲谈::/xs/11/{{page}}/\n少女::/xs/12/{{page}}/\n其他::/xs/13/{{page}}/\n游戏::/xs/14/{{page}}/", "lastUpdateTime": 1612353886118, "loginUrl": "", "ruleBookInfo": {"author": "[property=\"og:novel:author\"]@content", "coverUrl": "[property=\"og:image\"]@content", "intro": "[property=\"og:description\"]@content", "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content", "lastChapter": "[property=\"og:novel:lastest_chapter_name\"]@content", "name": "[property=\"og:novel:book_name\"]@content", "wordCount": "class.novel_info_main@tag.span.1@text"}, "ruleContent": {"content": "id.article@html", "imageStyle": "0", "nextContentUrl": "id.next_url@tag.a@href"}, "ruleExplore": {"author": "tag.i.0@text", "bookList": "class.flex@tag.li", "bookUrl": "tag.a.1@href", "coverUrl": "class.lazy@data-original", "intro": "tag.p.0@text", "kind": "tag.span.0@text", "name": "tag.h2@text", "wordCount": "tag.em.0@text"}, "ruleSearch": {"author": "tag.p.0@text##\\s+[0-9]+\\s*+(万字|分钟前|小时前|天前|个月前|年前)", "bookList": "class.flex@tag.li", "bookUrl": "tag.a.1@href", "coverUrl": "class.lazy@data-original", "intro": "tag.p.1@text", "kind": "tag.span.0@text", "lastChapter": "tag.a.2@text", "name": "tag.h3@text", "wordCount": "class.s_gray@text##\\s+[0-9]+\\s*+(秒|分钟前|小时前|天前|个月前|年前)"}, "ruleToc": {"chapterList": "id.ul_all_chapters@tag.li@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "/search/,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎈 我的轻小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://novel.crazyideal.com",
+    "bookUrlPattern": "",
+    "customOrder": -115917,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "电击::/xs/1/{{page}}/\n富士::/xs/2/{{page}}/\n角川::/xs/3/{{page}}/\n MF ::/xs/4/{{page}}/\nFami::/xs/5/{{page}}/\n GA ::/xs/6/{{page}}/\n HJ ::/xs/7/{{page}}/\n一迅::/xs/8/{{page}}/\n集英::/xs/9/{{page}}/\n小学::/xs/10/{{page}}/\n讲谈::/xs/11/{{page}}/\n少女::/xs/12/{{page}}/\n其他::/xs/13/{{page}}/\n游戏::/xs/14/{{page}}/",
+    "lastUpdateTime": 1612353886118,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content&&[property=\"og:novel:update_time\"]@content",
+      "lastChapter": "[property=\"og:novel:lastest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content",
+      "wordCount": "class.novel_info_main@tag.span.1@text"
+    },
+    "ruleContent": {
+      "content": "id.article@html",
+      "imageStyle": "0",
+      "nextContentUrl": "id.next_url@tag.a@href"
+    },
+    "ruleExplore": {
+      "author": "tag.i.0@text",
+      "bookList": "class.flex@tag.li",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "class.lazy@data-original",
+      "intro": "tag.p.0@text",
+      "kind": "tag.span.0@text",
+      "name": "tag.h2@text",
+      "wordCount": "tag.em.0@text"
+    },
+    "ruleSearch": {
+      "author": "tag.p.0@text##\\s+[0-9]+\\s*+(万字|分钟前|小时前|天前|个月前|年前)",
+      "bookList": "class.flex@tag.li",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "class.lazy@data-original",
+      "intro": "tag.p.1@text",
+      "kind": "tag.span.0@text",
+      "lastChapter": "tag.a.2@text",
+      "name": "tag.h3@text",
+      "wordCount": "class.s_gray@text##\\s+[0-9]+\\s*+(秒|分钟前|小时前|天前|个月前|年前)"
+    },
+    "ruleToc": {
+      "chapterList": "id.ul_all_chapters@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search/,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

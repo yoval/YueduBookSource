@@ -1,1 +1,46 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "👍 笔趣阁③", "bookSourceType": 0, "bookSourceUrl": "https://www.biduo.cc", "customOrder": -114913, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻魔法::https://www.biduo.cc/book_1_1/\n武侠修真::https://www.biduo.cc/book_2_1/\n都市言情::https://www.biduo.cc/book_3_1/\n历史军事::https://www.biduo.cc/book_4_1/\n网游动漫::https://www.biduo.cc/book_6_1/\n科幻小说::https://www.biduo.cc/book_7_1/\n灵异恐怖::https://www.biduo.cc/book_8_1/\n其他小说::https://www.biduo.cc/book_10_1/\n", "lastUpdateTime": 1604165675686, "ruleBookInfo": {"author": "id.info@tag.p.0@text##作    者：", "coverUrl": "id.fmimg@tag.img@src", "intro": "id.intro@text", "kind": "class.con_top@tag.a.1@text", "lastChapter": "id.info@tag.p.3@tag.a@text", "name": "id.info@tag.h1@text"}, "ruleContent": {"content": "id.content@textNodes"}, "ruleExplore": {"author": "class.s5@text", "bookList": "class.r@tag.ul@tag.li", "bookUrl": "class.s2@tag.a@href", "name": "class.s2@tag.a@text"}, "ruleSearch": {"author": "class.result-game-item-info@tag.p.0@tag.span.1@text", "bookList": "class.result-list@class.result-item result-game-item", "bookUrl": "class.result-item-title result-game-item-title@tag.a@href", "coverUrl": "class.result-game-item-pic@tag.a@tag.img@src", "intro": "class.result-game-item-desc@text", "kind": "class.result-game-item-info@tag.p.1@tag.span.1@text", "lastChapter": "class.result-game-item-info@tag.p.3@tag.a@text", "name": "class.result-item-title result-game-item-title@tag.a@tag.span@text"}, "ruleToc": {"chapterList": "id.list@tag.dl@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.biduo.cc/search.php?q={{key}}&p=1", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "👍 笔趣阁③",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.biduo.cc",
+    "customOrder": -114913,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::https://www.biduo.cc/book_1_1/\n武侠修真::https://www.biduo.cc/book_2_1/\n都市言情::https://www.biduo.cc/book_3_1/\n历史军事::https://www.biduo.cc/book_4_1/\n网游动漫::https://www.biduo.cc/book_6_1/\n科幻小说::https://www.biduo.cc/book_7_1/\n灵异恐怖::https://www.biduo.cc/book_8_1/\n其他小说::https://www.biduo.cc/book_10_1/\n",
+    "lastUpdateTime": 1604165675686,
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text##作    者：",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@text",
+      "kind": "class.con_top@tag.a.1@text",
+      "lastChapter": "id.info@tag.p.3@tag.a@text",
+      "name": "id.info@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {
+      "author": "class.s5@text",
+      "bookList": "class.r@tag.ul@tag.li",
+      "bookUrl": "class.s2@tag.a@href",
+      "name": "class.s2@tag.a@text"
+    },
+    "ruleSearch": {
+      "author": "class.result-game-item-info@tag.p.0@tag.span.1@text",
+      "bookList": "class.result-list@class.result-item result-game-item",
+      "bookUrl": "class.result-item-title result-game-item-title@tag.a@href",
+      "coverUrl": "class.result-game-item-pic@tag.a@tag.img@src",
+      "intro": "class.result-game-item-desc@text",
+      "kind": "class.result-game-item-info@tag.p.1@tag.span.1@text",
+      "lastChapter": "class.result-game-item-info@tag.p.3@tag.a@text",
+      "name": "class.result-item-title result-game-item-title@tag.a@tag.span@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dl@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.biduo.cc/search.php?q={{key}}&p=1",
+    "weight": 0
+  }]

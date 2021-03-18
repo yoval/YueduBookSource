@@ -1,1 +1,42 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "🎉 笔趣阁1", "bookSourceType": 0, "bookSourceUrl": "http://m.bbsgx.com", "bookUrlPattern": "", "customOrder": -115089, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1612606300089, "loginUrl": "", "ruleBookInfo": {"intro": "class.review@html", "lastChapter": "class.directoryArea@tag.p.0@a@text", "name": "class.title@text", "tocUrl": "text.查看完整目录@href"}, "ruleContent": {"content": "id.chaptercontent@textNodes", "nextContentUrl": "text.下一页.0@href", "replaceRegex": "##\\s*.*?本章[未已]完.*\\s*|./>\n　　请记住本书首发域名：.*"}, "ruleExplore": {}, "ruleSearch": {"author": "class.author.0@text##.*作者：", "bookList": "div[class^=hot_sale]", "bookUrl": "a@href", "coverUrl": "", "kind": "class.author.1@text##\\|.*", "lastChapter": "class.author.1@text##.*更新：", "name": ".title@text"}, "ruleToc": {"chapterList": "id.chapterlist@p!0@a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "text.下一页.0@href"}, "searchUrl": "/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&t=1\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "🎉 笔趣阁1",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.bbsgx.com",
+    "bookUrlPattern": "",
+    "customOrder": -115089,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612606300089,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.review@html",
+      "lastChapter": "class.directoryArea@tag.p.0@a@text",
+      "name": "class.title@text",
+      "tocUrl": "text.查看完整目录@href"
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@textNodes",
+      "nextContentUrl": "text.下一页.0@href",
+      "replaceRegex": "##\\s*.*?本章[未已]完.*\\s*|./>\n　　请记住本书首发域名：.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@text##.*作者：",
+      "bookList": "div[class^=hot_sale]",
+      "bookUrl": "a@href",
+      "coverUrl": "",
+      "kind": "class.author.1@text##\\|.*",
+      "lastChapter": "class.author.1@text##.*更新：",
+      "name": ".title@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterlist@p!0@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页.0@href"
+    },
+    "searchUrl": "/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&t=1\"\n}",
+    "weight": 0
+  }]

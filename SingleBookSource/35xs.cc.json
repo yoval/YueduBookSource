@@ -1,1 +1,65 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🔰 35小说[网站不稳定]", "bookSourceType": 0, "bookSourceUrl": "http://m.35xs.cc", "bookUrlPattern": "", "customOrder": -114586, "enabled": true, "enabledExplore": true, "exploreUrl": "日点击榜::/top/dayvisit_1/\n周点击榜::/top/weekvisit_1/\n月点击榜::/top/monthvisit_1/\n总点击榜::/top/allvisit_1/\n总收藏榜::/top/goodnum_1/\n字数排行::/top/size_1/\n日推荐榜::/top/dayvote_1/\n周推荐榜::/top/weekvote_1/\n月推荐榜::/top/monthvote_1/\n总推荐榜::/top/allvote_1/\n最新入库::/top/postdate_1/\n最近更新::/top/lastupdate_1/\n全部::/sort/0_1/\n玄幻魔法::/sort/1_1/\n武侠修真::/sort/2_1/\n都市言情::/sort/3_1/\n历史军事::/sort/4_1/\n游戏竞技::/sort/5_1/\n科幻恐怖::/sort/6_1/\n其他类型::/sort/7_1/\n热点-全部::/ph/all.html\n热点-玄幻魔法::/ph/all1.html\n热点-武侠修真::/ph/all2.html\n热点-都市言情::/ph/all3.html\n热点-历史军事::/ph/all4.html\n热点-游戏竞技::/ph/all5.html\n热点-科幻恐怖::/ph/all6.html\n热点-其他类型::/ph/all7.html", "header": "Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; BLA-AL00 Build/HUAWEIBLA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN", "lastUpdateTime": 1612533854030, "loginUrl": "", "ruleBookInfo": {"author": "", "coverUrl": "id.fmimg@tag.img@src", "init": "", "intro": "id.intro@text##.+\\(第\\\\d/\\\\d页\\)", "kind": "", "lastChapter": "", "name": "", "tocUrl": "text.查看完整目录@href", "wordCount": ""}, "ruleContent": {"content": "id.chaptercontent@html##.+第\\d+/\\d+页.+|.+加入书签，方便阅读.*|.+请点击下一页继续阅读.+|最新网址.m.iswwx.com", "nextContentUrl": "text.下一页@href", "replaceRegex": "##[(].*m[)]|无弹窗小说网|ＷＷＷ.*com", "sourceRegex": "", "webJs": ""}, "ruleExplore": {"author": "class.author@text", "bookList": "class.hot_sale", "bookUrl": "class.bookinfo@tag.a@href", "coverUrl": "class.bookimg@tag.a@tag.img@src", "intro": "class.review@text", "kind": "", "lastChapter": "", "name": "class.title@text", "wordCount": ""}, "ruleSearch": {"author": "class.s4@text", "bookList": "class.novelslist2@tag.ul@tag.li", "bookUrl": "{{java.getString(\"class.s2@tag.a@href\", true).replace(\"www.35xs.cc\", \"m.35xs.cc\").replace(\"/114/\",\"/book/\")}}", "coverUrl": "", "intro": "", "kind": "class.s1@text", "lastChapter": "class.s3@tag.a@text", "name": "class.s2@tag.a@text", "wordCount": ""}, "ruleToc": {"chapterList": "id.chapterlist@tag.p!0", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "isVip": "", "nextTocUrl": "", "updateTime": ""}, "searchUrl": "http://www.35xs.cc/modules/article/search.php?searchkey={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🔰 35小说[网站不稳定]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.35xs.cc",
+    "bookUrlPattern": "",
+    "customOrder": -114586,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "日点击榜::/top/dayvisit_1/\n周点击榜::/top/weekvisit_1/\n月点击榜::/top/monthvisit_1/\n总点击榜::/top/allvisit_1/\n总收藏榜::/top/goodnum_1/\n字数排行::/top/size_1/\n日推荐榜::/top/dayvote_1/\n周推荐榜::/top/weekvote_1/\n月推荐榜::/top/monthvote_1/\n总推荐榜::/top/allvote_1/\n最新入库::/top/postdate_1/\n最近更新::/top/lastupdate_1/\n全部::/sort/0_1/\n玄幻魔法::/sort/1_1/\n武侠修真::/sort/2_1/\n都市言情::/sort/3_1/\n历史军事::/sort/4_1/\n游戏竞技::/sort/5_1/\n科幻恐怖::/sort/6_1/\n其他类型::/sort/7_1/\n热点-全部::/ph/all.html\n热点-玄幻魔法::/ph/all1.html\n热点-武侠修真::/ph/all2.html\n热点-都市言情::/ph/all3.html\n热点-历史军事::/ph/all4.html\n热点-游戏竞技::/ph/all5.html\n热点-科幻恐怖::/ph/all6.html\n热点-其他类型::/ph/all7.html",
+    "header": "Mozilla/5.0 (Linux; U; Android 8.1.0; zh-CN; BLA-AL00 Build/HUAWEIBLA-AL00) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/57.0.2987.108 UCBrowser/11.9.4.974 UWS/2.13.1.48 Mobile Safari/537.36 AliApp(DingTalk/4.5.11) com.alibaba.android.rimet/10487439 Channel/227200 language/zh-CN",
+    "lastUpdateTime": 1612533854030,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "init": "",
+      "intro": "id.intro@text##.+\\(第\\\\d/\\\\d页\\)",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": "text.查看完整目录@href",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@html##.+第\\d+/\\d+页.+|.+加入书签，方便阅读.*|.+请点击下一页继续阅读.+|最新网址.m.iswwx.com",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": "##[(].*m[)]|无弹窗小说网|ＷＷＷ.*com",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "class.author@text",
+      "bookList": "class.hot_sale",
+      "bookUrl": "class.bookinfo@tag.a@href",
+      "coverUrl": "class.bookimg@tag.a@tag.img@src",
+      "intro": "class.review@text",
+      "kind": "",
+      "lastChapter": "",
+      "name": "class.title@text",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.novelslist2@tag.ul@tag.li",
+      "bookUrl": "{{java.getString(\"class.s2@tag.a@href\", true).replace(\"www.35xs.cc\", \"m.35xs.cc\").replace(\"/114/\",\"/book/\")}}",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "class.s1@text",
+      "lastChapter": "class.s3@tag.a@text",
+      "name": "class.s2@tag.a@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterlist@tag.p!0",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "http://www.35xs.cc/modules/article/search.php?searchkey={{key}}",
+    "weight": 0
+  }]

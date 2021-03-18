@@ -1,1 +1,64 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🍺 奇书网", "bookSourceType": 0, "bookSourceUrl": "http://www.xqishuta.com", "bookUrlPattern": "", "customOrder": -32721, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻奇幻::/soft/sort01/index_{{page}}.html\n武侠仙侠::/soft/sort02/index_{{page}}.html\n女频言情::/soft/sort03/index_{{page}}.html\n现代都市::/soft/sort04/index_{{page}}.html\n历史军事::/soft/sort05/index_{{page}}.html\n游戏竞技::/soft/sort06/index_{{page}}.html\n科幻灵异::/soft/sort07/index_{{page}}.html\n美文同人::/soft/sort08/index_{{page}}.html\n剧本教程::/soft/sort09/index_{{page}}.html\n名著杂志::/soft/sort010/index_{{page}}.html\n技术其他::/soft/sort011/index_{{page}}.html\n热门电子书::/s/hot/index_{{page}}.html\n推荐电子书::/s/good/index_{{page}}.html\n最新电子书::/s/new/index_{{page}}.html", "header": "", "lastUpdateTime": 1603358921694, "loginUrl": "", "ruleBookInfo": {"author": "", "coverUrl": "", "init": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "tocUrl": "class.showDown@tag.a.0@href", "wordCount": ""}, "ruleContent": {"content": "id.content1@textNodes##.*手机版.*|『加入书签，方便阅读』", "nextContentUrl": "", "sourceRegex": "", "webJs": ""}, "ruleExplore": {"author": "class.s@text##大小.*", "bookList": "class.listBox@tag.li", "bookUrl": "tag.a.0@href", "coverUrl": "tag.img@src", "intro": "class.u@text", "kind": "", "lastChapter": "tag.a.1@text##最新章节：", "name": "tag.a.0@text##全集", "wordCount": ""}, "ruleSearch": {"author": "author", "bookList": ".grid tr!0\n<js>\nresult.toArray().slice(0,10).map(o=>{\n    var detail = String(o.select('td:eq(1) a').attr('href')).replace(/^\\//, baseUrl.match(/(.+?\\/\\/[^\\/]+\\/)/)[1]);\n    var J = org.jsoup.Jsoup.parse(java.ajax(detail));\n    var oText = selector =>String(o.select(selector).text().trim()).replace(/.+：/, '');\n    var jText = selector =>String(J.select(selector).text().trim()).replace(/.+：/, '');\n    return {\n       name:  oText('td:eq(1)'),\n       author: oText('td:eq(2)'),\n       tags:  [jText('.small:eq(4)'),jText('.small:eq(2)')].join(','),\n       latest:  oText('td:eq(3)') +  oText('td:eq(4)').replace(/(\\d+-\\d+-\\d+).*/,'（$1）'),\n       intro: jText('.showInfo p'),\n       cover: J.select('.detail_pic img').attr('src'),\n       catalogUrl: J.select('.downButton').attr('href')\n    }\n}).filter(v =>v.name);\n</js>", "bookUrl": "catalogUrl", "coverUrl": "cover", "intro": "intro", "kind": "tags", "lastChapter": "latest", "name": "name", "wordCount": ""}, "ruleToc": {"chapterList": "class.pc_list.1@tag.li", "chapterName": "tag.a.0@text", "chapterUrl": "tag.a.0@href", "isVip": "", "nextTocUrl": "", "updateTime": ""}, "searchUrl": "/search.html?searchkey={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍺 奇书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xqishuta.com",
+    "bookUrlPattern": "",
+    "customOrder": -32721,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/soft/sort01/index_{{page}}.html\n武侠仙侠::/soft/sort02/index_{{page}}.html\n女频言情::/soft/sort03/index_{{page}}.html\n现代都市::/soft/sort04/index_{{page}}.html\n历史军事::/soft/sort05/index_{{page}}.html\n游戏竞技::/soft/sort06/index_{{page}}.html\n科幻灵异::/soft/sort07/index_{{page}}.html\n美文同人::/soft/sort08/index_{{page}}.html\n剧本教程::/soft/sort09/index_{{page}}.html\n名著杂志::/soft/sort010/index_{{page}}.html\n技术其他::/soft/sort011/index_{{page}}.html\n热门电子书::/s/hot/index_{{page}}.html\n推荐电子书::/s/good/index_{{page}}.html\n最新电子书::/s/new/index_{{page}}.html",
+    "header": "",
+    "lastUpdateTime": 1603358921694,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "",
+      "init": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": "class.showDown@tag.a.0@href",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.content1@textNodes##.*手机版.*|『加入书签，方便阅读』",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "class.s@text##大小.*",
+      "bookList": "class.listBox@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.u@text",
+      "kind": "",
+      "lastChapter": "tag.a.1@text##最新章节：",
+      "name": "tag.a.0@text##全集",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "author",
+      "bookList": ".grid tr!0\n<js>\nresult.toArray().slice(0,10).map(o=>{\n    var detail = String(o.select('td:eq(1) a').attr('href')).replace(/^\\//, baseUrl.match(/(.+?\\/\\/[^\\/]+\\/)/)[1]);\n    var J = org.jsoup.Jsoup.parse(java.ajax(detail));\n    var oText = selector =>String(o.select(selector).text().trim()).replace(/.+：/, '');\n    var jText = selector =>String(J.select(selector).text().trim()).replace(/.+：/, '');\n    return {\n       name:  oText('td:eq(1)'),\n       author: oText('td:eq(2)'),\n       tags:  [jText('.small:eq(4)'),jText('.small:eq(2)')].join(','),\n       latest:  oText('td:eq(3)') +  oText('td:eq(4)').replace(/(\\d+-\\d+-\\d+).*/,'（$1）'),\n       intro: jText('.showInfo p'),\n       cover: J.select('.detail_pic img').attr('src'),\n       catalogUrl: J.select('.downButton').attr('href')\n    }\n}).filter(v =>v.name);\n</js>",
+      "bookUrl": "catalogUrl",
+      "coverUrl": "cover",
+      "intro": "intro",
+      "kind": "tags",
+      "lastChapter": "latest",
+      "name": "name",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.pc_list.1@tag.li",
+      "chapterName": "tag.a.0@text",
+      "chapterUrl": "tag.a.0@href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "/search.html?searchkey={{key}}",
+    "weight": 0
+  }]

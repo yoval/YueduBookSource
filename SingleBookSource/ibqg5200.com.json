@@ -1,1 +1,41 @@
-[{"bookSourceComment": "error:正文内容为空\n", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "🎉 笔趣阁㉟", "bookSourceType": 0, "bookSourceUrl": "http://m.ibqg5200.com", "bookUrlPattern": "", "customOrder": -31931, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": ".block_img2@img@src", "intro": "class.intro_info@textNodes", "kind": "h2@tag.p.2@text&&h2@tag.p.3@text##分类:：|连载：", "lastChapter": "tag.p@text.最新.+@a@text", "tocUrl": "class.margin_right.0@a@href"}, "ruleContent": {"content": "id.nr1@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.author@text##作者：", "bookList": "class.waps_r@class.waps_one", "bookUrl": "class.waps_name@a@href", "coverUrl": "tag.a.0@href##/info-(\\d+)(\\d{3})/##http://www.ibqg5200.com/files/article/image/$1/$1$2/$1$2s.jpg", "kind": "class.waps_full_0@text&&span@.waps_sort@text##\\(|\\)", "lastChapter": "class.genxin@a@text", "name": "class.waps_name@a@text"}, "ruleToc": {"chapterList": ".chapter@li@a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "a@text.下一页@href"}, "searchUrl": "http://m.ibqg5200.com/modules/article/waps.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=articlename&searchkey={{key}}&t_btnsearch=\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:正文内容为空\n",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "🎉 笔趣阁㉟",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.ibqg5200.com",
+    "bookUrlPattern": "",
+    "customOrder": -31931,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": ".block_img2@img@src",
+      "intro": "class.intro_info@textNodes",
+      "kind": "h2@tag.p.2@text&&h2@tag.p.3@text##分类:：|连载：",
+      "lastChapter": "tag.p@text.最新.+@a@text",
+      "tocUrl": "class.margin_right.0@a@href"
+    },
+    "ruleContent": {
+      "content": "id.nr1@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text##作者：",
+      "bookList": "class.waps_r@class.waps_one",
+      "bookUrl": "class.waps_name@a@href",
+      "coverUrl": "tag.a.0@href##/info-(\\d+)(\\d{3})/##http://www.ibqg5200.com/files/article/image/$1/$1$2/$1$2s.jpg",
+      "kind": "class.waps_full_0@text&&span@.waps_sort@text##\\(|\\)",
+      "lastChapter": "class.genxin@a@text",
+      "name": "class.waps_name@a@text"
+    },
+    "ruleToc": {
+      "chapterList": ".chapter@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "a@text.下一页@href"
+    },
+    "searchUrl": "http://m.ibqg5200.com/modules/article/waps.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=articlename&searchkey={{key}}&t_btnsearch=\"\n}",
+    "weight": 0
+  }]

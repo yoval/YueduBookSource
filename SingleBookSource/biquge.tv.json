@@ -1,1 +1,44 @@
-[{"bookSourceComment": "error:Handshake failed\n", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "🍺 笔趣阁①", "bookSourceType": 0, "bookSourceUrl": "https://www.biquge.tv", "bookUrlPattern": "", "customOrder": -32770, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻::/xuanhuanxiaoshuo/\n修真::/xiuzhenxiaoshuo/\n都市::/dushixiaoshuo/\n穿越::/chuanyuexiaoshuo/\n网游::/wangyouxiaoshuo/\n科幻::/kehuanxiaoshuo/\n完本::/wanben/1_1", "lastUpdateTime": 1603358421599, "loginUrl": "", "ruleBookInfo": {"author": "id.info@tag.p.0@text##作    者：", "coverUrl": "id.fmimg@tag.img.0@src", "intro": "id.intro@tag.p.0@text", "lastChapter": "id.info@tag.p.3@title", "name": "id.info@tag.h1.0@text"}, "ruleContent": {"content": "id.content@textNodes"}, "ruleExplore": {"author": "class.s5@text", "bookList": "class.r@tag.li", "bookUrl": "class.s2@tag.a.0@href", "name": "class.s2@tag.a.0@text"}, "ruleSearch": {"author": "class.odd.1@text", "bookList": "class.grid@tag.tr!0", "bookUrl": "class.odd.0@tag.a@href", "lastChapter": "class.even.0@tag.a@text", "name": "class.odd.0@tag.a@text"}, "ruleToc": {"chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.biquge.tv/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:Handshake failed\n",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "🍺 笔趣阁①",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.biquge.tv",
+    "bookUrlPattern": "",
+    "customOrder": -32770,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/xuanhuanxiaoshuo/\n修真::/xiuzhenxiaoshuo/\n都市::/dushixiaoshuo/\n穿越::/chuanyuexiaoshuo/\n网游::/wangyouxiaoshuo/\n科幻::/kehuanxiaoshuo/\n完本::/wanben/1_1",
+    "lastUpdateTime": 1603358421599,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text##作    者：",
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "intro": "id.intro@tag.p.0@text",
+      "lastChapter": "id.info@tag.p.3@title",
+      "name": "id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {
+      "author": "class.s5@text",
+      "bookList": "class.r@tag.li",
+      "bookUrl": "class.s2@tag.a.0@href",
+      "name": "class.s2@tag.a.0@text"
+    },
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a@href",
+      "lastChapter": "class.even.0@tag.a@text",
+      "name": "class.odd.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.biquge.tv/modules/article/search.php?searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

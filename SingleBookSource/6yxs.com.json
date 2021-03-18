@@ -1,1 +1,56 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "💵 6月小说", "bookSourceType": 0, "bookSourceUrl": "http://www.6yxs.com", "bookUrlPattern": "", "customOrder": -117410, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻奇幻::/all/bookclass/cate/1/p/{{page}}.html\n都市职场::/all/bookclass/cate/2/p/{{page}}.html\n历史军事::/all/bookclass/cate/3/p/{{page}}.html\n游戏竞技::/all/bookclass/cate/4/p/{{page}}.html\n科幻灵异::/all/bookclass/cate/5/p/{{page}}.html\n武侠仙侠::/all/bookclass/cate/6/p/{{page}}.html\n现代言情::/all/bookclass/cate/7/p/{{page}}.html\n浪漫青春::/all/bookclass/cate/8/p/{{page}}.html\n古代言情::/all/bookclass/cate/9/p/{{page}}.html\n仙侠奇缘::/all/bookclass/cate/10/p/{{page}}.html\n悬疑灵异::/all/bookclass/cate/11/p/{{page}}.html\n耽美同人::/all/bookclass/cate/12/p/{{page}}.html", "lastUpdateTime": 1605064494361, "loginUrl": "http://www.6yxs.com/index/index.html", "ruleBookInfo": {"author": "class.zht@tag.span@text##作者.", "coverUrl": "class.dcon-left left@tag.img@src", "intro": "class.jianj@tag.p@text", "kind": "class.jianj jianj2 jianj3 clearfix@tag.span.0@text&&class.jianj jianj2 jianj3 clearfix@tag.span.2@text&&class.zht@text&&class.zuop@tag.p.0@text##小说类别.|作品性质.|作者.*|更新时间.|\\s.*", "lastChapter": "class.namep@tag.h4@text##最新更新章节.", "name": "class.pade-name clearfix@tag.p.0@text", "tocUrl": "class.yue@tag.a@href", "wordCount": "class.jianj jianj2 jianj3 clearfix@tag.span.6@text@js:result+'字'##总字数."}, "ruleContent": {"content": "class.redcontent@html", "imageStyle": "0"}, "ruleExplore": {"author": "tag.span.5@text", "bookList": "class.mainssk mains3 clearfix@tag.li", "bookUrl": "tag.a.1@href", "coverUrl": "", "kind": "tag.a.0@text&&tag.span.6@text", "lastChapter": "tag.a.2@text", "name": "tag.a.1@text", "wordCount": "tag.span.4@text@js:result+'字'"}, "ruleSearch": {"author": "tag.b.0@text", "bookList": "class.picelis clearfix", "bookUrl": "tag.a.1@href", "coverUrl": "tag.img@src", "intro": "tag.p.1@text", "kind": "tag.b.1@text&&tag.b.2@text&&tag.p.2@text##.*\\》", "lastChapter": "tag.p.2@text##.*\\《|\\》.*", "name": "tag.a.1@text", "wordCount": "tag.p.3@text@js:result+'字'##总字数."}, "ruleToc": {"chapterList": "class.mu-list@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "/so/slist/searchkey/{{key}}/custom_list/all/show/pic.html", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "6月小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.6yxs.com",
+    "bookUrlPattern": "",
+    "customOrder": -117410,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/all/bookclass/cate/1/p/{{page}}.html\n都市职场::/all/bookclass/cate/2/p/{{page}}.html\n历史军事::/all/bookclass/cate/3/p/{{page}}.html\n游戏竞技::/all/bookclass/cate/4/p/{{page}}.html\n科幻灵异::/all/bookclass/cate/5/p/{{page}}.html\n武侠仙侠::/all/bookclass/cate/6/p/{{page}}.html\n现代言情::/all/bookclass/cate/7/p/{{page}}.html\n浪漫青春::/all/bookclass/cate/8/p/{{page}}.html\n古代言情::/all/bookclass/cate/9/p/{{page}}.html\n仙侠奇缘::/all/bookclass/cate/10/p/{{page}}.html\n悬疑灵异::/all/bookclass/cate/11/p/{{page}}.html\n耽美同人::/all/bookclass/cate/12/p/{{page}}.html",
+    "lastUpdateTime": 1615879543910,
+    "loginUrl": "http://www.6yxs.com/index/index.html",
+    "ruleBookInfo": {
+      "author": "class.zht@tag.span@text##作者.",
+      "coverUrl": "class.dcon-left left@tag.img@src",
+      "intro": "class.jianj@tag.p@text",
+      "kind": "class.jianj jianj2 jianj3 clearfix@tag.span.0@text&&class.jianj jianj2 jianj3 clearfix@tag.span.2@text&&class.zht@text&&class.zuop@tag.p.0@text##小说类别.|作品性质.|作者.*|更新时间.|\\s.*",
+      "lastChapter": "class.namep@tag.h4@text##最新更新章节.",
+      "name": "class.pade-name clearfix@tag.p.0@text",
+      "tocUrl": "class.yue@tag.a@href",
+      "wordCount": "class.jianj jianj2 jianj3 clearfix@tag.span.6@text@js:result+'字'##总字数."
+    },
+    "ruleContent": {
+      "content": "class.redcontent@html",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "author": "tag.span.5@text",
+      "bookList": "class.mainssk mains3 clearfix@tag.li",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "",
+      "kind": "tag.a.0@text&&tag.span.6@text",
+      "lastChapter": "tag.a.2@text",
+      "name": "tag.a.1@text",
+      "wordCount": "tag.span.4@text@js:result+'字'"
+    },
+    "ruleSearch": {
+      "author": "tag.b.0@text",
+      "bookList": "class.picelis clearfix",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img@src",
+      "intro": "tag.p.1@text",
+      "kind": "tag.b.1@text&&tag.b.2@text&&tag.p.2@text##.*\\》",
+      "lastChapter": "tag.p.2@text##.*\\《|\\》.*",
+      "name": "tag.a.1@text",
+      "wordCount": "tag.p.3@text@js:result+'字'##总字数."
+    },
+    "ruleToc": {
+      "chapterList": "class.mu-list@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/so/slist/searchkey/{{key}}/custom_list/all/show/pic.html",
+    "weight": 0
+  }]

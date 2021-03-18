@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,刘备书源", "bookSourceName": "🍑 趣耽美[仅发现]", "bookSourceType": 0, "bookSourceUrl": "http://www.qudanmei.com", "customOrder": 24371, "enabled": true, "enabledExplore": true, "exploreUrl": "❀ 现代耽美 ❀::/xd/\n❀ 古代耽美 ❀::/gd/\n❀ 穿越重生 ❀::/cy/\n❀ 玄幻灵异 ❀::/xh/\n❀ 网游竞技 ❀::/wy/\n❀ 同人耽美 ❀::/tr/", "header": "{\n\"User-Agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36\"\n}", "lastUpdateTime": 1612199057516, "ruleBookInfo": {"author": "class.titls@tag.strong@text", "intro": "", "kind": "class.titls@tan.span.1@text", "name": "class.con_box@tag.h2.0@text"}, "ruleContent": {"content": "class.cov_bd@html", "imageStyle": "0"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.a.0@text##.*作者：", "bookList": "class.list_article@tag.li", "bookUrl": "tag.a@href", "name": "tag.a.0@text##作者.*"}, "ruleToc": {"chapterList": "class.art_pege@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "nextTocUrl": "class.art_pege@text.下一页@href"}, "searchUrl": "/e/search/index.php,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"keyboard={{key}}&show=title&classid=0\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,刘备书源",
+    "bookSourceName": "🍑 趣耽美[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.qudanmei.com",
+    "customOrder": 24659,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "❀ 现代耽美 ❀::/xd/\n❀ 古代耽美 ❀::/gd/\n❀ 穿越重生 ❀::/cy/\n❀ 玄幻灵异 ❀::/xh/\n❀ 网游竞技 ❀::/wy/\n❀ 同人耽美 ❀::/tr/",
+    "header": "{\n\"User-Agent\":\"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/79.0.3945.130 Safari/537.36\"\n}",
+    "lastUpdateTime": 1612199057516,
+    "ruleBookInfo": {
+      "author": "class.titls@tag.strong@text",
+      "intro": "",
+      "kind": "class.titls@tan.span.1@text",
+      "name": "class.con_box@tag.h2.0@text"
+    },
+    "ruleContent": {
+      "content": "class.cov_bd@html",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.0@text##.*作者：",
+      "bookList": "class.list_article@tag.li",
+      "bookUrl": "tag.a@href",
+      "name": "tag.a.0@text##作者.*"
+    },
+    "ruleToc": {
+      "chapterList": "class.art_pege@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "class.art_pege@text.下一页@href"
+    },
+    "searchUrl": "/e/search/index.php,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"keyboard={{key}}&show=title&classid=0\"\n}",
+    "weight": 0
+  }]

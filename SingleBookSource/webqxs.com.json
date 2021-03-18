@@ -1,1 +1,39 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "WEB轻小说", "bookSourceType": 0, "bookSourceUrl": "http://www.webqxs.com", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": false, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.f-cf@tag.img.0@src", "intro": "class.u-synopsis-text f-fs12@tag.p@text", "tocUrl": "text.立即阅读@href"}, "ruleContent": {"content": "class.read-content@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@text||class.z-author@tag.a@text||class.author@text##作者：", "bookList": "class.main@tag.tr||class.clearfix@tag.li||class.m-book f-fs12 f-fl", "bookUrl": "class.odd.0@tag.a@href||class.introlink@href||", "coverUrl": "tag.img@src", "kind": "class.even.1@text||class.z-amount@tag.em@text", "lastChapter": "class.even.0@text||class.z-title-xy@text||class.time@text", "name": "class.odd.0@text||class.text@text||class.f-fs22.0@text##\\[.*"}, "ruleToc": {"chapterList": "class.w_800 mlfy_add", "chapterName": "text##全部章节", "chapterUrl": "-", "nextTocUrl": "text.下一章@href"}, "searchUrl": "http://www.webqxs.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "WEB轻小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.webqxs.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.f-cf@tag.img.0@src",
+      "intro": "class.u-synopsis-text f-fs12@tag.p@text",
+      "tocUrl": "text.立即阅读@href"
+    },
+    "ruleContent": {
+      "content": "class.read-content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text||class.z-author@tag.a@text||class.author@text##作者：",
+      "bookList": "class.main@tag.tr||class.clearfix@tag.li||class.m-book f-fs12 f-fl",
+      "bookUrl": "class.odd.0@tag.a@href||class.introlink@href||",
+      "coverUrl": "tag.img@src",
+      "kind": "class.even.1@text||class.z-amount@tag.em@text",
+      "lastChapter": "class.even.0@text||class.z-title-xy@text||class.time@text",
+      "name": "class.odd.0@text||class.text@text||class.f-fs22.0@text##\\[.*"
+    },
+    "ruleToc": {
+      "chapterList": "class.w_800 mlfy_add",
+      "chapterName": "text##全部章节",
+      "chapterUrl": "-",
+      "nextTocUrl": "text.下一章@href"
+    },
+    "searchUrl": "http://www.webqxs.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

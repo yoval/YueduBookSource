@@ -1,1 +1,32 @@
-[{"bookSourceComment": "error:Unable to resolve host \"www.my285.com\": No address associated with hostname\n", "bookSourceGroup": "我的书源", "bookSourceName": "📚 梦远书城", "bookSourceType": 0, "bookSourceUrl": "http://www.my285.com", "customOrder": -30211, "enabled": true, "enabledExplore": true, "exploreUrl": "古典小说::http://www.my285.com/gdwx/xs/index.htm\n现代文学::http://www.my285.com/xdwx/index.htm\n名家锦集::http://www.my285.com/xdmj/index.htm\n历史史记::http://www.my285.com/shishu/index.htm\n言情小说::http://www.my285.com/yq/index.htm\n侦探推理::http://www.my285.com/zt/index.htm\n军事军旅::http://www.my285.com/js/index.htm\n科幻小说::http://www.my285.com/kh/index.htm\n时尚阅读::http://www.my285.com/cx/index.htm\n外国名著::http://www.my285.com/wgwx/index.htm\n传记纪实::http://www.my285.com/zj/index.htm\n港台文学::http://www.my285.com/gt/index.htm\n诗词歌赋::http://www.my285.com/sc/index.htm\n古典文学::http://www.my285.com/gdwx/index.htm\n武侠小说::http://www.my285.com/wuxia/index.htm\n玄幻奇侠::http://www.my285.com/xh/index.htm\n影视小说::http://www.my285.com/ysyz/index.htm\n穿越·宫闱::http://www.my285.com/cy/index.htm\n青春校园::http://www.my285.com/xy/index.htm", "lastUpdateTime": 1603281251773, "ruleBookInfo": {"intro": "tag.td.3@text", "name": "tag.td.0@text"}, "ruleContent": {"content": "tag.td@text||tag.td@textNodes"}, "ruleExplore": {}, "ruleSearch": {"bookList": "tag.tr!0:1@tag.td@tag.a||tag.tr!0:1@tag.td@tag.a", "bookUrl": "tag.a@href", "name": "text"}, "ruleToc": {"chapterList": "tag.tbody@tag.td!", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "-", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:Unable to resolve host \"www.my285.com\": No address associated with hostname\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "📚 梦远书城",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.my285.com",
+    "customOrder": -30211,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "古典小说::http://www.my285.com/gdwx/xs/index.htm\n现代文学::http://www.my285.com/xdwx/index.htm\n名家锦集::http://www.my285.com/xdmj/index.htm\n历史史记::http://www.my285.com/shishu/index.htm\n言情小说::http://www.my285.com/yq/index.htm\n侦探推理::http://www.my285.com/zt/index.htm\n军事军旅::http://www.my285.com/js/index.htm\n科幻小说::http://www.my285.com/kh/index.htm\n时尚阅读::http://www.my285.com/cx/index.htm\n外国名著::http://www.my285.com/wgwx/index.htm\n传记纪实::http://www.my285.com/zj/index.htm\n港台文学::http://www.my285.com/gt/index.htm\n诗词歌赋::http://www.my285.com/sc/index.htm\n古典文学::http://www.my285.com/gdwx/index.htm\n武侠小说::http://www.my285.com/wuxia/index.htm\n玄幻奇侠::http://www.my285.com/xh/index.htm\n影视小说::http://www.my285.com/ysyz/index.htm\n穿越·宫闱::http://www.my285.com/cy/index.htm\n青春校园::http://www.my285.com/xy/index.htm",
+    "lastUpdateTime": 1603281251773,
+    "ruleBookInfo": {
+      "intro": "tag.td.3@text",
+      "name": "tag.td.0@text"
+    },
+    "ruleContent": {
+      "content": "tag.td@text||tag.td@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "tag.tr!0:1@tag.td@tag.a||tag.tr!0:1@tag.td@tag.a",
+      "bookUrl": "tag.a@href",
+      "name": "text"
+    },
+    "ruleToc": {
+      "chapterList": "tag.tbody@tag.td!",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "-",
+    "weight": 0
+  }]

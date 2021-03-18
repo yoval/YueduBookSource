@@ -1,1 +1,40 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "千千小说", "bookSourceType": 0, "bookSourceUrl": "https://www.qqxs.tw", "bookUrlPattern": "", "customOrder": 0, "enabled": false, "enabledExplore": true, "exploreUrl": "玄幻魔法::https://m.qqxs.tw/list/1_{{page}}.html\n武侠修真::https://m.qqxs.tw/list/2_{{page}}.html\n都市言情::https://m.qqxs.tw/list/3_{{page}}.html\n历史军事::https://m.qqxs.tw/list/4_{{page}}.html\n侦探推理::https://m.qqxs.tw/list/5_{{page}}.html\n网游动漫::https://m.qqxs.tw/list/6_{{page}}.html\n科学幻想::https://m.qqxs.tw/list/7_{{page}}.html\n恐怖灵异::https://m.qqxs.tw/list/8_{{page}}.html\n穿越架空::https://m.qqxs.tw/list/9_{{page}}.html\n其他类型::https://m.qqxs.tw/list/10_{{page}}.html\n完本小说::https://m.qqxs.tw/full/{{page}}.html", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.bookinfo@img@src", "intro": "class.intro@text", "lastChapter": "class.info@tag.p.5@a@text", "tocUrl": "text.章节目录@href"}, "ruleContent": {"content": "id.nr1@html##本章.*继续阅读|\\.\\.\\. --.*|\\.\\.\\. 看书的朋友.*|【.*com】", "nextContentUrl": "text.下一页@href"}, "ruleExplore": {}, "ruleSearch": {"author": "class.mr15@text", "bookList": "class.list-item", "bookUrl": "a@href", "coverUrl": "img@src", "name": "class.article@tag.a.0@text##小说章节目录"}, "ruleToc": {"chapterList": "id.alllist@li@a", "chapterName": "text##返回《.*》简介", "chapterUrl": "href", "nextTocUrl": "text.下一页@href"}, "searchUrl": "https://m.qqxs.tw/modules/article/search.php?searchtype=articlename&searchkey={{key}}&t_btnsearch=,{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "千千小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.qqxs.tw",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::https://m.qqxs.tw/list/1_{{page}}.html\n武侠修真::https://m.qqxs.tw/list/2_{{page}}.html\n都市言情::https://m.qqxs.tw/list/3_{{page}}.html\n历史军事::https://m.qqxs.tw/list/4_{{page}}.html\n侦探推理::https://m.qqxs.tw/list/5_{{page}}.html\n网游动漫::https://m.qqxs.tw/list/6_{{page}}.html\n科学幻想::https://m.qqxs.tw/list/7_{{page}}.html\n恐怖灵异::https://m.qqxs.tw/list/8_{{page}}.html\n穿越架空::https://m.qqxs.tw/list/9_{{page}}.html\n其他类型::https://m.qqxs.tw/list/10_{{page}}.html\n完本小说::https://m.qqxs.tw/full/{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.bookinfo@img@src",
+      "intro": "class.intro@text",
+      "lastChapter": "class.info@tag.p.5@a@text",
+      "tocUrl": "text.章节目录@href"
+    },
+    "ruleContent": {
+      "content": "id.nr1@html##本章.*继续阅读|\\.\\.\\. --.*|\\.\\.\\. 看书的朋友.*|【.*com】",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.mr15@text",
+      "bookList": "class.list-item",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "name": "class.article@tag.a.0@text##小说章节目录"
+    },
+    "ruleToc": {
+      "chapterList": "id.alllist@li@a",
+      "chapterName": "text##返回《.*》简介",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://m.qqxs.tw/modules/article/search.php?searchtype=articlename&searchkey={{key}}&t_btnsearch=,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

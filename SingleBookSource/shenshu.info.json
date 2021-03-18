@@ -1,1 +1,50 @@
-[{"bookSourceComment": "error:failed to connect to wap.shenshu.info/115.238.239.133 (port 80) from /192.168.0.103 (port 40864) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n", "bookSourceGroup": "我的书源,刘备书源", "bookSourceName": "🚬 神书网[仅发现]", "bookSourceType": 0, "bookSourceUrl": "http://wap.shenshu.info", "bookUrlPattern": "http://wap.shenshu.info/s\\d+/", "customOrder": 24613, "enabled": true, "enabledExplore": true, "exploreUrl": "总收藏榜::/top/goodnum_{{page}}/\n总点击榜::/top/allvisit_{{page}}/\n总推荐榜::/top/allvote_{{page}}/\n最近更新::/top/lastupdate_{{page}}/", "lastUpdateTime": 1603009061634, "ruleBookInfo": {"coverUrl": "img@src", "init": "class.cover", "intro": "class.intro_info@textNodes##最新章节推荐地址.*", "kind": "", "lastChapter": "class.block_txt2@tag.p.-1@tag.a@text", "name": "h2@text", "wordCount": "class.block_txt2@tag.p.4@text##状态："}, "ruleContent": {"content": "id.nr1@html##快捷c作.*功能！|\\s*（本章未完.*继续阅读）\\s*", "nextContentUrl": "text.下一页@href"}, "ruleExplore": {"author": "//p/text()##/", "bookList": "class.line", "bookUrl": "class.blue@href", "kind": "tag.a.0@text", "name": "class.blue@text"}, "ruleSearch": {"author": "class.block_txt@tag.p.3@text##作者：", "bookList": "class.block", "bookUrl": "h2@a@href", "coverUrl": "img@src", "kind": "class.block_txt@tag.p.2@text##分类：", "lastChapter": "class.block_txt@tag.p.4@tag.a@text", "name": "h2@a@text"}, "ruleToc": {"chapterList": "class.chapter.1@tag.li@tag.a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "class.right@class.onclick@href"}, "searchUrl": "/search.php,{\n\"method\": \"POST\",\n\"body\":  \"searchkey={{key}}&submit=\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:failed to connect to wap.shenshu.info/115.238.239.133 (port 80) from /192.168.0.103 (port 40864) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "我的书源,刘备书源",
+    "bookSourceName": "🚬 神书网[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://wap.shenshu.info",
+    "bookUrlPattern": "http://wap.shenshu.info/s\\d+/",
+    "customOrder": 24901,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "总收藏榜::/top/goodnum_{{page}}/\n总点击榜::/top/allvisit_{{page}}/\n总推荐榜::/top/allvote_{{page}}/\n最近更新::/top/lastupdate_{{page}}/",
+    "lastUpdateTime": 1603009061634,
+    "ruleBookInfo": {
+      "coverUrl": "img@src",
+      "init": "class.cover",
+      "intro": "class.intro_info@textNodes##最新章节推荐地址.*",
+      "kind": "",
+      "lastChapter": "class.block_txt2@tag.p.-1@tag.a@text",
+      "name": "h2@text",
+      "wordCount": "class.block_txt2@tag.p.4@text##状态："
+    },
+    "ruleContent": {
+      "content": "id.nr1@html##快捷c作.*功能！|\\s*（本章未完.*继续阅读）\\s*",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {
+      "author": "//p/text()##/",
+      "bookList": "class.line",
+      "bookUrl": "class.blue@href",
+      "kind": "tag.a.0@text",
+      "name": "class.blue@text"
+    },
+    "ruleSearch": {
+      "author": "class.block_txt@tag.p.3@text##作者：",
+      "bookList": "class.block",
+      "bookUrl": "h2@a@href",
+      "coverUrl": "img@src",
+      "kind": "class.block_txt@tag.p.2@text##分类：",
+      "lastChapter": "class.block_txt@tag.p.4@tag.a@text",
+      "name": "h2@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter.1@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "class.right@class.onclick@href"
+    },
+    "searchUrl": "/search.php,{\n\"method\": \"POST\",\n\"body\":  \"searchkey={{key}}&submit=\"\n}",
+    "weight": 0
+  }]

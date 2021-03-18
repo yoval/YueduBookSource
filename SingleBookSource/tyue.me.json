@@ -1,1 +1,36 @@
-[{"bookSourceComment": "error:List is empty.\n", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 婷阅中文[仅发现]", "bookSourceType": 0, "bookSourceUrl": "https://www.tyue.me", "bookUrlPattern": "", "customOrder": -32141, "enabled": true, "enabledExplore": true, "exploreUrl": "日点击榜::/top/dayvisit_{{page}}/\n周点击榜::/top/weekvisit_{{page}}/\n月点击榜::/top/monthvisit_{{page}}/\n总点击榜::/top/allvisit_{{page}}/\n总收藏榜::/top/goodnum_{{page}}/\n字数排行::/top/size_{{page}}/\n日推荐榜::/top/dayvote_{{page}}/\n周推荐榜::/top/weekvote_{{page}}/\n月推荐榜::/top/monthvote_{{page}}/\n总推荐榜::/top/allvote_{{page}}/\n最新入库::/top/postdate_{{page}}/\n最近更新::/top/lastupdate_{{page}}/\n玄幻魔法::/sort/1_{{page}}/\n武侠重生::/sort/2_{{page}}/\n都市言情::/sort/3_{{page}}/\n历史穿越::/sort/4_{{page}}/\n网游动漫::/sort/5_{{page}}/\n科幻推理::/sort/6_{{page}}/\n恐怖灵异::/sort/7_{{page}}/\n其他类型::/sort/8_{{page}}/\n全本小说::/full/{{page}}/", "lastUpdateTime": 1602982388805, "loginUrl": "", "ruleBookInfo": {"tocUrl": "class.ablum_read.0@tag.span.1@tag.a.0@href"}, "ruleContent": {"content": "id.nr@html##据说天才能一秒记住本站.*|觉得本站不错.*|。♂狂♂人♂小♂说.*|&&lt;/p&&gt;|♂丝♂路♂文♂学.*|&&amp;|8195;|本章未完.*|天才一秒记住.*|♂狂♂人♂小♂说.*|", "nextContentUrl": "class.next.1@tag.a.0@href"}, "ruleExplore": {}, "ruleSearch": {"author": "class.line@tag.a.2@text", "bookList": "class.line", "bookUrl": "class.line@tag.a.1@href", "name": "class.line@tag.a.1@text"}, "ruleToc": {"chapterList": "class.chapter@tag.li@tag.a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "class.page.0@tag.a.0@href"}, "searchUrl": "https://www.tyue.me/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"type=articlename&s={{key}}&submit=\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 婷阅中文[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.tyue.me",
+    "bookUrlPattern": "",
+    "customOrder": -32141,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "日点击榜::/top/dayvisit_{{page}}/\n周点击榜::/top/weekvisit_{{page}}/\n月点击榜::/top/monthvisit_{{page}}/\n总点击榜::/top/allvisit_{{page}}/\n总收藏榜::/top/goodnum_{{page}}/\n字数排行::/top/size_{{page}}/\n日推荐榜::/top/dayvote_{{page}}/\n周推荐榜::/top/weekvote_{{page}}/\n月推荐榜::/top/monthvote_{{page}}/\n总推荐榜::/top/allvote_{{page}}/\n最新入库::/top/postdate_{{page}}/\n最近更新::/top/lastupdate_{{page}}/\n玄幻魔法::/sort/1_{{page}}/\n武侠重生::/sort/2_{{page}}/\n都市言情::/sort/3_{{page}}/\n历史穿越::/sort/4_{{page}}/\n网游动漫::/sort/5_{{page}}/\n科幻推理::/sort/6_{{page}}/\n恐怖灵异::/sort/7_{{page}}/\n其他类型::/sort/8_{{page}}/\n全本小说::/full/{{page}}/",
+    "lastUpdateTime": 1602982388805,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "tocUrl": "class.ablum_read.0@tag.span.1@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "id.nr@html##据说天才能一秒记住本站.*|觉得本站不错.*|。♂狂♂人♂小♂说.*|&&lt;/p&&gt;|♂丝♂路♂文♂学.*|&&amp;|8195;|本章未完.*|天才一秒记住.*|♂狂♂人♂小♂说.*|",
+      "nextContentUrl": "class.next.1@tag.a.0@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.line@tag.a.2@text",
+      "bookList": "class.line",
+      "bookUrl": "class.line@tag.a.1@href",
+      "name": "class.line@tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "class.page.0@tag.a.0@href"
+    },
+    "searchUrl": "https://www.tyue.me/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"type=articlename&s={{key}}&submit=\"\n}",
+    "weight": 0
+  }]

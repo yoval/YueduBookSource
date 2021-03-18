@@ -1,1 +1,66 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🌸 神马小说", "bookSourceType": 0, "bookSourceUrl": "https://sma.yueyouxs.com", "bookUrlPattern": "", "customOrder": -117050, "enabled": true, "enabledExplore": true, "exploreUrl": "", "header": "", "lastUpdateTime": 1606746897472, "loginUrl": "", "ruleBookInfo": {"author": "", "coverUrl": "", "init": "", "intro": "", "kind": "class.face-info@class.v-words.1@span@text", "lastChapter": "", "name": "", "tocUrl": "class.sumchapter@tag.span@tag.a@href", "wordCount": ""}, "ruleContent": {"content": "class.con@html", "imageStyle": "0", "nextContentUrl": "", "replaceRegex": "##（本章.*）", "sourceRegex": "", "webJs": ""}, "ruleExplore": {"author": "", "bookList": "", "bookUrl": "", "coverUrl": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "wordCount": ""}, "ruleSearch": {"author": "class.v-author@text", "bookList": "class.v-list-item", "bookUrl": "class.v-cover-img@src\n<js>\nvar a=result.replace(/http.+wap\\/\\d+/,\"\").replace(\".jpg\",\".html\");\nresult=\"https://sma.yueyouxs.com/b\"+a;\n</js>", "coverUrl": "class.v-cover-img@src", "intro": "class.v-intro", "kind": "", "lastChapter": "", "name": "class.v-title@text", "wordCount": "class..v-words@text"}, "ruleToc": {"chapterList": "//ul//li/a", "chapterName": "text", "chapterUrl": "href", "isVip": "", "nextTocUrl": "", "updateTime": ""}, "searchUrl": "https://sma.yueyouxs.com/s/1.html?keyword={{key}},{\n\"body\":\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🌸 神马小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://sma.yueyouxs.com",
+    "bookUrlPattern": "",
+    "customOrder": -117050,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1606746897472,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "",
+      "init": "",
+      "intro": "",
+      "kind": "class.face-info@class.v-words.1@span@text",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": "class.sumchapter@tag.span@tag.a@href",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "class.con@html",
+      "imageStyle": "0",
+      "nextContentUrl": "",
+      "replaceRegex": "##（本章.*）",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.v-author@text",
+      "bookList": "class.v-list-item",
+      "bookUrl": "class.v-cover-img@src\n<js>\nvar a=result.replace(/http.+wap\\/\\d+/,\"\").replace(\".jpg\",\".html\");\nresult=\"https://sma.yueyouxs.com/b\"+a;\n</js>",
+      "coverUrl": "class.v-cover-img@src",
+      "intro": "class.v-intro",
+      "kind": "",
+      "lastChapter": "",
+      "name": "class.v-title@text",
+      "wordCount": "class..v-words@text"
+    },
+    "ruleToc": {
+      "chapterList": "//ul//li/a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "https://sma.yueyouxs.com/s/1.html?keyword={{key}},{\n\"body\":\n}",
+    "weight": 0
+  }]

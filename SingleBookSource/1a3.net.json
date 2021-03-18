@@ -1,1 +1,35 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎨 多多", "bookSourceType": 0, "bookSourceUrl": "https://api.duoduomh.1a3.net", "customOrder": -115877, "enabled": true, "enabledExplore": true, "exploreUrl": "上架::/app2/comic/index?sort=&page={{page}}\n最新::/app2/comic/index?sort=update&page={{page}}\n热门::/app2/comic/index?sort=click&page={{page}}\n完结::/app2/comic/index?sort=post&filter=完结&page={{page}}\n连载::/app2/comic/index?sort=post&filter=连载&page={{page}}", "lastUpdateTime": 1611294276903, "loginUrl": "coolapk@芜恙", "ruleBookInfo": {}, "ruleContent": {"content": "data.imageArray@js:'<br><img src=\"'+result.split(\"\\n\").join('\"/><img src=\"')+'\"/>'", "imageStyle": "full"}, "ruleExplore": {}, "ruleSearch": {"author": "author", "bookList": "items", "bookUrl": "https://api.duoduomh.com/app2/comic/view?id={$.id}", "coverUrl": "coverUrl", "intro": "description##.*简介：", "lastChapter": "last_chapter_name", "name": "name"}, "ruleToc": {"chapterList": "data.chapterGroup[0].chapters", "chapterName": "name", "chapterUrl": "https://api.duoduomh.com/app2/chapter/view?id={$.id}"}, "searchUrl": "/app2/comic/search?sort=click&page={{page}}&keywords={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎨 多多",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://api.duoduomh.1a3.net",
+    "customOrder": -115877,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "上架::/app2/comic/index?sort=&page={{page}}\n最新::/app2/comic/index?sort=update&page={{page}}\n热门::/app2/comic/index?sort=click&page={{page}}\n完结::/app2/comic/index?sort=post&filter=完结&page={{page}}\n连载::/app2/comic/index?sort=post&filter=连载&page={{page}}",
+    "lastUpdateTime": 1611294276903,
+    "loginUrl": "coolapk@芜恙",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "data.imageArray@js:'<br><img src=\"'+result.split(\"\\n\").join('\"/><img src=\"')+'\"/>'",
+      "imageStyle": "full"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "author",
+      "bookList": "items",
+      "bookUrl": "https://api.duoduomh.com/app2/comic/view?id={$.id}",
+      "coverUrl": "coverUrl",
+      "intro": "description##.*简介：",
+      "lastChapter": "last_chapter_name",
+      "name": "name"
+    },
+    "ruleToc": {
+      "chapterList": "data.chapterGroup[0].chapters",
+      "chapterName": "name",
+      "chapterUrl": "https://api.duoduomh.com/app2/chapter/view?id={$.id}"
+    },
+    "searchUrl": "/app2/comic/search?sort=click&page={{page}}&keywords={{key}}",
+    "weight": 0
+  }]

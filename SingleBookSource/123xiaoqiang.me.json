@@ -1,1 +1,64 @@
-[{"bookSourceComment": "error:List is empty.\n", "bookSourceGroup": "我的书源,刘备书源", "bookSourceName": "🚬 小强小说[仅发现]", "bookSourceType": 0, "bookSourceUrl": "http://123xiaoqiang.me", "bookUrlPattern": "", "customOrder": 24577, "enabled": true, "enabledExplore": true, "exploreUrl": "总排行榜::http://123xiaoqiang.me/modules/article/toplist.php?sort=allvisit&page={{page}}\n最近更新::http://123xiaoqiang.me/modules/article/toplist.php?sort=lastupdate&page={{page}}\n最新新书::http://123xiaoqiang.me/modules/article/toplist.php?sort=postdate&page={{page}}\n日点击榜::http://123xiaoqiang.me/modules/article/toplist.php?sort=dayvisit&page={{page}}\n周点击榜::http://123xiaoqiang.me/modules/article/toplist.php?sort=weekvisit&page={{page}}\n月点击榜::http://123xiaoqiang.me/modules/article/toplist.php?sort=monthvisit&page={{page}}\n总点击榜::http://123xiaoqiang.me/modules/article/toplist.php?sort=allvisit&page={{page}}\n日推荐榜::http://123xiaoqiang.me/modules/article/toplist.php?sort=dayvote&page={{page}}\n周推荐榜::http://123xiaoqiang.me/modules/article/toplist.php?sort=weekvote&page={{page}}\n月推荐榜::http://123xiaoqiang.me/modules/article/toplist.php?sort=monthvote&page={{page}}\n总推荐榜::http://123xiaoqiang.me/modules/article/toplist.php?sort=allvote&page={{page}}\n字数排行::http://123xiaoqiang.me/modules/article/toplist.php?sort=size&page={{page}}\n总收藏榜::http://123xiaoqiang.me/modules/article/toplist.php?sort=goodnum&page={{page}}\n凌辱::http://m.123xiaoqiang.me/tag/0/37/{{page}}.html\nSM::http://m.123xiaoqiang.me/tag/0/38/{{page}}.html\n调教::http://m.123xiaoqiang.me/tag/0/39/{{page}}.html\n催眠::http://m.123xiaoqiang.me/tag/0/40/{{page}}.html\n交换::http://m.123xiaoqiang.me/tag/0/41/{{page}}.html\n校园::http://m.123xiaoqiang.me/tag/0/42/{{page}}.html\n乡村::http://m.123xiaoqiang.me/tag/0/43/{{page}}.html\n职场::http://m.123xiaoqiang.me/tag/0/44/{{page}}.html\n真实::http://m.123xiaoqiang.me/tag/0/45/{{page}}.html\n故事::http://m.123xiaoqiang.me/tag/0/46/{{page}}.html\n武侠::http://m.123xiaoqiang.me/tag/0/47/{{page}}.html\n少妇::http://m.123xiaoqiang.me/tag/0/48/{{page}}.html\n娇妻::http://m.123xiaoqiang.me/tag/0/49/{{page}}.html\n后宫::http://m.123xiaoqiang.me/tag/0/50/{{page}}.html\n绿妻::http://m.123xiaoqiang.me/tag/0/51/{{page}}.html\n绿帽::http://m.123xiaoqiang.me/tag/0/52/{{page}}.html\n绿母::http://m.123xiaoqiang.me/tag/0/53/{{page}}.html\n乱伦::http://m.123xiaoqiang.me/tag/0/54/{{page}}.html\n同人::http://m.123xiaoqiang.me/tag/0/55/{{page}}.html\n妖文::http://m.123xiaoqiang.me/tag/0/56/{{page}}.html\n玄幻::http://m.123xiaoqiang.me/tag/0/57/{{page}}.html\n男同::http://m.123xiaoqiang.me/tag/0/58/{{page}}.html\n触手::http://m.123xiaoqiang.me/tag/0/59/{{page}}.html\n穿越::http://m.123xiaoqiang.me/tag/0/60/{{page}}.html\n丝足::http://m.123xiaoqiang.me/tag/0/61/{{page}}.html\n古典::http://m.123xiaoqiang.me/tag/0/62/{{page}}.html\n秀色::http://m.123xiaoqiang.me/tag/0/63/{{page}}.html\n暴露::http://m.123xiaoqiang.me/tag/0/64/{{page}}.html\n重生::http://m.123xiaoqiang.me/tag/0/65/{{page}}.html\n冰恋::http://m.123xiaoqiang.me/tag/0/66/{{page}}.html\n重口::http://m.123xiaoqiang.me/tag/0/68/{{page}}.html\n百合::http://m.123xiaoqiang.me/tag/0/69/{{page}}.html\n扶她::http://m.123xiaoqiang.me/tag/0/70/{{page}}.html\n科幻::http://m.123xiaoqiang.me/tag/0/71/{{page}}.html\n网游::http://m.123xiaoqiang.me/tag/0/72/{{page}}.html\n都市::http://m.123xiaoqiang.me/tag/0/73/{{page}}.html", "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}", "lastUpdateTime": 1602996156404, "loginUrl": "", "ruleBookInfo": {"author": "h1@em@text##作者：", "coverUrl": "class.pic@img@src", "init": "", "intro": "class.intro@text", "kind": "", "lastChapter": "", "name": "h1@text##作者：.*", "tocUrl": "class.btopt@a@href", "wordCount": ""}, "ruleContent": {"content": "id.content@html", "nextContentUrl": "", "sourceRegex": "", "webJs": ""}, "ruleExplore": {"author": "", "bookList": "", "bookUrl": "", "coverUrl": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "wordCount": ""}, "ruleSearch": {"author": "class.title@span@text||class.author@text", "bookList": "id.alistbox||class.hot_sale", "bookUrl": "class.pic@a@href||tag.a@href##/[\\d]+_([\\d]+)/##http://www.123xiaoqiang.me/book/$1.html", "coverUrl": "img@src||img@data-original", "intro": "class.intro@text||class.review@text", "kind": "", "lastChapter": "class.sys@a@text", "name": "h2@text||class.title@text##《|》", "wordCount": ""}, "ruleToc": {"chapterList": "class.liebiao@ul@li@a", "chapterName": "text", "chapterUrl": "href", "isVip": "", "nextTocUrl": "", "updateTime": ""}, "searchUrl": "http://www.123xiaoqiang.me/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "我的书源,刘备书源",
+    "bookSourceName": "🚬 小强小说[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://123xiaoqiang.me",
+    "bookUrlPattern": "",
+    "customOrder": 24865,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "总排行榜::http://123xiaoqiang.me/modules/article/toplist.php?sort=allvisit&page={{page}}\n最近更新::http://123xiaoqiang.me/modules/article/toplist.php?sort=lastupdate&page={{page}}\n最新新书::http://123xiaoqiang.me/modules/article/toplist.php?sort=postdate&page={{page}}\n日点击榜::http://123xiaoqiang.me/modules/article/toplist.php?sort=dayvisit&page={{page}}\n周点击榜::http://123xiaoqiang.me/modules/article/toplist.php?sort=weekvisit&page={{page}}\n月点击榜::http://123xiaoqiang.me/modules/article/toplist.php?sort=monthvisit&page={{page}}\n总点击榜::http://123xiaoqiang.me/modules/article/toplist.php?sort=allvisit&page={{page}}\n日推荐榜::http://123xiaoqiang.me/modules/article/toplist.php?sort=dayvote&page={{page}}\n周推荐榜::http://123xiaoqiang.me/modules/article/toplist.php?sort=weekvote&page={{page}}\n月推荐榜::http://123xiaoqiang.me/modules/article/toplist.php?sort=monthvote&page={{page}}\n总推荐榜::http://123xiaoqiang.me/modules/article/toplist.php?sort=allvote&page={{page}}\n字数排行::http://123xiaoqiang.me/modules/article/toplist.php?sort=size&page={{page}}\n总收藏榜::http://123xiaoqiang.me/modules/article/toplist.php?sort=goodnum&page={{page}}\n凌辱::http://m.123xiaoqiang.me/tag/0/37/{{page}}.html\nSM::http://m.123xiaoqiang.me/tag/0/38/{{page}}.html\n调教::http://m.123xiaoqiang.me/tag/0/39/{{page}}.html\n催眠::http://m.123xiaoqiang.me/tag/0/40/{{page}}.html\n交换::http://m.123xiaoqiang.me/tag/0/41/{{page}}.html\n校园::http://m.123xiaoqiang.me/tag/0/42/{{page}}.html\n乡村::http://m.123xiaoqiang.me/tag/0/43/{{page}}.html\n职场::http://m.123xiaoqiang.me/tag/0/44/{{page}}.html\n真实::http://m.123xiaoqiang.me/tag/0/45/{{page}}.html\n故事::http://m.123xiaoqiang.me/tag/0/46/{{page}}.html\n武侠::http://m.123xiaoqiang.me/tag/0/47/{{page}}.html\n少妇::http://m.123xiaoqiang.me/tag/0/48/{{page}}.html\n娇妻::http://m.123xiaoqiang.me/tag/0/49/{{page}}.html\n后宫::http://m.123xiaoqiang.me/tag/0/50/{{page}}.html\n绿妻::http://m.123xiaoqiang.me/tag/0/51/{{page}}.html\n绿帽::http://m.123xiaoqiang.me/tag/0/52/{{page}}.html\n绿母::http://m.123xiaoqiang.me/tag/0/53/{{page}}.html\n乱伦::http://m.123xiaoqiang.me/tag/0/54/{{page}}.html\n同人::http://m.123xiaoqiang.me/tag/0/55/{{page}}.html\n妖文::http://m.123xiaoqiang.me/tag/0/56/{{page}}.html\n玄幻::http://m.123xiaoqiang.me/tag/0/57/{{page}}.html\n男同::http://m.123xiaoqiang.me/tag/0/58/{{page}}.html\n触手::http://m.123xiaoqiang.me/tag/0/59/{{page}}.html\n穿越::http://m.123xiaoqiang.me/tag/0/60/{{page}}.html\n丝足::http://m.123xiaoqiang.me/tag/0/61/{{page}}.html\n古典::http://m.123xiaoqiang.me/tag/0/62/{{page}}.html\n秀色::http://m.123xiaoqiang.me/tag/0/63/{{page}}.html\n暴露::http://m.123xiaoqiang.me/tag/0/64/{{page}}.html\n重生::http://m.123xiaoqiang.me/tag/0/65/{{page}}.html\n冰恋::http://m.123xiaoqiang.me/tag/0/66/{{page}}.html\n重口::http://m.123xiaoqiang.me/tag/0/68/{{page}}.html\n百合::http://m.123xiaoqiang.me/tag/0/69/{{page}}.html\n扶她::http://m.123xiaoqiang.me/tag/0/70/{{page}}.html\n科幻::http://m.123xiaoqiang.me/tag/0/71/{{page}}.html\n网游::http://m.123xiaoqiang.me/tag/0/72/{{page}}.html\n都市::http://m.123xiaoqiang.me/tag/0/73/{{page}}.html",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
+    "lastUpdateTime": 1602996156404,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "h1@em@text##作者：",
+      "coverUrl": "class.pic@img@src",
+      "init": "",
+      "intro": "class.intro@text",
+      "kind": "",
+      "lastChapter": "",
+      "name": "h1@text##作者：.*",
+      "tocUrl": "class.btopt@a@href",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.content@html",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.title@span@text||class.author@text",
+      "bookList": "id.alistbox||class.hot_sale",
+      "bookUrl": "class.pic@a@href||tag.a@href##/[\\d]+_([\\d]+)/##http://www.123xiaoqiang.me/book/$1.html",
+      "coverUrl": "img@src||img@data-original",
+      "intro": "class.intro@text||class.review@text",
+      "kind": "",
+      "lastChapter": "class.sys@a@text",
+      "name": "h2@text||class.title@text##《|》",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.liebiao@ul@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "http://www.123xiaoqiang.me/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

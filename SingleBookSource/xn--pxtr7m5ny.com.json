@@ -1,1 +1,35 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "废文", "bookSourceType": 0, "bookSourceUrl": "https://xn--pxtr7m5ny.com/", "bookUrlPattern": "https://xn--pxtr7m5ny.com/threads/.*/profile", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "废文收藏::https://xn--pxtr7m5ny.com/collection", "lastUpdateTime": 1614084633877, "loginUrl": "https://xn--pxtr7m5ny.com/login", "ruleBookInfo": {"author": "div.h5@div.0@tag@text", "name": "div.font-2@div@a@text"}, "ruleContent": {"content": "div.panel-body.post-body@div.main-text.indentation.no-selection@tag.span.0@all"}, "ruleExplore": {"author": "div.col-xs-12@tag.span.1@a@text", "bookList": "div.panel-body@article", "bookUrl": "div.col-xs-12@tag.span.0@a.bigger-5@href", "intro": "span.smaller-5@all", "name": "div.col-xs-12@tag.span.0@a.bigger-5@text"}, "ruleSearch": {}, "ruleToc": {"chapterList": "div.hidden-sm.hidden-md.hidden-lg.overflow-hidden.text-center@a", "chapterName": "text", "chapterUrl": "href"}, "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "废文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://xn--pxtr7m5ny.com/",
+    "bookUrlPattern": "https://xn--pxtr7m5ny.com/threads/.*/profile",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "废文收藏::https://xn--pxtr7m5ny.com/collection",
+    "lastUpdateTime": 1614084633877,
+    "loginUrl": "https://xn--pxtr7m5ny.com/login",
+    "ruleBookInfo": {
+      "author": "div.h5@div.0@tag@text",
+      "name": "div.font-2@div@a@text"
+    },
+    "ruleContent": {
+      "content": "div.panel-body.post-body@div.main-text.indentation.no-selection@tag.span.0@all"
+    },
+    "ruleExplore": {
+      "author": "div.col-xs-12@tag.span.1@a@text",
+      "bookList": "div.panel-body@article",
+      "bookUrl": "div.col-xs-12@tag.span.0@a.bigger-5@href",
+      "intro": "span.smaller-5@all",
+      "name": "div.col-xs-12@tag.span.0@a.bigger-5@text"
+    },
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "div.hidden-sm.hidden-md.hidden-lg.overflow-hidden.text-center@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "weight": 0
+  }]

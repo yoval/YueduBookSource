@@ -1,1 +1,39 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 天阅中文", "bookSourceType": 0, "bookSourceUrl": "https://www.tyuetxt.com", "bookUrlPattern": "", "customOrder": -115359, "enabled": true, "enabledExplore": true, "exploreUrl": "最近更新::https://www.tyuetxt.com/all/0_lastupdate_0_0_0_0_0_0_{{page}}.html\n最新入库::https://www.tyuetxt.com/all/0_postdate_0_0_0_0_0_0_{{page}}.html\n总点击榜::https://www.tyuetxt.com/all/0_allvisit_0_0_0_0_0_0_{{page}}.html\n总收藏榜::https://www.tyuetxt.com/all/0_goodnum_0_0_0_0_0_0_{{page}}.html\n总推荐榜::https://www.tyuetxt.com/all/0_allvote_0_0_0_0_0_0_{{page}}.html\n玄幻奇幻::https://www.tyuetxt.com/all/1_allvisit_0_0_0_0_0_0_{{page}}.html\n都市职场::https://www.tyuetxt.com/all/2_allvisit_0_0_0_0_0_0_{{page}}.html\n武侠仙侠::https://www.tyuetxt.com/all/3_allvisit_0_0_0_0_0_0_{{page}}.html\n军事历史::https://www.tyuetxt.com/all/4_allvisit_0_0_0_0_0_0_{{page}}.html\n网游竞技::https://www.tyuetxt.com/all/5_allvisit_0_0_0_0_0_0_{{page}}.html\n穿越科幻::https://www.tyuetxt.com/all/6_allvisit_0_0_0_0_0_0_{{page}}.html\n二次元::https://www.tyuetxt.com/all/7_allvisit_0_0_0_0_0_0_{{page}}.html\n同人小说::https://www.tyuetxt.com/all/8_allvisit_0_0_0_0_0_0_{{page}}.html\n悬疑推理::https://www.tyuetxt.com/all/9_allvisit_0_0_0_0_0_0_{{page}}.html\n散文诗集::https://www.tyuetxt.com/all/10_allvisit_0_0_0_0_0_0_{{page}}.html\n其他小说::https://www.tyuetxt.com/all/11_allvisit_0_0_0_0_0_0_{{page}}.html\n言情小说::https://www.tyuetxt.com/all/12_allvisit_0_0_0_0_0_0_{{page}}.html\n现代修真::https://www.tyuetxt.com/all/13_allvisit_0_0_0_0_0_0_{{page}}.html\n仙侠奇缘::https://www.tyuetxt.com/all/14_allvisit_0_0_0_0_0_0_{{page}}.html\n玄幻言情::https://www.tyuetxt.com/all/15_allvisit_0_0_0_0_0_0_{{page}}.html\n青春校园::https://www.tyuetxt.com/all/16_allvisit_0_0_0_0_0_0_{{page}}.html\n恐怖灵异::https://www.tyuetxt.com/all/17_allvisit_0_0_0_0_0_0_{{page}}.html\n科幻空间::https://www.tyuetxt.com/all/18_allvisit_0_0_0_0_0_0_{{page}}.html\n耿美小说::https://www.tyuetxt.com/all/19_allvisit_0_0_0_0_0_0_{{page}}.html", "lastUpdateTime": 1604053213181, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.bookImg@img@src", "intro": "class.introCon@p@text", "lastChapter": "class.renew@a@text"}, "ruleContent": {"content": "class.articleCon@p@html##.*手机用户输入.*|.*新丝路文学网.*"}, "ruleExplore": {}, "ruleSearch": {"author": "class.writer.0@text", "bookList": "class.listRightBottom@li", "bookUrl": "a@href", "coverUrl": "img@src", "kind": "class.state.0@text", "lastChapter": "class.newChapter@a@text", "name": "h2@a@text"}, "ruleToc": {"chapterList": "-class.chapterCon@tag.li@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.tyuetxt.com/modules/article/search.php?searchkey={{key}}&nsid=&click=1&s=14596914502597659810&submit=&page={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 天阅中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.tyuetxt.com",
+    "bookUrlPattern": "",
+    "customOrder": -115359,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最近更新::https://www.tyuetxt.com/all/0_lastupdate_0_0_0_0_0_0_{{page}}.html\n最新入库::https://www.tyuetxt.com/all/0_postdate_0_0_0_0_0_0_{{page}}.html\n总点击榜::https://www.tyuetxt.com/all/0_allvisit_0_0_0_0_0_0_{{page}}.html\n总收藏榜::https://www.tyuetxt.com/all/0_goodnum_0_0_0_0_0_0_{{page}}.html\n总推荐榜::https://www.tyuetxt.com/all/0_allvote_0_0_0_0_0_0_{{page}}.html\n玄幻奇幻::https://www.tyuetxt.com/all/1_allvisit_0_0_0_0_0_0_{{page}}.html\n都市职场::https://www.tyuetxt.com/all/2_allvisit_0_0_0_0_0_0_{{page}}.html\n武侠仙侠::https://www.tyuetxt.com/all/3_allvisit_0_0_0_0_0_0_{{page}}.html\n军事历史::https://www.tyuetxt.com/all/4_allvisit_0_0_0_0_0_0_{{page}}.html\n网游竞技::https://www.tyuetxt.com/all/5_allvisit_0_0_0_0_0_0_{{page}}.html\n穿越科幻::https://www.tyuetxt.com/all/6_allvisit_0_0_0_0_0_0_{{page}}.html\n二次元::https://www.tyuetxt.com/all/7_allvisit_0_0_0_0_0_0_{{page}}.html\n同人小说::https://www.tyuetxt.com/all/8_allvisit_0_0_0_0_0_0_{{page}}.html\n悬疑推理::https://www.tyuetxt.com/all/9_allvisit_0_0_0_0_0_0_{{page}}.html\n散文诗集::https://www.tyuetxt.com/all/10_allvisit_0_0_0_0_0_0_{{page}}.html\n其他小说::https://www.tyuetxt.com/all/11_allvisit_0_0_0_0_0_0_{{page}}.html\n言情小说::https://www.tyuetxt.com/all/12_allvisit_0_0_0_0_0_0_{{page}}.html\n现代修真::https://www.tyuetxt.com/all/13_allvisit_0_0_0_0_0_0_{{page}}.html\n仙侠奇缘::https://www.tyuetxt.com/all/14_allvisit_0_0_0_0_0_0_{{page}}.html\n玄幻言情::https://www.tyuetxt.com/all/15_allvisit_0_0_0_0_0_0_{{page}}.html\n青春校园::https://www.tyuetxt.com/all/16_allvisit_0_0_0_0_0_0_{{page}}.html\n恐怖灵异::https://www.tyuetxt.com/all/17_allvisit_0_0_0_0_0_0_{{page}}.html\n科幻空间::https://www.tyuetxt.com/all/18_allvisit_0_0_0_0_0_0_{{page}}.html\n耿美小说::https://www.tyuetxt.com/all/19_allvisit_0_0_0_0_0_0_{{page}}.html",
+    "lastUpdateTime": 1604053213181,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.bookImg@img@src",
+      "intro": "class.introCon@p@text",
+      "lastChapter": "class.renew@a@text"
+    },
+    "ruleContent": {
+      "content": "class.articleCon@p@html##.*手机用户输入.*|.*新丝路文学网.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.writer.0@text",
+      "bookList": "class.listRightBottom@li",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "kind": "class.state.0@text",
+      "lastChapter": "class.newChapter@a@text",
+      "name": "h2@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "-class.chapterCon@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.tyuetxt.com/modules/article/search.php?searchkey={{key}}&nsid=&click=1&s=14596914502597659810&submit=&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

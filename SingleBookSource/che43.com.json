@@ -1,1 +1,31 @@
-[{"bookSourceComment": "error:Index: 0, Size: 0\n", "bookSourceGroup": "我的书源", "bookSourceName": "🎨 邪琉璃神社", "bookSourceType": 0, "bookSourceUrl": "http://m.che43.com", "customOrder": -31358, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1602994707113, "ruleBookInfo": {}, "ruleContent": {"content": "class.c_box.0@tag.img@src", "nextContentUrl": "class.pagexgt@tag.li.7@tag.a@href"}, "ruleExplore": {}, "ruleSearch": {"bookList": "id.menu@tag.li!3:5:6:4:8:9:10:11", "bookUrl": "tag.a.0@href", "coverUrl": "tag.a@href", "name": "tag.a@text"}, "ruleToc": {"chapterList": "id.main@tag.li", "chapterName": "tag.b@text##(\\S*)\\：", "chapterUrl": "tag.a.0@href", "nextTocUrl": "class.showpage@tag.li.12@tag.a@href||class.showpage@tag.li.3@tag.a@href"}, "searchUrl": "http://m.che43.com/benzi/", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:Index: 0, Size: 0\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎨 邪琉璃神社",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.che43.com",
+    "customOrder": -31358,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1602994707113,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.c_box.0@tag.img@src",
+      "nextContentUrl": "class.pagexgt@tag.li.7@tag.a@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "id.menu@tag.li!3:5:6:4:8:9:10:11",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a@href",
+      "name": "tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.main@tag.li",
+      "chapterName": "tag.b@text##(\\S*)\\：",
+      "chapterUrl": "tag.a.0@href",
+      "nextTocUrl": "class.showpage@tag.li.12@tag.a@href||class.showpage@tag.li.3@tag.a@href"
+    },
+    "searchUrl": "http://m.che43.com/benzi/",
+    "weight": 0
+  }]

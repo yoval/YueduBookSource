@@ -1,1 +1,46 @@
-[{"bookSourceComment": "☞玩泥巴吹泡泡套圈圈™", "bookSourceGroup": "我的书源", "bookSourceName": "新卡夜阁", "bookSourceType": 0, "bookSourceUrl": "https://www.kayega.com", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "全部小说::/xiaoshuodaquan/page_{{page}}.html\n玄幻魔法::/xuanhuan/page_{{page}}.html\n武侠修真::/xiuzhen/page_{{page}}.html\n都市小说::/dushi/page_{{page}}.html\n历史军事::/lishi/page_{{page}}.html\n网游竞技::/wangyou/page_{{page}}.html\n科幻灵异::/kehuan/page_{{page}}.html\n女频小说::/nvpin/page_{{page}}.html", "lastUpdateTime": 1600800787141, "ruleBookInfo": {"coverUrl": "class.lf@img@src", "kind": "class.msg@tag.em.1@text&&class.msg@tag.em.2@text##状态：|更新时间：", "lastChapter": "class.msg@tag.em.3@tag.a@text"}, "ruleContent": {"content": "id.content@html", "nextContentUrl": "text.下一页@href", "replaceRegex": "##\\s*-->>\\s*本章未完.*\\s*"}, "ruleExplore": {"author": "class.zz@tag.a@text", "bookList": "class.booklist@tag.ul@tag.li!0", "bookUrl": "tag.a.0@href", "kind": "class.zt@text", "lastChapter": "class.zj@tag.a@text", "name": "class.sm@tag.a@text"}, "ruleSearch": {"author": "tag.dd@tag.span@text", "bookList": "class.fengtui fengtui_top cf@tag.dl", "bookUrl": "tag.a.0@href", "coverUrl": "tag.img@src", "intro": "tag.dd@tag.p@text", "name": "tag.dd@tag.h3@tag.a@text"}, "ruleToc": {"chapterList": "class.mulu@tag.ul@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href##$##$,{\"webView\":true}", "nextTocUrl": ""}, "searchUrl": "https://www.kayega.com/home/search,{\n\"charset\": \"utf-8\",\n\"method\": \"POST\",\n\"body\": \"action=search&q={{key}}\",\n\"headers\": {\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3732.400 QQBrowser/10.5.3819.400\"}\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "☞玩泥巴吹泡泡套圈圈™",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "新卡夜阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.kayega.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部小说::/xiaoshuodaquan/page_{{page}}.html\n玄幻魔法::/xuanhuan/page_{{page}}.html\n武侠修真::/xiuzhen/page_{{page}}.html\n都市小说::/dushi/page_{{page}}.html\n历史军事::/lishi/page_{{page}}.html\n网游竞技::/wangyou/page_{{page}}.html\n科幻灵异::/kehuan/page_{{page}}.html\n女频小说::/nvpin/page_{{page}}.html",
+    "lastUpdateTime": 1600800787141,
+    "ruleBookInfo": {
+      "coverUrl": "class.lf@img@src",
+      "kind": "class.msg@tag.em.1@text&&class.msg@tag.em.2@text##状态：|更新时间：",
+      "lastChapter": "class.msg@tag.em.3@tag.a@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html",
+      "nextContentUrl": "text.下一页@href",
+      "replaceRegex": "##\\s*-->>\\s*本章未完.*\\s*"
+    },
+    "ruleExplore": {
+      "author": "class.zz@tag.a@text",
+      "bookList": "class.booklist@tag.ul@tag.li!0",
+      "bookUrl": "tag.a.0@href",
+      "kind": "class.zt@text",
+      "lastChapter": "class.zj@tag.a@text",
+      "name": "class.sm@tag.a@text"
+    },
+    "ruleSearch": {
+      "author": "tag.dd@tag.span@text",
+      "bookList": "class.fengtui fengtui_top cf@tag.dl",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "intro": "tag.dd@tag.p@text",
+      "name": "tag.dd@tag.h3@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.mulu@tag.ul@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href##$##$,{\"webView\":true}",
+      "nextTocUrl": ""
+    },
+    "searchUrl": "https://www.kayega.com/home/search,{\n\"charset\": \"utf-8\",\n\"method\": \"POST\",\n\"body\": \"action=search&q={{key}}\",\n\"headers\": {\"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3732.400 QQBrowser/10.5.3819.400\"}\n}",
+    "weight": 0
+  }]

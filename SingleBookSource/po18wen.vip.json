@@ -1,1 +1,44 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,刘备书源", "bookSourceName": "🚬 脸红心跳", "bookSourceType": 0, "bookSourceUrl": "https://po18wen.vip", "customOrder": 24424, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻奇幻::https://po18wen.vip/sort/1_{{page}}/&&武侠仙侠::https://po18wen.vip/sort/2_{{page}}/&&都市青春::https://po18wen.vip/sort/3_{{page}}/&&科幻悬疑::https://po18wen.vip/sort/4_{{page}}/&&穿越历史::https://po18wen.vip/sort/5_{{page}}/&&耽美纯情::https://po18wen.vip/sort/6_{{page}}/&&游戏竞技::https://po18wen.vip/sort/7_{{page}}/&&精品其他::https://po18wen.vip/sort/8_{{page}}/&&", "header": " {User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36}", "lastUpdateTime": 1606842513544, "ruleBookInfo": {"coverUrl": ".tu@img@src", "intro": "tag.p.6@textNodes"}, "ruleContent": {"content": "id.novelcontent@html##.*woo18.vip.*"}, "ruleExplore": {"author": ".p4@text", "bookList": "@css:div.tt", "bookUrl": "tag.a.0@href", "coverUrl": "img@src", "intro": ".p5@textNodes", "kind": ".p2@text", "name": ".p1@text"}, "ruleSearch": {"author": "span@text", "bookList": "@css:ul li", "bookUrl": "tag.a.1@href<js>\nvar id = result.match(/(\\d+).html/)[1];\nvar iid = parseInt(id/1000);\n'https://po18wen.vip/'+iid+'/'+id+'/'\n</js>", "kind": "tag.a.0@text", "name": "tag.a.1@text"}, "ruleToc": {"chapterList": "tag.ul.1@li@a", "chapterName": "text##woo18.vip", "chapterUrl": "href", "nextTocUrl": "text.下一页@href"}, "searchUrl": "https://po18wen.vip/s.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"submit=&type=articlename&s={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,刘备书源",
+    "bookSourceName": "🚬 脸红心跳",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://po18wen.vip",
+    "customOrder": 24712,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::https://po18wen.vip/sort/1_{{page}}/&&武侠仙侠::https://po18wen.vip/sort/2_{{page}}/&&都市青春::https://po18wen.vip/sort/3_{{page}}/&&科幻悬疑::https://po18wen.vip/sort/4_{{page}}/&&穿越历史::https://po18wen.vip/sort/5_{{page}}/&&耽美纯情::https://po18wen.vip/sort/6_{{page}}/&&游戏竞技::https://po18wen.vip/sort/7_{{page}}/&&精品其他::https://po18wen.vip/sort/8_{{page}}/&&",
+    "header": " {User-Agent: Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36}",
+    "lastUpdateTime": 1606842513544,
+    "ruleBookInfo": {
+      "coverUrl": ".tu@img@src",
+      "intro": "tag.p.6@textNodes"
+    },
+    "ruleContent": {
+      "content": "id.novelcontent@html##.*woo18.vip.*"
+    },
+    "ruleExplore": {
+      "author": ".p4@text",
+      "bookList": "@css:div.tt",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@src",
+      "intro": ".p5@textNodes",
+      "kind": ".p2@text",
+      "name": ".p1@text"
+    },
+    "ruleSearch": {
+      "author": "span@text",
+      "bookList": "@css:ul li",
+      "bookUrl": "tag.a.1@href<js>\nvar id = result.match(/(\\d+).html/)[1];\nvar iid = parseInt(id/1000);\n'https://po18wen.vip/'+iid+'/'+id+'/'\n</js>",
+      "kind": "tag.a.0@text",
+      "name": "tag.a.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "tag.ul.1@li@a",
+      "chapterName": "text##woo18.vip",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://po18wen.vip/s.php,{\n\"charset\": \"gbk\",\n\"method\": \"POST\",\n\"body\": \"submit=&type=articlename&s={{key}}\"\n}",
+    "weight": 0
+  }]

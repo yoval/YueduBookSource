@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "快眼", "bookSourceType": 0, "bookSourceUrl": "http://m.bookcu.com", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": false, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.synopsisArea_detail@tag.img@src", "intro": "class.review@text", "tocUrl": "class.recommend@tag.h2.1@tag.a@href"}, "ruleContent": {"content": "id.chaptercontent@textNodes##.*最新章节."}, "ruleExplore": {}, "ruleSearch": {"author": "tag.a@tag.p.1@text##.*\\|", "bookList": "class.recommend mybook@children", "bookUrl": "tag.a@href", "kind": "tag.a@tag.p.1@text##\\|.*", "lastChapter": "tag.a@tag.p.2@text##.*更新.", "name": "tag.a@tag.p.0@text"}, "ruleToc": {"chapterList": "id.chapterlist@tag.p!0", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://m.bookcu.com/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&t=1\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "快眼",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.bookcu.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.synopsisArea_detail@tag.img@src",
+      "intro": "class.review@text",
+      "tocUrl": "class.recommend@tag.h2.1@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@textNodes##.*最新章节."
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a@tag.p.1@text##.*\\|",
+      "bookList": "class.recommend mybook@children",
+      "bookUrl": "tag.a@href",
+      "kind": "tag.a@tag.p.1@text##\\|.*",
+      "lastChapter": "tag.a@tag.p.2@text##.*更新.",
+      "name": "tag.a@tag.p.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterlist@tag.p!0",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://m.bookcu.com/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&t=1\"\n}",
+    "weight": 0
+  }]

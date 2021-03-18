@@ -1,1 +1,35 @@
-[{"bookSourceComment": "error:Unable to resolve host \"www.xbiqiwu.com\": No address associated with hostname\n", "bookSourceGroup": "我的书源", "bookSourceName": "🛠️ 比奇屋", "bookSourceType": 0, "bookSourceUrl": "https://www.xbiqiwu.com", "customOrder": 16365, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "ruleBookInfo": {"author": "id.info@tag.p.0@text", "coverUrl": "id.fmimg@tag.img@src", "intro": "id.intro@tag.p@text", "name": "id.info@tag.h1@text"}, "ruleContent": {"content": "id.content@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@text", "bookList": "tag.tbody@tag.tr!0", "bookUrl": "class.odd.0@tag.a@href", "lastChapter": "class.even.0@text", "name": "class.odd.0@tag.a@text"}, "ruleToc": {"chapterList": "id.list@tag.dl@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.xbiqiwu.com/modules/article/search.php?searchtype=articlename&searchkey={{key}}&action=login&page={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:Unable to resolve host \"www.xbiqiwu.com\": No address associated with hostname\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🛠️ 比奇屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xbiqiwu.com",
+    "customOrder": 16365,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@tag.p@text",
+      "name": "id.info@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "tag.tbody@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a@href",
+      "lastChapter": "class.even.0@text",
+      "name": "class.odd.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dl@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.xbiqiwu.com/modules/article/search.php?searchtype=articlename&searchkey={{key}}&action=login&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

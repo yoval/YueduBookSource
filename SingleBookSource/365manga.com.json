@@ -1,1 +1,47 @@
-[{"bookSourceComment": "haxc", "bookSourceGroup": "我的书源", "bookSourceName": "🎨 365Manga", "bookSourceType": 0, "bookSourceUrl": "https://365manga.com", "bookUrlPattern": "", "customOrder": -115818, "enabled": true, "enabledExplore": true, "exploreUrl": "Action::/manga-genre/action/page/{{page}}\nHarem::/manga-genre/harem/page/{{page}}\nMartial Arts::/manga-genre/martial-arts/page/{{page}}\nAdventure::/manga-genre/adventure/page/{{page}}\nFantasy::/manga-genre/fantasy/page/{{page}}\nMature::/manga-genre/mature/page/{{page}}\nHorror::/manga-genre/horror/page/{{page}}\nMystery::/manga-genre/mystery/page/{{page}}\nSlice of Life::/manga-genre/slice-of-life/page/{{page}}\nTragedy::/manga-genre/tragedy/page/{{page}}\nSupernatural::/manga-genre/supernatural/page/{{page}}\nWebtoon::/manga-genre/webtoon/page/{{page}}\nShounen::/manga-genre/shounen/page/{{page}}\nRomance::/manga-genre/romance/page/{{page}}\nDrama::/manga-genre/drama/page/{{page}}\nComedy::/manga-genre/comedy/page/{{page}}\nEcchi::/manga-genre/ecchi/page/{{page}}", "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36\"\n}", "lastUpdateTime": 1610038929079, "loginUrl": "", "ruleBookInfo": {"author": "class.author-content@a@text", "coverUrl": "[property=\"og:image\"]@content", "intro": "[property=\"og:description\"]@content", "kind": "class.genres-content@a@text", "lastChapter": "class.main@tag.li.0@a@text", "name": "class.post-title@tag.h1@text"}, "ruleContent": {"content": "class.reading-content@img@html", "imageStyle": "FULL", "nextContentUrl": "", "sourceRegex": "", "webJs": ""}, "ruleExplore": {}, "ruleSearch": {"author": "class.summary-content.1@a@text", "bookList": "class.row c-tabs-item__content||class.col-12", "bookUrl": "tag.a@href##$##,{\"webView\":true}", "coverUrl": "class.img-responsive@img@src", "intro": "class.summary-content.0@text", "kind": "class.summary-content.2@a@text", "name": "tag.h3@text"}, "ruleToc": {"chapterList": "-class.main@li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://365manga.com/?s={{key}}&post_type=wp-manga", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "haxc",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎨 365Manga",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://365manga.com",
+    "bookUrlPattern": "",
+    "customOrder": -115818,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "Action::/manga-genre/action/page/{{page}}\nHarem::/manga-genre/harem/page/{{page}}\nMartial Arts::/manga-genre/martial-arts/page/{{page}}\nAdventure::/manga-genre/adventure/page/{{page}}\nFantasy::/manga-genre/fantasy/page/{{page}}\nMature::/manga-genre/mature/page/{{page}}\nHorror::/manga-genre/horror/page/{{page}}\nMystery::/manga-genre/mystery/page/{{page}}\nSlice of Life::/manga-genre/slice-of-life/page/{{page}}\nTragedy::/manga-genre/tragedy/page/{{page}}\nSupernatural::/manga-genre/supernatural/page/{{page}}\nWebtoon::/manga-genre/webtoon/page/{{page}}\nShounen::/manga-genre/shounen/page/{{page}}\nRomance::/manga-genre/romance/page/{{page}}\nDrama::/manga-genre/drama/page/{{page}}\nComedy::/manga-genre/comedy/page/{{page}}\nEcchi::/manga-genre/ecchi/page/{{page}}",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 1610038929079,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.author-content@a@text",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "class.genres-content@a@text",
+      "lastChapter": "class.main@tag.li.0@a@text",
+      "name": "class.post-title@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "class.reading-content@img@html",
+      "imageStyle": "FULL",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.summary-content.1@a@text",
+      "bookList": "class.row c-tabs-item__content||class.col-12",
+      "bookUrl": "tag.a@href##$##,{\"webView\":true}",
+      "coverUrl": "class.img-responsive@img@src",
+      "intro": "class.summary-content.0@text",
+      "kind": "class.summary-content.2@a@text",
+      "name": "tag.h3@text"
+    },
+    "ruleToc": {
+      "chapterList": "-class.main@li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://365manga.com/?s={{key}}&post_type=wp-manga",
+    "weight": 0
+  }]

@@ -1,1 +1,30 @@
-[{"bookSourceComment": "error:failed to connect to www.bl9z.com/122.10.42.38 (port 80) from /192.168.0.103 (port 47538) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n", "bookSourceGroup": "我的书源", "bookSourceName": "🍑 9z书屋网[仅发现]", "bookSourceType": 0, "bookSourceUrl": "http://www.bl9z.com", "customOrder": -31161, "enabled": true, "enabledExplore": true, "exploreUrl": "BL文::/bl/list_1_{{page}}.html\nGL文::/gl/list_4_{{page}}.html\n言情::/yq/list_2_{{page}}.html\n甜宠::/tcw/list_3_{{page}}.html\n穿越::/chuanyue/list_5_{{page}}.html\n其他::/other/list_6_{{page}}.html", "lastUpdateTime": 1602881288862, "ruleBookInfo": {}, "ruleContent": {"content": "class.readcontent@tag.p@textNodes##(?s).+文案(.*?)第(1|一)章##第1章"}, "ruleExplore": {"author": "class.update1@text##.+作者：|文案.+|\\【.*", "bookList": "class.bookbox", "bookUrl": "tag.h4@tag.a@href", "intro": "class.update1@text##.+文案：|简介：|.*文案", "name": "h4@text##\\_.*"}, "ruleSearch": {}, "ruleToc": {"chapterList": "tag.option", "chapterName": "text", "chapterUrl": "value"}, "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:failed to connect to www.bl9z.com/122.10.42.38 (port 80) from /192.168.0.103 (port 47538) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍑 9z书屋网[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.bl9z.com",
+    "customOrder": -31161,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "BL文::/bl/list_1_{{page}}.html\nGL文::/gl/list_4_{{page}}.html\n言情::/yq/list_2_{{page}}.html\n甜宠::/tcw/list_3_{{page}}.html\n穿越::/chuanyue/list_5_{{page}}.html\n其他::/other/list_6_{{page}}.html",
+    "lastUpdateTime": 1602881288862,
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.readcontent@tag.p@textNodes##(?s).+文案(.*?)第(1|一)章##第1章"
+    },
+    "ruleExplore": {
+      "author": "class.update1@text##.+作者：|文案.+|\\【.*",
+      "bookList": "class.bookbox",
+      "bookUrl": "tag.h4@tag.a@href",
+      "intro": "class.update1@text##.+文案：|简介：|.*文案",
+      "name": "h4@text##\\_.*"
+    },
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "tag.option",
+      "chapterName": "text",
+      "chapterUrl": "value"
+    },
+    "weight": 0
+  }]

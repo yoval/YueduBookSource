@@ -1,1 +1,44 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "秒书屋", "bookSourceType": 0, "bookSourceUrl": "https://m.miaoshu5.cc/", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "", "header": "{\n    \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\",\n    \"Accept-Language\":\"zh-CN,zh;q=0.9\"\n}", "lastUpdateTime": 1605720254399, "loginUrl": "", "ruleBookInfo": {"author": "@css:[property=\"og:novel:author\"]@content##免费阅读", "coverUrl": "@css:#thumb img@src", "intro": "@css:[property=\"og:description\"]@content", "kind": "@css:[property=\"og:novel:category\"]@content", "lastChapter": "@css:[property=\"og:novel:latest_chapter_name\"]@content", "name": "@css:[property=\"og:novel:book_name\"]@content", "tocUrl": "@css:h2 a@href"}, "ruleContent": {"content": "@css:#chaptercontent p.content_detail@html", "nextContentUrl": "@css:#pb_next@href"}, "ruleExplore": {}, "ruleSearch": {"author": "@css:p.author:first-of-type a:last-of-type@text##免费阅读", "bookList": "@css:.slide-item div", "bookUrl": "@css:span+a@href", "lastChapter": "@css:p.author~p a@title", "name": "@css:p.title@text"}, "ruleToc": {"chapterList": "@css:#chapterlist>p:first-of-type~p", "chapterName": "@css:a@text", "chapterUrl": "@css:a@href", "nextTocUrl": "@css:.but_next.ok@href"}, "searchUrl": "/search?keyword={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "秒书屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.miaoshu5.cc/",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "{\n    \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/77.0.3865.120 Safari/537.36\",\n    \"Accept-Language\":\"zh-CN,zh;q=0.9\"\n}",
+    "lastUpdateTime": 1605720254399,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "@css:[property=\"og:novel:author\"]@content##免费阅读",
+      "coverUrl": "@css:#thumb img@src",
+      "intro": "@css:[property=\"og:description\"]@content",
+      "kind": "@css:[property=\"og:novel:category\"]@content",
+      "lastChapter": "@css:[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "@css:[property=\"og:novel:book_name\"]@content",
+      "tocUrl": "@css:h2 a@href"
+    },
+    "ruleContent": {
+      "content": "@css:#chaptercontent p.content_detail@html",
+      "nextContentUrl": "@css:#pb_next@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "@css:p.author:first-of-type a:last-of-type@text##免费阅读",
+      "bookList": "@css:.slide-item div",
+      "bookUrl": "@css:span+a@href",
+      "lastChapter": "@css:p.author~p a@title",
+      "name": "@css:p.title@text"
+    },
+    "ruleToc": {
+      "chapterList": "@css:#chapterlist>p:first-of-type~p",
+      "chapterName": "@css:a@text",
+      "chapterUrl": "@css:a@href",
+      "nextTocUrl": "@css:.but_next.ok@href"
+    },
+    "searchUrl": "/search?keyword={{key}}",
+    "weight": 0
+  }]

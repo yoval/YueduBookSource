@@ -1,1 +1,42 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "31小说网", "bookSourceType": 0, "bookSourceUrl": "http://www.31xs.net", "bookUrlPattern": "", "customOrder": -27, "enabled": true, "enabledExplore": false, "lastUpdateTime": 1609786927898, "ruleBookInfo": {"author": "id.info@tag.p.0@text##作\\s*者：", "coverUrl": "id.fmimg@img@src", "intro": "id.intro@text", "lastChapter": "id.info@tag.a.-1@text", "name": "h1@text"}, "ruleContent": {"content": "id.content@p@html", "imageStyle": "", "nextContentUrl": "", "replaceRegex": "##【31小说网\\s*31xs\\.com】|www\\.31xs\\.net\\s*|(^|\\s+)...[，,]【[^【\\n】]*咪.?咪.?阅.?读[^\\u4e00-\\u9fa5]*(?:\\.com|app)[^】a-z0-9A-Z\\u4e00-\\u9fa5]*】[^\\n]+"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.td.2@text", "bookList": "id.bookcase_list@tr", "bookUrl": "a!1@href", "coverUrl": "a!1@href##.*/(\\d+)/(\\d+)/?##/img/$1/$2/$2s.jpg", "kind": "td!0:1:2@text", "lastChapter": "a!0@text", "name": "a!1@text"}, "ruleToc": {"chapterList": "+id.list@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "http://www.31xs.net/search.php?keyword={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "31小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.31xs.net",
+    "bookUrlPattern": "",
+    "customOrder": -27,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 1609786927898,
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text##作\\s*者：",
+      "coverUrl": "id.fmimg@img@src",
+      "intro": "id.intro@text",
+      "lastChapter": "id.info@tag.a.-1@text",
+      "name": "h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@p@html",
+      "imageStyle": "",
+      "nextContentUrl": "",
+      "replaceRegex": "##【31小说网\\s*31xs\\.com】|www\\.31xs\\.net\\s*|(^|\\s+)...[，,]【[^【\\n】]*咪.?咪.?阅.?读[^\\u4e00-\\u9fa5]*(?:\\.com|app)[^】a-z0-9A-Z\\u4e00-\\u9fa5]*】[^\\n]+"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "id.bookcase_list@tr",
+      "bookUrl": "a!1@href",
+      "coverUrl": "a!1@href##.*/(\\d+)/(\\d+)/?##/img/$1/$2/$2s.jpg",
+      "kind": "td!0:1:2@text",
+      "lastChapter": "a!0@text",
+      "name": "a!1@text"
+    },
+    "ruleToc": {
+      "chapterList": "+id.list@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.31xs.net/search.php?keyword={{key}}",
+    "weight": 0
+  }]

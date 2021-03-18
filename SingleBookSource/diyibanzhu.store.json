@@ -1,1 +1,41 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,刘备书源", "bookSourceName": "🚬 第一版主", "bookSourceType": 0, "bookSourceUrl": "https://m.diyibanzhu.store", "customOrder": 24450, "enabled": true, "enabledExplore": true, "exploreUrl": "  全部书集  ::http://hdyp.net/shuku/0-lastupdate-0-{{page}}.html\n 全部完本 ::http://hdyp.net/shuku/0-lastupdate-2-{{page}}.html\n  全部连载  ::http://hdyp.net/shuku/0-lastupdate-1-{{page}}.html\n\n  奇幻玄幻  ::http://hdyp.net/shuku/1-lastupdate-0-{{page}}.html\n 仙侠武侠 ::http://hdyp.net/shuku/2-lastupdate-0-{{page}}.html\n  都市言情  ::http://hdyp.net/shuku/3-lastupdate-0-{{page}}.html\n\n  穿越历史  ::http://hdyp.net/shuku/4-lastupdate-0-{{page}}.html\n 科幻灵异 ::http://hdyp.net/shuku/5-lastupdate-0-{{page}}.html\n  其他类型  ::http://hdyp.net/shuku/7-lastupdate-0-{{page}}.html\n\n  总人气榜  ::http://hdyp.net/shuku/0-allvisit-0-{{page}}.html\n 月人气榜 ::http://hdyp.net/shuku/0-monthvisit-0-{{page}}.html\n  辣文排行  ::/wap.php?action=shuku&tid=8&over=&order=1&uid=&totalresult=8063&pageno={{page}}\n\n   字   数   ::http://hdyp.net/shuku/0-size-0-{{page}}.html\n  新   书  ::http://hdyp.net/shuku/0-postdate-0-{{page}}.html\n  藏 经 阁  ::http://hdyp.net/shuku/6-lastupdate-0-{{page}}.html", "lastUpdateTime": 1612499808991, "ruleBookInfo": {"coverUrl": "class.left@tag.img@src", "intro": "class.book-intro@text", "kind": "", "lastChapter": "class.list.0@tag.a.0@text##.*\\】", "wordCount": ""}, "ruleContent": {"content": "class.page-content@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.info@text##作者：|类型.*|字数.*", "bookList": "class.column-2 ", "bookUrl": "class.name@href", "intro": "", "kind": "", "lastChapter": "class.update@tag.a@text##.*\\】", "name": "class.name@text", "wordCount": "class.words@text##字数："}, "ruleToc": {"chapterList": "class.mod block update chapter-list@class.list@tag.li@tag.a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "text.下页@href"}, "searchUrl": "https://m.diyibanzhu.store/wap.php?action=search&objectType=2&wd={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,刘备书源",
+    "bookSourceName": "第一版主",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.diyibanzhu.store",
+    "customOrder": 24738,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "  全部书集  ::http://hdyp.net/shuku/0-lastupdate-0-{{page}}.html\n 全部完本 ::http://hdyp.net/shuku/0-lastupdate-2-{{page}}.html\n  全部连载  ::http://hdyp.net/shuku/0-lastupdate-1-{{page}}.html\n\n  奇幻玄幻  ::http://hdyp.net/shuku/1-lastupdate-0-{{page}}.html\n 仙侠武侠 ::http://hdyp.net/shuku/2-lastupdate-0-{{page}}.html\n  都市言情  ::http://hdyp.net/shuku/3-lastupdate-0-{{page}}.html\n\n  穿越历史  ::http://hdyp.net/shuku/4-lastupdate-0-{{page}}.html\n 科幻灵异 ::http://hdyp.net/shuku/5-lastupdate-0-{{page}}.html\n  其他类型  ::http://hdyp.net/shuku/7-lastupdate-0-{{page}}.html\n\n  总人气榜  ::http://hdyp.net/shuku/0-allvisit-0-{{page}}.html\n 月人气榜 ::http://hdyp.net/shuku/0-monthvisit-0-{{page}}.html\n  辣文排行  ::/wap.php?action=shuku&tid=8&over=&order=1&uid=&totalresult=8063&pageno={{page}}\n\n   字   数   ::http://hdyp.net/shuku/0-size-0-{{page}}.html\n  新   书  ::http://hdyp.net/shuku/0-postdate-0-{{page}}.html\n  藏 经 阁  ::http://hdyp.net/shuku/6-lastupdate-0-{{page}}.html",
+    "lastUpdateTime": 1615880480254,
+    "ruleBookInfo": {
+      "coverUrl": "class.left@tag.img@src",
+      "intro": "class.book-intro@text",
+      "kind": "",
+      "lastChapter": "class.list.0@tag.a.0@text##.*\\】",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "class.page-content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.info@text##作者：|类型.*|字数.*",
+      "bookList": "class.column-2 ",
+      "bookUrl": "class.name@href",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "class.update@tag.a@text##.*\\】",
+      "name": "class.name@text",
+      "wordCount": "class.words@text##字数："
+    },
+    "ruleToc": {
+      "chapterList": "class.mod block update chapter-list@class.list@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下页@href"
+    },
+    "searchUrl": "https://m.diyibanzhu.store/wap.php?action=search&objectType=2&wd={{key}}",
+    "weight": 0
+  }]

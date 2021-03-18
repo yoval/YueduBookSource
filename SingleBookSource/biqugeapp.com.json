@@ -1,1 +1,37 @@
-[{"bookSourceComment": "error:timeout\n", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "🔰 笔趣阁", "bookSourceType": 0, "bookSourceUrl": "https://www.biqugeapp.com", "bookUrlPattern": "", "customOrder": -114584, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1612584633924, "loginUrl": "", "ruleBookInfo": {"intro": "@js:'<br>'+java.get('intro')"}, "ruleContent": {"content": "$.data.content"}, "ruleExplore": {}, "ruleSearch": {"author": "$.Author", "bookList": "$.data", "bookUrl": "$.Id@js:\nvar n=result.match(/(^\\d+)\\d{3,}/);\nn=(n)?n[1]:'0';\nresult=(Number(n)+1)+'/'+result;\n'https://infos.anchengcn.com/BookFiles/Html/'+result+'/index.html';", "coverUrl": "$.Img", "intro": "$.Desc@js:java.put('intro',result);", "kind": "$.CName", "lastChapter": "$.LastChapter", "name": "$.Name"}, "ruleToc": {"chapterList": "$..[?(@.hasContent)]", "chapterName": "$.name", "chapterUrl": "$.id@js:\nbaseUrl.replace(/index.html/,result).replace(/infos/,'content')+'.html'"}, "searchUrl": "https://sou.jiaston.com/search.aspx?key={{key}}&page=1&siteid=app2 ", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:timeout\n",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "🔰 笔趣阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.biqugeapp.com",
+    "bookUrlPattern": "",
+    "customOrder": -114584,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612584633924,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "@js:'<br>'+java.get('intro')"
+    },
+    "ruleContent": {
+      "content": "$.data.content"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$.Author",
+      "bookList": "$.data",
+      "bookUrl": "$.Id@js:\nvar n=result.match(/(^\\d+)\\d{3,}/);\nn=(n)?n[1]:'0';\nresult=(Number(n)+1)+'/'+result;\n'https://infos.anchengcn.com/BookFiles/Html/'+result+'/index.html';",
+      "coverUrl": "$.Img",
+      "intro": "$.Desc@js:java.put('intro',result);",
+      "kind": "$.CName",
+      "lastChapter": "$.LastChapter",
+      "name": "$.Name"
+    },
+    "ruleToc": {
+      "chapterList": "$..[?(@.hasContent)]",
+      "chapterName": "$.name",
+      "chapterUrl": "$.id@js:\nbaseUrl.replace(/index.html/,result).replace(/infos/,'content')+'.html'"
+    },
+    "searchUrl": "https://sou.jiaston.com/search.aspx?key={{key}}&page=1&siteid=app2 ",
+    "weight": 0
+  }]

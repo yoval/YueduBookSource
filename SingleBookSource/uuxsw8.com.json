@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "UU小说", "bookSourceType": 0, "bookSourceUrl": "http://m.uuxsw8.com", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": false, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.block_img2@img@src", "intro": "class.intro_info@html##在非wifi.*|.*流量哦~", "lastChapter": "class.chapter@tag.li.0@a@text", "tocUrl": "text.查看目录@href"}, "ruleContent": {"content": "class.txt@textNodes##一秒记住本站.*"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.a.1@text", "bookList": "class.cover@p", "bookUrl": "a@href", "name": "tag.a.0@text"}, "ruleToc": {"chapterList": "class.chapter.-1@li@a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "text.下页@href"}, "searchUrl": "http://m.uuxsw8.com/search?wd={{key}}&page={{page}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "UU小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.uuxsw8.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.block_img2@img@src",
+      "intro": "class.intro_info@html##在非wifi.*|.*流量哦~",
+      "lastChapter": "class.chapter@tag.li.0@a@text",
+      "tocUrl": "text.查看目录@href"
+    },
+    "ruleContent": {
+      "content": "class.txt@textNodes##一秒记住本站.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.1@text",
+      "bookList": "class.cover@p",
+      "bookUrl": "a@href",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter.-1@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下页@href"
+    },
+    "searchUrl": "http://m.uuxsw8.com/search?wd={{key}}&page={{page}}",
+    "weight": 0
+  }]

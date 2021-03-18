@@ -1,1 +1,33 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎨 邪琉璃神社", "bookSourceType": 0, "bookSourceUrl": "http://m.bancangyang.com", "customOrder": -31356, "enabled": true, "enabledExplore": true, "exploreUrl": "今日推荐::http://m.baobaoman.com/shaonv/list_2_{{page}}.html\n同人::http://m.bancangyang.com/manhua/list_1_{{page}}.html\n内涵::http://m.bancangyang.com/neihan/list_4_{{page}}.html", "lastUpdateTime": 1602596784858, "ruleBookInfo": {"intro": "class.c_box.0@text"}, "ruleContent": {"content": "class.c_box.0@tag.img@src", "nextContentUrl": "class.fanye1@tag.li.2@tag.a@href"}, "ruleExplore": {}, "ruleSearch": {"bookList": "id.main@tag.li", "bookUrl": "tag.a.0@href", "coverUrl": "tag.img@src", "name": "tag.b@text##(\\S*)\\："}, "ruleToc": {"chapterList": "id.main", "chapterName": "class.ptitle@text", "chapterUrl": "-"}, "searchUrl": "-", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎨 邪琉璃神社",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.bancangyang.com",
+    "customOrder": -31356,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "今日推荐::http://m.baobaoman.com/shaonv/list_2_{{page}}.html\n同人::http://m.bancangyang.com/manhua/list_1_{{page}}.html\n内涵::http://m.bancangyang.com/neihan/list_4_{{page}}.html",
+    "lastUpdateTime": 1602596784858,
+    "ruleBookInfo": {
+      "intro": "class.c_box.0@text"
+    },
+    "ruleContent": {
+      "content": "class.c_box.0@tag.img@src",
+      "nextContentUrl": "class.fanye1@tag.li.2@tag.a@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "id.main@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "name": "tag.b@text##(\\S*)\\："
+    },
+    "ruleToc": {
+      "chapterList": "id.main",
+      "chapterName": "class.ptitle@text",
+      "chapterUrl": "-"
+    },
+    "searchUrl": "-",
+    "weight": 0
+  }]

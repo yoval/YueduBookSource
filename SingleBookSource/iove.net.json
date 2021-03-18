@@ -1,1 +1,41 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "🎉 笔趣阁iove.net", "bookSourceType": 0, "bookSourceUrl": "https://www.iove.net", "customOrder": -115092, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻奇幻::/ksl/1/{{page}}.html\n武侠仙侠::/ksl/2/{{page}}.html\n都市言情::/ksl/3/{{page}}.html\n历史军事::/ksl/4/{{page}}.html\n科幻灵异::/ksl/5/{{page}}.html\n网游竞技::/ksl/6/{{page}}.html\n女生频道::/ksl/7/{{page}}.html", "lastUpdateTime": 1606567379328, "ruleBookInfo": {"author": "[property=\"og:novel:author\"]@content", "coverUrl": "[property=\"og:image\"]@content", "intro": "[property=\"og:description\"]@content", "kind": "[property=\"og:novel:category\"]@content", "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content", "name": "[property=\"og:novel:book_name\"]@content"}, "ruleContent": {"content": "id.content@html##章节错误.*刷新页面。", "nextContentUrl": "text.下一页@href"}, "ruleExplore": {}, "ruleSearch": {"author": "class.s4@text", "bookList": "class.txt-list@tag.li!0", "bookUrl": "tag.a@href", "kind": "class.s1@text##\\[(.*)\\]##$1##", "lastChapter": "class.s3@tag.a@text", "name": "class.s2@tag.a@text"}, "ruleToc": {"chapterList": "class.section-list.-1@li@tag.a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "option@value"}, "searchUrl": "https://www.iove.net/ar.php?keyWord={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "🎉 笔趣阁iove.net",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.iove.net",
+    "customOrder": -115092,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/ksl/1/{{page}}.html\n武侠仙侠::/ksl/2/{{page}}.html\n都市言情::/ksl/3/{{page}}.html\n历史军事::/ksl/4/{{page}}.html\n科幻灵异::/ksl/5/{{page}}.html\n网游竞技::/ksl/6/{{page}}.html\n女生频道::/ksl/7/{{page}}.html",
+    "lastUpdateTime": 1606567379328,
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content"
+    },
+    "ruleContent": {
+      "content": "id.content@html##章节错误.*刷新页面。",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.txt-list@tag.li!0",
+      "bookUrl": "tag.a@href",
+      "kind": "class.s1@text##\\[(.*)\\]##$1##",
+      "lastChapter": "class.s3@tag.a@text",
+      "name": "class.s2@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.section-list.-1@li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "option@value"
+    },
+    "searchUrl": "https://www.iove.net/ar.php?keyWord={{key}}",
+    "weight": 0
+  }]

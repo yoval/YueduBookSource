@@ -1,1 +1,48 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "👍 77读书网[仅发现]", "bookSourceType": 0, "bookSourceUrl": "https://www.77dus.com", "bookUrlPattern": "", "customOrder": -115026, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻魔法::/list/1-{{page}}.html\n武侠修真::/list/2-{{page}}.html\n都市言情::/list/3-{{page}}.html\n历史军事::/list/4-{{page}}.html\n侦探推理::/list/5-{{page}}.html\n网游动漫::/list/6-{{page}}.html\n科幻小说::/list/7-{{page}}.html\n恐怖灵异::/list/8-{{page}}.html\n散文诗词::/list/9-{{page}}.html\n其他类型::/list/10-{{page}}.html\n连载书库::/list/-{{page}}.html\n全本推荐::/modules/article/index.php?fullflag=1&page={{page}}", "lastUpdateTime": 1606890389103, "loginUrl": "", "ruleBookInfo": {"author": "id.info@tag.p.0@text##作\\s*者：", "coverUrl": "id.fmimg@tag.script.0@src", "intro": "id.description1@text", "kind": "text.类型：@text##类型：", "lastChapter": "id.vip@a@text", "name": "id.info@tag.h1.0@text", "tocUrl": "text.点击阅读@href"}, "ruleContent": {"content": "id.content@html", "replaceRegex": "##www.|wenxue6.com|.最新章节阅读.|[()]"}, "ruleExplore": {"bookList": "class.item", "bookUrl": "class.item@tag.dt@tag.a@href", "coverUrl": "class.image@tag.img.0@src", "name": "class.item@tag.dt@tag.a@text"}, "ruleSearch": {"author": "tag.td.2@text", "bookList": "tag.tbody@tag.tr!0:", "bookUrl": "tag.a.0@href", "kind": "tag.td.5@text", "lastChapter": "tag.a.1@text", "name": "tag.a.0@text"}, "ruleToc": {"chapterList": "id.list@tag.dd@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.77dus.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "👍 77读书网[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.77dus.com",
+    "bookUrlPattern": "",
+    "customOrder": -115026,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/list/1-{{page}}.html\n武侠修真::/list/2-{{page}}.html\n都市言情::/list/3-{{page}}.html\n历史军事::/list/4-{{page}}.html\n侦探推理::/list/5-{{page}}.html\n网游动漫::/list/6-{{page}}.html\n科幻小说::/list/7-{{page}}.html\n恐怖灵异::/list/8-{{page}}.html\n散文诗词::/list/9-{{page}}.html\n其他类型::/list/10-{{page}}.html\n连载书库::/list/-{{page}}.html\n全本推荐::/modules/article/index.php?fullflag=1&page={{page}}",
+    "lastUpdateTime": 1606890389103,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text##作\\s*者：",
+      "coverUrl": "id.fmimg@tag.script.0@src",
+      "intro": "id.description1@text",
+      "kind": "text.类型：@text##类型：",
+      "lastChapter": "id.vip@a@text",
+      "name": "id.info@tag.h1.0@text",
+      "tocUrl": "text.点击阅读@href"
+    },
+    "ruleContent": {
+      "content": "id.content@html",
+      "replaceRegex": "##www.|wenxue6.com|.最新章节阅读.|[()]"
+    },
+    "ruleExplore": {
+      "bookList": "class.item",
+      "bookUrl": "class.item@tag.dt@tag.a@href",
+      "coverUrl": "class.image@tag.img.0@src",
+      "name": "class.item@tag.dt@tag.a@text"
+    },
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "tag.tbody@tag.tr!0:",
+      "bookUrl": "tag.a.0@href",
+      "kind": "tag.td.5@text",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.77dus.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

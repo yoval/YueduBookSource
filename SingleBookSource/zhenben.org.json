@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "👍 顽石网", "bookSourceType": 0, "bookSourceUrl": "https://www.zhenben.org", "bookUrlPattern": "", "customOrder": -114907, "enabled": true, "enabledExplore": true, "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3732.400 QQBrowser/10.5.3819.400\"\n}", "lastUpdateTime": 1612583570189, "loginUrl": "", "ruleBookInfo": {"coverUrl": "id.fmimg@tag.img.0@src", "intro": "id.intro@text", "name": "id.info@tag.h1.0@text"}, "ruleContent": {"content": "id.content@html", "nextContentUrl": "text.下一页@href"}, "ruleExplore": {}, "ruleSearch": {"author": "class.s4@text", "bookList": "class.novelslistss@tag.li", "bookUrl": "class.s2@tag.a.0@href", "name": "class.s2@tag.a.0@text"}, "ruleToc": {"chapterList": "id.list@tag.dd@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.zhenben.org/index/index/search.html?keyword={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "👍 顽石网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.zhenben.org",
+    "bookUrlPattern": "",
+    "customOrder": -114907,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.25 Safari/537.36 Core/1.70.3732.400 QQBrowser/10.5.3819.400\"\n}",
+    "lastUpdateTime": 1612583570189,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "intro": "id.intro@text",
+      "name": "id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4@text",
+      "bookList": "class.novelslistss@tag.li",
+      "bookUrl": "class.s2@tag.a.0@href",
+      "name": "class.s2@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.zhenben.org/index/index/search.html?keyword={{key}}",
+    "weight": 0
+  }]

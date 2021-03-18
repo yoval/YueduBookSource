@@ -1,1 +1,39 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "📥 TXT图书下载网™[仅发现]", "bookSourceType": 0, "bookSourceUrl": "http://m.bookdown.net", "customOrder": -32684, "enabled": true, "enabledExplore": true, "exploreUrl": "言情小说::http://m.bookdown.net/yanqing/<,index_{{page}}.html>\r\n穿越重生::http://m.bookdown.net/chuanyue/<,index_{{page}}.html>\r\n玄幻奇幻::http://m.bookdown.net/xuanhuan/<,index_{{page}}.html>\r\n武侠修真::http://m.bookdown.net/wuxia/<,index_{{page}}.html>\r\n都市异能::http://m.bookdown.net/yineng/<,index_{{page}}.html>\r\n侦探推理::http://m.bookdown.net/tuili/<,index_{{page}}.html>\r\n恐怖悬疑::http://m.bookdown.net/kongbu/<,index_{{page}}.html>\r\n耽美同人::http://m.bookdown.net/danmei/<,index_{{page}}.html>\r\n影视网游::http://m.bookdown.net/wangyou/<,index_{{page}}.html>\r\n科幻小说::http://m.bookdown.net/kehuan/<,index_{{page}}.html>\r\n文学名著::http://m.bookdown.net/mingzhu/<,index_{{page}}.html>\r\n历史军工::http://m.bookdown.net/lishijungong/<,index_{{page}}.html>\r\n其他类型::http://m.bookdown.net/qitaleixing/<,index_{{page}}.html>\r\n更新时间::http://m.bookdown.net/top/addtime.html\n书友推荐::http://m.bookdown.net/top/goodnum.html\n今日人气::http://m.bookdown.net/top/daydown.html\n本周人气::http://m.bookdown.net/top/weekdown.html\n当月人气::http://m.bookdown.net/top/monthdown.html\n总人气榜::http://m.bookdown.net/top/downnum.html\n文本大小::http://m.bookdown.net/top/booksize.html", "lastUpdateTime": 1602989266357, "ruleBookInfo": {"coverUrl": "class.cover@img@src", "intro": "class.intro@text", "lastChapter": "class.detail@tag.p.5@text", "tocUrl": "text.查看更多章节>>@href"}, "ruleContent": {"content": "class.articlecon font-large@tag.p@html", "nextContentUrl": "text.下一章@href"}, "ruleExplore": {"author": "tag.a@text##.*./", "bookList": "class.mod@tag.ul@tag.li||class.mod@tag.table", "bookUrl": "tag.a@href||onclick##windows.location.href=|\\'", "coverUrl": "tag.td.0@img@src", "intro": "tag.td.1@tag.p@text", "name": "tag.a@tag.b@text||tag.td.1@tag.b@text"}, "ruleSearch": {}, "ruleToc": {"chapterList": "id.readlist@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "nextTocUrl": "text.下一页@href"}, "searchUrl": "http://zhannei.baidu.com/cse/search?q={{key}}&s=1609423346027967537", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "📥 TXT图书下载网™[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.bookdown.net",
+    "customOrder": -32684,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "言情小说::http://m.bookdown.net/yanqing/<,index_{{page}}.html>\r\n穿越重生::http://m.bookdown.net/chuanyue/<,index_{{page}}.html>\r\n玄幻奇幻::http://m.bookdown.net/xuanhuan/<,index_{{page}}.html>\r\n武侠修真::http://m.bookdown.net/wuxia/<,index_{{page}}.html>\r\n都市异能::http://m.bookdown.net/yineng/<,index_{{page}}.html>\r\n侦探推理::http://m.bookdown.net/tuili/<,index_{{page}}.html>\r\n恐怖悬疑::http://m.bookdown.net/kongbu/<,index_{{page}}.html>\r\n耽美同人::http://m.bookdown.net/danmei/<,index_{{page}}.html>\r\n影视网游::http://m.bookdown.net/wangyou/<,index_{{page}}.html>\r\n科幻小说::http://m.bookdown.net/kehuan/<,index_{{page}}.html>\r\n文学名著::http://m.bookdown.net/mingzhu/<,index_{{page}}.html>\r\n历史军工::http://m.bookdown.net/lishijungong/<,index_{{page}}.html>\r\n其他类型::http://m.bookdown.net/qitaleixing/<,index_{{page}}.html>\r\n更新时间::http://m.bookdown.net/top/addtime.html\n书友推荐::http://m.bookdown.net/top/goodnum.html\n今日人气::http://m.bookdown.net/top/daydown.html\n本周人气::http://m.bookdown.net/top/weekdown.html\n当月人气::http://m.bookdown.net/top/monthdown.html\n总人气榜::http://m.bookdown.net/top/downnum.html\n文本大小::http://m.bookdown.net/top/booksize.html",
+    "lastUpdateTime": 1602989266357,
+    "ruleBookInfo": {
+      "coverUrl": "class.cover@img@src",
+      "intro": "class.intro@text",
+      "lastChapter": "class.detail@tag.p.5@text",
+      "tocUrl": "text.查看更多章节>>@href"
+    },
+    "ruleContent": {
+      "content": "class.articlecon font-large@tag.p@html",
+      "nextContentUrl": "text.下一章@href"
+    },
+    "ruleExplore": {
+      "author": "tag.a@text##.*./",
+      "bookList": "class.mod@tag.ul@tag.li||class.mod@tag.table",
+      "bookUrl": "tag.a@href||onclick##windows.location.href=|\\'",
+      "coverUrl": "tag.td.0@img@src",
+      "intro": "tag.td.1@tag.p@text",
+      "name": "tag.a@tag.b@text||tag.td.1@tag.b@text"
+    },
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "id.readlist@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "http://zhannei.baidu.com/cse/search?q={{key}}&s=1609423346027967537",
+    "weight": 0
+  }]

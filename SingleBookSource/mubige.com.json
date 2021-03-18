@@ -1,1 +1,42 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "📡 牧笔阁[仅发现]", "bookSourceType": 0, "bookSourceUrl": "https://www.mubige.com", "bookUrlPattern": "", "customOrder": -33022, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻::/fenlei-1-{{page}}.html\n修真::/fenlei-2-{{page}}.html\n都市::/fenlei-3-{{page}}.html\n完本::/wanben/{{page}}", "lastUpdateTime": 1602743419058, "loginUrl": "", "ruleBookInfo": {"coverUrl": "id.fmimg@tag.img.0@src", "intro": "id.intro@text", "tocUrl": "class.b-orange@href"}, "ruleContent": {"content": "id.content@textNodes"}, "ruleExplore": {"author": "class.s5@text", "bookList": "class.l@tag.li", "bookUrl": "class.s2@tag.a@href", "name": "class.s2@tag.a@text"}, "ruleSearch": {"author": "id.maininfo@tag.p.0@text||class.odd.1@text", "bookList": "class.grid@tag.tr!0", "bookUrl": "class.odd.0@tag.a.0@href", "kind": "class.even.2@text", "lastChapter": "id.maininfo@tag.p.3@text||class.even.0@tag.a.0@text", "name": "id.maininfo@tag.h1.0@text||class.odd.0@tag.a.0@text"}, "ruleToc": {"chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "📡 牧笔阁[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.mubige.com",
+    "bookUrlPattern": "",
+    "customOrder": -33022,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/fenlei-1-{{page}}.html\n修真::/fenlei-2-{{page}}.html\n都市::/fenlei-3-{{page}}.html\n完本::/wanben/{{page}}",
+    "lastUpdateTime": 1602743419058,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "intro": "id.intro@text",
+      "tocUrl": "class.b-orange@href"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {
+      "author": "class.s5@text",
+      "bookList": "class.l@tag.li",
+      "bookUrl": "class.s2@tag.a@href",
+      "name": "class.s2@tag.a@text"
+    },
+    "ruleSearch": {
+      "author": "id.maininfo@tag.p.0@text||class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "kind": "class.even.2@text",
+      "lastChapter": "id.maininfo@tag.p.3@text||class.even.0@tag.a.0@text",
+      "name": "id.maininfo@tag.h1.0@text||class.odd.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd!0:1:2:3:4:5:6:7:8",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "weight": 0
+  }]

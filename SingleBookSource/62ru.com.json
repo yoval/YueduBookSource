@@ -1,1 +1,55 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,刘备书源", "bookSourceName": "🚬 肉色屋", "bookSourceType": 0, "bookSourceUrl": "https://m.62ru.com", "customOrder": 24496, "enabled": true, "enabledExplore": true, "exploreUrl": "总排行榜::/top/allvisit_{{page}}/\n总推荐榜::/top/allvote_{{page}}/\n月排行榜::/top/monthvisit_{{page}}/\n月推荐榜::/top/monthvote_{{page}}/\n周排行榜::/top/weekvisit_{{page}}/\n周推荐榜::/top/weekvote_{{page}}/\n最新入库::/top/postdate_{{page}}/\n最近更新::/top/lastupdate_{{page}}/\n原创更新::/top/authorupdate_{{page}}/\n转载更新::/top/masterupdate_{{page}}/\n总收藏榜::/top/goodnum_{{page}}/\n字数排行::/top/size_{{page}}/\n耽美::/sort/1_{{page}}/\n百合::/sort/2_{{page}}/\n言情::/sort/3_{{page}}/\n高辣::/sort/4_{{page}}/\n腹黑::/sort/5_{{page}}/\n种田::/sort/6_{{page}}/\n高干::/sort/7_{{page}}/\n玄幻::/sort/8_{{page}}/\n修真::/sort/9_{{page}}/\n其他::/sort/10_{{page}}/\n武侠::/sort/11_{{page}}/\n都市::/sort/12_{{page}}/\n科幻::/sort/13_{{page}}/\n网游::/sort/14_{{page}}/\n恐怖::/sort/15_{{page}}/\n历史::/sort/16_{{page}}/\n同人::/sort/17_{{page}}/", "lastUpdateTime": 1612450194714, "ruleBookInfo": {"author": "class.tab@class.p1@text##作者.", "coverUrl": "class.tu@tag.img@src", "intro": "class.p2.1@text", "kind": "class.tab@class.p4@text&&class.tab@class.p5@text##小说", "lastChapter": "class.tab@class.p3@text##最新.", "name": "class.catalog1@tag.h1@text", "wordCount": "class.tab@class.p6@text"}, "ruleContent": {"content": "id.novelcontent@textNodes", "imageStyle": "0", "nextContentUrl": "class.p4@tag.a@href", "replaceRegex": "##.*分节阅读.*"}, "ruleExplore": {"author": "tag.p.3@text||tag.a.2@text", "bookList": "class.tt||class.content_link", "bookUrl": "tag.a.1@href", "coverUrl": "tag.img@src||tag.a.1@href##.+\\D((\\d+)\\d{3})\\D##http://img.62ru.com/image/$2/$1/$1s.jpg###", "intro": "tag.p.4@text", "kind": "tag.p.1@text&&tag.a.0@text##\\[|\\]", "name": "tag.a.1@text", "wordCount": "tag.p.2@text"}, "ruleSearch": {"author": "tag.a.2@text", "bookList": "class.search_list", "bookUrl": "tag.a.0@href", "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##http://img.62ru.com/image/$2/$1/$1s.jpg###", "intro": "", "kind": "tag.a.1@text", "name": "tag.a.0@text", "wordCount": ""}, "ruleToc": {"chapterList": "class.p2@tag.li@tag.a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "tag.option@value"}, "searchUrl": "/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&type=articlename\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,刘备书源",
+    "bookSourceName": "🚬 肉色屋",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.62ru.com",
+    "customOrder": 24784,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "总排行榜::/top/allvisit_{{page}}/\n总推荐榜::/top/allvote_{{page}}/\n月排行榜::/top/monthvisit_{{page}}/\n月推荐榜::/top/monthvote_{{page}}/\n周排行榜::/top/weekvisit_{{page}}/\n周推荐榜::/top/weekvote_{{page}}/\n最新入库::/top/postdate_{{page}}/\n最近更新::/top/lastupdate_{{page}}/\n原创更新::/top/authorupdate_{{page}}/\n转载更新::/top/masterupdate_{{page}}/\n总收藏榜::/top/goodnum_{{page}}/\n字数排行::/top/size_{{page}}/\n耽美::/sort/1_{{page}}/\n百合::/sort/2_{{page}}/\n言情::/sort/3_{{page}}/\n高辣::/sort/4_{{page}}/\n腹黑::/sort/5_{{page}}/\n种田::/sort/6_{{page}}/\n高干::/sort/7_{{page}}/\n玄幻::/sort/8_{{page}}/\n修真::/sort/9_{{page}}/\n其他::/sort/10_{{page}}/\n武侠::/sort/11_{{page}}/\n都市::/sort/12_{{page}}/\n科幻::/sort/13_{{page}}/\n网游::/sort/14_{{page}}/\n恐怖::/sort/15_{{page}}/\n历史::/sort/16_{{page}}/\n同人::/sort/17_{{page}}/",
+    "lastUpdateTime": 1612450194714,
+    "ruleBookInfo": {
+      "author": "class.tab@class.p1@text##作者.",
+      "coverUrl": "class.tu@tag.img@src",
+      "intro": "class.p2.1@text",
+      "kind": "class.tab@class.p4@text&&class.tab@class.p5@text##小说",
+      "lastChapter": "class.tab@class.p3@text##最新.",
+      "name": "class.catalog1@tag.h1@text",
+      "wordCount": "class.tab@class.p6@text"
+    },
+    "ruleContent": {
+      "content": "id.novelcontent@textNodes",
+      "imageStyle": "0",
+      "nextContentUrl": "class.p4@tag.a@href",
+      "replaceRegex": "##.*分节阅读.*"
+    },
+    "ruleExplore": {
+      "author": "tag.p.3@text||tag.a.2@text",
+      "bookList": "class.tt||class.content_link",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img@src||tag.a.1@href##.+\\D((\\d+)\\d{3})\\D##http://img.62ru.com/image/$2/$1/$1s.jpg###",
+      "intro": "tag.p.4@text",
+      "kind": "tag.p.1@text&&tag.a.0@text##\\[|\\]",
+      "name": "tag.a.1@text",
+      "wordCount": "tag.p.2@text"
+    },
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "class.search_list",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##.+\\D((\\d+)\\d{3})\\D##http://img.62ru.com/image/$2/$1/$1s.jpg###",
+      "intro": "",
+      "kind": "tag.a.1@text",
+      "name": "tag.a.0@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.p2@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "tag.option@value"
+    },
+    "searchUrl": "/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&type=articlename\"\n}",
+    "weight": 0
+  }]

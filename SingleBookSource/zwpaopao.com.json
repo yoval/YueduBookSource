@@ -1,1 +1,39 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "中文泡泡", "bookSourceType": 0, "bookSourceUrl": "https://zwpaopao.com", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "编辑推荐::https://www.zwpaopao.com/toptime_{{page}}.html\n最新入库::https://www.zwpaopao.com/postdate_{{page}}.html\n总点击榜::https://www.zwpaopao.com/allvisit_{{page}}.html\n总推荐榜::https://www.zwpaopao.com/allvote_{{page}}.html\n总收藏榜::https://www.zwpaopao.com/goodnum_{{page}}.html\n总字数榜::https://www.zwpaopao.com/words_{{page}}.html\n言情小说::https://www.zwpaopao.com/dushi.html\n古代小说::https://www.zwpaopao.com/gudai.html\n穿越小说::https://www.zwpaopao.com/chuanyue.html\n校园小说::https://www.zwpaopao.com/xiaoyuan.html\n耽美小说::https://www.zwpaopao.com/danmei.html\n玄幻小说::https://www.zwpaopao.com/xuanhuan.html\n仙侠小说::https://www.zwpaopao.com/xianxia.html\n历史小说::https://www.zwpaopao.com/lishi.html\n网游小说::https://www.zwpaopao.com/wangyou.html\n灵异小说::https://www.zwpaopao.com/lingyi.html\n其他小说::https://www.zwpaopao.com/qita.html\n完本小说::https://www.zwpaopao.com/quanben.html", "lastUpdateTime": 0, "ruleBookInfo": {"coverUrl": "class.imgbox@img@src", "intro": "class.desc@html##本文链接.*html", "lastChapter": "class.last@a@text", "tocUrl": "text.查看全部章节@href"}, "ruleContent": {"content": "class.cp-content@p@html##小说.*最新章节.*|本章未完.*", "nextContentUrl": "text.下一页@href"}, "ruleExplore": {}, "ruleSearch": {"author": "class.author@text", "bookList": "class.article", "bookUrl": "a@href##/html/(\\d+)/(\\d+)/##/book/$2.html", "coverUrl": "img@src", "kind": "class.data@tag.span!2:3@text##类别：|状态：", "lastChapter": "class.chapter@a@text", "name": "h3@a@text"}, "ruleToc": {"chapterList": "class.booklist clearfix@dd@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://zwpaopao.com/modules/article/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=all\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "中文泡泡",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://zwpaopao.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "编辑推荐::https://www.zwpaopao.com/toptime_{{page}}.html\n最新入库::https://www.zwpaopao.com/postdate_{{page}}.html\n总点击榜::https://www.zwpaopao.com/allvisit_{{page}}.html\n总推荐榜::https://www.zwpaopao.com/allvote_{{page}}.html\n总收藏榜::https://www.zwpaopao.com/goodnum_{{page}}.html\n总字数榜::https://www.zwpaopao.com/words_{{page}}.html\n言情小说::https://www.zwpaopao.com/dushi.html\n古代小说::https://www.zwpaopao.com/gudai.html\n穿越小说::https://www.zwpaopao.com/chuanyue.html\n校园小说::https://www.zwpaopao.com/xiaoyuan.html\n耽美小说::https://www.zwpaopao.com/danmei.html\n玄幻小说::https://www.zwpaopao.com/xuanhuan.html\n仙侠小说::https://www.zwpaopao.com/xianxia.html\n历史小说::https://www.zwpaopao.com/lishi.html\n网游小说::https://www.zwpaopao.com/wangyou.html\n灵异小说::https://www.zwpaopao.com/lingyi.html\n其他小说::https://www.zwpaopao.com/qita.html\n完本小说::https://www.zwpaopao.com/quanben.html",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "coverUrl": "class.imgbox@img@src",
+      "intro": "class.desc@html##本文链接.*html",
+      "lastChapter": "class.last@a@text",
+      "tocUrl": "text.查看全部章节@href"
+    },
+    "ruleContent": {
+      "content": "class.cp-content@p@html##小说.*最新章节.*|本章未完.*",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@text",
+      "bookList": "class.article",
+      "bookUrl": "a@href##/html/(\\d+)/(\\d+)/##/book/$2.html",
+      "coverUrl": "img@src",
+      "kind": "class.data@tag.span!2:3@text##类别：|状态：",
+      "lastChapter": "class.chapter@a@text",
+      "name": "h3@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.booklist clearfix@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://zwpaopao.com/modules/article/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=all\"\n}",
+    "weight": 0
+  }]

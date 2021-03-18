@@ -1,1 +1,46 @@
-[{"bookSourceComment": "coolapk@haxc", "bookSourceGroup": "我的书源", "bookSourceName": "🍺 笔下文学手机", "bookSourceType": 0, "bookSourceUrl": "https://m.bxwx66.com", "customOrder": -116808, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻奇幻::/xuanhuan/{{page}}.html\n武侠仙侠::/wuxia/{{page}}.html\n都市生活::/dushi/{{page}}.html\n历史军事::/lishi/{{page}}.html\n网游竞技::/youxi/{{page}}.html\n科幻未来::/kehuan/{{page}}.html\n恐怖悬疑::/xuanyi/{{page}}.html\n二次元::/erciyuan/{{page}}.html\n经典网文::/jingdian/{{page}}.html\n古代言情::/guyan/{{page}}.html\n现代言情::/xianyan/{{page}}.html\n幻想奇缘::/huanqing/{{page}}.html\n青春校园::/qingchun/{{page}}.html\n网络情缘::/wangluo/{{page}}.html\n科幻空间::/mmkehuan/{{page}}.html\n鬼怪灵异::/lingyi/{{page}}.html\nN次元::/Nciyuan/{{page}}.html\n言情美文::/yanqing/{{page}}.html", "lastUpdateTime": 1604156832715, "loginUrl": "https://m.bxwx66.com/login.html?jumpurl=%2Fmark.html", "ruleBookInfo": {"author": "class.author@a@text", "coverUrl": "class.detail@img@src", "intro": "", "kind": "class.detail@tag.a.1@text", "lastChapter": "class.new@a@text", "name": "class.name@text", "tocUrl": "", "wordCount": "class.detail@tag.p.2@tag.span.1@text"}, "ruleContent": {"content": "class.content@tag.p!0:-1@textNodes##《.*》无错章节.*笔下文学！", "nextContentUrl": ""}, "ruleExplore": {}, "ruleSearch": {"author": "class.data.0@tag.a.0@text", "bookList": "class.list@li", "bookUrl": "class.bookname@tag.a@href", "coverUrl": "tag.img@src", "intro": "class.intro@text", "kind": "class.data.0@tag.span@text", "lastChapter": "class.data.1@tag.a.0@text", "name": "class.bookname@a@text"}, "ruleToc": {"chapterList": "class.read@li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "nextTocUrl": "class.pagelist@option@value"}, "searchUrl": "https://m.bxwx66.com/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "coolapk@haxc",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍺 笔下文学手机",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.bxwx66.com",
+    "customOrder": -116808,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/xuanhuan/{{page}}.html\n武侠仙侠::/wuxia/{{page}}.html\n都市生活::/dushi/{{page}}.html\n历史军事::/lishi/{{page}}.html\n网游竞技::/youxi/{{page}}.html\n科幻未来::/kehuan/{{page}}.html\n恐怖悬疑::/xuanyi/{{page}}.html\n二次元::/erciyuan/{{page}}.html\n经典网文::/jingdian/{{page}}.html\n古代言情::/guyan/{{page}}.html\n现代言情::/xianyan/{{page}}.html\n幻想奇缘::/huanqing/{{page}}.html\n青春校园::/qingchun/{{page}}.html\n网络情缘::/wangluo/{{page}}.html\n科幻空间::/mmkehuan/{{page}}.html\n鬼怪灵异::/lingyi/{{page}}.html\nN次元::/Nciyuan/{{page}}.html\n言情美文::/yanqing/{{page}}.html",
+    "lastUpdateTime": 1604156832715,
+    "loginUrl": "https://m.bxwx66.com/login.html?jumpurl=%2Fmark.html",
+    "ruleBookInfo": {
+      "author": "class.author@a@text",
+      "coverUrl": "class.detail@img@src",
+      "intro": "",
+      "kind": "class.detail@tag.a.1@text",
+      "lastChapter": "class.new@a@text",
+      "name": "class.name@text",
+      "tocUrl": "",
+      "wordCount": "class.detail@tag.p.2@tag.span.1@text"
+    },
+    "ruleContent": {
+      "content": "class.content@tag.p!0:-1@textNodes##《.*》无错章节.*笔下文学！",
+      "nextContentUrl": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.data.0@tag.a.0@text",
+      "bookList": "class.list@li",
+      "bookUrl": "class.bookname@tag.a@href",
+      "coverUrl": "tag.img@src",
+      "intro": "class.intro@text",
+      "kind": "class.data.0@tag.span@text",
+      "lastChapter": "class.data.1@tag.a.0@text",
+      "name": "class.bookname@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.read@li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "class.pagelist@option@value"
+    },
+    "searchUrl": "https://m.bxwx66.com/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

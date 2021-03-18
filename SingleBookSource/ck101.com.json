@@ -1,1 +1,25 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "卡提诺", "bookSourceType": 0, "bookSourceUrl": "https://ck101.com", "bookUrlPattern": "", "customOrder": 53, "enabled": true, "enabledExplore": true, "exploreUrl": "长篇小说::https://ck101.com/forum-237-1.html?ref=menu\nnull", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {}, "ruleContent": {"content": ""}, "ruleExplore": {}, "ruleSearch": {"bookList": "class.num@tag.td", "name": "class.blockTitle@tag.a.0@tag.h2@text"}, "ruleToc": {}, "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "卡提诺",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://ck101.com",
+    "bookUrlPattern": "",
+    "customOrder": 53,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "长篇小说::https://ck101.com/forum-237-1.html?ref=menu\nnull",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.num@tag.td",
+      "name": "class.blockTitle@tag.a.0@tag.h2@text"
+    },
+    "ruleToc": {},
+    "weight": 0
+  }]

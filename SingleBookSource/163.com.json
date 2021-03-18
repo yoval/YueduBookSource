@@ -1,1 +1,64 @@
-[{"bookSourceComment": "by源仓库", "bookSourceGroup": "我的书源", "bookSourceName": "💵 网易云阅读", "bookSourceType": 0, "bookSourceUrl": "http://m.yuedu.163.com", "bookUrlPattern": "", "customOrder": -117327, "enabled": true, "enabledExplore": true, "exploreUrl": "", "header": "", "lastUpdateTime": 1605272765298, "loginUrl": "https://m.yuedu.163.com/login.do", "ruleBookInfo": {"author": "", "coverUrl": "", "init": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "tocUrl": "", "wordCount": ""}, "ruleContent": {"content": "data.content@js:\nresult ? String(java.base64Decode(result)).replace(/<h1>.+?<\\/h1>/, '') : ' 付费章节，换源阅读！';", "nextContentUrl": "", "sourceRegex": "", "webJs": ""}, "ruleExplore": {"author": "", "bookList": "", "bookUrl": "", "coverUrl": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "wordCount": ""}, "ruleSearch": {"author": "author", "bookList": "data.books[*]\n@js:JSON.parse(result).map(o=> {\n    var J = org.jsoup.Jsoup.parse(java.ajax(baseUrl.match(/(.+?\\/\\/.+?\\/)/)[1] + 'source/' + o.sourceUuid));\n    return {\n        name: o.title,\n        author: o.author,\n        tags: o.keyName,\n        num:o.showTotalCount+'字',\n        latest: String(J.select('.m-book-recent a').text()).replace(/[\\(（【].*[求更谢乐发推].*[】）\\)]/,'') +String(J.select('.m-book-recent p').text()).replace(/\\s*(\\d+-\\d+-\\d+).+/, '（$1）').replace(/\\s*(\\d+)月(\\d+)日.+/, '（$1-$2）'),\n        intro: o.description.replace(/<\\/?\\w+>/g, '').trim(),\n        cover: o.coverImage,\n        catalogUrl: '/reader/book/info.json?catalog_only=true&source_uuid=' + o.sourceUuid\n    }\n});", "bookUrl": "catalogUrl", "coverUrl": "cover", "intro": "intro", "kind": "tags", "lastChapter": "latest", "name": "name", "wordCount": "num"}, "ruleToc": {"chapterList": "data.catalog[?(@.grade > 1)]", "chapterName": "$.title##[\\(（【].*[求更谢乐发推].*[】）\\)]", "chapterUrl": "uuid@js:\nvar s_uuid = baseUrl.replace(/.*source_uuid=/,'')\n'/reader/book/content.json?source_uuid='+s_uuid+'&content_uuid='+result;", "isVip": "$.needPay", "nextTocUrl": "", "updateTime": ""}, "searchUrl": "/search/book/data.json?key={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "by源仓库",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "💵 网易云阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.yuedu.163.com",
+    "bookUrlPattern": "",
+    "customOrder": -117327,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1605272765298,
+    "loginUrl": "https://m.yuedu.163.com/login.do",
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "",
+      "init": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "data.content@js:\nresult ? String(java.base64Decode(result)).replace(/<h1>.+?<\\/h1>/, '') : ' 付费章节，换源阅读！';",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "author",
+      "bookList": "data.books[*]\n@js:JSON.parse(result).map(o=> {\n    var J = org.jsoup.Jsoup.parse(java.ajax(baseUrl.match(/(.+?\\/\\/.+?\\/)/)[1] + 'source/' + o.sourceUuid));\n    return {\n        name: o.title,\n        author: o.author,\n        tags: o.keyName,\n        num:o.showTotalCount+'字',\n        latest: String(J.select('.m-book-recent a').text()).replace(/[\\(（【].*[求更谢乐发推].*[】）\\)]/,'') +String(J.select('.m-book-recent p').text()).replace(/\\s*(\\d+-\\d+-\\d+).+/, '（$1）').replace(/\\s*(\\d+)月(\\d+)日.+/, '（$1-$2）'),\n        intro: o.description.replace(/<\\/?\\w+>/g, '').trim(),\n        cover: o.coverImage,\n        catalogUrl: '/reader/book/info.json?catalog_only=true&source_uuid=' + o.sourceUuid\n    }\n});",
+      "bookUrl": "catalogUrl",
+      "coverUrl": "cover",
+      "intro": "intro",
+      "kind": "tags",
+      "lastChapter": "latest",
+      "name": "name",
+      "wordCount": "num"
+    },
+    "ruleToc": {
+      "chapterList": "data.catalog[?(@.grade > 1)]",
+      "chapterName": "$.title##[\\(（【].*[求更谢乐发推].*[】）\\)]",
+      "chapterUrl": "uuid@js:\nvar s_uuid = baseUrl.replace(/.*source_uuid=/,'')\n'/reader/book/content.json?source_uuid='+s_uuid+'&content_uuid='+result;",
+      "isVip": "$.needPay",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "/search/book/data.json?key={{key}}",
+    "weight": 0
+  }]

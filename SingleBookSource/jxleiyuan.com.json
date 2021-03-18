@@ -1,1 +1,42 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 七八中文", "bookSourceType": 0, "bookSourceUrl": "https://www.jxleiyuan.com", "bookUrlPattern": "", "customOrder": -32343, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "class.bookTitle@tag.a.1@text", "coverUrl": "id.bookIntro@tag.img@src", "intro": "id.bookIntro@text", "lastChapter": "class.col-md-10@tag.p.2@tag.a@text", "name": "class.bookTitle@tag.a.0@text", "tocUrl": "class.col-md-10@class.btn btn-default btn-lg btn-block@tag.a@href", "wordCount": "class.col-md-10@tag.p.3@text##更新时间："}, "ruleContent": {"content": "class.txt@html##天才一秒钟.*|第.+章.*", "nextContentUrl": "class.next@tag.a@href"}, "ruleExplore": {}, "ruleSearch": {"author": "class.text-muted fs-12@text", "bookList": "class.table@tag.tbody@tag.tr", "bookUrl": "class.book-name@tag.a@href", "kind": "class.text-muted hidden-xs t1@text", "lastChapter": "class.hidden-xs@tag.a@text", "name": "class.book-name@tag.b@text"}, "ruleToc": {"chapterList": "class.panel-body panel-chapterlist@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.jxleiyuan.com/search/keyword/{{key}}.html", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 七八中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.jxleiyuan.com",
+    "bookUrlPattern": "",
+    "customOrder": -32343,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.bookTitle@tag.a.1@text",
+      "coverUrl": "id.bookIntro@tag.img@src",
+      "intro": "id.bookIntro@text",
+      "lastChapter": "class.col-md-10@tag.p.2@tag.a@text",
+      "name": "class.bookTitle@tag.a.0@text",
+      "tocUrl": "class.col-md-10@class.btn btn-default btn-lg btn-block@tag.a@href",
+      "wordCount": "class.col-md-10@tag.p.3@text##更新时间："
+    },
+    "ruleContent": {
+      "content": "class.txt@html##天才一秒钟.*|第.+章.*",
+      "nextContentUrl": "class.next@tag.a@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.text-muted fs-12@text",
+      "bookList": "class.table@tag.tbody@tag.tr",
+      "bookUrl": "class.book-name@tag.a@href",
+      "kind": "class.text-muted hidden-xs t1@text",
+      "lastChapter": "class.hidden-xs@tag.a@text",
+      "name": "class.book-name@tag.b@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.panel-body panel-chapterlist@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.jxleiyuan.com/search/keyword/{{key}}.html",
+    "weight": 0
+  }]

@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "新书吧", "bookSourceType": 0, "bookSourceUrl": "http://www.xs8xs.com", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": false, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "class.bq.span.1@tag.a@text", "coverUrl": "class.pic@tag.img@src", "intro": "class.jj@text", "name": "tag.h1@text"}, "ruleContent": {"content": "id.articlecontent@textNodes||class.articlecontent@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@text", "bookList": "tbody@tag.tr!0", "bookUrl": "class.odd.0@tag.a@href", "lastChapter": "class.even.0@tag.a@text", "name": "class.odd.0@tag.a@text"}, "ruleToc": {"chapterList": "class.chapter@tag.a", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.xs8xs.com/modules/article/search.php?searchtype=all&searchkey={{key}}&t_btnsearch=%CB%D1%CB%F7,{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "新书吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.xs8xs.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.bq.span.1@tag.a@text",
+      "coverUrl": "class.pic@tag.img@src",
+      "intro": "class.jj@text",
+      "name": "tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.articlecontent@textNodes||class.articlecontent@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "tbody@tag.tr!0",
+      "bookUrl": "class.odd.0@tag.a@href",
+      "lastChapter": "class.even.0@tag.a@text",
+      "name": "class.odd.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter@tag.a",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.xs8xs.com/modules/article/search.php?searchtype=all&searchkey={{key}}&t_btnsearch=%CB%D1%CB%F7,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

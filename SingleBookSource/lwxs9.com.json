@@ -1,1 +1,65 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "乐文小说网", "bookSourceType": 0, "bookSourceUrl": "https://m.lwxs9.com", "bookUrlPattern": "", "customOrder": 0, "enabled": false, "enabledExplore": false, "exploreUrl": "", "header": "", "lastUpdateTime": 1603614885774, "loginUrl": "", "ruleBookInfo": {"author": "class.synopsisArea_detail@tag.p.0@text##作者：", "coverUrl": "class.synopsisArea_detail@tag.img@src", "init": "", "intro": "class.review@text", "kind": "id.book_detail@tag.a.1@text", "lastChapter": "", "name": "class.title.0@text", "tocUrl": "class.recommend@tag.h2.1@tag.a@href", "wordCount": "id.book_detail@tag.li.2@text##状态："}, "ruleContent": {"content": "id.chaptercontent@textNodes", "nextContentUrl": "id.pt_next@href", "replaceRegex": "##天才一秒记住.*|《title》来源：|糖炒板栗子提示您：.*|.*接着再看更方便。|转载请注明出处：", "sourceRegex": "", "webJs": ""}, "ruleExplore": {"author": "", "bookList": "", "bookUrl": "", "coverUrl": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "wordCount": ""}, "ruleSearch": {"author": "class.author.0@text##.*作者：", "bookList": "class.hot_sale", "bookUrl": "class.hot_sale.0@tag.a@href", "coverUrl": "", "intro": "", "kind": "class.author.0@text##(.*) \\| 作者：##$1###", "lastChapter": "class.author.1@tag.a@text##更新：", "name": "class.title.0@text", "wordCount": ""}, "ruleToc": {"chapterList": "id.chapterlist@tag.p!0", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "isVip": "", "nextTocUrl": "", "updateTime": ""}, "searchUrl": "https://m.lwxs9.com/SearchBook.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "乐文小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.lwxs9.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": false,
+    "enabledExplore": false,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1603614885774,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.synopsisArea_detail@tag.p.0@text##作者：",
+      "coverUrl": "class.synopsisArea_detail@tag.img@src",
+      "init": "",
+      "intro": "class.review@text",
+      "kind": "id.book_detail@tag.a.1@text",
+      "lastChapter": "",
+      "name": "class.title.0@text",
+      "tocUrl": "class.recommend@tag.h2.1@tag.a@href",
+      "wordCount": "id.book_detail@tag.li.2@text##状态："
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@textNodes",
+      "nextContentUrl": "id.pt_next@href",
+      "replaceRegex": "##天才一秒记住.*|《title》来源：|糖炒板栗子提示您：.*|.*接着再看更方便。|转载请注明出处：",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.author.0@text##.*作者：",
+      "bookList": "class.hot_sale",
+      "bookUrl": "class.hot_sale.0@tag.a@href",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "class.author.0@text##(.*) \\| 作者：##$1###",
+      "lastChapter": "class.author.1@tag.a@text##更新：",
+      "name": "class.title.0@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterlist@tag.p!0",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "https://m.lwxs9.com/SearchBook.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}\"\n}",
+    "weight": 0
+  }]

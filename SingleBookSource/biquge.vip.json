@@ -1,1 +1,40 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "🎉 笔趣阁⑥③", "bookSourceType": 0, "bookSourceUrl": "http://www.biquge.vip", "bookUrlPattern": "", "customOrder": -31942, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "class.box_con.0@id.info@tag.p.0@text", "coverUrl": "id.list@tag.dd.0@a@href##/(\\d+)_(\\d+)/.*##/files/article/image/$1/$2/$2s.jpg", "intro": "id.intro@tag.p.0@text", "lastChapter": "id.list@tag.dd.-1@a@text", "name": "class.box_con.0@id.info@tag.h1.0@text"}, "ruleContent": {"content": "id.content@textNodes##一秒记住.*|】，为您提供精彩小说阅读。"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@text||id.info@tag.p.0@text", "bookList": "class.grid@tag.tr!0||class.box_con", "bookUrl": "class.odd.0@tag.a.0@href", "coverUrl": "tag.a.0@href##/(\\d+)_(\\d+)/##/files/article/image/$1/$2/$2s.jpg", "kind": "class.con_top@tag.a.6@text", "lastChapter": "class.even.0@tag.a@text||id.info@tag.p.2@text", "name": "class.odd.0@tag.a.0@text||id.info@tag.h1.0@text"}, "ruleToc": {"chapterList": "id.list@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.biquge.vip/modules/article/search.php?searchkey={{key}}&searchtype=articlename,{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "🎉 笔趣阁⑥③",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.biquge.vip",
+    "bookUrlPattern": "",
+    "customOrder": -31942,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.box_con.0@id.info@tag.p.0@text",
+      "coverUrl": "id.list@tag.dd.0@a@href##/(\\d+)_(\\d+)/.*##/files/article/image/$1/$2/$2s.jpg",
+      "intro": "id.intro@tag.p.0@text",
+      "lastChapter": "id.list@tag.dd.-1@a@text",
+      "name": "class.box_con.0@id.info@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##一秒记住.*|】，为您提供精彩小说阅读。"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text||id.info@tag.p.0@text",
+      "bookList": "class.grid@tag.tr!0||class.box_con",
+      "bookUrl": "class.odd.0@tag.a.0@href",
+      "coverUrl": "tag.a.0@href##/(\\d+)_(\\d+)/##/files/article/image/$1/$2/$2s.jpg",
+      "kind": "class.con_top@tag.a.6@text",
+      "lastChapter": "class.even.0@tag.a@text||id.info@tag.p.2@text",
+      "name": "class.odd.0@tag.a.0@text||id.info@tag.h1.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.biquge.vip/modules/article/search.php?searchkey={{key}}&searchtype=articlename,{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

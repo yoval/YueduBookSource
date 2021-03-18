@@ -1,1 +1,40 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 爱读小说网", "bookSourceType": 0, "bookSourceUrl": "https://www.52dus.net", "bookUrlPattern": "", "customOrder": -31907, "enabled": true, "enabledExplore": true, "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9; Redmi Note 8 Pro Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.96 Mobile Safari/537.36\"\n}", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": "tag.mip-img@src", "intro": "class.bookintromore@text##全文免费阅读的.*|各位书友要是觉得.*", "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content"}, "ruleContent": {"content": "id.BookText@html##爱读小说.*最快更新.*", "nextContentUrl": "text.下一页@href"}, "ruleExplore": {}, "ruleSearch": {"author": "class.author.0@text", "bookList": "class.bookbox", "bookUrl": "a@href", "coverUrl": "mip-img@src", "kind": "class.author.1@text##分类：", "lastChapter": "class.cat@a@text", "name": "h4@a@text"}, "ruleToc": {"chapterList": "class.fulllistall@dd@a", "chapterName": "text##.*阅读全文", "chapterUrl": "href"}, "searchUrl": "https://www.52dus.net/home/search?action=search&q={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 爱读小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.52dus.net",
+    "bookUrlPattern": "",
+    "customOrder": -31907,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9; Redmi Note 8 Pro Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.96 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "tag.mip-img@src",
+      "intro": "class.bookintromore@text##全文免费阅读的.*|各位书友要是觉得.*",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content"
+    },
+    "ruleContent": {
+      "content": "id.BookText@html##爱读小说.*最快更新.*",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@text",
+      "bookList": "class.bookbox",
+      "bookUrl": "a@href",
+      "coverUrl": "mip-img@src",
+      "kind": "class.author.1@text##分类：",
+      "lastChapter": "class.cat@a@text",
+      "name": "h4@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.fulllistall@dd@a",
+      "chapterName": "text##.*阅读全文",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.52dus.net/home/search?action=search&q={{key}}",
+    "weight": 0
+  }]

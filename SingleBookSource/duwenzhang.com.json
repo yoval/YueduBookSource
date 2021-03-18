@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "📚 文章阅读", "bookSourceType": 0, "bookSourceUrl": "http://m.duwenzhang.com", "bookUrlPattern": "", "customOrder": -24740, "enabled": true, "enabledExplore": true, "exploreUrl": "精品美文::/meiwen.php\n文章排行::/paihangbang.php?num=1\n爱情文章::index.php?action=list&id=1&totalresult=16300&pageno={{page}}\n亲情文章::index.php?action=list&id=2&totalresult=50870&pageno={{page}}\n友情文章::index.php?action=list&id=3&totalresult=12500&pageno={{page}}\n生活随笔::index.php?action=list&id=8&totalresult=15040&pageno={{page}}\n校园文章::index.php?action=list&id=4&totalresult=22300&pageno={{page}}\n经典文章::index.php?action=list&id=5&totalresult=22300&pageno={{page}}\n人生哲理::index.php?action=list&id=6&totalresult=22300&pageno={{page}}\n励志文章::index.php?action=list&id=7&totalresult=22300&pageno={{page}}\n搞笑文章::index.php?action=list&id=9&totalresult=22300&pageno={{page}}\n心情日记::index.php?action=list&id=69&totalresult=22300&pageno={{page}}\n英语文章::index.php?action=list&id=10&totalresult=22300&pageno={{page}}\n原创文章::index.php?action=list&id=73&totalresult=22003&pageno={{page}}\n原创诗歌::index.php?action=list&id=84&totalresult=22003&pageno={{page}}\nnull", "lastUpdateTime": 1602911346215, "loginUrl": "", "ruleBookInfo": {"intro": "class.con@p@textNodes"}, "ruleContent": {"content": "class.con@p@textNodes"}, "ruleExplore": {"bookList": "class.spl||class.nav", "bookUrl": "tag.a.0@href", "name": "tag.a.0@text"}, "ruleSearch": {"bookList": "class.nav", "bookUrl": "tag.a.0@href", "intro": "class.con@text", "lastChapter": "##\\[(\\d+-\\d+)\\]##$1###", "name": "tag.a@text"}, "ruleToc": {"chapterList": "tag.html", "chapterName": "class.nav@text"}, "searchUrl": "http://m.duwenzhang.com/index.php?action=searchaction,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&type=1\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "📚 文章阅读",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.duwenzhang.com",
+    "bookUrlPattern": "",
+    "customOrder": -24740,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "精品美文::/meiwen.php\n文章排行::/paihangbang.php?num=1\n爱情文章::index.php?action=list&id=1&totalresult=16300&pageno={{page}}\n亲情文章::index.php?action=list&id=2&totalresult=50870&pageno={{page}}\n友情文章::index.php?action=list&id=3&totalresult=12500&pageno={{page}}\n生活随笔::index.php?action=list&id=8&totalresult=15040&pageno={{page}}\n校园文章::index.php?action=list&id=4&totalresult=22300&pageno={{page}}\n经典文章::index.php?action=list&id=5&totalresult=22300&pageno={{page}}\n人生哲理::index.php?action=list&id=6&totalresult=22300&pageno={{page}}\n励志文章::index.php?action=list&id=7&totalresult=22300&pageno={{page}}\n搞笑文章::index.php?action=list&id=9&totalresult=22300&pageno={{page}}\n心情日记::index.php?action=list&id=69&totalresult=22300&pageno={{page}}\n英语文章::index.php?action=list&id=10&totalresult=22300&pageno={{page}}\n原创文章::index.php?action=list&id=73&totalresult=22003&pageno={{page}}\n原创诗歌::index.php?action=list&id=84&totalresult=22003&pageno={{page}}\nnull",
+    "lastUpdateTime": 1602911346215,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "class.con@p@textNodes"
+    },
+    "ruleContent": {
+      "content": "class.con@p@textNodes"
+    },
+    "ruleExplore": {
+      "bookList": "class.spl||class.nav",
+      "bookUrl": "tag.a.0@href",
+      "name": "tag.a.0@text"
+    },
+    "ruleSearch": {
+      "bookList": "class.nav",
+      "bookUrl": "tag.a.0@href",
+      "intro": "class.con@text",
+      "lastChapter": "##\\[(\\d+-\\d+)\\]##$1###",
+      "name": "tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "tag.html",
+      "chapterName": "class.nav@text"
+    },
+    "searchUrl": "http://m.duwenzhang.com/index.php?action=searchaction,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&type=1\"\n}",
+    "weight": 0
+  }]

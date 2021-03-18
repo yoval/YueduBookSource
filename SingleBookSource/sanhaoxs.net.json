@@ -1,1 +1,40 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,刘备书源", "bookSourceName": "🚬 三好小说", "bookSourceType": 0, "bookSourceUrl": "http://m.sanhaoxs.net", "bookUrlPattern": "", "customOrder": 24432, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻::http://m.sanhaoxs.net/fl/1_{{page}}/\n科幻::http://m.sanhaoxs.net/fl/2_{{page}}/\n都市::http://m.sanhaoxs.net/fl/3_{{page}}/\n穿越::http://m.sanhaoxs.net/fl/4_{{page}}/\n网游::http://m.sanhaoxs.net/fl/5_{{page}}/\n精品::http://m.sanhaoxs.net/fl/6_{{page}}/\n日点::http://m.sanhaoxs.net/top/dayvisit_{{page}}/\n周点::http://m.sanhaoxs.net/top/weekvisit_{{page}}/\n月点::http://m.sanhaoxs.net/top/monthvisit_{{page}}/\n总点::http://m.sanhaoxs.net/top/allvisit_{{page}}/\n总收::http://m.sanhaoxs.net/top/goodnum_{{page}}/\n总推::http://m.sanhaoxs.net/top/allvote_{{page}}/\n字数::http://m.sanhaoxs.net/top/size_{{page}}/\n最新::http://m.sanhaoxs.net/top/postdate_{{page}}/\n最近::http://m.sanhaoxs.net/top/lastupdate_{{page}}/\nnull", "lastUpdateTime": 1605535819756, "loginUrl": "", "ruleBookInfo": {"author": "class.block_txt2@tag.a.2@text##作 者：", "intro": "class.intro_info@text", "kind": "class.block_txt2@tag.a.3@text", "name": "class.block_txt2@tag.a.1@text", "tocUrl": "class.ablum_read@tag.a.1@href"}, "ruleContent": {"content": "id.nr1@textNodes", "nextContentUrl": "text.下一页@href"}, "ruleExplore": {}, "ruleSearch": {"author": "class.line@tag.a.2@text", "bookList": "class.line", "bookUrl": "tag.a.1@href", "name": "class.line@tag.a.1@text##_.*|\\[.*\\]|【|】|（.*）|\\(.*\\)"}, "ruleToc": {"chapterList": "class.cover@tag.ul@tag.a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "text.下一页@href"}, "searchUrl": "/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&type=author\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,刘备书源",
+    "bookSourceName": "🚬 三好小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.sanhaoxs.net",
+    "bookUrlPattern": "",
+    "customOrder": 24720,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::http://m.sanhaoxs.net/fl/1_{{page}}/\n科幻::http://m.sanhaoxs.net/fl/2_{{page}}/\n都市::http://m.sanhaoxs.net/fl/3_{{page}}/\n穿越::http://m.sanhaoxs.net/fl/4_{{page}}/\n网游::http://m.sanhaoxs.net/fl/5_{{page}}/\n精品::http://m.sanhaoxs.net/fl/6_{{page}}/\n日点::http://m.sanhaoxs.net/top/dayvisit_{{page}}/\n周点::http://m.sanhaoxs.net/top/weekvisit_{{page}}/\n月点::http://m.sanhaoxs.net/top/monthvisit_{{page}}/\n总点::http://m.sanhaoxs.net/top/allvisit_{{page}}/\n总收::http://m.sanhaoxs.net/top/goodnum_{{page}}/\n总推::http://m.sanhaoxs.net/top/allvote_{{page}}/\n字数::http://m.sanhaoxs.net/top/size_{{page}}/\n最新::http://m.sanhaoxs.net/top/postdate_{{page}}/\n最近::http://m.sanhaoxs.net/top/lastupdate_{{page}}/\nnull",
+    "lastUpdateTime": 1605535819756,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.block_txt2@tag.a.2@text##作 者：",
+      "intro": "class.intro_info@text",
+      "kind": "class.block_txt2@tag.a.3@text",
+      "name": "class.block_txt2@tag.a.1@text",
+      "tocUrl": "class.ablum_read@tag.a.1@href"
+    },
+    "ruleContent": {
+      "content": "id.nr1@textNodes",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.line@tag.a.2@text",
+      "bookList": "class.line",
+      "bookUrl": "tag.a.1@href",
+      "name": "class.line@tag.a.1@text##_.*|\\[.*\\]|【|】|（.*）|\\(.*\\)"
+    },
+    "ruleToc": {
+      "chapterList": "class.cover@tag.ul@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "/s.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}&type=author\"\n}",
+    "weight": 0
+  }]

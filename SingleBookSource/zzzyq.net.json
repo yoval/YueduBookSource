@@ -1,1 +1,45 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🌸 最言情", "bookSourceType": 0, "bookSourceUrl": "https://www.zzzyq.net", "customOrder": -117027, "enabled": true, "enabledExplore": true, "exploreUrl": "言情::/novel_yanqing_{{page}}\n玄幻::/novel_xuanhuan_{{page}}\n修真::/novel_xiuzhen_{{page}}\n都市::/novel_dushi_{{page}}\n历史::/novel_lishi_{{page}}\n网游::/novel_wangyou_{{page}}\n科幻::/novel_kehuan_{{page}}\n其他::/novel_qita_{{page}}\n全本::/novel_quanben_{{page}}", "header": "{\r\n\"upgrade-insecure-requests\": 1\n}", "lastUpdateTime": 1612276849221, "ruleBookInfo": {"author": "class.author_name2@text##作者.", "coverUrl": "class.novel_img@date-original", "intro": "class.detail_desp@text", "kind": "class.detail_right@tag.small.0@text&&class.detail_right@tag.strong.0@text##\\(|\\)", "lastChapter": "class.detail_right@tag.strong.1@text", "name": "class.detail_right@tag.h1@text##\\(.*", "wordCount": ""}, "ruleContent": {"content": "class.novel_content@tag.p@text"}, "ruleExplore": {"bookList": "", "coverUrl": ""}, "ruleSearch": {"author": "class.author_name@text", "bookList": "class.novel_detail", "bookUrl": "class.read_novel@tag.a@href", "coverUrl": "class.novel_img@data-original", "intro": "class.novel_desp@text", "lastChapter": "", "name": "class.novel_name@text"}, "ruleToc": {"chapterList": "class.chapter_list.1@tag.li@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"keywords={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "最言情",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.zzzyq.net",
+    "customOrder": -117027,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "言情::/novel_yanqing_{{page}}\n玄幻::/novel_xuanhuan_{{page}}\n修真::/novel_xiuzhen_{{page}}\n都市::/novel_dushi_{{page}}\n历史::/novel_lishi_{{page}}\n网游::/novel_wangyou_{{page}}\n科幻::/novel_kehuan_{{page}}\n其他::/novel_qita_{{page}}\n全本::/novel_quanben_{{page}}",
+    "header": "{\r\n\"upgrade-insecure-requests\": 1\n}",
+    "lastUpdateTime": 1615879913019,
+    "ruleBookInfo": {
+      "author": "class.author_name2@text##作者.",
+      "coverUrl": "class.novel_img@date-original",
+      "intro": "class.detail_desp@text",
+      "kind": "class.detail_right@tag.small.0@text&&class.detail_right@tag.strong.0@text##\\(|\\)",
+      "lastChapter": "class.detail_right@tag.strong.1@text",
+      "name": "class.detail_right@tag.h1@text##\\(.*",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "class.novel_content@tag.p@text"
+    },
+    "ruleExplore": {
+      "bookList": "",
+      "coverUrl": ""
+    },
+    "ruleSearch": {
+      "author": "class.author_name@text",
+      "bookList": "class.novel_detail",
+      "bookUrl": "class.read_novel@tag.a@href",
+      "coverUrl": "class.novel_img@data-original",
+      "intro": "class.novel_desp@text",
+      "lastChapter": "",
+      "name": "class.novel_name@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter_list.1@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/search.php,{\n  \"method\": \"POST\",\n  \"body\": \"keywords={{key}}\"\n}",
+    "weight": 0
+  }]

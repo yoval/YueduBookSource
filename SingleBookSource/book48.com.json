@@ -1,1 +1,43 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "书包小说网", "bookSourceType": 0, "bookSourceUrl": "https://www.book48.com/", "customOrder": 0, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "ruleBookInfo": {"author": "class.author fl@text", "coverUrl": "class.pic fl@img@src", "intro": "class.summary@text", "kind": "class.f1@text", "lastChapter": "class.chaptername fl@tag.a@text", "name": "class.name fl@text", "tocUrl": "class.tab fl j-content-tab@tag.a.1@href", "wordCount": "class.hits@tag.span.0@text"}, "ruleContent": {"content": "class.read-content j_readContent@html"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.dd@tag.p.0@tag.a.0@text", "bookList": "class.rankdatacont search@class.secd-rank-list@tag.dl", "bookUrl": "class.bigpic-book-name@href", "coverUrl": "", "intro": "tag.dd@tag.p.1@text", "kind": "tag.dd@tag.p.0@tag.a.1@text", "lastChapter": "tag.dd@tag.p.2@tag.a@text##最近更新 ", "name": "class.bigpic-book-name@text", "wordCount": "tag.dd@tag.p.0@tag.span@tag.em.0@text"}, "ruleToc": {"chapterList": "class.cate-list@tag.a", "chapterName": "tag.a@tag.span.0@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.book48.com/search.html?keyword={{key}}&page={{page}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "书包小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.book48.com/",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "class.author fl@text",
+      "coverUrl": "class.pic fl@img@src",
+      "intro": "class.summary@text",
+      "kind": "class.f1@text",
+      "lastChapter": "class.chaptername fl@tag.a@text",
+      "name": "class.name fl@text",
+      "tocUrl": "class.tab fl j-content-tab@tag.a.1@href",
+      "wordCount": "class.hits@tag.span.0@text"
+    },
+    "ruleContent": {
+      "content": "class.read-content j_readContent@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.dd@tag.p.0@tag.a.0@text",
+      "bookList": "class.rankdatacont search@class.secd-rank-list@tag.dl",
+      "bookUrl": "class.bigpic-book-name@href",
+      "coverUrl": "",
+      "intro": "tag.dd@tag.p.1@text",
+      "kind": "tag.dd@tag.p.0@tag.a.1@text",
+      "lastChapter": "tag.dd@tag.p.2@tag.a@text##最近更新 ",
+      "name": "class.bigpic-book-name@text",
+      "wordCount": "tag.dd@tag.p.0@tag.span@tag.em.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.cate-list@tag.a",
+      "chapterName": "tag.a@tag.span.0@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.book48.com/search.html?keyword={{key}}&page={{page}}",
+    "weight": 0
+  }]

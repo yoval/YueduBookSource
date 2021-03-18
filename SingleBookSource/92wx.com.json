@@ -1,1 +1,64 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 九二文学", "bookSourceType": 0, "bookSourceUrl": "http://www.92wx.com", "bookUrlPattern": "", "customOrder": -32583, "enabled": true, "enabledExplore": true, "exploreUrl": "", "header": "", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "class.d_title@tag.p.0@text##作者：", "coverUrl": "id.bookimg@tag.img@src", "init": "", "intro": "class.d2@text", "kind": "class.tabstit@tag.a.-1@text", "lastChapter": "id.newlist@tag.a.1@text", "name": "class.d_title@tag.h1@text", "tocUrl": "class.li2@tag.a@href", "wordCount": "id.count@tag.span.2@text"}, "ruleContent": {"content": "id.ccontent@html", "nextContentUrl": "", "sourceRegex": "", "webJs": ""}, "ruleExplore": {"author": "", "bookList": "", "bookUrl": "", "coverUrl": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "wordCount": ""}, "ruleSearch": {"author": "class.odd.1@text", "bookList": "class.grid@tag.tr!0", "bookUrl": "tag.a.0@href", "coverUrl": "", "intro": "", "kind": "", "lastChapter": "tag.a.1@text", "name": "tag.a.0@text", "wordCount": "class.even.1@text"}, "ruleToc": {"chapterList": "class.mread row@tag.td", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "isVip": "", "nextTocUrl": "", "updateTime": ""}, "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=articlename&searchkey={{key}}&t_btnsearch=\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 九二文学",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.92wx.com",
+    "bookUrlPattern": "",
+    "customOrder": -32583,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.d_title@tag.p.0@text##作者：",
+      "coverUrl": "id.bookimg@tag.img@src",
+      "init": "",
+      "intro": "class.d2@text",
+      "kind": "class.tabstit@tag.a.-1@text",
+      "lastChapter": "id.newlist@tag.a.1@text",
+      "name": "class.d_title@tag.h1@text",
+      "tocUrl": "class.li2@tag.a@href",
+      "wordCount": "id.count@tag.span.2@text"
+    },
+    "ruleContent": {
+      "content": "id.ccontent@html",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text",
+      "wordCount": "class.even.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.mread row@tag.td",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "/modules/article/search.php,{\n  \"charset\": \"utf-8\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=articlename&searchkey={{key}}&t_btnsearch=\"\n}",
+    "weight": 0
+  }]

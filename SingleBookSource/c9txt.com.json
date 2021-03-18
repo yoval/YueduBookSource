@@ -1,1 +1,42 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,刘备书源", "bookSourceName": "🚬 海棠线上文学城", "bookSourceType": 0, "bookSourceUrl": "http://www.c9txt.com", "bookUrlPattern": "", "customOrder": 24514, "enabled": true, "enabledExplore": true, "exploreUrl": "", "header": "", "lastUpdateTime": 1612499028637, "loginUrl": "", "ruleBookInfo": {"author": ".block_text2@tag.p.3@html", "coverUrl": ".blcok_img2@tag.img@src", "intro": ".intro_info@text", "kind": ".block_text2@tag.p.4@html", "lastChapter": ".block_text2@tag.p.8@tag.a@text", "name": ".block_text2@tag.h2@tag.a@text"}, "ruleContent": {"content": ".nr_nr@tag.div@textNodes", "nextContentUrl": "#pb_next@href"}, "ruleExplore": {}, "ruleSearch": {"author": "a.-1@text", "bookList": ".line", "bookUrl": ".blue@href", "name": ".blue@text"}, "ruleToc": {"chapterList": "class.chapter.-1@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "nextTocUrl": ".right@tag.a@href"}, "searchUrl": "/search.php?keyword={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,刘备书源",
+    "bookSourceName": "🚬 海棠线上文学城",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.c9txt.com",
+    "bookUrlPattern": "",
+    "customOrder": 24802,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1612499028637,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": ".block_text2@tag.p.3@html",
+      "coverUrl": ".blcok_img2@tag.img@src",
+      "intro": ".intro_info@text",
+      "kind": ".block_text2@tag.p.4@html",
+      "lastChapter": ".block_text2@tag.p.8@tag.a@text",
+      "name": ".block_text2@tag.h2@tag.a@text"
+    },
+    "ruleContent": {
+      "content": ".nr_nr@tag.div@textNodes",
+      "nextContentUrl": "#pb_next@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "a.-1@text",
+      "bookList": ".line",
+      "bookUrl": ".blue@href",
+      "name": ".blue@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter.-1@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": ".right@tag.a@href"
+    },
+    "searchUrl": "/search.php?keyword={{key}}",
+    "weight": 0
+  }]

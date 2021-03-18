@@ -1,1 +1,64 @@
-[{"bookSourceComment": "error:List is empty.\n", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 360小说网", "bookSourceType": 0, "bookSourceUrl": "https://www.360tingshu.cc", "bookUrlPattern": "", "customOrder": -32349, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻::/sort/xuanhuan<,_/{{page}}>.html\n武侠::/sort/wuxia<,_/{{page}}>.html\n仙侠::/sort/xianxia<,_/{{page}}>.html\n都市::/sort/dushi<,_/{{page}}>.html\n历史::/sort/lishi<,_/{{page}}>.html\n游戏::/sort/youxi<,_/{{page}}>.html\n科幻::/sort/kehuan<,_/{{page}}>.html\n灵异::/sort/lingyi<,_/{{page}}>.html\n其他::/sort/qita<,_/{{page}}>.html", "header": "", "lastUpdateTime": 0, "loginUrl": "https://www.360tingshu.cc/user/auth/login.html", "ruleBookInfo": {"author": "[property=\"og:novel:author\"]@content", "coverUrl": "[property=\"og:image\"]@content", "init": "", "intro": "[property=\"og:description\"]@content", "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content", "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content", "name": "[property=\"og:novel:book_name\"]@content##全文.*", "tocUrl": "", "wordCount": "[property=\"og:novel:update_time\"]@content"}, "ruleContent": {"content": "class.size16 color5 pt-read-text@html", "nextContentUrl": "", "sourceRegex": "", "webJs": ""}, "ruleExplore": {"author": "class.author-tag@tag.a.0@text", "bookList": "class.recommend-main", "bookUrl": "class.info-container@tag.a.0@href", "coverUrl": "tag.img@data-src", "intro": "class.book-intro@text", "kind": "", "lastChapter": "", "name": "class.info-container@tag.a.0@text##全文.*", "wordCount": "class.author-tag@tag.span.0@text##^##点击@js:result+'次'"}, "ruleSearch": {"author": "class.fl color7@tag.span.0@tag.a.0@text", "bookList": "class.pt-rank-detail", "bookUrl": "class.fl mr60@tag.a.0@href", "coverUrl": "class.pt-rank-detail@tag.img.0@src", "intro": "class.compulsory-row fl w100 color5 desc@text", "kind": "class.fl color7@tag.span.2@tag.a.0@text", "lastChapter": "class.fl pt-rank-detail-middle@class.fl lh100@tag.span.0@tag.a.0@text", "name": "class.fl mr60@tag.a.0@text", "wordCount": ""}, "ruleToc": {"chapterList": "class.pt-chapter-cont-detail full@a", "chapterName": "span@text", "chapterUrl": "a@href", "isVip": "", "nextTocUrl": "", "updateTime": ""}, "searchUrl": "https://www.360tingshu.cc/search/result.html?searchkey={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 360小说网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.360tingshu.cc",
+    "bookUrlPattern": "",
+    "customOrder": -32349,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/sort/xuanhuan<,_/{{page}}>.html\n武侠::/sort/wuxia<,_/{{page}}>.html\n仙侠::/sort/xianxia<,_/{{page}}>.html\n都市::/sort/dushi<,_/{{page}}>.html\n历史::/sort/lishi<,_/{{page}}>.html\n游戏::/sort/youxi<,_/{{page}}>.html\n科幻::/sort/kehuan<,_/{{page}}>.html\n灵异::/sort/lingyi<,_/{{page}}>.html\n其他::/sort/qita<,_/{{page}}>.html",
+    "header": "",
+    "lastUpdateTime": 0,
+    "loginUrl": "https://www.360tingshu.cc/user/auth/login.html",
+    "ruleBookInfo": {
+      "author": "[property=\"og:novel:author\"]@content",
+      "coverUrl": "[property=\"og:image\"]@content",
+      "init": "",
+      "intro": "[property=\"og:description\"]@content",
+      "kind": "[property=\"og:novel:category\"]@content&&[property=\"og:novel:status\"]@content",
+      "lastChapter": "[property=\"og:novel:latest_chapter_name\"]@content",
+      "name": "[property=\"og:novel:book_name\"]@content##全文.*",
+      "tocUrl": "",
+      "wordCount": "[property=\"og:novel:update_time\"]@content"
+    },
+    "ruleContent": {
+      "content": "class.size16 color5 pt-read-text@html",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "class.author-tag@tag.a.0@text",
+      "bookList": "class.recommend-main",
+      "bookUrl": "class.info-container@tag.a.0@href",
+      "coverUrl": "tag.img@data-src",
+      "intro": "class.book-intro@text",
+      "kind": "",
+      "lastChapter": "",
+      "name": "class.info-container@tag.a.0@text##全文.*",
+      "wordCount": "class.author-tag@tag.span.0@text##^##点击@js:result+'次'"
+    },
+    "ruleSearch": {
+      "author": "class.fl color7@tag.span.0@tag.a.0@text",
+      "bookList": "class.pt-rank-detail",
+      "bookUrl": "class.fl mr60@tag.a.0@href",
+      "coverUrl": "class.pt-rank-detail@tag.img.0@src",
+      "intro": "class.compulsory-row fl w100 color5 desc@text",
+      "kind": "class.fl color7@tag.span.2@tag.a.0@text",
+      "lastChapter": "class.fl pt-rank-detail-middle@class.fl lh100@tag.span.0@tag.a.0@text",
+      "name": "class.fl mr60@tag.a.0@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.pt-chapter-cont-detail full@a",
+      "chapterName": "span@text",
+      "chapterUrl": "a@href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "https://www.360tingshu.cc/search/result.html?searchkey={{key}}",
+    "weight": 0
+  }]

@@ -1,1 +1,33 @@
-[{"bookSourceComment": "error:List is empty.\n", "bookSourceGroup": "我的书源", "bookSourceName": "📚 梦远书城[仅发现]", "bookSourceType": 0, "bookSourceUrl": "http://www.809803.com", "customOrder": -116713, "enabled": true, "enabledExplore": true, "exploreUrl": "古典小说::http://www.809803.com/gdwx/xs/index.htm\n现代文学::http://www.809803.com/xdwx/index.htm\n名家锦集::http://www.809803.com/xdmj/index.htm\n历史史记::http://www.809803.com/shishu/index.htm\n言情小说::http://www.809803.com/yq/index.htm\n侦探推理::http://www.809803.com/zt/index.htm\n军事军旅::http://www.809803.com/js/index.htm\n科幻小说::http://www.809803.com/kh/index.htm\n时尚阅读::http://www.809803.com/cx/index.htm\n外国名著::http://www.809803.com/wgwx/index.htm\n传记纪实::http://www.809803.com/zj/index.htm\n港台文学::http://www.809803.com/gt/index.htm\n诗词歌赋::http://www.809803.com/sc/index.htm\n古典文学::http://www.809803.com/gdwx/index.htm\n武侠小说::http://www.809803.com/wuxia/index.htm\n玄幻奇侠::http://www.809803.com/xh/index.htm\n影视小说::http://www.809803.com/ysyz/index.htm\n穿越·宫闱::http://www.809803.com/cy/index.htm\n青春校园::http://www.809803.com/xy/index.htm", "lastUpdateTime": 1612197914669, "ruleBookInfo": {"intro": "tag.td.3@text", "name": "tag.td.0@text"}, "ruleContent": {"content": "tag.td@text||tag.td@textNodes", "replaceRegex": "##梦远书城|　>　|　>|军事·军旅|上一页|下一页|梦远书城|[.my2852.com.]|回目录|回首页|[()]"}, "ruleExplore": {}, "ruleSearch": {"bookList": "tag.tr!0:1@tag.td@tag.a||tag.tr!0:1@tag.td@tag.a", "bookUrl": "tag.a@href", "name": "text"}, "ruleToc": {"chapterList": "tag.tbody@tag.td!", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "-", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "📚 梦远书城[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.809803.com",
+    "customOrder": -116713,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "古典小说::http://www.809803.com/gdwx/xs/index.htm\n现代文学::http://www.809803.com/xdwx/index.htm\n名家锦集::http://www.809803.com/xdmj/index.htm\n历史史记::http://www.809803.com/shishu/index.htm\n言情小说::http://www.809803.com/yq/index.htm\n侦探推理::http://www.809803.com/zt/index.htm\n军事军旅::http://www.809803.com/js/index.htm\n科幻小说::http://www.809803.com/kh/index.htm\n时尚阅读::http://www.809803.com/cx/index.htm\n外国名著::http://www.809803.com/wgwx/index.htm\n传记纪实::http://www.809803.com/zj/index.htm\n港台文学::http://www.809803.com/gt/index.htm\n诗词歌赋::http://www.809803.com/sc/index.htm\n古典文学::http://www.809803.com/gdwx/index.htm\n武侠小说::http://www.809803.com/wuxia/index.htm\n玄幻奇侠::http://www.809803.com/xh/index.htm\n影视小说::http://www.809803.com/ysyz/index.htm\n穿越·宫闱::http://www.809803.com/cy/index.htm\n青春校园::http://www.809803.com/xy/index.htm",
+    "lastUpdateTime": 1612197914669,
+    "ruleBookInfo": {
+      "intro": "tag.td.3@text",
+      "name": "tag.td.0@text"
+    },
+    "ruleContent": {
+      "content": "tag.td@text||tag.td@textNodes",
+      "replaceRegex": "##梦远书城|　>　|　>|军事·军旅|上一页|下一页|梦远书城|[.my2852.com.]|回目录|回首页|[()]"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "tag.tr!0:1@tag.td@tag.a||tag.tr!0:1@tag.td@tag.a",
+      "bookUrl": "tag.a@href",
+      "name": "text"
+    },
+    "ruleToc": {
+      "chapterList": "tag.tbody@tag.td!",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "-",
+    "weight": 0
+  }]

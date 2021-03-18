@@ -1,1 +1,51 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "顶点中文", "bookSourceType": 0, "bookSourceUrl": "http://wap.dingdiansk.com", "customOrder": -32333, "enabled": true, "enabledExplore": true, "exploreUrl": "                         默认                         ::/\n玄幻魔法::/xclass/1/{{page}}.html\n武侠修真::/xclass/2/{{page}}.html\n都市言情::/xclass/3/{{page}}.html\n历史军事::/xclass/4/{{page}}.html\n侦探推理::/xclass/5/{{page}}.html\n网游动漫::/xclass/6/{{page}}.html\n科幻小说::/xclass/7/{{page}}.html\n恐怖灵异::/xclass/8/{{page}}.html\n散文诗词::/xclass/9/{{page}}.html\n其他类型::/xclass/10/{{page}}.html\n                         完结                         ::/\n玄幻魔法::/quanben1_{{page}}.html\n武侠修真::/quanben2_{{page}}.html\n都市言情::/quanben3_{{page}}.html\n历史军事::/quanben4_{{page}}.html\n侦探推理::/quanben5_{{page}}.html\n网游动漫::/quanben6_{{page}}.html\n科幻小说::/quanben7_{{page}}.html\n恐怖灵异::/quanben8_{{page}}.html\n散文诗词::/quanben9_{{page}}.html\n其他类型::/quanben10_{{page}}.html", "lastUpdateTime": 1615837923307, "ruleBookInfo": {"author": "", "coverUrl": "class.synopsisArea_detail@tag.img@src", "intro": "", "kind": "##类别：([^<]+)<##$1###", "lastChapter": "class.directoryArea.0@tag.a.0@text", "name": "", "tocUrl": "class.recommend@tag.h2.1@tag.a@href", "wordCount": "##状态：([^<]+)<##$1###"}, "ruleContent": {"content": "class.Readarea ReadAjax_content@textNodes##天才.*?无广告!", "nextContentUrl": "class.Readpage.1@tag.a.2@href"}, "ruleExplore": {"author": "class.author@text", "bookList": "class.recommend@class.hot_sale", "bookUrl": "class.hot_sale@tag.a@href", "coverUrl": "class.lazy@data-original", "intro": "##简介：([^<]+)<##$1###", "kind": "", "name": "class.title@text"}, "ruleSearch": {"author": "class.author.0@tag.p.0@text##.*作者：", "bookList": "class.recommend@class.hot_sale", "bookUrl": "class.hot_sale@tag.a@href", "kind": "class.author.0@tag.p.0@text##\\|.*", "lastChapter": "class.author.1@tag.p.0@text##.*更新：", "name": "class.title@tag.p.0@text", "wordCount": "class.author.1@tag.p.0@text##\\|.*"}, "ruleToc": {"chapterList": "class.directoryArea@tag.p!0", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://wap.dingdiansk.com/s.php?keyword={{key}}&t=1", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "顶点中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://wap.dingdiansk.com",
+    "customOrder": -32333,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "                         默认                         ::/\n玄幻魔法::/xclass/1/{{page}}.html\n武侠修真::/xclass/2/{{page}}.html\n都市言情::/xclass/3/{{page}}.html\n历史军事::/xclass/4/{{page}}.html\n侦探推理::/xclass/5/{{page}}.html\n网游动漫::/xclass/6/{{page}}.html\n科幻小说::/xclass/7/{{page}}.html\n恐怖灵异::/xclass/8/{{page}}.html\n散文诗词::/xclass/9/{{page}}.html\n其他类型::/xclass/10/{{page}}.html\n                         完结                         ::/\n玄幻魔法::/quanben1_{{page}}.html\n武侠修真::/quanben2_{{page}}.html\n都市言情::/quanben3_{{page}}.html\n历史军事::/quanben4_{{page}}.html\n侦探推理::/quanben5_{{page}}.html\n网游动漫::/quanben6_{{page}}.html\n科幻小说::/quanben7_{{page}}.html\n恐怖灵异::/quanben8_{{page}}.html\n散文诗词::/quanben9_{{page}}.html\n其他类型::/quanben10_{{page}}.html",
+    "lastUpdateTime": 1615837923307,
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "class.synopsisArea_detail@tag.img@src",
+      "intro": "",
+      "kind": "##类别：([^<]+)<##$1###",
+      "lastChapter": "class.directoryArea.0@tag.a.0@text",
+      "name": "",
+      "tocUrl": "class.recommend@tag.h2.1@tag.a@href",
+      "wordCount": "##状态：([^<]+)<##$1###"
+    },
+    "ruleContent": {
+      "content": "class.Readarea ReadAjax_content@textNodes##天才.*?无广告!",
+      "nextContentUrl": "class.Readpage.1@tag.a.2@href"
+    },
+    "ruleExplore": {
+      "author": "class.author@text",
+      "bookList": "class.recommend@class.hot_sale",
+      "bookUrl": "class.hot_sale@tag.a@href",
+      "coverUrl": "class.lazy@data-original",
+      "intro": "##简介：([^<]+)<##$1###",
+      "kind": "",
+      "name": "class.title@text"
+    },
+    "ruleSearch": {
+      "author": "class.author.0@tag.p.0@text##.*作者：",
+      "bookList": "class.recommend@class.hot_sale",
+      "bookUrl": "class.hot_sale@tag.a@href",
+      "kind": "class.author.0@tag.p.0@text##\\|.*",
+      "lastChapter": "class.author.1@tag.p.0@text##.*更新：",
+      "name": "class.title@tag.p.0@text",
+      "wordCount": "class.author.1@tag.p.0@text##\\|.*"
+    },
+    "ruleToc": {
+      "chapterList": "class.directoryArea@tag.p!0",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://wap.dingdiansk.com/s.php?keyword={{key}}&t=1",
+    "weight": 0
+  }]

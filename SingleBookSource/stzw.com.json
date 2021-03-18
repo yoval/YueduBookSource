@@ -1,1 +1,39 @@
-[{"bookSourceComment": "error:Unable to resolve host \"www.stzw.com\": No address associated with hostname\n", "bookSourceGroup": "我的书源", "bookSourceName": "👍 神童中文[仅发现]", "bookSourceType": 0, "bookSourceUrl": "https://www.stzw.com", "bookUrlPattern": "", "customOrder": 16057, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻奇幻::/category/xuanhuan.html\n武侠修真::/category/wuxia.html\n现代都市::/category/dushi.html\n历史军事::/category/lishi.html\n游戏竞技::/category/youxi.html\n科幻灵异::/category/kehuan.html\n女生言情::/category/nvsheng.html\n其他类型::/category/qita.html\n完本小说::/wanben.html\n总点击榜::/rank/1.html\n月点击榜::/rank/2.html\n周点击榜::/rank/3.html\n总推荐榜::/rank/4.html\n月推荐榜::/rank/5.html\n周推荐榜::/rank/6.html\n总收藏榜::/rank/7.html\n总字数榜::/rank/8.html\n总评分榜::/rank/9.html", "lastUpdateTime": 1603039916624, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.info_l@class.fengmian@tag.a.0@tag.img.0@src", "intro": "class.info_c@class.bookintro@class.txtbox@textNodes", "tocUrl": "class.bookinfo@class.info_c@class.book_read@tag.span.0@tag.a.0@href"}, "ruleContent": {"content": "class.yd_text2@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.info_t@tag.span.1@text||class.title@tag.span.0@text", "bookList": "class.bookinfo||class.list_l@tag.li", "bookUrl": "class.title@tag.h3.0@tag.a.0@href", "coverUrl": "class.info_l@class.fengmian@tag.a.0@tag.img.0@src||tag.a.0@tag.img.0@src", "kind": "class.info_t@tag.span.0@text||class.data@tag.span.0@text##类型：", "lastChapter": "class.info_c@class.lastzj@tag.a.0@text||class.status@tag.span.0@tag.a.0@text", "name": "class.info_t@tag.h1.0@text||class.title@tag.h3.0@tag.a.0@text##《|》"}, "ruleToc": {"chapterList": "class.ml_main@tag.dd@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.stzw.com/novel.php?action=search,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=novelname&searchkey={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:Unable to resolve host \"www.stzw.com\": No address associated with hostname\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "👍 神童中文[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.stzw.com",
+    "bookUrlPattern": "",
+    "customOrder": 16057,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/category/xuanhuan.html\n武侠修真::/category/wuxia.html\n现代都市::/category/dushi.html\n历史军事::/category/lishi.html\n游戏竞技::/category/youxi.html\n科幻灵异::/category/kehuan.html\n女生言情::/category/nvsheng.html\n其他类型::/category/qita.html\n完本小说::/wanben.html\n总点击榜::/rank/1.html\n月点击榜::/rank/2.html\n周点击榜::/rank/3.html\n总推荐榜::/rank/4.html\n月推荐榜::/rank/5.html\n周推荐榜::/rank/6.html\n总收藏榜::/rank/7.html\n总字数榜::/rank/8.html\n总评分榜::/rank/9.html",
+    "lastUpdateTime": 1603039916624,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.info_l@class.fengmian@tag.a.0@tag.img.0@src",
+      "intro": "class.info_c@class.bookintro@class.txtbox@textNodes",
+      "tocUrl": "class.bookinfo@class.info_c@class.book_read@tag.span.0@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "class.yd_text2@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.info_t@tag.span.1@text||class.title@tag.span.0@text",
+      "bookList": "class.bookinfo||class.list_l@tag.li",
+      "bookUrl": "class.title@tag.h3.0@tag.a.0@href",
+      "coverUrl": "class.info_l@class.fengmian@tag.a.0@tag.img.0@src||tag.a.0@tag.img.0@src",
+      "kind": "class.info_t@tag.span.0@text||class.data@tag.span.0@text##类型：",
+      "lastChapter": "class.info_c@class.lastzj@tag.a.0@text||class.status@tag.span.0@tag.a.0@text",
+      "name": "class.info_t@tag.h1.0@text||class.title@tag.h3.0@tag.a.0@text##《|》"
+    },
+    "ruleToc": {
+      "chapterList": "class.ml_main@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.stzw.com/novel.php?action=search,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchtype=novelname&searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

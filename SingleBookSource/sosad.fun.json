@@ -1,1 +1,50 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "💵 废文Ⅲ", "bookSourceType": 0, "bookSourceUrl": "https://www.sosad.fun", "bookUrlPattern": "", "customOrder": -117460, "enabled": true, "enabledExplore": true, "exploreUrl": "❀    日积分    ❀::https://www.sosad.fun/book_ranking?ranking=jifen_daily&page={{page}}\n❀    周积分    ❀::https://www.sosad.fun/book_ranking?ranking=jifen_weekly&page={{page}}\n❀    总收藏    ❀::https://www.sosad.fun/books?ordered=collection_count&page={{page}}\n❀    均积分    ❀::https://www.sosad.fun/books?withBianyuan=&ordered=jifen&page={{page}}\n❀    编推榜    ❀::https://www.sosad.fun/books?withBianyuan=include_bianyuan&withTag=884&page={{page}}\n❀  我的收藏   ❀::https://www.sosad.fun/collection?group=27700\n❀                                    原创小说                                      ❀::https://www.sosad.fun/channels/1?withBianyuan=include_bianyuan&page={{page}\n❀    古  代    ❀::https://www.sosad.fun/channels/1?withTag=562&withBianyuan=include_bianyuan&page={{page}}\n❀    现  代    ❀::https://www.sosad.fun/channels/1?withTag=563&withBianyuan=include_bianyuan&page={{page}}\n❀    民  国    ❀::https://www.sosad.fun/channels/1?withTag=639&withBianyuan=include_bianyuan&page={{page}}\n❀    西  方    ❀::https://www.sosad.fun/channels/1?withTag=640&withBianyuan=include_bianyuan&page={{page}}\n❀    奇  幻    ❀::https://www.sosad.fun/channels/1?withTag=641&withBianyuan=include_bianyuan&page={{page}}\n❀    科  幻    ❀::https://www.sosad.fun/channels/1?withTag=642&withBianyuan=include_bianyuan&page={{page}}\n❀    灵  异    ❀::https://www.sosad.fun/channels/1?withTag=643&withBianyuan=include_bianyuan&page={{page}}\n❀    玄  幻    ❀::https://www.sosad.fun/channels/1?withTag=644&withBianyuan=include_bianyuan&page={{page}}\n❀                                     同人衍生                                      ❀::https://www.sosad.fun/channels/2?withBianyuan=include_bianyuan&page={{page}}\n❀   影视同人   ❀::https://www.sosad.fun/channels/2?withTag=841&withBianyuan=include_bianyuan&page={{page}}\n❀   动漫同人   ❀::https://www.sosad.fun/channels/2?withTag=842&withBianyuan=include_bianyuan&page={{page}}\n❀   游戏同人   ❀::https://www.sosad.fun/channels/2?withTag=843&withBianyuan=include_bianyuan&page={{page}}\n❀   小说同人   ❀::https://www.sosad.fun/channels/2?withTag=844&withBianyuan=include_bianyuan&page={{page}}\n❀   历史同人   ❀::https://www.sosad.fun/channels/2?withTag=852&withBianyuan=include_bianyuan&page={{page}}\n❀   戏剧同人   ❀::https://www.sosad.fun/channels/2?withTag=853&withBianyuan=include_bianyuan&page={{page}}", "lastUpdateTime": 1612821626830, "loginUrl": "https://www.sosad.fun/login", "ruleBookInfo": {"intro": "class.h5.0@text&&class.col-xs-12@tag.p@html@js:result=\"    \"+result", "lastChapter": "class.pull-left@tag.a.0@text##最新章节|《|》", "tocUrl": ""}, "ruleContent": {"content": "class.main-text.0@tag.p@html", "imageStyle": "0"}, "ruleExplore": {"author": "class.row.0@class.pull-right smaller-5@text||class.row.0@tag.span.2@text", "bookList": "tag.article", "bookUrl": "class.row@tag.span.0@tag.a.-1@href", "coverUrl": "@js:result=\"https://hbimg.huabanimg.com/9214ed701075304078ab6bd1b710f9b35eca73511ba27-Fux0fp_fw658\"", "intro": "class.smaller-5.1@ownText", "kind": "class.row@tag.span.0@tag.a.-3@text&&class.row@tag.span.0@tag.a.-2@text&&class.badge bianyuan-tag badge-tag@text", "name": "class.row.0@tag.span.0@tag.a.-1@text"}, "ruleSearch": {"author": "class.pull-right@text", "bookList": "class.row", "bookUrl": "tag.span.0@tag.a.0@href", "coverUrl": "@js:result=\"https://hbimg.huabanimg.com/9214ed701075304078ab6bd1b710f9b35eca73511ba27-Fux0fp_fw658\"", "intro": "class.smaller-5@text", "kind": "tag.span@ownText", "name": "tag.span.0@tag.a.0@text"}, "ruleToc": {"chapterList": "class.table@tr!0", "chapterName": "{{@@tag.a.0@text}} ", "chapterUrl": "tag.a.0@href", "isVip": "class.glyphicon glyphicon-info-sign@title", "updateTime": "{{@@tag.th.2@text}}字•{{@@tag.a.1@text}}•{{@@tag.th.6@text}}"}, "searchUrl": "https://www.sosad.fun/search?search={{key}}&page={{page}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "废文Ⅲ",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.sosad.fun",
+    "bookUrlPattern": "",
+    "customOrder": -117460,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "❀    日积分    ❀::https://www.sosad.fun/book_ranking?ranking=jifen_daily&page={{page}}\n❀    周积分    ❀::https://www.sosad.fun/book_ranking?ranking=jifen_weekly&page={{page}}\n❀    总收藏    ❀::https://www.sosad.fun/books?ordered=collection_count&page={{page}}\n❀    均积分    ❀::https://www.sosad.fun/books?withBianyuan=&ordered=jifen&page={{page}}\n❀    编推榜    ❀::https://www.sosad.fun/books?withBianyuan=include_bianyuan&withTag=884&page={{page}}\n❀  我的收藏   ❀::https://www.sosad.fun/collection?group=27700\n❀                                    原创小说                                      ❀::https://www.sosad.fun/channels/1?withBianyuan=include_bianyuan&page={{page}\n❀    古  代    ❀::https://www.sosad.fun/channels/1?withTag=562&withBianyuan=include_bianyuan&page={{page}}\n❀    现  代    ❀::https://www.sosad.fun/channels/1?withTag=563&withBianyuan=include_bianyuan&page={{page}}\n❀    民  国    ❀::https://www.sosad.fun/channels/1?withTag=639&withBianyuan=include_bianyuan&page={{page}}\n❀    西  方    ❀::https://www.sosad.fun/channels/1?withTag=640&withBianyuan=include_bianyuan&page={{page}}\n❀    奇  幻    ❀::https://www.sosad.fun/channels/1?withTag=641&withBianyuan=include_bianyuan&page={{page}}\n❀    科  幻    ❀::https://www.sosad.fun/channels/1?withTag=642&withBianyuan=include_bianyuan&page={{page}}\n❀    灵  异    ❀::https://www.sosad.fun/channels/1?withTag=643&withBianyuan=include_bianyuan&page={{page}}\n❀    玄  幻    ❀::https://www.sosad.fun/channels/1?withTag=644&withBianyuan=include_bianyuan&page={{page}}\n❀                                     同人衍生                                      ❀::https://www.sosad.fun/channels/2?withBianyuan=include_bianyuan&page={{page}}\n❀   影视同人   ❀::https://www.sosad.fun/channels/2?withTag=841&withBianyuan=include_bianyuan&page={{page}}\n❀   动漫同人   ❀::https://www.sosad.fun/channels/2?withTag=842&withBianyuan=include_bianyuan&page={{page}}\n❀   游戏同人   ❀::https://www.sosad.fun/channels/2?withTag=843&withBianyuan=include_bianyuan&page={{page}}\n❀   小说同人   ❀::https://www.sosad.fun/channels/2?withTag=844&withBianyuan=include_bianyuan&page={{page}}\n❀   历史同人   ❀::https://www.sosad.fun/channels/2?withTag=852&withBianyuan=include_bianyuan&page={{page}}\n❀   戏剧同人   ❀::https://www.sosad.fun/channels/2?withTag=853&withBianyuan=include_bianyuan&page={{page}}",
+    "lastUpdateTime": 1615879409365,
+    "loginUrl": "https://www.sosad.fun/login",
+    "ruleBookInfo": {
+      "intro": "class.h5.0@text&&class.col-xs-12@tag.p@html@js:result=\"    \"+result",
+      "lastChapter": "class.pull-left@tag.a.0@text##最新章节|《|》",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "class.main-text.0@tag.p@html",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "author": "class.row.0@class.pull-right smaller-5@text||class.row.0@tag.span.2@text",
+      "bookList": "tag.article",
+      "bookUrl": "class.row@tag.span.0@tag.a.-1@href",
+      "coverUrl": "@js:result=\"https://hbimg.huabanimg.com/9214ed701075304078ab6bd1b710f9b35eca73511ba27-Fux0fp_fw658\"",
+      "intro": "class.smaller-5.1@ownText",
+      "kind": "class.row@tag.span.0@tag.a.-3@text&&class.row@tag.span.0@tag.a.-2@text&&class.badge bianyuan-tag badge-tag@text",
+      "name": "class.row.0@tag.span.0@tag.a.-1@text"
+    },
+    "ruleSearch": {
+      "author": "class.pull-right@text",
+      "bookList": "class.row",
+      "bookUrl": "tag.span.0@tag.a.0@href",
+      "coverUrl": "@js:result=\"https://hbimg.huabanimg.com/9214ed701075304078ab6bd1b710f9b35eca73511ba27-Fux0fp_fw658\"",
+      "intro": "class.smaller-5@text",
+      "kind": "tag.span@ownText",
+      "name": "tag.span.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.table@tr!0",
+      "chapterName": "{{@@tag.a.0@text}} ",
+      "chapterUrl": "tag.a.0@href",
+      "isVip": "class.glyphicon glyphicon-info-sign@title",
+      "updateTime": "{{@@tag.th.2@text}}字•{{@@tag.a.1@text}}•{{@@tag.th.6@text}}"
+    },
+    "searchUrl": "https://www.sosad.fun/search?search={{key}}&page={{page}}",
+    "weight": 0
+  }]

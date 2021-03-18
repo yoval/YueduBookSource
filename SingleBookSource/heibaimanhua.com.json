@@ -1,1 +1,36 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎨 黑白漫话", "bookSourceType": 0, "bookSourceUrl": "http://m.heibaimanhua.com", "bookUrlPattern": "", "customOrder": -31282, "enabled": true, "enabledExplore": true, "exploreUrl": "搞笑::http://m.heibaimanhua.com/gaoxiao/page/{{page}}/\n奇趣::http://m.heibaimanhua.com/qiqu/page/{{page}}/\n段子::http://m.heibaimanhua.com/duanzishou/page/{{page}}/\n条漫::http://m.heibaimanhua.com/tiaoman/page/{{page}}/\n涨姿势::http://m.heibaimanhua.com/zhangzishi/page/{{page}}/\n冷知识::http://m.heibaimanhua.com/lengzhishi/page/{{page}}/\n漫画漫话::http://m.heibaimanhua.com/weimanhua/mh/page/{{page}}/\n恐怖漫画::http://m.heibaimanhua.com/weimanhua/kbmh/page/{{page}}/\n奇趣漫画::http://m.heibaimanhua.com/weimanhua/qiqumanhua/page/{{page}}/\n搞笑漫画::http://m.heibaimanhua.com/weimanhua/gaoxiaomanhua/page/{{page}}/\n扎心漫画::http://m.heibaimanhua.com/zaxin/page/{{page}}/\n故事漫画::http://m.heibaimanhua.com/weimanhua/gushimanhua/page/{{page}}/\n怪诞漫画::http://m.heibaimanhua.com/weimanhua/kbmh/guaidan/page/{{page}}/\n讽刺与幽默::http://m.heibaimanhua.com/fcyym/page/{{page}}/\n治愈系::http://m.heibaimanhua.com/zhiyuxi/page/{{page}}/\n新奇::http://m.heibaimanhua.com/xinqi/page/{{page}}/\n梗图::http://m.heibaimanhua.com/gengtu/page/{{page}}/\n电影::http://m.heibaimanhua.com/dianying/page/{{page}}/\n萌宠::http://m.heibaimanhua.com/mengchong/page/{{page}}/\n插画::http://m.heibaimanhua.com/chahua/page/{{page}}/\n历史::http://m.heibaimanhua.com/lishi/page/{{page}}/", "lastUpdateTime": 1603283628585, "loginUrl": "", "ruleBookInfo": {"author": "class.post-images-item.0@tag.span.0@text##via：", "intro": "tag.h1.0@text"}, "ruleContent": {"content": ":_S001_ABD2fu3fMTJ9uDih+5YBitRfVBwUYL4xa4whvdsOoVT23vIGbw6HbpoM4VZ0TKzJ\n"}, "ruleExplore": {}, "ruleSearch": {"bookList": "-class.ajax-load-con", "bookUrl": "tag.h2@tag.a@href", "coverUrl": "tag.img.0@data-original", "lastChapter": "class.ico-time@text", "name": "tag.h2@text"}, "ruleToc": {"chapterList": "tag.head", "chapterName": "@js:\"图画\"", "chapterUrl": "\"\""}, "searchUrl": "http://m.heibaimanhua.com/page/{{page}}?s={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎨 黑白漫话",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://m.heibaimanhua.com",
+    "bookUrlPattern": "",
+    "customOrder": -31282,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "搞笑::http://m.heibaimanhua.com/gaoxiao/page/{{page}}/\n奇趣::http://m.heibaimanhua.com/qiqu/page/{{page}}/\n段子::http://m.heibaimanhua.com/duanzishou/page/{{page}}/\n条漫::http://m.heibaimanhua.com/tiaoman/page/{{page}}/\n涨姿势::http://m.heibaimanhua.com/zhangzishi/page/{{page}}/\n冷知识::http://m.heibaimanhua.com/lengzhishi/page/{{page}}/\n漫画漫话::http://m.heibaimanhua.com/weimanhua/mh/page/{{page}}/\n恐怖漫画::http://m.heibaimanhua.com/weimanhua/kbmh/page/{{page}}/\n奇趣漫画::http://m.heibaimanhua.com/weimanhua/qiqumanhua/page/{{page}}/\n搞笑漫画::http://m.heibaimanhua.com/weimanhua/gaoxiaomanhua/page/{{page}}/\n扎心漫画::http://m.heibaimanhua.com/zaxin/page/{{page}}/\n故事漫画::http://m.heibaimanhua.com/weimanhua/gushimanhua/page/{{page}}/\n怪诞漫画::http://m.heibaimanhua.com/weimanhua/kbmh/guaidan/page/{{page}}/\n讽刺与幽默::http://m.heibaimanhua.com/fcyym/page/{{page}}/\n治愈系::http://m.heibaimanhua.com/zhiyuxi/page/{{page}}/\n新奇::http://m.heibaimanhua.com/xinqi/page/{{page}}/\n梗图::http://m.heibaimanhua.com/gengtu/page/{{page}}/\n电影::http://m.heibaimanhua.com/dianying/page/{{page}}/\n萌宠::http://m.heibaimanhua.com/mengchong/page/{{page}}/\n插画::http://m.heibaimanhua.com/chahua/page/{{page}}/\n历史::http://m.heibaimanhua.com/lishi/page/{{page}}/",
+    "lastUpdateTime": 1603283628585,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.post-images-item.0@tag.span.0@text##via：",
+      "intro": "tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": ":_S001_ABD2fu3fMTJ9uDih+5YBitRfVBwUYL4xa4whvdsOoVT23vIGbw6HbpoM4VZ0TKzJ\n"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "-class.ajax-load-con",
+      "bookUrl": "tag.h2@tag.a@href",
+      "coverUrl": "tag.img.0@data-original",
+      "lastChapter": "class.ico-time@text",
+      "name": "tag.h2@text"
+    },
+    "ruleToc": {
+      "chapterList": "tag.head",
+      "chapterName": "@js:\"图画\"",
+      "chapterUrl": "\"\""
+    },
+    "searchUrl": "http://m.heibaimanhua.com/page/{{page}}?s={{key}}",
+    "weight": 0
+  }]

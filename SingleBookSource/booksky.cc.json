@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 快眼看书", "bookSourceType": 0, "bookSourceUrl": "http://www.booksky.cc/", "bookUrlPattern": "", "customOrder": -32570, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1601006802425, "loginUrl": "", "ruleBookInfo": {"author": "class.novelinfo-l@tag.li.0@text##作者：", "coverUrl": "class.novelinfo-r@tag.a@tag.img@src", "intro": "class.novelintro@text", "name": "class.w-left@tag.h1@text"}, "ruleContent": {"content": "id.chaptercontent@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.info@tag.span.1@text", "bookList": "class.librarylist@tag.li", "bookUrl": "class.info@tag.span.0@tag.a@href", "coverUrl": "class.pt-ll-l@tag.a@tag.img@src", "lastChapter": "class.last@tag.a@text", "name": "class.info@tag.span.0@tag.a@text"}, "ruleToc": {"chapterList": "class.fulldir@tag.ul@tag.li@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "http://www.booksky.cc/modules/article/search.php?searchkey={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 快眼看书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.booksky.cc/",
+    "bookUrlPattern": "",
+    "customOrder": -32570,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1601006802425,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.novelinfo-l@tag.li.0@text##作者：",
+      "coverUrl": "class.novelinfo-r@tag.a@tag.img@src",
+      "intro": "class.novelintro@text",
+      "name": "class.w-left@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.info@tag.span.1@text",
+      "bookList": "class.librarylist@tag.li",
+      "bookUrl": "class.info@tag.span.0@tag.a@href",
+      "coverUrl": "class.pt-ll-l@tag.a@tag.img@src",
+      "lastChapter": "class.last@tag.a@text",
+      "name": "class.info@tag.span.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.fulldir@tag.ul@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.booksky.cc/modules/article/search.php?searchkey={{key}}",
+    "weight": 0
+  }]

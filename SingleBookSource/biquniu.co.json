@@ -1,1 +1,40 @@
-[{"bookSourceComment": "error:SSL handshake aborted: ssl=0x7e573f8e48: I/O error during system call, Connection reset by peer\n", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "🍑 新笔趣阁5200", "bookSourceType": 0, "bookSourceUrl": "https://i.biquniu.co", "customOrder": -31240, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1601903109124, "ruleBookInfo": {"author": "@css:[property=og:novel:author]@content", "coverUrl": "@css:[property=og:image]@content", "intro": "@css:[property=og:description]@content", "kind": "@css:[property=og:novel:category]@content", "name": "@css:[property=og:title]@content", "tocUrl": "text.查看完整目录@href", "wordCount": "@css:[property=og:novel:status]@content"}, "ruleContent": {"content": "id.chaptercontent@textNodes##亲，本章.完，.*，", "nextContentUrl": "text.下一页@href"}, "ruleExplore": {}, "ruleSearch": {"author": "class.author.0@text##.*作者：", "bookList": "class.hot_sale", "bookUrl": "tag.a.0@href", "kind": "class.author.0@text## \\|.*", "lastChapter": "class.author.1@text##.*更新：", "name": "class.title@text"}, "ruleToc": {"chapterList": "id.chapterlist@a!0", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://i.biquniu.co/s.php,{\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}&t=1\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:SSL handshake aborted: ssl=0x7e573f8e48: I/O error during system call, Connection reset by peer\n",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "🍑 新笔趣阁5200",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://i.biquniu.co",
+    "customOrder": -31240,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1601903109124,
+    "ruleBookInfo": {
+      "author": "@css:[property=og:novel:author]@content",
+      "coverUrl": "@css:[property=og:image]@content",
+      "intro": "@css:[property=og:description]@content",
+      "kind": "@css:[property=og:novel:category]@content",
+      "name": "@css:[property=og:title]@content",
+      "tocUrl": "text.查看完整目录@href",
+      "wordCount": "@css:[property=og:novel:status]@content"
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@textNodes##亲，本章.完，.*，",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@text##.*作者：",
+      "bookList": "class.hot_sale",
+      "bookUrl": "tag.a.0@href",
+      "kind": "class.author.0@text## \\|.*",
+      "lastChapter": "class.author.1@text##.*更新：",
+      "name": "class.title@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterlist@a!0",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://i.biquniu.co/s.php,{\n\"method\": \"POST\",\n\"body\": \"keyword={{key}}&t=1\"\n}",
+    "weight": 0
+  }]

@@ -1,1 +1,33 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "8X8X", "bookSourceType": 0, "bookSourceUrl": "https://gb656gb.com", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "全部::https://gb656gb.com/html/category/fiction/list_13_{{page}}.html\n短篇::https://gb656gb.com/html/category/fiction/fiction1/page_{{page}}.html\n经验::https://gb656gb.com/html/category/fiction/fiction2/page_{{page}}.html\n故事::https://gb656gb.com/html/category/fiction/fiction3/page_{{page}}.html\n大作::https://gb656gb.com/html/category/fiction/fiction5/page_{{page}}.html", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {}, "ruleContent": {"content": "class.bf_js@p@html", "nextContentUrl": "class.sx.-1@a@href"}, "ruleExplore": {}, "ruleSearch": {"bookList": "class.xw_nr@li", "bookUrl": "a@href", "kind": "span@text", "name": "a@textNodes"}, "ruleToc": {"chapterList": "class.bf_qy@h3", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "-", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "8X8X",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://gb656gb.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部::https://gb656gb.com/html/category/fiction/list_13_{{page}}.html\n短篇::https://gb656gb.com/html/category/fiction/fiction1/page_{{page}}.html\n经验::https://gb656gb.com/html/category/fiction/fiction2/page_{{page}}.html\n故事::https://gb656gb.com/html/category/fiction/fiction3/page_{{page}}.html\n大作::https://gb656gb.com/html/category/fiction/fiction5/page_{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.bf_js@p@html",
+      "nextContentUrl": "class.sx.-1@a@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "bookList": "class.xw_nr@li",
+      "bookUrl": "a@href",
+      "kind": "span@text",
+      "name": "a@textNodes"
+    },
+    "ruleToc": {
+      "chapterList": "class.bf_qy@h3",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "-",
+    "weight": 0
+  }]

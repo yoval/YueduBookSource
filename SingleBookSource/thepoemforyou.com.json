@@ -1,1 +1,35 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "为你读诗", "bookSourceType": 1, "bookSourceUrl": "https://www.thepoemforyou.com", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "聆听观止::https://www.thepoemforyou.com/thepeamforyou/public/programlisthome,{\n  \"method\": \"POST\",\n  \"body\": \"page={{page}}&per=9&str=\"\n}", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {}, "ruleContent": {"content": ""}, "ruleExplore": {}, "ruleSearch": {"author": "{$.str_autor_info} ", "bookList": "$..rows[*]", "bookUrl": "https://www.thepoemforyou.com/thepeamforyou/public/programdetial@id={$.id}", "coverUrl": "$.str_img_url", "intro": "《{$.str_program_title}》第{$.n_periods_num}期", "kind": "播音:{$.str_readpeam_user}", "name": "$.str_peam_title"}, "ruleToc": {"chapterList": "@json:$..msg", "chapterName": "@json:$..str_peam_title ", "chapterUrl": "@json:$..str_audio_url"}, "searchUrl": "https://www.thepoemforyou.com/thepeamforyou/public/programlisthome,{\n  \"method\": \"POST\",\n  \"body\": \"page={{page}}&per=9&str={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "为你读诗",
+    "bookSourceType": 1,
+    "bookSourceUrl": "https://www.thepoemforyou.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "聆听观止::https://www.thepoemforyou.com/thepeamforyou/public/programlisthome,{\n  \"method\": \"POST\",\n  \"body\": \"page={{page}}&per=9&str=\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": ""
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "{$.str_autor_info} ",
+      "bookList": "$..rows[*]",
+      "bookUrl": "https://www.thepoemforyou.com/thepeamforyou/public/programdetial@id={$.id}",
+      "coverUrl": "$.str_img_url",
+      "intro": "《{$.str_program_title}》第{$.n_periods_num}期",
+      "kind": "播音:{$.str_readpeam_user}",
+      "name": "$.str_peam_title"
+    },
+    "ruleToc": {
+      "chapterList": "@json:$..msg",
+      "chapterName": "@json:$..str_peam_title ",
+      "chapterUrl": "@json:$..str_audio_url"
+    },
+    "searchUrl": "https://www.thepoemforyou.com/thepeamforyou/public/programlisthome,{\n  \"method\": \"POST\",\n  \"body\": \"page={{page}}&per=9&str={{key}}\"\n}",
+    "weight": 0
+  }]

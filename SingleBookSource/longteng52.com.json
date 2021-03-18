@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,刘备书源", "bookSourceName": "🚬 龙腾5200", "bookSourceType": 0, "bookSourceUrl": "http://www.longteng52.com", "customOrder": 24449, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻::http://www.longteng52.com/xuanhuan/{{page}}/#\n武侠::http://www.longteng52.com/wuxia/{{page}}/#\n都市::http://www.longteng52.com/dushi/{{page}}/#\n历史::http://www.longteng52.com/lishi/{{page}}/#\n网游::http://www.longteng52.com/wangyou/{{page}}/#\n乡村::http://www.longteng52.com/xiangcun/{{page}}/#\n其他::http://www.longteng52.com/qita/{{page}}/#\n更新::http://www.longteng52.com/gengxin.html", "lastUpdateTime": 1612585994360, "ruleBookInfo": {"coverUrl": "id.bookimg@tag.img@src", "intro": "class.d2@textNodes", "tocUrl": "class.newrap@tag.a.0@href"}, "ruleContent": {"content": "id.content@textNodes##\\( .*?http.*"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@tag.td.0@text||tag.dd.1@tag.a.0@text", "bookList": "class.grid@tag.tr!0||id.sitebox@tag.dl", "bookUrl": "class.odd@tag.a.0@href||tag.dd.0@tag.a.0@href", "coverUrl": "tag.img@src", "kind": "class.even.1@text||tag.dd.1@tag.span.2@text", "lastChapter": "class.even@tag.a.0@text||tag.dd.3@tag.a.0@text", "name": "class.odd@tag.a.0@text||tag.dd.0@tag.a.0@text"}, "ruleToc": {"chapterList": "id.readerlist@tag.ul@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.longteng52.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,刘备书源",
+    "bookSourceName": "🚬 龙腾5200",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.longteng52.com",
+    "customOrder": 24737,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::http://www.longteng52.com/xuanhuan/{{page}}/#\n武侠::http://www.longteng52.com/wuxia/{{page}}/#\n都市::http://www.longteng52.com/dushi/{{page}}/#\n历史::http://www.longteng52.com/lishi/{{page}}/#\n网游::http://www.longteng52.com/wangyou/{{page}}/#\n乡村::http://www.longteng52.com/xiangcun/{{page}}/#\n其他::http://www.longteng52.com/qita/{{page}}/#\n更新::http://www.longteng52.com/gengxin.html",
+    "lastUpdateTime": 1612585994360,
+    "ruleBookInfo": {
+      "coverUrl": "id.bookimg@tag.img@src",
+      "intro": "class.d2@textNodes",
+      "tocUrl": "class.newrap@tag.a.0@href"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##\\( .*?http.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@tag.td.0@text||tag.dd.1@tag.a.0@text",
+      "bookList": "class.grid@tag.tr!0||id.sitebox@tag.dl",
+      "bookUrl": "class.odd@tag.a.0@href||tag.dd.0@tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "kind": "class.even.1@text||tag.dd.1@tag.span.2@text",
+      "lastChapter": "class.even@tag.a.0@text||tag.dd.3@tag.a.0@text",
+      "name": "class.odd@tag.a.0@text||tag.dd.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.readerlist@tag.ul@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.longteng52.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "69书吧", "bookSourceType": 0, "bookSourceUrl": "https://www.69shuba.com", "customOrder": 0, "enabled": false, "enabledExplore": true, "exploreUrl": "最新入库::https://www.69shuba.com/postdate_0_0_0_0_0_0_{{page}}.htm\n最热新书::https://www.69shuba.com/newhot_0_0_0_0_0_0_{{page}}.htm\n总点击榜::https://www.69shuba.com/allvisit_0_0_0_0_0_0_{{page}}.htm\n总推荐榜::https://www.69shuba.com/allvote_0_0_0_0_0_0_{{page}}.htm\n总收藏榜::https://www.69shuba.com/goodnum_0_0_0_0_0_0_{{page}}.htm\n总字数榜::https://www.69shuba.com/size_0_0_0_0_0_0_{{page}}.htm\n玄幻魔法::https://www.69shuba.com/weekvisit_1_0_0_0_0_0_{{page}}.htm\n修真武侠::https://www.69shuba.com/weekvisit_2_0_0_0_0_0_{{page}}.htm\n言情小说::https://www.69shuba.com/weekvisit_3_0_0_0_0_0_{{page}}.htm\n历史军事::https://www.69shuba.com/weekvisit_4_0_0_0_0_0_{{page}}.htm\n游戏竞技::https://www.69shuba.com/weekvisit_5_0_0_0_0_0_{{page}}.htm\n科幻空间::https://www.69shuba.com/weekvisit_6_0_0_0_0_0_{{page}}.htm\n悬疑惊悚::https://www.69shuba.com/weekvisit_7_0_0_0_0_0_{{page}}.htm\n同人小说::https://www.69shuba.com/weekvisit_8_0_0_0_0_0_{{page}}.htm\n都市小说::https://www.69shuba.com/weekvisit_9_0_0_0_0_0_{{page}}.htm\n官场职场::https://www.69shuba.com/weekvisit_10_0_0_0_0_0_{{page}}.htm\n穿越时空::https://www.69shuba.com/weekvisit_11_0_0_0_0_0_{{page}}.htm\n青春校园::https://www.69shuba.com/weekvisit_12_0_0_0_0_0_{{page}}.htm", "lastUpdateTime": 0, "ruleBookInfo": {"coverUrl": "class.imgbox@img@src", "intro": "class.jianjie tabpanel@p@textNodes", "lastChapter": "class.status@tag.p.5@a@text", "tocUrl": "text.点击阅读@href"}, "ruleContent": {"content": "class.yd_text2@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.p.0@a@text||class.sp_3@a@text", "bookList": "class.sk_box||class.sk_cont@li", "bookUrl": "tag.a.1@href", "coverUrl": "tag.a.1@href<js>'/files/article/image'+String(result).replace(/.*?(\\d*?)(\\d{1,3}).htm/,'/$1/$1$2/$1$2s.jpg').replace('//','/0/')</js>", "kind": "h3@tag.a.1@text&&class.sp_1@a@text&&tag.span.6@text##\\[|]", "lastChapter": "class.sp_01@a@text||class.sp_4@text", "name": "h3@tag.a.0@text||class.sp_2@a@text"}, "ruleToc": {"chapterList": "class.mulu_list.1@li@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.69shuba.com/modules/pc/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=all\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "69书吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.69shuba.com",
+    "customOrder": 0,
+    "enabled": false,
+    "enabledExplore": true,
+    "exploreUrl": "最新入库::https://www.69shuba.com/postdate_0_0_0_0_0_0_{{page}}.htm\n最热新书::https://www.69shuba.com/newhot_0_0_0_0_0_0_{{page}}.htm\n总点击榜::https://www.69shuba.com/allvisit_0_0_0_0_0_0_{{page}}.htm\n总推荐榜::https://www.69shuba.com/allvote_0_0_0_0_0_0_{{page}}.htm\n总收藏榜::https://www.69shuba.com/goodnum_0_0_0_0_0_0_{{page}}.htm\n总字数榜::https://www.69shuba.com/size_0_0_0_0_0_0_{{page}}.htm\n玄幻魔法::https://www.69shuba.com/weekvisit_1_0_0_0_0_0_{{page}}.htm\n修真武侠::https://www.69shuba.com/weekvisit_2_0_0_0_0_0_{{page}}.htm\n言情小说::https://www.69shuba.com/weekvisit_3_0_0_0_0_0_{{page}}.htm\n历史军事::https://www.69shuba.com/weekvisit_4_0_0_0_0_0_{{page}}.htm\n游戏竞技::https://www.69shuba.com/weekvisit_5_0_0_0_0_0_{{page}}.htm\n科幻空间::https://www.69shuba.com/weekvisit_6_0_0_0_0_0_{{page}}.htm\n悬疑惊悚::https://www.69shuba.com/weekvisit_7_0_0_0_0_0_{{page}}.htm\n同人小说::https://www.69shuba.com/weekvisit_8_0_0_0_0_0_{{page}}.htm\n都市小说::https://www.69shuba.com/weekvisit_9_0_0_0_0_0_{{page}}.htm\n官场职场::https://www.69shuba.com/weekvisit_10_0_0_0_0_0_{{page}}.htm\n穿越时空::https://www.69shuba.com/weekvisit_11_0_0_0_0_0_{{page}}.htm\n青春校园::https://www.69shuba.com/weekvisit_12_0_0_0_0_0_{{page}}.htm",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "coverUrl": "class.imgbox@img@src",
+      "intro": "class.jianjie tabpanel@p@textNodes",
+      "lastChapter": "class.status@tag.p.5@a@text",
+      "tocUrl": "text.点击阅读@href"
+    },
+    "ruleContent": {
+      "content": "class.yd_text2@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p.0@a@text||class.sp_3@a@text",
+      "bookList": "class.sk_box||class.sk_cont@li",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.a.1@href<js>'/files/article/image'+String(result).replace(/.*?(\\d*?)(\\d{1,3}).htm/,'/$1/$1$2/$1$2s.jpg').replace('//','/0/')</js>",
+      "kind": "h3@tag.a.1@text&&class.sp_1@a@text&&tag.span.6@text##\\[|]",
+      "lastChapter": "class.sp_01@a@text||class.sp_4@text",
+      "name": "h3@tag.a.0@text||class.sp_2@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.mulu_list.1@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.69shuba.com/modules/pc/search.php,{\n  \"charset\": \"gbk\",\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}&searchtype=all\"\n}",
+    "weight": 0
+  }]

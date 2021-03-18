@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "钱人阁", "bookSourceType": 0, "bookSourceUrl": "https://m.qianrenge.cc", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻奇幻::/msort/1/{{page}}.html\n武侠仙侠::/msort/2/{{page}}.html\n都市言情::/msort/3/{{page}}.html\n历史军事::/msort/4/{{page}}.html\n科幻灵异::/msort/5/{{page}}.html\n网游竞技::/msort/6/{{page}}.html\n女生频道::/msort/7/{{page}}.html\n玄幻奇幻·全本::/mqb1_{{page}}.html\n武侠仙侠·全本::/mqb2_{{page}}.html\n都市言情·全本::/mqb3_{{page}}.html\n历史军事·全本::/mqb4_{{page}}.html\n科幻灵异·全本::/mqb5_{{page}}.html\n网游竞技·全本::/mqb6_{{page}}.html\n女生频道·全本::/mqb7_{{page}}.html", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.synopsisArea_detail@tag.img@src", "intro": "class.review@text", "tocUrl": "id.AllChapterList@href"}, "ruleContent": {"content": "id.chaptercontent@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.author.0@text##.*\\|", "bookList": "class.hot_sale", "bookUrl": "tag.a@href", "kind": "tag.p.1@text##\\|.*", "lastChapter": "tag.p.2@text", "name": "class.title.0@text"}, "ruleToc": {"chapterList": "id.chapterlist@tag.a!0", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://m.qianrenge.cc/SearchBook.php?q={{key}}&s=5385128763867261088", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "钱人阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.qianrenge.cc",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/msort/1/{{page}}.html\n武侠仙侠::/msort/2/{{page}}.html\n都市言情::/msort/3/{{page}}.html\n历史军事::/msort/4/{{page}}.html\n科幻灵异::/msort/5/{{page}}.html\n网游竞技::/msort/6/{{page}}.html\n女生频道::/msort/7/{{page}}.html\n玄幻奇幻·全本::/mqb1_{{page}}.html\n武侠仙侠·全本::/mqb2_{{page}}.html\n都市言情·全本::/mqb3_{{page}}.html\n历史军事·全本::/mqb4_{{page}}.html\n科幻灵异·全本::/mqb5_{{page}}.html\n网游竞技·全本::/mqb6_{{page}}.html\n女生频道·全本::/mqb7_{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.synopsisArea_detail@tag.img@src",
+      "intro": "class.review@text",
+      "tocUrl": "id.AllChapterList@href"
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@text##.*\\|",
+      "bookList": "class.hot_sale",
+      "bookUrl": "tag.a@href",
+      "kind": "tag.p.1@text##\\|.*",
+      "lastChapter": "tag.p.2@text",
+      "name": "class.title.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterlist@tag.a!0",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://m.qianrenge.cc/SearchBook.php?q={{key}}&s=5385128763867261088",
+    "weight": 0
+  }]

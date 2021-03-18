@@ -1,1 +1,42 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 元尊小说网②", "bookSourceType": 0, "bookSourceUrl": "http://19909.cc", "bookUrlPattern": "https?://19909.cc/\\d+_\\d+/", "customOrder": -32069, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "class.btitle@em@text##作者：|\\s", "coverUrl": "class.bimg@img@src", "intro": "class.intro@textNodes", "kind": "class.status fr@text##状态：([^\\s]*)\\s*更新时间：([^\\s]*)##$1,$2", "lastChapter": "class.stats fl@a@text", "name": "h1@text"}, "ruleContent": {"content": "id.BookText@textNodes##-->>|骑士小说网.*", "nextContentUrl": "text.下一页@href"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.a.2@text##\\s", "bookList": "class.gengxin@li", "bookUrl": "tag.a.0@href", "coverUrl": "img@src", "kind": "tag.span.3@text", "lastChapter": "tag.a.1@text", "name": "tag.a.0@text"}, "ruleToc": {"chapterList": "class.chapterlist cate!0@tag.dd@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "http://19909.cc/home/search,{\n  \"method\": \"POST\",\n  \"body\": \"action=search&q={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 元尊小说网②",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://19909.cc",
+    "bookUrlPattern": "https?://19909.cc/\\d+_\\d+/",
+    "customOrder": -32069,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.btitle@em@text##作者：|\\s",
+      "coverUrl": "class.bimg@img@src",
+      "intro": "class.intro@textNodes",
+      "kind": "class.status fr@text##状态：([^\\s]*)\\s*更新时间：([^\\s]*)##$1,$2",
+      "lastChapter": "class.stats fl@a@text",
+      "name": "h1@text"
+    },
+    "ruleContent": {
+      "content": "id.BookText@textNodes##-->>|骑士小说网.*",
+      "nextContentUrl": "text.下一页@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text##\\s",
+      "bookList": "class.gengxin@li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "img@src",
+      "kind": "tag.span.3@text",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapterlist cate!0@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://19909.cc/home/search,{\n  \"method\": \"POST\",\n  \"body\": \"action=search&q={{key}}\"\n}",
+    "weight": 0
+  }]

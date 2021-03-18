@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "看书网", "bookSourceType": 0, "bookSourceUrl": "https://www.kanshu.com", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": false, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "class.div2@tag.a.1@text", "coverUrl": "class.xx_left1@img@src", "intro": "id.articledesc@html##跪求\\s*.\\s*点击加入书架.*", "name": "h1@text", "tocUrl": "class.but_ml@href"}, "ruleContent": {"content": "class.yd_text2@textNodes##^温馨提示：$|^独家发布于看书网，本站提供$|^阅读，同时本站提供$|^.+全集txt下载。$|^在手机wap站同步更新，请使用手机访问wap.kanshu.com阅读。如你喜欢本站请将本站放入你的桌面以方便再次访问，点击$|^。$"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.a.0@text##.*\\s作者：|\\s-\\s看书网", "bookList": "class.shu_box", "bookUrl": "tag.a.0@href", "intro": "class.p_xinxi@text", "kind": "span@text", "name": "tag.a.0@text##\\s作者：.*"}, "ruleToc": {"chapterList": "+class.mulu_list@a", "chapterUrl": "href"}, "searchUrl": "http://so.kanshu.com/searchList/searchListGO?keys={{key}}&sort=1&page={{page}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "看书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.kanshu.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.div2@tag.a.1@text",
+      "coverUrl": "class.xx_left1@img@src",
+      "intro": "id.articledesc@html##跪求\\s*.\\s*点击加入书架.*",
+      "name": "h1@text",
+      "tocUrl": "class.but_ml@href"
+    },
+    "ruleContent": {
+      "content": "class.yd_text2@textNodes##^温馨提示：$|^独家发布于看书网，本站提供$|^阅读，同时本站提供$|^.+全集txt下载。$|^在手机wap站同步更新，请使用手机访问wap.kanshu.com阅读。如你喜欢本站请将本站放入你的桌面以方便再次访问，点击$|^。$"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.0@text##.*\\s作者：|\\s-\\s看书网",
+      "bookList": "class.shu_box",
+      "bookUrl": "tag.a.0@href",
+      "intro": "class.p_xinxi@text",
+      "kind": "span@text",
+      "name": "tag.a.0@text##\\s作者：.*"
+    },
+    "ruleToc": {
+      "chapterList": "+class.mulu_list@a",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://so.kanshu.com/searchList/searchListGO?keys={{key}}&sort=1&page={{page}}",
+    "weight": 0
+  }]

@@ -1,1 +1,40 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "顶点小说", "bookSourceType": 0, "bookSourceUrl": "https://www.23wx.cc", "bookUrlPattern": "", "customOrder": -31971, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1615838237265, "loginUrl": "", "ruleBookInfo": {"author": "id.info@tag.p.0@text##.*作者.", "coverUrl": "id.fmimg@tag.img@src", "intro": "id.intro@tag.p@text", "lastChapter": "id.info@tag.p.2@text", "name": "id.info@tag.h1@text"}, "ruleContent": {"content": "id.content@textNodes##第\\w+|.*正文卷"}, "ruleExplore": {}, "ruleSearch": {"author": "class.odd.1@text", "bookList": "//tr[@id=\"nr\"]", "bookUrl": "tag.tr@tag.a.0@href", "coverUrl": "tag.a.0@href##.*/(\\d+)/(\\d+).*##/files/article/image/$1/$2/$2s.jpg", "kind": "tag.td.5@text", "lastChapter": "tag.td.1@text", "name": "tag.a.0@text"}, "ruleToc": {"chapterList": "id.list@tag.dd", "chapterName": "text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.23wx.cc/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "顶点小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.23wx.cc",
+    "bookUrlPattern": "",
+    "customOrder": -31971,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1615838237265,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "id.info@tag.p.0@text##.*作者.",
+      "coverUrl": "id.fmimg@tag.img@src",
+      "intro": "id.intro@tag.p@text",
+      "lastChapter": "id.info@tag.p.2@text",
+      "name": "id.info@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##第\\w+|.*正文卷"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.odd.1@text",
+      "bookList": "//tr[@id=\"nr\"]",
+      "bookUrl": "tag.tr@tag.a.0@href",
+      "coverUrl": "tag.a.0@href##.*/(\\d+)/(\\d+).*##/files/article/image/$1/$2/$2s.jpg",
+      "kind": "tag.td.5@text",
+      "lastChapter": "tag.td.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd",
+      "chapterName": "text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.23wx.cc/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

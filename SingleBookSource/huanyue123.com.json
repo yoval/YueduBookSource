@@ -1,1 +1,36 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 幻月书院", "bookSourceType": 0, "bookSourceUrl": "http://www.huanyue123.com-By Dark", "customOrder": -32385, "enabled": true, "enabledExplore": true, "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.synopsisArea_detail@tag.img@src", "intro": "class.review@textNodes", "tocUrl": "class.recommend@tag.h2.1@tag.a@href"}, "ruleContent": {"content": "id.chaptercontent@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.p.1@text##.*作者：", "bookList": "class.hot_sale", "bookUrl": "tag.a.0@href", "lastChapter": "tag.p.2@text##.*更新：", "name": "tag.p.0@text"}, "ruleToc": {"chapterList": "id.chapterlist@tag.p!0", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://m.huanyue123.com/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&t=1\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 幻月书院",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.huanyue123.com-By Dark",
+    "customOrder": -32385,
+    "enabled": true,
+    "enabledExplore": true,
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.synopsisArea_detail@tag.img@src",
+      "intro": "class.review@textNodes",
+      "tocUrl": "class.recommend@tag.h2.1@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "id.chaptercontent@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p.1@text##.*作者：",
+      "bookList": "class.hot_sale",
+      "bookUrl": "tag.a.0@href",
+      "lastChapter": "tag.p.2@text##.*更新：",
+      "name": "tag.p.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapterlist@tag.p!0",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://m.huanyue123.com/s.php,{\n  \"method\": \"POST\",\n  \"body\": \"keyword={{key}}&t=1\"\n}",
+    "weight": 0
+  }]

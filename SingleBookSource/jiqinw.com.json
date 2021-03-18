@@ -1,1 +1,42 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🍑 腐小说", "bookSourceType": 0, "bookSourceUrl": "http://www.jiqinw.com", "bookUrlPattern": "", "customOrder": -116068, "enabled": true, "enabledExplore": true, "exploreUrl": "现代耽美::http://www.jiqinw.com/xiandai/list_4_{{page}}.html\n古代耽美::http://www.jiqinw.com/gudai/list_5_{{page}}.html\n穿越重生::http://www.jiqinw.com/chuanyue/list_6_{{page}}.html\n玄幻灵异::http://www.jiqinw.com/qihuan/list_7_{{page}}.html\n网游竞技::http://www.jiqinw.com/wangyou/list_8_{{page}}.html\n同人耽美::http://www.jiqinw.com/tongren/list_9_{{page}}.html\nGL百合::http://www.jiqinw.com/baihe/list_10_{{page}}.html\n现代排行榜::http://www.jiqinw.com/paihang/xd.html\n古代排行榜::http://www.jiqinw.com/paihang/gd.html\n穿越排行榜::http://www.jiqinw.com/paihang/cy.html\n玄幻排行榜::http://www.jiqinw.com/paihang/xh.html\n网游排行榜::http://www.jiqinw.com/paihang/wy.html\n同人排行榜::http://www.jiqinw.com/paihang/tr.html\n百合排行榜::http://www.jiqinw.com/paihang/gl.html\n经典点击榜::http://www.jiqinw.com/tietui/top.html\n经典大全::http://www.jiqinw.com/tietui/", "lastUpdateTime": 1612409134878, "loginUrl": "", "ruleBookInfo": {}, "ruleContent": {"content": "class.co-by@html"}, "ruleExplore": {"author": "tag.a.0@text##.*作者：", "bookList": "class.list_article@ul@li||class.list_article@ul@li", "bookUrl": "tag.a.0@href||", "intro": "class.desc.0@text", "lastChapter": "class.time.0@text", "name": "tag.a.0@b@text||tag.a.0@strong@text"}, "ruleSearch": {"author": "tag.a.1@text##.*作者：", "bookList": "class.list_article@li", "bookUrl": "tag.a.1@href", "intro": "class.desc.0@text", "kind": "tag.a.0@text", "lastChapter": "class.time.0@text", "name": "tag.a.1@text##\\作者：.*"}, "ruleToc": {"chapterList": "class.art_pege@ul@li!0:1:2:3@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "http://www.jiqinw.com/plus/search.php?q={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍑 腐小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.jiqinw.com",
+    "bookUrlPattern": "",
+    "customOrder": -116068,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "现代耽美::http://www.jiqinw.com/xiandai/list_4_{{page}}.html\n古代耽美::http://www.jiqinw.com/gudai/list_5_{{page}}.html\n穿越重生::http://www.jiqinw.com/chuanyue/list_6_{{page}}.html\n玄幻灵异::http://www.jiqinw.com/qihuan/list_7_{{page}}.html\n网游竞技::http://www.jiqinw.com/wangyou/list_8_{{page}}.html\n同人耽美::http://www.jiqinw.com/tongren/list_9_{{page}}.html\nGL百合::http://www.jiqinw.com/baihe/list_10_{{page}}.html\n现代排行榜::http://www.jiqinw.com/paihang/xd.html\n古代排行榜::http://www.jiqinw.com/paihang/gd.html\n穿越排行榜::http://www.jiqinw.com/paihang/cy.html\n玄幻排行榜::http://www.jiqinw.com/paihang/xh.html\n网游排行榜::http://www.jiqinw.com/paihang/wy.html\n同人排行榜::http://www.jiqinw.com/paihang/tr.html\n百合排行榜::http://www.jiqinw.com/paihang/gl.html\n经典点击榜::http://www.jiqinw.com/tietui/top.html\n经典大全::http://www.jiqinw.com/tietui/",
+    "lastUpdateTime": 1612409134878,
+    "loginUrl": "",
+    "ruleBookInfo": {},
+    "ruleContent": {
+      "content": "class.co-by@html"
+    },
+    "ruleExplore": {
+      "author": "tag.a.0@text##.*作者：",
+      "bookList": "class.list_article@ul@li||class.list_article@ul@li",
+      "bookUrl": "tag.a.0@href||",
+      "intro": "class.desc.0@text",
+      "lastChapter": "class.time.0@text",
+      "name": "tag.a.0@b@text||tag.a.0@strong@text"
+    },
+    "ruleSearch": {
+      "author": "tag.a.1@text##.*作者：",
+      "bookList": "class.list_article@li",
+      "bookUrl": "tag.a.1@href",
+      "intro": "class.desc.0@text",
+      "kind": "tag.a.0@text",
+      "lastChapter": "class.time.0@text",
+      "name": "tag.a.1@text##\\作者：.*"
+    },
+    "ruleToc": {
+      "chapterList": "class.art_pege@ul@li!0:1:2:3@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.jiqinw.com/plus/search.php?q={{key}}",
+    "weight": 0
+  }]

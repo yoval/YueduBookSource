@@ -1,1 +1,64 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "31bz.org", "bookSourceType": 0, "bookSourceUrl": "https://www.31bz.org", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻奇幻::/xuanhuan/page_{{page}}.html\n武侠修真::/xiuzhen/page_{{page}}.html\n历史军事::/lishi/page_{{page}}.html\n游戏竞技::/wangyou/page_{{page}}.html\n都市言情::/dushi/page_{{page}}.html\n科幻灵异::/kehuan/page_{{page}}.html\n女生频道::/nvpin/page_{{page}}.html\n排行榜::/paihangbang/page_{{page}}.html", "header": "", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "class.book-stats@tag.b.0@tag.a@text", "coverUrl": "class.book-img@tag.img.0@src", "init": "", "intro": "class.book-intro@ownText", "kind": "class.book-stats@tag.b.1@tag.a@text&&class.book-stats@tag.b.3@tag.a@text##更新时间", "lastChapter": "class.book-intro@tag.a.0@text", "name": "class.book-title@text##《|》", "tocUrl": "", "wordCount": ""}, "ruleContent": {"content": "id.BookText@html##[->r]*\\s*本章未完，点击下一页继续阅读\\s*", "nextContentUrl": "class.to_nextpage@tag.a@href", "sourceRegex": "##[->r]*\\s*本章未完，点击下一页继续阅读\\s*", "webJs": ""}, "ruleExplore": {"author": "", "bookList": "", "bookUrl": "", "coverUrl": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "wordCount": ""}, "ruleSearch": {"author": "tag.a.2@text", "bookList": "id.sitebox@tag.dl", "bookUrl": "tag.a.1@href", "coverUrl": "tag.img.0@src", "intro": "class.book_des@ownText", "kind": "class.book_other.0@tag.span.1@text&&class.book_other.0@tag.span.2@text", "lastChapter": "class.book_other.1@tag.a@text", "name": "tag.a.1@text##《|》", "wordCount": ""}, "ruleToc": {"chapterList": "class.chapterlist.1@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "isVip": "", "nextTocUrl": "", "updateTime": ""}, "searchUrl": "/home/search,{\n  \"method\":\"POST\",\n  \"body\":\"action=search&q={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "31bz.org",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.31bz.org",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/xuanhuan/page_{{page}}.html\n武侠修真::/xiuzhen/page_{{page}}.html\n历史军事::/lishi/page_{{page}}.html\n游戏竞技::/wangyou/page_{{page}}.html\n都市言情::/dushi/page_{{page}}.html\n科幻灵异::/kehuan/page_{{page}}.html\n女生频道::/nvpin/page_{{page}}.html\n排行榜::/paihangbang/page_{{page}}.html",
+    "header": "",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.book-stats@tag.b.0@tag.a@text",
+      "coverUrl": "class.book-img@tag.img.0@src",
+      "init": "",
+      "intro": "class.book-intro@ownText",
+      "kind": "class.book-stats@tag.b.1@tag.a@text&&class.book-stats@tag.b.3@tag.a@text##更新时间",
+      "lastChapter": "class.book-intro@tag.a.0@text",
+      "name": "class.book-title@text##《|》",
+      "tocUrl": "",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.BookText@html##[->r]*\\s*本章未完，点击下一页继续阅读\\s*",
+      "nextContentUrl": "class.to_nextpage@tag.a@href",
+      "sourceRegex": "##[->r]*\\s*本章未完，点击下一页继续阅读\\s*",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "id.sitebox@tag.dl",
+      "bookUrl": "tag.a.1@href",
+      "coverUrl": "tag.img.0@src",
+      "intro": "class.book_des@ownText",
+      "kind": "class.book_other.0@tag.span.1@text&&class.book_other.0@tag.span.2@text",
+      "lastChapter": "class.book_other.1@tag.a@text",
+      "name": "tag.a.1@text##《|》",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.chapterlist.1@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "/home/search,{\n  \"method\":\"POST\",\n  \"body\":\"action=search&q={{key}}\"\n}",
+    "weight": 0
+  }]

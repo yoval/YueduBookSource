@@ -1,1 +1,31 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "📚 国学大师", "bookSourceType": 0, "bookSourceUrl": "http://www.guoxuedashi.com", "customOrder": -116688, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1606808862042, "ruleBookInfo": {"intro": "text"}, "ruleContent": {"content": "id.infozj_txt@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.a@text##\\��.*��", "bookList": "class.info_cate clearfix@tag.dd", "bookUrl": "tag.a@href", "name": "tag.a@text##\\��|\\��.*"}, "ruleToc": {"chapterList": "tag.dl@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.guoxuedashi.com/so.php?sokeytm={{key}}&ka=100&submit=2", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "📚 国学大师",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.guoxuedashi.com",
+    "customOrder": -116688,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1606808862042,
+    "ruleBookInfo": {
+      "intro": "text"
+    },
+    "ruleContent": {
+      "content": "id.infozj_txt@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a@text##\\��.*��",
+      "bookList": "class.info_cate clearfix@tag.dd",
+      "bookUrl": "tag.a@href",
+      "name": "tag.a@text##\\��|\\��.*"
+    },
+    "ruleToc": {
+      "chapterList": "tag.dl@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.guoxuedashi.com/so.php?sokeytm={{key}}&ka=100&submit=2",
+    "weight": 0
+  }]

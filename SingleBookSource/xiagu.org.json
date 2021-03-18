@@ -1,1 +1,43 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🍑 峡谷小说", "bookSourceType": 0, "bookSourceUrl": "https://www.xiagu.org", "customOrder": -116152, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻::/shuku/1_0_0_0_0_{{page}}.html\n武侠::/shuku/2_0_0_0_0_{{page}}.html\n都市::/shuku/3_0_0_0_0_{{page}}.html\n军事::/shuku/4_0_0_0_0_{{page}}.html\n游戏::/shuku/5_0_0_0_0_{{page}}.html\n科幻::/shuku/6_0_0_0_0_{{page}}.html\n灵异::/shuku/7_0_0_0_0_{{page}}.html\n其他::/shuku/8_0_0_0_0_{{page}}.html", "lastUpdateTime": 1612528848743, "ruleBookInfo": {"author": "id.info@tag.span.2@tag.a@text", "coverUrl": "", "intro": "class.intro.0@tag.p@text", "kind": "id.info@tag.a.1@text", "lastChapter": "id.info@tag.a.3@text", "name": "id.wrapper@tag.h1.0@tag.span@text", "tocUrl": "class.online-read@tag.a@href", "wordCount": ""}, "ruleContent": {"content": "id.txt@html##阅读.*最新章节.*"}, "ruleExplore": {}, "ruleSearch": {"author": "class.info@tag.div.0@tag.a.1@text", "bookList": "class.subject-item", "bookUrl": "class.info@tag.h2@tag.a@href", "coverUrl": "class.pic@tag.img@data-original", "intro": "class.info@tag.p@text##【内容简介】", "kind": "class.info@tag.div.0@tag.a.2@text", "lastChapter": "class.info@class.market-info@tag.a@text##【最新章节】", "name": "class.info@tag.h2@tag.a.0@text"}, "ruleToc": {"chapterList": "id.chapter", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.xiagu.org/search/?keyword={{key}}&t=0<,&page={{page}}>", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍑 峡谷小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xiagu.org",
+    "customOrder": -116152,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻::/shuku/1_0_0_0_0_{{page}}.html\n武侠::/shuku/2_0_0_0_0_{{page}}.html\n都市::/shuku/3_0_0_0_0_{{page}}.html\n军事::/shuku/4_0_0_0_0_{{page}}.html\n游戏::/shuku/5_0_0_0_0_{{page}}.html\n科幻::/shuku/6_0_0_0_0_{{page}}.html\n灵异::/shuku/7_0_0_0_0_{{page}}.html\n其他::/shuku/8_0_0_0_0_{{page}}.html",
+    "lastUpdateTime": 1612528848743,
+    "ruleBookInfo": {
+      "author": "id.info@tag.span.2@tag.a@text",
+      "coverUrl": "",
+      "intro": "class.intro.0@tag.p@text",
+      "kind": "id.info@tag.a.1@text",
+      "lastChapter": "id.info@tag.a.3@text",
+      "name": "id.wrapper@tag.h1.0@tag.span@text",
+      "tocUrl": "class.online-read@tag.a@href",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.txt@html##阅读.*最新章节.*"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.info@tag.div.0@tag.a.1@text",
+      "bookList": "class.subject-item",
+      "bookUrl": "class.info@tag.h2@tag.a@href",
+      "coverUrl": "class.pic@tag.img@data-original",
+      "intro": "class.info@tag.p@text##【内容简介】",
+      "kind": "class.info@tag.div.0@tag.a.2@text",
+      "lastChapter": "class.info@class.market-info@tag.a@text##【最新章节】",
+      "name": "class.info@tag.h2@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.chapter",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.xiagu.org/search/?keyword={{key}}&t=0<,&page={{page}}>",
+    "weight": 0
+  }]

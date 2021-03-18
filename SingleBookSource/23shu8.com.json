@@ -1,1 +1,41 @@
-[{"bookSourceComment": "error:List is empty.\n", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 爱尚书吧", "bookSourceType": 0, "bookSourceUrl": "https://www.23shu8.com", "bookUrlPattern": "", "customOrder": -32432, "enabled": true, "enabledExplore": true, "exploreUrl": "奇幻::/qihuan/{{page}}/\n玄幻::/xuanhuan/{{page}}/\n言情::/yanqing/{{page}}/\n都市::/dushi/{{page}}/\n游戏::/youxi/{{page}}/\n竞技::/jingji/{{page}}/\n武侠::/wuxia/{{page}}/\n历史::/lishi/{{page}}/\n军事::/junshi/{{page}}/\n科幻::/kehuan/{{page}}/\n仙侠::/xianxia/{{page}}/\n灵异::/lingyi/{{page}}/\n女性::/nvxing/{{page}}/\n其他::/qita/{{page}}/\n更新::/last{{page}}.htm\n上新::/news/{{page}}/\n总榜::/tops/{{page}}/", "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "//meta[@property=\"og:novel:author\"]/@content", "coverUrl": "//meta[@property=\"og:image\"]/@content", "intro": "tag.p@text##简介：", "kind": "//meta[@property=\"og:novel:category\"]/@content", "lastChapter": "//meta[@property=\"og:novel:latest_chapter_name\"]/@content", "name": "//meta[@property=\"og:novel:book_name\"]/@content"}, "ruleContent": {"content": "id.content@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.tag4@tag.a@text", "bookList": "class.content", "bookUrl": "class.tag2@tag.a@href", "kind": "class.tag6@text", "lastChapter": "class.tag3@tag.a@text", "name": "class.tag2@tag.a@text"}, "ruleToc": {"chapterList": "+class.catalogs@tag.li@tag.a", "chapterUrl": "href"}, "searchUrl": "https://www.23shu8.com/s__{{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:List is empty.\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 爱尚书吧",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.23shu8.com",
+    "bookUrlPattern": "",
+    "customOrder": -32432,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "奇幻::/qihuan/{{page}}/\n玄幻::/xuanhuan/{{page}}/\n言情::/yanqing/{{page}}/\n都市::/dushi/{{page}}/\n游戏::/youxi/{{page}}/\n竞技::/jingji/{{page}}/\n武侠::/wuxia/{{page}}/\n历史::/lishi/{{page}}/\n军事::/junshi/{{page}}/\n科幻::/kehuan/{{page}}/\n仙侠::/xianxia/{{page}}/\n灵异::/lingyi/{{page}}/\n女性::/nvxing/{{page}}/\n其他::/qita/{{page}}/\n更新::/last{{page}}.htm\n上新::/news/{{page}}/\n总榜::/tops/{{page}}/",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "//meta[@property=\"og:novel:author\"]/@content",
+      "coverUrl": "//meta[@property=\"og:image\"]/@content",
+      "intro": "tag.p@text##简介：",
+      "kind": "//meta[@property=\"og:novel:category\"]/@content",
+      "lastChapter": "//meta[@property=\"og:novel:latest_chapter_name\"]/@content",
+      "name": "//meta[@property=\"og:novel:book_name\"]/@content"
+    },
+    "ruleContent": {
+      "content": "id.content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.tag4@tag.a@text",
+      "bookList": "class.content",
+      "bookUrl": "class.tag2@tag.a@href",
+      "kind": "class.tag6@text",
+      "lastChapter": "class.tag3@tag.a@text",
+      "name": "class.tag2@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "+class.catalogs@tag.li@tag.a",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.23shu8.com/s__{{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

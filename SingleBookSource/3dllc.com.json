@@ -1,1 +1,34 @@
-[{"bookSourceComment": "error:搜索内容为空并且没有发现\n", "bookSourceGroup": "我的书源", "bookSourceName": "官术网", "bookSourceType": 0, "bookSourceUrl": "http://www.3dllc.com", "customOrder": 0, "enabled": true, "enabledExplore": false, "lastUpdateTime": 0, "ruleBookInfo": {"intro": "id.intro@tag.p.0@textNodes"}, "ruleContent": {"content": "id.content@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.result-game-item-info-tag.0@tag.span.1@text", "bookList": "class.result-item", "bookUrl": "class.result-item-title.0@tag.a.0@href", "coverUrl": "tag.img.0@src", "kind": "class.result-game-item-info-tag.1@tag.span.1@text", "lastChapter": "class.result-game-item-info-tag.3@tag.a.0@text", "name": "class.result-item-title.0@tag.a.0@text"}, "ruleToc": {"chapterList": "id.list@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a.0@href"}, "searchUrl": "http://www.3dllc.com/search.php?keyword={{key}}&page={{page}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "官术网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.3dllc.com",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "intro": "id.intro@tag.p.0@textNodes"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.result-game-item-info-tag.0@tag.span.1@text",
+      "bookList": "class.result-item",
+      "bookUrl": "class.result-item-title.0@tag.a.0@href",
+      "coverUrl": "tag.img.0@src",
+      "kind": "class.result-game-item-info-tag.1@tag.span.1@text",
+      "lastChapter": "class.result-game-item-info-tag.3@tag.a.0@text",
+      "name": "class.result-item-title.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a.0@href"
+    },
+    "searchUrl": "http://www.3dllc.com/search.php?keyword={{key}}&page={{page}}",
+    "weight": 0
+  }]

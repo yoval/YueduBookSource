@@ -1,1 +1,61 @@
-[{"bookSourceComment": "xpath;coolapk@芜恙", "bookSourceGroup": "我的书源", "bookSourceName": "🌸 妙笔阁", "bookSourceType": 0, "bookSourceUrl": "https://www.imiaobige.com#sitembox dl", "bookUrlPattern": "https://www.imiaobige.com/novel/\\d+.html", "customOrder": -117073, "enabled": true, "enabledExplore": true, "exploreUrl": "", "lastUpdateTime": 1611295985695, "loginUrl": "", "ruleBookInfo": {"author": "//*[@property=\"og:novel:author\"]/@content", "coverUrl": "//*[@property=\"og:image\"]/@content", "intro": "//*[@id=\"bookintro\"]##(^|[。！？]+[”」）】]?)##$1<br>", "kind": "//*[@property=\"og:novel:category\"]/@content&&\n//*[@property=\"og:novel:status\"]/@content##中|已", "lastChapter": "//*[@property=\"og:novel:latest_chapter_name\"]/@content&&\n//*[@property=\"og:novel:update_time\"]/@content\n<js>\nvar n = result.replace(/\\n.*/, '');\nvar t = result.match(/-(\\d+-\\d+)/)[1];\nn + '▪' + t\n</js>", "name": "//*[@property=\"og:novel:book_name\"]/@content", "tocUrl": "//*[@property=\"og:novel:read_url\"]/@content", "wordCount": "//*[@class=\"count\"]/ul/li[3]/span/text()##$##字"}, "ruleContent": {"content": "//*[@id=\"content\"]/p[position()>1]", "imageStyle": "full", "nextContentUrl": "", "webJs": ""}, "ruleExplore": {"author": "", "bookList": "", "bookUrl": "", "coverUrl": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "wordCount": ""}, "ruleSearch": {"author": "//dd[2]/a[2]//text()", "bookList": "//*[@id=\"sitembox\"]/dl", "bookUrl": "//dt/a/@href", "coverUrl": "//img/@src", "intro": "//dd[3]/text()", "kind": "//dd[2]/a[1]/text()&&//dd[2]/span[1]/text()##中|已", "lastChapter": "//dd[4]//text()\n<js>\nvar n = result.replace(/最新章节：|更新时间.*/g, '');\nvar t = result.match(/-(\\d+-\\d+)/)[1];\nn + '▪' + t\n</js>", "name": "//h3/a//text()", "wordCount": "//dd[2]/span[2]/text()"}, "ruleToc": {"chapterList": "//*[@id=\"readerlists\"]/ul/li/a", "chapterName": "text", "chapterUrl": "href", "nextTocUrl": "", "updateTime": ""}, "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "xpath;coolapk@芜恙",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🌸 妙笔阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.imiaobige.com#sitembox dl",
+    "bookUrlPattern": "https://www.imiaobige.com/novel/\\d+.html",
+    "customOrder": -117073,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "lastUpdateTime": 1611295985695,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "//*[@property=\"og:novel:author\"]/@content",
+      "coverUrl": "//*[@property=\"og:image\"]/@content",
+      "intro": "//*[@id=\"bookintro\"]##(^|[。！？]+[”」）】]?)##$1<br>",
+      "kind": "//*[@property=\"og:novel:category\"]/@content&&\n//*[@property=\"og:novel:status\"]/@content##中|已",
+      "lastChapter": "//*[@property=\"og:novel:latest_chapter_name\"]/@content&&\n//*[@property=\"og:novel:update_time\"]/@content\n<js>\nvar n = result.replace(/\\n.*/, '');\nvar t = result.match(/-(\\d+-\\d+)/)[1];\nn + '▪' + t\n</js>",
+      "name": "//*[@property=\"og:novel:book_name\"]/@content",
+      "tocUrl": "//*[@property=\"og:novel:read_url\"]/@content",
+      "wordCount": "//*[@class=\"count\"]/ul/li[3]/span/text()##$##字"
+    },
+    "ruleContent": {
+      "content": "//*[@id=\"content\"]/p[position()>1]",
+      "imageStyle": "full",
+      "nextContentUrl": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "//dd[2]/a[2]//text()",
+      "bookList": "//*[@id=\"sitembox\"]/dl",
+      "bookUrl": "//dt/a/@href",
+      "coverUrl": "//img/@src",
+      "intro": "//dd[3]/text()",
+      "kind": "//dd[2]/a[1]/text()&&//dd[2]/span[1]/text()##中|已",
+      "lastChapter": "//dd[4]//text()\n<js>\nvar n = result.replace(/最新章节：|更新时间.*/g, '');\nvar t = result.match(/-(\\d+-\\d+)/)[1];\nn + '▪' + t\n</js>",
+      "name": "//h3/a//text()",
+      "wordCount": "//dd[2]/span[2]/text()"
+    },
+    "ruleToc": {
+      "chapterList": "//*[@id=\"readerlists\"]/ul/li/a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "/search.html,{\n  \"method\": \"POST\",\n  \"body\": \"searchkey={{key}}\"\n}",
+    "weight": 0
+  }]

@@ -1,1 +1,50 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎨 韩国漫画", "bookSourceType": 0, "bookSourceUrl": "http://wzdhm.cc", "bookUrlPattern": "", "customOrder": -115847, "enabled": true, "enabledExplore": true, "exploreUrl": "连载::/booklist?tag=全部&area=-1&end=0&page={{page}}\n完结::/booklist?tag=全部&area=-1&end=1&page={{page}}\n都市::/booklist?tag=都市&page={{page}}\n出版::/booklist?tag=出版漫画&page={{page}}", "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MIX 2 Build/OPR1.170623.027) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1\"\n}", "lastUpdateTime": 1605067692787, "ruleBookInfo": {"author": "class.detail-main-info-author.1@tag.a@text", "coverUrl": "tag.img@data-original", "intro": "class.detail-desc@text", "kind": "class.detail-main-info-author.2@tag.a@text&&class.detail-main-info-class@tag.a@text&&class.detail-list-title-1@text&&class.detail-list-title-3@text##更新", "lastChapter": "id.detail-list-select@tag.a.-1@text", "name": "class.detail-main-info-author.0@tag.a@text", "wordCount": ""}, "ruleContent": {"content": "id.cp_img@html##src.*\\\"\n@js:result.replace(/data-original/g,\"src\")", "imageStyle": "FULL"}, "ruleExplore": {"bookList": "tag.ul@tag.li", "bookUrl": "tag.a@href", "coverUrl": "tag.img@data-original", "lastChapter": "tag.p.1@text##.*\\s", "name": "tag.p.0@text"}, "ruleSearch": {"author": "tag.span.0@text##作者.", "bookList": "tag.ul@tag.li", "bookUrl": "tag.a@href", "coverUrl": "tag.img@data-original", "intro": "tag.p.1@text", "kind": "tag.span.1@text", "name": "tag.p.0@text"}, "ruleToc": {"chapterList": "id.detail-list-select@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "/search?keyword={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎨 韩国漫画",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://wzdhm.cc",
+    "bookUrlPattern": "",
+    "customOrder": -115847,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "连载::/booklist?tag=全部&area=-1&end=0&page={{page}}\n完结::/booklist?tag=全部&area=-1&end=1&page={{page}}\n都市::/booklist?tag=都市&page={{page}}\n出版::/booklist?tag=出版漫画&page={{page}}",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 8.0.0; zh-cn; MIX 2 Build/OPR1.170623.027) AppleWebKit/533.1 (KHTML, like Gecko) Version/4.0 Mobile Safari/533.1\"\n}",
+    "lastUpdateTime": 1605067692787,
+    "ruleBookInfo": {
+      "author": "class.detail-main-info-author.1@tag.a@text",
+      "coverUrl": "tag.img@data-original",
+      "intro": "class.detail-desc@text",
+      "kind": "class.detail-main-info-author.2@tag.a@text&&class.detail-main-info-class@tag.a@text&&class.detail-list-title-1@text&&class.detail-list-title-3@text##更新",
+      "lastChapter": "id.detail-list-select@tag.a.-1@text",
+      "name": "class.detail-main-info-author.0@tag.a@text",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "id.cp_img@html##src.*\\\"\n@js:result.replace(/data-original/g,\"src\")",
+      "imageStyle": "FULL"
+    },
+    "ruleExplore": {
+      "bookList": "tag.ul@tag.li",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@data-original",
+      "lastChapter": "tag.p.1@text##.*\\s",
+      "name": "tag.p.0@text"
+    },
+    "ruleSearch": {
+      "author": "tag.span.0@text##作者.",
+      "bookList": "tag.ul@tag.li",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@data-original",
+      "intro": "tag.p.1@text",
+      "kind": "tag.span.1@text",
+      "name": "tag.p.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.detail-list-select@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "/search?keyword={{key}}",
+    "weight": 0
+  }]

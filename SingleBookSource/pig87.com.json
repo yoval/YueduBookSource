@@ -1,1 +1,40 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "猪八戒看书网", "bookSourceType": 0, "bookSourceUrl": "http://www.pig87.com", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "奇幻玄幻::http://www.pig87.com/list-lists-cid-1-sort-0-proc-0-tag-0-num-0-free-0-p-{{page}}.html\n科幻游戏::http://www.pig87.com/list-lists-cid-96-sort-0-proc-0-tag-0-num-0-free-0-p-{{page}}.html\n武侠仙侠::http://www.pig87.com/list-lists-cid-5-sort-0-proc-0-tag-0-num-0-free-0-p-{{page}}.html\n悬疑灵异::http://www.pig87.com/list-lists-cid-4-sort-0-proc-0-tag-0-num-0-free-0-p-{{page}}.html\n都市生活::http://www.pig87.com/list-lists-cid-2-sort-0-proc-0-tag-0-num-0-free-0-p-{{page}}.html\n历史军事::http://www.pig87.com/list-lists-cid-6-sort-0-proc-0-tag-0-num-0-free-0-p-{{page}}.html\n二次元::http://www.pig87.com/list-lists-cid-79-sort-0-proc-0-tag-0-num-0-free-0-p-{{page}}.html\n短篇文集::http://www.pig87.com/list-lists-cid-88-sort-0-proc-0-tag-0-num-0-free-0-p-{{page}}.html", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "class.msg_cont1@tag.tr.0@tag.td.0@text##作者", "intro": "class.book_intro@text", "name": "class.right@tag.h1@text", "tocUrl": "class.leftmod para@tag.h3@tag.a@href"}, "ruleContent": {"content": "id.clickeye_content@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.book_author@text", "bookList": "class.gz_box", "bookUrl": "class.intro@tag.h1@tag.a@href", "coverUrl": "class.box_1@tag.img@data-original", "kind": "class.book_num@tag.a@text", "lastChapter": "class.book_num@tag.font@text", "name": "class.intro@tag.h1@text"}, "ruleToc": {"chapterList": "class.title_list@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.pig87.com/list-search-search-{{key}}-p-{{page}}.html", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "猪八戒看书网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.pig87.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "奇幻玄幻::http://www.pig87.com/list-lists-cid-1-sort-0-proc-0-tag-0-num-0-free-0-p-{{page}}.html\n科幻游戏::http://www.pig87.com/list-lists-cid-96-sort-0-proc-0-tag-0-num-0-free-0-p-{{page}}.html\n武侠仙侠::http://www.pig87.com/list-lists-cid-5-sort-0-proc-0-tag-0-num-0-free-0-p-{{page}}.html\n悬疑灵异::http://www.pig87.com/list-lists-cid-4-sort-0-proc-0-tag-0-num-0-free-0-p-{{page}}.html\n都市生活::http://www.pig87.com/list-lists-cid-2-sort-0-proc-0-tag-0-num-0-free-0-p-{{page}}.html\n历史军事::http://www.pig87.com/list-lists-cid-6-sort-0-proc-0-tag-0-num-0-free-0-p-{{page}}.html\n二次元::http://www.pig87.com/list-lists-cid-79-sort-0-proc-0-tag-0-num-0-free-0-p-{{page}}.html\n短篇文集::http://www.pig87.com/list-lists-cid-88-sort-0-proc-0-tag-0-num-0-free-0-p-{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.msg_cont1@tag.tr.0@tag.td.0@text##作者",
+      "intro": "class.book_intro@text",
+      "name": "class.right@tag.h1@text",
+      "tocUrl": "class.leftmod para@tag.h3@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "id.clickeye_content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.book_author@text",
+      "bookList": "class.gz_box",
+      "bookUrl": "class.intro@tag.h1@tag.a@href",
+      "coverUrl": "class.box_1@tag.img@data-original",
+      "kind": "class.book_num@tag.a@text",
+      "lastChapter": "class.book_num@tag.font@text",
+      "name": "class.intro@tag.h1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.title_list@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.pig87.com/list-search-search-{{key}}-p-{{page}}.html",
+    "weight": 0
+  }]

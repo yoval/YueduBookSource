@@ -1,1 +1,39 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 S+看书室", "bookSourceType": 0, "bookSourceUrl": "https://www.kanshushi.com", "customOrder": -32355, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻魔法::/fenlei1-{{page}}.html\n仙侠修真::/fenlei2-{{page}}.html\n都市言情::/fenlei3-{{page}}.html\n历史军事::/fenlei4-{{page}}.html\n网游竞技::/fenlei5-{{page}}.html\n科幻小说::/fenlei6-{{pahe}}.html\n恐怖灵异::/fenlei7-{{page}}.html\n女生小说::/fenlei8-{{page}}.html\n其它小说::/fenlei9-{{page}}.html\n                         全本小说                         ::/quanben-{{page}}.html\n总排行榜::/topallvisit_{{page}}/\n总推荐榜::/top/allvote_{{page}}/\n月排行榜::/top/monthvisit_{{page}}/\n月推荐榜::/top/monthvote_{{page}}/\n周排行榜::/top/weekvisit_{{page}}/\n周推荐榜::/top/weekvote_{{page}}/\n最新入库::/top/postdate_{{page}}/\n最近更新::/top/lastupdate_{{page}}/\n转载更新::/top/masterupdate_{{page}}/", "lastUpdateTime": 0, "ruleBookInfo": {"coverUrl": "class.book_img@img@src", "intro": "class.book_intro@text", "lastChapter": "class.book_update@tag.a@text", "tocUrl": "class.book_action@tag.span.0@tag.a@href"}, "ruleContent": {"content": "id.chapter_content@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.playactor.0@text", "bookList": "class.movlist1_ul@tag.li", "bookUrl": "tag.a@href", "coverUrl": "tag.a@img@src", "intro": "class.playactor.4@text", "kind": "class.playactor.1@text&&class.playactor.2@text", "lastChapter": "class.playactor.3@tag.a@text", "name": "tag.h3@tag.a@text"}, "ruleToc": {"chapterList": "class.ListChapter@tag.ul@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.kanshushi.com/search.php?keyword={{key}}&page={{page}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 S+看书室",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.kanshushi.com",
+    "customOrder": -32355,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::/fenlei1-{{page}}.html\n仙侠修真::/fenlei2-{{page}}.html\n都市言情::/fenlei3-{{page}}.html\n历史军事::/fenlei4-{{page}}.html\n网游竞技::/fenlei5-{{page}}.html\n科幻小说::/fenlei6-{{pahe}}.html\n恐怖灵异::/fenlei7-{{page}}.html\n女生小说::/fenlei8-{{page}}.html\n其它小说::/fenlei9-{{page}}.html\n                         全本小说                         ::/quanben-{{page}}.html\n总排行榜::/topallvisit_{{page}}/\n总推荐榜::/top/allvote_{{page}}/\n月排行榜::/top/monthvisit_{{page}}/\n月推荐榜::/top/monthvote_{{page}}/\n周排行榜::/top/weekvisit_{{page}}/\n周推荐榜::/top/weekvote_{{page}}/\n最新入库::/top/postdate_{{page}}/\n最近更新::/top/lastupdate_{{page}}/\n转载更新::/top/masterupdate_{{page}}/",
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "coverUrl": "class.book_img@img@src",
+      "intro": "class.book_intro@text",
+      "lastChapter": "class.book_update@tag.a@text",
+      "tocUrl": "class.book_action@tag.span.0@tag.a@href"
+    },
+    "ruleContent": {
+      "content": "id.chapter_content@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.playactor.0@text",
+      "bookList": "class.movlist1_ul@tag.li",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.a@img@src",
+      "intro": "class.playactor.4@text",
+      "kind": "class.playactor.1@text&&class.playactor.2@text",
+      "lastChapter": "class.playactor.3@tag.a@text",
+      "name": "tag.h3@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.ListChapter@tag.ul@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.kanshushi.com/search.php?keyword={{key}}&page={{page}}",
+    "weight": 0
+  }]

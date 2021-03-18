@@ -1,1 +1,35 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "📚 中学生读书[仅发现]", "bookSourceType": 0, "bookSourceUrl": "http://fox2008.cn", "customOrder": -116708, "enabled": true, "enabledExplore": true, "exploreUrl": "中国文学::/Article/List_10/<index,index_2,index_3,index_{{page+1}}>.html\n外国名著::/Article/List_176/<index,index_2,index_3,index_{{page+1}}>.html\n寓意童话::/Article/List_13/<index,index_2,index_3,index_{{page+1}}>.html\n武侠小说::/Article/List_335/<index,index_2,index_3,index_{{page+1}}>.html\n百家讲坛::/Article/List_190/<index,index_2,index_3,index_{{page+1}}>.html\n中外名人::/Article/List_259/\n故事会::/Article/List_72/<index,index_2,index_3,index_{{page+1}}>.html\n散文::/Article/List_256/\n诗歌::/Article/List_96/<index,index_2,index_3,index_{{page+1}}>.html\n美文欣赏::/Article/List_2/\n小小说::/Article/List_9/<index,index_2,index_3,index_{{page+1}}>.html\n礼仪知识::/Article/List_360/\n民俗风情::/Article/List_12/\n谜语大全::/Article/List_76/\n百科知识::/Article/List_80/<index,index_2,index_3,index_{{page+1}}>.html\n教育成才::/Article/List_396/<index,index_2,index_3,index_{{page+1}}>.html\n期刊杂志::/Article/List_432/\n其他阅读::/qtyd/<index,index_2,index_3,index_{{page+1}}>.html\n十大将军::/Article/List_759/\n十大元帅::/Article/List_1163/\n名人故事::/Article/List_334/\n张恨水文集::/Article/List_262/\n贾平凹文集::/Article/List_278/\n曹文轩文集::/Article/List_230/\n郭敬明文集::/Article/List_422/\n张贤亮文集::/Article/List_895/\n莫言合集::/Article/List_1156/\n张爱玲文集::/Article/List_1448/\n亦舒文集::/Article/List_1468/\n张小娴集::/Article/List_1503/\n郑渊洁集::/Article/List_914/\n余秋雨集::/Article/List_941/\n沈从文集::/Article/List_973/\n冯骥才集::/Article/List_1137/\n茶人三部曲::/Article/List_808/\n名著导读::/Article/List_374/\n经部作品::/Article/List_28/\n史部作品::/Article/List_29/\n四库全书::/Article/List_26/\n古典文学::/Article/List_15/<index,index_2,index_3,index_{{page+1}}>.html\n菜根谭全集::/Article/List_589/\n古籍白话解析::/Article/List_758/<index,index_2,index_3,index_{{page+1}}>.html\n古代公案小说::/Article/List_932/\n唐宋八大家::/Article/List_216/", "lastUpdateTime": 1606846894998, "ruleBookInfo": {"intro": "class.txt@tag.p@text", "name": "tag.h3.0@text"}, "ruleContent": {"content": "id.chapterContent@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.author-container@text", "bookList": "class.yd-book-item", "bookUrl": "tag.a@href", "coverUrl": "tag.img@src", "lastChapter": "class.summery@text", "name": "tag.h2.0@text"}, "ruleToc": {"chapterList": "class.directory@tag.li@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "-", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "📚 中学生读书[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://fox2008.cn",
+    "customOrder": -116708,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "中国文学::/Article/List_10/<index,index_2,index_3,index_{{page+1}}>.html\n外国名著::/Article/List_176/<index,index_2,index_3,index_{{page+1}}>.html\n寓意童话::/Article/List_13/<index,index_2,index_3,index_{{page+1}}>.html\n武侠小说::/Article/List_335/<index,index_2,index_3,index_{{page+1}}>.html\n百家讲坛::/Article/List_190/<index,index_2,index_3,index_{{page+1}}>.html\n中外名人::/Article/List_259/\n故事会::/Article/List_72/<index,index_2,index_3,index_{{page+1}}>.html\n散文::/Article/List_256/\n诗歌::/Article/List_96/<index,index_2,index_3,index_{{page+1}}>.html\n美文欣赏::/Article/List_2/\n小小说::/Article/List_9/<index,index_2,index_3,index_{{page+1}}>.html\n礼仪知识::/Article/List_360/\n民俗风情::/Article/List_12/\n谜语大全::/Article/List_76/\n百科知识::/Article/List_80/<index,index_2,index_3,index_{{page+1}}>.html\n教育成才::/Article/List_396/<index,index_2,index_3,index_{{page+1}}>.html\n期刊杂志::/Article/List_432/\n其他阅读::/qtyd/<index,index_2,index_3,index_{{page+1}}>.html\n十大将军::/Article/List_759/\n十大元帅::/Article/List_1163/\n名人故事::/Article/List_334/\n张恨水文集::/Article/List_262/\n贾平凹文集::/Article/List_278/\n曹文轩文集::/Article/List_230/\n郭敬明文集::/Article/List_422/\n张贤亮文集::/Article/List_895/\n莫言合集::/Article/List_1156/\n张爱玲文集::/Article/List_1448/\n亦舒文集::/Article/List_1468/\n张小娴集::/Article/List_1503/\n郑渊洁集::/Article/List_914/\n余秋雨集::/Article/List_941/\n沈从文集::/Article/List_973/\n冯骥才集::/Article/List_1137/\n茶人三部曲::/Article/List_808/\n名著导读::/Article/List_374/\n经部作品::/Article/List_28/\n史部作品::/Article/List_29/\n四库全书::/Article/List_26/\n古典文学::/Article/List_15/<index,index_2,index_3,index_{{page+1}}>.html\n菜根谭全集::/Article/List_589/\n古籍白话解析::/Article/List_758/<index,index_2,index_3,index_{{page+1}}>.html\n古代公案小说::/Article/List_932/\n唐宋八大家::/Article/List_216/",
+    "lastUpdateTime": 1606846894998,
+    "ruleBookInfo": {
+      "intro": "class.txt@tag.p@text",
+      "name": "tag.h3.0@text"
+    },
+    "ruleContent": {
+      "content": "id.chapterContent@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author-container@text",
+      "bookList": "class.yd-book-item",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "tag.img@src",
+      "lastChapter": "class.summery@text",
+      "name": "tag.h2.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.directory@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "-",
+    "weight": 0
+  }]

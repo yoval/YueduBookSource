@@ -1,1 +1,46 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "藏书阁", "bookSourceType": 0, "bookSourceUrl": "https://www.ohcsg.com", "customOrder": 5, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "ruleBookInfo": {"author": "$3", "coverUrl": "$1", "init": ":bookimg(?:[^\"]*\"){2}([^\"]*)\"(?:[^\"]*\"){1}([^\"]*)(?:[^>]*>){9}([^<]*)<(?:[^>]*>){7}([^<]*)<(?:[^>]*>){4}([^<]*)(?:[^>]*>){14}([^<]*)(?:[^\"]*\"){6}(?:[^>]*>){2}([^<]*)<(?:[^>]*>){4}[^\"]*\"([^\"]*)\"(?:[^\\）]*)(?:[^\"]*\"){5}([^\"]*)", "intro": "$6", "kind": "$4", "lastChapter": "$9$7", "name": "$2", "tocUrl": "$8", "wordCount": "$5"}, "ruleContent": {"content": "id.content@html##本章未完，请点击|下一页|继续阅读！ 第.*页 / 共.*页", "nextContentUrl": "##<a\\shref=\"([^\"]*)\">下一页##$1###"}, "ruleExplore": {}, "ruleSearch": {"author": "$4", "bookList": ":<dt><a[^\"]*\"([^\"]*)\"(?:[^\"]*\"){3}([^\"]*)\"[^\"]*\"([^\"]*)\"(?:[^>]*>){13}([^<]*)<(?:[^>]*>){2}([^<]*)<(?:[^>]*>){2}([^<]*)<[^>]*>([^<]*)<[^>]*>([^<]*)<(?:[^;]*;){2}([^<]*)(?:[^>]*>){3}([^<]*)(?:[^>]*>){2}([^<]*)", "bookUrl": "$1", "coverUrl": "$2", "intro": "$9", "kind": "$6", "lastChapter": "$10$11", "name": "$3", "wordCount": "$7$8·$5"}, "ruleToc": {"chapterList": ":<li><a[^\"]*\"([^\"]*)\"\\starget=\"_blank\">([^<]*)<\\/a>\\s([^<]*)", "chapterName": "$2", "chapterUrl": "$1", "updateTime": "$3"}, "searchUrl": "/modules/article/search.php,{\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}&searchtype=all&page={{page}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "藏书阁",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.ohcsg.com",
+    "customOrder": 5,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "ruleBookInfo": {
+      "author": "$3",
+      "coverUrl": "$1",
+      "init": ":bookimg(?:[^\"]*\"){2}([^\"]*)\"(?:[^\"]*\"){1}([^\"]*)(?:[^>]*>){9}([^<]*)<(?:[^>]*>){7}([^<]*)<(?:[^>]*>){4}([^<]*)(?:[^>]*>){14}([^<]*)(?:[^\"]*\"){6}(?:[^>]*>){2}([^<]*)<(?:[^>]*>){4}[^\"]*\"([^\"]*)\"(?:[^\\）]*)(?:[^\"]*\"){5}([^\"]*)",
+      "intro": "$6",
+      "kind": "$4",
+      "lastChapter": "$9$7",
+      "name": "$2",
+      "tocUrl": "$8",
+      "wordCount": "$5"
+    },
+    "ruleContent": {
+      "content": "id.content@html##本章未完，请点击|下一页|继续阅读！ 第.*页 / 共.*页",
+      "nextContentUrl": "##<a\\shref=\"([^\"]*)\">下一页##$1###"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "$4",
+      "bookList": ":<dt><a[^\"]*\"([^\"]*)\"(?:[^\"]*\"){3}([^\"]*)\"[^\"]*\"([^\"]*)\"(?:[^>]*>){13}([^<]*)<(?:[^>]*>){2}([^<]*)<(?:[^>]*>){2}([^<]*)<[^>]*>([^<]*)<[^>]*>([^<]*)<(?:[^;]*;){2}([^<]*)(?:[^>]*>){3}([^<]*)(?:[^>]*>){2}([^<]*)",
+      "bookUrl": "$1",
+      "coverUrl": "$2",
+      "intro": "$9",
+      "kind": "$6",
+      "lastChapter": "$10$11",
+      "name": "$3",
+      "wordCount": "$7$8·$5"
+    },
+    "ruleToc": {
+      "chapterList": ":<li><a[^\"]*\"([^\"]*)\"\\starget=\"_blank\">([^<]*)<\\/a>\\s([^<]*)",
+      "chapterName": "$2",
+      "chapterUrl": "$1",
+      "updateTime": "$3"
+    },
+    "searchUrl": "/modules/article/search.php,{\n\"method\": \"POST\",\n\"body\": \"searchkey={{key}}&searchtype=all&page={{page}}\"\n}",
+    "weight": 0
+  }]

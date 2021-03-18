@@ -1,1 +1,39 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "腐小说", "bookSourceType": 0, "bookSourceUrl": "https://www.xgosd.net", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": true, "exploreUrl": "最近更新::https://www.xgosd.net/top/lastupdate/{{page}}.html\n最新入库::https://www.xgosd.net/top/postdate/{{page}}.html\n总点击榜::https://www.xgosd.net/top/allvisit/{{page}}.html\n总收藏榜::https://www.xgosd.net/top/marknum/{{page}}.html\n总推荐榜::https://www.xgosd.net/top/votenum/{{page}}.html\n总下载榜::https://www.xgosd.net/top/downnum/{{page}}.html\n全部小说::https://www.xgosd.net/sort/all/{{page}}.html\n同人小说::https://www.xgosd.net/sort/tongren/{{page}}.html\n乡村小说::https://www.xgosd.net/sort/xiangcun/{{page}}.html\n百合小说::https://www.xgosd.net/sort/baihe/{{page}}.html\n耽美小说::https://www.xgosd.net/sort/danmei/{{page}}.html\n伦理小说::https://www.xgosd.net/sort/lunli/{{page}}.html\n高辣小说::https://www.xgosd.net/sort/gaolawen/{{page}}.html", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.novelinfo-r@img@src", "intro": "class.card mt20.0@tag.div.2@text", "lastChapter": "class.novelinfo-l@tag.li.5@a@text"}, "ruleContent": {"content": "class.chaptercontent@p@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.info@tag.span.1@a@text", "bookList": "class.librarylist@li", "bookUrl": "a@href", "coverUrl": "img@src", "kind": "class.info@tag.span.2@a@text", "lastChapter": "class.last@a@text", "name": "class.info@tag.span.0@a@text"}, "ruleToc": {"chapterList": "class.dirlist clearfix.1@li@a", "chapterName": "text", "chapterUrl": "href##^##https://m.xgosd.net"}, "searchUrl": "https://www.xgosd.net/search.html?searchtype=novelname&searchkey={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "腐小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.xgosd.net",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "最近更新::https://www.xgosd.net/top/lastupdate/{{page}}.html\n最新入库::https://www.xgosd.net/top/postdate/{{page}}.html\n总点击榜::https://www.xgosd.net/top/allvisit/{{page}}.html\n总收藏榜::https://www.xgosd.net/top/marknum/{{page}}.html\n总推荐榜::https://www.xgosd.net/top/votenum/{{page}}.html\n总下载榜::https://www.xgosd.net/top/downnum/{{page}}.html\n全部小说::https://www.xgosd.net/sort/all/{{page}}.html\n同人小说::https://www.xgosd.net/sort/tongren/{{page}}.html\n乡村小说::https://www.xgosd.net/sort/xiangcun/{{page}}.html\n百合小说::https://www.xgosd.net/sort/baihe/{{page}}.html\n耽美小说::https://www.xgosd.net/sort/danmei/{{page}}.html\n伦理小说::https://www.xgosd.net/sort/lunli/{{page}}.html\n高辣小说::https://www.xgosd.net/sort/gaolawen/{{page}}.html",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.novelinfo-r@img@src",
+      "intro": "class.card mt20.0@tag.div.2@text",
+      "lastChapter": "class.novelinfo-l@tag.li.5@a@text"
+    },
+    "ruleContent": {
+      "content": "class.chaptercontent@p@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.info@tag.span.1@a@text",
+      "bookList": "class.librarylist@li",
+      "bookUrl": "a@href",
+      "coverUrl": "img@src",
+      "kind": "class.info@tag.span.2@a@text",
+      "lastChapter": "class.last@a@text",
+      "name": "class.info@tag.span.0@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.dirlist clearfix.1@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href##^##https://m.xgosd.net"
+    },
+    "searchUrl": "https://www.xgosd.net/search.html?searchtype=novelname&searchkey={{key}}",
+    "weight": 0
+  }]

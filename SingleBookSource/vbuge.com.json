@@ -1,1 +1,47 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "👍 不格不", "bookSourceType": 0, "bookSourceUrl": "https://www.vbuge.com", "customOrder": 15856, "enabled": true, "enabledExplore": true, "exploreUrl": "全部小说::/all/0_0_0_0_0_{{page}}.html\n穿越重生::/all/1_0_0_0_0_{{page}}.html\n仙侠奇缘::/all/2_0_0_0_0_{{page}}.html\n浪漫青春::/all/3_0_0_0_0_{{page}}.html\n架空历史::/all/4_0_0_0_0_{{page}}.html\n游戏竞技::/all/5_0_0_0_0_{{page}}.html\n科幻空间::/all/6_0_0_0_0_{{page}}.html\n悬疑推理::/all/7_0_0_0_0_{{page}}.html\n综合其它::/all/8_0_0_0_0_{{page}}.html\n点击榜::/all/0_allvisit_0_0_0_{{page}}.html\n月排行::/all/0_monthvisit_0_0_0_{{page}}.html\n周排行::/all/0_weekvisit_0_0_0_{{page}}.html\n日排行::/all/0_dayvisit_0_0_0_{{page}}.html\n总推荐::/all/0_allthvote_0_0_0_{{page}}.html\n月推荐::/all/0_monthvote_0_0_0_{{page}}.html\n周推荐::/all/0_weekvote_0_0_0_{{page}}.html\n总收藏::/all/0_goodnum_0_0_0_{{page}}.html\n添加时间::/all/0_postdate_0_0_0_{{page}}.html\n30万字<::/all/0_0_1_0_0_{{page}}.html\n30-50万字::/all/0_0_2_0_0_{{page}}.html\n50-100万字::/all/0_0_3_0_0_{{page}}.html\n100-200万字::/all/0_0_4_0_0_{{page}}.html\n>200万字::/all/0_0_5_0_0_{{page}}.html", "lastUpdateTime": 1601972179935, "ruleBookInfo": {"tocUrl": "text.阅读本书@href"}, "ruleContent": {"content": "id.txt@html", "replaceRegex": "##阅读(.|\\n)*最新章节(.|\\n)*"}, "ruleExplore": {"author": "class.font2@text##\\|.*", "bookList": "class.con@ul@li", "bookUrl": "tag.a@href", "coverUrl": "class.freeABoxsLeft left@a@img@data-original", "intro": "class.font3@text", "kind": "class.s2@text&&class.font1@tag.span@text&&class.font2@text##.*\\|", "lastChapter": "class.font4 clearfix@tag.a@text", "name": "class.font1@tag.a@text"}, "ruleSearch": {"author": "class.s2@text", "bookList": "class.leftBox left@ul@li", "bookUrl": "tag.a.0@href", "coverUrl": "class.sCboxBookParL left@a@img@data-original", "intro": "class.c@text", "kind": "class.time2@text&&class.tips clearfix@tag.a@text", "lastChapter": "class.bottom clearfix@tag.a@text", "name": "class.top clearfix@tag.h1@tag.a@text", "wordCount": "class.s4@text"}, "ruleToc": {"chapterList": "id.newlist@dd@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.vbuge.com/search.php?key={{key}}&page={{page}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "👍 不格不",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.vbuge.com",
+    "customOrder": 15856,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "全部小说::/all/0_0_0_0_0_{{page}}.html\n穿越重生::/all/1_0_0_0_0_{{page}}.html\n仙侠奇缘::/all/2_0_0_0_0_{{page}}.html\n浪漫青春::/all/3_0_0_0_0_{{page}}.html\n架空历史::/all/4_0_0_0_0_{{page}}.html\n游戏竞技::/all/5_0_0_0_0_{{page}}.html\n科幻空间::/all/6_0_0_0_0_{{page}}.html\n悬疑推理::/all/7_0_0_0_0_{{page}}.html\n综合其它::/all/8_0_0_0_0_{{page}}.html\n点击榜::/all/0_allvisit_0_0_0_{{page}}.html\n月排行::/all/0_monthvisit_0_0_0_{{page}}.html\n周排行::/all/0_weekvisit_0_0_0_{{page}}.html\n日排行::/all/0_dayvisit_0_0_0_{{page}}.html\n总推荐::/all/0_allthvote_0_0_0_{{page}}.html\n月推荐::/all/0_monthvote_0_0_0_{{page}}.html\n周推荐::/all/0_weekvote_0_0_0_{{page}}.html\n总收藏::/all/0_goodnum_0_0_0_{{page}}.html\n添加时间::/all/0_postdate_0_0_0_{{page}}.html\n30万字<::/all/0_0_1_0_0_{{page}}.html\n30-50万字::/all/0_0_2_0_0_{{page}}.html\n50-100万字::/all/0_0_3_0_0_{{page}}.html\n100-200万字::/all/0_0_4_0_0_{{page}}.html\n>200万字::/all/0_0_5_0_0_{{page}}.html",
+    "lastUpdateTime": 1601972179935,
+    "ruleBookInfo": {
+      "tocUrl": "text.阅读本书@href"
+    },
+    "ruleContent": {
+      "content": "id.txt@html",
+      "replaceRegex": "##阅读(.|\\n)*最新章节(.|\\n)*"
+    },
+    "ruleExplore": {
+      "author": "class.font2@text##\\|.*",
+      "bookList": "class.con@ul@li",
+      "bookUrl": "tag.a@href",
+      "coverUrl": "class.freeABoxsLeft left@a@img@data-original",
+      "intro": "class.font3@text",
+      "kind": "class.s2@text&&class.font1@tag.span@text&&class.font2@text##.*\\|",
+      "lastChapter": "class.font4 clearfix@tag.a@text",
+      "name": "class.font1@tag.a@text"
+    },
+    "ruleSearch": {
+      "author": "class.s2@text",
+      "bookList": "class.leftBox left@ul@li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "class.sCboxBookParL left@a@img@data-original",
+      "intro": "class.c@text",
+      "kind": "class.time2@text&&class.tips clearfix@tag.a@text",
+      "lastChapter": "class.bottom clearfix@tag.a@text",
+      "name": "class.top clearfix@tag.h1@tag.a@text",
+      "wordCount": "class.s4@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.newlist@dd@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.vbuge.com/search.php?key={{key}}&page={{page}}",
+    "weight": 0
+  }]

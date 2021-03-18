@@ -1,1 +1,64 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 连尚读书", "bookSourceType": 0, "bookSourceUrl": "http://www.lsds.cn", "bookUrlPattern": "", "customOrder": -32306, "enabled": true, "enabledExplore": true, "exploreUrl": "", "header": "", "lastUpdateTime": 1602813782381, "loginUrl": "", "ruleBookInfo": {"author": "", "coverUrl": "", "init": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "tocUrl": "<js>result = baseUrl.replace(\"bookinfo\",\"catalog\");</js>", "wordCount": ""}, "ruleContent": {"content": "class.reader-contents@html", "nextContentUrl": "", "sourceRegex": "", "webJs": ""}, "ruleExplore": {"author": "", "bookList": "", "bookUrl": "", "coverUrl": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "wordCount": ""}, "ruleSearch": {"author": "class.author@tag.span.0@text", "bookList": "class.book-img-text@tag.li", "bookUrl": "tag.a@href##reader/(\\d+)-(\\d+)##bookinfo/$1", "coverUrl": "tag.img.0@src", "intro": "class.intro@html", "kind": "class.author@tag.span.1@text", "lastChapter": "", "name": "class.red-kw@text", "wordCount": ""}, "ruleToc": {"chapterList": "class.book-catalog-page@tag.a", "chapterName": "text", "chapterUrl": "href", "isVip": "", "nextTocUrl": "", "updateTime": ""}, "searchUrl": "http://www.lsds.cn/booksearch/result-{{key}}-{{page}}.html", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 连尚读书",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.lsds.cn",
+    "bookUrlPattern": "",
+    "customOrder": -32306,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1602813782381,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "",
+      "coverUrl": "",
+      "init": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "tocUrl": "<js>result = baseUrl.replace(\"bookinfo\",\"catalog\");</js>",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "class.reader-contents@html",
+      "nextContentUrl": "",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.author@tag.span.0@text",
+      "bookList": "class.book-img-text@tag.li",
+      "bookUrl": "tag.a@href##reader/(\\d+)-(\\d+)##bookinfo/$1",
+      "coverUrl": "tag.img.0@src",
+      "intro": "class.intro@html",
+      "kind": "class.author@tag.span.1@text",
+      "lastChapter": "",
+      "name": "class.red-kw@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "class.book-catalog-page@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "http://www.lsds.cn/booksearch/result-{{key}}-{{page}}.html",
+    "weight": 0
+  }]

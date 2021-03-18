@@ -1,1 +1,36 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🍒 玫瑰言情网", "bookSourceType": 0, "bookSourceUrl": "http://www.mgyqw.com", "customOrder": -31065, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1602877599055, "ruleBookInfo": {"coverUrl": "class.zp@img@src", "intro": "id.sub2@text", "name": "h1@text", "tocUrl": "text.点击阅读@href"}, "ruleContent": {"content": "id.bookContent@p@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.a.2@text", "bookList": "id.tbody_list@tr", "bookUrl": "tag.a.0@href##/gbk/mgyqw/(\\d+).html##http://m.mgyqw.com/gbk/mgyqw/$1.html", "kind": "class.roomnsort@text&&class.roomhero@text&&class.roomheroine@text", "lastChapter": "tag.a.1@text", "name": "tag.a.0@text"}, "ruleToc": {"chapterList": "+class.list_li@li@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "/modules/article/search.php?searchtype=0&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍒 玫瑰言情网",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.mgyqw.com",
+    "customOrder": -31065,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1602877599055,
+    "ruleBookInfo": {
+      "coverUrl": "class.zp@img@src",
+      "intro": "id.sub2@text",
+      "name": "h1@text",
+      "tocUrl": "text.点击阅读@href"
+    },
+    "ruleContent": {
+      "content": "id.bookContent@p@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.a.2@text",
+      "bookList": "id.tbody_list@tr",
+      "bookUrl": "tag.a.0@href##/gbk/mgyqw/(\\d+).html##http://m.mgyqw.com/gbk/mgyqw/$1.html",
+      "kind": "class.roomnsort@text&&class.roomhero@text&&class.roomheroine@text",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "+class.list_li@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "/modules/article/search.php?searchtype=0&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

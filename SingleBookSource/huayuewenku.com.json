@@ -1,1 +1,48 @@
-[{"bookSourceComment": "error:failed to connect to www.huayuewenku.com/47.91.170.222 (port 80) from /192.168.0.103 (port 43692) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n", "bookSourceGroup": "我的书源,刘备书源", "bookSourceName": "🚬 花月文库[仅发现]", "bookSourceType": 0, "bookSourceUrl": "http://www.huayuewenku.com", "customOrder": 24599, "enabled": true, "enabledExplore": true, "exploreUrl": "经典::/jingdian/<,index_{{page}}.html>\n现代::/xiandai/<,index_{{page}}.html>\n古代::/gudai/<,index_{{page}}.html>\n穿越::/chuanyue/<,index_{{page}}.html>\n GL ::/gl/<,index_{{page}}.html>\n同人::/tongren/<,index_{{page}}.html>\n辣文::/lawen/<,index_{{page}}.html>\n甜宠::/tianchong/<,index_{{page}}.html>", "lastUpdateTime": 1602936953007, "ruleBookInfo": {"author": "class.author@text##作者.", "init": "", "kind": "class.container.1@tag.a.1@text", "lastChapter": "tag.option.-1@text", "name": "tag.h1@text##.*\\《|\\》.*|花月文库\\s", "wordCount": "class.time@text##本书."}, "ruleContent": {"content": "class.entry-content@html", "imageStyle": "0"}, "ruleExplore": {"author": "tag.span.0@text##作者.|时间.", "bookList": "class.content-list@tag.li", "bookUrl": "tag.a.0@href", "intro": "tag.p.0@textNodes##.*简介.|.*文案.", "kind": "class.post-tags@tag.a@text##标签.", "name": "tag.a.0@text##.*\\《|\\》.*|花月文库\\s", "wordCount": ""}, "ruleSearch": {"author": "tag.span.1@text##作者.", "bookList": "class.content-list@tag.li", "bookUrl": "tag.a.0@href", "intro": "tag.p.0@textNodes##.*简介.|.*文案.", "kind": "tag.span.0@text&&class.post-tags@tag.a@text##标签.|时间.", "name": "tag.a.0@text##.*\\《|\\》.*|花月文库\\s"}, "ruleToc": {"chapterList": "tag.select@tag.option||tag.h1", "chapterName": "text\n<js>\nif(result.length>20){result=result.substr(0,16);}\nelse{result}\n</js>", "chapterUrl": "value||class.entry-content@html"}, "searchUrl": "/e/search/index.php,{\n\"charset\": \"utf-8\",\n\"method\": \"POST\",\n\"body\": \"keyboard={{key}}&show=title&tempid=1&tbname=news&mid=1&dopost=search\",\n\"headers\": {\"User-Agent\": \"Mozilla/5.0 (Linux; Android ;) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.96 Mobile Safari/537.36\"}\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:failed to connect to www.huayuewenku.com/47.91.170.222 (port 80) from /192.168.0.103 (port 43692) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "我的书源,刘备书源",
+    "bookSourceName": "🚬 花月文库[仅发现]",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.huayuewenku.com",
+    "customOrder": 24887,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "经典::/jingdian/<,index_{{page}}.html>\n现代::/xiandai/<,index_{{page}}.html>\n古代::/gudai/<,index_{{page}}.html>\n穿越::/chuanyue/<,index_{{page}}.html>\n GL ::/gl/<,index_{{page}}.html>\n同人::/tongren/<,index_{{page}}.html>\n辣文::/lawen/<,index_{{page}}.html>\n甜宠::/tianchong/<,index_{{page}}.html>",
+    "lastUpdateTime": 1602936953007,
+    "ruleBookInfo": {
+      "author": "class.author@text##作者.",
+      "init": "",
+      "kind": "class.container.1@tag.a.1@text",
+      "lastChapter": "tag.option.-1@text",
+      "name": "tag.h1@text##.*\\《|\\》.*|花月文库\\s",
+      "wordCount": "class.time@text##本书."
+    },
+    "ruleContent": {
+      "content": "class.entry-content@html",
+      "imageStyle": "0"
+    },
+    "ruleExplore": {
+      "author": "tag.span.0@text##作者.|时间.",
+      "bookList": "class.content-list@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "intro": "tag.p.0@textNodes##.*简介.|.*文案.",
+      "kind": "class.post-tags@tag.a@text##标签.",
+      "name": "tag.a.0@text##.*\\《|\\》.*|花月文库\\s",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "tag.span.1@text##作者.",
+      "bookList": "class.content-list@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "intro": "tag.p.0@textNodes##.*简介.|.*文案.",
+      "kind": "tag.span.0@text&&class.post-tags@tag.a@text##标签.|时间.",
+      "name": "tag.a.0@text##.*\\《|\\》.*|花月文库\\s"
+    },
+    "ruleToc": {
+      "chapterList": "tag.select@tag.option||tag.h1",
+      "chapterName": "text\n<js>\nif(result.length>20){result=result.substr(0,16);}\nelse{result}\n</js>",
+      "chapterUrl": "value||class.entry-content@html"
+    },
+    "searchUrl": "/e/search/index.php,{\n\"charset\": \"utf-8\",\n\"method\": \"POST\",\n\"body\": \"keyboard={{key}}&show=title&tempid=1&tbname=news&mid=1&dopost=search\",\n\"headers\": {\"User-Agent\": \"Mozilla/5.0 (Linux; Android ;) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.96 Mobile Safari/537.36\"}\n}",
+    "weight": 0
+  }]

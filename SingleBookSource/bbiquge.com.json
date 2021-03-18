@@ -1,1 +1,37 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "🔰 笔趣阁1", "bookSourceType": 0, "bookSourceUrl": "http://www.bbiquge.com", "customOrder": -114602, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1605177243121, "ruleBookInfo": {"author": "id.info.0@tag.p.0@tag.a.0@text", "coverUrl": "id.fmimg@tag.img.0@src", "intro": "id.intro.0@textNodes", "name": "id.info.0@tag.h1.0@text"}, "ruleContent": {"content": "id.content@textNodes##一.*读！", "replaceRegex": "##(.|\\n)*阅读请访问|....未完待续(.|\\n)*|.*最新章节！"}, "ruleExplore": {}, "ruleSearch": {"author": "class.s4.0@text", "bookList": "class.novelslistss@tag.li", "bookUrl": "class.s2.0@tag.a.0@href", "kind": "class.s1.0@text", "lastChapter": "class.s3.0@tag.a.0@text", "name": "class.s2.0@tag.a.0@text"}, "ruleToc": {"chapterList": "id.list@tag.dd!%%", "chapterName": "tag.a.0@text", "chapterUrl": "tag.a.0@href"}, "searchUrl": "http://www.bbiquge.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "🔰 笔趣阁1",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.bbiquge.com",
+    "customOrder": -114602,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1605177243121,
+    "ruleBookInfo": {
+      "author": "id.info.0@tag.p.0@tag.a.0@text",
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "intro": "id.intro.0@textNodes",
+      "name": "id.info.0@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes##一.*读！",
+      "replaceRegex": "##(.|\\n)*阅读请访问|....未完待续(.|\\n)*|.*最新章节！"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.s4.0@text",
+      "bookList": "class.novelslistss@tag.li",
+      "bookUrl": "class.s2.0@tag.a.0@href",
+      "kind": "class.s1.0@text",
+      "lastChapter": "class.s3.0@tag.a.0@text",
+      "name": "class.s2.0@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "id.list@tag.dd!%%",
+      "chapterName": "tag.a.0@text",
+      "chapterUrl": "tag.a.0@href"
+    },
+    "searchUrl": "http://www.bbiquge.com/modules/article/search.php?searchkey={{key}}&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

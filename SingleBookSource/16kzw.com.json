@@ -1,1 +1,47 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🍺 16k中文", "bookSourceType": 0, "bookSourceUrl": "https://m.16kzw.com", "customOrder": -116883, "enabled": true, "enabledExplore": true, "exploreUrl": "奇幻玄幻::https://m.16kzw.com/xuanhuan/<,{{page}}.html>\n武侠仙侠::/wuxia/<,{{page}}.html>\n都市生活::/dushi/<,{{page}}.html>\n历史军事::/lishi/<,{{page}}.html>\n游戏竞技::/youxi/<,{{page}}.html>\n科幻未来::/kehuan/<,{{page}}.html>\n恐怖悬疑::/xuanyi/<,{{page}}.html>\n二次元::/erciyuan/{{page}}.html\n经典网文::/jingdian/<,{{page}}.html>\n古代言情::/guyan/<,{{page}}.html>\n现代言情::/xianyan/<,{{page}}.html>\n幻想奇缘::/huanqing/<,{{page}}.html>\n青春校园::/qingchun/<,{{page}}.html>\n网络情缘::/wangluo/<,{{page}}.html>\n科幻空间::/mmkehuan/<,{{page}}.html>\n鬼怪灵异::/lingyi/<,{{page}}.html>\nN次元::/Nciyuan/<,{{page}}.html>\n言情美文::/yanqing/<,{{page}}.html>", "lastUpdateTime": 1604164745032, "ruleBookInfo": {"author": "class.author@tag.a@text", "coverUrl": "img@src", "init": "class.detail", "kind": "class.layui-btn layui-btn-xs layui-btn-radius@text", "lastChapter": "class.new@tag.a@text", "name": "class.name@text", "wordCount": "tag.p.2@tag.span.1@text"}, "ruleContent": {"content": "class.content@html", "replaceRegex": "##喜欢.*请大家收藏(.|\\n)*"}, "ruleExplore": {"name": ""}, "ruleSearch": {"author": "class.data.0@tag.a@text", "bookList": "tag.body@tag.ul@tag.li", "bookUrl": "class.bookname@tag.a@href", "coverUrl": "img@src", "intro": "class.intro@text", "kind": "class.data@tag.span.0@text", "lastChapter": "tag.p.3@tag.a@text", "name": "tag.p.0@tag.a@text", "wordCount": "class.data@tag.span.1@text"}, "ruleToc": {"chapterList": "class.read@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "nextTocUrl": "text.下一页@href"}, "searchUrl": "https://m.16kzw.com/search.html,{\"method\":\"POST\";\"body\":\"searchkey={{key}}\"}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍺 16k中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.16kzw.com",
+    "customOrder": -116883,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "奇幻玄幻::https://m.16kzw.com/xuanhuan/<,{{page}}.html>\n武侠仙侠::/wuxia/<,{{page}}.html>\n都市生活::/dushi/<,{{page}}.html>\n历史军事::/lishi/<,{{page}}.html>\n游戏竞技::/youxi/<,{{page}}.html>\n科幻未来::/kehuan/<,{{page}}.html>\n恐怖悬疑::/xuanyi/<,{{page}}.html>\n二次元::/erciyuan/{{page}}.html\n经典网文::/jingdian/<,{{page}}.html>\n古代言情::/guyan/<,{{page}}.html>\n现代言情::/xianyan/<,{{page}}.html>\n幻想奇缘::/huanqing/<,{{page}}.html>\n青春校园::/qingchun/<,{{page}}.html>\n网络情缘::/wangluo/<,{{page}}.html>\n科幻空间::/mmkehuan/<,{{page}}.html>\n鬼怪灵异::/lingyi/<,{{page}}.html>\nN次元::/Nciyuan/<,{{page}}.html>\n言情美文::/yanqing/<,{{page}}.html>",
+    "lastUpdateTime": 1604164745032,
+    "ruleBookInfo": {
+      "author": "class.author@tag.a@text",
+      "coverUrl": "img@src",
+      "init": "class.detail",
+      "kind": "class.layui-btn layui-btn-xs layui-btn-radius@text",
+      "lastChapter": "class.new@tag.a@text",
+      "name": "class.name@text",
+      "wordCount": "tag.p.2@tag.span.1@text"
+    },
+    "ruleContent": {
+      "content": "class.content@html",
+      "replaceRegex": "##喜欢.*请大家收藏(.|\\n)*"
+    },
+    "ruleExplore": {
+      "name": ""
+    },
+    "ruleSearch": {
+      "author": "class.data.0@tag.a@text",
+      "bookList": "tag.body@tag.ul@tag.li",
+      "bookUrl": "class.bookname@tag.a@href",
+      "coverUrl": "img@src",
+      "intro": "class.intro@text",
+      "kind": "class.data@tag.span.0@text",
+      "lastChapter": "tag.p.3@tag.a@text",
+      "name": "tag.p.0@tag.a@text",
+      "wordCount": "class.data@tag.span.1@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.read@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "text.下一页@href"
+    },
+    "searchUrl": "https://m.16kzw.com/search.html,{\"method\":\"POST\";\"body\":\"searchkey={{key}}\"}",
+    "weight": 0
+  }]

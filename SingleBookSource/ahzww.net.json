@@ -1,1 +1,41 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "爱好中文", "bookSourceType": 0, "bookSourceUrl": "http://www.ahzww.net", "bookUrlPattern": "", "customOrder": -37879, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻魔法::http://www.ahzww.net/xuanhuan_{{page}}.html\n仙侠修真::http://www.ahzww.net/xianxia_{{page}}.html\n都市言情::http://www.ahzww.net/dushi_{{page}}.html\n历史军事::http://www.ahzww.net/lishi_{{page}}.html\n网游小说::http://www.ahzww.net/wangyou_{{page}}.html\n科幻小说::http://www.ahzww.net/kehuan_{{page}}.html\n灵异小说::http://www.ahzww.net/lingyi_{{page}}.html\n其它类型::http://www.ahzww.net/qita_{{page}}.html", "lastUpdateTime": 1606367768320, "loginUrl": "", "ruleBookInfo": {"author": "class.l2@tag.span.0@text", "coverUrl": "class.l@tag.img@src", "intro": "class.p3@text", "lastChapter": "@css:[property=og:novel:lastest_chapter_name]@content", "name": "class.p1@tag.h1@text"}, "ruleContent": {"content": "id.content@html##https://m.ahzww.net|爱好中文网"}, "ruleExplore": {}, "ruleSearch": {"author": "class.author@tag.a.0@text||class.p2@tag.span.0@text##作者：", "bookList": "class.searchresult lists@tag.li||class.listcon@li", "bookUrl": "class.d1@tag.a.0@href||class.articlename@a@href", "coverUrl": "img@data-original||tag.a@href##.*/(\\d+)/(\\d+)/##http://www.ahzww.net/files/article/image/$1/$2/$2s.jpg", "kind": "class.sortname@text||class.articlename@span@text##\\[\\s*|]", "lastChapter": "class.lastchapter@tag.a.0@text", "name": "class.d1@tag.a.0@text||class.articlename@a@text"}, "ruleToc": {"chapterList": "class.chapterlist@tag.li@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "http://www.ahzww.net/modules/article/search.php?searchkey={{key}}&t_btnsearch=&page={{page}},<\n  \"charset\": \"gbk\"\n>", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "爱好中文",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.ahzww.net",
+    "bookUrlPattern": "",
+    "customOrder": -37879,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻魔法::http://www.ahzww.net/xuanhuan_{{page}}.html\n仙侠修真::http://www.ahzww.net/xianxia_{{page}}.html\n都市言情::http://www.ahzww.net/dushi_{{page}}.html\n历史军事::http://www.ahzww.net/lishi_{{page}}.html\n网游小说::http://www.ahzww.net/wangyou_{{page}}.html\n科幻小说::http://www.ahzww.net/kehuan_{{page}}.html\n灵异小说::http://www.ahzww.net/lingyi_{{page}}.html\n其它类型::http://www.ahzww.net/qita_{{page}}.html",
+    "lastUpdateTime": 1606367768320,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.l2@tag.span.0@text",
+      "coverUrl": "class.l@tag.img@src",
+      "intro": "class.p3@text",
+      "lastChapter": "@css:[property=og:novel:lastest_chapter_name]@content",
+      "name": "class.p1@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.content@html##https://m.ahzww.net|爱好中文网"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author@tag.a.0@text||class.p2@tag.span.0@text##作者：",
+      "bookList": "class.searchresult lists@tag.li||class.listcon@li",
+      "bookUrl": "class.d1@tag.a.0@href||class.articlename@a@href",
+      "coverUrl": "img@data-original||tag.a@href##.*/(\\d+)/(\\d+)/##http://www.ahzww.net/files/article/image/$1/$2/$2s.jpg",
+      "kind": "class.sortname@text||class.articlename@span@text##\\[\\s*|]",
+      "lastChapter": "class.lastchapter@tag.a.0@text",
+      "name": "class.d1@tag.a.0@text||class.articlename@a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapterlist@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "http://www.ahzww.net/modules/article/search.php?searchkey={{key}}&t_btnsearch=&page={{page}},<\n  \"charset\": \"gbk\"\n>",
+    "weight": 0
+  }]

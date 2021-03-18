@@ -1,1 +1,38 @@
-[{"bookSourceComment": "error:搜索内容为空并且没有发现\n", "bookSourceGroup": "我的书源,经典盗版", "bookSourceName": "🎉 笔趣阁㊳", "bookSourceType": 0, "bookSourceUrl": "https://www.biqugek.com", "bookUrlPattern": "", "customOrder": -31932, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.pic@img@src", "intro": "class.bookinfo_intro@text##您要是觉得《.*》还不错的话.*$|.+简介.", "lastChapter": "class.chapters@tag.li.-1@a@text"}, "ruleContent": {"content": "id.htmlContent@textNodes##手机用户请浏览.*质的阅读体验|天才壹秒記住.*為您提供精彩小說閱讀|天才壹秒記住笔趣阁小说网『|.*』，為您提供精彩小說閱讀|本书由掌阅文化.*发行"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.p.2@text", "bookList": "class.toplist@li", "bookUrl": "tag.a.0@href", "coverUrl": "tag.a.0@href##.*/xs/(\\d+)/(\\d+)/##https://www.biqugek.com/files/article/image/$1/$2/$2s.jpg", "kind": "tag.p.4@text", "lastChapter": "tag.a.1@text", "name": "tag.a.0@text"}, "ruleToc": {"chapterList": "class.chapters@li@a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.biqugek.com/modules/article/search.php?action=login&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": "我的书源,经典盗版",
+    "bookSourceName": "🎉 笔趣阁㊳",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.biqugek.com",
+    "bookUrlPattern": "",
+    "customOrder": -31932,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.pic@img@src",
+      "intro": "class.bookinfo_intro@text##您要是觉得《.*》还不错的话.*$|.+简介.",
+      "lastChapter": "class.chapters@tag.li.-1@a@text"
+    },
+    "ruleContent": {
+      "content": "id.htmlContent@textNodes##手机用户请浏览.*质的阅读体验|天才壹秒記住.*為您提供精彩小說閱讀|天才壹秒記住笔趣阁小说网『|.*』，為您提供精彩小說閱讀|本书由掌阅文化.*发行"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.p.2@text",
+      "bookList": "class.toplist@li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.a.0@href##.*/xs/(\\d+)/(\\d+)/##https://www.biqugek.com/files/article/image/$1/$2/$2s.jpg",
+      "kind": "tag.p.4@text",
+      "lastChapter": "tag.a.1@text",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.chapters@li@a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.biqugek.com/modules/article/search.php?action=login&searchkey={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

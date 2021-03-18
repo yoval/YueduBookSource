@@ -1,1 +1,38 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "💵 书旗小说", "bookSourceType": 0, "bookSourceUrl": "https://read.xiaoshuo1-sm.com", "bookUrlPattern": "", "customOrder": -117396, "enabled": true, "enabledExplore": true, "exploreUrl": "精品畅销::http://read.xiaoshuo1-sm.com/novel/i.php?do=is_novelrank&p=1&page=1&size=10&onlyCpBooks=1&gender=1&type=1&shuqi_h5=&_=1551149300159\n狂热点击::http://read.xiaoshuo1-sm.com/novel/i.php?do=is_novelrank&p=1&page={{page}}&size=10&onlyCpBooks=1&gender=1&type=2&shuqi_h5=&_=1551149154666\n新书潜力::http://read.xiaoshuo1-sm.com/novel/i.php?do=is_novelrank&p=1&page={{page}}&size=10&onlyCpBooks=1&gender=1&type=6&shuqi_h5=&_=1551149303236\n大神力作::http://read.xiaoshuo1-sm.com/novel/i.php?do=is_novelrank&p=1&page={{page}}&size=10&onlyCpBooks=1&gender=1&type=8&shuqi_h5=&_=1551149305023\n经典完结::http://read.xiaoshuo1-sm.com/novel/i.php?do=is_novelrank&p=1&page={{page}}&size=10&onlyCpBooks=1&gender=1&type=5&shuqi_h5=&_=1551149307053\n武侠::https://read.xiaoshuo1-sm.com/novel/i.php?do=is_caterank&p=1&page={{page}}&words=&shuqi_h5=&onlyCpBooks=1&firstCate=武侠&sort=monthHot&_=1551148512918\n仙侠::https://read.xiaoshuo1-sm.com/novel/i.php?do=is_caterank&p=1&page={{page}}&words=&shuqi_h5=&onlyCpBooks=1&firstCate=仙侠&sort=monthHot&_=1551148512918\n玄幻::https://read.xiaoshuo1-sm.com/novel/i.php?do=is_caterank&p=1&page={{page}}&words=&shuqi_h5=&onlyCpBooks=1&firstCate=玄幻&sort=monthHot&_=1551148512918\n奇幻::https://read.xiaoshuo1-sm.com/novel/i.php?do=is_caterank&p=1&page={{page}}&words=&shuqi_h5=&onlyCpBooks=1&firstCate=奇幻&sort=monthHot&_=1551148512918\n科幻::https://read.xiaoshuo1-sm.com/novel/i.php?do=is_caterank&p=1&page={{page}}&words=&shuqi_h5=&onlyCpBooks=1&firstCate=科幻&sort=monthHot&_=1551148512918\n都市::https://read.xiaoshuo1-sm.com/novel/i.php?do=is_caterank&p=1&page={{page}}&words=&shuqi_h5=&onlyCpBooks=1&firstCate=都市&sort=monthHot&_=1551148512918\n灵异::https://read.xiaoshuo1-sm.com/novel/i.php?do=is_caterank&p=1&page={{page}}&words=&shuqi_h5=&onlyCpBooks=1&firstCate=灵异&sort=monthHot&_=1551148512918\n历史::https://read.xiaoshuo1-sm.com/novel/i.php?do=is_caterank&p=1&page={{page}}&words=&shuqi_h5=&onlyCpBooks=1&firstCate=历史&sort=monthHot&_=1551148512918\n游戏::https://read.xiaoshuo1-sm.com/novel/i.php?do=is_caterank&p=1&page={{page}}&words=&shuqi_h5=&onlyCpBooks=1&firstCate=游戏&sort=monthHot&_=1551148512918\n竞技::https://read.xiaoshuo1-sm.com/novel/i.php?do=is_caterank&p=1&page={{page}}&words=&shuqi_h5=&onlyCpBooks=1&firstCate=竞技&sort=monthHot&_=1551148512918", "lastUpdateTime": 1607509530235, "loginUrl": "", "ruleBookInfo": {"intro": "@JSon:$.desc", "tocUrl": "tag.a@href"}, "ruleContent": {"content": "html"}, "ruleExplore": {}, "ruleSearch": {"author": "@JSon:$.author", "bookList": "@JSon:$.data", "bookUrl": "@JSon:http://host805151941.s831.pppf.com.cn/shuqi/getlist.php?bid={$.bid}@put:{bid:$.bid}", "coverUrl": "@JSon:$.cover", "kind": "@JSon:$.tags", "lastChapter": "@JSon:$.desc", "name": "@JSon:$.title"}, "ruleToc": {"chapterList": "@JSon:$..volumeList[*]", "chapterName": "@JSon:$.chapterName", "chapterUrl": "@JSon:http://host805151941.s831.pppf.com.cn/shuqi/content.php?bid=@get:{bid}&cid={$.chapterId}"}, "searchUrl": "http://read.xiaoshuo1-sm.com/novel/i.php?do=is_serchpay&page={{page}}&size=10&q={{key}}&filterMigu=1&p=3&shuqi_h5=&_=1551084763424", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "书旗小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://read.xiaoshuo1-sm.com",
+    "bookUrlPattern": "",
+    "customOrder": -117396,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "精品畅销::http://read.xiaoshuo1-sm.com/novel/i.php?do=is_novelrank&p=1&page=1&size=10&onlyCpBooks=1&gender=1&type=1&shuqi_h5=&_=1551149300159\n狂热点击::http://read.xiaoshuo1-sm.com/novel/i.php?do=is_novelrank&p=1&page={{page}}&size=10&onlyCpBooks=1&gender=1&type=2&shuqi_h5=&_=1551149154666\n新书潜力::http://read.xiaoshuo1-sm.com/novel/i.php?do=is_novelrank&p=1&page={{page}}&size=10&onlyCpBooks=1&gender=1&type=6&shuqi_h5=&_=1551149303236\n大神力作::http://read.xiaoshuo1-sm.com/novel/i.php?do=is_novelrank&p=1&page={{page}}&size=10&onlyCpBooks=1&gender=1&type=8&shuqi_h5=&_=1551149305023\n经典完结::http://read.xiaoshuo1-sm.com/novel/i.php?do=is_novelrank&p=1&page={{page}}&size=10&onlyCpBooks=1&gender=1&type=5&shuqi_h5=&_=1551149307053\n武侠::https://read.xiaoshuo1-sm.com/novel/i.php?do=is_caterank&p=1&page={{page}}&words=&shuqi_h5=&onlyCpBooks=1&firstCate=武侠&sort=monthHot&_=1551148512918\n仙侠::https://read.xiaoshuo1-sm.com/novel/i.php?do=is_caterank&p=1&page={{page}}&words=&shuqi_h5=&onlyCpBooks=1&firstCate=仙侠&sort=monthHot&_=1551148512918\n玄幻::https://read.xiaoshuo1-sm.com/novel/i.php?do=is_caterank&p=1&page={{page}}&words=&shuqi_h5=&onlyCpBooks=1&firstCate=玄幻&sort=monthHot&_=1551148512918\n奇幻::https://read.xiaoshuo1-sm.com/novel/i.php?do=is_caterank&p=1&page={{page}}&words=&shuqi_h5=&onlyCpBooks=1&firstCate=奇幻&sort=monthHot&_=1551148512918\n科幻::https://read.xiaoshuo1-sm.com/novel/i.php?do=is_caterank&p=1&page={{page}}&words=&shuqi_h5=&onlyCpBooks=1&firstCate=科幻&sort=monthHot&_=1551148512918\n都市::https://read.xiaoshuo1-sm.com/novel/i.php?do=is_caterank&p=1&page={{page}}&words=&shuqi_h5=&onlyCpBooks=1&firstCate=都市&sort=monthHot&_=1551148512918\n灵异::https://read.xiaoshuo1-sm.com/novel/i.php?do=is_caterank&p=1&page={{page}}&words=&shuqi_h5=&onlyCpBooks=1&firstCate=灵异&sort=monthHot&_=1551148512918\n历史::https://read.xiaoshuo1-sm.com/novel/i.php?do=is_caterank&p=1&page={{page}}&words=&shuqi_h5=&onlyCpBooks=1&firstCate=历史&sort=monthHot&_=1551148512918\n游戏::https://read.xiaoshuo1-sm.com/novel/i.php?do=is_caterank&p=1&page={{page}}&words=&shuqi_h5=&onlyCpBooks=1&firstCate=游戏&sort=monthHot&_=1551148512918\n竞技::https://read.xiaoshuo1-sm.com/novel/i.php?do=is_caterank&p=1&page={{page}}&words=&shuqi_h5=&onlyCpBooks=1&firstCate=竞技&sort=monthHot&_=1551148512918",
+    "lastUpdateTime": 1615879571493,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "@JSon:$.desc",
+      "tocUrl": "tag.a@href"
+    },
+    "ruleContent": {
+      "content": "html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "@JSon:$.author",
+      "bookList": "@JSon:$.data",
+      "bookUrl": "@JSon:http://host805151941.s831.pppf.com.cn/shuqi/getlist.php?bid={$.bid}@put:{bid:$.bid}",
+      "coverUrl": "@JSon:$.cover",
+      "kind": "@JSon:$.tags",
+      "lastChapter": "@JSon:$.desc",
+      "name": "@JSon:$.title"
+    },
+    "ruleToc": {
+      "chapterList": "@JSon:$..volumeList[*]",
+      "chapterName": "@JSon:$.chapterName",
+      "chapterUrl": "@JSon:http://host805151941.s831.pppf.com.cn/shuqi/content.php?bid=@get:{bid}&cid={$.chapterId}"
+    },
+    "searchUrl": "http://read.xiaoshuo1-sm.com/novel/i.php?do=is_serchpay&page={{page}}&size=10&q={{key}}&filterMigu=1&p=3&shuqi_h5=&_=1551084763424",
+    "weight": 0
+  }]

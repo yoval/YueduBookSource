@@ -1,1 +1,66 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 努努书坊", "bookSourceType": 0, "bookSourceUrl": "http://www.huaxiaci.com", "bookUrlPattern": "", "customOrder": -115307, "enabled": true, "enabledExplore": true, "exploreUrl": "", "header": "", "lastUpdateTime": 1612774656367, "loginUrl": "", "ruleBookInfo": {"author": "class.red.0@text", "coverUrl": "tag.img@src", "init": "", "intro": "class.bookintro@text", "kind": "class.breadcrumb@tag.li.1@text", "lastChapter": "class.bookinfo@tag.p.2@text##最新章节：", "name": "class.booktitle@text", "tocUrl": "", "wordCount": "class.blue.0@text"}, "ruleContent": {"content": "class.readcontent@html", "imageStyle": "0", "nextContentUrl": "id.linkNext@href", "replaceRegex": "##返回顶部", "sourceRegex": "", "webJs": ""}, "ruleExplore": {"author": "", "bookList": "", "bookUrl": "", "coverUrl": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "wordCount": ""}, "ruleSearch": {"author": "class.author.0@text##作者：", "bookList": "class.bookbox", "bookUrl": "class.bookname@tag.a@href", "coverUrl": "", "intro": "class.update@text##简介：", "kind": "", "lastChapter": "class.cat@tag.a@text", "name": "class.bookname@tag.a@text", "wordCount": ""}, "ruleToc": {"chapterList": "id.list-chapterAll@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "isVip": "", "nextTocUrl": "", "updateTime": ""}, "searchUrl": "/search,{\n    \"method\":\"POST\",\n    \"body\":\"searchkey={{key}}&submit=\",\n     \"headers\": \"{referer:\\\"http://www.huaxiaci.com/search\\\"}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 努努书坊",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.huaxiaci.com",
+    "bookUrlPattern": "",
+    "customOrder": -115307,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1612774656367,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.red.0@text",
+      "coverUrl": "tag.img@src",
+      "init": "",
+      "intro": "class.bookintro@text",
+      "kind": "class.breadcrumb@tag.li.1@text",
+      "lastChapter": "class.bookinfo@tag.p.2@text##最新章节：",
+      "name": "class.booktitle@text",
+      "tocUrl": "",
+      "wordCount": "class.blue.0@text"
+    },
+    "ruleContent": {
+      "content": "class.readcontent@html",
+      "imageStyle": "0",
+      "nextContentUrl": "id.linkNext@href",
+      "replaceRegex": "##返回顶部",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "class.author.0@text##作者：",
+      "bookList": "class.bookbox",
+      "bookUrl": "class.bookname@tag.a@href",
+      "coverUrl": "",
+      "intro": "class.update@text##简介：",
+      "kind": "",
+      "lastChapter": "class.cat@tag.a@text",
+      "name": "class.bookname@tag.a@text",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": "id.list-chapterAll@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": ""
+    },
+    "searchUrl": "/search,{\n    \"method\":\"POST\",\n    \"body\":\"searchkey={{key}}&submit=\",\n     \"headers\": \"{referer:\\\"http://www.huaxiaci.com/search\\\"}\"\n}",
+    "weight": 0
+  }]

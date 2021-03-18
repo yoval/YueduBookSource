@@ -1,1 +1,47 @@
-[{"bookSourceComment": "error:failed to connect to m.qkantie.com/202.53.137.209 (port 443) from /192.168.0.103 (port 49052) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n", "bookSourceGroup": "我的书源", "bookSourceName": "🍑 去看贴", "bookSourceType": 0, "bookSourceUrl": "https://m.qkantie.com", "bookUrlPattern": "", "customOrder": -31170, "enabled": true, "enabledExplore": true, "exploreUrl": "❀       耽美       ❀::https://m.qkantie.com/list/3/{{page}}.html", "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36\"\n}", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": "class.book-info-cover@tag.img@src", "intro": "class.intro-content_@text", "tocUrl": "@js:\n\n\nif(result.match(/location\\.href=\".*?-(.+?)\\.html\"/)){id=result.match(/location\\.href=\".*?-(.+?)\\.html\"/)[1];\nresult=\"https://m.qkantie.com/mulu/\"+id+\".html\"\n}\n\nif(baseUrl.match(/info/)){\nid=baseUrl.match(/https:\\/\\/m.qkantie.com\\/info\\/.*?-(.+?).html/)[1];\nresult=\"https://m.qkantie.com/mulu/\"+id+\".html\"\n}\n\nif(baseUrl.match(/books/)){result=baseUrl}\n"}, "ruleContent": {"content": "@js:a=result.match(/initTxt\\(\"([^\"]+)\".*?\\)/)[1];\nresult=String(String(java.ajax(a)).replace(/\",\"replace\"[\\s\\S]+/g,\"\").replace(/_txt_call\\(\\{\"content\":\"\u0002/,\"\").replace(/([\\d\\w]{4})./g,\"%u$1\"));\nresult=result.replace(/[;,]%u([0-9]+)/g,\"$1\").replace(/;*\\\\n./g,\"\\n\").replace(/;*\\\\/g,\"\").replace(/%u3000/g,\"\");\nresult=unescape(result).replace(/;*%u/g,\"\").replace(/;/g,\"\")"}, "ruleExplore": {"author": "##class=\"gray\">\\((.*?)\\)##$1###", "bookList": "class.row book-list@li", "bookUrl": "tag.a.0@href", "intro": "tag.p.1@text##最新章节：.*?，", "lastChapter": "##最新章节：(.*?)，##$1###", "name": "##<p>\\d+\\.([^<]+) <span##$1###"}, "ruleSearch": {"author": "tag.p.0@tag.a.0@text##作者：", "bookList": "class.list-item", "bookUrl": "class.item-text@tag.a@href", "intro": "class.weui-media-box__desc@text", "lastChapter": "tag.p.0@tag.a.1@text", "name": "tag.a.0@text##^\\d+\\."}, "ruleToc": {"chapterList": "class.chapter-list@li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href", "nextTocUrl": "@js:\nif(result.match(/下一页/)){\np=result.match(/for\\(var i=\\d+;i<=(\\d+)/)[1];\nlist=[];\nfor(i=1;i<=p;i++){\nlist.push(baseUrl.replace(/\\.html/g,\"_\"+i+\".html\"))\n}\nlist}"}, "searchUrl": "/search/?type=&key={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:failed to connect to m.qkantie.com/202.53.137.209 (port 443) from /192.168.0.103 (port 49052) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🍑 去看贴",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.qkantie.com",
+    "bookUrlPattern": "",
+    "customOrder": -31170,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "❀       耽美       ❀::https://m.qkantie.com/list/3/{{page}}.html",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0; JKM-AL00b Build/HUAWEIJKM-AL00b; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/66.0.3359.126 MQQBrowser/6.2 TBS/044807 Mobile Safari/537.36\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "class.book-info-cover@tag.img@src",
+      "intro": "class.intro-content_@text",
+      "tocUrl": "@js:\n\n\nif(result.match(/location\\.href=\".*?-(.+?)\\.html\"/)){id=result.match(/location\\.href=\".*?-(.+?)\\.html\"/)[1];\nresult=\"https://m.qkantie.com/mulu/\"+id+\".html\"\n}\n\nif(baseUrl.match(/info/)){\nid=baseUrl.match(/https:\\/\\/m.qkantie.com\\/info\\/.*?-(.+?).html/)[1];\nresult=\"https://m.qkantie.com/mulu/\"+id+\".html\"\n}\n\nif(baseUrl.match(/books/)){result=baseUrl}\n"
+    },
+    "ruleContent": {
+      "content": "@js:a=result.match(/initTxt\\(\"([^\"]+)\".*?\\)/)[1];\nresult=String(String(java.ajax(a)).replace(/\",\"replace\"[\\s\\S]+/g,\"\").replace(/_txt_call\\(\\{\"content\":\"\u0002/,\"\").replace(/([\\d\\w]{4})./g,\"%u$1\"));\nresult=result.replace(/[;,]%u([0-9]+)/g,\"$1\").replace(/;*\\\\n./g,\"\\n\").replace(/;*\\\\/g,\"\").replace(/%u3000/g,\"\");\nresult=unescape(result).replace(/;*%u/g,\"\").replace(/;/g,\"\")"
+    },
+    "ruleExplore": {
+      "author": "##class=\"gray\">\\((.*?)\\)##$1###",
+      "bookList": "class.row book-list@li",
+      "bookUrl": "tag.a.0@href",
+      "intro": "tag.p.1@text##最新章节：.*?，",
+      "lastChapter": "##最新章节：(.*?)，##$1###",
+      "name": "##<p>\\d+\\.([^<]+) <span##$1###"
+    },
+    "ruleSearch": {
+      "author": "tag.p.0@tag.a.0@text##作者：",
+      "bookList": "class.list-item",
+      "bookUrl": "class.item-text@tag.a@href",
+      "intro": "class.weui-media-box__desc@text",
+      "lastChapter": "tag.p.0@tag.a.1@text",
+      "name": "tag.a.0@text##^\\d+\\."
+    },
+    "ruleToc": {
+      "chapterList": "class.chapter-list@li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href",
+      "nextTocUrl": "@js:\nif(result.match(/下一页/)){\np=result.match(/for\\(var i=\\d+;i<=(\\d+)/)[1];\nlist=[];\nfor(i=1;i<=p;i++){\nlist.push(baseUrl.replace(/\\.html/g,\"_\"+i+\".html\"))\n}\nlist}"
+    },
+    "searchUrl": "/search/?type=&key={{key}}",
+    "weight": 0
+  }]

@@ -1,1 +1,41 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "爱思英语🔤", "bookSourceType": 0, "bookSourceUrl": "https?://www.24en.com", "bookUrlPattern": "", "customOrder": 7, "enabled": true, "enabledExplore": true, "exploreUrl": "首页::https://www.24en.com/novel/\n经典小说::https://www.24en.com/novel/classics/index_{{page}}.html\n名人传记::https://www.24en.com/novel/biography/index_{{page}}.html\n励志小说::https://www.24en.com/novel/lizhi/index_{{page}}.html\n儿童小说::https://www.24en.com/novel/children/index_{{page}}.html\n科幻小说::https://www.24en.com/novel/science-fiction/index_{{page}}.html\n短篇小说::https://www.24en.com/novel/short/index_{{page}}.html\n宗教小说::https://www.24en.com/novel/religion/index_{{page}}.html\n英文戏剧::https://www.24en.com/novel/drama/index_{{page}}.html\n双语文史哲::https://www.24en.com/novel/history/index_{{page}}.html", "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 9; zh-cn; MI 6 Build/PKQ1.190118.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.128 Mobile Safari/537.36 XiaoMi/MiuiBrowser/10.8.1\"\n}", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "class.book_card clearfix@class.book_info@tag.a.2@text||class.book_card clearfix@class.desc@tag.span.0@text##作者：", "coverUrl": "class.book_card clearfix@tag.img.0@src", "intro": "class.book_card clearfix@class.intro_pub@text", "kind": "class.book_card clearfix@class.book_info@tag.a.1@text", "lastChapter": "class.lastchapter.0@tag.a@text", "name": "class.book_card clearfix@tag.h1.0@text"}, "ruleContent": {"content": "class.article-text@html"}, "ruleExplore": {"author": "class.bookinfo.0@tag.a@text", "bookList": "class.box_left@tag.li&&class.box_left@class.pub&&class.part@tag.li", "bookUrl": "tag.a.0@href", "coverUrl": "tag.img@src", "intro": "tag.p@text##【查看更多】||class.bookinfo.0@text", "name": "tag.a.0@title||tag.a.0@text"}, "ruleSearch": {}, "ruleToc": {"chapterList": "class.chapter_list@tag.li@tag.a", "chapterName": "text", "chapterUrl": "href"}, "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "爱思英语🔤",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https?://www.24en.com",
+    "bookUrlPattern": "",
+    "customOrder": 7,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "首页::https://www.24en.com/novel/\n经典小说::https://www.24en.com/novel/classics/index_{{page}}.html\n名人传记::https://www.24en.com/novel/biography/index_{{page}}.html\n励志小说::https://www.24en.com/novel/lizhi/index_{{page}}.html\n儿童小说::https://www.24en.com/novel/children/index_{{page}}.html\n科幻小说::https://www.24en.com/novel/science-fiction/index_{{page}}.html\n短篇小说::https://www.24en.com/novel/short/index_{{page}}.html\n宗教小说::https://www.24en.com/novel/religion/index_{{page}}.html\n英文戏剧::https://www.24en.com/novel/drama/index_{{page}}.html\n双语文史哲::https://www.24en.com/novel/history/index_{{page}}.html",
+    "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; U; Android 9; zh-cn; MI 6 Build/PKQ1.190118.001) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/61.0.3163.128 Mobile Safari/537.36 XiaoMi/MiuiBrowser/10.8.1\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.book_card clearfix@class.book_info@tag.a.2@text||class.book_card clearfix@class.desc@tag.span.0@text##作者：",
+      "coverUrl": "class.book_card clearfix@tag.img.0@src",
+      "intro": "class.book_card clearfix@class.intro_pub@text",
+      "kind": "class.book_card clearfix@class.book_info@tag.a.1@text",
+      "lastChapter": "class.lastchapter.0@tag.a@text",
+      "name": "class.book_card clearfix@tag.h1.0@text"
+    },
+    "ruleContent": {
+      "content": "class.article-text@html"
+    },
+    "ruleExplore": {
+      "author": "class.bookinfo.0@tag.a@text",
+      "bookList": "class.box_left@tag.li&&class.box_left@class.pub&&class.part@tag.li",
+      "bookUrl": "tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "intro": "tag.p@text##【查看更多】||class.bookinfo.0@text",
+      "name": "tag.a.0@title||tag.a.0@text"
+    },
+    "ruleSearch": {},
+    "ruleToc": {
+      "chapterList": "class.chapter_list@tag.li@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "weight": 0
+  }]

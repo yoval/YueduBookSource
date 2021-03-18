@@ -1,1 +1,42 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "👍 云顶小说", "bookSourceType": 0, "bookSourceUrl": "https://www.yundingxs.com", "bookUrlPattern": "", "customOrder": -114956, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1612541047691, "loginUrl": "https://www.yundingxs.com/login.php", "ruleBookInfo": {"author": "class.author@text##作者：", "coverUrl": "class.fengmian@tag.a@tag.img@src", "intro": "class.bookintro.0@title", "kind": "class.info_m.0@tag.span.0@text##类别：", "lastChapter": "class.lastzj.0@tag.a.0@text", "name": "class.info_t.0@tag.h1@text"}, "ruleContent": {"content": "id.booktext@textNodes", "nextContentUrl": "id.linkNext@href"}, "ruleExplore": {}, "ruleSearch": {"author": "class.title-info@text##.*作者：", "bookList": "class.article-list", "bookUrl": "class.title-info@tag.h6@tag.a@href", "intro": "tag.p.0@title", "kind": "class.title-info@tag.a.1@text", "lastChapter": "tag.p.1@tag.a@text", "name": "class.title-info@tag.h6@tag.a@text"}, "ruleToc": {"chapterList": "class.info_cmt.1@tag.dd", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.bctbook.com/modules/article/search.php?searchkey={{key}}&action=login&searchtype=all", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "👍 云顶小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.yundingxs.com",
+    "bookUrlPattern": "",
+    "customOrder": -114956,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1612541047691,
+    "loginUrl": "https://www.yundingxs.com/login.php",
+    "ruleBookInfo": {
+      "author": "class.author@text##作者：",
+      "coverUrl": "class.fengmian@tag.a@tag.img@src",
+      "intro": "class.bookintro.0@title",
+      "kind": "class.info_m.0@tag.span.0@text##类别：",
+      "lastChapter": "class.lastzj.0@tag.a.0@text",
+      "name": "class.info_t.0@tag.h1@text"
+    },
+    "ruleContent": {
+      "content": "id.booktext@textNodes",
+      "nextContentUrl": "id.linkNext@href"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.title-info@text##.*作者：",
+      "bookList": "class.article-list",
+      "bookUrl": "class.title-info@tag.h6@tag.a@href",
+      "intro": "tag.p.0@title",
+      "kind": "class.title-info@tag.a.1@text",
+      "lastChapter": "tag.p.1@tag.a@text",
+      "name": "class.title-info@tag.h6@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.info_cmt.1@tag.dd",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.bctbook.com/modules/article/search.php?searchkey={{key}}&action=login&searchtype=all",
+    "weight": 0
+  }]

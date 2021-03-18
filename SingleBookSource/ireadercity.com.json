@@ -1,1 +1,36 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "书香云集", "bookSourceType": 0, "bookSourceUrl": "http://www.ireadercity.com", "bookUrlPattern": "", "customOrder": 0, "enabled": true, "enabledExplore": false, "header": "{\n  \"User-Agent\": \"books by AireaderCity\"\n}", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"intro": "@JSon:$.bookDesc"}, "ruleContent": {"content": "@JSon:$.returnJSON.Content"}, "ruleExplore": {}, "ruleSearch": {"author": "@JSon:$.bookAuthor@put:{bookid:$.bookID}", "bookList": "@JSon:$.returnJSON.*", "bookUrl": "@JSon:$.bookID@js:\"http://www.ireadercity.com/GoodBooks/iOSServices/GetAllChapterInfoByBookID.aspx@deviceID=d10b09bb083fb144b0ab94961b7abc65&appID=com.youloft.glsc&passID=books%20by%20AireaderCity_1234567890&clientVersion=5.2&deviceType=Android&channelID=aireader_youqi&appPackageName=com.ireadercity&ver=5.21&bookID=\"+result", "coverUrl": "@JSon:$.bookCoverURL", "kind": "@JSon:$.categoryName", "name": "@JSon:$.bookTitle"}, "ruleToc": {"chapterList": "@JSon:$.returnJSON.*", "chapterName": "@JSon:$.Name", "chapterUrl": "http://www.ireadercity.com/GoodBooks/iOSServices/GetCotentByChapterID.aspx@IsFree=0&deviceID=d10b09bb083fb144b0ab94961b7abc65&BookStore_uID=d10b09bb083fb144b0ab94961b7abc65&appID=com.youloft.glsc&passID=books%20by%20AireaderCity_1234567890&clientVersion=5.2&deviceType=Android&channelID=aireader_youqi&appPackageName=com.ireadercity&ver=5.21&mychapterID={$.Id}&bookID=@get:{bookid}"}, "searchUrl": "http://www.ireadercity.com/GoodBooks/iOSServices/GetBooksByKeyWords.aspx,{\n  \"headers\": \"{a:b}\",\n  \"method\": \"POST\",\n  \"body\": \"deviceID=d10b09bb083fb144b0ab94961b7abc65&appID=com.youloft.glsc&pageNumber=1&passID=books%20by%20AireaderCity_1234567890&clientVersion=5.2&deviceType=Android&channelID=aireader_youqi&type=K{{key}}&appPackageName=com.ireadercity&ver=5.21\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "书香云集",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.ireadercity.com",
+    "bookUrlPattern": "",
+    "customOrder": 0,
+    "enabled": true,
+    "enabledExplore": false,
+    "header": "{\n  \"User-Agent\": \"books by AireaderCity\"\n}",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "@JSon:$.bookDesc"
+    },
+    "ruleContent": {
+      "content": "@JSon:$.returnJSON.Content"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "@JSon:$.bookAuthor@put:{bookid:$.bookID}",
+      "bookList": "@JSon:$.returnJSON.*",
+      "bookUrl": "@JSon:$.bookID@js:\"http://www.ireadercity.com/GoodBooks/iOSServices/GetAllChapterInfoByBookID.aspx@deviceID=d10b09bb083fb144b0ab94961b7abc65&appID=com.youloft.glsc&passID=books%20by%20AireaderCity_1234567890&clientVersion=5.2&deviceType=Android&channelID=aireader_youqi&appPackageName=com.ireadercity&ver=5.21&bookID=\"+result",
+      "coverUrl": "@JSon:$.bookCoverURL",
+      "kind": "@JSon:$.categoryName",
+      "name": "@JSon:$.bookTitle"
+    },
+    "ruleToc": {
+      "chapterList": "@JSon:$.returnJSON.*",
+      "chapterName": "@JSon:$.Name",
+      "chapterUrl": "http://www.ireadercity.com/GoodBooks/iOSServices/GetCotentByChapterID.aspx@IsFree=0&deviceID=d10b09bb083fb144b0ab94961b7abc65&BookStore_uID=d10b09bb083fb144b0ab94961b7abc65&appID=com.youloft.glsc&passID=books%20by%20AireaderCity_1234567890&clientVersion=5.2&deviceType=Android&channelID=aireader_youqi&appPackageName=com.ireadercity&ver=5.21&mychapterID={$.Id}&bookID=@get:{bookid}"
+    },
+    "searchUrl": "http://www.ireadercity.com/GoodBooks/iOSServices/GetBooksByKeyWords.aspx,{\n  \"headers\": \"{a:b}\",\n  \"method\": \"POST\",\n  \"body\": \"deviceID=d10b09bb083fb144b0ab94961b7abc65&appID=com.youloft.glsc&pageNumber=1&passID=books%20by%20AireaderCity_1234567890&clientVersion=5.2&deviceType=Android&channelID=aireader_youqi&type=K{{key}}&appPackageName=com.ireadercity&ver=5.21\"\n}",
+    "weight": 0
+  }]

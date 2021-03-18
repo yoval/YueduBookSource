@@ -1,1 +1,35 @@
-[{"bookSourceComment": "error:搜索内容为空并且没有发现\n", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 69文学™九天之狼", "bookSourceType": 0, "bookSourceUrl": "https://www.69wxw.com", "bookUrlPattern": "", "customOrder": -32466, "enabled": true, "enabledExplore": true, "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"tocUrl": "text.点击阅读@href"}, "ruleContent": {"content": "class.bookcontent@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "tag.td.2@text", "bookList": "class.grid@tag.tr!0", "bookUrl": "tag.td.1@tag.a@href", "kind": "tag.td.5@text", "lastChapter": "tag.td.1@tag.a@text", "name": "tag.td.0@tag.a@text"}, "ruleToc": {"chapterList": "+@css:.l dl dd a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.69wxw.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 69文学™九天之狼",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.69wxw.com",
+    "bookUrlPattern": "",
+    "customOrder": -32466,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "tocUrl": "text.点击阅读@href"
+    },
+    "ruleContent": {
+      "content": "class.bookcontent@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "tag.td.2@text",
+      "bookList": "class.grid@tag.tr!0",
+      "bookUrl": "tag.td.1@tag.a@href",
+      "kind": "tag.td.5@text",
+      "lastChapter": "tag.td.1@tag.a@text",
+      "name": "tag.td.0@tag.a@text"
+    },
+    "ruleToc": {
+      "chapterList": "+@css:.l dl dd a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.69wxw.com/modules/article/search.php?searchkey={{key}}&searchtype=articlename&page={{page}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

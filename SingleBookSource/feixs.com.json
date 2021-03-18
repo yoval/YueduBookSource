@@ -1,1 +1,66 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🌸 飞速", "bookSourceType": 0, "bookSourceUrl": "https://m.feixs.com", "bookUrlPattern": "", "customOrder": -117012, "enabled": true, "enabledExplore": true, "exploreUrl": "", "header": "", "lastUpdateTime": 1609411853544, "loginUrl": "🧽 wordcount", "ruleBookInfo": {"author": "author", "coverUrl": "cover", "init": "<js>\nvar J = org.jsoup.Jsoup.parse(result);\nvar og = (selector) =>\n  J.select('[property=\"og:' + selector + '\"]').attr('content');\n\nvar book = {\n  name: og('novel:book_name'),\n  author: og('novel:author'),\n  kind: og('novel:category') + ',' + og('novel:status'),\n  latest: og('novel:latest_chapter_name') + ' • ' + String(og('novel:update_time')).replace(/(\\d+:\\d+:\\d+)/,'').replace('/','-').replace('/','-'),\n  cover: og('image'),\n  intro: J.select('#intr').html().replace('简介：',''),\n  url: og('novel:read_url').replace('m.','www.').replace('book-','html/'),\n};\n\nbook;\n</js>", "intro": "intro", "kind": "kind", "lastChapter": "latest", "name": "name", "tocUrl": "url", "wordCount": ""}, "ruleContent": {"content": "#content@html##.*feixs.*", "imageStyle": "0", "nextContentUrl": "", "replaceRegex": "##.未完待续。.*|。.[。|，]", "sourceRegex": "", "webJs": ""}, "ruleExplore": {"author": "", "bookList": "", "bookUrl": "", "coverUrl": "", "intro": "", "kind": "", "lastChapter": "", "name": "", "wordCount": ""}, "ruleSearch": {"author": "author", "bookList": "class.line<js>\nresult\n  .toArray()\n  .slice(0, 5)\n  .map(function (el) {\n    var url = String(el.select('a').eq(1).attr('href')).replace(\n      /^\\/([^\\/])/,\n      baseUrl.match(/(.+\\/\\/.+?\\/)/)[1] + '$1'\n    );\n    var J = org.jsoup.Jsoup.parse(String(java.ajax(url)));\n    var og = (selector) =>\n      J.select('[property=\"og:' + selector + '\"]').attr('content');\n\n    return {\n      name: og('novel:book_name'),\n      author: og('novel:author'),\n      kind: og('novel:category') + ',' + og('novel:status'),\n      latest: og('novel:latest_chapter_name') + ' • ' + String(og('novel:update_time')).replace(/(\\d+:\\d+:\\d+)/,'').replace('/','-').replace('/','-'),\n      cover: og('image'),\n      intro: og('description'),\n      url: og('novel:read_url'),\n    };\n  });\n</js>", "bookUrl": "url", "coverUrl": "cover", "intro": "intro", "kind": "kind", "lastChapter": "latest", "name": "name", "wordCount": ""}, "ruleToc": {"chapterList": ".chapterlist li a", "chapterName": "text", "chapterUrl": "href", "isVip": "", "nextTocUrl": "", "updateTime": "title##更新"}, "searchUrl": "/search.aspx,{\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🌸 飞速",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://m.feixs.com",
+    "bookUrlPattern": "",
+    "customOrder": -117012,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "header": "",
+    "lastUpdateTime": 1609411853544,
+    "loginUrl": "🧽 wordcount",
+    "ruleBookInfo": {
+      "author": "author",
+      "coverUrl": "cover",
+      "init": "<js>\nvar J = org.jsoup.Jsoup.parse(result);\nvar og = (selector) =>\n  J.select('[property=\"og:' + selector + '\"]').attr('content');\n\nvar book = {\n  name: og('novel:book_name'),\n  author: og('novel:author'),\n  kind: og('novel:category') + ',' + og('novel:status'),\n  latest: og('novel:latest_chapter_name') + ' • ' + String(og('novel:update_time')).replace(/(\\d+:\\d+:\\d+)/,'').replace('/','-').replace('/','-'),\n  cover: og('image'),\n  intro: J.select('#intr').html().replace('简介：',''),\n  url: og('novel:read_url').replace('m.','www.').replace('book-','html/'),\n};\n\nbook;\n</js>",
+      "intro": "intro",
+      "kind": "kind",
+      "lastChapter": "latest",
+      "name": "name",
+      "tocUrl": "url",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "#content@html##.*feixs.*",
+      "imageStyle": "0",
+      "nextContentUrl": "",
+      "replaceRegex": "##.未完待续。.*|。.[。|，]",
+      "sourceRegex": "",
+      "webJs": ""
+    },
+    "ruleExplore": {
+      "author": "",
+      "bookList": "",
+      "bookUrl": "",
+      "coverUrl": "",
+      "intro": "",
+      "kind": "",
+      "lastChapter": "",
+      "name": "",
+      "wordCount": ""
+    },
+    "ruleSearch": {
+      "author": "author",
+      "bookList": "class.line<js>\nresult\n  .toArray()\n  .slice(0, 5)\n  .map(function (el) {\n    var url = String(el.select('a').eq(1).attr('href')).replace(\n      /^\\/([^\\/])/,\n      baseUrl.match(/(.+\\/\\/.+?\\/)/)[1] + '$1'\n    );\n    var J = org.jsoup.Jsoup.parse(String(java.ajax(url)));\n    var og = (selector) =>\n      J.select('[property=\"og:' + selector + '\"]').attr('content');\n\n    return {\n      name: og('novel:book_name'),\n      author: og('novel:author'),\n      kind: og('novel:category') + ',' + og('novel:status'),\n      latest: og('novel:latest_chapter_name') + ' • ' + String(og('novel:update_time')).replace(/(\\d+:\\d+:\\d+)/,'').replace('/','-').replace('/','-'),\n      cover: og('image'),\n      intro: og('description'),\n      url: og('novel:read_url'),\n    };\n  });\n</js>",
+      "bookUrl": "url",
+      "coverUrl": "cover",
+      "intro": "intro",
+      "kind": "kind",
+      "lastChapter": "latest",
+      "name": "name",
+      "wordCount": ""
+    },
+    "ruleToc": {
+      "chapterList": ".chapterlist li a",
+      "chapterName": "text",
+      "chapterUrl": "href",
+      "isVip": "",
+      "nextTocUrl": "",
+      "updateTime": "title##更新"
+    },
+    "searchUrl": "/search.aspx,{\n  \"method\": \"POST\",\n  \"body\": \"s={{key}}\"\n}",
+    "weight": 0
+  }]

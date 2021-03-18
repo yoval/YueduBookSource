@@ -1,1 +1,46 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🔰 乐文小说", "bookSourceType": 0, "bookSourceUrl": "http://www.lewenxsw.com", "bookUrlPattern": "", "customOrder": 16136, "enabled": true, "enabledExplore": true, "exploreUrl": "", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"author": "class.info2@tag.h3.0@tag.a@text", "coverUrl": "class.info1@tag.img.0@src", "intro": "class.info2@tag.p@text", "kind": "", "lastChapter": "", "name": "class.info2@tag.h1@text", "wordCount": ""}, "ruleContent": {"content": "class.panel-body content-body content-ext@html"}, "ruleExplore": {"author": "class.book_author@tag.a.0@text", "bookList": "class.panel-body.0@tag.div.1", "coverUrl": "class.media-left media-heading@tag.img@src", "intro": "class.book-intro-index@tag.p@text", "name": "tag.h4.0@text"}, "ruleSearch": {"author": "id.booklast@tag.a@text", "bookList": "class.bookcon@tr!0", "bookUrl": "tag.a.0@href", "name": "tag.a.0@text"}, "ruleToc": {"chapterList": "class.list-group list-charts@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "http://www.lewenxsw.com/modules/article/search.php?searchkey={{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🔰 乐文小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "http://www.lewenxsw.com",
+    "bookUrlPattern": "",
+    "customOrder": 16136,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "author": "class.info2@tag.h3.0@tag.a@text",
+      "coverUrl": "class.info1@tag.img.0@src",
+      "intro": "class.info2@tag.p@text",
+      "kind": "",
+      "lastChapter": "",
+      "name": "class.info2@tag.h1@text",
+      "wordCount": ""
+    },
+    "ruleContent": {
+      "content": "class.panel-body content-body content-ext@html"
+    },
+    "ruleExplore": {
+      "author": "class.book_author@tag.a.0@text",
+      "bookList": "class.panel-body.0@tag.div.1",
+      "coverUrl": "class.media-left media-heading@tag.img@src",
+      "intro": "class.book-intro-index@tag.p@text",
+      "name": "tag.h4.0@text"
+    },
+    "ruleSearch": {
+      "author": "id.booklast@tag.a@text",
+      "bookList": "class.bookcon@tr!0",
+      "bookUrl": "tag.a.0@href",
+      "name": "tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.list-group list-charts@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "http://www.lewenxsw.com/modules/article/search.php?searchkey={{key}}",
+    "weight": 0
+  }]

@@ -1,1 +1,40 @@
-[{"bookSourceComment": "", "bookSourceGroup": "我的书源", "bookSourceName": "🎉 久久小说", "bookSourceType": 0, "bookSourceUrl": "https://www.jjshu.com", "bookUrlPattern": "", "customOrder": -32302, "enabled": true, "enabledExplore": true, "exploreUrl": "玄幻奇幻::/xuanhuan\n武侠仙侠::/xianxia\n都市言情::/dushi\n历史军事::/lishi\n科幻灵异::/kehuan\n网游竞技::/wangyou\n其他类型::/qita", "lastUpdateTime": 0, "loginUrl": "", "ruleBookInfo": {"coverUrl": "id.fmimg@tag.img.0@src", "intro": "id.intro@text", "tocUrl": ""}, "ruleContent": {"content": "id.content@textNodes"}, "ruleExplore": {}, "ruleSearch": {"author": "class.author.0@text||class.s4@text", "bookList": "class.bookbox||class.l bd@tag.li", "bookUrl": "class.bookname@tag.a.0@href||class.s2@tag.a.0@href", "coverUrl": "class.bookimg@tag.img@src", "intro": "tag.p@text", "kind": "", "lastChapter": "class.update@tag.a.0@text||class.s3@tag.a.0@text", "name": "class.bookname@tag.a.0@text||class.s2@tag.a.0@text"}, "ruleToc": {"chapterList": "class.listmain@tag.dd@tag.a", "chapterName": "text", "chapterUrl": "href"}, "searchUrl": "https://www.jjshu.com/s.php?ie=gbk&q={{key}},{\n  \"charset\": \"gbk\"\n}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "🎉 久久小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.jjshu.com",
+    "bookUrlPattern": "",
+    "customOrder": -32302,
+    "enabled": true,
+    "enabledExplore": true,
+    "exploreUrl": "玄幻奇幻::/xuanhuan\n武侠仙侠::/xianxia\n都市言情::/dushi\n历史军事::/lishi\n科幻灵异::/kehuan\n网游竞技::/wangyou\n其他类型::/qita",
+    "lastUpdateTime": 0,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "coverUrl": "id.fmimg@tag.img.0@src",
+      "intro": "id.intro@text",
+      "tocUrl": ""
+    },
+    "ruleContent": {
+      "content": "id.content@textNodes"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.author.0@text||class.s4@text",
+      "bookList": "class.bookbox||class.l bd@tag.li",
+      "bookUrl": "class.bookname@tag.a.0@href||class.s2@tag.a.0@href",
+      "coverUrl": "class.bookimg@tag.img@src",
+      "intro": "tag.p@text",
+      "kind": "",
+      "lastChapter": "class.update@tag.a.0@text||class.s3@tag.a.0@text",
+      "name": "class.bookname@tag.a.0@text||class.s2@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.listmain@tag.dd@tag.a",
+      "chapterName": "text",
+      "chapterUrl": "href"
+    },
+    "searchUrl": "https://www.jjshu.com/s.php?ie=gbk&q={{key}},{\n  \"charset\": \"gbk\"\n}",
+    "weight": 0
+  }]

@@ -1,1 +1,35 @@
-[{"bookSourceComment": "error:搜索内容为空并且没有发现\n", "bookSourceGroup": "我的书源", "bookSourceName": "💵 花溪小说", "bookSourceType": 0, "bookSourceUrl": "https://www.huaxi.net", "bookUrlPattern": "", "customOrder": -33956, "enabled": true, "enabledExplore": true, "lastUpdateTime": 1602874709594, "loginUrl": "", "ruleBookInfo": {"intro": "tag.p.0@text"}, "ruleContent": {"content": "class.w-cont-wz@html"}, "ruleExplore": {}, "ruleSearch": {"author": "class.penName@text##/.*", "bookList": "class.book_detail", "bookUrl": "class.book_info@tag.a.0@href", "coverUrl": "tag.img@src", "kind": "class.title-f@text", "name": "class.book_info@tag.a.0@text"}, "ruleToc": {"chapterList": "class.catolog@tag.li", "chapterName": "tag.a@text", "chapterUrl": "tag.a@href"}, "searchUrl": "https://www.huaxi.net/search/1_{{key}}", "weight": 0, "BookSourceComment": ""}]
+[  {
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceGroup": "我的书源",
+    "bookSourceName": "💵 花溪小说",
+    "bookSourceType": 0,
+    "bookSourceUrl": "https://www.huaxi.net",
+    "bookUrlPattern": "",
+    "customOrder": -33956,
+    "enabled": true,
+    "enabledExplore": true,
+    "lastUpdateTime": 1602874709594,
+    "loginUrl": "",
+    "ruleBookInfo": {
+      "intro": "tag.p.0@text"
+    },
+    "ruleContent": {
+      "content": "class.w-cont-wz@html"
+    },
+    "ruleExplore": {},
+    "ruleSearch": {
+      "author": "class.penName@text##/.*",
+      "bookList": "class.book_detail",
+      "bookUrl": "class.book_info@tag.a.0@href",
+      "coverUrl": "tag.img@src",
+      "kind": "class.title-f@text",
+      "name": "class.book_info@tag.a.0@text"
+    },
+    "ruleToc": {
+      "chapterList": "class.catolog@tag.li",
+      "chapterName": "tag.a@text",
+      "chapterUrl": "tag.a@href"
+    },
+    "searchUrl": "https://www.huaxi.net/search/1_{{key}}",
+    "weight": 0
+  }]
