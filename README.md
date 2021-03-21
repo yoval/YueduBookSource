@@ -1,6 +1,6 @@
 --- 2021年03月22日 更新 ---
 
-1. `DomainName.txt`为支持域名（Github可见，Gitee可能被和谐），备份网址为：https://blog.tour.pub/?p=posts%2F2021_03_15_BookSource.md。 格式为：“域名,二维码链接”，以方便IOS端“花火阅读”的二维码导入。
+1. `DomainName.txt`为支持域名（Github可见，Gitee可能被和谐），备份网址为：https://blog.tour.pub/?p=posts%2F2021_03_15_BookSource.md 。格式为：“域名,二维码链接”，以方便IOS端“花火阅读”的二维码导入。
 
 二维码地址为`https://cli.im/api/qrcode/code?text=`+书源json+`&mhid=6`
 
