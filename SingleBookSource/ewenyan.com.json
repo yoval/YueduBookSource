@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "书名乱码，搜索第一篇为准",
+    "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "📚 易文言",
+    "bookSourceName": "易文言",
     "bookSourceType": 0,
     "bookSourceUrl": "http://ewenyan.com",
     "bookUrlPattern": "",
-    "customOrder": -116702,
+    "customOrder": 323,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1604135107176,
+    "lastUpdateTime": 1616249393385,
     "loginUrl": "",
     "ruleBookInfo": {},
     "ruleContent": {

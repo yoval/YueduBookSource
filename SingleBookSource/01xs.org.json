@@ -1,12 +1,12 @@
 [  {
-    "bookSourceComment": "(^･ｪ･^)",
+    "bookSourceComment": "error:Unable to resolve host \"www.01xs.org\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "第一小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.01xs.org",
-    "customOrder": 0,
+    "customOrder": 1827,
     "enabled": true,
-    "enabledExplore": false,
+    "enabledExplore": true,
     "lastUpdateTime": 1611291571498,
     "ruleBookInfo": {
       "author": "author",

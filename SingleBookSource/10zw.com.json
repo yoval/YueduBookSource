@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 一零中文",
+    "bookSourceName": "一零中文",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.10zw.com",
-    "customOrder": -32347,
+    "customOrder": 1314,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻::/xuanhuan/\n修真::/xiuzhen/\n都市::/dushi/\n穿越::/chuanyue/\n网游::/wangyou/\n科幻::/kehuan/\n完本::/wanben/",
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616237005386,
     "ruleBookInfo": {
       "author": "id.info@tag.p.0@tag.a.0@text",
       "coverUrl": "id.fmimg@tag.img@src",

@@ -4,7 +4,7 @@
     "bookSourceName": "读趣",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.duqu.net",
-    "customOrder": -117422,
+    "customOrder": 52,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "全部小说::http://www.duqu.net/modules/article/articlefilter.php?&order=lastupdate&page={{page}}\n玄幻魔法::http://www.duqu.net/modules/article/articlefilter.php?&order=lastupdate&sortid=1&page={{page}}\n武侠修真::http://www.duqu.net/modules/article/articlefilter.php?&order=lastupdate&sortid=2&page={{page}}\n都市言情::http://www.duqu.net/modules/article/articlefilter.php?&order=lastupdate&sortid=3&page={{page}}\n历史军事::http://www.duqu.net/modules/article/articlefilter.php?&order=lastupdate&sortid=4&page={{page}}\n侦探推理::http://www.duqu.net/modules/article/articlefilter.php?&order=lastupdate&sortid=5&page={{page}}\n网游动漫::http://www.duqu.net/modules/article/articlefilter.php?&order=lastupdate&sortid=6&page={{page}}\n科幻小说::http://www.duqu.net/modules/article/articlefilter.php?&order=lastupdate&sortid=7&page={{page}}\n恐怖灵异::http://www.duqu.net/modules/article/articlefilter.php?&order=lastupdate&sortid=8&page={{page}}\n言情小说::http://www.duqu.net/modules/article/articlefilter.php?&order=lastupdate&sortid=9&page={{page}}\n其它类型::http://www.duqu.net/modules/article/articlefilter.php?&order=lastupdate&sortid=10&page={{page}}\n字数排行::http://www.duqu.net/modules/article/articlefilter.php?&order=size&page={{page}}",

@@ -1,13 +1,13 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.biqugeu.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源,经典盗版",
-    "bookSourceName": "🎉 笔趣阁㉝™",
+    "bookSourceName": "笔趣阁㉝",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.biqugeu.com",
-    "customOrder": -31800,
+    "customOrder": 1545,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1602758233338,
+    "lastUpdateTime": 1616249861652,
     "ruleBookInfo": {
       "author": "##:author\"[^\"]*\"([^\"]*)##$1###",
       "coverUrl": "##:image\"[^\"]*\"([^\"]*)##$1###",

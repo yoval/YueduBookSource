@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🌸 4020电子书",
+    "bookSourceName": "4020电子书",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.wrltxt.com",
     "bookUrlPattern": "",
-    "customOrder": -117008,
+    "customOrder": 135,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "",
-    "lastUpdateTime": 1612721048300,
+    "lastUpdateTime": 1616249976972,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.block_txt2@tag.p.2@text##作者：",

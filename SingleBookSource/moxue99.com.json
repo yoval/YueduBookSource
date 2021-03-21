@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.moxue99.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "墨雪小说网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.moxue99.com",
     "bookUrlPattern": "",
-    "customOrder": 24,
+    "customOrder": 2313,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 1609483886754,

@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.ypmao.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "📚 一品猫™",
+    "bookSourceName": "一品猫",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.ypmao.com",
-    "customOrder": -24751,
+    "customOrder": 1735,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "青春::http://www.ypmao.com/list/14_{{page-1}}.html\n恐怖::http://www.ypmao.com/list/11_{{page-1}}.html\n科幻::http://www.ypmao.com/list/12_{{page-1}}.html \n武侠::http://www.ypmao.com/list/4_{{page-1}}.html\n现代::http://www.ypmao.com/list/13_{{page-1}}.html",
-    "lastUpdateTime": 1602911657882,
+    "lastUpdateTime": 1616234735041,
     "ruleBookInfo": {
       "intro": "class.hidden-xs.1@text"
     },

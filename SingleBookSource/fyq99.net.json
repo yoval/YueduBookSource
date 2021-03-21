@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:正文内容为空\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "飞言情",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.fyq99.net",
     "bookUrlPattern": "",
-    "customOrder": -117049,
+    "customOrder": 111,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "全部小说::https://www.fyq99.net/category/0/{{page}}.html\n高辣小说::https://www.fyq99.net/category/1/{{page}}.html\n言情小说::https://www.fyq99.net/category/2/{{page}}.html\n耽美小说::https://www.fyq99.net/category/3/{{page}}.html\n玄幻小说::https://www.fyq99.net/category/4/{{page}}.html\n高干小说::https://www.fyq99.net/category/5/{{page}}.html\n腹黑小说::https://www.fyq99.net/category/6/{{page}}.html\n修真小说::https://www.fyq99.net/category/7/{{page}}.html\n种田小说::https://www.fyq99.net/category/8/{{page}}.html\n网游小说::https://www.fyq99.net/category/9/{{page}}.html\n百合小说::https://www.fyq99.net/category/10/{{page}}.html\n飞魔幻::https://www.fyq99.net/category/13/{{page}}.html\n桃之夭夭::https://www.fyq99.net/category/14/{{page}}.html\n飞言情::https://www.fyq99.net/category/15/{{page}}.html\n花火::https://www.fyq99.net/category/16/{{page}}.html\n百花楼::https://www.fyq99.net/category/17/{{page}}.html\n其他小说::https://www.fyq99.net/category/19/{{page}}.html\n辣文小说::https://www.fyq99.net/category/20/{{page}}.html\n私密小说::https://www.fyq99.net/category/21/{{page}}.html\n都市小说::https://www.fyq99.net/category/22/{{page}}.html\n侦探小说::https://www.fyq99.net/category/23/{{page}}.html\n恐怖小说::https://www.fyq99.net/category/24/{{page}}.html\n穿越小说::https://www.fyq99.net/category/25/{{page}}.html\n科幻小说::https://www.fyq99.net/category/26/{{page}}.html\n精品小说::https://www.fyq99.net/category/27/{{page}}.html\n仙侠小说::https://www.fyq99.net/category/28/{{page}}.html",

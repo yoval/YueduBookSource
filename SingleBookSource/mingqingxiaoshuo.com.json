@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "📚 明清小说",
+    "bookSourceName": "明清小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.mingqingxiaoshuo.com",
-    "customOrder": -116683,
+    "customOrder": 336,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "历史演义::/lishiyanyi/<index,index_{{page}}>.html\n英雄传奇::/yingxiongchuanqi/<index,index_{{page}}>.html\n鬼怪神魔::/guiguaishenmo/<index,index_{{page}}>.html\n世态人情::/shitairenqing/<index,index_{{page}}>.html\n谴责公案::/qianzegongan/<index,index_{{page}}>.html\n学术杂书::/xueshuzashu/<index,index_{{page}}>.html\n杂剧戏曲::/zajuxiqu/<index,index_{{page}}>.html\n笔记::/bijixiaoshuo/<index,index_{{page}}>.html\n文章诗词::/wenzhangshici/<index,index_{{page}}>.html\n书评研究::/shupingyanjiu/<index,index_{{page}}>.html",
-    "lastUpdateTime": 1606809019753,
+    "lastUpdateTime": 1616236620977,
     "ruleBookInfo": {
       "coverUrl": "class.fmpic@tag.img@src",
       "intro": "class.m-summary@text"

@@ -1,13 +1,13 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "📚 天天读书",
+    "bookSourceName": "天天读书",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.ttd3.cn",
-    "customOrder": -116672,
+    "customOrder": 343,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1610040374671,
+    "lastUpdateTime": 1616249420575,
     "ruleBookInfo": {
       "intro": "class.infoDetail@html",
       "tocUrl": "text.开始阅读@href"

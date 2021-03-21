@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"m.wangshugu.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🔰 望书阁",
+    "bookSourceName": "望书阁",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.wangshugu.com",
-    "customOrder": 16265,
+    "customOrder": 2602,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻魔法::/sort/1-{{page}}.html\n武侠修真::/sort/2-{{page}}.html\n都市言情::/sort/3-{{page}}.html\n历史军事::/sort/4-{{page}}.html\n网游动漫::/sort/5-{{page}}.html\n科幻小说::/sort/6-{{page}}.html\n侦探推理::/sort/7-{{page}}.html\n恐怖灵异::/sort/8-{{page}}.html\n同人小说::/sort/9-{{page}}.html\n其他类型::/sort/10-{{page}}.html",
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616233036918,
     "ruleBookInfo": {
       "author": "class.block_txt2@tag.p.2@text",
       "coverUrl": "class.block_img2@tag.img@src",

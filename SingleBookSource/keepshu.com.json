@@ -5,7 +5,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.keepshu.com",
     "bookUrlPattern": "",
-    "customOrder": -116750,
+    "customOrder": 301,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻奇幻::/xuanhuan/{{page}}.html\n武侠仙侠::/wuxia/{{page}}.html\n都市人生::/dushi/{{page}}.html\n网游竞技::/youxi/{{page}}.html\n侦探推理::/zhentan/{{page}}.html\n历史军事::/lishi/{{page}}.html\n科幻小说::/kehuan/{{page}}.html\n女生小说::/nvsheng/{{page}}.html",

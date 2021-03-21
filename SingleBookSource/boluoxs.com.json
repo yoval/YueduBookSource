@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍑 菠萝小说",
+    "bookSourceName": "菠萝小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.boluoxs.com-By Dark",
-    "customOrder": -116118,
+    "customOrder": 371,
     "enabled": true,
     "enabledExplore": true,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
-    "lastUpdateTime": 1612409924100,
+    "lastUpdateTime": 1616251012217,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "class.xsfm@tag.img@src",

@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "📚 读书369",
+    "bookSourceName": "读书369",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.dushu369.com",
     "bookUrlPattern": "",
-    "customOrder": -116690,
+    "customOrder": 330,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "中国::/zhongguomingzhu/\n外国::/waiguomingzhu/\n古典::/gudianmingzhu/\n儿童::/tonghua/\n故事::/gushi/\n励志::/jiaoyu/\n散文::/shici/\n名人::/mingrenzhuanji/\n武侠::/wuxiaxiaoshuo/\n其他::/qtyd/\n给孩子::/Special/jdsm/Index.html",
-    "lastUpdateTime": 1604569622318,
+    "lastUpdateTime": 1616236604433,
     "loginUrl": "",
     "ruleBookInfo": {
       "intro": "class.Readme@text"

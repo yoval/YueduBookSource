@@ -1,13 +1,13 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"m.dfvirs.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍒 笛符文学",
+    "bookSourceName": "笛符文学",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.dfvirs.com",
-    "customOrder": -31083,
+    "customOrder": 1704,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1602877296341,
+    "lastUpdateTime": 1616249785019,
     "ruleBookInfo": {
       "author": "class.pt-info.0@text",
       "intro": "class.intro@text",

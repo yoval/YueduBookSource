@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 淘淘全本小说",
+    "bookSourceName": "淘淘全本小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.taotao3.com",
     "bookUrlPattern": "",
-    "customOrder": -116749,
+    "customOrder": 302,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1607183958105,
+    "lastUpdateTime": 1616250991460,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "tag.em@text",

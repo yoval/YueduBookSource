@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源,经典盗版",
-    "bookSourceName": "👍 笔趣阁③",
+    "bookSourceName": "笔趣阁",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.biduo.cc",
-    "customOrder": -114913,
+    "customOrder": 896,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻魔法::https://www.biduo.cc/book_1_1/\n武侠修真::https://www.biduo.cc/book_2_1/\n都市言情::https://www.biduo.cc/book_3_1/\n历史军事::https://www.biduo.cc/book_4_1/\n网游动漫::https://www.biduo.cc/book_6_1/\n科幻小说::https://www.biduo.cc/book_7_1/\n灵异恐怖::https://www.biduo.cc/book_8_1/\n其他小说::https://www.biduo.cc/book_10_1/\n",
-    "lastUpdateTime": 1604165675686,
+    "lastUpdateTime": 1616238297380,
     "ruleBookInfo": {
       "author": "id.info@tag.p.0@text##作    者：",
       "coverUrl": "id.fmimg@tag.img@src",

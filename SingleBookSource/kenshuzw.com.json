@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 啃书网",
+    "bookSourceName": "啃书网",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.kenshuzw.com",
     "bookUrlPattern": "",
-    "customOrder": -115472,
+    "customOrder": 742,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "【连载】::\n玄幻::/xuanhuan/lianzai/{{page}}/\n武侠::/wuxia/lianzai/{{page}}/\n言情::/yanqing/lianzai/{{page}}/\n历史::/lishi/lianzai/{{page}}/\n科幻::/kehuan/lianzai/{{page}}/\n恐怖::/kongbu/lianzai/{{page}}/\n女生::/nvsheng/lianzai/{{page}}/\n【完本】::\n玄幻::/xuanhuan/quanben/{{page}}/\n武侠::/wuxia/quanben/{{page}}/\n言情::/yanqing/quanben/{{page}}/\n历史::/lishi/quanben/{{page}}/\n科幻::/kehuan/quanben/{{page}}/\n恐怖::/kongbu/quanben/{{page}}/\n女生::/nvsheng/quanben/{{page}}/",
-    "lastUpdateTime": 1608553144342,
+    "lastUpdateTime": 1616237721331,
     "loginUrl": "http://www.kenshuzw.com/login.php",
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",

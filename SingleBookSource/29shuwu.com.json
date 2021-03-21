@@ -1,12 +1,12 @@
 [  {
-    "bookSourceComment": "搜索间隔30s",
+    "bookSourceComment": "error:Unable to resolve host \"www.29shuwu.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "二九书屋",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.29shuwu.com/",
-    "customOrder": 0,
+    "customOrder": 1848,
     "enabled": true,
-    "enabledExplore": false,
+    "enabledExplore": true,
     "lastUpdateTime": 1615553361133,
     "ruleBookInfo": {
       "author": "class.booktag@tag.a.0@text",

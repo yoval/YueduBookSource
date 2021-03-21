@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "💵 红薯网♀",
+    "bookSourceName": "红薯网♀",
     "bookSourceType": 0,
     "bookSourceUrl": "https://g.hongshu.com/nv.html",
-    "customOrder": -34028,
+    "customOrder": 1089,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "女生人气榜::https://g.hongshu.com/bookajax/search.do?method=search&sortby=lastweek_salenum&paegsize=20&sex_flag=nv&pagenum={{page}}\n女生新书榜::https://g.hongshu.com/bookajax/search.do?method=search&sortby=&paegsize=20&sex_flag=nv&pagenum={{page}}",
-    "lastUpdateTime": 1601996623234,
+    "lastUpdateTime": 1616237141960,
     "loginUrl": "https://g.hongshu.com/userlogin",
     "ruleBookInfo": {},
     "ruleContent": {

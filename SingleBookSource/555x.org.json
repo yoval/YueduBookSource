@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:failed to connect to www.555x.org/47.241.9.237 (port 443) from /192.168.0.103 (port 48096) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "📥 无限",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.555x.org",
     "bookUrlPattern": "",
-    "customOrder": -32692,
+    "customOrder": 1189,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "",

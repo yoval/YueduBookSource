@@ -5,7 +5,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.yssm.info",
     "bookUrlPattern": "",
-    "customOrder": -116997,
+    "customOrder": 144,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻奇幻::/ucbook1/{{page}}.html\n武侠仙侠::/ucbook2/{{page}}.html\n都市言情::/ucbook3/{{page}}.html\n历史军事::/ucbook4/{{page}}.html\n科幻灵异::/ucbook5/{{page}}.html\n网游竞技::/ucbook6/{{page}}.html\n女频频道::/ucbook7/{{page}}.html",

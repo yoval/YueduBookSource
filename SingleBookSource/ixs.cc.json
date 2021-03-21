@@ -1,13 +1,13 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:List is empty.\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 爱小说",
+    "bookSourceName": "爱小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.ixs.cc",
-    "customOrder": -116976,
+    "customOrder": 163,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1612535630510,
+    "lastUpdateTime": 1616250029805,
     "ruleBookInfo": {
       "author": "class.detail.0@tag.i.0@tag.a@text",
       "coverUrl": "class.cover@tag.img@src",

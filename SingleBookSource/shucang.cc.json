@@ -1,10 +1,10 @@
 [  {
     "bookSourceComment": "",
-    "bookSourceGroup": "我的书源,自制书源",
+    "bookSourceGroup": "自制书源,我的书源",
     "bookSourceName": "书仓网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.shucang.cc",
-    "customOrder": -115571,
+    "customOrder": 699,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "奇幻玄幻::https://m.shucang.cc/shucang/category_xuanhuan_<,{{page}}.>html\n武侠仙侠::/shucang/category_wuxia_<,{{page}}.>html\n都市生活::/shucang/category_dushi_<,{{page}}.>html\n历史军事::/shucang/category_lishi_<,{{page}}.>html\n游戏竞技::/shucang/category_youxi_<,{{page}}.>html\n科幻未来::/shucang/category_kehuan_<,{{page}}.>html\n恐怖悬疑::/shucang/category_xuanyi_<,{{page}}.>html\n其他类型::/shucang/category_qita_<,{{page}}.>html\n古代言情::/shucang/category_guyan_<,{{page}}.>html\n现代言情::/shucang/category_xianyan_<,{{page}}.>html\n幻想奇缘::/shucang/category_huanqing_<,{{page}}.>html\n青春校园::/shucang/category_qingchun_<,{{page}}.>html\n网络情缘::/shucang/category_wangluo_<,{{page}}.>html\n科幻灵异::/shucang/category_mmkehuan_<,{{page}}.>html\n总裁豪门::/shucang/category_zongcai_<,{{page}}.>html",

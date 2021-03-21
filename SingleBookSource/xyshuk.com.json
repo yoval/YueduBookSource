@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"m.xyshuk.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "39小说网手机阅读",
+    "bookSourceName": "39小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.xyshuk.com",
-    "customOrder": 0,
+    "customOrder": 2220,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻小说::/sort/1_{{page}}",
-    "lastUpdateTime": 1614334227895,
+    "lastUpdateTime": 1616236719360,
     "ruleBookInfo": {
       "author": "class.block_txt2@tag.a.2@text",
       "coverUrl": "class.block_img2@img@src",

@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:failed to connect to www.ttshu8.org/137.220.231.44 (port 80) from /192.168.0.103 (port 42550) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "天天书吧",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.ttshu8.org",
     "bookUrlPattern": "",
-    "customOrder": -38374,
+    "customOrder": 1061,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "全部小说::/shuku/lastupdate_0_0_0_0_{{page}}.html\n玄幻魔法::/shuku/lastupdate_1_0_0_0_{{page}}.html\n武侠修真::/shuku/lastupdate_2_0_0_0_{{page}}.html\n都市言情::/shuku/lastupdate_3_0_0_0_{{page}}.html\n历史军事::/shuku/lastupdate_4_0_0_0_{{page}}.html\n侦探推理::/shuku/lastupdate_5_0_0_0_{{page}}.html\n网游动漫::/shuku/lastupdate_6_0_0_0_{{page}}.html\n科幻小说::/shuku/lastupdate_7_0_0_0_{{page}}.html\n恐怖灵异::/shuku/lastupdate_8_0_0_0_{{page}}.html\n散文诗词::/shuku/lastupdate_9_0_0_0_{{page}}.html\n其他类型::/shuku/lastupdate_10_0_0_0_{{page}}.html",

@@ -1,10 +1,10 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"m.xtxtrar.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "酷书网",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.xtxtrar.com",
-    "customOrder": 0,
+    "customOrder": 2218,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "耽美同人::/sort-1-{{page}}/&&都市言情::/sort-2-{{page}}/&&玄幻奇幻::/sort-3-{{page}}/&&穿越重生::/sort-4-{{page}}/&&恐怖推理::/sort-5-{{page}}/&&网游科幻::/sort-6-{{page}}/&&武侠仙侠::/sort-7-{{page}}/&&",

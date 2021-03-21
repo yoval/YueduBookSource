@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍒 言情中文网",
+    "bookSourceName": "言情中文网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.yqzww.cc",
-    "customOrder": -115953,
+    "customOrder": 455,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻小说::https://www.yqzww.cc/xuanhuan/?page={{page}}&&都市小说::/dushi/?page={{page}}&&武侠小说::/wuxia/?page={{page}}&&历史小说::/lishi/?page={{page}}&&科幻小说::/kehuan/?page={{page}}&&恐怖小说::/kongbu/?page={{page}}&&完本小说::/wanben/?page={{page}}&&",
-    "lastUpdateTime": 1610037973673,
+    "lastUpdateTime": 1616237542436,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
       "coverUrl": "[property=\"og:image\"]@content",

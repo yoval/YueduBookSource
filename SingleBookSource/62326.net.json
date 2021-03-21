@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🔰 格格党免费",
+    "bookSourceName": "格格党免费",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.62326.net",
     "bookUrlPattern": "",
-    "customOrder": -114768,
+    "customOrder": 993,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "最近更新::https://m.62326.net/top/lastupdate_{{page}}/\n最新入库::https://m.62326.net/top/postdate_{{page}}/\n总点击榜::https://m.62326.net/top/allvisit_{{page}}/\n总收藏榜::https://m.62326.net/top/goodnum_{{page}}/\n总推荐榜::https://m.62326.net/top/allvote_{{page}}/\n总字数榜::https://m.62326.net/top/size_{{page}}/\n玄幻魔法::https://m.62326.net/sort/1_{{page}}/\n仙侠修真::https://m.62326.net/sort/2_{{page}}/\n都市言情::https://m.62326.net/sort/3_{{page}}/\n历史军事::https://m.62326.net/sort/4_{{page}}/\n网游动漫::https://m.62326.net/sort/5_{{page}}/\n科幻小说::https://m.62326.net/sort/6_{{page}}/\n女生小说::https://m.62326.net/sort/7_{{page}}/\n其他小说::https://m.62326.net/sort/8_{{page}}/",
-    "lastUpdateTime": 1604054710877,
+    "lastUpdateTime": 1616237236577,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "class.tu@img@data-original",

@@ -1,13 +1,13 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "📥 鸠摩搜书",
+    "bookSourceName": "鸠摩搜书",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.jiumodiary.com",
-    "customOrder": -115892,
+    "customOrder": 483,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1606808476596,
+    "lastUpdateTime": 1616251127226,
     "ruleBookInfo": {
       "name": ""
     },

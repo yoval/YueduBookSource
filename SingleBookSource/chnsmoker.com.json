@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 换源神器",
+    "bookSourceName": "换源神器",
     "bookSourceType": 0,
     "bookSourceUrl": "http://info.chnsmoker.com",
-    "customOrder": -115674,
+    "customOrder": 613,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻奇幻::/list/category/book-hot-1-{{page}}.htm\n武侠仙侠::/list/category/book-hot-2-{{page}}.htm\n现代都市::/list/category/book-hot-3-{{page}}.htm\n历史军事::/list/category/book-hot-4-{{page}}.htm\n游戏竞技::/list/category/book-hot-5-{{page}}.htm\n科幻小说::/list/category/book-hot-6-{{page}}.htm\n古代言情::/list/category/book-hot-7-{{page}}.htm\n仙侠奇缘::/list/category/book-hot-8-{{page}}.htm\n现代言情::/list/category/book-hot-9-{{page}}.htm\n浪漫青春::/list/category/book-hot-10-{{page}}.htm\n玄幻言情::/list/category/book-hot-11-{{page}}.htm\n科幻空间::/list/category/book-hot-12-{{page}}.htm\n恐怖悬疑::/list/category/book-hot-14-{{page}}.htm\n二の次元::/list/category/book-hot-15-{{page}}.htm\n其他小说::/list/category/book-hot-17-{{page}}.htm\n女生频道::/list/category/book-hot-18-{{page}}.htm",
     "header": "",
-    "lastUpdateTime": 1612823936804,
+    "lastUpdateTime": 1616237924113,
     "ruleBookInfo": {
       "coverUrl": "",
       "init": "",

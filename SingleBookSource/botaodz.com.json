@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.botaodz.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "快眼看书",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.botaodz.com/",
     "bookUrlPattern": "",
-    "customOrder": -24,
+    "customOrder": 1822,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "全部::/category/all/\n玄幻::/category/xuanhuan/\n奇幻::/category/qihuan/\n武侠::/category/wuxia/\n仙侠::/category/xianxia/\n都市::/category/dushi/\n历史::/category/lishi/\n军事::/category/junshi/\n游戏::/category/youxi/\n竞技::/category/jingji/\n科幻::/category/kehuan/\n灵异::/category/lingyi/\n同人::/category/tongren/\n女生::/category/nvsheng/",

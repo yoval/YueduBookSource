@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 泡书吧",
+    "bookSourceName": "泡书吧",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.paoshuba.cc",
-    "customOrder": -116977,
+    "customOrder": 162,
     "enabled": true,
     "enabledExplore": true,
     "header": "",
-    "lastUpdateTime": 1610079982489,
+    "lastUpdateTime": 1616250024423,
     "ruleBookInfo": {
       "coverUrl": "",
       "intro": "class.lb_jj@tag.div.-1@html",

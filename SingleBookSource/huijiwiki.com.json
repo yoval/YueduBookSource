@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎈 临高启明同人",
+    "bookSourceName": "临高启明同人",
     "bookSourceType": 0,
     "bookSourceUrl": "http://lgqm.huijiwiki.com/wiki/同人作品列表",
     "bookUrlPattern": "",
-    "customOrder": -115916,
+    "customOrder": 468,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "同人作品列表::http://lgqm.huijiwiki.com/wiki/同人作品列表\n2017年铁拳爆菊大出血杯::http://lgqm.huijiwiki.com/wiki/2017年铁拳爆菊大出血杯\n2017年吹牛文学奖::http://lgqm.huijiwiki.com/wiki/2017年吹牛文学奖\n2016年铁拳爆菊大出血杯::http://lgqm.huijiwiki.com/wiki/2016年铁拳爆菊大出血杯",
-    "lastUpdateTime": 1606574902247,
+    "lastUpdateTime": 1616237568705,
     "loginUrl": "",
     "ruleBookInfo": {
       "name": "tag.h1@text"

@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 31小说",
+    "bookSourceName": "31小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.31xs.com",
-    "customOrder": -115575,
+    "customOrder": 695,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻::/list/1/&&修真::/list/2/&&都市::/list/3/&&历史::/list/4/&&网游::/list/5/&&科幻::/list/6/&&次元::/list/7/&&言情::/list/8/&&青春::/list/9/&&现代::/list/10/&&",
-    "lastUpdateTime": 1604943875036,
+    "lastUpdateTime": 1616237773160,
     "ruleBookInfo": {
       "coverUrl": "[property=\"og:image\"]@content",
       "intro": "[property=\"og:description\"]@content",

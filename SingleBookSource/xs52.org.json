@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.xs52.org\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "👍 52小说网",
+    "bookSourceName": "52小说网",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.xs52.org",
     "bookUrlPattern": "",
-    "customOrder": 15946,
+    "customOrder": 2478,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616249615190,
     "loginUrl": "",
     "ruleBookInfo": {},
     "ruleContent": {

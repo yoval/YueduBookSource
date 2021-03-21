@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.31bz.org\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "31bz.org",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.31bz.org",
     "bookUrlPattern": "",
-    "customOrder": 0,
+    "customOrder": 1852,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻奇幻::/xuanhuan/page_{{page}}.html\n武侠修真::/xiuzhen/page_{{page}}.html\n历史军事::/lishi/page_{{page}}.html\n游戏竞技::/wangyou/page_{{page}}.html\n都市言情::/dushi/page_{{page}}.html\n科幻灵异::/kehuan/page_{{page}}.html\n女生频道::/nvpin/page_{{page}}.html\n排行榜::/paihangbang/page_{{page}}.html",

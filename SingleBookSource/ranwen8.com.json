@@ -5,7 +5,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.ranwen8.com",
     "bookUrlPattern": "",
-    "customOrder": -117052,
+    "customOrder": 108,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "排行::/top/allvisit/{{page}}.html\n推荐::/top/allvote/{{page}}.html\n收藏::/top/goodnum/{{page}}.html\n字数::/top/size/{{page}}.html\n最新::/top/postdate/{{page}}.html\n更新::/top/lastupdate/{{page}}.html\n站推::/top/toptime/{{page}}.html\n玄幻::/fenlei/1_{{page}}/\n仙侠::/fenlei/2_{{page}}/\n都市::/fenlei/3_{{page}}/\n历史::/fenlei/4_{{page}}/\n科幻::/fenlei/5_{{page}}/\n网游::/fenlei/6_{{page}}/\n完本::/quanben/{{page}}",

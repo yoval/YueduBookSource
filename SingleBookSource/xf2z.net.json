@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.xf2z.net\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "👍 西丰中文(落寞尘世)",
+    "bookSourceName": "西丰中文",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.xf2z.net",
-    "customOrder": 16045,
+    "customOrder": 2504,
     "enabled": true,
     "enabledExplore": true,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/49.0.2623.87 Safari/537.36\"\n}",
-    "lastUpdateTime": 1603036563953,
+    "lastUpdateTime": 1616249560126,
     "ruleBookInfo": {
       "author": "tag.span.1@text##作者.",
       "intro": "class.public_ad_content@text",

@@ -1,13 +1,13 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🌸 uc中文",
+    "bookSourceName": "uc中文",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.uczw.com",
-    "customOrder": -117036,
+    "customOrder": 117,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1605255048570,
+    "lastUpdateTime": 1616232967383,
     "ruleBookInfo": {
       "lastChapter": "class.bookdes@a@text"
     },

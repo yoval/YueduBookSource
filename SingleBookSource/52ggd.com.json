@@ -1,13 +1,13 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🔰 格格党④",
+    "bookSourceName": "格格党",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.52ggd.com",
-    "customOrder": -114649,
+    "customOrder": -117591,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1612531602533,
+    "lastUpdateTime": 1616246307177,
     "ruleBookInfo": {
       "coverUrl": "class.block_img2@tag.img@src",
       "intro": "class.intro_info@text",

@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:timeout\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "书屋小说网",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.shu05.com",
     "bookUrlPattern": "",
-    "customOrder": -116986,
+    "customOrder": 154,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "首页推荐::http://www.shu05.com/\n最近更新::http://www.shu05.com/book/lastupdate-{{page}}.html\n最新入库::http://www.shu05.com/book/postdate-{{page}}.html\n周排行榜::http://www.shu05.com/book/weekvisit-{{page}}.html\n月排行榜::http://www.shu05.com/book/monthvisit-{{page}}.html\n总排行榜::http://www.shu05.com/book/allvisit-{{page}}.html\n周推荐榜::http://www.shu05.com/book/weekvote-{{page}}.html\n月推荐榜::http://www.shu05.com/book/monthvote-{{page}}.html\n总推荐榜::http://www.shu05.com/book/allvote-{{page}}.html\n玄幻魔法::http://www.shu05.com/list/1-{{page}}.html\n仙侠修真::http://www.shu05.com/list/2-{{page}}.html\n都市言情::http://www.shu05.com/list/3-{{page}}.html\n历史军事::http://www.shu05.com/list/4-{{page}}.html\n网游动漫::http://www.shu05.com/list/5-{{page}}.html\n科幻推理::http://www.shu05.com/list/6-{{page}}.html\n惊悚灵异::http://www.shu05.com/list/7-{{page}}.html\n综合类型::http://www.shu05.com/list/8-{{page}}.html",

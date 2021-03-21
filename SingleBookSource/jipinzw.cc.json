@@ -1,12 +1,12 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.jipinzw.cc\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "极品小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.jipinzw.cc",
-    "customOrder": 0,
+    "customOrder": 2024,
     "enabled": true,
-    "enabledExplore": false,
+    "enabledExplore": true,
     "lastUpdateTime": 0,
     "ruleBookInfo": {},
     "ruleContent": {

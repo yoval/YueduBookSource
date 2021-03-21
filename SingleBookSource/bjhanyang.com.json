@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "📚 汉扬居",
+    "bookSourceName": "汉扬居",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.bjhanyang.com",
     "bookUrlPattern": "",
-    "customOrder": -116686,
+    "customOrder": 333,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "书库::/shuku_1433_{{page}}.html",
-    "lastUpdateTime": 1606809045515,
+    "lastUpdateTime": 1616236609970,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "class.pic@tag.img.0@src",

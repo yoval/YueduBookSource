@@ -1,10 +1,10 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Failed to connect to www.xiaoshuozu8.com/93.46.8.89:443\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🎉 小说族吧",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.xiaoshuozu8.com",
-    "customOrder": -115596,
+    "customOrder": 675,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 0,

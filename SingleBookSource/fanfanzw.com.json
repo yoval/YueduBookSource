@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 饭饭中文",
+    "bookSourceName": "饭饭中文",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.fanfanzw.com",
     "bookUrlPattern": "",
-    "customOrder": -116939,
+    "customOrder": 188,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1606811391105,
+    "lastUpdateTime": 1616250104609,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "id.info@tag.p.0@a@text",

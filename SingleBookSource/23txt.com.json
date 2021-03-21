@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:timeout\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🎉 天籁小说𖤓",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.23txt.com",
     "bookUrlPattern": "",
-    "customOrder": -115209,
+    "customOrder": 787,
     "enabled": true,
     "enabledExplore": true,
     "header": "",

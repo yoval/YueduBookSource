@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 笔趣",
+    "bookSourceName": "笔趣",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.biquw.com",
     "bookUrlPattern": "",
-    "customOrder": -115159,
+    "customOrder": 800,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "默认::/xs/quanbu-default-0-0-0-0-0-0-{{page}}.html\n点击::/xs/quanbu-allvisit-0-0-0-0-0-0-{{page}}.html\n推荐::/xs/quanbu-allvote-0-0-0-0-0-0-{{page}}.html\n收藏::/xs/quanbu-goodnum-0-0-0-0-0-0-{{page}}.html\n字数::/xs/quanbu-size-0-0-0-0-0-0-{{page}}.html\n时间::/xs/quanbu-postdate-0-0-0-0-0-0-{{page}}.html\n玄幻::/xs/1-default-0-0-0-0-2-0-{{page}}.html\n仙侠::/xs/2-default-0-0-0-0-2-0-{{page}}.html\n都市::/xs/3-default-0-0-0-0-2-0-{{page}}.html\n军史::/xs/4-default-0-0-0-0-2-0-{{page}}.html\n网游::/xs/5-default-0-0-0-0-2-0-{{page}}.html\n科幻::/xs/6-default-0-0-0-0-2-0-{{page}}.html\n灵异::/xs/7-default-0-0-0-0-2-0-{{page}}.html\n言情::/xs/8-default-0-0-0-0-2-0-{{page}}.html\n其他::/xs/9-default-0-0-0-0-2-0-{{page}}.html",
-    "lastUpdateTime": 1606430636194,
+    "lastUpdateTime": 1616237658778,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",

@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "error:failed to connect to www.duxia.org/115.238.239.133 (port 443) from /192.168.0.103 (port 37650) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🎉 读下",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.duxia.org",
     "bookUrlPattern": "",
-    "customOrder": -31976,
+    "customOrder": 1472,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 0,

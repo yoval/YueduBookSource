@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.51tuz.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🎉 51途站",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.51tuz.com",
     "bookUrlPattern": "",
-    "customOrder": -31896,
+    "customOrder": 1507,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 0,

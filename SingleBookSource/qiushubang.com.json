@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:SSL handshake timed out\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🎉 求书帮",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.qiushubang.com",
     "bookUrlPattern": "",
-    "customOrder": -115248,
+    "customOrder": 778,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 1612782120483,

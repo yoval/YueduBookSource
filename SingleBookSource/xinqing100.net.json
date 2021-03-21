@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:failed to connect to www.xinqing100.net/23.249.26.90 (port 443) from /192.168.0.103 (port 49044) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🎉 心情小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.xinqing100.net",
     "bookUrlPattern": "",
-    "customOrder": -32059,
+    "customOrder": 1426,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 0,

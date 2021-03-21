@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "👍 书城网",
+    "bookSourceName": "书城网",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.shucw.com",
-    "customOrder": -114870,
+    "customOrder": 915,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻::/xclass/1/{{page}}.html\n修真::/xclass/2/{{page}}.html\n都市::/xclass/3/{{page}}.html\n穿越::/xclass/4/{{page}}.html\n其他::/xclass/5/{{page}}.html\n网游::/xclass/6/{{page}}.html\n科幻::/xclass/7/{{page}}.html",
-    "lastUpdateTime": 1605501088563,
+    "lastUpdateTime": 1616237313050,
     "ruleBookInfo": {
       "author": "##作者：([^<]*)##$1###",
       "coverUrl": "class.synopsisArea_detail@tag.img@src",

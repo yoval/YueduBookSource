@@ -1,13 +1,13 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"api10.youduwen.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🔰 友读小说",
+    "bookSourceName": "友读小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://api10.youduwen.com",
-    "customOrder": 16093,
+    "customOrder": 2526,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1602757064943,
+    "lastUpdateTime": 1616249526947,
     "loginUrl": "",
     "ruleBookInfo": {
       "lastChapter": ".last_part",

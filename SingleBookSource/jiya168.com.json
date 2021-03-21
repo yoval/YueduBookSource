@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"mip.jiya168.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "艺术小说网",
     "bookSourceType": 0,
     "bookSourceUrl": "http://mip.jiya168.com",
     "bookUrlPattern": "",
-    "customOrder": 0,
+    "customOrder": 2025,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "最新更新::http://mip.jiya168.com/top/lastupdate_{{page}}/\n最新入库::http://mip.jiya168.com/top/postdate_{{page}}/\n总点击榜::http://mip.jiya168.com/top/allvisit_{{page}}/\n总收藏榜::http://mip.jiya168.com/top/goodnum_{{page}}/\n总字数榜::http://mip.jiya168.com/top/size_{{page}}/\n总推荐榜::http://mip.jiya168.com/top/allvote_{{page}}/\n玄幻魔法::http://mip.jiya168.com/sort/1_{{page}}/\n武侠修真::http://mip.jiya168.com/sort/2_{{page}}/\n都市言情::http://mip.jiya168.com/sort/3_{{page}}/\n历史军事::http://mip.jiya168.com/sort/4_{{page}}/\n侦探推理::http://mip.jiya168.com/sort/5_{{page}}/\n网游动漫::http://mip.jiya168.com/sort/6_{{page}}/\n科幻小说::http://mip.jiya168.com/sort/7_{{page}}/\n恐怖灵异::http://mip.jiya168.com/sort/8_{{page}}/\n其他小说::http://mip.jiya168.com/sort/10_{{page}}/",

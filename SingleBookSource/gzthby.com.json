@@ -1,13 +1,13 @@
 [  {
-    "bookSourceComment": "(^･ｪ･^)",
+    "bookSourceComment": "error:Unable to resolve host \"www.gzthby.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🌼 笔下看书阁gzthby",
+    "bookSourceName": "笔下看书阁",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.gzthby.com",
-    "customOrder": 53,
+    "customOrder": 2332,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1606190883266,
+    "lastUpdateTime": 1616249705418,
     "ruleBookInfo": {
       "author": "author",
       "coverUrl": "cover",

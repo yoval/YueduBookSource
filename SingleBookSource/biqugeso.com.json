@@ -1,13 +1,13 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源,经典盗版",
-    "bookSourceName": "🎉 笔趣阁Ⓝ S",
+    "bookSourceName": "笔趣阁",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.biqugeso.com",
-    "customOrder": -115560,
+    "customOrder": 703,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1606916652908,
+    "lastUpdateTime": 1616250201547,
     "ruleBookInfo": {
       "author": "class.booktag@tag.a.0@text",
       "coverUrl": "class.col-md-2 col-xs-4 hidden-xs@tag.img@src",

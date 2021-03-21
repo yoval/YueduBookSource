@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.huashuge.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🔰 华书阁",
+    "bookSourceName": "华书阁",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.huashuge.com",
     "bookUrlPattern": "",
-    "customOrder": 16179,
+    "customOrder": 2560,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616233105638,
     "loginUrl": "",
     "ruleBookInfo": {},
     "ruleContent": {

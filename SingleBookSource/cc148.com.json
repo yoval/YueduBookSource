@@ -5,7 +5,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.cc148.com",
     "bookUrlPattern": "https://www.cc148.com/\\d+_\\d+/",
-    "customOrder": -32127,
+    "customOrder": 1403,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 1602779276716,

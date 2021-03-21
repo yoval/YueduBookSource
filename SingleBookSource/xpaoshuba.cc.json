@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:timeout\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🎉 泡书吧②",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.xpaoshuba.cc",
     "bookUrlPattern": "",
-    "customOrder": -115372,
+    "customOrder": 758,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 1612771033896,

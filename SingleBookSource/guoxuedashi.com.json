@@ -1,13 +1,13 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "📚 国学大师",
+    "bookSourceName": "国学大师",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.guoxuedashi.com",
-    "customOrder": -116688,
+    "customOrder": 332,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1606808862042,
+    "lastUpdateTime": 1616249414622,
     "ruleBookInfo": {
       "intro": "text"
     },

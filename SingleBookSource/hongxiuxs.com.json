@@ -1,13 +1,13 @@
 [  {
-    "bookSourceComment": "酷安",
+    "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍒 红袖小说",
+    "bookSourceName": "红袖小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.hongxiuxs.com",
-    "customOrder": -115996,
+    "customOrder": 431,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1612826052767,
+    "lastUpdateTime": 1616251063965,
     "ruleBookInfo": {
       "author": "class.catalog1@tag.a.0@text",
       "canReName": "true",

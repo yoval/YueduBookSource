@@ -4,9 +4,9 @@
     "bookSourceName": "文书楼 修复版，请更新",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.wenshulou.cc",
-    "customOrder": -117583,
+    "customOrder": 20,
     "enabled": true,
-    "enabledExplore": false,
+    "enabledExplore": true,
     "lastUpdateTime": 1615382846864,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",

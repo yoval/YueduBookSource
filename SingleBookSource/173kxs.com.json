@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "#class.bookinfo\n#class.listman\n#id.content",
+    "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "173K小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.173kxs.com/",
     "bookUrlPattern": ".+/(\\d+)_\\1\\d+/",
-    "customOrder": -117605,
+    "customOrder": 12,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 1615684489126,

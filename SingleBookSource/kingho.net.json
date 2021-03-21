@@ -1,13 +1,13 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍒 king小说",
+    "bookSourceName": "king小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.kingho.net",
-    "customOrder": -115955,
+    "customOrder": 453,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1604579849985,
+    "lastUpdateTime": 1616251097249,
     "ruleBookInfo": {
       "author": "//*[@property=\"og:novel:author\"]/@content",
       "intro": "//*[@property=\"og:description\"]/@content",

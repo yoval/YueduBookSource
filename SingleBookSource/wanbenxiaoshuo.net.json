@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "👍 完本小说",
+    "bookSourceName": "完本小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.wanbenxiaoshuo.net",
     "bookUrlPattern": "",
-    "customOrder": -115032,
+    "customOrder": 865,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻奇幻::/sort/1_{{page}}.html\n仙侠修真::/sort/2_{{page}}.html\n都市生活::/sort/3_{{page}}.html\n历史穿越::/sort/4_{{page}}.html\n游戏竞技::/sort/5_{{page}}.html\n科幻推理::/sort/6_{{page}}.html\n武侠古典::/sort/7_{{page}}.html\n恐怖悬疑::/sort/8_{{page}}.html\n女生小说::/sort/9_{{page}}.html\n文学名著::/sort/10_{{page}}.html\n其他类型::/sort/11_{{page}}.html",
-    "lastUpdateTime": 1604666364073,
+    "lastUpdateTime": 1616237349571,
     "loginUrl": "｡◕‿◕｡",
     "ruleBookInfo": {
       "coverUrl": "class.novel_img@tag.img@src",

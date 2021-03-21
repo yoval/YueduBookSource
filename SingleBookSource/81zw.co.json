@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:SSL handshake timed out\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "👍 八一中文",
+    "bookSourceName": "八一中文",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.81zw.co",
-    "customOrder": -114922,
+    "customOrder": 895,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻::/fenlei/1_{{page}}/\n言情::/fenlei/2_{{page}}/\n仙侠::/fenlei/3_{{page}}/\n都市::/fenlei/4_{{page}}/\n历史::/fenlei/5_{{page}}/\n网游::/fenlei/6_{{page}}/\n竞技::/fenlei/7_{{page}}/\n科幻::/fenlei/8_{{page}}/\n完本::/quanben/{{page}}/",
-    "lastUpdateTime": 1612541432565,
+    "lastUpdateTime": 1616237336393,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
       "coverUrl": "[property=\"og:image\"]@content",

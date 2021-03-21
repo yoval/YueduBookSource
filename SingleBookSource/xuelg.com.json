@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"book.xuelg.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🔰 血莲书阁",
+    "bookSourceName": "血莲书阁",
     "bookSourceType": 0,
     "bookSourceUrl": "http://book.xuelg.com",
-    "customOrder": 16252,
+    "customOrder": 2592,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻小说::/sort/2f736f72742d312d3{{page}}2f.html\n仙侠小说::/sort/2f736f72742d322d3{{page}}2f.html\n都市小说::/sort/2f736f72742d332d3{{page}}2f.html\n历史小说::/sort/2f736f72742d342d3{{page}}2f.html\n游戏小说::/sort/2f736f72742d352d3{{page}}2f.html\n科幻小说::/sort/2f736f72742d362d3{{page}}2f.html",
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616232801636,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.author@text",

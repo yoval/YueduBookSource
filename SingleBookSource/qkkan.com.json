@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.qkkan.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🔰 去看看",
+    "bookSourceName": "去看看",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.qkkan.com",
-    "customOrder": 16210,
+    "customOrder": 2574,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻魔法::/files/article/sort1/0/{{page}}.htm\n武侠修真::/files/article/sort2/0/{{page}}.htm\n都市言情::/files/article/sort3/0/{{page}}.htm\n历史军事::/files/article/sort4/0/{{page}}.htm\n游戏竞技::/files/article/sort5/0/{{page}}.htm\n科幻小说::/files/article/sort6/0/{{page}}.htm\n恐怖灵异::/files/article/sort7/0/{{page}}.htm\n其他类型::/files/article/sort8/0/{{page}}.htm\n最近跟新::/files/article/toplastupdate/0/{{page}}.htm\n总排行榜::/files/article/topallvisit/0/{{page}}.htm\n总推荐榜::/files/article/topallvote/0/{{page}}.htm\n总收藏榜::/files/article/topgoodnum/0/{{page}}.htm\n最新入库::/files/article/toppostdate/0/{{page}}.htm\n全本小说::/modules/article/index.php?fullflag={{page}}&page={{page}}",
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616233063759,
     "ruleBookInfo": {
       "author": "id.content@tag.tbody.1@tag.td.3@text",
       "intro": "id.content@tag.tr.11@tag.td.1@text##.*简介：",

@@ -1,13 +1,13 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.35851.net\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 358小说大全",
+    "bookSourceName": "358小说大全",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.35851.net",
-    "customOrder": -31821,
+    "customOrder": 1538,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1601698510675,
+    "lastUpdateTime": 1616249889115,
     "ruleBookInfo": {
       "author": "//*[@property=\"og:novel:author\"]/@content",
       "coverUrl": "//*[@property=\"og:image\"]/@content",

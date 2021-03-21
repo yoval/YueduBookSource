@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 大熊猫文学",
+    "bookSourceName": "大熊猫文学",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.dxmwx.net",
     "bookUrlPattern": "",
-    "customOrder": -115220,
+    "customOrder": 785,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻::/dxmlist/%E7%8E%84%E5%B9%BB_{{page}}.html\n奇幻::/dxmlist/%E5%A5%87%E5%B9%BB_{{page}}.html\n武侠::/dxmlist/%E6%AD%A6%E4%BE%A0_{{page}}.html\n仙侠::/dxmlist/%E4%BB%99%E4%BE%A0_{{page}}.html\n都市::/dxmlist/%E9%83%BD%E5%B8%82_{{page}}.html\n言情::/dxmlist/%E8%A8%80%E6%83%85_{{page}}.html\n历史::/dxmlist/%E5%8E%86%E5%8F%B2_{{page}}.html\n军事::/dxmlist/%E5%86%9B%E4%BA%8B_{{page}}.html\n游戏::/dxmlist/%E6%B8%B8%E6%88%8F_{{page}}.html\n竞技::/dxmlist/%E7%AB%9E%E6%8A%80_{{page}}.html\n科幻::/dxmlist/%E7%A7%91%E5%B9%BB_{{page}}.html\n灵异::/dxmlist/%E7%81%B5%E5%BC%82_{{page}}.html\n悬疑::/dxmlist/%E6%82%AC%E7%96%91_{{page}}.html\n现实::/dxmlist/%E7%8E%B0%E5%AE%9E_{{page}}.html\n次元::/dxmlist/%E4%BA%8C%E6%AC%A1%E5%85%83_{{page}}.html",
-    "lastUpdateTime": 1605282482650,
+    "lastUpdateTime": 1616237672801,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",

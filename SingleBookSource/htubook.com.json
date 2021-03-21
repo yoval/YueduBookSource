@@ -1,10 +1,10 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"m.htubook.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "河圖文化",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.htubook.com/",
-    "customOrder": -38,
+    "customOrder": 1816,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "人气::/book/top/hot/\n推荐::/book/top/commend/\n收藏::/book/top/collection/\n書庫::/book/<,tc0_d0_u0_ln0_s0_op0_p{{page}}_se0/>",

@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍒 凤凰小说",
+    "bookSourceName": "凤凰小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.fhxsz.com",
     "bookUrlPattern": "",
-    "customOrder": -115982,
+    "customOrder": 442,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "穿越::/sort/1/{{page}}/\n架空::/sort/2/{{page}}/\n玄幻::/sort/3/{{page}}/\n魔幻::/sort/4/{{page}}/\n仙侠::/sort/5/{{page}}/\n古言::/sort/6/{{page}}/\n现言::/sort/7/{{page}}/\n爱情::/sort/8/{{page}}/\n历史::/sort/9/{{page}}/\n都市::/sort/10/{{page}}/\n恐怖::/sort/11/{{page}}/\n网游::/sort/12/{{page}}/\n动漫::/sort/13/{{page}}/\n奇幻::/sort/14/{{page}}/\n科幻::/sort/15/{{page}}/\n同人::/sort/16/{{page}}/\n耽美::/sort/17/{{page}}/\n其他::/sort/18/{{page}}/",
-    "lastUpdateTime": 1605162744099,
+    "lastUpdateTime": 1616237500456,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",

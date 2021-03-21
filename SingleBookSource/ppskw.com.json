@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "👍 56书库",
+    "bookSourceName": "56书库",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.ppskw.com",
     "bookUrlPattern": "",
-    "customOrder": -115041,
+    "customOrder": 859,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻魔法::/leibie1_{{page}}.shtml\n武侠修真::/leibie2_{{page}}.shtml\n都市言情::/leibie3_{{page}}.shtml\n历史军事::/leibie4_{{page}}.shtml\n侦探推理::/leibie5_{{page}}.shtml\n游戏竞技::/leibie6_{{page}}.shtml\n科幻小说::/leibie7_{{page}}.shtml\n恐怖灵异::/leibie8_{{page}}.shtml\n散文诗词::/leibie9_{{page}}.shtml\n其他类型::/leibie10_{{page}}.shtml\n完本小说::/wanben1_{{page}}.shtml\n最近更新::/lastupdate/{{page}}.shtml\n最新新书::/postdate/{{page}}.shtml\n日点击榜::/dayvisit/{{page}}.shtml\n周点击榜::/weekvisit/{{page}}.shtml\n月点击榜::/monthvisit/{{page}}.shtml\n总点击榜::/allvisit/{{page}}.shtml\n日推荐榜::/dayvote/{{page}}.shtml\n周推荐榜::/weekvote/{{page}}.shtml\n月推荐榜::/monthvote/{{page}}.shtml\n总推荐榜::/allvote/{{page}}.shtml\n字数排行::/size/{{page}}.shtml\n总收藏榜::/goodnum/{{page}}.shtml\n本站推荐::/toptime/{{page}}.shtml",
-    "lastUpdateTime": 1609989204719,
+    "lastUpdateTime": 1616237353905,
     "ruleBookInfo": {
       "author": "",
       "name": ""

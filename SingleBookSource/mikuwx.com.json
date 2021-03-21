@@ -1,12 +1,12 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"m.mikuwx.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "米库小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.mikuwx.com",
-    "customOrder": 0,
-    "enabled": false,
-    "enabledExplore": false,
+    "customOrder": 2076,
+    "enabled": true,
+    "enabledExplore": true,
     "lastUpdateTime": 0,
     "ruleBookInfo": {
       "coverUrl": "class.img-thumbnail@src",

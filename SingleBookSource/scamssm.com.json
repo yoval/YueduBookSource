@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 广安中文网",
+    "bookSourceName": "广安中文网",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.scamssm.com",
-    "customOrder": -115093,
+    "customOrder": 822,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "全本::/full/{{page}}/\n总点击::/top/allvisit_{{page}}/\n月点击::/top/monthvisit_{{page}}/\n周点击::/top/weekvisit_{{page}}/\n最近更新::/top/lastupdate_{{page}}/\n最新入库::/top/postdate_{{page}}/\n总推荐::/top/allvote_{{page}}/\n数字排行::/top/size_{{page}}/\n总收藏::/top/goodnum_{{page}}/\n周推荐::/top/weekvote_{{page}}/\n约推荐::/top/monthvote_{{page}}/",
-    "lastUpdateTime": 1612606673824,
+    "lastUpdateTime": 1616237620484,
     "ruleBookInfo": {
       "coverUrl": "id.thumb@tag.img@src",
       "intro": "class.review@text",

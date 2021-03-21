@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.mhtwx.la\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍅棉花糖",
+    "bookSourceName": "棉花糖",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.mhtwx.la",
-    "customOrder": 10778,
+    "customOrder": 2424,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻魔法::/mulu/1-{{page}}.html\n武侠修真::/mulu/2-{{page}}.html\n都市言情::/mulu/3-{{page}}.html\n历史军事::/mulu/4-{{page}}.html\n侦探推理::/mulu/5-{{page}}.html\n网游动漫::/mulu/6-{{page}}.html\n科幻小说::/mulu/7-{{page}}.html\n恐怖灵异::/mulu/8-{{page}}.html\n同人小说::/mulu/9-{{page}}.html\n穿越小说::/mulu/10-{{page}}.html",
-    "lastUpdateTime": 1606326944723,
+    "lastUpdateTime": 1616234631041,
     "ruleBookInfo": {
       "author": "[name=\"og:novel:author\"]@content",
       "coverUrl": "[property=\"og:image\"]@content",

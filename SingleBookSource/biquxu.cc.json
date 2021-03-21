@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:SSL handshake aborted: ssl=0x7e2e2a3c48: I/O error during system call, Software caused connection abort\n",
     "bookSourceGroup": "我的书源,经典盗版",
     "bookSourceName": "🎉 笔趣阁⑥⓪",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.biquxu.cc",
     "bookUrlPattern": "",
-    "customOrder": -31941,
+    "customOrder": 1490,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 0,

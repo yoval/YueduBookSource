@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🍺 笔趣库",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.biquku.la/❀",
     "bookUrlPattern": "",
-    "customOrder": -32832,
+    "customOrder": 1153,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 1603359144327,

@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:正文内容为空\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "👍 爱看书吧①",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.ikshu8.com",
     "bookUrlPattern": "",
-    "customOrder": -114825,
+    "customOrder": 948,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 1612828355622,

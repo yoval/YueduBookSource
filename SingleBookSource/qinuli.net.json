@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🌸 齐努力",
+    "bookSourceName": "齐努力",
     "bookSourceType": 0,
     "bookSourceUrl": "https://i.qinuli.net",
     "bookUrlPattern": "",
-    "customOrder": -117075,
+    "customOrder": 95,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1612809247529,
+    "lastUpdateTime": 1616232904455,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "##作者：([^<]*)##$1###",

@@ -1,10 +1,10 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.koushuishu.me\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "我乐书城",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.koushuishu.me",
-    "customOrder": 0,
+    "customOrder": 2039,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "异界修仙::http://www.koushuishu.me/XiuXian/Page<{{page}}>/\n都市社会::http://www.koushuishu.me/HouGong/Page<{{page}}>/\n言情浪漫::http://www.koushuishu.me/YanQing/Page<{{page}}>/\n清纯校园::http://www.koushuishu.me/XiaoYuan/Page<{{page}}>/\n穿越重生::http://www.koushuishu.me/ChuanYue/Page<{{page}}>/\n惊悚科幻::http://www.koushuishu.me/KeHuan/Page<{{page}}>/\n另类乡土::http://www.koushuishu.me/LingLei/Page<{{page}}>/\n女生频道::http://www.koushuishu.me/NvSheng/Page<{{page}}>/",

@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 衍墨轩",
+    "bookSourceName": "衍墨轩",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.yanmoxuan.org",
     "bookUrlPattern": "",
-    "customOrder": -116824,
+    "customOrder": 235,
     "enabled": true,
     "enabledExplore": true,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36\"\n}",
-    "lastUpdateTime": 1604054114999,
+    "lastUpdateTime": 1616250142927,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "class.cover@img@src",

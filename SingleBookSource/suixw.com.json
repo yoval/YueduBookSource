@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎈 随想轻小说",
+    "bookSourceName": "随想轻小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://book.suixw.com",
     "bookUrlPattern": "",
-    "customOrder": -115947,
+    "customOrder": 456,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1612809732348,
+    "lastUpdateTime": 1616251101866,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "id.content@tag.td.5@text##小说",

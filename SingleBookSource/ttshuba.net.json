@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:timeout\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🎉 天天书吧",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.ttshuba.net",
     "bookUrlPattern": "",
-    "customOrder": -32041,
+    "customOrder": 1433,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 0,

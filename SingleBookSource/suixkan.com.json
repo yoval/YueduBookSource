@@ -1,13 +1,13 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🌸 随心看",
+    "bookSourceName": "随心看",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.suixkan.com",
-    "customOrder": -117034,
+    "customOrder": 119,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1606746887765,
+    "lastUpdateTime": 1616232971617,
     "ruleBookInfo": {
       "lastChapter": "class.chapter-entrance@text",
       "tocUrl": "class.sumchapter@a@href"

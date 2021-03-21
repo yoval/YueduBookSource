@@ -1,15 +1,15 @@
 [  {
-    "bookSourceComment": "☞玩泥巴吹泡泡套圈圈™",
+    "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 大海小说",
+    "bookSourceName": "大海小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.dlhtxs.com",
-    "customOrder": -116899,
+    "customOrder": 202,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻小说::/class/1_{{page}}.html\n武侠小说::/class/2_{{page}}.html\n都市小说::/class/3_{{page}}.html\n历史小说::/class/4_{{page}}.html\n网游小说::/class/5_{{page}}.html\n科幻小说::/class/6_{{page}}.html\n言情小说::/class/7_{{page}}.html\n其它小说::/class/8_{{page}}.html",
     "header": "",
-    "lastUpdateTime": 1605335256126,
+    "lastUpdateTime": 1616156728217,
     "ruleBookInfo": {
       "coverUrl": "class.book-img@img@src",
       "tocUrl": "text.开始阅读@href"

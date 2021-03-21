@@ -5,11 +5,11 @@
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.xiang5.com/",
     "bookUrlPattern": "",
-    "customOrder": -117382,
+    "customOrder": 61,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "热销榜::/paihang.html\n点击榜::/paihang/dianji.html\n新书榜::/paihang/newbook.html\n收藏榜::/paihang/favor.html\n更新榜::/paihang/update.html\n完结榜::/paihang/finishtop.html\n免费榜::/paihang/wordcount.html",
-    "lastUpdateTime": 1615879600286,
+    "lastUpdateTime": 1616226528700,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": ".bookcover@src##@.+",
@@ -34,7 +34,7 @@
       "bookUrl": "book_url",
       "coverUrl": "img##@.+",
       "intro": "des",
-      "kind": "{$.type},{$.status}@js:result.replace('完本', '完结').replace('小说', '')",
+      "kind": "{$.type},{$.status}",
       "name": "name"
     },
     "ruleToc": {

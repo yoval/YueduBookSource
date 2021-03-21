@@ -4,7 +4,7 @@
     "bookSourceName": "笔趣阁",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.paozw.com",
-    "customOrder": -116982,
+    "customOrder": 158,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "全部小说::https://m.paozw.com/sort/{{page}}/\n完本小说::https://m.paozw.com/quanben/sort/{{page}}/\n玄幻魔法::https://m.paozw.com/sort/1/{{page}}/\n武侠修真::https://m.paozw.com/sort/2/{{page}}/\n都市言情::https://m.paozw.com/sort/3/{{page}}/\n历史军事::https://m.paozw.com/sort/4/{{page}}/\n穿越架空::https://m.paozw.com/sort/5/{{page}}/\n游戏竞技::https://m.paozw.com/sort/6/{{page}}/\n科幻灵异::https://m.paozw.com/sort/7/{{page}}/\n综合其他::https://m.paozw.com/sort/8/{{page}}/",

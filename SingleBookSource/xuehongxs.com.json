@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "xpath;coolapk@芜恙;intro",
+    "bookSourceComment": "error:Unable to resolve host \"www.xuehongxs.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 血红",
+    "bookSourceName": "血红",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.xuehongxs.com#tbody tr!0",
     "bookUrlPattern": "https://www.xuehongxs.com/\\d+_\\d+/",
-    "customOrder": -31789,
+    "customOrder": 1553,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1602753862901,
+    "lastUpdateTime": 1616249851316,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
       "coverUrl": "[property=\"og:image\"]@content",

@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🔰 精品小说",
+    "bookSourceName": "精品小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.zjwyzyy.com",
-    "customOrder": -114576,
+    "customOrder": 1037,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻魔法::/sort/1_{{page}}.html\n仙侠修真::/sort/2_{{page}}.html\n都市言情::/sort/3_{{page}}.html\n历史军事::/sort/4_{{page}}.html\n网游竞技::/sort/5_{{page}}.html\n科幻小说::/sort/6_{{page}}.html\n恐怖灵异::/sort/7_{{page}}.html\n其他小说::/sort/8_{{page}}.html",
-    "lastUpdateTime": 1612827031789,
+    "lastUpdateTime": 1616237192554,
     "ruleBookInfo": {
       "lastChapter": ".catalog_newest@a@text"
     },

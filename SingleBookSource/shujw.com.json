@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "👍 书籍网",
+    "bookSourceName": "书籍网",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.shujw.com",
     "bookUrlPattern": "",
-    "customOrder": -32877,
+    "customOrder": 1144,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻魔法::http://www.shujw.com/list/1-{{page}}.html\n仙侠修真::http://www.shujw.com/list/2-{{page}}.html\n都市言情::http://www.shujw.com/list/3-{{page}}.html\n历史军事::http://www.shujw.com/list/4-{{page}}.html\n网游动漫::http://www.shujw.com/list/5-{{page}}.html\n科幻小说::http://www.shujw.com/list/6-{{page}}.html\n恐怖灵异::http://www.shujw.com/list/7-{{page}}.html\n其他类型::http://www.shujw.com/list/8-{{page}}.html",
-    "lastUpdateTime": 1603357500267,
+    "lastUpdateTime": 1616236664091,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.info2@h3@a@text",

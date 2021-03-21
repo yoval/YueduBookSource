@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 格格党②",
+    "bookSourceName": "格格党",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.ggdownxs.co",
-    "customOrder": -116794,
+    "customOrder": 261,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "",
-    "lastUpdateTime": 1604168078940,
+    "lastUpdateTime": 1616250857782,
     "ruleBookInfo": {
       "author": "class.kook-title@tag.em@text",
       "coverUrl": "class.book-img@img@src",

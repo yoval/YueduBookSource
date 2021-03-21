@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍑 爱男孩帅哥",
+    "bookSourceName": "爱男孩帅哥",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.aiboy.cc",
-    "customOrder": -116088,
+    "customOrder": 379,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "精选同志::/list-15-{{page}}.html\n短篇同志::/list-16-{{page}}.html\n军警同志::/list-17-{{page}}.html\n男男搞基::/list-42-{{page}}.html\n耽美纯爱::/list-18-{{page}}.html\n同志故事::/list-21-{{page}}.html\n基友话题::/list-20-{{page}}.html\n防艾专栏::/list-40-{{page}}.html\n同影评论::/list-25-{{page}}.html",
-    "lastUpdateTime": 1612444726869,
+    "lastUpdateTime": 1616237404499,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.gray1@text##.*作者：|阅读.*",

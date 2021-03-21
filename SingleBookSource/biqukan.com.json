@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Failed to connect to www.biqukan.com/67.198.229.82:443\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🎉 笔趣看",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.biqukan.com",
     "bookUrlPattern": "",
-    "customOrder": -31950,
+    "customOrder": 1487,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 0,

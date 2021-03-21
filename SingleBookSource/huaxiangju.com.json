@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍒 花香居",
+    "bookSourceName": "花香居",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.huaxiangju.com",
     "bookUrlPattern": "",
-    "customOrder": -115979,
+    "customOrder": 445,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "总排行榜::/modules/article/toplist.php?sort=allvisit&page={{page}}\n总推荐榜::/modules/article/toplist.php?sort=allvote&page={{page}}\n总收藏榜::/modules/article/toplist.php?sort=goodnum&page={{page}}\n字数排行::/modules/article/toplist.php?sort=size&page={{page}}\n古代言情::/modules/article/articlelist.php?class=1&page={{page}}\n仙侠奇缘::/modules/article/articlelist.php?class=2&page={{page}}\n现代言情::/modules/article/articlelist.php?class=3&page={{page}}\n浪漫青春::/modules/article/articlelist.php?class=4&page={{page}}\n玄幻言情::/modules/article/articlelist.php?class=5&page={{page}}\n悬疑灵异::/modules/article/articlelist.php?class=6&page={{page}}\n科幻空间::/modules/article/articlelist.php?class=7&page={{page}}\n游戏竞技::/modules/article/articlelist.php?class=8&page={{page}}\n同人小说::/modules/article/articlelist.php?class=9&page={{page}}\n二の次元::/modules/article/articlelist.php?class=10&page={{page}}",
-    "lastUpdateTime": 1605023086337,
+    "lastUpdateTime": 1616237510253,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",

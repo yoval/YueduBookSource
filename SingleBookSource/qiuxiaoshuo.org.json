@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:timeout\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🌸 求小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.qiuxiaoshuo.org-By Dark",
     "bookUrlPattern": "",
-    "customOrder": -32920,
+    "customOrder": 1138,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 1603351493088,

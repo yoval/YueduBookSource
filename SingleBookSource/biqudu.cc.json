@@ -4,7 +4,7 @@
     "bookSourceName": "笔趣读",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.biqudu.cc",
-    "customOrder": -100000,
+    "customOrder": 1054,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "首页推荐::/\n总点击::/top/allvisit/{{page}}.html",

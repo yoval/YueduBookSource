@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.65xiaoshuo.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "六五小说网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.65xiaoshuo.com",
     "bookUrlPattern": "",
-    "customOrder": 0,
+    "customOrder": 1878,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "全部小说::https://www.65xiaoshuo.com/xiaoshuodaquan/\n全本小说::https://www.65xiaoshuo.com/quanben/\n玄幻小说::https://www.65xiaoshuo.com/xuanhuan/\n修真小说::https://www.65xiaoshuo.com/xiuzhen/\n都市小说::https://www.65xiaoshuo.com/dushi/\n言情小说::https://www.65xiaoshuo.com/yanqing/\n历史小说::https://www.65xiaoshuo.com/lishi/\n军事小说::https://www.65xiaoshuo.com/junshi/\n科幻小说::https://www.65xiaoshuo.com/kehuan/\n网游小说::https://www.65xiaoshuo.com/wangyou/\n恐怖小说::https://www.65xiaoshuo.com/kongbu/\n其他小说::https://www.65xiaoshuo.com/qita/",

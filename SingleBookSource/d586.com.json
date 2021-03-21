@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 D586小说",
+    "bookSourceName": "D586小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.d586.com",
-    "customOrder": -116849,
+    "customOrder": 227,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "书库全部::/shuku/<,0_0_0_{{page}}.html>\n奇幻玄幻::/xuanhuan/<,{{page}}.html>\n武侠仙侠::/wuxia/<,{{page}}.html>\n都市生活::/dushi/<,{{page}}.html>\n历史军事::/lishi/<,{{page}}.html>\n游戏竞技::/youxi/<,{{page}}.html>\n科幻未来::/kehuan/<,{{page}}.html>\n恐怖悬疑::/xuanyi/<,{{page}}.html>\n二次元::/erciyuan/{{page}}.html\n经典网文::/jingdian/<,{{page}}.html>\n古代言情::/guyan/<,{{page}}.html>\n现代言情::/xianyan/<,{{page}}.html>\n幻想奇缘::/huanqing/<,{{page}}.html>\n青春校园::/qingchun/<,{{page}}.html>\n网络情缘::/wangluo/<,{{page}}.html>\n科幻空间::/mmkehuan/<,{{page}}.html>\n鬼怪灵异::/lingyi/<,{{page}}.html>\nN次元::/Nciyuan/<,{{page}}.html>\n言情美文::/yanqing/<,{{page}}.html>\n总点击榜::/top/allvisit<,_{{page}}.html>\n总推荐榜::/top/allvote<,_{{page}}.html>\n总收藏榜::/top/goodnum<,_{{page}}.html>\n总字数榜::/top/size<,_{{page}}.html>\n全部全本::/quanben/all/{{page}}.html\n强推榜::/top/toptime<,_{{page}}.html>",
-    "lastUpdateTime": 1604164762525,
+    "lastUpdateTime": 1616236423342,
     "ruleBookInfo": {
       "author": "class.author@tag.a@text",
       "coverUrl": "img@src",

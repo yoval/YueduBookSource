@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.45book.com\": No address associated with hostname\nerror:timeout\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🔰 45小说网",
+    "bookSourceName": "45小说网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.45book.com",
     "bookUrlPattern": "",
-    "customOrder": 16150,
+    "customOrder": 2548,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616233136075,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.author@tag.p.0@text",

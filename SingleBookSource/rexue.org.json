@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.rexue.org\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "热血小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.rexue.org",
     "bookUrlPattern": "",
-    "customOrder": 0,
+    "customOrder": 2116,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "                              分类                            ::          \n玄幻::sort/1_0_0_0_0_{{page}}.html\n武侠::sort/2_0_0_0_0_{{page}}.html\n都市::sort/3_0_0_0_0_{{page}}.html\n历史::sort/4_0_0_0_0_{{page}}.html\n网游::sort/5_0_0_0_0_{{page}}.html\n科幻::sort/6_0_0_0_0_{{page}}.html\n恐怖::sort/7_0_0_0_0_{{page}}.html\n其他::sort/8_0_0_0_0_{{page}}.html\n                              排行                            ::                   \n总点::sort/0_allvisit_0_0_0_{{page}}.html\n月点::sort/0_monthvisit_0_0_0_{{page}}.html\n周点::sort/0_weekvisit_0_0_0_{{page}}.html\n总推::sort/0_allthvote_0_0_0_{{page}}.html\n月推::sort/0_monthvote_0_0_0_{{page}}.html\n周推::sort/0_weekvote_0_0_0_{{page}}.html\n总收::sort/0_goodnum_0_0_0_{{page}}.html\n最新::sort/0_postdate_0_0_0_{{page}}.html",

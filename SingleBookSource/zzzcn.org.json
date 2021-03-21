@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.zzzcn.org\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "👍 3z中文网",
+    "bookSourceName": "3z中文网",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.zzzcn.org",
-    "customOrder": 15850,
+    "customOrder": 2443,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻::http://www.zzzcn.org/xuanhuan/{{page}}.htm\n言情::http://www.zzzcn.org/yanqing/{{page}}.htm\n都市::http://www.zzzcn.org/dushi/{{page}}.htm\n军事::http://www.zzzcn.org/junshi/{{page}}.htm\n武侠::http://www.zzzcn.org/wuxia/{{page}}.htm\n仙侠::http://www.zzzcn.org/xianxia/{{page}}.htm\n历史::http://www.zzzcn.org/lishi/{{page}}.htm",
-    "lastUpdateTime": 1615837749835,
+    "lastUpdateTime": 1616234637411,
     "ruleBookInfo": {},
     "ruleContent": {
       "content": "id.cp_content@textNodes"

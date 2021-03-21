@@ -1,10 +1,10 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:failed to connect to www.biqumo.com/174.139.249.70 (port 443) from /192.168.0.103 (port 44174) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
     "bookSourceGroup": "我的书源,经典盗版",
     "bookSourceName": "🎉 笔趣阁",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.biqumo.com",
-    "customOrder": -115531,
+    "customOrder": 725,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 1604164994485,

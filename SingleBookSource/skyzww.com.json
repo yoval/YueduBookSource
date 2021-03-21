@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"wap.skyzww.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "神书网",
     "bookSourceType": 0,
     "bookSourceUrl": "http://wap.skyzww.com",
     "bookUrlPattern": "",
-    "customOrder": 0,
+    "customOrder": 2146,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "总收藏榜::/top/goodnum_{{page}}/\n总点击榜::/top/allvisit_{{page}}/\n总推荐榜::/top/allvote_{{page}}/\n最近更新::/top/lastupdate_{{page}}/",

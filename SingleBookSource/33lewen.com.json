@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 乐文小说③",
+    "bookSourceName": "乐文小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.33lewen.com",
     "bookUrlPattern": "",
-    "customOrder": -32387,
+    "customOrder": 1298,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻奇幻::/sort1/{{page}}.html\n武侠仙侠::/sort2/{{page}}.html\n都市异能::/sort3/{{page}}.html\n历史军事::/sort4/{{page}}.html\n游戏竞技::/sort5/{{page}}.html\n科幻世界::/sort6/{{page}}.html\n灵异悬疑::/sort7/{{page}}.html\n耽美同人::/sort8/{{page}}.html\n其他类型::/sort10/{{page}}.html",
-    "lastUpdateTime": 1601178535441,
+    "lastUpdateTime": 1616238088177,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.book-title@tag.p.0@text作\\s者.",

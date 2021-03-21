@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "coolapk@芜恙",
+    "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🎉 骑士",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.74qb.com#grid tr!0",
     "bookUrlPattern": "http://www.74qb.com/book/\\d+/",
-    "customOrder": -32545,
+    "customOrder": 1237,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "",

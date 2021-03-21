@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 69中文网①",
+    "bookSourceName": "69中文网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.69zww.com",
-    "customOrder": -116876,
+    "customOrder": 213,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻::/list/1/{{page}}.html\n言情::/list/2/{{page}}.html\n仙侠::/list/3/{{page}}.html\n都市::/list/4/{{page}}.html\n历史::/list/5/{{page}}.html\n网游::/list/6/{{page}}.html\n竞技::/list/7/{{page}}.html\n科幻::/list/8/{{page}}.html\n最新::/list/9/{{page}}.html\n全本::/quanben/{{page}}",
-    "lastUpdateTime": 1605238049667,
+    "lastUpdateTime": 1616238244143,
     "ruleBookInfo": {
       "author": "class.item.0@tag.a.0@text",
       "coverUrl": "class.img_in@tag.img@src",

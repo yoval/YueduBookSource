@@ -4,9 +4,9 @@
     "bookSourceName": "笔趣阁",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.znlzd.com",
-    "customOrder": -117569,
-    "enabled": false,
-    "enabledExplore": false,
+    "customOrder": 25,
+    "enabled": true,
+    "enabledExplore": true,
     "lastUpdateTime": 1615312030956,
     "ruleBookInfo": {
       "coverUrl": "img@src",

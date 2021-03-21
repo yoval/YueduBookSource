@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:timeout\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "💵 宜搜小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://api.appeasou.com",
     "bookUrlPattern": "",
-    "customOrder": -33975,
+    "customOrder": 1099,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "",

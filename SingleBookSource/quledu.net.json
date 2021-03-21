@@ -5,7 +5,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.quledu.net",
     "bookUrlPattern": "https://m.quledu.net/chapters-\\d+/",
-    "customOrder": -115356,
+    "customOrder": 760,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 1612768682264,

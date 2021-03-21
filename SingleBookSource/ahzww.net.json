@@ -5,7 +5,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.ahzww.net",
     "bookUrlPattern": "",
-    "customOrder": -37879,
+    "customOrder": 1064,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻魔法::http://www.ahzww.net/xuanhuan_{{page}}.html\n仙侠修真::http://www.ahzww.net/xianxia_{{page}}.html\n都市言情::http://www.ahzww.net/dushi_{{page}}.html\n历史军事::http://www.ahzww.net/lishi_{{page}}.html\n网游小说::http://www.ahzww.net/wangyou_{{page}}.html\n科幻小说::http://www.ahzww.net/kehuan_{{page}}.html\n灵异小说::http://www.ahzww.net/lingyi_{{page}}.html\n其它类型::http://www.ahzww.net/qita_{{page}}.html",

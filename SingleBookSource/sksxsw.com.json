@@ -1,12 +1,12 @@
 [  {
-    "bookSourceComment": "酷安&fix",
+    "bookSourceComment": "error:Unable to resolve host \"m.sksxsw.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "四库书",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.sksxsw.com",
-    "customOrder": 0,
-    "enabled": false,
-    "enabledExplore": false,
+    "customOrder": 2145,
+    "enabled": true,
+    "enabledExplore": true,
     "header": "",
     "lastUpdateTime": 0,
     "ruleBookInfo": {

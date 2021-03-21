@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.ibooktxt.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源,经典盗版",
     "bookSourceName": "顶点小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.ibooktxt.com",
     "bookUrlPattern": "",
-    "customOrder": 0,
+    "customOrder": 2012,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "",

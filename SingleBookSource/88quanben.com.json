@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 全本免费",
+    "bookSourceName": "全本免费",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.88quanben.com",
     "bookUrlPattern": "",
-    "customOrder": -32740,
+    "customOrder": 1173,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻魔法::/classlist1-{{page}}.html\n武侠修真::/classlist2-{{page}}.html\n都市言情::/classlist3-{{page}}.html\n历史军事::/classlist4-{{page}}.html\n侦探推理::/classlist5-{{page}}.html\n网游动漫::/classlist6-{{page}}.html\n科幻小说::/classlist7-{{page}}.html\n恐怖灵异::/classlist8-{{page}}.html\n女生纯爱::/classlist9-{{page}}.html\n其他类型::/classlist10-{{page}}.html",
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616237088112,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": ".src@tag.a.2@text",

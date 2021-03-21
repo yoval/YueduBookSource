@@ -1,13 +1,13 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.kenshu.cc\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 啃书小说网",
+    "bookSourceName": "啃书小说网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.kenshu.cc",
-    "customOrder": -31722,
+    "customOrder": 1564,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1603032925294,
+    "lastUpdateTime": 1616249842840,
     "ruleBookInfo": {
       "author": "class.authorname@tag.a.0@text",
       "coverUrl": "class.bigpic@tag.img.0@src",

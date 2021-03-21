@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 云看小说",
+    "bookSourceName": "云看小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://kan.ks666.top",
-    "customOrder": -115694,
+    "customOrder": 596,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "最新入库::https://kan.ks666.top/rank/postdate/{{page}}.html\n百度热搜::https://kan.ks666.top/rank/baidu.html\n追书热度::https://kan.ks666.top/rank/zhuishu.html\n书旗热搜::https://kan.ks666.top/rank/shuqi.html\n掌阅热销::https://kan.ks666.top/rank/zhangyue.html\n17K鲜花::https://kan.ks666.top/rank/17k.html\n总点击榜::https://kan.ks666.top/rank/allvisit/{{page}}.html\n总推荐榜::https://kan.ks666.top/rank/vote/{{page}}.html\n总收藏榜::https://kan.ks666.top/rank/mark/{{page}}.html\n总下载榜::https://kan.ks666.top/rank/down/{{page}}.html\n总评论榜::https://kan.ks666.top/rank/comment/{{page}}.html\n总评分榜::https://kan.ks666.top/rank/star_score/{{page}}.html\n玄幻小说::https://kan.ks666.top/category/xuanhuan/{{page}}.html\n奇幻小说::https://kan.ks666.top/category/qihuan/{{page}}.html\n武侠小说::https://kan.ks666.top/category/wuxia/{{page}}.html\n仙侠小说::https://kan.ks666.top/category/xianxia/{{page}}.html\n都市小说::https://kan.ks666.top/category/dushi/{{page}}.html\n历史小说::https://kan.ks666.top/category/lishi/{{page}}.html\n军事小说::https://kan.ks666.top/category/junshi/{{page}}.html\n游戏小说::https://kan.ks666.top/category/youxi/{{page}}.html\n竞技小说::https://kan.ks666.top/category/jingji/{{page}}.html\n科幻小说::https://kan.ks666.top/category/kehuan/{{page}}.html\n灵异小说::https://kan.ks666.top/category/lingyi/{{page}}.html\n其他小说::https://kan.ks666.top/category/qita/{{page}}.html",
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 10; M2007J22C Build/QP1A.190711.020; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/83.0.4103.101 Mobile Safari/537.36\"\n}",
-    "lastUpdateTime": 1612818435651,
+    "lastUpdateTime": 1616237891711,
     "ruleBookInfo": {
       "coverUrl": "class.flex-wrp bg-white pt-bookdetail@img@src",
       "intro": "class.compulsory-row-three pt-book-intro@textNodes",

@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 官场小说",
+    "bookSourceName": "官场小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.gcxs8.com",
     "bookUrlPattern": "",
-    "customOrder": -115573,
+    "customOrder": 697,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "【连载】::/xs/0_0_1_0_{{page}}.html\n官场::/xs/1_0_1_0_{{page}}.html\n沉浮::/xs/2_0_1_0_{{page}}.html\n商战::/xs/3_0_1_0_{{page}}.html\n仕途::/xs/4_0_1_0_{{page}}.html\n风云::/xs/5_0_1_0_{{page}}.html\n古代::/xs/6_0_1_0_{{page}}.html\n言情::/xs/7_0_1_0_{{page}}.html\n乡村::/xs/8_0_1_0_{{page}}.html\n其他::/xs/9_0_1_0_{{page}}.html\n【完本】::/xs/0_0_2_0_{{page}}.html\n官场::/xs/1_0_2_0_{{page}}.html\n沉浮::/xs/2_0_2_0_{{page}}.html\n商战::/xs/3_0_2_0_{{page}}.html\n仕途::/xs/4_0_2_0_{{page}}.html\n风云::/xs/5_0_2_0_{{page}}.html\n古代::/xs/6_0_2_0_{{page}}.html\n言情::/xs/7_0_2_0_{{page}}.html\n乡村::/xs/8_0_2_0_{{page}}.html\n其他::/xs/9_0_2_0_{{page}}.html",
-    "lastUpdateTime": 1608756905686,
+    "lastUpdateTime": 1616237768625,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.BookAuthor@tag.a.0@text",

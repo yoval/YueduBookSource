@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"m.shumil.co\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 书迷楼",
+    "bookSourceName": "书迷楼",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.shumil.co",
-    "customOrder": -31879,
+    "customOrder": 1517,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "奇幻玄幻::/list-1.html\n武侠仙侠::/list-2.html\n都市言情::/list-3.html\n历史军事::/list-4.html\n游戏竞技::/list-5.html\n科幻灵异::/list-6.html\n同人美文::/list-7.html\n女生专区::/list-8.html\n其他小说::/list-9.html",
-    "lastUpdateTime": 1602720223136,
+    "lastUpdateTime": 1616236816365,
     "ruleBookInfo": {
       "author": "",
       "coverUrl": "class.cover@tag.img@src",

@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.ygycwx.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "👍 阳光小说",
+    "bookSourceName": "阳光小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.ygycwx.com",
-    "customOrder": 15888,
+    "customOrder": 2458,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "点击::/book/quanbu-allvisit-0-0-0-0-0-0-{{page}}.html\n推荐::/book/quanbu-allvote-0-0-0-0-0-0-{{page}}.html\n收藏::/book/quanbu-goodnum-0-0-0-0-0-0-{{page}}.html\n字数::/book/quanbu-size-0-0-0-0-0-0-{{page}}.html\n玄幻::/book/1-default-0-0-0-0-0-0-{{page}}.html\n仙侠::/book/2-default-0-0-0-0-0-0-{{page}}.html\n言情::/book/3-default-0-0-0-0-0-0-{{page}}.html\n军史::/book/4-default-0-0-0-0-0-0-{{page}}.html\n网游::/book/5-default-0-0-0-0-0-0-{{page}}.html\n科幻::/book/6-default-0-0-0-0-0-0-{{page}}.html\n灵异::/book/7-default-0-0-0-0-0-0-{{page}}.html\n都市::/book/8-default-0-0-0-0-0-0-{{page}}.html\n女生::/book/9-default-0-0-0-0-0-0-{{page}}.html\n其他::/book/10-default-0-0-0-0-0-0-{{page}}.html",
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616234646939,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
       "coverUrl": "[property=\"og:image\"]@content",

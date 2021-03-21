@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "酷安",
+    "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 笔奇库",
+    "bookSourceName": "笔奇库",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.beqiku.com",
-    "customOrder": -115677,
+    "customOrder": 611,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": " 点 击 榜 ::/top-allvisit-{{page}}/\n 收 藏 榜 ::/top-goodnum-{{page}}/\n 推 荐 榜 ::/top-allvote-{{page}}/\n\n♯高辣♯::/list/1/{{page}}.html\n♯高干♯::/list/3/{{page}}.html\n♯长篇♯::/list/5/{{page}}.html\n\n♯名家♯::/list/6/{{page}}.html",
-    "lastUpdateTime": 1612823995346,
+    "lastUpdateTime": 1616237919330,
     "ruleBookInfo": {
       "canReName": "true",
       "coverUrl": "",

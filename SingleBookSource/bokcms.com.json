@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"m.bokcms.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 九七阅读网",
+    "bookSourceName": "九七阅读网",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.bokcms.com",
-    "customOrder": -31808,
+    "customOrder": 1542,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "",
-    "lastUpdateTime": 1602811812902,
+    "lastUpdateTime": 1616249869886,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
       "coverUrl": "[property=\"og:image\"]@content",

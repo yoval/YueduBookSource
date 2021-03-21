@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 八一中文",
+    "bookSourceName": "八一中文",
     "bookSourceType": 0,
-    "bookSourceUrl": "https://m.x81zw.com-By Dark",
+    "bookSourceUrl": "https://m.x81zw.com",
     "bookUrlPattern": "",
-    "customOrder": -116863,
+    "customOrder": 218,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1612273252854,
+    "lastUpdateTime": 1616250798875,
     "ruleBookInfo": {
       "intro": "id.intro@text"
     },

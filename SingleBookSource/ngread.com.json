@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:timeout\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "💵 南瓜夜读",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.ngread.com",
     "bookUrlPattern": "",
-    "customOrder": -33996,
+    "customOrder": 1097,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 0,

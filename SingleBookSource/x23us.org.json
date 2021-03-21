@@ -1,13 +1,13 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.x23us.org\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源,经典盗版",
     "bookSourceName": "顶点小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.x23us.org",
     "bookUrlPattern": "https://www.x23us.com/book/\\d+",
-    "customOrder": 0,
+    "customOrder": 2191,
     "enabled": true,
-    "enabledExplore": false,
+    "enabledExplore": true,
     "lastUpdateTime": 1615838353430,
     "loginUrl": "",
     "ruleBookInfo": {

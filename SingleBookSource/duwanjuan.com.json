@@ -4,7 +4,7 @@
     "bookSourceName": "读万卷",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.duwanjuan.com",
-    "customOrder": -114749,
+    "customOrder": 1002,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "【全部连载】::/book/sort0/0/{{page}}.html\n玄幻魔法::/book/sort1/0/{{page}}.html\n武侠修真::/book/sort2/0/{{page}}.html\n都市言情::/book/sort3/0/{{page}}.html\n历史军事::/book/sort4/0/{{page}}.html\n侦探推理::/book/sort5/0/{{page}}.html\n网游动漫::/book/sort6/0/{{page}}.html\n科幻小说::/book/sort7/0/{{page}}.html\n恐怖灵异::/book/sort8/0/{{page}}.html\n言情小说::/book/sort9/0/{{page}}.html\n其他类型::/book/sort10/0/{{page}}.html\n史书::/book/sort12/0/{{page}}.html\n集部::/book/sort14/0/{{page}}.html\n【全部完本】::/fullsort/0/{{page}}.html\n玄幻魔法::/fullsort/1/{{page}}.html\n武侠修真::/fullsort/2/{{page}}.html\n都市言情::/fullsort/3/{{page}}.html\n历史军事::/fullsort/4/{{page}}.html\n侦探推理::/fullsort/5/{{page}}.html\n网游动漫::/fullsort/6/{{page}}.html\n科幻小说::/fullsort/7/{{page}}.html\n恐怖灵异::/fullsort/8/{{page}}.html\n言情小说::/fullsort/9/{{page}}.html\n其他类型::/fullsort/10/{{page}}.html",

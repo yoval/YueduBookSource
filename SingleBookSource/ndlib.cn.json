@@ -1,16 +1,16 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "📚 移动阅读",
+    "bookSourceName": "移动阅读",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.ndlib.cn",
     "bookUrlPattern": "",
-    "customOrder": -116693,
+    "customOrder": 328,
     "enabled": true,
     "enabledExplore": true,
     "header": "",
-    "lastUpdateTime": 1606808962630,
-    "loginUrl": "\\\\目录列表规则处添加账号信息",
+    "lastUpdateTime": 1616249409537,
+    "loginUrl": "",
     "ruleBookInfo": {
       "intro": "@js:'<br>'+java.get('intro')"
     },

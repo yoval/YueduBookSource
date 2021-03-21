@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.9kqw.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 就看奇闻",
+    "bookSourceName": "就看奇闻",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.9kqw.com",
-    "customOrder": -31701,
+    "customOrder": 1569,
     "enabled": true,
     "enabledExplore": true,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/70.0.3538.110 Safari/537.36\"\n}",
-    "lastUpdateTime": 1603268663909,
+    "lastUpdateTime": 1616249834306,
     "ruleBookInfo": {},
     "ruleContent": {
       "content": "class.book-content@html"

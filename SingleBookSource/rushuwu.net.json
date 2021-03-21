@@ -1,10 +1,10 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.rushuwu.org\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "如书屋",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.rushuwu.net",
-    "customOrder": 7,
+    "customOrder": 2284,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "日点击榜::https://m.rushuwu.org/top/dayvisit_{{page}}/    \n周点击榜::https://m.rushuwu.org/top/weekvisit_{{page}}/   \n月点击榜::https://m.rushuwu.org/top/monthvisit_{{page}}/  \n总点击榜::https://m.rushuwu.org/top/allvisit_{{page}}/    \n总收藏榜::https://m.rushuwu.org/top/goodnum_{{page}}/   \n字数排行::https://m.rushuwu.org/top/size_{{page}}/   \n总推荐榜::https://m.rushuwu.org/top/allvote_{{page}}/ \n最新入库::https://m.rushuwu.org/top/postdate_{{page}}/   \n最近更新::https://m.rushuwu.org/top/lastupdate_{{page}}/",

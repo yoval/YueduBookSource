@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 手机小说下载网",
+    "bookSourceName": "手机小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.ixiatxt.com",
     "bookUrlPattern": "",
-    "customOrder": -32315,
+    "customOrder": 1326,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "武侠小说::/soft/1/Soft_001_{{page}}.html\n玄幻小说::/soft/2/Soft_002_{{page}}.html\n都市言情::/soft/3/Soft_003_{{page}}.html\n恐怖灵异::/soft/4/Soft_004_{{page}}.html\n现代文学::/soft/5/Soft_005_{{page}}.html\n侦探推理::/soft/6/Soft_006_{{page}}.html\n科幻小说::/soft/7/Soft_007_{{page}}.html\n穿越架空::/soft/9/Soft_009_{{page}}.html\n古典名著::/soft/10/Soft_010_{{page}}.html\n名人自传::/soft/11/Soft_011_{{page}}.html\n历史军事::/soft/12/Soft_012_{{page}}.html\n制作工具::/soft/13/Soft_013_{{page}}.html\n网游小说::/soft/14/Soft_014_{{page}}.html\n推荐下载::/soft/best/index_{{page}}.html\n下载排行::/soft/hot/index_{{page}}.html\n最近更新::/soft/new/index_{{page}}.html\n全本下载::/soft/quanben/index_{{page}}.html",
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616236707203,
     "loginUrl": "",
     "ruleBookInfo": {
       "tocUrl": "text.在线阅读@tag.a@href"

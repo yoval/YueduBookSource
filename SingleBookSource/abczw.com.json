@@ -1,13 +1,13 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.abczw.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "👍 ABC中文网",
+    "bookSourceName": "ABC中文网",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.abczw.com",
-    "customOrder": 15960,
+    "customOrder": 2485,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1602779211762,
+    "lastUpdateTime": 1616249610498,
     "ruleBookInfo": {
       "coverUrl": "class.cover@tag.img.0@src",
       "intro": "id.intro@tag.p.0@textNodes"

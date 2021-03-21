@@ -1,10 +1,10 @@
 [  {
-    "bookSourceComment": "haxc",
+    "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "乡村小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.xcxsw.net",
-    "customOrder": -113145,
+    "customOrder": 1050,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "乡村小说::/type3/{{page}}.html\n都市小说::/type5/{{page}}.html",

@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 兔九三",
+    "bookSourceName": "兔九三",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.tu93.com",
     "bookUrlPattern": "",
-    "customOrder": -116947,
+    "customOrder": 182,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻::https://m.tu93.com/xuanhuan-{{page}}.html\n仙侠::https://m.tu93.com/xianxia-{{page}}.html\n都市::https://m.tu93.com/doushi-{{page}}.html\n历史::https://m.tu93.com/lishi-{{page}}.html\n网游::https://m.tu93.com/wangyou-{{page}}.html\n科幻::https://m.tu93.com/kehuan-{{page}}.html\n其他::https://m.tu93.com/qita-{{page}}.html",
-    "lastUpdateTime": 1606744857200,
+    "lastUpdateTime": 1616156646728,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.block_txt2@tag.p.2@text##作者：",

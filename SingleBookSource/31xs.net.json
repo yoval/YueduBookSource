@@ -1,13 +1,13 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.31xs.net\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "31小说网",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.31xs.net",
     "bookUrlPattern": "",
-    "customOrder": -27,
+    "customOrder": 1820,
     "enabled": true,
-    "enabledExplore": false,
+    "enabledExplore": true,
     "lastUpdateTime": 1609786927898,
     "ruleBookInfo": {
       "author": "id.info@tag.p.0@text##作\\s*者：",

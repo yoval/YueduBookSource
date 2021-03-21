@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍒 都市言情",
+    "bookSourceName": "都市言情",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.dsyq.org",
     "bookUrlPattern": "",
-    "customOrder": -115985,
+    "customOrder": 439,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻::/fenlei1/{{page}}.html\n仙侠::/fenlei2/{{page}}.html\n都市::/fenlei3/{{page}}.html\n历史::/fenlei4/{{page}}.html\n网游::/fenlei5/{{page}}.html\n科幻::/fenlei6/{{page}}.html\n灵异::/fenlei7/{{page}}.html\n总裁::/fenlei8/{{page}}.html\n穿越::/fenlei9/{{page}}.html\n古代::/fenlei10/{{page}}.html\n青春::/fenlei11/{{page}}.html\n魔幻::/fenlei12/{{page}}.html\n港台::/fenlei14/{{page}}.html\n同人::/fenlei15/{{page}}.html\n其他::/fenlei16/{{page}}.html",
-    "lastUpdateTime": 1605023545756,
+    "lastUpdateTime": 1616237489943,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content||class.book-title@tag.em.0@text##作者.",

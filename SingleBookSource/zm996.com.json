@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.zm996.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🔰 996小说网",
+    "bookSourceName": "996小说网",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.zm996.com",
-    "customOrder": 16391,
+    "customOrder": 2648,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻奇幻::/lastupdate_2_0_0_0_0_0_{{page}}.html\n武侠仙侠::/lastupdate_4_0_0_0_0_0_{{page}}.html\n都市青春::/lastupdate_3_0_0_0_0_0_{{page}}.html\n历史军事::/lastupdate_8_0_0_0_0_0_{{page}}.html\n科幻灵异::/lastupdate_6_0_0_0_0_0_{{page}}.html\n言情女生::/lastupdate_1_0_0_0_0_0_{{page}}.html\n耽美同人::/lastupdate_5_0_0_0_0_0_{{page}}.html\n轻小说の::/lastupdate_7_0_0_0_0_0_{{page}}.html",
-    "lastUpdateTime": 1603341747618,
+    "lastUpdateTime": 1616232670321,
     "ruleBookInfo": {
       "author": ".p_author@a@text",
       "coverUrl": "tag.img.1@src",

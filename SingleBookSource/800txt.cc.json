@@ -1,10 +1,10 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:failed to connect to www.800txt.cc/173.252.103.64 (port 443) from /192.168.0.103 (port 42474) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "👍 800小说™",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.800txt.cc",
-    "customOrder": -114863,
+    "customOrder": 919,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 1612807530272,

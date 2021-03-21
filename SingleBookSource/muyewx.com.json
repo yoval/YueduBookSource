@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"m.baidu.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "番茄小说(源于百度不知道效果)",
+    "bookSourceName": "番茄小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://writer.muyewx.com",
-    "customOrder": 0,
+    "customOrder": 2247,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "言情::https://m.baidu.com/from=1022560v/ssid=0/s?pn={{page*10-10}}&word=言情 site:writer.muyewx.com\n",
-    "lastUpdateTime": 1607154705569,
+    "lastUpdateTime": 1616140023706,
     "ruleBookInfo": {
       "author": ".info-author@text",
       "coverUrl": "##page-header-img\" src=\"([^\"]+)##$1###",

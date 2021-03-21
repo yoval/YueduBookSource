@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍒 前路",
+    "bookSourceName": "前路",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.qianluxiaoshuo.com",
     "bookUrlPattern": "",
-    "customOrder": -115978,
+    "customOrder": 446,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "言情::/modules/article/articlefilter.php?order=allhot&sortid=1&page={{page}}\n耽美::/modules/article/articlefilter.php?order=allhot&sortid=2&page={{page}}\n同人::/modules/article/articlefilter.php?order=allhot&sortid=3&page={{page}}\n综合::/modules/article/articlefilter.php?order=allhot&sortid=5&page={{page}}",
-    "lastUpdateTime": 1605023046131,
+    "lastUpdateTime": 1616237514435,
     "loginUrl": "https://www.qianluxiaoshuo.com/",
     "ruleBookInfo": {
       "coverUrl": "class.divbox@tag.img@src",

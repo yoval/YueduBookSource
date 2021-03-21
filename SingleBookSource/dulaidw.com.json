@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🔰 读来读往",
+    "bookSourceName": "读来读往",
     "bookSourceType": 0,
     "bookSourceUrl": "https://wap.dulaidw.com",
-    "customOrder": -32830,
+    "customOrder": 1154,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻魔法::https://wap.dulaidw.com/sort-1-{{page}}/&&武侠仙侠::/sort-2-{{page}}/&&都市言情::/sort-3-{{page}}/&&历史军事::/sort-4-{{page}}/&&侦探推理::/sort-5-{{page}}/&&网游动漫::/sort-6-{{page}}/&&科幻小说::/sort-7-{{page}}/&&校园青春::/sort-8-{{page}}/&&穿越时空::/sort-9-{{page}}/&&",
-    "lastUpdateTime": 1603333879773,
+    "lastUpdateTime": 1616236691178,
     "ruleBookInfo": {
       "author": "class.block_txt2@tag.a.2@text",
       "coverUrl": "img@src",

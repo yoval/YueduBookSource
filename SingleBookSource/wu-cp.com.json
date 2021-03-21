@@ -4,7 +4,7 @@
     "bookSourceName": "无CP交流",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.wu-cp.com",
-    "customOrder": -117440,
+    "customOrder": 44,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "西方奇幻::/modules/article/articlefilter.php?order=allvisit&sortid=1&page={{page}}\n东方玄幻::/modules/article/articlefilter.php?order=allvisit&sortid=2&page={{page}}\n都市青春::/modules/article/articlefilter.php?order=allvisit&sortid=3&page={{page}}\n历史军事::/modules/article/articlefilter.php?order=allvisit&sortid=4&page={{page}}\n科幻网游::/modules/article/articlefilter.php?order=allvisit&sortid=5&page={{page}}\n恐怖悬疑::/modules/article/articlefilter.php?order=allvisit&sortid=6&page={{page}}\n同人无限::/modules/article/articlefilter.php?order=allvisit&sortid=7&page={{page}}\n文学其他::/modules/article/articlefilter.php?order=allvisit&sortid=8&page={{page}}\n预留分类::/modules/article/articlefilter.php?order=allvisit&sortid=9&page={{page}}",

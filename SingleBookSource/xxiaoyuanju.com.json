@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.xxiaoyuanju.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "👍 校园居",
+    "bookSourceName": "校园居",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.xxiaoyuanju.com",
     "bookUrlPattern": "",
-    "customOrder": 15913,
+    "customOrder": 2465,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1602875630739,
+    "lastUpdateTime": 1616249637888,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.block_txt2@tag.p.2@tag.a@text",

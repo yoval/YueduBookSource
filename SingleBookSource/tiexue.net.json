@@ -5,7 +5,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "http://book.tiexue.net",
     "bookUrlPattern": "",
-    "customOrder": -117436,
+    "customOrder": 45,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "军事::/bookstore_2_0_1_0_{{page}}_20_1_0.html\n历史::/bookstore_7_0_1_0_{{page}}_20_1_0.html\n悬疑::/bookstore_17_0_1_0_{{page}}_20_1_0.html\n玄幻::/bookstore_15_0_1_0_{{page}}_20_1_0.html\n其他::/bookstore_100_0_1_0_{{page}}_20_1_0.html",

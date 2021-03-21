@@ -1,13 +1,13 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🌸 完本本",
+    "bookSourceName": "完本本",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.wanbenben.com",
-    "customOrder": -117065,
+    "customOrder": 99,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1607714603402,
+    "lastUpdateTime": 1616232922393,
     "ruleBookInfo": {
       "author": "class.pull-left li_list_c.0@text",
       "intro": "id.intro@text##简介：",

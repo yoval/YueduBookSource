@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:timeout\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 追书网",
+    "bookSourceName": "追书网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.zhuishu.com",
-    "customOrder": -115221,
+    "customOrder": 784,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻小说::/xuanhuan/\n修真小说::/xiuzhen/\n都市小说::/dushi/\n历史小说::/lishi/\n网游小说::/wangyou/\n科幻小说::/kehuan/\n言情小说::/yanqing/\n其他小说::/qita/\n全本小说::/quanben/",
-    "lastUpdateTime": 1612781987630,
+    "lastUpdateTime": 1616237677034,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "//*[@id=\"info\"]/p[3]/text()",

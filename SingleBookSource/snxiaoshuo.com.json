@@ -1,13 +1,13 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"m.snxiaoshuo.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 书农小说",
+    "bookSourceName": "书农小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.snxiaoshuo.com",
-    "customOrder": -31798,
+    "customOrder": 1547,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1602758183858,
+    "lastUpdateTime": 1616249855366,
     "ruleBookInfo": {
       "author": "class.author@tag.a.0@text",
       "coverUrl": "[property=\"og:image\"]@content",

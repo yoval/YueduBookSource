@@ -5,7 +5,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.ujxs.com",
     "bookUrlPattern": "",
-    "customOrder": -117029,
+    "customOrder": 121,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻奇幻::/xuanhuan/{{page}}/\n仙侠修真::/wuxia/{{page}}/\n都市青春::/dushi/{{page}}/\n历史军事::/lishi/{{page}}/\n游戏动漫::/youxi/{{page}}/\n科幻灵异::/kehuan/{{page}}/\n女生言情::/yanqing/{{page}}/",

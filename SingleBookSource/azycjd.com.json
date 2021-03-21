@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "💵 安之原创",
+    "bookSourceName": "安之原创",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.azycjd.com",
-    "customOrder": -34065,
+    "customOrder": 1081,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻奇幻::/webnovelmis/mobile/mstackslistright/9/0/0/0/0/0/0/{{page}}\n武侠仙侠::/webnovelmis/mobile/mstackslistright/17/0/0/0/0/0/0/{{page}}\n都市异能::/webnovelmis/mobile/mstackslistright/38/0/0/0/0/0/0/{{page}}\n历史军事::/webnovelmis/mobile/mstackslistright/24/0/0/0/0/0/0/{{page}}\n游戏竞技::/webnovelmis/mobile/mstackslistright/50/0/0/0/0/0/0/{{page}}\n科幻灵异::/webnovelmis/mobile/mstackslistright/58/0/0/0/0/0/0/{{page}}\n现代言情::/webnovelmis/mobile/mstackslistright/71/0/0/0/0/0/0/{{page}}\n古代言情::/webnovelmis/mobile/mstackslistright/79/0/0/0/0/0/0/{{page}}",
-    "lastUpdateTime": 1602686935833,
+    "lastUpdateTime": 1616237159726,
     "loginUrl": "http://www.azycjd.com/webnovelmis/mobile/mlogin",
     "ruleBookInfo": {
       "author": "",

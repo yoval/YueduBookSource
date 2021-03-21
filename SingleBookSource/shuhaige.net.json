@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 书海阁",
+    "bookSourceName": "书海阁",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.shuhaige.net",
     "bookUrlPattern": ".+\\/\\d+\\/",
-    "customOrder": -116894,
+    "customOrder": 204,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "都市::/dushi/{{page}}.html\n现言::/yanqing/{{page}}.html\n古言::/guyan/{{page}}.html\n青春::/qingchun/{{page}}.html\n玄幻::/xuanhuan/{{page}}.html\n武侠::/wuxia/{{page}}.html\n悬疑::/xuanyi/{{page}}.html\n历史::/lishi/{{page}}.html\n游戏::/youxi/{{page}}.html\n科幻::/kehuan/{{page}}.html\n二次元::/erciyuan/{{page}}.html\n新书::/xinshu/{{page}}.html\n最新章节::/lastupdate/{{page}}.html\n日点击榜::/dayvisit/{{page}}.html\n周点击榜::/weekvisit/{{page}}.html\n月点击榜::/monthvisit/{{page}}.html\n总点击榜::/allvisit/{{page}}.html\n总收藏榜::/goodnum/{{page}}.html\n总字数榜::/size/{{page}}.html\n强推榜::/toptime/{{page}}.html\n新书榜::/goodnew/{{page}}.html",
-    "lastUpdateTime": 1611294989689,
+    "lastUpdateTime": 1616234959179,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "$4",

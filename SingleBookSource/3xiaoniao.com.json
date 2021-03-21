@@ -1,13 +1,13 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.3xiaoniao.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "👍 时空小说",
+    "bookSourceName": "时空小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.3xiaoniao.com",
-    "customOrder": 15843,
+    "customOrder": 2441,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1602678898612,
+    "lastUpdateTime": 1616249681803,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
       "coverUrl": "[property=\"og:image\"]@content",

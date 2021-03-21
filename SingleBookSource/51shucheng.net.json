@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🔰 无忧书城",
+    "bookSourceName": "无忧书城",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.51shucheng.net",
-    "customOrder": -114598,
+    "customOrder": 1028,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "官场::/guanchang\n盗墓::/daomu\n宫廷::/gongting\n武侠::/wuxia\n科幻::/kehuan\n侦探::/zhentan\n网络::/wangluo\n影视::/yingshi\n言情::/yanqing\n悬疑::/xuanyituili\n恐怖::/kongbu\n社会::/shehui\n架空::/jiakong\n穿越::/chuanyue\n古典::/gudian\n现代::/xiandai\n外国::/waiguo\n传记::/zhuanji\n诗词::/shici\n世界::/shijiemingzhu\n四大::/sidamingzhu\n历史::/lishi\n宗教::/zongjiao\n哲学::/zhexue\n军事::/junshi\n自然::/renwen\n青春::/qingchun\n儿童::/ertong\n经管::/jingji\n金融::/touzi",
-    "lastUpdateTime": 1612533428438,
+    "lastUpdateTime": 1616237208423,
     "ruleBookInfo": {
       "author": "class.info@tag.a.1@text",
       "intro": "class.intro@text",

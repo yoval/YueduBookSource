@@ -1,15 +1,15 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.92dus.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 92读书",
+    "bookSourceName": "92读书",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.92dus.com",
     "bookUrlPattern": "",
-    "customOrder": -31704,
+    "customOrder": 1567,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "全本小说::https://www.92dus.com/quanben/\n玄幻奇幻::https://www.92dus.com/xuanhuanqihuan/\n武侠修真::https://www.92dus.com/wuxiaxiuzhen\n都市言情::https://www.92dus.com/dushiyanqing/\n历史军事::https://www.92dus.com/lishijunshi/\n科幻网游::https://www.92dus.com/kehuanwangyou/\n恐怖悬疑::https://www.92dus.com/kongbuxuanyi/\n耽美同人::https://www.92dus.com/danmeitongren/\n其他小说::https://www.92dus.com/qitaxiaoshuo/\n排行榜::https://www.92dus.com/paihangbang/",
-    "lastUpdateTime": 1603266488324,
+    "lastUpdateTime": 1616236761941,
     "loginUrl": "",
     "ruleBookInfo": {
       "intro": "class.intro.0@text"

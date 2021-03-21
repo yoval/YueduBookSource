@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "error:failed to connect to m.pingshuku.com/115.238.239.133 (port 80) from /192.168.0.103 (port 38122) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceComment": "error:Unable to resolve host \"m.pingshuku.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🎉 56书库①",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.pingshuku.com",
     "bookUrlPattern": "",
-    "customOrder": -31898,
+    "customOrder": 1506,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 0,

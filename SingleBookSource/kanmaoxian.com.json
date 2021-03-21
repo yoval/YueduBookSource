@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🔰 看毛线小说",
+    "bookSourceName": "看毛线小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.kanmaoxian.com",
-    "customOrder": -114659,
+    "customOrder": 1016,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "最新入库::/shuku/quanbu_postdate_0_0_0_0_0_1_{{page}}.html\n最近更新::/shuku/quanbu_lastupdate_0_0_0_0_0_1_{{page}}.html\n玄幻魔法::/shuku/xuanhuan_lastupdate_0_0_0_0_0_1_{{page}}.html\n武侠修真::/shuku/wuxia_lastupdate_0_0_0_0_0_1_{{page}}.html\n穿越重生::/shuku/chuanyue_lastupdate_0_0_0_0_0_1_{{page}}.html\n历史军事::/shuku/lishi_lastupdate_0_0_0_0_0_1_{{page}}.html\n都市言情::/shuku/dushi_lastupdate_0_0_0_0_0_1_{{page}}.html\n惊悚恐怖::/shuku/lingyi_lastupdate_0_0_0_0_0_1_{{page}}.html\n侦探推理::/shuku/xuanyi_lastupdate_0_0_0_0_0_1_{{page}}.html\n科幻未来::/shuku/kehuan_lastupdate_0_0_0_0_0_1_{{page}}.html\n网游动漫::/shuku/wangyou_lastupdate_0_0_0_0_0_1_{{page}}.html\n耽美同人::/shuku/danmei_lastupdate_0_0_0_0_0_1_{{page}}.html",
-    "lastUpdateTime": 1604051023464,
+    "lastUpdateTime": 1616237212855,
     "ruleBookInfo": {
       "coverUrl": "class.fengmian@tag.a.0@tag.img.0@src",
       "intro": "class.bookintro@textNodes",

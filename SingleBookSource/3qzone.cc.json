@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.3qzone.cc\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🔰 3Q中文网",
+    "bookSourceName": "3Q中文网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.3qzone.cc",
     "bookUrlPattern": "",
-    "customOrder": 16148,
+    "customOrder": 2547,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616233139803,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.box_con.0@id.info@tag.p.0@text##作\\s*者：",

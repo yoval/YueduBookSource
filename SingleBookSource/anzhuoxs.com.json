@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:timeout\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🌸 安卓",
     "bookSourceType": 0,
     "bookSourceUrl": "❀.anzhuoxs",
     "bookUrlPattern": "",
-    "customOrder": -32935,
+    "customOrder": 1133,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "",

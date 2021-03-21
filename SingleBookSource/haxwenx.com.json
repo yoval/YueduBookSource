@@ -1,12 +1,12 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"m.haxwenx.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "海岸线文学网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.haxwenx.com",
-    "customOrder": 0,
-    "enabled": false,
-    "enabledExplore": false,
+    "customOrder": 2001,
+    "enabled": true,
+    "enabledExplore": true,
     "lastUpdateTime": 0,
     "ruleBookInfo": {
       "lastChapter": "class.info_chapters@class.p2.0@tag.li.0@text"

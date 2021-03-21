@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"wap.92k.cc\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "92K小说网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://wap.92k.cc/",
     "bookUrlPattern": "",
-    "customOrder": -3622,
+    "customOrder": 1758,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻::/xclass/1/{{page}}.html\n修真::/xclass/2/{{page}}.html\n都市::/xclass/3/{{page}}.html\n穿越::/xclass/4/{{page}}.html\n网游::/xclass/5/{{page}}.html\n科幻::/xclass/6/{{page}}.html\n其他::/xclass/7/{{page}}.html\n周榜::/ph/week_{{page}}.html\n月榜::/ph/month_{{page}}.html\n总榜::/ph/all_{{page}}.html\n全部::/xclass/0/{{page}}.html",

@@ -5,7 +5,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.22k.org",
     "bookUrlPattern": "",
-    "customOrder": -32452,
+    "customOrder": 1275,
     "enabled": true,
     "enabledExplore": true,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.108 Safari/537.36\"\n}",

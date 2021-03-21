@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 乐文小说txt",
+    "bookSourceName": "乐文小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.lwxstxt.com",
-    "customOrder": -116942,
+    "customOrder": 185,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻::http://www.lwxstxt.com/list/1-{{page}}.html&&仙侠::/list/2-{{page}}.html&&言情::/list/3-{{page}}.html&&历史::/list/4-{{page}}.html&&网游::/list/5-{{page}}.html&&科幻::/list/6-{{page}}.html&&恐怖::/list/7-{{page}}.html&&其他::/list/8-{{page}}.html&&",
-    "lastUpdateTime": 1605240342704,
+    "lastUpdateTime": 1616156635801,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
       "coverUrl": "[property=\"og:image\"]@content",

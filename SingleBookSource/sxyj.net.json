@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "💵 书香榜单",
+    "bookSourceName": "书香榜单",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.sxyj.net",
     "bookUrlPattern": "",
-    "customOrder": -34052,
+    "customOrder": 1082,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "女生·畅销榜::/Rank_Sub/CategoryId_1/type_1/page_{{page}}.html\n女生·人气榜::/Rank_Sub/CategoryId_1/type_2/page_{{page}}.html\n女生·阅读榜::/Rank_Sub/CategoryId_1/type_4/page_{{page}}.html\n男生·畅销榜::/Rank_Sub/CategoryId_0/type_1/page_{{page}}.html\n男生·人气榜::/Rank_Sub/CategoryId_0/type_2/page_{{page}}.html\n男生·阅读榜::/Rank_Sub/CategoryId_0/type_4/page_{{page}}.html\n出版·畅销榜::/Rank_Sub/CategoryId_2/type_1/page_{{page}}.html\n出版·人气榜::/Rank_Sub/CategoryId_2/type_2/page_{{page}}.html\n出版·阅读榜::/Rank_Sub/CategoryId_2/type_4/page_{{page}}.html",
-    "lastUpdateTime": 1603284560638,
+    "lastUpdateTime": 1616237166957,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "class.book-info@tag.img@src",

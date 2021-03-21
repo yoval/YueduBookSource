@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 搜小说",
+    "bookSourceName": "搜小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.soxs.cc",
-    "customOrder": -116854,
+    "customOrder": 224,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻奇幻::https://m.soxs.cc/xuanhuan/<,{{page}}.html>\n武侠仙侠::/wuxia/<,{{page}}.html>\n科幻未来::/kehuan/<,{{page}}.html>\n历史军事::/lishi/<,{{page}}.html>\n游戏竞技::/youxi/<,{{page}}.html>\n灵异悬疑::/lingyi/<,{{page}}.html>\n都市生活::/dushi/<,{{page}}.html>\n青春校园::/xiaoyuan/<,{{page}}.html>\n古代言情::/hunlian/<,{{page}}.html>\n现代言情::/zongcai/<,{{page}}.html>\n幻想奇缘::/chuanyue/<,{{page}}.html>\n耽美同人::/tongren/<,{{page}}.html>\n新书入库::/xinshu/<,{{page}}.html>",
     "header": "",
-    "lastUpdateTime": 1610684575765,
+    "lastUpdateTime": 1616156690952,
     "ruleBookInfo": {
       "author": "class.author@tag.a@text",
       "coverUrl": "img@src",

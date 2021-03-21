@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 69书吧①备用™",
+    "bookSourceName": "69书吧",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.69shu.org",
-    "customOrder": -32450,
+    "customOrder": 1276,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻小说::https://www.69shu.org/fenlei/1_{{page}}/\n仙侠小说::https://www.69shu.org/fenlei/2_{{page}}/\n都市小说::https://www.69shu.org/fenlei/3_{{page}}/\n穿越小说::https://www.69shu.org/fenlei/4_{{page}}/\n军史小说::https://www.69shu.org/fenlei/5_{{page}}/\n网游小说::https://www.69shu.org/fenlei/6_{{page}}/\n科幻小说::https://www.69shu.org/fenlei/7_{{page}}/\n悬疑小说::https://www.69shu.org/fenlei/8_{{page}}/\n全本小说::https://www.69shu.org/quanben/{{page}}\n总排行榜::https://69shu.org/top/allvisit_{{page}}/\n总推荐榜::https://69shu.org/top/allvote_{{page}}/\n月排行榜::https://69shu.org/top/monthvisit_{{page}}/\n月推荐榜::https://69shu.org/top/monthvote_{{page}}/\n周排行榜::https://69shu.org/top/weekvisit_{{page}}/\n周推荐榜::https://69shu.org/top/weekvote_{{page}}/\n最新入库::https://69shu.org/top/postdate_{{page}}/\n最近更新::https://69shu.org/top/lastupdate_{{page}}/\n总收藏榜::https://69shu.org/top/goodnum_{{page}}/\n字数排行::https://69shu.org/top/size_{{page}}/\n本站推荐::https://69shu.org/top/toptime_{{page}}/",
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616237048670,
     "ruleBookInfo": {
       "author": "class.options@tag.span.1@text",
       "coverUrl": "class.pic@tag.img@src",

@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 爱奇文学",
+    "bookSourceName": "爱奇文学",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.iqiwx.com",
-    "customOrder": -116827,
+    "customOrder": 233,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻奇幻::/list/1_{{page}}.html\n武侠仙侠::/list/2_{{page}}.html\n都市言情::/list/3_{{page}}.html\n历史军事::/list/4_{{page}}.html\n游戏竞技::/list/5_{{page}}.html\n科幻灵异::/list/6_{{page}}.html\n其他类型::/list/7_{{page}}.html",
-    "lastUpdateTime": 1605022624432,
+    "lastUpdateTime": 1616236531643,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
       "coverUrl": "[property=\"og:image\"]@content",

@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 536文学",
+    "bookSourceName": "536文学",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.536wx.com",
     "bookUrlPattern": "",
-    "customOrder": -116762,
+    "customOrder": 291,
     "enabled": true,
     "enabledExplore": true,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616250962547,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.author@tag.a@text",

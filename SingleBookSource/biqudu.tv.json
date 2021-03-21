@@ -5,7 +5,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.biqudu.tv",
     "bookUrlPattern": "",
-    "customOrder": -114900,
+    "customOrder": 900,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "",

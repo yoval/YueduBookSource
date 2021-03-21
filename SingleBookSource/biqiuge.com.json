@@ -1,10 +1,10 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Connection reset\nerror:failed to connect to www.biqiuge.com/31.13.93.19 (port 80) from /192.168.0.103 (port 44296) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\nerror:failed to connect to www.biqiuge.com/31.13.86.8 (port 80) from /192.168.0.103 (port 47730) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
     "bookSourceGroup": "我的书源,经典盗版",
     "bookSourceName": "笔趣阁",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.biqiuge.com",
-    "customOrder": -117022,
+    "customOrder": 123,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 1615838845486,

@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.fkzww.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🔰 疯狂中文",
+    "bookSourceName": "疯狂中文",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.fkzww.com",
     "bookUrlPattern": "",
-    "customOrder": 16173,
+    "customOrder": 2557,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616233113024,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "id.CrbtlBookImg@tag.img@src",

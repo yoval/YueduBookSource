@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.aiquxs.org\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "👍 爱去小说",
+    "bookSourceName": "爱去小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.aiquxs.org",
     "bookUrlPattern": "",
-    "customOrder": 16062,
+    "customOrder": 2510,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1603037815990,
+    "lastUpdateTime": 1616249549105,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "class.cover@tag.img.0@src",

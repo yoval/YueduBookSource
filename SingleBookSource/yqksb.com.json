@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.yqksb.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍑 17模板网",
+    "bookSourceName": "17模板网",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.yqksb.com",
     "bookUrlPattern": "",
-    "customOrder": -31222,
+    "customOrder": 1667,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616249810710,
     "loginUrl": "",
     "ruleBookInfo": {},
     "ruleContent": {

@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "error:SSL handshake aborted: ssl=0x7f6760da08: I/O error during system call, Connection reset by peer\n",
+    "bookSourceComment": "error:failed to connect to www.77xsw.la/172.81.101.84 (port 443) from /192.168.0.103 (port 38666) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🎉 千千小说⑦",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.77xsw.la",
     "bookUrlPattern": "",
-    "customOrder": -32027,
+    "customOrder": 1443,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 0,

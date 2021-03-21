@@ -1,13 +1,13 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.2kzw.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "2K中文",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.2kzw.com",
     "bookUrlPattern": "",
-    "customOrder": 6,
+    "customOrder": 2280,
     "enabled": true,
-    "enabledExplore": false,
+    "enabledExplore": true,
     "lastUpdateTime": 1606789654224,
     "loginUrl": "",
     "ruleBookInfo": {

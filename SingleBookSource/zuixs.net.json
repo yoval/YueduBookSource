@@ -1,10 +1,10 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:timeout\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🔰 醉小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.zuixs.net",
-    "customOrder": -114643,
+    "customOrder": 1020,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 1612531393333,

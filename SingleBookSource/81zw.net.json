@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Handshake failed\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🎉 八一中文网⑤",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.81zw.net",
     "bookUrlPattern": "",
-    "customOrder": -31912,
+    "customOrder": 1501,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 0,

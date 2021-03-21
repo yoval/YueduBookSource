@@ -1,10 +1,10 @@
 [  {
-    "bookSourceComment": "error:failed to connect to www.tuhaoxs.com/47.75.161.185 (port 443) from /192.168.0.103 (port 40330) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
+    "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🎉 土豪小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.tuhaoxs.com",
-    "customOrder": -32467,
+    "customOrder": 1270,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 0,

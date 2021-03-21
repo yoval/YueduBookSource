@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍑 幅书吧",
+    "bookSourceName": "幅书吧",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.fushubbw.com",
-    "customOrder": -116050,
+    "customOrder": 398,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "现代言情::/bookall/xdyq/<,index_{{page}}.html>\n官场历史::/bookall/gcls/<,index_{{page}}.html>\n玄幻武侠::/bookall/xhwx/<,index_{{page}}.html>\n耽美同人::/bookall/blgl/<,index_{{page}}.html>\n穿越架空::/bookall/chuanyue/<,index_{{page}}.html>\n网游综漫::/bookall/wyzm/<,index_{{page}}.html>\n科幻灵异::/bookall/khly/<,index_{{page}}.html>\n其他综合::/bookall/qita/<,index_{{page}}.html>",
-    "lastUpdateTime": 1612528944826,
+    "lastUpdateTime": 1616237412996,
     "ruleBookInfo": {
       "intro": "id.text@tag.div@textNodes"
     },

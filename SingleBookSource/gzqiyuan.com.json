@@ -1,15 +1,15 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:timeout\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "起源小说网",
+    "bookSourceName": "起源小说",
     "bookSourceType": 0,
     "bookSourceUrl": "www.gzqiyuan.com",
     "bookUrlPattern": "",
-    "customOrder": -112916,
+    "customOrder": 1052,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "最新::https://wap.fushuwang.org/best/\nff::https://wap.fushuwang.org/chuanyuechongsheng/",
-    "lastUpdateTime": 1608899285704,
+    "lastUpdateTime": 1616238115330,
     "loginUrl": "",
     "ruleBookInfo": {
       "tocUrl": "@js:baseUrl.replace(/wap/,\"www\")"

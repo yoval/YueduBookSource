@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "修2",
+    "bookSourceComment": "error:Unable to resolve host \"hetushu.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "和图书",
     "bookSourceType": 0,
     "bookSourceUrl": "https://hetushu.com/",
     "bookUrlPattern": "",
-    "customOrder": -781,
+    "customOrder": 1796,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "榜单::/top/index.php",

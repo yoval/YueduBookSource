@@ -1,10 +1,10 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.xs.la\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源,经典盗版",
     "bookSourceName": "笔趣阁",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.xs.la/",
-    "customOrder": -859,
+    "customOrder": 1792,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "奇幻玄幻::https://www.xs.la/newclass/1/{{page}}.html\n武侠仙侠::/newclass/2/{{page}}.html\n都市言情::/newclass/3/{{page}}.html\n历史军事::/newclass/4/{{page}}.html\n科幻灵异::/newclass/5/{{page}}.html\n网游竞技::/newclass/6/{{page}}.html\n女生频道::/newclass/7/{{page}}.html",

@@ -5,7 +5,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.22pq.com",
     "bookUrlPattern": "https://m.22pq.com/read/\\d+.html",
-    "customOrder": -115104,
+    "customOrder": 815,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 1606909485201,

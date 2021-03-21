@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:timeout\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 梁羽生",
+    "bookSourceName": "梁羽生",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.liangyusheng.net",
-    "customOrder": -115200,
+    "customOrder": 790,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻小说::/xuanhuan/{{page}}.html\n仙侠小说::/xianxia/{{page}}.html\n都市小说::/dushi/{{page}}.html\n军史小说::/junshi/{{page}}.html\n网游小说::/wangyou/{{page}}.html\n科幻小说::/kehuan/{{page}}.html\n恐怖小说::/kongbu/{{page}}.html\n其它小说::/qita/{{page}}.html",
-    "lastUpdateTime": 1604165435047,
+    "lastUpdateTime": 1616237668566,
     "ruleBookInfo": {
       "coverUrl": "id.fmimg@img@src",
       "intro": "id.intro@text"

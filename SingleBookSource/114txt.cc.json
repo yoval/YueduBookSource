@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"m.114txt.cc\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "一世书城",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.114txt.cc",
     "bookUrlPattern": "",
-    "customOrder": 0,
+    "customOrder": 1830,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "全部::https://m.114txt.cc/xclass/0/{{page}}.html\n玄幻::https://m.114txt.cc/xclass/1/{{page}}.html\n仙侠修真::https://m.114txt.cc/xclass/2/{{page}}.html\n都市::https://m.114txt.cc/xclass/3/{{page}}.html\n历史::https://m.114txt.cc/xclass/4/{{page}}.html\n网游::https://m.114txt.cc/xclass/5/{{page}}.html\n科幻::https://m.114txt.cc/xclass/6/{{page}}.html\n其他::https://m.114txt.cc/xclass/7/{{page}}.html",

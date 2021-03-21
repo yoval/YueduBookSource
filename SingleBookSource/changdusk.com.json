@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 55读书",
+    "bookSourceName": "55读书",
     "bookSourceType": 0,
     "bookSourceUrl": "http://wap.changdusk.com",
     "bookUrlPattern": "",
-    "customOrder": -115685,
+    "customOrder": 602,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "最新更新::http://wap.changdusk.com/top/lastupdate_{{page}}/\n最新入库::http://wap.changdusk.com/top/postdate_{{page}}/\n总点击榜::http://wap.changdusk.com/top/allvisit_{{page}}/\n总收藏榜::http://wap.changdusk.com/top/goodnum_{{page}}/\n总字数榜::http://wap.changdusk.com/top/size_{{page}}/\n总推荐榜::http://wap.changdusk.com/top/allvote_{{page}}/\n全本小说::http://wap.changdusk.com/full/{{page}}/\n玄幻小说::http://wap.changdusk.com/sort/1_{{page}}/\n仙侠小说::http://wap.changdusk.com/sort/2_{{page}}/\n都市小说::http://wap.changdusk.com/sort/3_{{page}}/\n历史小说::http://wap.changdusk.com/sort/4_{{page}}/\n游戏小说::http://wap.changdusk.com/sort/5_{{page}}/\n科幻小说::http://wap.changdusk.com/sort/6_{{page}}/\n恐怖小说::http://wap.changdusk.com/sort/7_{{page}}/\n女生小说::http://wap.changdusk.com/sort/8_{{page}}/\n其他小说::http://wap.changdusk.com/sort/9_{{page}}/",
-    "lastUpdateTime": 1612827333901,
+    "lastUpdateTime": 1616237901372,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "class.block_img2@img@src",

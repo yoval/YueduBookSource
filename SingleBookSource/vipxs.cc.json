@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🎉 vip小说网②",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.vipxs.cc",
     "bookUrlPattern": "",
-    "customOrder": -115333,
+    "customOrder": 762,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 1612606418534,

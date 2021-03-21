@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Failed to connect to www.bxwx.la/128.14.139.70:443\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🎉 笔下文学⑨",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.bxwx.la",
     "bookUrlPattern": "",
-    "customOrder": -31956,
+    "customOrder": 1485,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 0,

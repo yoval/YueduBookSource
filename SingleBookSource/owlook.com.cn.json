@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 owlook",
+    "bookSourceName": "owlook",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.owlook.com.cn1",
-    "customOrder": -115068,
+    "customOrder": 840,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "起点榜::https://www.owlook.com.cn/md/qidian\n玄幻::https://www.owlook.com.cn/md/qidian?type=玄幻\n奇幻::https://www.owlook.com.cn/md/qidian?type=奇幻\n武侠::https://www.owlook.com.cn/md/qidian?type=武侠\n仙侠::https://www.owlook.com.cn/md/qidian?type=仙侠\n都市::https://www.owlook.com.cn/md/qidian?type=都市\n职场::https://www.owlook.com.cn/md/qidian?type=职场\n军事::https://www.owlook.com.cn/md/qidian?type=军事\n历史::https://www.owlook.com.cn/md/qidian?type=历史\n游戏::https://www.owlook.com.cn/md/qidian?type=游戏\n体育::https://www.owlook.com.cn/md/qidian?type=体育\n科幻::https://www.owlook.com.cn/md/qidian?type=科幻\n灵异::https://www.owlook.com.cn/md/qidian?type=灵异\n二次元::https://www.owlook.com.cn/md/qidian?type=二次元\n纵横榜::https://www.owlook.com.cn/md/zongheng\n",
     "header": "",
-    "lastUpdateTime": 1607720580136,
+    "lastUpdateTime": 1616237383554,
     "ruleBookInfo": {
       "author": "class.container@tag.a.0@text##.*?作者(:|：)",
       "coverUrl": "",

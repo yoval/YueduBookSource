@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍑 爱文学",
+    "bookSourceName": "爱文学",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.lovewenxue.com",
     "bookUrlPattern": "",
-    "customOrder": -116028,
+    "customOrder": 415,
     "enabled": true,
     "enabledExplore": true,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
-    "lastUpdateTime": 1607718475500,
+    "lastUpdateTime": 1616251050853,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.author@tag.a@text",

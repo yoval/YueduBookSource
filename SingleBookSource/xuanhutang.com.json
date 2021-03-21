@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Read error: ssl=0x7ed1074a08: I/O error during system call, Connection reset by peer\nerror:Read error: ssl=0x7e57b1ad08: I/O error during system call, Connection reset by peer\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍒 玄葫堂™",
+    "bookSourceName": "玄葫堂",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.xuanhutang.com",
-    "customOrder": -115991,
+    "customOrder": 433,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "青春校园::https://m.xuanhutang.com/sort/1_{{page}}/\n都市校园::https://m.xuanhutang.com/sort/2_{{page}}/\n穿越校园::https://m.xuanhutang.com/sort/3_{{page}}/\n古代校园::https://m.xuanhutang.com/sort/4_{{page}}/\n同人校园::https://m.xuanhutang.com/sort/5_{{page}}/\n玄幻校园::https://m.xuanhutang.com/sort/6_{{page}}/\n日点击榜::https://m.xuanhutang.com/top/dayvisit_{{page}}/\n周点击榜::https://m.xuanhutang.com/top/weekvisit_{{page}}/\n月点击榜::https://m.xuanhutang.com/top/monthvisit_{{page}}/\n总点击榜::https://m.xuanhutang.com/top/allvisit_{{page}}/\n总收藏榜::https://m.xuanhutang.com/top/goodnum_{{page}}/\n字数排行::https://m.xuanhutang.com/top/size_{{page}}/\n日推荐榜::https://m.xuanhutang.com/top/dayvote_{{page}}/\n周推荐榜::https://m.xuanhutang.com/top/weekvote_{{page}}/\n月推荐榜::https://m.xuanhutang.com/top/monthvote_{{page}}/\n总推荐榜::https://m.xuanhutang.com/top/allvote_{{page}}/\n最新入库::https://m.xuanhutang.com/top/postdate_{{page}}/\n最近更新::https://m.xuanhutang.com/top/lastupdate_{{page}}/",
-    "lastUpdateTime": 1612368224794,
+    "lastUpdateTime": 1616238216893,
     "ruleBookInfo": {
       "coverUrl": "class.block_img2@tag.img.0@src",
       "intro": "class.intro_info@text",

@@ -1,13 +1,13 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"m.02xs.org\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🔰 零二小说",
+    "bookSourceName": "零二小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.02xs.org",
-    "customOrder": 16195,
+    "customOrder": 2567,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616233081061,
     "ruleBookInfo": {
       "author": "class.author@text##作者：|\\[|\\]",
       "coverUrl": "id.synopsisArea_detail@tag.img@src",

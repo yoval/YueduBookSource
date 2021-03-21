@@ -1,13 +1,13 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 言情中文网",
+    "bookSourceName": "言情中文网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.bore.cc",
-    "customOrder": -116945,
+    "customOrder": 183,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1606576351516,
+    "lastUpdateTime": 1616250069663,
     "ruleBookInfo": {
       "intro": "class.intro_info@text",
       "lastChapter": "class.chapter@tag.li.1@a@text",

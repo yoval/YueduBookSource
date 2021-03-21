@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 棉花糖小说网",
+    "bookSourceName": "棉花糖小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.mht.tw",
     "bookUrlPattern": "",
-    "customOrder": -115716,
+    "customOrder": 578,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻魔法::http://www.mht.tw/xuanhuan.html\n都市言情::http://www.mht.tw/dushi.html\n武侠修真::http://www.mht.tw/wuxia.html\n历史军事::http://www.mht.tw/lishi.html\n恐怖科幻::http://www.mht.tw/kehuan.html\n网游同人::http://www.mht.tw/wangyou.html\n完本小说::http://www.mht.tw/wanben.html",
-    "lastUpdateTime": 1612807231753,
+    "lastUpdateTime": 1616238201634,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "id.fmimg@tag.img.0@src",

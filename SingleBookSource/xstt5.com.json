@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "📚 小说天堂",
+    "bookSourceName": "小说天堂",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.xstt5.com",
     "bookUrlPattern": "",
-    "customOrder": -116694,
+    "customOrder": 327,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "畅销\n文学名著::/mingzhu/<,index_{{page}}.html>\n现代小说::/dangdai/<,index_{{page}}.html>\n世界名著::/waiwen/<,index_{{page}}.html>\n儿童文学::/ertong/<,index_{{page}}.html>\n古典名著::/gudian/<,index_{{page}}.html>\n散文随笔::/sanwen/<,index_{{page}}.html>\n青春校园::/qingchun/<,index_{{page}}.html>\n文学评论::/pinglun/<,index_{{page}}.html>\n网络\n玄幻仙侠::/xuanhuan/<,index_{{page}}.html>\n言情小说::/yanqing/<,index_{{page}}.html>\n武侠小说::/wuxia/<,index_{{page}}.html>\n穿越小说::/chuanyue/<,index_{{page}}.html>\n侦探悬疑::/xuanyi/<,index_{{page}}.html>\n科幻小说::/kehuan/<,index_{{page}}.html>\n网游小说::/wangyou/<,index_{{page}}.html>\n人文\n人文社科::/renwen/<,index_{{page}}.html>\n人物传记::/zhuanji/<,index_{{page}}.html>\n历史小说::/lishi/<,index_{{page}}.html>\n军事小说::/junshi/<,index_{{page}}.html>\n励志书籍::/lizhi/<,index_{{page}}.html>\n生活科普::/shenghuo/<,index_{{page}}.html>",
-    "lastUpdateTime": 1606808925986,
+    "lastUpdateTime": 1616236594108,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "tag.a.0@text",

@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:failed to connect to www.yushuge.com/128.14.176.232 (port 443) from /192.168.0.103 (port 38314) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "👍 御书阁",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.yushuge.com#grid tr!0",
     "bookUrlPattern": "",
-    "customOrder": -114978,
+    "customOrder": 884,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "",

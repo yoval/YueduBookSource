@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 19小说",
+    "bookSourceName": "19小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.19xsf.com",
     "bookUrlPattern": "",
-    "customOrder": -116996,
+    "customOrder": 145,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1612583772544,
+    "lastUpdateTime": 1616249991741,
     "loginUrl": "",
     "ruleBookInfo": {
       "name": "h2@text"

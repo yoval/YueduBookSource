@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "☞玩泥巴吹泡泡套圈圈™",
+    "bookSourceComment": "error:Unable to resolve host \"www.zhuiyo.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🔰 追哟文学",
+    "bookSourceName": "追哟文学",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.zhuiyo.com",
-    "customOrder": 16336,
+    "customOrder": 2626,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻奇幻::/xuanhuan/{{page}}.html\n武侠修真::/wuxia/{{page}}.html\n都市生活::/dushi/{{page}}.html\n历史军事::/lishi/{{page}}.html\n游戏竞技::/youxi/{{page}}.html\n科幻未来::/kehuan/{{page}}.html\n恐怖悬疑::/xuanyi/{{page}}.html\n其它类型::/qita/{{page}}.html\n古代言情::/guyan/{{page}}.html\n现代言情::/xianyan/{{page}}.html\n幻想奇缘::/huanqing/{{page}}.html",
-    "lastUpdateTime": 1601972988246,
+    "lastUpdateTime": 1616232703783,
     "ruleBookInfo": {
       "coverUrl": "id.fmimg@img@src",
       "intro": "id.intro@tag.p.0@text"

@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"scp-wiki-cn.wikidot.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍄 SCP基金会",
+    "bookSourceName": "SCP基金会",
     "bookSourceType": 0,
     "bookSourceUrl": "http://scp-wiki-cn.wikidot.com",
-    "customOrder": -30893,
+    "customOrder": 1713,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "SCP-CN系列 I::http://scp-wiki-cn.wikidot.com/scp-series-cn-\nSCP-CN系列 II::http://scp-wiki-cn.wikidot.com/scp-series-cn-2\nSCP系列 I::http://scp-wiki-cn.wikidot.com/scp-series-1\nSCP系列 II::http://scp-wiki-cn.wikidot.com/scp-series-2\nSCP系列 III::http://scp-wiki-cn.wikidot.com/scp-series-3\nSCP系列 IV::http://scp-wiki-cn.wikidot.com/scp-series-4\nSCP系列 V::http://scp-wiki-cn.wikidot.com/scp-series-5",
-    "lastUpdateTime": 1602849690521,
+    "lastUpdateTime": 1616234814487,
     "loginUrl": "http://scp-wiki-cn.wikidot.com/search:site/a/p/q/searchKey/p/searchPage",
     "ruleBookInfo": {
       "name": "id.page-title@text"

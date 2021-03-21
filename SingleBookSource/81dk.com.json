@@ -1,13 +1,13 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.81dk.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "👍 八一读客网",
+    "bookSourceName": "八一读客网",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.81dk.com",
-    "customOrder": 15963,
+    "customOrder": 2486,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1602899682673,
+    "lastUpdateTime": 1616249601250,
     "ruleBookInfo": {
       "author": "class.box_con.0@id.info@tag.p.0@text",
       "coverUrl": "id.fmimg@tag.img.0@src",

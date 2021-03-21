@@ -1,13 +1,13 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.tfuu.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🔰 天赋小说网",
+    "bookSourceName": "天赋小说网",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.tfuu.com",
-    "customOrder": 16092,
+    "customOrder": 2525,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1602756781543,
+    "lastUpdateTime": 1616249530509,
     "ruleBookInfo": {},
     "ruleContent": {
       "content": ".main-text-wrap@p@html",

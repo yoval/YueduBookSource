@@ -1,10 +1,10 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.nunusf.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "努努书坊",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.nunusf.com",
-    "customOrder": 0,
+    "customOrder": 2085,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻小说::https://www.nunusf.com/e/extend/more/lsmore.php?page={{page}}&line=10&cl=1\n魔幻小说::https://www.nunusf.com/e/extend/more/lsmore.php?page={{page}}&line=10&cl=2\n悬疑小说::https://www.nunusf.com/e/extend/more/lsmore.php?page={{page}}&line=10&cl=3\n历史架空::https://www.nunusf.com/e/extend/more/lsmore.php?page={{page}}&line=10&cl=4\n都市小说::https://www.nunusf.com/e/extend/more/lsmore.php?page={{page}}&line=10&cl=5\n言情小说::https://www.nunusf.com/e/extend/more/lsmore.php?page={{page}}&line=10&cl=6\n武侠小说::https://www.nunusf.com/e/extend/more/lsmore.php?page={{page}}&line=10&cl=7",

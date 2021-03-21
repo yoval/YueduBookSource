@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:timeout\n",
     "bookSourceGroup": "我的书源,经典盗版",
     "bookSourceName": "🎉 新笔趣阁",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.biqu4.com",
     "bookUrlPattern": "",
-    "customOrder": -32063,
+    "customOrder": 1424,
     "enabled": true,
     "enabledExplore": true,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 8.1.0; Xiaomi Mi8 Build/OPM1.171019.011) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/67.0.3396.87 Mobile Safari/537.36\"\n}",

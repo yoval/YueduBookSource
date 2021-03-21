@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "error:failed to connect to www.pfwx.com/85.209.193.94 (port 80) from /192.168.0.100 (port 44940) after 15000ms\n",
+    "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "👍 平凡文学",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.pfwx.com",
     "bookUrlPattern": "",
-    "customOrder": -115016,
+    "customOrder": 871,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "",

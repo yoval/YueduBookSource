@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.999xs.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 22中文网",
+    "bookSourceName": "22中文网",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.22zw.com",
     "bookUrlPattern": "",
-    "customOrder": -31705,
+    "customOrder": 1566,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1603266522444,
+    "lastUpdateTime": 1616249838759,
     "loginUrl": "",
     "ruleBookInfo": {
       "intro": "id.intro@tag.p.0@text"

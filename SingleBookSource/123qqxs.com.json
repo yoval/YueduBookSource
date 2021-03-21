@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 千千小说网",
+    "bookSourceName": "千千小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.123qqxs.com",
-    "customOrder": -115696,
+    "customOrder": 595,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻修真::http://www.123qqxs.com/1/{{page}}.html\n都市商战::http://www.123qqxs.com/2/{{page}}.html\n历史军事::http://www.123qqxs.com/3/{{page}}.html\n穿越架空::http://www.123qqxs.com/6/{{page}}.html\n恐怖推理::http://www.123qqxs.com/5/{{page}}.html\n现代言情::http://www.123qqxs.com/8/{{page}}.html\n古典言情::http://www.123qqxs.com/7/{{page}}.html\n网游科幻::http://www.123qqxs.com/4/{{page}}.html\n耽美同人::http://www.123qqxs.com/9/{{page}}.html\n综合其他::http://www.123qqxs.com/10/{{page}}.html",
-    "lastUpdateTime": 1612818774990,
+    "lastUpdateTime": 1616238197619,
     "ruleBookInfo": {
       "coverUrl": "class.binfo@class.binfo2@class.binfo2_l@tag.img.0@src",
       "intro": "class.binfo2@class.binfo2_r@class.b22@text"

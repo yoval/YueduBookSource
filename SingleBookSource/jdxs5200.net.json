@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.jdxs5200.net\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 经典小说",
+    "bookSourceName": "经典小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.jdxs5200.net",
-    "customOrder": -31743,
+    "customOrder": 1560,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻::/fenlei/1_{{page}}.html\n言情::/fenlei/2_{{page}}.html\n仙侠::/fenlei/3_{{page}}.html\n都市::/fenlei/4_{{page}}.html\n历史::/fenlei/5_{{page}}.html\n网游::/fenlei/6_{{page}}.html\n竞技::/fenlei/7_{{page}}.html\n科幻::/fenlei/8_{{page}}.html\n完本::/quanben/{{page}}",
-    "lastUpdateTime": 1602839106464,
+    "lastUpdateTime": 1616236769651,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",

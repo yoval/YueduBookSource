@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:timeout\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "👍 趣阅阁™MaxKing",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.quyuege.com",
     "bookUrlPattern": ".*?book/\\d+.shtml",
-    "customOrder": -114853,
+    "customOrder": 926,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 1612804150188,

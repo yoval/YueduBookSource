@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 零点看书",
+    "bookSourceName": "零点看书",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.axeslide.com",
-    "customOrder": -115091,
+    "customOrder": 824,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻奇幻::/sort/1/{{page}}.html\n武侠仙侠::/sort/2/{{page}}.html\n都市言情::/sort/3/{{page}}.html\n历史军事::/sort/4/{{page}}.html\n科幻灵异::/sort/5/{{page}}.html\n网游竞技::/sort/6/{{page}}.html\n女生频道::/sort/7/{{page}}.html",
-    "lastUpdateTime": 1606570190743,
+    "lastUpdateTime": 1616237612369,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
       "coverUrl": "[property=\"og:image\"]@content",

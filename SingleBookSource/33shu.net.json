@@ -5,7 +5,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.33shu.net",
     "bookUrlPattern": "https://www.33shu.net/[a-z]+/\\d+/",
-    "customOrder": -32258,
+    "customOrder": 1348,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 0,

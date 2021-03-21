@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍑 蛋文库",
+    "bookSourceName": "蛋文库",
     "bookSourceType": 0,
     "bookSourceUrl": "http://wap.danwenku.com",
-    "customOrder": -116043,
+    "customOrder": 402,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "生子::/e/search/result?searchid=127&page={{page}}\n种田::/e/search/result?searchid=42&page={{page}}\n重生::/e/search/result?searchid=4&page={{page}}\n父子::/e/search/result?searchid=29&page={{page}}\n调教::/e/search/result?searchid=37&page={{page}}\n末世::/e/search/result?searchid=20&page={{page}}\n兽人::/e/search/result?searchid=92&page={{page}}\n双性::/e/search/result?searchid=178&page={{page}}",
-    "lastUpdateTime": 1612444763874,
+    "lastUpdateTime": 1616237418973,
     "ruleBookInfo": {
       "author": "tag.h1@text##.*BY：",
       "coverUrl": "",

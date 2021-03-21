@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍒 520小说",
+    "bookSourceName": "520小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.520xsb.com",
     "bookUrlPattern": "",
-    "customOrder": -115981,
+    "customOrder": 443,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "古代言情::/sort-1-{{page}}/\n现代言情::/sort-2-{{page}}/\n青春校园::/sort-3-{{page}}/\n豪门总裁::/sort-4-{{page}}/\n异能玄幻::/sort-6-{{page}}/\n其他小说::/sort-7-{{page}}/\n其他小说::/sort-8-{{page}}/\n全本小说::/full-{{page}}/\n最近更新::/top-lastupdate-{{page}}/\n总点击榜::/top-allvisit-{{page}}/\n总收藏榜::/top-goodnum-{{page}}/\n总推荐榜::/top-allvote-{{page}}/",
-    "lastUpdateTime": 1612368064876,
+    "lastUpdateTime": 1616237504836,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.block_txt2@tag.a.2@text",

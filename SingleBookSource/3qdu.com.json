@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:List is empty.\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🎉 三趣读小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.3qdu.com",
     "bookUrlPattern": "",
-    "customOrder": -115641,
+    "customOrder": 638,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "",

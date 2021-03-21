@@ -1,13 +1,13 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 燃文小说⑥",
+    "bookSourceName": "燃文小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.ranwen.tw",
-    "customOrder": -116802,
+    "customOrder": 255,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1604164186663,
+    "lastUpdateTime": 1616250833467,
     "ruleBookInfo": {
       "author": "id.info@tag.h1@tag.small@tag.a@text",
       "coverUrl": "class.pic@img@src",

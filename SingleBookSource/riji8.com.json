@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🌸 ★APP-4★",
+    "bookSourceName": "★APP-4★",
     "bookSourceType": 0,
     "bookSourceUrl": "https://novel.riji8.com",
     "bookUrlPattern": "https://novel.riji8.com/mix-atoc/.*view=chapters",
-    "customOrder": -117016,
+    "customOrder": 127,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1606988271686,
+    "lastUpdateTime": 1616232982390,
     "ruleBookInfo": {},
     "ruleContent": {
       "content": "$.chapter.body",

@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"m.huitailang.org\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🔰 灰太狼小说",
+    "bookSourceName": "灰太狼小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.huitailang.org",
-    "customOrder": -318,
+    "customOrder": 1798,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻魔法::/sort-1-{{page}}/\n武侠修真::/sort-2-{{page}}/\n都市人妻::/sort-3-{{page}}/\n历史军事::/sort-4-{{page}}/\n女生言情::/sort-5-{{page}}/\n网游动漫::/sort-6-{{page}}/\n科幻鬼话::/sort-7-{{page}}/\n恐怖灵异::/sort-8-{{page}}/\n散文诗词::/sort-9-{{page}}/\n完本小说::/full-{{page}}/\n总点击榜::/top-allvisit-{{page}}/\n总收藏榜::/top-goodnum-{{page}}/\n字数排行::/top-size-{{page}}/\n总推荐榜::/top-allvote-{{page}}/\n最近更新::/top-lastupdate-{{page}}/",
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616234726044,
     "ruleBookInfo": {
       "author": "class.block_txt2@tag.a.2@text",
       "coverUrl": "class.block_img2@tag.img@src",

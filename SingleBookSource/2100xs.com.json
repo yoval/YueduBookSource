@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.2100xs.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍑 新世纪",
+    "bookSourceName": "新世纪",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.2100xs.com",
-    "customOrder": -31188,
+    "customOrder": 1678,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻奇幻::/xuanhuan/\n武侠修真::/wuxia/\n都市言情::/yanqing/\n历史军事::/lishi/\n侦探推理::/zhentan/\n网游竞技::/wangyou/\n科幻小说::/kehuan/\n恐怖灵异::/koubu/\n其他小说::/othersbooks/\n全本小说::/quanben/",
-    "lastUpdateTime": 1599824609811,
+    "lastUpdateTime": 1616236734813,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
       "coverUrl": "[property=\"og:image\"]@content",

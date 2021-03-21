@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.kanshu5.la\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🔰 看书啦",
+    "bookSourceName": "看书啦",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.kanshu5.la",
     "bookUrlPattern": "",
-    "customOrder": 16188,
+    "customOrder": 2563,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616233097826,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "id.fmimg@tag.img@src",

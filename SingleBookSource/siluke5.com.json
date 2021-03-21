@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 思路客",
+    "bookSourceName": "思路客",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.siluke5.com",
     "bookUrlPattern": "",
-    "customOrder": -32788,
+    "customOrder": 1160,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻·推荐::/xuanhuan/\n修真·推荐::/xiuzhen/\n都市·推荐::/dushi/\n言情·推荐::/yanqing/\n历史·推荐::/lishi/\n网游·推荐::/wangyou/\n科幻·推荐::/kehuan/\n恐怖·推荐::/kongbu/\n完本·推荐::/wanben/",
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616236696869,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "tag.p.0@text",

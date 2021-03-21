@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍑 峡谷小说",
+    "bookSourceName": "峡谷小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.xiagu.org",
-    "customOrder": -116152,
+    "customOrder": 357,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻::/shuku/1_0_0_0_0_{{page}}.html\n武侠::/shuku/2_0_0_0_0_{{page}}.html\n都市::/shuku/3_0_0_0_0_{{page}}.html\n军事::/shuku/4_0_0_0_0_{{page}}.html\n游戏::/shuku/5_0_0_0_0_{{page}}.html\n科幻::/shuku/6_0_0_0_0_{{page}}.html\n灵异::/shuku/7_0_0_0_0_{{page}}.html\n其他::/shuku/8_0_0_0_0_{{page}}.html",
-    "lastUpdateTime": 1612528848743,
+    "lastUpdateTime": 1616237399729,
     "ruleBookInfo": {
       "author": "id.info@tag.span.2@tag.a@text",
       "coverUrl": "",

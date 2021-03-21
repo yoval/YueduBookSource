@@ -1,13 +1,13 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源,经典盗版",
-    "bookSourceName": "🍺 笔趣阁（3）",
+    "bookSourceName": "笔趣阁",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.biqupa.com",
-    "customOrder": -116797,
+    "customOrder": 260,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1600104845769,
+    "lastUpdateTime": 1616250852850,
     "ruleBookInfo": {
       "author": "id.info@tag.p.2@text##作 者：",
       "coverUrl": "id.fmimg@img@src",

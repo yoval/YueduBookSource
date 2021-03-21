@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "👍 69书啦",
+    "bookSourceName": "69书啦",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.69shu.la",
     "bookUrlPattern": "",
-    "customOrder": -114868,
+    "customOrder": 916,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "最新入库::http://m.69shu.la/top/postdate_{{page}}/\n最近更新::http://m.69shu.la/top/lastupdate_{{page}}/\n总点击榜::http://m.69shu.la/top/allvisit_{{page}}/\n总收藏榜::http://m.69shu.la/top/goodnum_{{page}}/\n总推荐榜::http://m.69shu.la/top/allvote_{{page}}/\n总字数榜::http://m.69shu.la/top/size_{{page}}/\n完本小说::http://m.69shu.la/full/{{page}}/\n玄幻小说::http://m.69shu.la/sort/1_{{page}}/\n修真小说::http://m.69shu.la/sort/2_{{page}}/\n都市小说::http://m.69shu.la/sort/3_{{page}}/\n历史小说::http://m.69shu.la/sort/4_{{page}}/\n网游小说::http://m.69shu.la/sort/5_{{page}}/\n科幻小说::http://m.69shu.la/sort/6_{{page}}/\n女频小说::http://m.69shu.la/sort/7_{{page}}/",
-    "lastUpdateTime": 1612584902335,
+    "lastUpdateTime": 1616237308433,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "class.xsfm@img@src",

@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 八零电子书",
+    "bookSourceName": "八零电子书",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.balingtxt.com",
-    "customOrder": -32364,
+    "customOrder": 1307,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "奇幻修真::/sort3/{{page}}.html\n奇幻魔法::/sort13/{{page}}.html\n异术超能::/sort1/{{page}}.html\n东方传奇::/sort12/{{page}}.html\n王朝争霸::/sort14/{{page}}.html\n江湖武侠::/sort15/{{page}}.html\n未来幻想::/sort9/{{page}}.html\n灵异鬼怪::/sort10/{{page}}.html\n探险揭秘::/sort22/{{page}}.html\n历史传记::/sort6/{{page}}.html\n特种军旅::/sort7/{{page}}.html\n虚拟网游::/sort16/{{page}}.html\n竞技体育::/sort8/{{page}}.html\n魔幻女强::/sort2/{{page}}.html\n都市婚姻::/sort4/{{page}}.html\n百合之恋::/sort5/{{page}}.html\n同人美文::/sort11/{{page}}.html\n穿越架空::/sort17/{{page}}.html\n王室贵族::/sort18/{{page}}.html\n魔法校园::/sort19/{{page}}.html\n乡土布衣::/sort20/{{page}}.html\n官职商战::/sort21/{{page}}.html\n间谍暗战::/sort23/{{page}}.html\n唯美言情::/sort24/{{page}}.html\n诗歌文集::/sort25/{{page}}.html",
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616237019641,
     "ruleBookInfo": {
       "tocUrl": "text.在线阅读_目录@href"
     },

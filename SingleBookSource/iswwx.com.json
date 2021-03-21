@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"m.iswwx.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "35小说网",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.iswwx.com",
     "bookUrlPattern": "",
-    "customOrder": 0,
+    "customOrder": 2017,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "最新入库::http://m.iswwx.com/top/postdate_{{page}}/\n最新更新::http://m.iswwx.com/top/lastupdate_{{page}}/\n总点击榜::http://m.iswwx.com/top/allvisit_{{page}}/\n总收藏榜::http://m.iswwx.com/top/goodnum_{{page}}/\n总字数榜::http://m.iswwx.com/top/size_{{page}}/\n总推荐榜::http://m.iswwx.com/top/allvote_{{page}}/\n全本小说::http://m.iswwx.com/full/{{page}}/\n全部小说::http://m.iswwx.com/sort/0_{{page}}/\n玄幻魔法::http://m.iswwx.com/sort/1_{{page}}/\n武侠修真::http://m.iswwx.com/sort/2_{{page}}/\n都市言情::http://m.iswwx.com/sort/3_{{page}}/\n历史军事::http://m.iswwx.com/sort/4_{{page}}/\n游戏竞技::http://m.iswwx.com/sort/5_{{page}}/\n科幻恐怖::http://m.iswwx.com/sort/6_{{page}}/\n其他类型::http://m.iswwx.com/sort/7_{{page}}/\n女生频道::http://m.iswwx.com/sort/8_{{page}}/\n穿越异世::http://m.iswwx.com/sort/9_{{page}}/\n幻想言情::http://m.iswwx.com/sort/10_{{page}}/\n奇幻修仙::http://m.iswwx.com/sort/11_{{page}}/",

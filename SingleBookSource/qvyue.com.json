@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "coolapk@芜恙;wordCount",
+    "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🌸 趣阅",
+    "bookSourceName": "趣阅",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.qvyue.com#sitebox dl",
     "bookUrlPattern": "https://www.qvyue.com/\\d+_\\d+/",
-    "customOrder": -117047,
+    "customOrder": 113,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1604668041334,
+    "lastUpdateTime": 1616232945441,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "author",

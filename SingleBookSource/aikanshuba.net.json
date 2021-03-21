@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:SSL handshake timed out\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🎉 新爱看书吧",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.aikanshuba.net",
     "bookUrlPattern": "",
-    "customOrder": -32061,
+    "customOrder": 1425,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 0,

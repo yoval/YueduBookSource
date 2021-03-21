@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 360文学",
+    "bookSourceName": "360文学",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.360wxwxs.com",
     "bookUrlPattern": "",
-    "customOrder": -116777,
+    "customOrder": 276,
     "enabled": true,
     "enabledExplore": true,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616250882096,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.author@tag.a@text",

@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🔰 艾克小说",
+    "bookSourceName": "艾克小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.ik555.net",
     "bookUrlPattern": "",
-    "customOrder": -114568,
+    "customOrder": 1041,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻魔法::/modules/article/index.php?class=1&page={{page}}\n武侠修真::/modules/article/index.php?class=2&page={{page}}\n都市言情::/modules/article/index.php?class=3&page={{page}}\n历史军事::/modules/article/index.php?class=4&page={{page}}\n侦探推理::/modules/article/index.php?class=5&page={{page}}\n网游竞技::/modules/article/index.php?class=6&page={{page}}\n科幻小说::/modules/article/index.php?class=7&page={{page}}\n恐怖小说::/modules/article/index.php?class=8&page={{page}}\n散文诗词::/modules/article/index.php?class=9&page={{page}}\n其他类型::/modules/article/index.php?class=10&page={{page}}",
-    "lastUpdateTime": 1612584863629,
+    "lastUpdateTime": 1616237174937,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "",

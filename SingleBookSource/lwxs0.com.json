@@ -1,15 +1,15 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.lwxs0.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "👍 乐文小说网lwxs0.com",
+    "bookSourceName": "乐文小说网lwxs0.com",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.lwxs0.com",
     "bookUrlPattern": "",
-    "customOrder": 15867,
+    "customOrder": 2451,
     "enabled": true,
     "enabledExplore": true,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}",
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616249650698,
     "loginUrl": "",
     "ruleBookInfo": {
       "intro": "id.intro@text"

@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:timeout\nerror:failed to connect to www.dswx.cc/192.186.21.242 (port 443) from /192.168.0.103 (port 46298) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🎉 都市文学",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.dswx.cc",
     "bookUrlPattern": "https://www.dswx.cc/book/\\d+/\\d+.htm",
-    "customOrder": -115133,
+    "customOrder": 805,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 1606909130787,

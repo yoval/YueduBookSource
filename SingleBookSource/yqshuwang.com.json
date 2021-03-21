@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"wap.yqshuwang.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍒 言情书网",
+    "bookSourceName": "言情书网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://wap.yqshuwang.com",
     "bookUrlPattern": "",
-    "customOrder": -31093,
+    "customOrder": 1700,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1602877463263,
+    "lastUpdateTime": 1616249790552,
     "loginUrl": "coolapk@芜恙",
     "ruleBookInfo": {
       "author": "h3@textNodes##.*——",

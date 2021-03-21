@@ -1,12 +1,12 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"m.xianglin.org\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "湘霖小说网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.xianglin.org",
-    "customOrder": 0,
+    "customOrder": 2198,
     "enabled": true,
-    "enabledExplore": false,
+    "enabledExplore": true,
     "lastUpdateTime": 1615557581646,
     "ruleBookInfo": {
       "coverUrl": "id.fmimg@img@src",

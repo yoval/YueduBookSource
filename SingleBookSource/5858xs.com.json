@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 58小说网5858xs.com",
+    "bookSourceName": "58小说网",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.5858xs.com",
     "bookUrlPattern": "https?://m.5858xs.com/\\d+.html",
-    "customOrder": -32557,
+    "customOrder": 1231,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "全部::/sort/0/{{page}}.html\n玄幻魔法::/sort/1/{{page}}.html\n武侠修真::/sort/2/{{page}}.html\n都市言情::/sort/3/{{page}}.html\n历史军事::/sort/4/{{page}}.html\n侦探推理::/sort/5/{{page}}.html\n网游动漫::/sort/6/{{page}}.html\n科幻小说::/sort/7/{{page}}.html\n恐怖灵异::/sort/8/{{page}}.html\n其他类型::/sort/9/{{page}}.html",
-    "lastUpdateTime": 1602571180222,
+    "lastUpdateTime": 1616235073411,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.author@text##作者：",

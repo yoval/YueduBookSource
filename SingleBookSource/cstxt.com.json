@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.cstxt.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🔰 重生小说",
+    "bookSourceName": "重生小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.cstxt.com",
     "bookUrlPattern": "",
-    "customOrder": 16133,
+    "customOrder": 2543,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616233156055,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "id.info@tag.p.0@text##作    者：",

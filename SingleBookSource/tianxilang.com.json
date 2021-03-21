@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "📥 添喜郎",
+    "bookSourceName": "添喜郎",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.tianxilang.com",
-    "customOrder": -115898,
+    "customOrder": 477,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "言情小说::/yanqing/<,index_{{page}}.html>\n耽于唯美::/danmei/<,index_{{page}}.html>\n玄幻小说::/xuanhuan/<,index_{{page}}.html>\n武侠仙侠::/wuxia/<,index_{{page}}.html>\n网游竞技::/wangyou/<,index_{{page}}.html>\n科幻小说::/kehuan/<,index_{{page}}.html>\n灵异推理::/kongbu/<,index_{{page}}.html>\n军事历史::/lishi/<,index_{{page}}.html>\n纪实文学::/jishi/<,index_{{page}}.html>\n管理哲学::/zhexue/<,index_{{page}}.html>\n学习资料::/xuexi/<,index_{{page}}.html>\n其它小说::/qita/<,index_{{page}}.html>",
-    "lastUpdateTime": 1606808505076,
+    "lastUpdateTime": 1616237589001,
     "loginUrl": "https://m.tianxilang.com/e/member/login/",
     "ruleBookInfo": {
       "author": "class.infotype@tag.a.0@text",

@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 一品小说",
+    "bookSourceName": "一品小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.1pxs.com",
-    "customOrder": -32209,
+    "customOrder": 1365,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻魔法::http://www.1pxs.com/mulu/1-{{page}}.html\n武侠修真::http://www.1pxs.com/mulu/2-{{page}}.html\n都市言情::http://www.1pxs.com/mulu/3-{{page}}.html\n历史军事::http://www.1pxs.com/mulu/4-{{page}}.html\n穿越小说::http://www.1pxs.com/mulu/9-{{page}}.html\n恐怖灵异::http://www.1pxs.com/mulu/8-{{page}}.html\n侦探推理::http://www.1pxs.com/mulu/5-{{page}}.html\n科幻小说::http://www.1pxs.com/mulu/7-{{page}}.html\n网游动漫::http://www.1pxs.com/mulu/6-{{page}}.html\n其他类型::http://www.1pxs.com/mulu/10-{{page}}.html",
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616236965211,
     "ruleBookInfo": {
       "coverUrl": "class.con_limg@tag.img.0@src",
       "intro": "class.info@class.r_cons@textNodes",

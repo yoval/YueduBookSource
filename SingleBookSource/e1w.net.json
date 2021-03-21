@@ -1,12 +1,12 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.e1w.net\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源,经典盗版",
     "bookSourceName": "顶点小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.e1w.net",
-    "customOrder": 0,
+    "customOrder": 1973,
     "enabled": true,
-    "enabledExplore": false,
+    "enabledExplore": true,
     "lastUpdateTime": 1615659741187,
     "ruleBookInfo": {
       "intro": "id.content@tag.dd.2@tag.p.1@text",

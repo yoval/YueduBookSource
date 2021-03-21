@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 四合读书",
+    "bookSourceName": "四合读书",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.siheds.com",
-    "customOrder": -115466,
+    "customOrder": 744,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻::/xuanhuan/{{page}}.html\n武侠::/wuxia/{{page}}.html\n都市::/dushi/{{page}}.html\n历史::/lishi/{{page}}.html\n游戏::/youxi/{{page}}.html\n科幻::/kehuan/{{page}}.html\n恐怖::/xuanyi/{{page}}.html\n二次::/erciyuan/{{page}}.html\n经典::/jingdian/{{page}}.html\n古代::/guyan/{{page}}.html\n现代::/xianyan/{{page}}.html\n幻想::/huanqing/{{page}}.html\n青春::/qingchun/{{page}}.html\n网络::/wangluo/{{page}}.html\n科幻::/mmkehuan/{{page}}.html\n鬼怪::/lingyi/{{page}}.html\nN次::/Nciyuan/{{page}}.html\n言情::/yanqing/{{page}}.html",
-    "lastUpdateTime": 1605265107274,
+    "lastUpdateTime": 1616237725112,
     "ruleBookInfo": {
       "coverUrl": "id.fmimg@tag.img@src",
       "intro": "id.intro@tag.p.0@text"

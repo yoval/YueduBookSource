@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.51ggd.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🔰 格格党②",
+    "bookSourceName": "格格党",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.51ggd.com",
     "bookUrlPattern": "",
-    "customOrder": 16175,
+    "customOrder": 2558,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616249484531,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.book-title@em@text##作者：",

@@ -1,7 +1,7 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🏅 小说吧",
+    "bookSourceName": "小说吧",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.xiaos8.com",
     "bookUrlPattern": "",
@@ -9,7 +9,7 @@
     "enabled": true,
     "enabledExplore": true,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
-    "lastUpdateTime": 1608287647033,
+    "lastUpdateTime": 1616232876379,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.author@tag.a@text",

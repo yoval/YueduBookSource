@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 下书网",
+    "bookSourceName": "下书网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.xiashu99.com",
     "bookUrlPattern": "",
-    "customOrder": -115240,
+    "customOrder": 783,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻奇幻::/xuanhuan/{{page}}.html\n武侠仙侠::/wuxia/{{page}}.html\n都市言情::/dushi/{{page}}.html\n历史军事::/lishi/{{page}}.html\n游戏竞技::/youxi/{{page}}.html\n科幻灵异::/kehuan/{{page}}.html\n同人美文::/tongren/{{page}}.html\n女生专区::/nvsheng/{{page}}.html\n其它小说::/qita/{{page}}.html\n热门::/allvisit/{{page}}.html\n推荐::/allvote/{{page}}.html\n最新::/postdate/{{page}}.html",
-    "lastUpdateTime": 1604775652399,
+    "lastUpdateTime": 1616237681283,
     "loginUrl": "",
     "ruleBookInfo": {},
     "ruleContent": {

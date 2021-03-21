@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 书荒阁",
+    "bookSourceName": "书荒阁",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.shuhuangge.org",
-    "customOrder": -32393,
+    "customOrder": 1294,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻::https://www.shuhuangge.org/xuanhuanxiaoshuo/1_{{page}}.html\n修真::https://www.shuhuangge.org/xiuzhenxiaoshuo/2_{{page}}.html\n穿越::https://www.shuhuangge.org/chuanyuexiaoshuo/4_{{page}}.html\n都市::https://www.shuhuangge.org/dushixiaoshuo/3_{{page}}.html\n科幻::https://www.shuhuangge.org/kehuanxiaoshuo/6_{{page}}.html\n网游::https://www.shuhuangge.org/wangyouxiaoshuo/5_{{page}}.html\n完本::https://www.shuhuangge.org/wanben/1_{{page}}",
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616237037260,
     "ruleBookInfo": {
       "coverUrl": "id.sidebar@id.fmimg@tag.img.0@src",
       "intro": "id.maininfo@id.intro@tag.p@textNodes"

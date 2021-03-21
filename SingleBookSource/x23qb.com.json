@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:timeout\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "铅笔",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.x23qb.com/",
     "bookUrlPattern": ".+/book/\\d+/",
-    "customOrder": -100001,
+    "customOrder": 1053,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "最近更新::/book/0-lastupdate-0-0-0-0-0-0-{{page}}.html\n最新入库::/book/0-postdate-0-0-0-0-0-0-{{page}}.html\n总点击榜::/book/0-allvisit-0-0-0-0-0-0-{{page}}.html\n总推荐榜::/book/0-allvote-0-0-0-0-0-0-{{page}}.html\n总收藏榜::/book/0-goodnum-0-0-0-0-0-0-{{page}}.html\n总字数榜::/book/0-size-0-0-0-0-0-0-{{page}}.html\n完本小说::/book/0-quanben-0-0-0-0-2-0-{{page}}.html\n全部小说::/book/0-quanben-0-0-0-0-0-0-{{page}}.html\n言情女生::/book/1-quanben-0-0-0-0-0-0-{{page}}.html\n玄幻奇幻::/book/2-quanben-0-0-0-0-0-0-{{page}}.html\n都市青春::/book/3-quanben-0-0-0-0-0-0-{{page}}.html\n武侠仙侠::/book/4-quanben-0-0-0-0-0-0-{{page}}.html\n唯美纯爱::/book/5-quanben-0-0-0-0-0-0-{{page}}.html\n科幻灵异::/book/6-quanben-0-0-0-0-0-0-{{page}}.html\n历史军事::/book/8-quanben-0-0-0-0-0-0-{{page}}.html\n轻の小说::/book/7-quanben-0-0-0-0-0-0-{{page}}.html",

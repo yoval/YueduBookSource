@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.lwswxs.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🔰 乐文书屋",
+    "bookSourceName": "乐文书屋",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.lwswxs.com",
     "bookUrlPattern": "",
-    "customOrder": 16192,
+    "customOrder": 2566,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616233085360,
     "loginUrl": "",
     "ruleBookInfo": {
       "intro": "tag.p.0@text"

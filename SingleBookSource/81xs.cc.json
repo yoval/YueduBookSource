@@ -1,13 +1,13 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 八一中文⑥",
+    "bookSourceName": "八一中文",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.81xs.cc",
-    "customOrder": -116799,
+    "customOrder": 258,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1604163938857,
+    "lastUpdateTime": 1616250843319,
     "ruleBookInfo": {
       "author": "id.info@tag.p.2@text##作 者：",
       "coverUrl": "id.fmimg@img@src",

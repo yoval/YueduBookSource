@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 九桃小说",
+    "bookSourceName": "九桃小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.9txs.org",
-    "customOrder": -38921,
+    "customOrder": 1056,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "【全部分类】/sort/library/{{page}}.html\n玄幻奇幻::/sort/xuanhuan/{{page}}.html\n武侠修真::/sort/wuxia/{{page}}.html\n都市生活::/sort/dushi/{{page}}.html\n历史军事::/sort/lishi/{{page}}.html\n游戏竞技::/sort/youxi/{{page}}.html\n科幻未来::/sort/kehuan/{{page}}.html\n悬疑灵异::/sort/xuanyi/{{page}}.html\n二次元::/sort/erciyuan/{{page}}.html\n经典短篇::/sort/jingdian/{{page}}.html\n古代言情::/sort/gudai/{{page}}.html\n现代言情::/sort/xiandai/{{page}}.html\n幻想奇缘::/sort/huanxiang/{{page}}.html\n浪漫青春::/sort/qingchun/{{page}}.html\n网络情缘::/sort/wangluo/{{page}}.html\n科幻空间::/sort/kongjian/{{page}}.html\n恐怖灵异::/sort/lingyi/{{page}}.html\nN次元::/sort/tongren/{{page}}.html\n言情美文::/sort/yanqing/{{page}}.html\n其他类型::/sort/qita/{{page}}.html",
-    "lastUpdateTime": 1614222846456,
+    "lastUpdateTime": 1616236510693,
     "ruleBookInfo": {
       "author": "tag.p.1@text",
       "intro": "",

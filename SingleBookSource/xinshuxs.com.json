@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Timed out waiting for 180000 ms\nerror:Failed to connect to www.xinshuxs.com/180.215.82.205:80\nerror:failed to connect to www.xinshuxs.com/180.215.82.205 (port 80) from /192.168.0.103 (port 43094) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🎉 新书在线",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.xinshuxs.com",
     "bookUrlPattern": "",
-    "customOrder": -32065,
+    "customOrder": 1423,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 0,

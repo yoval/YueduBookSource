@@ -1,10 +1,10 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"m.thxsw.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "官术网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.thxsw.com/",
-    "customOrder": 0,
+    "customOrder": 2156,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 1615430182355,

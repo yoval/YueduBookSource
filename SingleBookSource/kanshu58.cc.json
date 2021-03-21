@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:SSL handshake aborted: ssl=0x7ec93ff708: I/O error during system call, Software caused connection abort\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🎉 58看书网",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.kanshu58.cc",
     "bookUrlPattern": "",
-    "customOrder": -31899,
+    "customOrder": 1505,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 0,

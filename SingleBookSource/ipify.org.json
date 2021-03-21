@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "error:timeout\n",
+    "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "📡 ｡◕‿◕｡",
+    "bookSourceName": " ｡◕‿◕｡",
     "bookSourceType": 0,
     "bookSourceUrl": "https://api.ipify.org",
-    "customOrder": -33043,
+    "customOrder": 1110,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "今日热榜::/?_id=tophub-today&page={{page}}\n哔哩专栏::/?_id=bilibili-zhuanlan\n知乎日报::/?_id=zhihu-daily\n沪江英语::/?_id=hujiang-en<,&page={{page}}>",
-    "lastUpdateTime": 1602764409515,
+    "lastUpdateTime": 1616236653634,
     "ruleBookInfo": {},
     "ruleContent": {
       "content": "<js>\nvar tmp, sid, id;\nvar text = '';\nvar alias = {\n  'tophub.today': 'tophub-today',\n  'daily.zhihu': 'zhihu-daily',\n  hjenglish: 'hujiang-en'\n};\n\nif (baseUrl.includes('_id')) {\n  sid = baseUrl.match(/\\?_id=([^=&]+)=?/)[1];\n  id = baseUrl.match(/[^_]id=([^=&]+)=?/)[1];\n} else {\n  for (var key in alias) {\n    if (baseUrl.includes(key)) {\n      sid = alias[key];\n      break;\n    }\n  }\n}\n\nswitch (sid) {\n  case 'bilibili-zhuanlan': {\n    tmp = java.ajax('https://www.bilibili.com/read/cv' + id);\n    java.setContent(tmp);\n    text = java.getString('class.article-holder@html');\n    break;\n  }\n  case 'zhihu-daily': {\n    text = java.getString('class.content@html');\n    break;\n  }\n  case 'hujiang-en': {\n    text = String(java.getString('class.article-content@html')).replace(\n      /（翻译.+）|图片来源.+/g,\n      ''\n    );\n    break;\n  }\n  case 'tophub-today': {\n    text = String(java.getString('class.Zd-p-Sc@html'))\n      .replace(\n        //g,\n        '\\n.\\n                      - - - - - - - - - - - - - - - -\\n.\\n'\n      )\n      .replace(/网页端只展示.+/, '');\n    break;\n  }\n}\n\nif (!text) {\n  text = '｡◕‿◕｡' + (sid ? '\\n' + sid : '');\n}\n\ntext;\n\n</js>"

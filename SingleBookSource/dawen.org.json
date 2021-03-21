@@ -1,13 +1,13 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.dawen.org\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "👍 达文小说网",
+    "bookSourceName": "达文小说网",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.dawen.org",
-    "customOrder": 15908,
+    "customOrder": 2462,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616249641770,
     "loginUrl": "",
     "ruleBookInfo": {
       "tocUrl": "text.目录@href"
@@ -15,6 +15,7 @@
     "ruleContent": {
       "content": "id.txt@html"
     },
+    "ruleExplore": {},
     "ruleSearch": {
       "author": "class.tags@tag.a.0@text",
       "bookList": "class.result@tag.li",

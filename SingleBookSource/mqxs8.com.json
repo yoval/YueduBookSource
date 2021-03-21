@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 梦奇小说",
+    "bookSourceName": "梦奇小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.mqxs8.com",
-    "customOrder": -115533,
+    "customOrder": 723,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻小说::/xuanhuanxiaoshuo/1_{{page}}.html\n仙侠小说::/xianxiaxiaoshuo/2_{{page}}.html\n都市小说::/dushixiaoshuo/3_{{page}}.html\n军史小说::/junshixiaoshuo/4_{{page}}.html\n网游小说::/wangyouxiaoshuo/5_{{page}}.html\n科幻小说::/kehuanxiaoshuo/6_{{page}}.html\n恐怖小说::/kongbuxiaoshuo/7_{{page}}.html\n其它小说::/qitaxiaoshuo/8_{{page}}.html",
-    "lastUpdateTime": 1612116404268,
+    "lastUpdateTime": 1616237712783,
     "ruleBookInfo": {
       "coverUrl": "id.fmimg@img@src",
       "intro": "id.intro@text"

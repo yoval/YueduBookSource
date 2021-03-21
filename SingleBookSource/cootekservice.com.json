@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 追光阅读",
+    "bookSourceName": "追光阅读",
     "bookSourceType": 0,
     "bookSourceUrl": "http://touchlife.cootekservice.com",
-    "customOrder": -116891,
+    "customOrder": 206,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "现代都市::http://touchlife.cootekservice.com/doReader/get_books_by_classificationId?_token=e72ca407-9caa-475d-a829-46e15d3d4834&classificationId=4\n东方玄幻::http://touchlife.cootekservice.com/doReader/get_books_by_classificationId?_token=e72ca407-9caa-475d-a829-46e15d3d4834&classificationId=13\n武侠仙侠::http://touchlife.cootekservice.com/doReader/get_books_by_classificationId?_token=e72ca407-9caa-475d-a829-46e15d3d4834&classificationId=12\n历史架空::http://touchlife.cootekservice.com/doReader/get_books_by_classificationId?_token=e72ca407-9caa-475d-a829-46e15d3d4834&classificationId=17\n科幻末世::http://touchlife.cootekservice.com/doReader/get_books_by_classificationId?_token=e72ca407-9caa-475d-a829-46e15d3d4834&classificationId=16\n游戏竞技::http://touchlife.cootekservice.com/doReader/get_books_by_classificationId?_token=e72ca407-9caa-475d-a829-46e15d3d4834&classificationId=18\n西方玄幻::http://touchlife.cootekservice.com/doReader/get_books_by_classificationId?_token=e72ca407-9caa-475d-a829-46e15d3d4834&classificationId=9\n豪门总裁::http://touchlife.cootekservice.com/doReader/get_books_by_classificationId?_token=e72ca407-9caa-475d-a829-46e15d3d4834&classificationId=2\n古代言情::http://touchlife.cootekservice.com/doReader/get_books_by_classificationId?_token=e72ca407-9caa-475d-a829-46e15d3d4834&classificationId=5\n现代言情::http://touchlife.cootekservice.com/doReader/get_books_by_classificationId?_token=e72ca407-9caa-475d-a829-46e15d3d4834&classificationId=10\n青春校园::http://touchlife.cootekservice.com/doReader/get_books_by_classificationId?_token=e72ca407-9caa-475d-a829-46e15d3d4834&classificationId=6\n仙侠奇缘::http://touchlife.cootekservice.com/doReader/get_books_by_classificationId?_token=e72ca407-9caa-475d-a829-46e15d3d4834&classificationId=7\n婚恋情缘::http://touchlife.cootekservice.com/doReader/get_books_by_classificationId?_token=e72ca407-9caa-475d-a829-46e15d3d4834&classificationId=8\n玄幻言情::http://touchlife.cootekservice.com/doReader/get_books_by_classificationId?_token=e72ca407-9caa-475d-a829-46e15d3d4834&classificationId=3\n穿越重生::http://touchlife.cootekservice.com/doReader/get_books_by_classificationId?_token=e72ca407-9caa-475d-a829-46e15d3d4834&classificationId=1\nnull",
-    "lastUpdateTime": 1612277233672,
+    "lastUpdateTime": 1616236285900,
     "ruleBookInfo": {},
     "ruleContent": {
       "content": "$..chapterContent"

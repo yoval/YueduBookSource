@@ -4,7 +4,7 @@
     "bookSourceName": "最言情",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.zzzyq.net",
-    "customOrder": -117027,
+    "customOrder": 122,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "言情::/novel_yanqing_{{page}}\n玄幻::/novel_xuanhuan_{{page}}\n修真::/novel_xiuzhen_{{page}}\n都市::/novel_dushi_{{page}}\n历史::/novel_lishi_{{page}}\n网游::/novel_wangyou_{{page}}\n科幻::/novel_kehuan_{{page}}\n其他::/novel_qita_{{page}}\n全本::/novel_quanben_{{page}}",

@@ -1,10 +1,10 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"app.jjwxc.org\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "晋江",
     "bookSourceType": 0,
     "bookSourceUrl": "http://app.jjwxc.org",
-    "customOrder": 0,
+    "customOrder": 2026,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "古言::http://app-cdn.jjwxc.net/bookstore/getFullPage?channel=gywx&version=3\n\n都市::http://app-cdn.jjwxc.net:80/bookstore/getFullPage?channel=dsyq&version=3\n幻言::http://app-cdn.jjwxc.net:80/bookstore/getFullPage?channel=qqyq&version=3\n古穿::http://app-cdn.jjwxc.net:80/bookstore/getFullPage?channel=gdcy&version=3\n奇幻::http://app-cdn.jjwxc.net:80/bookstore/getFullPage?channel=xhqh&version=3\n未来游戏悬疑::http://app-cdn.jjwxc.net:80/bookstore/getFullPage?channel=xywy&version=3\n衍生言情::http://app-cdn.jjwxc.net:80/bookstore/getFullPage?channel=trys&version=3\n二次元言情::http://app-cdn.jjwxc.net:80/bookstore/getFullPage?channel=trmd&version=3",

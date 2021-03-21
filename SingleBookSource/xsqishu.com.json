@@ -4,7 +4,7 @@
     "bookSourceName": "新奇书网",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.xsqishu.com",
-    "customOrder": -116965,
+    "customOrder": 171,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "最新全本::http://www.xsqishu.com/newbook/<index,index_2,index_3,index_{{page+1}}>.html\n玄幻奇幻::/xuanhuan/<index,index_2,index_3,index_{{page+1}}>.html\n武侠仙侠::http://www.xsqishu.com/xianxia/<index,index_2,index_3,index_{{page+1}}>.html\n女频言情::http://www.xsqishu.com/yanqing/<index,index_2,index_3,index_{{page+1}}>.html\n现代都市::http://www.xsqishu.com/dushi/<index,index_2,index_3,index_{{page+1}}>.html\n历史军事::http://www.xsqishu.com/lishi/<index,index_2,index_3,index_{{page+1}}>.html\n游戏竞技::http://www.xsqishu.com/youxi/<index,index_2,index_3,index_{{page+1}}>.html\n科幻灵异::http://www.xsqishu.com/kehuan/<index,index_2,index_3,index_{{page+1}}>.html\n精校小说::http://www.xsqishu.com/jingjiao/<index,index_2,index_3,index_{{page+1}}>.html",

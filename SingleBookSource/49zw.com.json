@@ -1,10 +1,10 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🔰 49中文",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.49zw.com",
-    "customOrder": -114778,
+    "customOrder": 984,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 1606572935258,

@@ -4,7 +4,7 @@
     "bookSourceName": "流星小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.shupu.org",
-    "customOrder": -116967,
+    "customOrder": 169,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻::/list/1_0_0_0_0_{{page}}.html\n武侠::/list/2_0_0_0_0_{{page}}.html\n都市::/list/3_0_0_0_0_{{page}}.html\n军事::/list/4_0_0_0_0_{{page}}.html\n游戏::/list/5_0_0_0_0_{{page}}.html\n科幻::/list/6_0_0_0_0_{{page}}.html\n灵异::/list/7_0_0_0_0_{{page}}.html\n其他::/list/8_0_0_0_0_{{page}}.html\n全部::/list/0_0_0_0_0_{{page}}.html",

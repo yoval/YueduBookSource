@@ -1,13 +1,13 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 19826",
+    "bookSourceName": "19826",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.19826.net",
-    "customOrder": -116971,
+    "customOrder": 167,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1610039961454,
+    "lastUpdateTime": 1616250050454,
     "ruleBookInfo": {
       "author": "class.booktag@tag.a.0@text",
       "coverUrl": "img@src##.*/nocover.jpg",

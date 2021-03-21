@@ -1,10 +1,10 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.xiaoshuo530.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "小说书网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.xiaoshuo530.com/",
-    "customOrder": 120,
+    "customOrder": 2368,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "奇幻魔法::/xiaoshuosort1/0/{{page}}.html\n传统武侠::/xiaoshuosort2/0/{{pahe}}.html\n都市小说::/xiaoshuosort3/0/{{page}}.html\n军史小说::/xiaoshuosort4/0/{{page.html\n网游小说::/xiaoshuosort5/0/{pahe}}.html\n科幻小说::/xiaoshuosort6/0/{{page}}.html\n恐怖小说::/xiaoshuosort7/0/{{page}}.html\n其它小说::/xiaoshuosort8/0/{{page}}.html",

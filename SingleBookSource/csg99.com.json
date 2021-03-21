@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:SSL handshake aborted: ssl=0x7ed10732c8: I/O error during system call, Software caused connection abort\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🎉 藏书阁②",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.csg99.com",
     "bookUrlPattern": "",
-    "customOrder": -31961,
+    "customOrder": 1482,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 0,

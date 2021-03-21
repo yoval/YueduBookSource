@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"dict.cn\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍄 海词™木稽",
+    "bookSourceName": "海词木稽",
     "bookSourceType": 0,
     "bookSourceUrl": "http://dict.cn",
     "bookUrlPattern": "",
-    "customOrder": -30883,
+    "customOrder": 1715,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1601890182644,
+    "lastUpdateTime": 1616249769015,
     "loginUrl": "",
     "ruleBookInfo": {
       "intro": "text"

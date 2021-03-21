@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Failed to connect to www.myxs.net/162.125.80.5:443\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "👍 墨语小说网™",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.myxs.net",
     "bookUrlPattern": "",
-    "customOrder": -114862,
+    "customOrder": 920,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 1612807974221,

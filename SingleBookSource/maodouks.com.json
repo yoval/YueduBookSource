@@ -1,10 +1,10 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.maodouks.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "毛豆看书",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.maodouks.com/",
-    "customOrder": -37,
+    "customOrder": 1817,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻魔法::/fenlei/{{page}}/1/\n武侠修真::/fenlei/2/{{page}}/\n都市言情::/fenlei/3/{{page}}/\n历史军事::/fenlei/4/{{page}}/\n科幻灵异::/fenlei/5/{{page}}/\n游戏竞技::/fenlei/6/{{page}}/\n女生小说::/fenlei/7/{{page}}/\n其他类型::/fenlei/8/{{page}}/",

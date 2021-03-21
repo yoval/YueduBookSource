@@ -1,13 +1,13 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.800txt.net\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍅 800小说②",
+    "bookSourceName": "800小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.800txt.net/",
-    "customOrder": 10782,
+    "customOrder": 2426,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1606378641342,
+    "lastUpdateTime": 1616249686722,
     "ruleBookInfo": {
       "author": "id.info@tag.p.0@tag.a@text",
       "coverUrl": "id.fmimg@img@src",

@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.tsxsw.net\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "👍 吞噬小说",
+    "bookSourceName": "吞噬小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.tsxsw.net",
     "bookUrlPattern": "",
-    "customOrder": 15844,
+    "customOrder": 2442,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1602678357221,
+    "lastUpdateTime": 1616249676591,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "class.l@img@src",

@@ -1,13 +1,13 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.wuxia8.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🔰 武侠小说网",
+    "bookSourceName": "武侠小说网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.wuxia8.com",
-    "customOrder": 16089,
+    "customOrder": 2524,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1602898822805,
+    "lastUpdateTime": 1616249535476,
     "ruleBookInfo": {
       "author": "class.butt@tag.p@text##更新.*",
       "coverUrl": "class.intro@tag.img@src",

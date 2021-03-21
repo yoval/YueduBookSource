@@ -1,10 +1,10 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"m.baidu.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "久久名著",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.ksw8888.com/",
-    "customOrder": 0,
+    "customOrder": 2041,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "古典名著::https://www.ksw8888.com/gudaicn/&&诸子百家::/gudaicn/zhuzibaijia/&&古代公案小说::/gudaicn/gudaigonganxiaoshuo/&&史书::/gudaicn/shishu/&&古典言情小说::/gudaicn/gudianyanqingxiaoshuo/&&南怀瑾全集::/gudaicn/nanhuaijinquanji/&&中国古代武侠小说::/gudaicn/gudianwuxia/&&佛经大全::/gudaicn/fujingdaquan/&&道教书籍::/gudaicn/daojiaoshuji/&&易经书籍::/gudaicn/yijingshuji/&&古代兵书::/gudaicn/gudaibingshu/&&古代医书::/gudaicn/gudaiyishu/&&文言文::/gudaicn/wenyanwen/{{['gaozhongwenyanwen','chuzhongwenyanwen'][page-1]}}&&三言二拍合集::/gudaicn/sanyanerpaiheji/&&辞赋::/gudaicn/cifu/&&晚清四大谴责小说::/gudaicn/qianzexiaoshuo/&&蒙学经典::/gudaicn/mengxuejingdian/&&四大文学名著::/gudaicn/sidamingzhu/&&现代名著::/xiandai/{{['linchangzhizu','zhengyuanjie','yanlianke'][page-1]}}&&外国名著::/waiguo/{{['taiger','cunshangchunshu','shashibiya','dongyeguiwu','dubianchunyi','ajs','kaer_mai','kenandaoer','jzwes','jin','pts','jk','huosangzuopinji','qiaozhi_sang','naersen_demile','tugeniefu','xingqiu','dajiangjiansanlang','natiankangfu','xicunshouxing','heta_mile','modi','john','riben','danbulangzuopinji','songbenqingzhang','chuanduankangcheng','yanjingjuner','shidige_lasen','saimen_gelin','heianwuzhi'][page-1]}}&&网络小说::/wangluo/&&魔幻小说::/xuanhuan/&&言情小说::/yanqing/&&恐怖灵异::/kongbu/&&穿越小说::/wangluo/chuanyuexiaoshuo/&&重生小说::/wangluo/zhongshengxiaoshuo/&&种田文::/zhongtianwen/&&宫斗小说::/gongdouxiaoshuo/&&晋江小说::/jinjiangxiaoshuo/&&人物传记::/chuanji/&&财经股票::/caijing/&&成功励志::/lizhi/&&人文社科::/renwensheke/&&武侠小说::/wuxia/{{['pingjiangbuxiaosheng','wangdulu','qiumenghen','yudonglou','moyusheng','caoruobing','marongcheng'][page-1]}}/&&古龙::/gulong/&&司马翎::/gulong/&&伴霞楼主::/wuxia/banxialouzhu/&&诸葛青云::/wuxia/zhugeqingyun/&&鬼谷子::/wuxia/guiguzi/&&上官鼎::/wuxia/shangguanding/&&云中岳::/wuxia/yunzhongyue/&&松柏生::/wuxia/songbaisheng/&&令狐庸::/wuxia/linghuyong/&&陈青云::/wuxia/chenqingyun/&&",

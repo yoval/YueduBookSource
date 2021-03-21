@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "360文学+",
+    "bookSourceName": "360文学",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.360wxw.com",
-    "customOrder": -116779,
+    "customOrder": 274,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻奇幻::/xuanhuan/{{page}}.html\n武侠仙侠::/wuxia/{{page}}.html\n都市生活::/dushi/{{page}}.html\n历史军事::/lishi/{{page}}.html\n科幻未来::/kehuan/{{page}}.html\n恐怖悬疑::/xuanyi/{{page}}.html\n二次元::/erciyuan/{{page}}.html\n古代言情::/guyan/{{page}}.html\n现代言情::/xianyan/{{page}}.html\n幻想奇缘::/huanqing/{{page}}.html\n青春校园::/qingchun/{{page}}.html\n网络情缘::/wangluo/{{page}}.html\n科幻空间::/mmkehuan/{{page}}.html\n鬼怪灵异::/lingyi/{{page}}.html\nN次元::/Nciyuan/{{page}}.html\n科幻空间::/mmkehuan/{{page}}.html\n总点击榜::/top/allvisit/{{page}}.html\n月点击榜::/top/monthvisit/{{page}}.html\n总推荐榜::/top/allvote/{{page}}.html\n总字数榜::/top/size/{{page}}.html\n收藏榜::/top/goodnum/{{page}}.html\n强推[偏女频]::/top/toptime/{{page}}.html\n最近更新::/top/goodnew/{{page}}.html",
-    "lastUpdateTime": 1615880085035,
+    "lastUpdateTime": 1616238231163,
     "ruleBookInfo": {
       "author": "##:author\" content=\"([^\"]+)##$1###",
       "coverUrl": "##:image\" content=\"([^\"]+)##$1###",

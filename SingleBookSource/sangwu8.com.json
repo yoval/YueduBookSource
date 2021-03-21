@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 桑舞小说",
+    "bookSourceName": "桑舞小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.sangwu8.com",
-    "customOrder": -32205,
+    "customOrder": 1369,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻::/class/1_{{page}}.htm\n武侠::/class/2_{{page}}.htm\n都市::/class/3_{{page}}.htm\n网游::/class/4_{{page}}.htm\n科幻::/class/5_{{page}}.htm\n恐怖::/class/6_{{page}}.htm",
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616236949081,
     "ruleBookInfo": {
       "author": "class.introcents@tag.p.1@text##.*作者：",
       "coverUrl": "class.introleft@tag.img.0@src",

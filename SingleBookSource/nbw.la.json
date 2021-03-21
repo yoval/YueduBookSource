@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.nbw.la\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "NB中文网",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.nbw.la",
     "bookUrlPattern": "",
-    "customOrder": 0,
+    "customOrder": 2081,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "",

@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎈 ESJ",
+    "bookSourceName": "ESJ",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.esjzone.cc",
     "bookUrlPattern": "https://www.esjzone.cc/detail/\\d+.html",
-    "customOrder": -115913,
+    "customOrder": 469,
     "enabled": true,
     "enabledExplore": true,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_13_6) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/83.0.4103.61 Safari/537.36\"\n}",
-    "lastUpdateTime": 1606808779832,
+    "lastUpdateTime": 1616251107436,
     "loginUrl": "https://www.esjzone.cc/login.html",
     "ruleBookInfo": {
       "author": "@css:h2+ul>li:eq(0)@text",

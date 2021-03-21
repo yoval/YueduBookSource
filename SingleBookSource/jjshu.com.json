@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 久久小说",
+    "bookSourceName": "久久小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.jjshu.com",
     "bookUrlPattern": "",
-    "customOrder": -32302,
+    "customOrder": 1334,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻奇幻::/xuanhuan\n武侠仙侠::/xianxia\n都市言情::/dushi\n历史军事::/lishi\n科幻灵异::/kehuan\n网游竞技::/wangyou\n其他类型::/qita",
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616236998925,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "id.fmimg@tag.img.0@src",

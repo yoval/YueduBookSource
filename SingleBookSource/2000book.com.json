@@ -5,7 +5,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.2000book.com",
     "bookUrlPattern": ".+(/book/\\d+/\\d+/)",
-    "customOrder": -115679,
+    "customOrder": 608,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 1612825059829,

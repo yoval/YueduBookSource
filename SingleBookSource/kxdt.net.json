@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 云书阁",
+    "bookSourceName": "云书阁",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.kxdt.net",
-    "customOrder": -115062,
+    "customOrder": 845,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻小说::https://m.kxdt.net/sort/1_{{page}}/&&修真小说::https://m.kxdt.net/sort/2_{{page}}/&&都市小说::https://m.kxdt.net/sort/3_{{page}}/&&历史小说::https://m.kxdt.net/sort/4_{{page}}/&&网游小说::https://m.kxdt.net/sort/5_{{page}}/&&科幻小说::https://m.kxdt.net/sort/6_{{page}}/&&",
-    "lastUpdateTime": 1610038393954,
+    "lastUpdateTime": 1616237371356,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
       "coverUrl": "[property=\"og:image\"]@content",

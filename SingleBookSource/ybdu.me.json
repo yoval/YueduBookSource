@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 一本读",
+    "bookSourceName": "一本读",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.ybdu.me",
     "bookUrlPattern": "",
-    "customOrder": -32272,
+    "customOrder": 1344,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻::http://www.ybdu.me/xuanhuan/\n修真::http://www.ybdu.me/xianxia/\n都市::http://www.ybdu.me/dushi/\n历史::http://www.ybdu.me/lishi/\n网游::http://www.ybdu.me/wangyou/\n科幻::http://www.ybdu.me/kehuan/\n言情::http://www.ybdu.me/yanqing/\n其他::http://www.ybdu.me/qita/\n全本::http://www.ybdu.me/quanben/\n排行榜::http://www.ybdu.me/top/",
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616236989322,
     "ruleBookInfo": {
       "coverUrl": "id.fmimg@tag.img@src",
       "intro": "id.intro@text"

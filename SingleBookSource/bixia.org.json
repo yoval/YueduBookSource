@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:SSL handshake aborted: ssl=0x7e2e2a2b08: I/O error during system call, Software caused connection abort\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🎉 笔下文学④",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.bixia.org",
     "bookUrlPattern": "",
-    "customOrder": -31954,
+    "customOrder": 1486,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 0,

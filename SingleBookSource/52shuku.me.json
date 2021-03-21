@@ -5,7 +5,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.52shuku.me",
     "bookUrlPattern": "https://www.52shuku.me/.*?/\\d+/.*?html",
-    "customOrder": -32130,
+    "customOrder": 1401,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "",

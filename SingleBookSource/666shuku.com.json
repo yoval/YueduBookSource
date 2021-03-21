@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"m.666shuku.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🔰 666书库",
+    "bookSourceName": "666书库",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.666shuku.com",
-    "customOrder": 16260,
+    "customOrder": 2599,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻::/xclass/1/{{page}}.html\n修真::/xclass/2/{{page}}.html\n都市::/xclass/3/{{page}}.html\n网游::/xclass/5/{{page}}.html\n其他::/xclass/7/{{page}}.html",
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616232797421,
     "ruleBookInfo": {
       "author": "##作者：([^<]+)##$1###",
       "coverUrl": "class.synopsisArea_detail@tag.img@src",

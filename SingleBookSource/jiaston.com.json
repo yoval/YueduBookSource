@@ -5,7 +5,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "https://sou.jiaston.com",
     "bookUrlPattern": ".+/book/\\d+/$",
-    "customOrder": -114799,
+    "customOrder": 965,
     "enabled": true,
     "enabledExplore": true,
     "header": "{\"User-Agent\": \"okhttp/3.5.0\"}",

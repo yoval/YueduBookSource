@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🌸 ★APP-2★",
+    "bookSourceName": "★APP-2★",
     "bookSourceType": 0,
     "bookSourceUrl": "https://quapp.shenbabao.com",
     "bookUrlPattern": "https://quapp.shenbabao.com/book/.*",
-    "customOrder": -117017,
+    "customOrder": 126,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1605103326271,
+    "lastUpdateTime": 1616232977770,
     "ruleBookInfo": {},
     "ruleContent": {
       "content": "$..content"

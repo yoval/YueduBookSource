@@ -1,13 +1,13 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "💵 豆腐阅读",
+    "bookSourceName": "豆腐阅读",
     "bookSourceType": 0,
     "bookSourceUrl": "http://api.doufu.la",
-    "customOrder": -117505,
+    "customOrder": 31,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1607509150883,
+    "lastUpdateTime": 1616232886402,
     "loginUrl": "http://api.doufu.la/member/user_login",
     "ruleBookInfo": {
       "author": "$.data.topic.author",

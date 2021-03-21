@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源,经典盗版",
-    "bookSourceName": "🎉 笔趣阁iove.net",
+    "bookSourceName": "笔趣阁",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.iove.net",
-    "customOrder": -115092,
+    "customOrder": 823,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻奇幻::/ksl/1/{{page}}.html\n武侠仙侠::/ksl/2/{{page}}.html\n都市言情::/ksl/3/{{page}}.html\n历史军事::/ksl/4/{{page}}.html\n科幻灵异::/ksl/5/{{page}}.html\n网游竞技::/ksl/6/{{page}}.html\n女生频道::/ksl/7/{{page}}.html",
-    "lastUpdateTime": 1606567379328,
+    "lastUpdateTime": 1616237747446,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
       "coverUrl": "[property=\"og:image\"]@content",

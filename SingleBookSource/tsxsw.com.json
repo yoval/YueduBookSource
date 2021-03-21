@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 吞噬小说网",
+    "bookSourceName": "吞噬小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.tsxsw.com",
     "bookUrlPattern": "",
-    "customOrder": -115642,
+    "customOrder": 637,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "总排行榜::http://www.tsxsw.net/paihang/allvisit/\n全本小说::http://www.tsxsw.net/qb/\n奇幻魔幻::http://www.tsxsw.net/fenlei1/\n仙侠修真::http://www.tsxsw.net/fenlei2/\n都市现代::http://www.tsxsw.net/fenlei3/\n军史穿越::http://www.tsxsw.net/fenlei4/\n竞技网游::http://www.tsxsw.net/fenlei5/\n恐怖科幻::http://www.tsxsw.net/fenlei6/\n同人次元::http://www.tsxsw.net/fenlei7/",
-    "lastUpdateTime": 1605088528660,
+    "lastUpdateTime": 1616238185793,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "class.l@img@src",

@@ -1,13 +1,13 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 大神吧小说",
+    "bookSourceName": "大神吧小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.tingshuge.com",
-    "customOrder": -116798,
+    "customOrder": 259,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1600103541348,
+    "lastUpdateTime": 1616250846813,
     "ruleBookInfo": {
       "author": "id.info@tag.p.2@text##作 者：",
       "coverUrl": "id.fmimg@img@src",

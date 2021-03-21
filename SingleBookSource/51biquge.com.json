@@ -1,13 +1,13 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"zhannei.baidu.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源,经典盗版",
-    "bookSourceName": "👍 笔趣阁",
+    "bookSourceName": "笔趣阁",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.51biquge.com",
-    "customOrder": 16048,
+    "customOrder": 2506,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1603036301164,
+    "lastUpdateTime": 1616249553087,
     "ruleBookInfo": {
       "author": "id.info@tag.p.0@text##作 者：\\s*",
       "coverUrl": "img@src",

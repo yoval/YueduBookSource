@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.daigege.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎨 呆哥哥™",
+    "bookSourceName": "呆哥哥",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.daigege.com",
     "bookUrlPattern": "",
-    "customOrder": -31363,
+    "customOrder": 1592,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1602994628069,
+    "lastUpdateTime": 1616249829977,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.cy_xinxi.0@tag.span.0@text",

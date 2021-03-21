@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.yawenb.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍒 雅文言情",
+    "bookSourceName": "雅文言情",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.yawenb.com",
     "bookUrlPattern": "",
-    "customOrder": -31070,
+    "customOrder": 1708,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616249780168,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "id.fmimg@tag.img@src",

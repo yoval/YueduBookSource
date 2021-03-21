@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 一起品",
+    "bookSourceName": "一起品",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.17pxs.com",
-    "customOrder": -32541,
+    "customOrder": 1240,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻::/xuanhuan/{{page}}.html\n仙侠::/xianxia/{{page}}.html\n都市::/dushi/{{page}}.html\n军史::/junshi/{{page}}.html\n网游::/wangyou/{{page}}.html\n科幻::/kehuan/{{page}}.html\n恐怖::/kongbu/{{page}}.html\n其他::/qita/{{page}}.html",
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616237061032,
     "ruleBookInfo": {
       "author": "class.introduce@tag.a.0@text",
       "coverUrl": "class.catalog1@class.pic@tag.img@src",

@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.35wx.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🔰 三五文学",
+    "bookSourceName": "三五文学",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.35wx.com",
     "bookUrlPattern": "",
-    "customOrder": 16214,
+    "customOrder": 2578,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616233055217,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "id.sidebar@id.fmimg@tag.img.0@src",

@@ -1,13 +1,13 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 笔趣趣",
+    "bookSourceName": "笔趣趣",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.biququ.info",
-    "customOrder": -116915,
+    "customOrder": 197,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1604905637479,
+    "lastUpdateTime": 1616250766453,
     "ruleBookInfo": {
       "coverUrl": "id.fmimg@img@src",
       "intro": "id.intro@text"

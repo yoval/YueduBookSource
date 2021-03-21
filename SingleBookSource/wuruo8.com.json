@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:failed to connect to www.44wx.cc/198.204.224.93 (port 443) from /192.168.0.103 (port 40626) after 15000ms: isConnected failed: ETIMEDOUT (Connection timed out)\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "👍 舞若小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.wuruo8.com",
     "bookUrlPattern": "",
-    "customOrder": -115042,
+    "customOrder": 858,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 1607698668533,

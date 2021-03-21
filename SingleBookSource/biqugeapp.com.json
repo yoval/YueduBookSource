@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "error:timeout\n",
+    "bookSourceComment": "",
     "bookSourceGroup": "我的书源,经典盗版",
     "bookSourceName": "🔰 笔趣阁",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.biqugeapp.com",
     "bookUrlPattern": "",
-    "customOrder": -114584,
+    "customOrder": 1032,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 1612584633924,

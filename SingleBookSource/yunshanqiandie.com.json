@@ -5,7 +5,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.yunshanqiandie.com",
     "bookUrlPattern": "http://www.yunshanqiandie.com/ysqd/\\d+.html",
-    "customOrder": -115629,
+    "customOrder": 646,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 1604155769301,

@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.999xs.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🎉 22中文网",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.999xs.com",
     "bookUrlPattern": "",
-    "customOrder": -31890,
+    "customOrder": 1512,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 0,

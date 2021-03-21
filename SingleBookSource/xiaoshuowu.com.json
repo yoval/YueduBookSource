@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:timeout\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "👍 小说屋",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.xiaoshuowu.com",
     "bookUrlPattern": "",
-    "customOrder": -114806,
+    "customOrder": 959,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 1612772428614,

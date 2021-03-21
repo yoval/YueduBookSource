@@ -1,13 +1,13 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍒 玫瑰言情",
+    "bookSourceName": "玫瑰言情",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.yq51.com",
-    "customOrder": -115971,
+    "customOrder": 448,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1612366178121,
+    "lastUpdateTime": 1616251083301,
     "ruleBookInfo": {
       "author": "id.info@tag.p.0@text",
       "intro": "id.intro@tag.p.1@text",

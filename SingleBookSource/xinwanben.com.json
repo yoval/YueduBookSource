@@ -1,12 +1,12 @@
 [  {
-    "bookSourceComment": "支持搜索主角",
+    "bookSourceComment": "error:Unable to resolve host \"m.xinwanben.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "完本神站手机",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.xinwanben.com",
-    "customOrder": 0,
+    "customOrder": 2206,
     "enabled": true,
-    "enabledExplore": false,
+    "enabledExplore": true,
     "header": "{\"User-Agent\": \"Mozilla/5.0 Dalvik/2 ( Linux; U; NEM-AL10 Build/HONORNEM-AL10;Youku;7.1.4;) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Safari/537.36 (Baidu; P1 6.0) iPhone/7.1 Android/8.0 baiduboxapp/2.7.0.10\"}",
     "lastUpdateTime": 1614972735657,
     "ruleBookInfo": {

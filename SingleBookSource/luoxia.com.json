@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "📚 落霞小说",
+    "bookSourceName": "落霞小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.luoxia.com",
     "bookUrlPattern": "",
-    "customOrder": -116695,
+    "customOrder": 326,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1604569546695,
+    "lastUpdateTime": 1616249402951,
     "loginUrl": "",
     "ruleBookInfo": {
       "intro": ".describe-html@html@js:'<br>'+result.replace(/.+章节列表.+/, '').trim()"

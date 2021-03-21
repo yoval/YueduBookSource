@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 蚂蚁阅读",
+    "bookSourceName": "蚂蚁阅读",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.imayitxt.com",
     "bookUrlPattern": "",
-    "customOrder": -116864,
+    "customOrder": 217,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "总点击榜::/top/allvisit/{{page}}.html\n总推荐榜::/top/allvote/{{page}}.html\n月点击榜::/top/monthvisit/{{page}}.html\n月推荐榜::/top/monthvote/{{page}}.html\n周点击榜::/top/weekvisit/{{page}}.html\n周推荐榜::/top/weekvote/{{page}}.html\n最新入库::/top/postdate/{{page}}.html\n最近更新::/top/allvisit/{{page}}.html\n总收藏榜::/top/goodnum/{{page}}.html\n字数排行::/top/size/{{page}}.html\n玄幻::/sort/1/{{page}}.html\n仙侠::/sort/2/{{page}}.html\n都市::/sort/3/{{page}}.html\n历史::/sort/4/{{page}}.html\n军事::/sort/5/{{page}}.html\n灵异::/sort/6/{{page}}.html\n科幻::/sort/7/{{page}}.html\n游戏::/sort/8/{{page}}.html\n现言::/sort/9/{{page}}.html\n古言::/sort/10/{{page}}.html\n穿越::/sort/11/{{page}}.html\n青春::/sort/12/{{page}}.html\n豪门::/sort/14/{{page}}.html\n耽美::/sort/15/{{page}}.html\n其他::/sort/13/{{page}}.html",
-    "lastUpdateTime": 1607086272622,
+    "lastUpdateTime": 1616156704588,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.author.0@text",

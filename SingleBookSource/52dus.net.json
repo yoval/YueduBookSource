@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Read error: ssl=0x7e54b88088: I/O error during system call, Software caused connection abort\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🎉 爱读小说网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.52dus.net",
     "bookUrlPattern": "",
-    "customOrder": -31907,
+    "customOrder": 1502,
     "enabled": true,
     "enabledExplore": true,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Linux; Android 9; Redmi Note 8 Pro Build/PPR1.180610.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/78.0.3904.96 Mobile Safari/537.36\"\n}",

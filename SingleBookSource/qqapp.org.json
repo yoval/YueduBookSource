@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 QQ小说",
+    "bookSourceName": "QQ小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.qqapp.org",
     "bookUrlPattern": "",
-    "customOrder": -116764,
+    "customOrder": 289,
     "enabled": true,
     "enabledExplore": true,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko, By Black Prism) Chrome/99.0 Safari/537.36\"\n}",
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616250954706,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "class.author@tag.a@text",

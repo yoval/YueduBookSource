@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"wap.dzxsw.net\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🔰 大众小说",
+    "bookSourceName": "大众小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://wap.dzxsw.net",
-    "customOrder": 16165,
+    "customOrder": 2551,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻奇幻::http://wap.dzxsw.net/fenlei1_{{page}}.html\n武侠仙侠::http://wap.dzxsw.net/fenlei2_{{page}}.html\n都市言情::http://wap.dzxsw.net/fenlei3_{{page}}.html\n历史军事::http://wap.dzxsw.net/fenlei4_{{page}}.html\n科幻灵异::http://wap.dzxsw.net/fenlei5_{{page}}.html\n网游竞技::http://wap.dzxsw.net/fenlei6_{{page}}.html\n女生频道::http://wap.dzxsw.net/fenlei6_{{page}}.html\n小说人气榜::http://wap.dzxsw.net/top_{{page}}.php",
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616233121315,
     "ruleBookInfo": {
       "author": "class.block_txt2@tag.p.2@text",
       "coverUrl": "class.cover@class.block@class.block_img2@tag.img@src",

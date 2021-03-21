@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍑 书包网",
+    "bookSourceName": "书包网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.ebookbao.net",
-    "customOrder": -116124,
+    "customOrder": 370,
     "enabled": true,
     "enabledExplore": true,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/58.0.3029.110 Safari/537.36 SE 2.X MetaSr 1.0\"\n}",
-    "lastUpdateTime": 1607691740725,
+    "lastUpdateTime": 1616251006881,
     "ruleBookInfo": {
       "author": "id.info@tag.a.0@text##免费阅读\\/",
       "coverUrl": "img@src",

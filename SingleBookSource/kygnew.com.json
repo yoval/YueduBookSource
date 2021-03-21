@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 新卡夜阁",
+    "bookSourceName": "新卡夜阁",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.kygnew.com",
-    "customOrder": -32119,
+    "customOrder": 1408,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻::/xuanhuan_{{page}}.html\n武侠修真::/xiuzhen_{{page}}.html\n都市言情::/dushi_{{page}}.html\n历史军事::/lishi_{{page}}.html\n网游竞技::/wangyou_{{page}}.html\n科幻::/kehuan_{{page}}.html\n灵异恐怖::/kongbu_{{page}}.html\n其他::/qita_{{page}}.html",
-    "lastUpdateTime": 1602768165539,
+    "lastUpdateTime": 1616236867041,
     "ruleBookInfo": {
       "coverUrl": "##:image\" content=\"([^\"]+)##$1###",
       "intro": "##:description\" content=\"([^\"]+)##$1###",

@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍒 雅文言情吧",
+    "bookSourceName": "雅文言情吧",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.yawen8.la",
     "bookUrlPattern": "",
-    "customOrder": -115990,
+    "customOrder": 434,
     "enabled": true,
     "enabledExplore": true,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
-    "lastUpdateTime": 1605096171891,
+    "lastUpdateTime": 1616251067711,
     "loginUrl": "",
     "ruleBookInfo": {
       "coverUrl": "id.fmimg@img@src",

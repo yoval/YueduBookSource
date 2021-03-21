@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.24kwx.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🔰 24k小说网",
+    "bookSourceName": "24k小说网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.24kwx.com",
-    "customOrder": 16262,
+    "customOrder": 2601,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻::/xuanhuanxiaoshuo/\n修真::/xiuzhenxiaoshuo/\n都市::/dushixiaoshuo/\n穿越::/chuanyuexiaoshuo/\n网游::/wangyouxiaoshuo/\n科幻::/kehuanxiaoshuo/\n女生::/nvshengxiaoshuo/\n其他::/qita/\n全本::/quanben/",
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616232788502,
     "ruleBookInfo": {
       "author": "##者：([^<]+)<##$1###",
       "coverUrl": "id.fmimg@tag.img.0@src",

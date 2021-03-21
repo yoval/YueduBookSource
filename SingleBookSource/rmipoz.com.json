@@ -1,13 +1,13 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍒 汝慕小说",
+    "bookSourceName": "汝慕小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.rmipoz.com",
-    "customOrder": -115987,
+    "customOrder": 437,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1604156542206,
+    "lastUpdateTime": 1616251072340,
     "ruleBookInfo": {
       "author": "class.pt-info.0@text",
       "intro": "class.intro@text",

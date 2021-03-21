@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "error:Connection reset\n",
+    "bookSourceComment": "error:Unable to resolve host \"so.biqusoso.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源,经典盗版",
-    "bookSourceName": "🔰 笔趣阁 zanghaihuatxt",
+    "bookSourceName": "笔趣阁",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.zanghaihuatxt.com-By Dark",
-    "customOrder": 16325,
+    "customOrder": 2622,
     "enabled": true,
     "enabledExplore": true,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (Windows NT 10.0; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/47.0.2526.73 Safari/537.36\"\n}",
-    "lastUpdateTime": 1602898640717,
+    "lastUpdateTime": 1616232719803,
     "ruleBookInfo": {
       "coverUrl": "id.fmimg@tag.img@src",
       "intro": "id.intro@text"

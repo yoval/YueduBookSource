@@ -1,10 +1,10 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"m.nvshenxs.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "女神小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.nvshenxs.com",
-    "customOrder": 0,
+    "customOrder": 2086,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻武侠::/class/class_1_{{page}}.html&&历史军事::/class/class_2_{{page}}.html&&悬疑灵异::/class/class_3_{{page}}.html&&游戏动漫::/class/class_4_{{page}}.html&&言情爽文::/class/class_5_{{page}}.html&&其他新书::/class/class_6_{{page}}.html&&全本小说::/full_{{page}}.html",

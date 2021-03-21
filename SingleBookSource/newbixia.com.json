@@ -5,7 +5,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.newbixia.com",
     "bookUrlPattern": "",
-    "customOrder": -116755,
+    "customOrder": 296,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "最新入库::http://www.newbixia.com/\n全本小说::http://www.newbixia.com/quanben/\n玄幻小说::http://www.newbixia.com/xuanhuan/{{page}}.html\n修真小说::http://www.newbixia.com/xianxia/{{page}}.html\n都市小说::http://www.newbixia.com/dushi/{{page}}.html\n历史小说::http://www.newbixia.com/junshi/{{page}}.html\n网游小说::http://www.newbixia.com/wangyou/{{page}}.html\n科幻小说::http://www.newbixia.com/kehuan/{{page}}.html\n言情小说::http://www.newbixia.com/yanqing/{{page}}.html\n其它小说::http://www.newbixia.com/qita/{{page}}.html",

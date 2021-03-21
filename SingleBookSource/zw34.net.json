@@ -1,13 +1,13 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 34中文①",
+    "bookSourceName": "34中文",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.zw34.net",
-    "customOrder": -116805,
+    "customOrder": 253,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1604164029795,
+    "lastUpdateTime": 1616250824861,
     "ruleBookInfo": {
       "author": "id.info@tag.h1@tag.small@tag.a@text",
       "coverUrl": "class.pic@img@src",

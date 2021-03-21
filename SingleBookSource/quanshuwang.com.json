@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.quanshuwang.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🔰 全书",
+    "bookSourceName": "全书",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.quanshuwang.com",
-    "customOrder": 16318,
+    "customOrder": 2620,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻魔法::http://www.quanshuwang.com/list/1_{{page}}.html\n武侠修真::http://www.quanshuwang.com/list/2_{{page}}.html\n都市言情::http://www.quanshuwang.com/list/4_{{page}}.html\n职场校园::http://www.quanshuwang.com/list/5_{{page}}.html\n穿越重生::http://www.quanshuwang.com/list/6_{{page}}.html\n历史军事::http://www.quanshuwang.com/list/7_{{page}}.html\n恐怖灵异::http://www.quanshuwang.com/list/9_{{page}}.html\n科幻小说::http://www.quanshuwang.com/list/10_{{page}}.html\n网游动漫::http://www.quanshuwang.com/list/8_{{page}}.html\n纯爱耽美::http://www.quanshuwang.com/list/3_{{page}}.html",
-    "lastUpdateTime": 1601700985595,
+    "lastUpdateTime": 1616232726843,
     "ruleBookInfo": {
       "coverUrl": "class.detail@tag.a.0@tag.img.0@src",
       "intro": "class.infoDetail@id.waa@textNodes",

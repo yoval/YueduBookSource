@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "error:搜索内容为空并且没有发现\n",
+    "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍒 言情中文网",
+    "bookSourceName": "言情中文网",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.kun99.com",
-    "customOrder": -116649,
+    "customOrder": 352,
     "enabled": true,
     "enabledExplore": true,
     "header": "{\n  \"User-Agent\": \"Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/78.0.3904.96 Safari/537.36\"\n}",
-    "lastUpdateTime": 1604983648098,
+    "lastUpdateTime": 1616249444158,
     "ruleBookInfo": {},
     "ruleContent": {
       "content": "id.chaptercontent@html",

@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 全本小说",
+    "bookSourceName": "全本小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.qbxsb.com",
-    "customOrder": -32179,
+    "customOrder": 1381,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻::/list/1_{{page}}.html\n武侠::/list/2_{{page}}.html\n都市::/list/3_{{page}}.html\n历史::/list/4_{{page}}.html\n网游::/list/5_{{page}}.html\n科幻::/list/6_{{page}}.html\n恐怖::/list/7_{{page}}.html\n穿越::/list/8_{{page}}.html\n女生::/list/9_{{page}}.html\n乡村::/list/10_{{page}}.html",
-    "lastUpdateTime": 0,
+    "lastUpdateTime": 1616236887385,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "id.at@tag.td.1@text",

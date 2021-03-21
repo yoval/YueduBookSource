@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍒 玫瑰小说",
+    "bookSourceName": "玫瑰小说",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.meiguixsw.com",
     "bookUrlPattern": "",
-    "customOrder": -115986,
+    "customOrder": 438,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻奇幻::/fenlei/1_{{page}}/\n武侠仙侠::/fenlei/2_{{page}}/\n都市言情::/fenlei/3_{{page}}/\n历史军事::/fenlei/4_{{page}}/\n游戏竞技::/fenlei/5_{{page}}/\n科幻灵异::/fenlei/6_{{page}}/\n其他类型::/fenlei/7_{{page}}/",
-    "lastUpdateTime": 1607429705248,
+    "lastUpdateTime": 1616237485727,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "id.author@tag.a@text",

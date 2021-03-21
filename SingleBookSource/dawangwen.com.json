@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🎉 大网文",
+    "bookSourceName": "大网文",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.dawangwen.com",
-    "customOrder": -115683,
+    "customOrder": 604,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻小说::/sort/1_{{page}}/&&仙侠小说::/sort/2_{{page}}/&&都市小说::/sort/3_{{page}}/&&历史军事::/sort/4_{{page}}/&&网游小说::/sort/5_{{page}}/&&科幻小说::/sort/6_{{page}}/&&恐怖小说::/sort/7_{{page}}/&&其他小说::/sort/8_{{page}}/&&",
-    "lastUpdateTime": 1612825671732,
+    "lastUpdateTime": 1616237909709,
     "ruleBookInfo": {
       "author": "class.p4.0@text",
       "coverUrl": "img@src",

@@ -1,15 +1,15 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍒 暖糖文学",
+    "bookSourceName": "暖糖文学",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.nuantang.net",
     "bookUrlPattern": "",
-    "customOrder": -116003,
+    "customOrder": 424,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "中文经典::/all/order/hits%2Bdesc/id/47.html?page={{page}}\n外国名著::/all/order/hits%2Bdesc/id/44.html?page={{page}}\n影视名著::/all/order/hits%2Bdesc/id/46.html?page={{page}}",
-    "lastUpdateTime": 1612818991263,
+    "lastUpdateTime": 1616237453104,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "",

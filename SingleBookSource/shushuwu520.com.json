@@ -1,10 +1,10 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.shushuwu520.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "书书屋小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.shushuwu520.com",
-    "customOrder": -3611,
+    "customOrder": 1761,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 1603009816452,

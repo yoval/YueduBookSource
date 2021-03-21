@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "haxc",
+    "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "西西文学",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.vv44.net",
     "bookUrlPattern": "https://www.vv44.net/book/.*.html",
-    "customOrder": -113163,
+    "customOrder": 1048,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻魔法::/cat/xuanhuanmofa/{{page}}.html\n武侠修真::/cat/wuxiaxiuzhen/{{page}}.html\n都市言情::/cat/dushiyanqing/{{page}}.html\n历史军事::/cat/lishijunshi/{{page}}.html\n网游动漫::/cat/wangyoudongman/{{page}}.html\n科幻小说::/cat/kehuanxiaoshuo/{{page}}.html\n恐怖灵异::/cat/kongbulingyi/{{page}}.html\n其他类型::/cat/qita/{{page}}.html",

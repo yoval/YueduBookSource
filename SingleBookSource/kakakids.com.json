@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.kakakids.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "卡卡小说网",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.kakakids.com",
     "bookUrlPattern": "",
-    "customOrder": 0,
+    "customOrder": 2031,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "                           男  频                          ::\n玄幻小说::/fenlei/1/{{page}}/\n奇幻小说::/fenlei/2/{{page}}/\n武侠小说::/fenlei/3/{{page}}/\n仙侠小说::/fenlei/4/{{page}}/\n都市小说::/fenlei/5/{{page}}/\n军事小说::/fenlei/6/{{page}}/\n历史小说::/fenlei/7/{{page}}/\n游戏小说::/fenlei/8/{{page}}/\n竞技小说::/fenlei/9/{{page}}/\n科幻小说::/fenlei/10/{{page}}/\n悬疑小说::/fenlei/11/{{page}}/\n灵异小说::/fenlei/12/{{page}}/\n其他小说::/fenlei/13/{{page}}/\n                           女  频                          ::\n古代言情::/fenlei/14/{{page}}/\n仙侠奇缘::/fenlei/15/{{page}}/\n现代言情::/fenlei/16/{{page}}/\n浪漫青春::/fenlei/17/{{page}}/\n玄幻言情::/fenlei/18/{{page}}/\n悬疑灵异::/fenlei/19/{{page}}/\n科幻空间::/fenlei/20/{{page}}/\n游戏竞技::/fenlei/21/{{page}}/\n 二 次 元 ::/fenlei/24/{{page}}/\nBL文::/fenlei/22/{{page}}/\nGL文::/fenlei/23/{{page}}/",

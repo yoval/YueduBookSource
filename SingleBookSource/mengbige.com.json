@@ -1,13 +1,13 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.mengbige.com\": No address associated with hostname\nerror:timeout\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "👍 梦笔阁小说网™",
+    "bookSourceName": "梦笔阁小说网",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.mengbige.com",
-    "customOrder": 16064,
+    "customOrder": 2511,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1603034376661,
+    "lastUpdateTime": 1616249544456,
     "ruleBookInfo": {
       "coverUrl": "class.pic@tag.img.0@src",
       "intro": "class.introduce@class.jj@textNodes"

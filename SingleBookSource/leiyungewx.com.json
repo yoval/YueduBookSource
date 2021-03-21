@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.leiyungewx.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "雷云阁",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.leiyungewx.com",
     "bookUrlPattern": "",
-    "customOrder": 4,
+    "customOrder": 2274,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "首页::https://www.leiyungewx.com/\n玄幻::https://www.leiyungewx.com/list/1_{{page}}.shtml\n武侠::https://www.leiyungewx.com/list/2_{{page}}.shtml\n言情::https://www.leiyungewx.com/list/3_{{page}}.shtml\n历史::https://www.leiyungewx.com/list/4_{{page}}.shtml\n穿越::https://www.leiyungewx.com/list/5_{{page}}.shtml\n网游::https://www.leiyungewx.com/list/6_{{page}}.shtml\n科幻::https://www.leiyungewx.com/list/7_{{page}}.shtml\n同人::https://www.leiyungewx.com/list/8_{{page}}.shtml\n女生::https://www.leiyungewx.com/list/9_{{page}}.shtml\n其他::https://www.leiyungewx.com/list/10_{{page}}.shtml",

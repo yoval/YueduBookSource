@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.123xyq.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍒 123言情",
+    "bookSourceName": "123言情",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.123xyq.com",
     "bookUrlPattern": "https?://www\\.123xyq\\.com/xiaoshuo_\\d+\\.html",
-    "customOrder": -31064,
+    "customOrder": 1710,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1602876478243,
+    "lastUpdateTime": 1616249776127,
     "loginUrl": "",
     "ruleBookInfo": {
       "author": "h1@a@text",

@@ -4,7 +4,7 @@
     "bookSourceName": "锦绣文学",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.580bk.com",
-    "customOrder": -38485,
+    "customOrder": 1057,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻小说::/xuanhuanpage_{{page}}.html\n修真小说::/xiuzhenpage_{{page}}.html\n都市小说::/dushipage_{{page}}.html\n历史小说::/lishipage_{{page}}.html\n网游小说::/wangyoupage_{{page}}.html\n科幻小说::/kehuanpage_{{page}}.html\n女频小说::/nvpinpage_{{page}}.html\n人气榜::/paihangbang.html",

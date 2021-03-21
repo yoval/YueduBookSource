@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.mbg8.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "妙笔阁",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.mbg8.com",
     "bookUrlPattern": "",
-    "customOrder": 0,
+    "customOrder": 2066,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "玄幻奇幻::http://www.mbg8.com/fenlei/1_{{page}}/\n武侠仙侠::http://www.mbg8.com/fenlei/2_{{page}}/\n都市言情::http://www.mbg8.com/fenlei/3_{{page}}/\n历史军事::http://www.mbg8.com/fenlei/4_{{page}}/\n游戏竞技::http://www.mbg8.com/fenlei/5_{{page}}/\n科幻灵异::http://www.mbg8.com/fenlei/6_{{page}}/\n其他类型::http://www.mbg8.com/fenlei/7_{{page}}/",

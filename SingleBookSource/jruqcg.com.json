@@ -1,13 +1,13 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍒 静苪小说",
+    "bookSourceName": "静苪小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.jruqcg.com",
-    "customOrder": -115977,
+    "customOrder": 447,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1604985030297,
+    "lastUpdateTime": 1616251079389,
     "ruleBookInfo": {
       "author": "class.pt-info.0@text",
       "intro": "class.intro@text",

@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"www.dfyuedu.org\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "东方小说网",
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.dfyuedu.org",
     "bookUrlPattern": "",
-    "customOrder": 0,
+    "customOrder": 1964,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "最近更新::http://www.dfyuedu.org/top/lastupdate/{{page}}.html\n最新入库::http://www.dfyuedu.org/top/postdate/{{page}}.html\n全本小说::http://www.dfyuedu.org/over/{{page}}.html\n总点击榜::http://www.dfyuedu.org/top/allvisit/{{page}}.html\n总收藏榜::http://www.dfyuedu.org/top/marknum/{{page}}.html\n总推荐榜::http://www.dfyuedu.org/top/votenum/{{page}}.html\n总下载榜::http://www.dfyuedu.org/top/downnum/{{page}}.html\n全部小说::http://www.dfyuedu.org/sort/all/{{page}}.html\n玄幻小说::http://www.dfyuedu.org/sort/xuanhuan/{{page}}.html\n奇幻小说::http://www.dfyuedu.org/sort/qihuan/{{page}}.html\n武侠小说::http://www.dfyuedu.org/sort/wuxia/{{page}}.html\n仙侠小说::http://www.dfyuedu.org/sort/xianxia/{{page}}.html\n都市小说::http://www.dfyuedu.org/sort/dushi/{{page}}.html\n历史小说::http://www.dfyuedu.org/sort/lishi/{{page}}.html\n军事小说::http://www.dfyuedu.org/sort/junshi/{{page}}.html\n游戏小说::http://www.dfyuedu.org/sort/youxi/{{page}}.html\n竞技小说::http://www.dfyuedu.org/sort/jingji/{{page}}.html\n科幻小说::http://www.dfyuedu.org/sort/kehuan/{{page}}.html\n灵异小说::http://www.dfyuedu.org/sort/lingyi/{{page}}.html\n同人小说::http://www.dfyuedu.org/sort/tongren/{{page}}.html\n女生小说::http://www.dfyuedu.org/sort/nvsheng/{{page}}.html\n其他小说::http://www.dfyuedu.org/sort/qita/{{page}}.html\n文学小说::http://www.dfyuedu.org/sort/wenxue/{{page}}.html",

@@ -5,7 +5,7 @@
     "bookSourceType": 0,
     "bookSourceUrl": "http://www.shuhai.com",
     "bookUrlPattern": "http?://(?:www|mm).shuhai.com/book/\\d+ htm",
-    "customOrder": -117384,
+    "customOrder": 60,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "【男生】::/shuku/0_0_0_0_0_0_0_{{page}}.html\n玄幻::/shuku/1_0_0_0_0_0_0_{{page}}.html\n修真::/shuku/3_0_0_0_0_0_0_{{page}}.html\n都市::/shuku/2_0_0_0_0_0_0_{{page}}.html\n网游::/shuku/4_0_0_0_0_0_0_{{page}}.html\n科幻::/shuku/5_0_0_0_0_0_0_{{page}}.html\n武侠::/shuku/6_0_0_0_0_0_0_{{page}}.html\n竞技::/shuku/7_0_0_0_0_0_0_{{page}}.html\n历史::/shuku/8_0_0_0_0_0_0_{{page}}.html\n军事::/shuku/9_0_0_0_0_0_0_{{page}}.html\n悬疑::/shuku/10_0_0_0_0_0_0_{{page}}.html\n同人::/shuku/11_0_0_0_0_0_0_{{page}}.html\n探案::/shuku/12_0_0_0_0_0_0_{{page}}.html\n凶案::/shuku/0_149_0_0_0_0_0_{{page}}.html\n学生::/shuku/0_193_0_0_0_0_0_{{page}}.html\n道士::/shuku/0_137_0_0_0_0_0_{{page}}.html\n系统::/shuku/0_136_0_0_0_0_0_{{page}}.html\n神符::/shuku/0_164_0_0_0_0_0_{{page}}.html\n冷酷::/shuku/0_207_0_0_0_0_0_{{page}}.html\n【女生】::http://mm.shuhai.com/shuku/0_0_0_0_0_0_0_{{page}}.html\n现言::http://mm.shuhai.com/shuku/102_0_0_0_0_0_0_{{page}}.html\n古言::http://mm.shuhai.com/shuku/101_0_0_0_0_0_0_{{page}}.html\n穿越::http://mm.shuhai.com/shuku/105_0_0_0_0_0_0_{{page}}.html\n幻情::http://mm.shuhai.com/shuku/103_0_0_0_0_0_0_{{page}}.html\n同人::http://mm.shuhai.com/shuku/104_0_0_0_0_0_0_{{page}}.html\n青春::http://mm.shuhai.com/shuku/106_0_0_0_0_0_0_{{page}}.html\n灵异::http://mm.shuhai.com/shuku/107_0_0_0_0_0_0_{{page}}.html\n纯爱::http://mm.shuhai.com/shuku/108_0_0_0_0_0_0_{{page}}.html\n种田::http://mm.shuhai.com/shuku/0_108_0_0_0_0_0_{{page}}.html",

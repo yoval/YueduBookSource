@@ -1,14 +1,14 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍑 新御宅屋",
+    "bookSourceName": "新御宅屋",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.hdt99.net",
-    "customOrder": -116051,
+    "customOrder": 397,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "点击::/top/allvisit/{{page}}.html\n站推::/top/toptime/{{page}}.html\n总推::/top/allvote/{{page}}.html\n收藏::/top/goodnum/{{page}}.html\n字数::/top/size/{{page}}.html\n最近::/top/lastupdate/{{page}}.html\n最新::/top/postdate/{{page}}.html\n玄幻::/list/1</{{page}}>.html\n修真::/list/2</{{page}}>.html\n言情::/list/3</{{page}}>.html\n都市::/list/4</{{page}}>.html\n耽美::/list/5</{{page}}>.html\n校园::/list/6</{{page}}>.html\n高辣::/list/7</{{page}}>.html\n腹黑::/list/8</{{page}}>.html\n种田::/list/9</{{page}}>.html\n高干::/list/10</{{page}}>.html\n百合::/list/11</{{page}}>.html\n其他::/list/12</{{page}}>.html",
-    "lastUpdateTime": 1610044202913,
+    "lastUpdateTime": 1616237408765,
     "ruleBookInfo": {
       "author": "[property=\"og:novel:author\"]@content",
       "coverUrl": "[property=\"og:image\"]@content",

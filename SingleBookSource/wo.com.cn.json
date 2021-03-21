@@ -4,7 +4,7 @@
     "bookSourceName": "联通沃阅读",
     "bookSourceType": 0,
     "bookSourceUrl": "https://iread.wo.com.cn",
-    "customOrder": -117372,
+    "customOrder": -117589,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "男•畅销榜::https://iread.wo.com.cn/rest/read/cat/catband/cntlist/3/8/275/4/3/{{page}}/20?theCategoryBoard=0&isfreeLimt=1\n男•热度榜::https://iread.wo.com.cn/rest/read/cat/catband/cntlist/3/8/275/2/3/{{page}}/20?theCategoryBoard=0&isfreeLimt=1\n男•风云榜::https://iread.wo.com.cn/rest/read/cat/catband/cntlist/3/8/275/9/3/{{page}}/20?theCategoryBoard=0&isfreeLimt=1\n女•畅销榜::https://iread.wo.com.cn/rest/read/cat/catband/cntlist/3/8/276/4/3/{{page}}/20?theCategoryBoard=0&isfreeLimt=1\n女•热度榜::https://iread.wo.com.cn/rest/read/cat/catband/cntlist/3/8/276/2/3/{{page}}/20?theCategoryBoard=0&isfreeLimt=1\n女•风云榜::https://iread.wo.com.cn/rest/read/cat/catband/cntlist/3/8/276/9/3/{{page}}/20?theCategoryBoard=0&isfreeLimt=1\n出版•订购::https://iread.wo.com.cn/rest/read/cat/band/cntlist/3/7/4/3/{{page}}/20?isfreeLimt=1\n出版•人气::https://iread.wo.com.cn/rest/read/cat/band/cntlist/3/7/2/3/{{page}}/20?isfreeLimt=1\n出版•热搜::https://iread.wo.com.cn/rest/read/cat/band/cntlist/3/7/1/3/{{page}}/20?isfreeLimt=1\n杂志•订购::https://iread.wo.com.cn/rest/read/cat/band/cntlist/3/3/4/3/{{page}}/20?isfreeLimt=1\n杂志•人气::https://iread.wo.com.cn/rest/read/cat/band/cntlist/3/3/2/3/{{page}}/20?isfreeLimt=1\n杂志•热搜::https://iread.wo.com.cn/rest/read/cat/band/cntlist/3/3/1/3/{{page}}/20?isfreeLimt=1",

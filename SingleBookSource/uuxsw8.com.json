@@ -1,13 +1,13 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"m.uuxsw8.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "UU小说",
     "bookSourceType": 0,
     "bookSourceUrl": "http://m.uuxsw8.com",
     "bookUrlPattern": "",
-    "customOrder": 0,
+    "customOrder": 2168,
     "enabled": true,
-    "enabledExplore": false,
+    "enabledExplore": true,
     "lastUpdateTime": 0,
     "loginUrl": "",
     "ruleBookInfo": {

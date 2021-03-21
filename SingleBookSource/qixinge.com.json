@@ -1,13 +1,13 @@
 [  {
     "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "🍺 七星阁",
+    "bookSourceName": "七星阁",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.qixinge.com",
-    "customOrder": -116804,
+    "customOrder": 254,
     "enabled": true,
     "enabledExplore": true,
-    "lastUpdateTime": 1606837623225,
+    "lastUpdateTime": 1616250828754,
     "ruleBookInfo": {
       "author": "id.info@tag.p.2@text##作 者：",
       "coverUrl": "id.fmimg@img@src",

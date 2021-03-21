@@ -1,10 +1,10 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:Unable to resolve host \"zwpaopao.com\": No address associated with hostname\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "中文泡泡",
     "bookSourceType": 0,
     "bookSourceUrl": "https://zwpaopao.com",
-    "customOrder": 0,
+    "customOrder": 2246,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "编辑推荐::https://www.zwpaopao.com/toptime_{{page}}.html\n最新入库::https://www.zwpaopao.com/postdate_{{page}}.html\n总点击榜::https://www.zwpaopao.com/allvisit_{{page}}.html\n总推荐榜::https://www.zwpaopao.com/allvote_{{page}}.html\n总收藏榜::https://www.zwpaopao.com/goodnum_{{page}}.html\n总字数榜::https://www.zwpaopao.com/words_{{page}}.html\n言情小说::https://www.zwpaopao.com/dushi.html\n古代小说::https://www.zwpaopao.com/gudai.html\n穿越小说::https://www.zwpaopao.com/chuanyue.html\n校园小说::https://www.zwpaopao.com/xiaoyuan.html\n耽美小说::https://www.zwpaopao.com/danmei.html\n玄幻小说::https://www.zwpaopao.com/xuanhuan.html\n仙侠小说::https://www.zwpaopao.com/xianxia.html\n历史小说::https://www.zwpaopao.com/lishi.html\n网游小说::https://www.zwpaopao.com/wangyou.html\n灵异小说::https://www.zwpaopao.com/lingyi.html\n其他小说::https://www.zwpaopao.com/qita.html\n完本小说::https://www.zwpaopao.com/quanben.html",

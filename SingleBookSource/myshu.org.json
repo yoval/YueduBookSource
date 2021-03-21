@@ -1,11 +1,11 @@
 [  {
-    "bookSourceComment": "",
+    "bookSourceComment": "error:SSL handshake timed out\n",
     "bookSourceGroup": "我的书源",
     "bookSourceName": "🎉 天天小书屋",
     "bookSourceType": 0,
     "bookSourceUrl": "https://www.myshu.org",
     "bookUrlPattern": "",
-    "customOrder": -32042,
+    "customOrder": 1432,
     "enabled": true,
     "enabledExplore": true,
     "lastUpdateTime": 0,

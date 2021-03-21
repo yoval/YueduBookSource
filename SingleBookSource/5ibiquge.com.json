@@ -1,14 +1,14 @@
 [  {
-    "bookSourceComment": "haxc",
+    "bookSourceComment": "",
     "bookSourceGroup": "我的书源",
-    "bookSourceName": "文鱼中文网",
+    "bookSourceName": "文鱼中文",
     "bookSourceType": 0,
     "bookSourceUrl": "https://m.5ibiquge.com",
-    "customOrder": -113166,
+    "customOrder": 1047,
     "enabled": true,
     "enabledExplore": true,
     "exploreUrl": "全部小说::/xiaoshuodaquan/page_{{page}}.html\n热门小说榜::/paihangbang/\n玄幻小说::/xuanhuan/page_{{page}}.html\n修真小说::/xiuzhen/page_{{page}}.html\n都市小说::/dushi/page_{{page}}.html\n历史小说::/lishi/page_{{page}}.html\n网游小说::/wangyou/page_{{page}}.html\n科幻小说::/kehuan/page_{{page}}.html\n女频小说::/nvpin/page_{{page}}.html",
-    "lastUpdateTime": 1614740095745,
+    "lastUpdateTime": 1616238119514,
     "ruleBookInfo": {
       "author": "class.pt-info.0@a@text",
       "coverUrl": "class.baseinfo@img@src",
