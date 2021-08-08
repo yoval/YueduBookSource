@@ -27,7 +27,7 @@
 网络导入链接：<https://fuwenyue.gitee.io/yuedubooksource/NewBookSource.json>
 
 
-![](![](https://cdn.jsdelivr.net/gh/yoval/TuChuang@main/1628426906219-ShuyuanGitee.png)
+![](https://cdn.jsdelivr.net/gh/yoval/TuChuang@main/1628426906219-ShuyuanGitee.png)
 
 
 我当前使用的书源：
@@ -35,7 +35,7 @@
 https://fodi.fuwenyue.workers.dev/?file=/Yuedu/shareBookSource.json
 
 
-![](![](https://cdn.jsdelivr.net/gh/yoval/TuChuang@main/1628426851973-ShuyuanOneDirve.png)
+![](https://cdn.jsdelivr.net/gh/yoval/TuChuang@main/1628426851973-ShuyuanOneDirve.png)
 
 ### 替换与净化
 
