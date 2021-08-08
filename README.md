@@ -36,3 +36,9 @@ https://fodi.fuwenyue.workers.dev/?file=/Yuedu/shareBookSource.json
 
 
 ![](![](https://cdn.jsdelivr.net/gh/yoval/TuChuang@main/1628426851973-ShuyuanOneDirve.png)
+
+### 替换与净化
+
+网络导入链接：<https://fuwenyue.gitee.io/yuedubooksource/replaceRule.json>
+
+![](https://cdn.jsdelivr.net/gh/yoval/TuChuang@main/1628428043720-replaceRuleGitee.png)
