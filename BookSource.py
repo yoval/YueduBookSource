@@ -11,7 +11,7 @@ import json,requests,tld
 #阅读APP导出书源
 SharePath = r'C:\Users\fuwen\OneDrive\shareBookSource.json'
 #标题含有以下字符跳过
-WordList = ['404','Apache','Cloudflare','baidu','公益','提示','漫画','升级','安全','200','Apache','Found','Spring']
+WordList = ['BadRequest','503','login','Attention','Error','404','Apache','Cloudflare','baidu','公益','提示','漫画','升级','安全','200','Apache','Found','Spring']
 
 def GetMainUrl(url):
     hea = url.split('/')[0]
@@ -36,6 +36,7 @@ def Rename(title):
     title = title.split('—')[0]
     title = title.split(',')[0]
     title = title.split('―')[0]
+    title = title.split('，')[0]
     return title
 
 headers = {'User-Agent':'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_3 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5'}

@@ -23,18 +23,16 @@
 
 - 对书源进行了其它修正
 
+
 网络导入链接：<https://fuwenyue.gitee.io/yuedubooksource/NewBookSource.json>
 
 
-![](https://cdn.jsdelivr.net/gh/yoval/TuChuang@main/1628382147285-二维码图片_8月8日08时21分35秒.png)
+![](![](https://cdn.jsdelivr.net/gh/yoval/TuChuang@main/1628426906219-ShuyuanGitee.png)
 
 
-优秀书源：
+我当前使用的书源：
+
+https://fodi.fuwenyue.workers.dev/?file=/Yuedu/shareBookSource.json
 
 
-
-
-
-
-
-
+![](![](https://cdn.jsdelivr.net/gh/yoval/TuChuang@main/1628426851973-ShuyuanOneDirve.png)
