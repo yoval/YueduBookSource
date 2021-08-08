@@ -2005,6 +2005,17 @@
     "pattern": "石更",
     "replacement": "硬",
     "scope": ""
+  }, 
+   {
+    "group": "删除广告",
+    "id": 1626706591074,
+    "isEnabled": true,
+    "isRegex": false,
+    "name": "删除：换源神器段落",
+    "order": 218,
+    "pattern": ".*换源神器.*",
+    "replacement": "",
+    "scope": ""
   },
   {
     "group": "",
