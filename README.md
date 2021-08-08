@@ -18,7 +18,7 @@
 
 - 对书源进行了其它修正
 
-网络导入链接：<http://fuwenyue.gitee.io/yuedubooksource/NewBookSource.json>
+网络导入链接：<https://fuwenyue.gitee.io/yuedubooksource/NewBookSource.json>
 
 
 ![](https://cdn.jsdelivr.net/gh/yoval/TuChuang@main/1628382147285-二维码图片_8月8日08时21分35秒.png)

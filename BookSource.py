@@ -37,8 +37,7 @@ def Rename(title):
     title = title.split(',')[0]
     title = title.split('―')[0]
     return title
-    
-#阅读APP导出的shareBookSource.json文件
+
 headers = {'User-Agent':'Mozilla/5.0 (iPhone; U; CPU iPhone OS 4_3_3 like Mac OS X; en-us) AppleWebKit/533.17.9 (KHTML, like Gecko) Version/5.0.2 Mobile/8J2 Safari/6533.18.5'}
 File = open(SharePath,'r', encoding='utf-8')
 FileText = File.read()
@@ -68,6 +67,7 @@ for Json in JsonList:
     except:
         continue
     Json['bookSourceName'] = Title
+    #删除网站名称含关键词源
     Isin = [i in Title for i in WordList]
     if any(Isin):
         continue
