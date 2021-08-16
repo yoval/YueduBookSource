@@ -1,3 +1,9 @@
+我当前使用的书源：
+
+`https://cdn.bizha.top/BookSource/shareBookSource.json`
+
+![shareBookSource](https://cdn.jsdelivr.net/gh/yoval/TuChuang@main/1629089168775-Nowing.png)
+
 # 说明
 
 日志：
@@ -30,12 +36,6 @@
 ![](https://cdn.jsdelivr.net/gh/yoval/TuChuang@main/1628426906219-ShuyuanGitee.png)
 
 
-我当前使用的书源：
-
-https://fodi.fuwenyue.workers.dev/?file=/Yuedu/shareBookSource.json
-
-
-![](https://cdn.jsdelivr.net/gh/yoval/TuChuang@main/1628426851973-ShuyuanOneDirve.png)
 
 ### 替换与净化
 
