@@ -12,14 +12,11 @@
 
 **我当前使用的**
 
-书源：
-`https://yun.bizha.top/d/Personal/BookSource/shareBookSource.json`
+书源：`https://yun.bizha.top/d/Personal/BookSource/shareBookSource.json`
 
 ![](https://cdn.jsdelivr.net/gh/yoval/TuChuang@main/16391173781841639117378181.png)
 
-替换源：
-
-`https://yun.bizha.top/Personal/BookSource/replaceRule.json`
+替换源：`https://yun.bizha.top/Personal/BookSource/replaceRule.json`
 
 ![](https://cdn.jsdelivr.net/gh/yoval/TuChuang@main/16391172548501639117254845.png)
 
