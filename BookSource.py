@@ -10,7 +10,10 @@ import json,requests,tld
 
 #阅读APP导出书源
 SharePath = r'D:\OneDrive\YueduBookSource\yck\yck.json'
-#标题含有以下字符跳过
+
+
+
+#标题含有以下字符删除
 WordList = ['BadRequest','503','login','Attention','Error','404','Apache','Cloudflare','baidu','公益','提示','漫画','升级','安全','200','Apache','Found','Spring']
 
 def GetMainUrl(url):
@@ -67,6 +70,7 @@ for Json in JsonList:
         Title = Rename(Title)
     except:
         continue
+    #修改标题
     Json['bookSourceName'] = Title
     #删除网站名称含关键词源
     Isin = [i in Title for i in WordList]

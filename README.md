@@ -1,6 +1,6 @@
 # 说明
 
-书源日志
+**书源日志**：收录网站列表：[WebsiteList.md](/WebsiteList.md)
 
 - 为了看《这恒河水养人啊》，增加了独阅读`duread8.com`正版源。
 
