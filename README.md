@@ -1,6 +1,6 @@
 # 说明
 
-**书源日志**：收录网站列表：[WebsiteList.md](/WebsiteList.md)
+**书源日志**：收录网站列表：[WebsiteList.md](https://fuwenyue.coding.net/p/yuedu/d/BookSource/git/tree/master/website.md)
 
 - 为了看《这恒河水养人啊》，增加了独阅读`duread8.com`正版源。
 
@@ -12,13 +12,11 @@
 
 **我当前使用的**
 
-书源：`https://yun.bizha.top/d/Personal/BookSource/shareBookSource.json`
+书源：`https://fuwenyue.coding.net/p/yuedu/d/BookSource/git/raw/master/bookSource.json`
 
-![](https://cdn.jsdelivr.net/gh/yoval/TuChuang@main/16391173781841639117378181.png)
+![](![](https://gitee.com/fuwenyue/tuchuang/raw/master/1650453935049bookSource.png))
 
-替换源：`https://yun.bizha.top/Personal/BookSource/replaceRule.json`
 
-![](https://cdn.jsdelivr.net/gh/yoval/TuChuang@main/16391172548501639117254845.png)
 
 
 
